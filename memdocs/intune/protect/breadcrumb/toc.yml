@@ -1,0 +1,19 @@
+- name: Docs
+  tocHref: /
+  topicHref: /index
+  items:
+    - name: "Enterprise\_Mobility\_+\_Security"
+      tocHref: /
+      topicHref: /enterprise-mobility-security/index
+      items:
+        - name: "Microsoft Endpoint\_Manager"
+          tocHref: /mem/
+          topicHref: /mem/
+          items:
+            - name: Intune
+              tocHref: /mem/intune/
+              topicHref: /mem/intune/index
+              items:
+                - name: Защита
+                  tocHref: /mem/intune/configuration
+                  topicHref: /mem/intune/protect/index
