@@ -265,6 +265,12 @@
               href: security-baseline-settings-defender-atp.md
             - name: "Базовые параметры Microsoft \_Edge"
               href: security-baseline-settings-edge.md
+        - name: Параметры политик антивирусной программы
+          items:
+            - name: "Параметры антивирусной программы в Defender для\_macOS"
+              href: antivirus-microsoft-defender-settings-macos.md
+            - name: "Параметры антивирусной программы в Microsoft\_Defender для\_Windows\_10"
+              href: antivirus-microsoft-defender-settings-windows.md
         - name: Параметры Центра обновления Windows
           href: windows-update-settings.md
         - name: "Параметры политики соответствия требованиям\_— Android"

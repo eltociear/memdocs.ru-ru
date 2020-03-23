@@ -49,7 +49,9 @@
           href: device-rename.md
         - name: Отправка уведомлений
           href: custom-notifications.md
-        - name: Удаленное управление мобильными устройствами
+        - name: Удаленная поддержка мобильных устройств
+          href: remote-assist-mobile-devices.md
+        - name: "Удаленное администрирование с помощью\_TeamViewer"
           href: teamviewer-support.md
         - name: Синхронизация устройств
           href: device-sync.md

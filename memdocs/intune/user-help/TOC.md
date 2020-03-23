@@ -16,6 +16,7 @@
 #### [Регистрация устройства Android](enroll-device-android-company-portal.md)  
 #### [Регистрация с помощью рабочего профиля Android](enroll-device-android-work-profile.md)
 #### [Регистрация с помощью приложения Microsoft Intune](enroll-device-android-microsoft-intune-app.md)
+### [Переход на новую схему управления устройствами](move-to-new-device-management-setup.md)
 ### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-android.md)
 ### [Шифрование устройства](encrypt-your-device-android.md)
 ### [Задание ПИН-кода или пароля](set-your-pin-or-password-android.md)
