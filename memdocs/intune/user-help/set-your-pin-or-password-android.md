@@ -19,12 +19,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: ec617d76ec2fe4d59de7715daec76351798bd460
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: fa069eea0fc8dcc7b2c98c261f3f7527b802da6e
+ms.sourcegitcommit: 670c90a2e2d3106048f53580af76cabf40fd9197
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79336177"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "80233435"
 ---
 # <a name="set-your-pin-or-password"></a>Задание ПИН-кода или пароля
 
@@ -36,6 +36,6 @@ ms.locfileid: "79336177"
 
 2. Выберите и подтвердите новый пароль.
 
-Для запуска некоторых устройств помимо пароля на экране может потребоваться ПИН-код. Для устранения этой проблемы можно попробовать найти соответствующую настройку в приложении параметров. Например, на телефоне Samsung Galaxy S7 для включения безопасного запуска необходимо перейти в раздел **Settings** > **Lock Screen and Security** > **Secure Startup** (Параметры > Блокировка экрана и безопасность > Безопасный запуск). Дополнительные сведения см. [здесь](/user-help/your-device-appears-encrypted-but-cp-says-otherwise-android). 
+Для запуска некоторых устройств помимо пароля на экране может потребоваться ПИН-код. Для устранения этой проблемы можно попробовать найти соответствующую настройку в приложении параметров. Например, на телефоне Samsung Galaxy S7 для включения безопасного запуска необходимо перейти в раздел **Settings** > **Lock Screen and Security** > **Secure Startup** (Параметры > Блокировка экрана и безопасность > Безопасный запуск). Дополнительные сведения см. [здесь](your-device-appears-encrypted-but-cp-says-otherwise-android.md). 
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

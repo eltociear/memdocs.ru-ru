@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 06/25/2019
+ms.date: 03/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: enrollment
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: ''
-ms.openlocfilehash: eac0eff9167e46d73dffe1c74ce073ffa68c7070
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: a6b45cef3cc13357638753efd5b8179c5ce41f6c
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79363204"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80085695"
 ---
 # <a name="intune-enrollment-methods-for-windows-devices"></a>Способы регистрации в Intune для устройств Windows
 
@@ -36,7 +36,7 @@ ms.locfileid: "79363204"
 
 Пользователи могут самостоятельно зарегистрировать свое устройство Windows любым из следующих способов:
 
-- [Принеси свое устройство (BYOD)](https://docs.microsoft.com/user-help/enroll-windows-10-device): пользователи регистрируют свои личные устройства, выбрав подключение **рабочей и учебной** учетной записи в меню **Параметры** на устройстве. Эта процедура делает следующее:
+- [Принеси свое устройство (BYOD)](https://docs.microsoft.com/mem/intune/user-help/enroll-windows-10-device): пользователи регистрируют свои личные устройства, выбрав подключение **рабочей и учебной** учетной записи в меню **Параметры** на устройстве. Эта процедура делает следующее:
   - Регистрирует устройство в Azure Active Directory для получения доступа к корпоративным ресурсам, например к электронной почте.
   - Регистрирует устройство в Intune в качестве личного устройства (BYOD).
 Если администратор настроил авторегистрацию (доступно с подписками Azure AD уровня "Премиум"), пользователю нужно ввести свои учетные данные всего один раз. В противном случае ему нужно будет зарегистрироваться отдельно через регистрацию только в системе MDM и повторно ввести учетные данные.  

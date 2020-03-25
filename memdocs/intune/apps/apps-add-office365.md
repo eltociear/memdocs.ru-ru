@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1e72993141de963d78d6aeaf512af0165d747c9e
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: fcd6a49c0960bc38215123536e520bc89bcaeca1
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79341221"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80083465"
 ---
 # <a name="add-office-365-apps-to-windows-10-devices-with-microsoft-intune"></a>Добавление приложений Office 365 на устройства Windows 10 с помощью Microsoft Intune
 
@@ -234,4 +234,4 @@ Intune использует [средства развертывания Office]
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-- Сведения о назначении набора приложений дополнительным группам см. в [этой статье](/intune-azure/manage-apps/deploy-apps).
+- Сведения о назначении набора приложений дополнительным группам см. в [этой статье](/mem/intune/apps/apps-deploy).

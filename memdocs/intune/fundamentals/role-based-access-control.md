@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b01f9444cf70c447c916d3d0a550a8cf46efc28a
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 5cb4631b31d33e53b6ef172f142735d24a5c3cb6
+ms.sourcegitcommit: 795e8a6aca41e1a0690b3d0d55ba3862f8a683e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79356431"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80220172"
 ---
 # <a name="role-based-access-control-rbac-with-microsoft-intune"></a>Управление доступом на основе ролей (RBAC) с помощью Microsoft Intune
 
@@ -72,10 +72,6 @@ ms.locfileid: "79356431"
 
 > [!TIP]
 > Кроме того, в Intune реализовано три расширения Azure AD: **Пользователи**, **Группы** и **Условный доступ**, которые контролируются в рамках системы управления доступом на основе ролей Azure AD. Кроме того, **администратор учетных записей пользователей** выполняет только действия, связанные с пользователями или группами AAD, и не имеет полных разрешений на выполнение любых операций в Intune. Дополнительные сведения см. в статье [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles).
-### <a name="roles-created-in-the-intune-classic-portal"></a>Роли, созданные на классическом портале Intune
-Из классического портала Intune в Intune на портале Azure переносятся только пользователи с ролью **Администратор службы Intune** и полными разрешениями. Пользователям с ролями "Только для чтения" и "Служба технической поддержки" необходимо заново назначить роль **Администратор службы Intune** в Intune на портале Azure, после чего их следует удалить с классического портала.
-> [!IMPORTANT]
-> Если вашим администраторам потребуется в дальнейшем управлять ПК с помощью Intune, вы можете сохранить доступ администраторов службы Intune к классическому порталу.
 
 ## <a name="role-assignments"></a>Назначение ролей
 Назначение ролей определяет:

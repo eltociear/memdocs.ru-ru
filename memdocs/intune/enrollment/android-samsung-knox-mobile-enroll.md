@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2d7ec41361571647cc417dc34ad29522d50477eb
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: b530e4590d50190160695049e2b72f03a0384131
+ms.sourcegitcommit: 670c90a2e2d3106048f53580af76cabf40fd9197
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79339570"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "80233597"
 ---
 # <a name="automatically-enroll-android-devices-by-using-samsungs-knox-mobile-enrollment"></a>Автоматическая регистрация устройств Android с помощью Samsung Knox Mobile Enrollment
 
@@ -61,7 +61,7 @@ ms.locfileid: "79339570"
 - Для создания профиля MDM для Android выберите **Администратор устройства** в качестве типа профиля на портале Knox. 
 - Для создания профиля MDM для Android Enterprise выберите **Владелец устройства** в качестве типа профиля на портале Knox.  
 
-### <a name="for-android"></a>Для Android
+### <a name="for-android-enterprise"></a>Android для бизнеса
 
 | Поля профиля MDM| Необходим? | Значения | 
 |-------------------|-----------|-------| 
@@ -78,7 +78,7 @@ ms.locfileid: "79339570"
 
 \* Это поле не требуется для завершения создания профиля на портале Knox. Тем не менее Intune требует, чтобы это поле было заполнено, чтобы профиль мог успешно зарегистрировать устройство в Intune.
 
-### <a name="for-android-enterprise"></a>Android для бизнеса
+### <a name="for-android"></a>Для Android
 
 Пошаговые инструкции см. в статье о [создании профиля Samsung](https://docs.samsungknox.com/KME-Getting-Started/Content/create-profiles.htm).
 

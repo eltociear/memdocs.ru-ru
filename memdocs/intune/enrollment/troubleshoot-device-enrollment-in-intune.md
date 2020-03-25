@@ -19,12 +19,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic;seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3a38664640b448d6770d4728a9a9918e251c37e3
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 93fba17973571a9981269eb0b9fc98dae20cb920
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79344705"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80085858"
 ---
 # <a name="troubleshoot-device-enrollment-in-microsoft-intune"></a>Устранение проблем при регистрации устройств в Microsoft Intune
 
@@ -47,8 +47,8 @@ ms.locfileid: "79344705"
 
 Пользователи управляемых вами устройств могут собирать данные из журналов регистрации и диагностики для дальнейшей проверки. Инструкции по сбору данных журналов для пользователей приведены в следующих статьях:
 
-- [Отправка ошибок регистрации устройств с ОС Android ИТ-администратору](https://docs.microsoft.com/user-help/send-enrollment-errors-to-your-it-admin-android)
-- [Отправка ошибок на устройствах iOS и iPadOS ИТ-администратору](https://docs.microsoft.com/user-help/send-errors-to-your-it-admin-ios)
+- [Отправка ошибок регистрации устройств с ОС Android ИТ-администратору](https://docs.microsoft.com/mem/intune/user-help/send-logs-to-your-it-admin-using-cable-android)
+- [Отправка ошибок на устройствах iOS и iPadOS ИТ-администратору](https://docs.microsoft.com/mem/intune/user-help/send-errors-to-your-it-admin-ios)
 
 
 ## <a name="general-enrollment-issues"></a>Распространенные проблемы с регистрацией

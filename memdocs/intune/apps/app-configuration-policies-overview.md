@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f7d58d2766444be924bd525b5aff20e17a302d56
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 8e5abdfe69d5553be420d96da60f34df93a6b2f4
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79342521"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80083672"
 ---
 # <a name="app-configuration-policies-for-microsoft-intune"></a>Политики конфигурации приложений для Microsoft Intune
 
@@ -93,7 +93,7 @@ ms.locfileid: "79342521"
 
 ### <a name="iosipados-configuration-on-unmanaged-devices"></a>Конфигурация iOS/iPadOS на неуправляемых устройствах
 
-Конфигурацию iOS или iPadOS можно проверить с помощью **журнала диагностики Intune** на неуправляемых устройствах для конфигурации управляемого приложения. В дополнение к приведенным ниже шагам можно получить доступ к журналам управляемых приложений с помощью Microsoft Edge. См. сведения об [использовании Microsoft Edge в iOS и iPadOS для доступа к журналам управляемых приложений](manage-microsoft-edge.md#use-microsoft-edge-on-ios-to-access-managed-app-logs).
+Конфигурацию iOS или iPadOS можно проверить с помощью **журнала диагностики Intune** на неуправляемых устройствах для конфигурации управляемого приложения. В дополнение к приведенным ниже шагам можно получить доступ к журналам управляемых приложений с помощью Microsoft Edge. См. сведения об [использовании Microsoft Edge в iOS и iPadOS для доступа к журналам управляемых приложений](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs).
 
 1. Если он еще не установлен на устройстве, скачайте и установите **Microsoft Edge** из App Store. Дополнительные сведения см. в статье [Защищенные приложения Microsoft Intune](apps-supported-intune-apps.md).
 2. Запустите **Microsoft Edge** и выберите **о intune** > **помощь intune** на панели навигации.

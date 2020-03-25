@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cfb0012dfc2cedb72c64a54c16b567dffff84c9e
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: cd6956a9bdb19f25e39dd8cfb8e7e685d60f7b8c
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79342300"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80083558"
 ---
 # <a name="data-protection-framework-using-app-protection-policies"></a>Использование политик защиты приложений на платформе защиты данных 
 
@@ -55,7 +55,7 @@ ms.locfileid: "79342300"
 
 При тестировании изменений политик APP следует учитывать [время реализации](app-protection-policy-delivery.md). Можно отслеживать состояние реализации политик APP для конкретного пользователя. Дополнительные сведения см. в статье [Как отслеживать политики защиты приложений](app-protection-policies-monitor.md).
 
-Отдельные параметры APP для каждого приложения можно проверить на устройствах с помощью Edge и URL-адреса *about:Intunehelp*. Дополнительные сведения см. в статьях [Просмотр журналов защиты клиентских приложений](app-protection-policy-settings-log.md) и [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-on-ios-to-access-managed-app-logs).
+Отдельные параметры APP для каждого приложения можно проверить на устройствах с помощью Edge и URL-адреса *about:Intunehelp*. Дополнительные сведения см. в статьях [Просмотр журналов защиты клиентских приложений](app-protection-policy-settings-log.md) и [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs).
 
 ## <a name="app-data-protection-framework-settings"></a>Параметры платформы защиты данных с помощью APP
 

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c567cdeb6cd4e91d40068ba642be4f3838e41d3f
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: c8fce5e8d7a92922d6061c33655bc4e83b3a1a95
+ms.sourcegitcommit: 670c90a2e2d3106048f53580af76cabf40fd9197
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79354624"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "80233491"
 ---
 # <a name="microsoft-intune-is-an-mdm-and-mam-provider-for-your-devices"></a>Microsoft Intune — это поставщик MDM и MAM для устройств
 
@@ -107,7 +107,7 @@ Intune используется во многих секторах, включа
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-- Далее перечислены некоторые из [распространенных бизнес-задач, решаемых с помощью Intune](https://docs.microsoft.com/intune/common-scenarios).
+- Далее перечислены некоторые из [распространенных бизнес-задач, решаемых с помощью Intune](common-scenarios.md).
 - Начало работы с [30-дневной пробной версии в Intune](free-trial-sign-up.md).
 - Планируйте [миграцию в Intune](migration-guide.md).
 - Используя бесплатную пробную версию или подписку, ознакомьтесь с [коротким руководством. Создание профиля электронной почты устройства для iOS](../configuration/quickstart-email-profile.md).

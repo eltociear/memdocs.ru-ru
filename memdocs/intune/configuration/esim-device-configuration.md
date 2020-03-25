@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/19/2019
+ms.date: 03/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,18 +16,22 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7f12282acebaa90d3afe868bb28743444d01001d
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: e4e9a37e2dbb725a06d304d345fd085dabbc5e14
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79343496"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086993"
 ---
 # <a name="configure-esim-cellular-profiles-in-intune---public-preview"></a>Настройка профилей сотовой связи eSIM в Intune (общедоступная предварительная версия)
 
 eSIM — встроенная SIM-карта, которая позволяет подключаться к Интернету через функцию передачи данных по сотовой сети на устройстве с поддержкой eSIM, таком как [Surface LTE Pro](https://www.microsoft.com/surface/business/surface-pro). С eSIM не нужно получать SIM-карту у своего оператора мобильной связи. Пользователи, путешествующие по всему миру, могут также переключаться между мобильными операторами и тарифными планами и всегда оставаться на связи.
 
 Предположим, у вас есть тарифный план сотовой связи для работы и еще один тарифный план другого мобильного оператора для личного пользования. В командировке вы можете получить доступ к Интернету через операторов мобильной связи с тарифными планами в этом регионе.
+
+Данная функция применяется к:
+
+- Windows 10 и более поздним версиям.
 
 В Intune можно импортировать одноразовые коды активации, предоставленные оператором мобильной связи. Чтобы настроить тарифные планы сотовой связи в модуле eSIM, разверните эти коды активации на устройстве с поддержкой eSIM. Когда Intune устанавливает код активации, аппаратный модуль eSIM использует данные в коде активации для связи с оператором мобильной связи. После завершения этого процесса профиль eSIM загружается на устройство и настраивается для активации сотовой связи.
 

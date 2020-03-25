@@ -19,12 +19,12 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 89fdcaefebc7329959cc1e5d77a97034d038d5c2
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 3b3420dce8ea9d21b955e36506229817420cdbf0
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79346915"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084174"
 ---
 # <a name="using-your-windows-device-with-intune-company-portal"></a>Использование устройства Windows с Корпоративным порталом Intune
 
@@ -33,7 +33,7 @@ ms.locfileid: "79346915"
 ## <a name="how-to-get-company-portal"></a>Как получить доступ к корпоративному порталу
 Корпоративный портал доступен в виде версии на основе веб-сайта, а также в качестве скачиваемого приложения. Перейдите на [веб-сайт корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980) и войдите на портал, используя рабочие или учебные учетные данные.  
 
-Подробные пошаговые инструкции и снимки экрана см. в статье [Вход на корпоративный портал](https://docs.microsoft.com/user-help/sign-in-to-the-company-portal).
+Подробные пошаговые инструкции и снимки экрана см. в статье [Вход на корпоративный портал](https://docs.microsoft.com/mem/intune/user-help/sign-in-to-the-company-portal).
 
 ## <a name="supported-versions"></a>Поддерживаемые версии
 
@@ -63,7 +63,7 @@ ms.locfileid: "79346915"
 
 ## <a name="troubleshoot-and-maintain-your-device"></a>Устранение неполадок и обслуживание устройства
 * [Устранение ошибок, связанных с ограничениями точек доступа](resolve-access-point-restrictions.md)
-* [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md).
+* [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md)
 * [Моя версия Windows не поддерживается](your-windows-version-isnt-yet-supported.md)
 * [Обновление устройства под управлением Windows](you-need-to-update-your-windows-device.md)
 * [Отправка журналов из приложения корпоративного портала](send-logs-to-your-it-admin-cp-windows.md)

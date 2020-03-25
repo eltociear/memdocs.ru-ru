@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1066e2d86a2c3be4ad4d55a0fd2bbbac03066cc6
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 7538cce4b116098db21e89d491476e8e0cd7f4e5
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79363490"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086081"
 ---
 # <a name="set-up-enrollment-for-macos-devices-in-intune"></a>Настройка регистрации устройств macOS в Intune
 
@@ -51,7 +51,7 @@ Intune позволяет управлять устройствами с macOS,
 - перейдя на [веб-сайт Корпоративного портала](https://portal.manage.microsoft.com) или
 - загрузив приложение "Корпоративный портал" для Mac по адресу [aka.ms/EnrollMyMac](https://aka.ms/EnrollMyMac).
 
-Вы также можете отправить пользователям ссылку на инструкции по регистрации с подключением к Интернету: [Регистрация устройства macOS в Intune с помощью приложения корпоративного портала](https://docs.microsoft.com/user-help/enroll-your-device-in-intune-macos).
+Вы также можете отправить пользователям ссылку на инструкции по регистрации с подключением к Интернету: [Регистрация устройства macOS в Intune с помощью приложения корпоративного портала](https://docs.microsoft.com/mem/intune/user-help/enroll-your-device-in-intune-macos-cp).
 
 Дополнительные сведения о других задачах для пользователей см. в статьях:
 

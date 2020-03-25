@@ -19,12 +19,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 2f33d7060d4edd4d73694ca9e998d5102e712beb
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 23ae0ec9d91a0bd1a171708699ae88e7c572a250
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79336697"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084507"
 ---
 # <a name="install-the-company-portal-app-for-android"></a>Установка приложения корпоративного портала для Android
 
@@ -46,6 +46,6 @@ ms.locfileid: "79336697"
 
     ![android-accept-company-portal-terms](./media/and-cpinstall-3-cp-accept.png)
 
-Скачав приложение Корпоративного портала, вы можете [зарегистрировать устройство в Intune](enroll-device-android-company-portal.md), чтобы получить полный доступ к рабочим данным. Вы также можете [войти с помощью другого устройства](https://docs.microsoft.com/user-help/sign-in-to-the-company-portal#sign-in-from-another-device).  
+Скачав приложение Корпоративного портала, вы можете [зарегистрировать устройство в Intune](enroll-device-android-company-portal.md), чтобы получить полный доступ к рабочим данным. Вы также можете [войти с помощью другого устройства](https://docs.microsoft.com/mem/intune/user-help/sign-in-to-the-company-portal#sign-in-from-another-device).  
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
