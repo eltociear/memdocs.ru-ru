@@ -5,7 +5,7 @@
   items:
     - name: Общие сведения о регистрации устройств
       href: device-enrollment.md
-      displayName: COD; BYOD; DEM; DEP; USB-SA; USB-Direct; co-management; GPO
+      displayName: COD; BYOD; DEM; ADE; USB-SA; USB-Direct; co-management; GPO
     - name: Возможности управления зарегистрированными устройствами
       href: device-management-capabilities.md
     - name: Варианты регистрации
@@ -20,7 +20,7 @@
   items:
     - name: Использование решения Autopilot для регистрации на устройствах с Windows
       href: tutorial-use-autopilot-enroll-devices.md
-    - name: Использование DEP для регистрации устройств iOS и iPadOS
+    - name: Использование ADE для регистрации устройств iOS и iPadOS
       href: tutorial-use-device-enrollment-program-enroll-ios.md
 - name: Основные понятия
   items:
