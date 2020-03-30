@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 99ba07c5895c5a299a2e0b55b0ff16dcbcb2913f
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: c7de0b978c24f28988c62854a249505a0598db95
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79339934"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084078"
 ---
 # <a name="bundle-ids-for-built-in-ios-and-ipados-apps-you-can-use-in-intune"></a>Идентификаторы пакетов для встроенных приложений iOS и iPadOS, которые можно использовать в Intune
 
@@ -32,6 +32,7 @@ ms.locfileid: "79339934"
 | Идентификатор пакета                   | имя приложения;     | Издатель |
 |-----------------------------|--------------|-----------|
 | com.apple.AppStore          | Магазин App Store    | Apple     |
+| com.apple.store.Jolly       | Магазин Apple Store  | Apple     |
 | com.apple.calculator        | "Калькулятор"   | Apple     |
 | com.apple.mobilecal         | "Календарь"     | Apple     |
 | com.apple.camera            | Камера       | Apple     |

@@ -1,11 +1,11 @@
 ---
-title: Пользовательские параметры Microsoft Intune для устройств с Windows Holographic for Business
+title: Пользовательские параметры Microsoft Intune для устройств Windows Holographic for Business | Документация Майкрософт
 description: Добавьте или создайте настраиваемый профиль для использования параметров OMA-URI для устройств под управлением Windows Holographic for Business в Microsoft Intune, включая Microsoft Hololens. Можно задать параметры AllowFastReconnect, AllowVPN, AllowUpdateService, UpdateServiceURL, RequireUpdatesApproval, ApprovedUpdates и ApplicationLaunchRestrictions политики поставщика CSP.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/18/2019
+ms.date: 03/19/2020
 ms.article: article
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e72995942ebbc9fbcd35697bc525c9af75e77d18
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 43199009740f259c6a6484e455b0205da76492ba
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79361904"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084049"
 ---
 # <a name="use-custom-settings-for-windows-holographic-for-business-devices-in-intune"></a>Использование настраиваемых параметров для устройств Windows Holographic for Business в Intune
 
@@ -93,12 +93,12 @@ Windows Holographic for Business открывает доступ ко множ
 > |---|---|
 > |./Vendor/MSFT/Policy/Config/Settings/AllowVPN|Целое число<br/>0 — запрещено<br/>1 — разрешено (по умолчанию)|
 
-### <a name="requireupdatesapproval"></a>[RequireUpdatesApproval](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-requireupdateapproval)
+### <a name="requireupdateapproval"></a>[RequireUpdateApproval](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-requireupdateapproval)
 
 > [!div class="mx-tableFixed"]
 > |OMA-URI|Тип данных|
 > |---|---|
-> |./Vendor/MSFT/Policy/Config/Update/RequireUpdateApproval|Целое число<br/>0 — не настроено. Устройство устанавливает все доступные обновления.<br/>1 — устройство устанавливает только обновления, которые применимы и при этом находятся в списке разрешенных обновлений. Установите значение 1 для этой политики, если отдел ИТ хочет контролировать развертывание обновлений на устройствах, например, когда требуется предварительное тестирование.|
+> |./Vendor/MSFT/Policy/Config/Update/RequireUpdateApproval|Этот параметр доступен в RS5 (сборка 17763) и более ранних версий. Начиная с 19H1 (сборка 18362), используйте [Центр обновления Windows для бизнеса](../protect/windows-update-for-business-configure.md).<br/><br/>Целое число<br/>0 — не настроено. Устройство устанавливает все доступные обновления.<br/>1 — устройство устанавливает только обновления, которые применимы и при этом находятся в списке разрешенных обновлений. Установите значение 1 для этой политики, если отдел ИТ хочет контролировать развертывание обновлений на устройствах, например, когда требуется предварительное тестирование.|
 
 ### <a name="scheduledinstalltime"></a>[ScheduledInstallTime](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstalltime)
 
@@ -112,7 +112,7 @@ Windows Holographic for Business открывает доступ ко множ
 > [!div class="mx-tableFixed"]
 > |OMA-URI|Тип данных|
 > |---|---|
-> |./Vendor/MSFT/Policy/Config/Update/UpdateServiceUrl|Строка<br/>URL-адрес — устройство будет проверять наличие обновлений на сервере WSUS по указанному URL-адресу.<br/>Не настроено — устройство будет проверять наличие обновлений в центре обновления Майкрософт.|
+> |./Vendor/MSFT/Policy/Config/Update/UpdateServiceUrl|Этот параметр доступен в RS5 (сборка 17763) и более ранних версий. Начиная с 19H1 (сборка 18362), используйте [Центр обновления Windows для бизнеса](../protect/windows-update-for-business-configure.md).<br/><br/>Строка<br/>URL-адрес — устройство будет проверять наличие обновлений на сервере WSUS по указанному URL-адресу.<br/>Не настроено — устройство будет проверять наличие обновлений в центре обновления Майкрософт.|
 
 ### <a name="approvedupdates"></a>[ApprovedUpdates](https://docs.microsoft.com/windows/client-management/mdm/update-csp)
 

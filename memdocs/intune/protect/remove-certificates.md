@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/21/2019
+ms.date: 03/19/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -17,12 +17,12 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.reviewer: lacranda
-ms.openlocfilehash: cba46d5b4b203cdbb67fb5f6b6b116a21ebacb32
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: b6303d7d98e718c2a4f54b199bf90a3bd0684bf8
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79338933"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084765"
 ---
 # <a name="remove-scep-and-pkcs-certificates-in-microsoft-intune"></a>Удаление сертификатов SCEP и PKCS в Microsoft Intune
 
@@ -91,7 +91,6 @@ ms.locfileid: "79338933"
 - Администратор удаляет пользователя или группу из Azure AD.
 - Администратор изменяет или обновляет профиль PKCS.
 - Профиль сертификата удаляется из назначения группы.
-
 
 ## <a name="ios-devices"></a>Устройства iOS
 
@@ -190,8 +189,8 @@ ms.locfileid: "79338933"
 - Администратор выполняет действие [прекращения использования](../remote-actions/devices-wipe.md#retire).
 
 Сертификаты PKCS *остаются* на устройстве (не отменяются и не удаляются) в следующих случаях.
-- Пользователь утрачивает лицензию Intune.
 
+- Пользователь утрачивает лицензию Intune.
 - Администратор отзывает лицензию Intune.
 - Администратор удаляет пользователя или группу из Azure AD.
 - Администратор изменяет или обновляет профиль PKCS.
@@ -228,7 +227,23 @@ ms.locfileid: "79338933"
 
 ### <a name="pkcs-certificates"></a>Сертификаты PKCS
 
-Сертификаты PKCS не поддерживаются на macOS.
+Сертификат PKCS отменяется *и* удаляется в следующих случаях.
+
+- Конечный пользователь отменяет регистрацию.
+- Администратор выполняет действие [прекращения использования](../remote-actions/devices-wipe.md#retire).
+
+Корневой сертификат удаляется в следующих случаях.
+
+- Конечный пользователь отменяет регистрацию.
+- Администратор выполняет действие [прекращения использования](../remote-actions/devices-wipe.md#retire).
+
+Сертификаты PKCS остаются на устройстве (не отменяются и не удаляются) в следующих случаях:
+
+- Пользователь утрачивает лицензию Intune.
+- Администратор отзывает лицензию Intune.
+- Профиль сертификата удаляется из назначения группы. (Профиль управления удаляется.)
+- Администратор удаляет пользователя или группу из Azure AD.
+- Администратор изменяет или обновляет профиль PKCS.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

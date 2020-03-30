@@ -6,7 +6,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 02/07/2020
+ms.date: 03/05/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 767d3671d796299d802fe950d443a152d8e2d645
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: ba2b8e407b4c81f74df7c86e7101461b30a0d8e0
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79354572"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80087129"
 ---
 # <a name="ui-updates-for-intune-end-user-apps"></a>Обновление элементов пользовательского интерфейса для пользовательских приложений Intune
 
@@ -32,10 +32,19 @@ ms.locfileid: "79354572"
 * Оповещение учащихся и сотрудников об изменениях в приложениях и регистрации.
 * Обновление процедур документирования и обеспечения поддержки в вашей организации.  
 
-Если вы являетесь сотрудником или учащимся, проверьте снимки экрана и ссылки на справочную документацию корпоративного портала. Дополнительные сведения об использовании приложения "Корпоративный портал" см. в [справочной документации для пользователей корпоративного портала](https://docs.microsoft.com/user-help/).  
+Если вы являетесь сотрудником или учащимся, проверьте снимки экрана и ссылки на справочную документацию корпоративного портала. Дополнительные сведения об использовании приложения "Корпоративный портал" см. в [справочной документации для пользователей корпоративного портала](https://docs.microsoft.com/mem/intune/user-help/use-managed-devices-to-get-work-done).  
 
-<!---End-user messaging for accounts 1573558, 1712; changes to be made for other platforms for 1801 Users of the Company Portal website, will be blocked from taking actions that require write access to your tenant. They will see appropriate error messaging explaining that their account is under maintenance. Similar changes are coming to the Company Portal apps for Android, iOS, macOS, and Windows soon. ![Error message that occurs during account move](./media/whats-new-app-ui/account-move-rom-iwp-user-1712.png)--->
 
+
+## <a name="week-of-march-2-2020"></a>Неделя начиная с 2 марта 2020 г.   
+### <a name="improved-sign-in-experience-in-company-portal-for-android"></a>Улучшен вход на Корпоративный портал для Android   
+Мы обновили макет нескольких экранов входа в приложении Корпоративного портала для Android, чтобы сделать интерфейс более современным, простым и аккуратным. Чтобы просмотреть все инструкции по регистрации Корпоративного портала для Android, ознакомьтесь с разделами [Регистрация устройства Android](../user-help/enroll-device-android-company-portal.md) или [Регистрация с помощью рабочего профиля Android](../user-help/enroll-device-android-work-profile.md).   
+
+
+|Обновленный|Предыдущий|   
+|---|---|   
+|![Пример изображения нового экрана входа Корпоративного портала с кнопкой входа.](./media/whats-new-app-ui/intune-company-portal-sign-in-2003.png)|![Пример изображения предыдущей страницы входа Корпоративного портала с большей загруженностью.](./media/whats-new-app-ui/intune-company-portal-sign-in-2002.png)| 
+|![Пример изображения нового экрана выполнения входа с одним индикатором выполнения.](./media/whats-new-app-ui/intune-company-portal-signing-in-2003.png)|![Пример изображения предыдущего экрана выполнения входа с большей загруженностью.](./media/whats-new-app-ui/intune-company-portal-signing-in-2002.png)|  
 ## <a name="week-of-february-3-2020"></a>Неделя с 3 февраля 2020 г.
 
 ### <a name="screen-removed-from-company-portal-android-work-profile-enrollment---6103987---"></a>Экран удален с корпоративного портала, регистрация рабочего профиля Android <!--6103987 -->
@@ -142,7 +151,7 @@ ms.locfileid: "79354572"
 * Открыть приложение "Настройки" для установки профиля управления на своем устройстве.  
 * Вернуться в приложение "Корпоративный портал", чтобы завершить регистрацию.  
 
-Обновленные шаги регистрации и экраны см. в разделе [Регистрация устройства iOS в Intune](https://docs.microsoft.com/user-help/enroll-your-device-in-intune-ios).  
+Обновленные шаги регистрации и экраны см. в разделе [Регистрация устройства iOS в Intune](https://docs.microsoft.com/mem/intune/user-help/enroll-your-device-in-intune-ios).  
 
 ### <a name="user-experience-update-for-the-company-portal-app-for-ios----2536024---"></a>Обновление пользовательского интерфейса в приложении корпоративного портала для iOS <!-- 2536024 -->
 Изменен дизайн домашней страницы приложения "Корпоративный портал" для устройств iOS. Благодаря этому изменению домашняя страница стала лучше соответствовать шаблонам пользовательского интерфейса iOS, а также предоставляет улучшенные возможности поиска для приложений и электронных книг.  
@@ -166,7 +175,7 @@ ms.locfileid: "79354572"
 ## <a name="week-of-august-27-2018"></a>Неделя, начиная с 27 августа 2018 г.  
 
 ### <a name="new-user-experience-update-for-the-company-portal-website---2000968---"></a>Обновление пользовательского интерфейса для веб-сайта корпоративного портала <!--2000968 -->  
-Мы добавили новые функции на веб-сайт корпоративного портала с учетом отзывов клиентов. Удобство работы с порталом с помощью устройств значительно повысится, а функциональность расширится. Отдельные разделы сайта, например с общими и подробными сведениями об устройстве, разделы отзывов и поддержки получили современный, более быстрый интерфейс. [Документация веб-сайта корпоративного портала Intune](https://docs.microsoft.com/user-help/using-the-intune-company-portal-website) была обновлена с учетом внесенных изменений.   
+Мы добавили новые функции на веб-сайт корпоративного портала с учетом отзывов клиентов. Удобство работы с порталом с помощью устройств значительно повысится, а функциональность расширится. Отдельные разделы сайта, например с общими и подробными сведениями об устройстве, разделы отзывов и поддержки получили современный, более быстрый интерфейс. [Документация веб-сайта корпоративного портала Intune](https://docs.microsoft.com/mem/intune/user-help/using-the-intune-company-portal-website) была обновлена с учетом внесенных изменений.   
 
 В числе обновлений:  
 

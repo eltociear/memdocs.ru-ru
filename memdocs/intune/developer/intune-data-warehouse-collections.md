@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/04/2019
+ms.date: 03/16/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7d3fbfa5ebd8e9ba54d5725cd650cba9c31b3537
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 9b8ffa656aa468b50569518aaff503fec1d21027
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79360292"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086236"
 ---
 # <a name="intune-data-warehouse-collections"></a>Коллекции хранилища данных Intune
 
@@ -222,6 +222,7 @@ ms.locfileid: "79360292"
 | DeviceRegistrationState    | Ключ атрибута состояния регистрации клиента для этого устройства.                                                                                                                      |
 | OwnerTypeKey               | Ключа атрибута типа владельца для этого устройства: corporate, personal или unknown.                                                                                                    |
 | EnrolledDateTime           | Дата и время регистрации устройства.                                                                                                                                         |
+| EthernetMacAddress           | Уникальный идентификатор сети этого устройства.                                                                                                                                        |
 | LastSyncDateTime           | Последняя известная регистрация устройства в Intune.                                                                                                                                              |
 | ManagementAgentKey         | Ключ агента управления, сопоставленный с этим устройством.                                                                                                                             |
 | ManagementStateKey         | Ключ состояния управления, сопоставленный с этим устройством, который указывает последнее состояние удаленного действия, сведения о снятой защите или административном доступе.                                                |
@@ -243,13 +244,16 @@ ms.locfileid: "79360292"
 | MEID                       | MEID                                                                                                                                                                                   |
 | isSupervised               | Состояние устройства в защищенном режиме                                                                                                                                                               |
 | FreeStorageSpaceInBytes    | Свободное место для хранения (в байтах).                                                                                                                                                                 |
-| TotalStorageSpaceInBytes   | Общее место для хранения (в байтах).                                                                                                                                                                |
+| TotalStorageSpaceInBytes   | Общая емкость хранилища в байтах.                                                                                                                                                                |
 | EncryptionState            | Состояние шифрования на устройстве.                                                                                                                                                      |
 | SubscriberCarrier          | Абонентская система связи устройства.                                                                                                                                                       |
 | PhoneNumber                | Номер телефона устройства.                                                                                                                                                             |
 | IMEI                       | IMEI                                                                                                                                                                                   |
 | CellularTechnology         | Технология сотовой связи устройства.                                                                                                                                                    |
 | WiFiMacAddress             | Wi-Fi MAC                                                                                                                                                                              |
+| Модель                      | Модель устройства.                                                                                                                                                                      |
+| Office365Version           | Версия Office 365, установленная на устройстве.                                                                                                                             |
+| PhysicalMemoryInBytes      | Физическая память в байтах.                                                                                                                                                          |
 
 
 ## <a name="devicetypes"></a>deviceTypes

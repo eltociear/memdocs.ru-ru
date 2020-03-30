@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/18/2019
+ms.date: 03/19/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 65f2fa658069b9ff9ac99026adbb8b56d955727b
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 627fb13554f8f379f75f08c27d18cdd0b1106028
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79351530"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084849"
 ---
 # <a name="add-and-assign-mobile-threat-defense-mtd-apps-with-intune"></a>Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune
 
@@ -224,7 +224,7 @@ Pradeo не поддерживает политики конфигурации �
 
 ### <a name="sophos-mobile-app-configuration-policy"></a>Политика конфигурации приложений Sophos Mobile
 
-Создайте политику конфигурации приложений iOS, как описано в статье об [использовании политики конфигурации приложений iOS](../apps/app-configuration-policies-use-ios.md).
+Создайте политику конфигурации приложений iOS, как описано в статье об [использовании политики конфигурации приложений iOS](../apps/app-configuration-policies-use-ios.md). Дополнительные сведения см. в статье [Sophos Intercept X for Mobile iOS - Available managed settings](https://community.sophos.com/kb/133963) (Sophos Intercept X для мобильных устройств iOS: доступные управляемые параметры) из базы знаний Sophos.
 
 ### <a name="wandera-app-configuration-policy"></a>Политика конфигурации приложения Wandera
 

@@ -1,12 +1,12 @@
 ---
 title: Настройка службы управления затратами на телекоммуникации в Microsoft Intune — Azure | Документация Майкрософт
 titleSuffix: ''
-description: Интегрируйте Microsoft Intune со службой управления затратами на телекоммуникации Saaswedo, чтобы отслеживать использование данных и задавать пороговые значения или ограничения на устройствах с Android, iOS и IPadOS.
+description: Интегрируйте Microsoft Intune со службой управления затратами на телекоммуникации Saaswedo, чтобы отслеживать использование данных и задавать пороговые значения или ограничения администраторов устройств Android, iOS и IPadOS.
 keywords: Saaswedo
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 02/18/2020
+ms.date: 03/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -18,22 +18,23 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7a11151b874e34d12b71b3429f55603d5e6f2a11
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 62fe18a086630a768976220b8de7469f53f25cc4
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79361540"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086944"
 ---
 # <a name="set-up-a-telecom-expense-management-service-in-intune"></a>Настройка службы управления затратами на телекоммуникации в Intune
 
-С помощью Intune вы можете управлять затратами на телекоммуникации, отслеживая использование данных на мобильных устройствах организации. Intune интегрируется со службой [управления затратами на телекоммуникационные услуги Datalert](http://datalert.biz/get-started) от Saaswedo. Datalert — это решение для управления затратами на телекоммуникации в режиме реального времени. С его помощью можно избежать дорогостоящей и непредвиденной передачи данных и избыточного роуминга на устройствах под управлением Intune.
+С помощью Intune вы можете управлять затратами на телекоммуникации, отслеживая использование данных на мобильных устройствах организации. Intune интегрируется со службой [управления затратами на телекоммуникационные услуги Datalert](http://datalert.biz/get-started) от Saaswedo. Datalert — это решение для управления затратами на телекоммуникации в режиме реального времени. С его помощью можно избежать непредвиденной передачи данных и избыточного роуминга на устройствах под управлением Intune.
 
-Благодаря интеграции с Datalert можно централизованно настраивать, отслеживать и применять ограничения передачи данных в роуминге и домашнем регионе. При превышении заданных порогов срабатывают автоматические оповещения. Службу можно настроить так, чтобы для отдельных пользователей или групп пользователей применялись различные действия (например, отключение роуминга или превышение порога). Консоль управления Datalert содержит отчеты, отображающие сведения об использовании и мониторинге данных.
+Благодаря интеграции с Datalert можно централизованно настраивать, отслеживать и применять ограничения передачи данных в роуминге и домашнем регионе. При превышении порогов срабатывают автоматические оповещения. Службу можно настроить так, чтобы для пользователей или групп пользователей применялись различные действия (например, отключение роуминга или превышение порога). Консоль управления Datalert содержит отчеты, отображающие сведения об использовании и мониторинге данных.
 
 На схеме ниже показано, как Intune интегрируется с Datalert.
 
-  ![Схема интеграции Intune и Datalert](./media/telecom-expenses-monitor/tem-datalert-intune-solution-diagram.png)
+> [!div class="mx-imgBorder"]
+> ![Схема интеграции Intune и Datalert](./media/telecom-expenses-monitor/tem-datalert-intune-solution-diagram.png)
 
 Существуют некоторые параметры конфигурации в Datalert и Intune, позволяющие использовать службу Datalert с Intune. В этой статье показано, как:
 
@@ -44,7 +45,7 @@ ms.locfileid: "79361540"
 
 ## <a name="supported-platforms"></a>Поддерживаемые платформы
 
-- Устройства с Android 4.4 и более поздних версий, поддерживающие Knox (Samsung).
+- Администратор устройств Android 4.4 и более поздних версий, поддерживающих Knox (Samsung).
 
   На странице с [версиями Android, поддерживающими Knox](https://seap.samsung.com/faq/what-versions-android-support-knox-standard-and-knox-premium-sdks-0), (открывается веб-сайт Samsung) перечислены поддерживаемые версии Knox.
 
@@ -84,7 +85,8 @@ Intune интегрируется со следующими поставщика
 
     На следующем рисунке показаны зеленые флажки, отображающиеся при успешной установке подключения:
 
-      ![Страница Datalert после успешного подключения](./media/telecom-expenses-monitor/tem-datalert-connection.png)
+      > [!div class="mx-imgBorder"]
+      > ![Страница Datalert после успешного подключения](./media/telecom-expenses-monitor/tem-datalert-connection.png)
 
 7. В разделе **Datalert App / ADAL Consent** (Согласие для приложения Datalert/ADAL) установите переключатель в положение **On** (Вкл.). На странице проверки подлинности Майкрософт выберите **Принимаю**.
 
@@ -92,7 +94,8 @@ Intune интегрируется со следующими поставщика
 
     На следующем рисунке показаны зеленые флажки, отображающиеся при успешной установке подключения:
 
-      ![Страница Datalert после успешного подключения](./media/telecom-expenses-monitor/tem-datalert-adal-consent.png)
+      > [!div class="mx-imgBorder"]
+      > ![Страница Datalert после успешного подключения](./media/telecom-expenses-monitor/tem-datalert-adal-consent.png)
 
 8. Для параметра **MDM Profiles management (optional)** (Управление профилями MDM (необязательно)) переведите переключатель в положение **On** (Вкл.). Этот параметр позволяет Datalert считывать доступные профили в Intune, чтобы помочь в настройке политик. 
 
@@ -102,7 +105,8 @@ Intune интегрируется со следующими поставщика
 
     На следующем рисунке показаны зеленые флажки, отображающиеся при успешной установке подключения:
 
-   ![Страница Datalert после успешного подключения](./media/telecom-expenses-monitor/tem-datalert-mdm-profiles.png)
+    > [!div class="mx-imgBorder"]
+    > ![Страница Datalert после успешного подключения](./media/telecom-expenses-monitor/tem-datalert-mdm-profiles.png)
 
 ### <a name="step-2-confirm-telecom-expense-management-is-active-in-intune"></a>Шаг 2. Подтверждение активности службы управления затратами на телекоммуникации в Intune
 
@@ -112,7 +116,8 @@ Intune интегрируется со следующими поставщика
 
 2. Выберите **Администрирование клиента** > **Соединители и токены** > **Управление затратами на телекоммуникации**. Найдите состояние подключения **Активно**:
 
-   ![Портал Intune с состоянием подключения к Datalert "Активно"](./media/telecom-expenses-monitor/tem-azure-portal-enable-service.png)
+    > [!div class="mx-imgBorder"]
+    > ![Портал Intune с состоянием подключения к Datalert "Активно"](./media/telecom-expenses-monitor/tem-azure-portal-enable-service.png)
 
 ### <a name="step-3-deploy-the-datalert-app-to-devices"></a>Шаг 3. Развертывание приложения Datalert на устройствах
 
@@ -131,7 +136,8 @@ Intune интегрируется со следующими поставщика
 
 Эти категории отображаются пользователям во время регистрации ([зарегистрировать устройства Android](../enrollment/android-enroll.md)). В зависимости от выбранной пользователем категории регистрируемое устройство добавляется в соответствующую группу устройств.
 
-  ![Снимок экрана: панель "Добавить политику"](./media/telecom-expenses-monitor/tem-dynamic-membership-rules.png)
+> [!div class="mx-imgBorder"]
+> ![Снимок экрана: панель "Добавить политику"](./media/telecom-expenses-monitor/tem-dynamic-membership-rules.png)
 
 #### <a name="add-the-datalert-app-to-intune"></a>Добавление приложения Datalert в Intune
 
@@ -145,13 +151,15 @@ Intune интегрируется со следующими поставщика
 
 4. Щелкните приложение **Datalert** и нажмите кнопку **Выбрать**:
 
-   ![Добавление приложения Datalert из App Store в клиентские приложения Intune](./media/telecom-expenses-monitor/tem-select-app-from-apple-app-store.png)
+    > [!div class="mx-imgBorder"]
+    > ![Добавление приложения Datalert из App Store в клиентские приложения Intune](./media/telecom-expenses-monitor/tem-select-app-from-apple-app-store.png)
 
 5. Введите дополнительные свойства, такие как сведения о приложении и теги области:
 
-   ![Введите свойства приложения, включая имя и описание. Выберите ОС и другие параметры для приложения в Intune.](./media/telecom-expenses-monitor/tem-steps-to-create-the-app.png)
+    > [!div class="mx-imgBorder"]
+    > ![Введите свойства приложения, включая имя и описание. Выберите ОС и другие параметры для приложения в Intune.](./media/telecom-expenses-monitor/tem-steps-to-create-the-app.png)
 
-6. Нажмите кнопку **ОК** > **Добавить**, чтобы сохранить изменения. В списке отобразится приложение Datalert.
+6. Выберите **ОК** > **Добавить**, чтобы сохранить изменения. В списке отобразится приложение Datalert.
 
 #### <a name="assign-the-datalert-app-to-the-corporate-device-group"></a>Назначение приложения Datalert группе корпоративных устройств
 
@@ -161,15 +169,17 @@ Intune интегрируется со следующими поставщика
 
     На этих шагах выберите, следует ли сделать установку приложения обязательной или необязательной для группы. В следующем примере выбрана обязательная установка. При необходимости пользователи должны установить приложение Datalert после регистрации устройства.
 
-   ![Снимок экрана: панель "Добавить политику"](./media/telecom-expenses-monitor/tem-assign-datalert-app-to-device-group.png)
+    > [!div class="mx-imgBorder"]
+    > ![Снимок экрана: панель "Добавить политику"](./media/telecom-expenses-monitor/tem-assign-datalert-app-to-device-group.png)
 
 ### <a name="step-4-add-organization-phone-lines-to-the-datalert-console"></a>Шаг 4. Добавление корпоративных телефонных линий в консоль Datalert
 
-Вы настроили взаимодействие служб Intune и Datalert друг с другом. Теперь добавьте корпоративные платные телефонные линии в консоль Datalert. После этого введите пороговые значения и действия для любых нарушений использования сотовой сети или роуминга. Вы можете добавить корпоративные платные телефонные линии в консоль Datalert вручную или автоматически после регистрации устройства в Intune.
+Вы настроили взаимодействие служб Intune и Datalert друг с другом. Теперь добавьте корпоративные платные телефонные линии в консоль Datalert. Введите пороговые значения и действия для любых нарушений использования сотовой сети или роуминга. Вы можете добавить корпоративные платные телефонные линии в консоль Datalert вручную или автоматически после регистрации устройства в Intune.
 
 Чтобы задать эти параметры, перейдите на страницу [настройки Datalert для Microsoft Intune](http://www.datalert.fr/microsoft-intune/intune-setup) (откроется веб-сайт Datalert). На вкладке **параметров** следуйте указаниям мастера настройки.
 
-  ![Снимок экрана: панель "Добавить политику"](./media/telecom-expenses-monitor/tem-add-phone-lines-to-datalert-console.png)
+> [!div class="mx-imgBorder"]
+> ![Снимок экрана: панель "Добавить политику"](./media/telecom-expenses-monitor/tem-add-phone-lines-to-datalert-console.png)
 
 Служба Datalert теперь активна. Она начнет выполнять мониторинг использования данных и будет отключать данные мобильных телефонов и данные, передаваемые в роуминге, на устройствах, превышающих настроенные ограничения использования.
 
@@ -177,8 +187,8 @@ Intune интегрируется со следующими поставщика
 
 Сведения о взаимодействии с пользователем см. в следующих статьях:
 
-- [Регистрация устройства iOS/iPadOS в службе управления затратами на телекоммуникации](https://docs.microsoft.com/user-help/enroll-your-device-with-telecom-expense-management-ios)
-- [Регистрация устройства Android в службе управления затратами на телекоммуникации](https://docs.microsoft.com/user-help/enroll-your-device-with-telecom-expense-management-android)
+- [Регистрация устройства iOS/iPadOS в службе управления затратами на телекоммуникации](https://docs.microsoft.com/mem/intune/user-help/enroll-your-device-with-telecom-expense-management-ios)
+- [Регистрация устройства Android в службе управления затратами на телекоммуникации](https://docs.microsoft.com/mem/intune/user-help/enroll-your-device-with-telecom-expense-management-android)
 
 ## <a name="turn-off-the-datalert-service"></a>Отключение службы Datalert
 

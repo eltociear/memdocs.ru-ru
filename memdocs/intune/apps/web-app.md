@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 3fc6b9fc427ab6e0dc0488061378e78060527676
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: b30d2a3ef7c85557222aa39740417a1a6fd463f1
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79361982"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084132"
 ---
 # <a name="add-web-apps-to-microsoft-intune"></a>Добавление веб-приложений в Microsoft Intune
 
@@ -37,9 +37,10 @@ Intune создает ярлык со ссылкой на веб-приложе�
 
 > [!Note]
 > Чтобы запускать веб-приложения на устройстве пользователя, на нем должен быть установлен браузер. 
-
-> [!Note]
-> Сведения для устройств Android Enterprise см. в разделе [Веб-ссылки в управляемом Google Play](apps-add-android-for-work.md#managed-google-play-web-links)
+> 
+> Сведения об устройствах Android Enterprise см. в разделе [Веб-ссылки в управляемом Google Play](apps-add-android-for-work.md#managed-google-play-web-links).
+> 
+> Если новые веб-клипы (закрепленные веб-приложения) на устройствах с iOS требуется открывать в защищенном браузере, они будут открываться в Microsoft Edge, а не в Intune Managed Browser. Чтобы старые веб-клипы iOS открывались в Microsoft Edge, а не Managed Browser, их необходимо перенастроить.
 
 ## <a name="add-a-web-app-to-intune"></a>Добавление веб-приложения в Intune
 Чтобы добавить приложение в Intune как ярлык для веб-приложения, сделайте следующее:

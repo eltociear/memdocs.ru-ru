@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/10/2020
+ms.date: 03/23/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8586e5c25ec3db4a736d84381e691ecebe6fae32
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 71e8b874e50fc1300124d748dfb70963acae089b
+ms.sourcegitcommit: 795e8a6aca41e1a0690b3d0d55ba3862f8a683e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79361683"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80220104"
 ---
 # <a name="windows-10-and-newer-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства с Windows 10 (и более новых версий), которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -86,7 +86,7 @@ ms.locfileid: "79361683"
   - **Не настроено** (по умолчанию). Intune не изменяет или не обновляет этот параметр. По умолчанию операционная система может разрешать конечным пользователям устанавливать приложения из других мест, кроме Microsoft Store, включая приложения, определенные в других параметрах политики.  
   - **Где угодно**. Отключений рекомендации приложения и предоставление пользователям возможности устанавливать приложения из любого расположения.  
   - **Только Store**. Разрешает конечным пользователям устанавливать приложения только из Microsoft Store.
-  - **Рекомендации**. При установке приложения из Интернета, доступного в Microsoft Store, пользователи видят сообщение с рекомендацией загрузить его из магазина.  
+  - **Рекомендации**. При установке приложения из Интернета, доступного в Microsoft Store, пользователи видят сообщение с рекомендацией загрузить его из магазина.  
   - **Предпочитать Store**. Предупреждает пользователей при установке приложений из других мест, кроме Microsoft Store.
 
   [CSP для SmartScreen/EnableAppInstallControl](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-smartscreen#smartscreen-enableappinstallcontrol)
@@ -898,6 +898,11 @@ ms.locfileid: "79361683"
   [CSP Defender/ThreatSeverityDefaultAction](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-threatseveritydefaultaction)
 
 ### <a name="microsoft-defender-antivirus-exclusions"></a>Исключения антивирусной программы Microsoft Defender
+
+Вы можете не сканировать определенные файлы с помощью антивирусной программы Microsoft Defender, изменив списки исключений. **Как правило, не нужно применять исключения**. Антивирусная программа Microsoft Defender включает ряд автоматических исключений, основанных на известных поведениях ОС и стандартных файлах управления, например, используемых в управлении предприятием, базами данных, а также в других корпоративных сценариях и ситуациях.
+
+> [!WARNING]
+> **Определение исключений снижает защиту, предлагаемую антивирусной программой Microsoft Defender**. Всегда оценивайте риски, связанные с реализацией исключений. Исключайте только те файлы, которые не являются вредоносными.
 
 - **Файлы и папки, исключаемые из проверок и защиты в реальном времени**. Добавляет один файл или папку либо несколько, такие как **C:\Path** или **%ProgramFiles%\Path\имя_файла.exe**, в список исключений. Эти файлы и папки не учитываются при проверках в режиме реального времени или по расписанию.
 - **Расширения имен файлов, исключаемые из проверок и защиты в реальном времени**. Добавляет одно или несколько расширений файла, например **jpg** или **txt**, в список исключений. Все файлы с такими расширениями не учитываются при проверках в реальном времени или по расписанию.

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d4d5fe8ed78aa5537552ecf3db12eabd2bb6fbde
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 79bb7e627043e439c7438c2fc4afcfdee5a44406
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79359291"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086111"
 ---
 # <a name="enroll-iosipados-devices-in-intune"></a>Регистрация устройств iOS и iPadOS в Intune
 
@@ -46,7 +46,7 @@ Intune позволяет осуществлять управление моби
 - Регистрация устройств — это стандартная регистрация BYOD. Она предоставляет администраторам множество вариантов управления.
 - Регистрация пользователей — это более оптимизированный процесс регистрации, который предоставляет администраторам подмножество вариантов управления устройством. Сейчас эта функция доступна в предварительной версии. 
 
-После выполнения необходимых условий и назначения пользовательских лицензий пользователи могут скачать приложение Корпоративного портала Intune из магазина App Store и выполнить инструкции по регистрации в приложении. Вы можете [настроить заявление о конфиденциальности](../apps/company-portal-app.md#privacy-statement-customization) Корпоративного портала на устройствах iOS и iPadOS.
+После выполнения необходимых условий и назначения пользовательских лицензий пользователи могут скачать приложение Корпоративного портала Intune из магазина App Store и выполнить инструкции по регистрации в приложении. Вы можете настроить заявление о конфиденциальности для Корпоративного портала на устройствах iOS и iPadOS, как описано в руководстве по [настройке приложений и веб-сайтов Корпоративного портала Intune, а также приложений Intune](../apps/company-portal-app.md#configuration).
 
 ## <a name="company-owned-iosipados-devices"></a>Корпоративные устройства iOS и iPadOS
 

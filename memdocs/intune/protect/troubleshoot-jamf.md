@@ -17,12 +17,12 @@ ms.reviewer: ''
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 335841a8642429e36c277673fd8a238d486366c9
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: f685f1f3d009d7ba7a1dc061ec3025b2f8c96b5f
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79350620"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084637"
 ---
 # <a name="troubleshoot-integration-of-jamf-pro-with-microsoft-intune"></a>Устранение неполадок интеграции Jamf Pro с Microsoft Intune
 
@@ -89,8 +89,8 @@ ms.locfileid: "79350620"
 Например, при открытии Microsoft Teams появляется запрос с текстом, аналогичным приведенному ниже:
 
 ``` 
-  Microsoft Teams wants to sign using key “Microsoft Workplace Join Key” in your keychain.  
-  To allow this, enter the “login” keychain password 
+  Microsoft Teams wants to sign using key "Microsoft Workplace Join Key" in your keychain.  
+  To allow this, enter the "login" keychain password 
 ```
 
 **Причина**. Эти запросы создаются Jamf Pro для каждого приложения, для которого требуется регистрация Azure AD. 
@@ -118,7 +118,7 @@ ms.locfileid: "79350620"
 
 #### <a name="cause-2"></a>Причина 2  
 
-**В вашем клиенте Azure AD не создано приложение **Jamf Native macOS Connector**, или согласие для этого соединителя было подписано учетной записью, не имеющей прав глобального администратора**  
+**В вашем клиенте Azure AD не создано приложение **Jamf Native macOS Connector** или согласие для этого соединителя было подписано учетной записью, не имеющей прав глобального администратора**  
 
   **Решение**  
   См. раздел *Настройка интеграции macOS с Intune* в разделе [Интеграция с Microsoft Intune](https://docs.jamf.com/10.13.0/jamf-pro/administrator-guide/Integrating_with_Microsoft_Intune.html) на сайте docs.jamf.com. 
@@ -156,7 +156,7 @@ ms.locfileid: "79350620"
 
 **Решение**  
 Чтобы изменить источник регистрации с Intune на Jamf, сделайте следующее.
-1. [Отмените регистрацию устройства с macOS в Intune](https://docs.microsoft.com/user-help/unenroll-your-device-from-intune-macos). Чтобы избежать дополнительных осложнений для устройств, которые не были полностью удалены из Intune, см. раздел [*Причина 6*](#cause-6) в этом списке причин.  
+1. [Отмените регистрацию устройства с macOS в Intune](https://docs.microsoft.com/mem/intune/user-help/unenroll-your-device-from-intune-macos). Чтобы избежать дополнительных осложнений для устройств, которые не были полностью удалены из Intune, см. раздел [*Причина 6*](#cause-6) в этом списке причин.  
 
 2. На устройстве откройте приложение корпоративного портала с помощью службы самообслуживания, а затем зарегистрируйте устройство в Intune. Для этой задачи необходимо [разворачивать приложение корпоративного портала для macOS с помощью Jamf](conditional-access-assign-jamf.md#deploy-the-company-portal-app-for-macos-in-jamf-pro), а также [создать политику в Jamf Pro, которая регистрирует устройства пользователей в Azure AD](conditional-access-assign-jamf.md#create-a-policy-in-jamf-pro-to-have-users-register-their-devices-with-azure-active-directory).  
 
@@ -242,9 +242,9 @@ ms.locfileid: "79350620"
 Во время регистрации пользователь устройства macOS получает следующее приглашение, чтобы разрешить JamfAAD доступ к ключу из цепочки ключей: 
 
 ```
-   JamfAAD wants to access key “Microsoft Workplace Join Key" in your keychain. 
+   JamfAAD wants to access key "Microsoft Workplace Join Key" in your keychain. 
     
-   To allow this, enter the “login” keychain password
+   To allow this, enter the "login" keychain password
 ```
 
 **Решение**  
@@ -256,7 +256,7 @@ ms.locfileid: "79350620"
 ### <a name="mac-device-shows-compliant-in-intune-but-noncompliant-in-azure"></a>Устройство Mac соответствует требованиям Intune, но не соответствует требованиям Azure  
 
 **Причина**. Следующие условия могут привести к тому, что устройство будет отображаться как соответствующее требованиям в Intune, но не будет соответствовать требованиям в Azure:  
-- Устройство не зарегистрировано должным образом.  
+- Устройство неправильно зарегистрировано.  
 - Устройство было зарегистрировано несколько раз без необходимой очистки.
 
 **Решение**  

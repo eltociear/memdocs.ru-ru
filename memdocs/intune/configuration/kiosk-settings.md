@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/04/2019
+ms.date: 03/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5f8d7a2f8944535cb16f6cd01c117799a3c92904
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: c3821017b0fe15df8a0329000aa74272e4d9477e
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79343392"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086888"
 ---
 # <a name="windows-10-and-windows-holographic-for-business-device-settings-to-run-as-a-dedicated-kiosk-using-intune"></a>Настройка параметров устройств Windows 10 и Windows Holographic for Business для запуска в качестве выделенного киоска с помощью Intune
 
@@ -69,7 +69,7 @@ Intune использует "профили конфигурации" для с�
 [Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
 Можно создать профили киосков для устройств под управлением следующих платформ:
-- [Android](device-restrictions-android.md#kiosk)
+- [Администратор устройства с Android](device-restrictions-android.md#kiosk)
 - [Android Enterprise](device-restrictions-android-for-work.md#dedicated-device-settings)
 - [Windows 10 и более поздних версий](kiosk-settings-windows.md).
 - [Windows Holographic for Business](kiosk-settings-holographic.md)

@@ -6,24 +6,24 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/18/2019
+ms.date: 3/13/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: c87fd2bd-7f53-4f1b-b985-c34f2d85a7bc
-ms.reviewer: elocholi
+ms.reviewer: arnab
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9760029effc873b510bf37b779c054c9a0574a20
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 6ab840653d7090ed925af0db08f410e236392234
+ms.sourcegitcommit: 795e8a6aca41e1a0690b3d0d55ba3862f8a683e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79353155"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80219849"
 ---
 # <a name="enforce-compliance-on-macs-managed-with-jamf-pro"></a>Принудительное применение политик соответствия требованиям на компьютерах Mac под управлением Jamf
 
@@ -41,7 +41,10 @@ ms.locfileid: "79353155"
 
 2. Выберите **Устройства** > **Политики соответствия**. Если вы используете ранее созданную политику, выберите ее в консоли и перейдите к следующему шагу процедуры. Чтобы создать новую политику выберите **Создать политику**, а затем укажите сведения для политики *платформы* для **macOS**. Настройте *параметры* и *действия при несоответствии* в соответствии с требованиями организации, а затем нажмите кнопку **Создать**, чтобы сохранить политику.
 
-3. На панели политики *Обзор* щелкните **Назначения**. Используйте доступные параметры, чтобы настроить, какие пользователи Azure Active Directory (Azure AD) и группы безопасности получают эту политику. Интеграция Jamf с Intune не поддерживает политику соответствия требованиям, ориентированную на группы устройств.
+3. На панели политики *Обзор* щелкните **Назначения**. Используйте доступные параметры, чтобы настроить, какие пользователи Azure Active Directory (Azure AD) и группы безопасности получают эту политику. **Интеграция Jamf с Intune не поддерживает политику соответствия требованиям, предназначенную для групп устройств.**
+
+> [!NOTE]
+> Интеграция Jamf с Intune поддерживает только группы пользователей AAD. Политики соответствия устройств, предназначенные для групп устройств, не будут применяться.
 
 4. При нажатии кнопки **Сохранить** политика развертывается для пользователей.  
 

@@ -12,17 +12,17 @@ ms.subservice: configuration
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: c6fd72a6-7dc8-48fc-9df1-db5627a51597
-ms.reviewer: karanda
+ms.reviewer: maholdaa
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 105a25e33e0f8f0a76934199d24060328d50c05f
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: df5c33e1e8e589f430fe8265ee4762b4755f3618
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79360370"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086451"
 ---
 # <a name="use-a-custom-device-profile-to-create-a-wifi-profile-with-a-pre-shared-key-in-intune"></a>Создание профиля Wi-Fi с общим ключом в Intune с помощью пользовательского профиля устройства
 
@@ -52,7 +52,7 @@ ms.locfileid: "79360370"
 2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
 
-    - **Имя** — Введите описательное имя для политики. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, хорошее имя политики — **Настраиваемые параметры OMA URI профиля Wi-Fi для устройств Android**.
+    - **Имя** — Введите описательное имя для политики. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, хорошее имя политики — **Настраиваемые параметры OMA URI профиля Wi-Fi для принадлежащих администраторам устройств Android**.
     - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
     - **Платформа**. Выберите свою платформу.
     - **Тип профиля**. Выберите **Пользовательский**.
@@ -139,6 +139,7 @@ xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
 ```
 
 ### <a name="eap-based-wi-fi-profile-example"></a>Пример профиля Wi-Fi на основе EAP
+
 В следующем примере приведен XML-код профиля Wi-Fi на основе EAP: В примере показан правильный формат и предоставлены дополнительные сведения. Этот пример не предназначен для использования в качестве рекомендуемой конфигурации для вашей среды.
 
 

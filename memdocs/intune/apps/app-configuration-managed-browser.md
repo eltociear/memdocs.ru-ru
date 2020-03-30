@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/28/2020
+ms.date: 03/12/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0733ac48aa39f611db43164137d129a3248f13d4
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 936dc5d4167252fcb2280ca3c9aa8b450a924a98
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79342820"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80083640"
 ---
 # <a name="manage-web-access-using-a-microsoft-intune-policy-protected-browser"></a>Управление доступом в Интернет с помощью браузера, защищенного политикой Microsoft Intune
 
@@ -88,6 +88,9 @@ Microsoft Edge и Intune Managed Browser — это веб-браузеры, к�
 ## <a name="conditional-access-for-protected-browsers"></a>Условный доступ для защищенных браузеров
 
 Managed Browser теперь является утвержденным клиентским приложением для условного доступа. Это означает, что вы можете ограничить доступ к веб-приложениям, подключенным к Azure Active Directory, из мобильных браузеров, разрешив доступ только из Managed Browser и заблокировав его из других незащищенных браузеров, таких как Safari или Chrome. Эту защиту можно применять к таким ресурсам Azure, как Exchange Online и SharePoint Online, Центр администрирования Microsoft 365 и даже к локальным сайтам, доступным внешним пользователям через [Azure Active Directory Application Proxy](https://docs.microsoft.com/azure/active-directory/active-directory-application-proxy-get-started). 
+
+> [!NOTE]
+> Если новые веб-клипы (закрепленные веб-приложения) на устройствах с iOS требуется открывать в защищенном браузере, они будут открываться в Microsoft Edge, а не в Intune Managed Browser. Чтобы старые веб-клипы iOS открывались в Microsoft Edge, а не Managed Browser, их необходимо перенастроить.
 
 Чтобы разрешить работу с веб-приложениями, подключенными к Azure Active Directory, только из Intune Managed Browser на мобильных платформах, можно создать политику условного доступа, требующую использования утвержденных клиентских приложений. 
 

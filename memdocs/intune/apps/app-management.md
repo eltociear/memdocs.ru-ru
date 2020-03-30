@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/05/2020
+ms.date: 03/17/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 98eba2cd2905a70157cfb50299bb9b11a6319fcc
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 5acf0db721accf058a10dafcf8165abeddafe7c7
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79342339"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80083739"
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
 
@@ -118,7 +118,7 @@ Intune предлагает широкий набор возможностей, 
 - **Ключи загрузки неопубликованных приложений Windows**. Добавьте ключ загрузки неопубликованных приложений Windows, чтобы установить приложение непосредственно на устройствах вместо его публикации и загрузки из магазина Windows. Дополнительные сведения см. в статье [Подписывание бизнес-приложений для развертывания на устройствах Windows с помощью Intune](app-sideload-windows.md).
 - **Токены VPP Apple**. Применение и просмотр лицензий Volume Purchase Program (VPP) для iOS и iPadOS. Дополнительные сведения см. в разделе [Приложения iOS/iPadOS, приобретенные по программе Volume Purchase Program (VPP)](vpp-apps-ios.md).
 - **Управляемый Google Play**. Управляемый Google Play — это корпоративное хранилище приложений Google и единственный источник приложений в Android для бизнеса. Дополнительные сведения см. в статье [Назначение приложений управляемого Google Play для корпоративных устройств с Android с помощью Intune](apps-add-android-for-work.md).
-- **Фирменная символика и настройки**. Здесь можно настроить фирменную символику для Корпоративного портала. Дополнительные сведения см. в разделе [Конфигурация приложений корпоративного портала](company-portal-app.md).
+- **Настройка**. Здесь можно настроить фирменную символику для Корпоративного портала. Дополнительные сведения см. в разделе [Конфигурация приложений корпоративного портала](company-portal-app.md).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

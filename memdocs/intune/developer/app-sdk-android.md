@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4354d4b5aeb0957790d469a2a3fd5c6787aa93eb
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 367a632b082ad5d58221f33ca9a191fb229f8f66
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79363776"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086337"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
@@ -297,7 +297,7 @@ intunemam {
 | android.preference.PreferenceActivity | MAMPreferenceActivity |
 | android.support.multidex.MultiDexApplication | MAMMultiDexApplication |
 | android.widget.TextView | MAMTextView |
-| android.widget.AutoCompleteTextView | MAMAutoCompleteTextView |
+| android.widget.AutoCompleteTextView |    MAMAutoCompleteTextView |
 | android.widget.CheckedTextView | MAMCheckedTextView |
 | android.widget.EditText | MAMEditText |
 | android.inputmethodservice.ExtractEditText | MAMExtractEditText |
@@ -324,7 +324,7 @@ intunemam {
 |--|--|
 | android.support.v7.app.AlertDialog.Builder | MAMAlertDialogBuilder |
 | android.support.v7.app.AppCompatActivity | MAMAppCompatActivity |
-| android.support.v7.widget.AppCompatAutoCompleteTextView | MAMAppCompatAutoCompleteTextView |
+| android.support.v7.widget.AppCompatAutoCompleteTextView |    MAMAppCompatAutoCompleteTextView |
 | android.support.v7.widget.AppCompatCheckedTextView | MAMAppCompatCheckedTextView |
 | android.support.v7.widget.AppCompatEditText | MAMAppCompatEditText |
 | android.support.v7.widget.AppCompatMultiAutoCompleteTextView | MAMAppCompatMultiAutoCompleteTextView |
@@ -695,7 +695,7 @@ public interface MAMNotificationReceiver {
 Уведомление `MANAGEMENT_REMOVED` указывает, что пользователь, который ранее находился под управлением политики, больше не будет регулироваться с помощью политики Intune MAM. Это не требует очистки пользовательских данных или выхода пользователя (если очистка нужна, будет отправлено уведомление `WIPE_USER_DATA`). Во многих приложениях может не требоваться обработка этого уведомления; тем не менее приложения, которые используют `MAMDataProtectionManager`, должны [особо учитывать это уведомление](#data-protection).
 
 Когда MAM вызывает метод получателя `MANAGEMENT_REMOVED` в приложении, будут выполняться следующие условия:
-* MAM уже расшифрует зашифрованные файлы (но не защищенные данные буферов), относящиеся к приложению. Файлы в открытых местах на SD-карте, которые не принадлежат непосредственно приложению (например, папки "Документы" или "Загрузки"), не расшифровываются.
+* MAM уже расшифрует зашифрованные файлы (но не защищенные данные буферов), относящиеся к приложению. Файлы в открытых расположениях на SD-карте, которые не принадлежат непосредственно приложению (например, папки "Документы" или "Загрузки"), не расшифровываются.
 * Новые файлы или буферы защищенных данных, создаваемые методом получателя (или любым другим кодом, выполняемым после запуска получателя), не шифруются.
 * Приложение по-прежнему имеет доступ к ключам шифрования, поэтому такие операции, как расшифровка буферов данных, будут успешными.
 
@@ -1079,7 +1079,7 @@ public interface MAMComplianceNotification extends MAMUserNotification {
 | PENDING | Исправить соответствие не удалось, так как ответ о состоянии еще не был получен от службы при превышении предела времени. Приложению следует повторить попытку получения токена позже. |
 | COMPANY_PORTAL_REQUIRED | Корпоративный портал должен быть установлен на устройстве для успешного устранения проблем соответствия требованиям.  Если на устройстве уже установлен корпоративный портал, необходимо перезапустить приложение.  В этом случае отображается диалоговое окно с запросом на перезапуск приложения. |
 
-Если состояние соответствия — `MAMCAComplianceStatus.COMPLIANT`, приложение должно повторно начать получение токена (для своего собственного ресурса). Если попытка исправления соответствия терпит сбой, методы `getComplianceErrorTitle()` и `getComplianceErrorMessage()` возвращают локализованные строки, которые приложение может отобразить для конечного пользователя, если нужно.  В большинстве случаев ошибка не может быть устранена приложением, поэтому в общем случае может быть оптимально завершить ошибкой создание учетной записи или вход и разрешить пользователю повторить попытку позже.  Если ошибка не устраняется, журналы MAM могут помочь определить причину.  Конечный пользователь может отправить журналы с помощью инструкций, приведенных [здесь](https://docs.microsoft.com/user-help/send-logs-to-your-it-admin-by-email-android "Отправка журналов по электронной почте в службу поддержки вашей компании").
+Если состояние соответствия — `MAMCAComplianceStatus.COMPLIANT`, приложение должно повторно начать получение токена (для своего собственного ресурса). Если попытка исправления соответствия терпит сбой, методы `getComplianceErrorTitle()` и `getComplianceErrorMessage()` возвращают локализованные строки, которые приложение может отобразить для конечного пользователя, если нужно.  В большинстве случаев ошибка не может быть устранена приложением, поэтому в общем случае может быть оптимально завершить ошибкой создание учетной записи или вход и разрешить пользователю повторить попытку позже.  Если ошибка не устраняется, журналы MAM могут помочь определить причину.  Конечный пользователь может отправить журналы с помощью инструкций, приведенных [здесь](https://docs.microsoft.com/mem/intune/user-help/send-logs-to-your-it-admin-by-email-android "Отправка журналов по электронной почте в службу поддержки вашей компании").
 
 Так как `MAMComplianceNotification` расширяет `MAMUserNotification`, также будет доступно удостоверение пользователя, для которого выполнена попытка исправления.
 
@@ -1457,12 +1457,12 @@ public final class MAMFileProtectionManager {
     * this method will silently do nothing.
     *
     * @param identity
-    *       Identity to set.
+    *         Identity to set.
     * @param file
-    *       File to protect.
+    *         File to protect.
     *
     * @throws IOException
-    *       If the file cannot be protected.
+    *         If the file cannot be protected.
     */
    public static void protect(final File file, final String identity) throws IOException;
 
@@ -1864,7 +1864,7 @@ MAMThemeManager.setAppTheme(R.style.AppTheme);
 Пакет SDK для приложений Intune для Android не управляет сбором данных из приложения. По умолчанию приложение корпоративного портала записывает системные данные. Эти данные отправляются в Microsoft Intune. Согласно политике конфиденциальности Майкрософт мы не собираем персональные данные.
 
 > [!NOTE]
-> Если конечные пользователи отказываются от отправки этих данных, им необходимо отключить телеметрию в разделе "Параметры" приложения корпоративного портала. Дополнительные сведения см. в разделе [Отключение сбора данных об использовании корпорацией Майкрософт](https://docs.microsoft.com/user-help/turn-off-microsoft-usage-data-collection-android). 
+> Если конечные пользователи отказываются от отправки этих данных, им необходимо отключить телеметрию в разделе "Параметры" приложения корпоративного портала. Дополнительные сведения см. в разделе [Отключение сбора данных об использовании корпорацией Майкрософт](https://docs.microsoft.com/mem/intune/user-help/turn-off-microsoft-usage-data-collection-android). 
 
 ## <a name="recommended-android-best-practices"></a>Рекомендации для Android
 

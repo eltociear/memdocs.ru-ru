@@ -6,7 +6,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 02/18/2020
+ms.date: 03/20/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f8ce60109cfd6117bc8c03916c334bc6fc6effa3
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: c3765794048de337100be0384b325f5288063121
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79343106"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086363"
 ---
 # <a name="add-wi-fi-settings-for-ios-and-ipados-devices-in-microsoft-intune"></a>Добавление параметров Wi-Fi для устройств iOS и iPadOS в Microsoft Intune
 
@@ -62,6 +62,9 @@ ms.locfileid: "79343106"
 - **SSID**. Обозначает **идентификатор беспроводной сети**. Это настоящее имя беспроводной сети, к которой будут подключаться устройства. Тем не менее при выборе подключения пользователи видят только имя сети, настроенное вами.
 - **Подключаться автоматически**. Выберите **Включить**, чтобы устройство автоматически подключалось к этой сети, когда находится в зоне ее действия. Выберите **Отключить**, чтобы запретить автоматическое подключение устройств.
 - **Скрытая сеть**. Выберите **Включить**, чтобы скрыть эту сеть в списке доступных сетей на устройстве. Идентификатор SSID не будет передаваться. Выберите **Отключить**, чтобы сеть отображалась в списке доступных сетей на устройстве.
+- **Тип безопасности**. Выберите протокол безопасности, который будет использоваться для проверки подлинности в сети Wi-Fi. Доступны следующие параметры:
+  - **WPA - Enterprise**;
+  - **WPA/WPA2 - Enterprise**;
 
 - **Тип EAP**. Выберите тип протокола расширенной проверки подлинности (EAP), используемый для проверки подлинности безопасных беспроводных подключений. Доступны следующие параметры:
 

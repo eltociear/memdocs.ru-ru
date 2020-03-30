@@ -1,30 +1,29 @@
 ---
 title: Добавление параметров VPN в Microsoft Intune для устройств в Azure | Документация Майкрософт
-description: Для устройств Android, Android Enterprise, iOS, iPadOS, macOS и Windows используйте встроенные параметры для создания подключений к виртуальной частной сети (VPN) в Microsoft Intune.
+description: Для администраторов устройств Android, Android для бизнеса, iOS, iPadOS, macOS и Windows используйте встроенные параметры для создания подключений к виртуальной частной сети (VPN) в Microsoft Intune.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 02/18/2020
+ms.date: 03/19/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
 ms.technology: ''
+ms.reviewer: tycast
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 453ce45c40370641f37527501a577876c9867acd
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 64356bf9be0c2c439c1f4fc296a9728a7937b001
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79364114"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086553"
 ---
 # <a name="create-vpn-profiles-to-connect-to-vpn-servers-in-intune"></a>Создание профилей VPN для подключения к VPN-серверам в Intune
-
-
 
 Виртуальная частная сеть (VPN) предоставляет пользователям безопасный удаленный доступ к сети организации. Устройства используют профиль VPN-подключения для установления подключения к VPN-серверу. Используйте **профили VPN** в Microsoft Intune, чтобы назначить параметры VPN пользователей и устройств в организации для обеспечения простого и безопасного подключения к сети организации.
 
@@ -44,62 +43,136 @@ ms.locfileid: "79364114"
 
 Вы можете создать профили VPN, используя следующие типы подключений.
 
-|Тип подключения|Платформа|
-|-|-|
-|Автоматически|быть под управлением ОС Windows 10;|
-|Check Point Capsule VPN|– Android<br/>– Рабочие профили Android для бизнеса<br/>— iOS/iPadOS<br/>– macOS<br/>– Windows 10<br/>– Windows 8.1<br/>– Windows Phone 8.1|
-|Cisco AnyConnect|– Android<br/>– Рабочие профили Android для бизнеса<br/>– владельцы устройств Android для бизнеса (полностью управляемых)<br/>— iOS/iPadOS<br/>– macOS|
-|Cisco (IPSec)|iOS/iPadOS|
-|Citrix SSO|– Android<br/>– Рабочие профили Android для бизнеса: Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)<br/>– Владельцы устройств Android для бизнеса (полностью управляемых) Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)<br/>— iOS/iPadOS<br/>– Windows 10|
-|Пользовательская сеть VPN|— iOS/iPadOS<br/>– macOS|
-|F5 Access|– Android<br/>– Рабочие профили Android для бизнеса<br/>– владельцы устройств Android для бизнеса (полностью управляемых)<br/>— iOS/iPadOS<br/>– macOS<br/>– Windows 10<br/>– Windows 8.1<br/>– Windows Phone 8.1|
-|IKEv2| — iOS/iPadOS<br/>– Windows 10|
-|L2TP|быть под управлением ОС Windows 10;|
-|Palo Alto Networks GlobalProtect|– Рабочие профили Android для бизнеса: Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)<br/>— iOS/iPadOS<br/>– Windows 10|
-|PPTP|быть под управлением ОС Windows 10;|
-|Pulse Secure|– Android<br/>– Рабочие профили Android для бизнеса<br/>– владельцы устройств Android для бизнеса (полностью управляемых)<br/>— iOS/iPadOS<br/>– macOS<br/>– Windows 10<br/>– Windows 8.1<br/>– Windows Phone 8.1|
-|SonicWall Mobile Connect|– Android<br/>– Рабочие профили Android для бизнеса<br/>— iOS/iPadOS<br/>– macOS<br/>– Windows 10<br/>– Windows 8.1<br/>– Windows Phone 8.1|
-|Zscaler|– Рабочие профили Android для бизнеса: Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)<br/>— iOS/iPadOS|
+- Автоматически
+  - быть под управлением ОС Windows 10;
+
+- Check Point Capsule VPN
+  - Администратор устройства с Android
+  - Рабочие профили Android Enterprise
+  - iOS/iPadOS
+  - MacOS
+  - быть под управлением ОС Windows 10;
+  - Windows 8.1
+  - Windows Phone 8.1
+
+- Cisco AnyConnect
+  - Администратор устройства с Android
+  - Рабочие профили Android Enterprise
+  - владельцы устройств Android для бизнеса (полностью управляемых).
+  - iOS/iPadOS
+  - MacOS
+
+- Cisco (IPSec)
+  - iOS/iPadOS
+
+- Citrix SSO
+  - Администратор устройства с Android
+  - Рабочие профили Android для бизнеса. Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)
+  - Владельцы устройств Android для бизнеса (полностью управляемых). Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)
+  - iOS/iPadOS
+  - быть под управлением ОС Windows 10;
+
+- Пользовательская сеть VPN
+  - iOS/iPadOS
+  - MacOS
+
+  Сведения о том, как создать настраиваемые профили VPN с помощью параметров URI, см. в [этой статье](custom-settings-configure.md).
+
+- F5 Access
+  - Администратор устройства с Android
+  - Рабочие профили Android Enterprise
+  - владельцы устройств Android для бизнеса (полностью управляемых).
+  - iOS/iPadOS
+  - MacOS
+  - быть под управлением ОС Windows 10;
+  - Windows 8.1
+  - Windows Phone 8.1
+
+- IKEv2
+  - iOS/iPadOS
+  - быть под управлением ОС Windows 10;
+
+- L2TP
+  - быть под управлением ОС Windows 10;
+
+- Palo Alto Networks GlobalProtect
+  - Рабочие профили Android для бизнеса. Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)
+  - iOS/iPadOS
+  - быть под управлением ОС Windows 10;
+
+- PPTP
+  - быть под управлением ОС Windows 10;
+
+- Pulse Secure
+  - Администратор устройства с Android
+  - Рабочие профили Android Enterprise
+  - владельцы устройств Android для бизнеса (полностью управляемых).
+  - iOS/iPadOS
+  - MacOS
+  - быть под управлением ОС Windows 10;
+  - Windows 8.1
+  - Windows Phone 8.1
+
+- SonicWall Mobile Connect
+  - Администратор устройства с Android
+  - Рабочие профили Android Enterprise
+  - iOS/iPadOS
+  - MacOS
+  - быть под управлением ОС Windows 10;
+  - Windows 8.1
+  - Windows Phone 8.1
+
+- Zscaler
+  - Рабочие профили Android для бизнеса. Используйте [политику настройки приложения](../apps/app-configuration-policies-use-android.md)
+  - iOS/iPadOS
 
 > [!IMPORTANT]
-> Перед использованием назначенных устройству профилей VPN необходимо установить приложение VPN, подходящее для профиля. Чтобы назначить приложение с помощью Intune, см. инструкции в статье [Что такое управление приложениями с помощью Microsoft Intune](../apps/app-management.md).  
+> Перед использованием назначенных устройству профилей VPN необходимо установить приложение VPN, подходящее для профиля. Сведения о назначении приложения с помощью Intune см. в статье [Что такое управление приложениями с помощью Microsoft Intune](../apps/app-management.md).  
 
-Чтобы узнать, как создать настраиваемые профили VPN с помощью параметров URI, см. [эту](custom-settings-configure.md) статью.
-
-## <a name="create-a-device-profile"></a>Создание профиля устройства
+## <a name="create-the-profile"></a>Создание профиля
 
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
 
-    - **Имя** — Введите описательное имя для нового профиля. Назначьте имена профилям, чтобы позже их можно было легко найти. Например, хорошее имя профиля — **Профиль VPN для всей компании**.
-    - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
     - **Платформа**. Выберите платформу устройств. Доступны следующие параметры:
-
-      - **Android**
+      - **Администратор устройства с Android**
       - **Android для бизнеса** > **Только владелец устройства**
       - **Android для бизнеса** > **Только рабочий профиль**
       - **iOS/iPadOS**
       - **macOS**
-      - **Windows Phone 8.1**
-      - **Windows 8.1 и более поздние версии**
       - **Windows 10 и более поздних версий**.
+      - **Windows 8.1 и более поздние версии**
+      - **Windows Phone 8.1**
+    - **Профиль**. Выберите **VPN**.
 
-    - **Тип профиля**. Выберите **VPN**.
+4. Щелкните **Создать**.
+5. В разделе **Основные** укажите следующие свойства.
 
-4. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Дополнительные сведения о параметрах для каждой платформы см. по ссылкам ниже.
+    - **Имя** — Введите описательное имя для нового профиля. Назначьте имена профилям, чтобы позже их можно было легко найти. Например, хорошее имя профиля — **Профиль VPN для всей компании**.
+    - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
 
-    - [Параметры Android](vpn-settings-android.md)
-    - [Параметры Android Enterprise](vpn-settings-android-enterprise.md)
-    - [Параметры iOS/iPadOS](vpn-settings-ios.md)
-    - [Параметры macOS](vpn-settings-macos.md)
-    - [Параметры Windows Phone 8.1](vpn-settings-windows-phone-8-1.md)
-    - [Параметры Windows 8.1](vpn-settings-windows-8-1.md)
-    - [Параметры Windows 10](vpn-settings-windows-10.md) (включая Windows Holographic for Business)
+6. Выберите **Далее**.
+7. В разделе **Параметры конфигурации** доступные для настройки параметры будут отличаться в зависимости от выбранной платформы. Выберите платформу для настройки дополнительных параметров:
 
-5. По завершении нажмите **ОК** > **Создать**, чтобы сохранить изменения.
+    - [Администратор устройства с Android](vpn-settings-android.md)
+    - [Android Enterprise](vpn-settings-android-enterprise.md)
+    - [iOS/iPadOS](vpn-settings-ios.md)
+    - [macOS](vpn-settings-macos.md)
+    - [Windows 10](vpn-settings-windows-10.md) (включая Windows Holographic for Business)
+    - [Windows 8.1](vpn-settings-windows-8-1.md)
+    - [Windows Phone 8.1](vpn-settings-windows-phone-8-1.md)
 
-Созданный профиль отобразится в списке профилей. Сведения о том, как назначить этот профиль группам, см. в статье о [назначении профилей устройств](device-profile-assign.md).
+8. Выберите **Далее**.
+9. В поле **Теги области** (необязательно) назначьте тег для фильтрации профиля по конкретным ИТ-группам, например `US-NC IT Team` или `JohnGlenn_ITDepartment`. Дополнительные сведения о тегах области см. в разделе [Использование RBAC и тегов области для распределенных ИТ-групп](../fundamentals/scope-tags.md).
+
+    Выберите **Далее**.
+
+10. В разделе **Назначения** выберите пользователей или группы, которые будут принимать ваш профиль. Дополнительные сведения о назначении профилей см. в статье [Назначение профилей пользователей и устройств](device-profile-assign.md).
+
+    Выберите **Далее**.
+
+11. В окне **Проверка и создание** проверьте параметры. При выборе **Создать** внесенные изменения сохраняются и назначается профиль. Политика также отображается в списке профилей.
 
 ## <a name="secure-your-vpn-profiles"></a>Защита профилей VPN
 
@@ -117,6 +190,6 @@ ms.locfileid: "79364114"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Профиль создан, но он пока ничего не делает. Далее нужно [назначить профиль](device-profile-assign.md) для устройств.
+Профиль создан, но он пока ничего не делает. Далее [назначьте профиль](device-profile-assign.md) устройствам и [отслеживайте их состояние](device-profile-monitor.md).
 
-Кроме того, вы можете создавать и использовать VPN для каждого приложения на устройствах [Android](android-pulse-secure-per-app-vpn.md) и [iOS/iPadOS](vpn-setting-configure-per-app.md).
+Кроме того, вы можете создавать и использовать VPN для каждого приложения на устройствах [администраторов Android или Android для бизнеса](android-pulse-secure-per-app-vpn.md) и [iOS/iPadOS](vpn-setting-configure-per-app.md).

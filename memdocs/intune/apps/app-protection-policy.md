@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/06/2020
+ms.date: 03/19/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, get-started, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f12ea7e320e3334d1925c8ab04905cd84ed56c82
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: c57a201d71d3a8278499636c6ca794b437e11e9a
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79341663"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80083801"
 ---
 # <a name="app-protection-policies-overview"></a>Общие сведения о политиках защиты приложений
 
@@ -205,6 +205,9 @@ Intune предлагает широкий набор возможностей, 
 В качестве примера рабочего ("корпоративного") контекста можно привести пользователя, который открывает приложение OneDrive с рабочей учетной записью. В рабочем контексте он не может перемещать файлы в личное хранилище. Позднее, когда этот пользователь откроет OneDrive с личной учетной записью, он может копировать и перемещать данные из своего личного хранилища OneDrive без ограничений.
 
 Outlook предоставляет объединенное представление электронной почты для личных и корпоративных сообщений. В этом случае приложение Outlook запрашивает ПИН-код для Intune при запуске.
+
+  >[!NOTE]
+  > Хотя Edge используется в корпоративном контексте, пользователь может намеренно перемещать файлы OneDrive в рамках этого контекста в неизвестное личное облачное хранилище. Чтобы избежать этого, см. руководство по [настройке списка разрешенных или заблокированных сайтов для Microsoft Edge](../apps/manage-microsoft-edge.md#specify-allowed-or-blocked-sites-list-for-microsoft-edge).
 
 Дополнительные сведения о поддержке нескольких удостоверений в Intune см. в [этой статье](apps-supported-intune-apps.md).
 

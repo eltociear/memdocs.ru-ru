@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 02/18/2020
+ms.date: 03/19/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,16 +16,14 @@ search.appverid: MET150
 ms.reviewer: maholdaa
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: befd2ba9894d8b5d4f7fac32a96d4ed4cae6337a
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: ab544d285e49fd3914a8e9867c35ad9ed97f5fe8
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79364257"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80087030"
 ---
 # <a name="android-enterprise-device-settings-to-configure-email-authentication-and-synchronization-in-intune"></a>Параметры устройства Android Enterprise для настройки электронной почты, проверки подлинности и синхронизации в Intune
-
-
 
 В этой статье перечислены и описаны параметры, которыми можно управлять на устройствах Android Enterprise. Как часть вашего решения управления мобильными устройствами (MDM) используйте эти параметры, чтобы настроить почтовый сервер, SSL, чтобы зашифровывать сообщения электронной почты, и многое другое.
 
@@ -35,16 +33,16 @@ ms.locfileid: "79364257"
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-Создайте [профиль конфигурации устройства](email-settings-configure.md#create-a-device-profile) (выберите рабочий профиль) или создайте [политику конфигурации приложений](../apps/app-configuration-policies-use-android.md).
+Создайте [профиль конфигурации устройства](email-settings-configure.md) (выберите рабочий профиль) или создайте [политику конфигурации приложений](../apps/app-configuration-policies-use-android.md).
 
 ## <a name="android-enterprise"></a>Android для бизнеса
 
-- **Приложение электронной почты.** Выберите либо **Gmail**, либо **Nine Work**.
-- **Почтовый сервер.** Имя узла сервера Exchange. Например, введите `outlook.office365.com`.
+- **Приложение электронной почты.** Выберите **Gmail** или **Nine Work**.
+- **Почтовый сервер.** Введите имя узла вашего сервера Exchange. Например, введите `outlook.office365.com`.
 - **Атрибут имени пользователя из AAD.** Это имя является атрибутом, который Intune получает из Azure Active Directory (Azure AD). Intune динамически формирует имя пользователя, которое используется для этого профиля. Доступны следующие параметры:
 
   - **Имя участника-пользователя.** Возвращает имя, например `user1` или `user1@contoso.com`.
-  - **Имя пользователя.** Возвращает только имя, например `user1`.
+  - **Имя пользователя**. Возвращает только имя, например `user1`.
 
 - **Атрибут адреса электронной почты из AAD.** Это имя является атрибутом, который Intune получает из AAD. Intune динамически создает имя пользователя, которое используется для этого профиля. Доступны следующие параметры:
   - **Имя участника-пользователя**.  В качестве адреса электронной почты используется полное имя субъекта (`user1@contoso.com` или `user1`).

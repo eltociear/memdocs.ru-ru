@@ -5,28 +5,28 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/20/2020
+ms.date: 03/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: ''
-ms.reviewer: karthib
+ms.reviewer: mikedano
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ade4842564188c457af94a22fe49d3d18d791ebb
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 420340e18eb4e638ed7bde049e6b548037c54f87
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79361878"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80087100"
 ---
 # <a name="apply-features-and-settings-on-your-devices-using-device-profiles-in-microsoft-intune"></a>Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune
 
-Microsoft Intune включает параметры и функции, которые можно включать или отключать на различных устройствах в вашей организации. Эти параметры и компоненты добавляются в "профили конфигурации". Вы можете создавать профили для различных устройств и платформ, включая iOS/iPadOS, Android и Windows. Затем используйте Intune, чтобы применить или назначить профиль устройствам.
+Microsoft Intune включает параметры и функции, которые можно включать или отключать на различных устройствах в вашей организации. Эти параметры и компоненты добавляются в "профили конфигурации". Вы можете создавать профили для разных устройств и платформ, включая iOS и iPadOS, устройств с администратором устройств Android, Android для бизнеса и Windows. Затем используйте Intune, чтобы применить или назначить профиль устройствам.
 
 Используйте эти профили конфигурации для выполнения различных задач в составе решения по управлению мобильными устройствами (MDM). Примеры профилей:
 
@@ -55,7 +55,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает: 
 
-- Android
+- Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
 - MacOS
@@ -69,7 +69,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- Android
+- Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
 - MacOS
@@ -108,7 +108,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- Android
+- Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
 - MacOS
@@ -143,7 +143,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает: 
 
-- Android
+- Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
 - Windows Phone 8.1
@@ -241,7 +241,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает: 
 
-- Android
+- Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
 - MacOS
@@ -255,7 +255,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает: 
 
-- Android
+- Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
 - MacOS
@@ -276,7 +276,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- Android (расширения мобильности)
+- Администратор устройства Android с расширениями Mobility
 
 ## <a name="manage-and-troubleshoot"></a>Управление и устранение неполадок
 

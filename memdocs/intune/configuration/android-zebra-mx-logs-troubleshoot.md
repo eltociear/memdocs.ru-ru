@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d8c7c60b4d9d1831aaabb9886345865234ce6351
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 607e2303cbec9ec7fc069db602d51684b71e6575
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79364621"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80083848"
 ---
 # <a name="troubleshoot-and-see-potential-issues-on-android-zebra-devices-in-microsoft-intune"></a>Устранение неполадок и просмотр потенциальных проблем на устройствах Android Zebra в Microsoft Intune
 
@@ -57,7 +57,7 @@ ms.locfileid: "79364621"
 На устройстве журналы хранятся в папке `/sdcard/Android/data/com.microsoft.windowsintune.companyportal/files`
 
 ### <a name="get-logs-from-email"></a>Получение журналов по электронной почте
-Чтобы получить журналы после развертывания профиля с помощью Intune, конечные пользователи могут отправить журналы по электронной почте с помощью почтового приложения на устройстве. На устройстве Zebra откройте приложение корпоративного портала и [отправьте журналы](https://docs.microsoft.com/user-help/send-logs-to-your-it-admin-by-email-android). При использовании функции отправки журналов также создается идентификатор инцидента PowerLift, на который можно сослаться при обращении в службу поддержки Майкрософт.
+Чтобы получить журналы после развертывания профиля с помощью Intune, конечные пользователи могут отправить журналы по электронной почте с помощью почтового приложения на устройстве. На устройстве Zebra откройте приложение корпоративного портала и [отправьте журналы](https://docs.microsoft.com/mem/intune/user-help/send-logs-to-your-it-admin-by-email-android). При использовании функции отправки журналов также создается идентификатор инцидента PowerLift, на который можно сослаться при обращении в службу поддержки Майкрософт.
 
 ## <a name="read-the-logs"></a>Чтение журналов
 
@@ -139,7 +139,7 @@ ms.locfileid: "79364621"
 
 Если службы Google Play недоступны, выполнение некоторых задач занимает до 8 часов. Статья [Ограничения приложения корпоративного портала Intune для Android](https://support.microsoft.com/help/3211588/limitations-of-intune-company-portal-app-for-android-in-china) (переход на другой веб-сайт Майкрософт) может оказаться полезным ресурсом при поиске соответствующей информации.
 
-### <a name="device-spoofing-suspected-shows-in-intune"></a>В Intune отображаются сведения о подозрении на спуфинг устройства
+### <a name="device-spoofing-suspected-shows-in-intune"></a>В Intune отображается сообщение о подозрении на спуфинг устройства
 
 Эта ошибка означает, что Intune подозревает, что устройство, которое не является устройством Android Zebra, сообщает о своей модели и изготовителе как об устройстве Zebra.
 

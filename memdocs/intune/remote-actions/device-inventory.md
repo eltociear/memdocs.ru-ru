@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: df00db079a7e6b73ba24dc612b5cb6b2250c3898
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 50c56cff5f6b58894ff1abb24dad397d7e6c2c1e
+ms.sourcegitcommit: cd2cbc23b8909df3a000d8ad4140e87052d6de5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79338192"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508480"
 ---
 # <a name="see-device-details-in-intune"></a>Просмотр сведений об устройствах в Intune
 
@@ -36,7 +36,7 @@ ms.locfileid: "79338192"
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Выберите **Устройства** > **Все устройства**, а затем одно из перечисленных устройств, чтобы открыть сведения о нем.
 
-   - В разделе **Обзор** отображается имя устройства и содержатся некоторые основные свойства, например зарегистрировано ли устройство в программе "Принеси свое устройство" (BYOD), когда именно оно зарегистрировано, а также многое другое. На устройстве можно выполнять следующие действия.
+   - В разделе **Обзор** отображаются имя, серийный номер устройства и некоторые основные сведения, включая сведения о принадлежности устройства (персональное или корпоративное), его основном пользователе и пр. На устройстве можно выполнять следующие действия.
       - [Прекратить использование](devices-wipe.md#retire)
       - [Очистка](devices-wipe.md#wipe)
       - [Удалить](devices-wipe.md#delete-devices-from-the-intune-portal)

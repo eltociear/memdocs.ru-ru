@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/09/2020
+ms.date: 03/17/2020
 ms.topic: troubleshooting
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,21 +18,21 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fe508dac691f922ec638709e04d6d4dd9f47f078
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: f58c20731395c95e532e28165553743fdef701e9
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79341702"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80083574"
 ---
 # <a name="review-client-app-protection-logs"></a>Просмотр журналов защиты клиентских приложений
 
 Дополнительные сведения о параметрах, которые можно просмотреть в журналах защиты приложений. Доступ к журналам можно получить, включив режим диагностики Intune в мобильном клиенте. 
 
 Процесс включения и сбора журналов зависит от платформы.
-- **Устройства iOS/iPadOS**. Для получения журналов используйте Microsoft Edge для iOS или iPadOS. Дополнительные сведения см. в разделе [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-on-ios-to-access-managed-app-logs). 
+- **Устройства iOS/iPadOS**. Для получения журналов используйте Microsoft Edge для iOS или iPadOS. Дополнительные сведения см. в разделе [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs). 
 - На **устройствах с ОС Windows 10** используйте *MDMDiag* и журналы событий. Ознакомьтесь со статьей [Diagnose MDM failures in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10) (Диагностика сбоев MDM в Windows 10) в материалах по управлению клиентом Windows и с блогом [Troubleshooting Windows 10 Intune Policy Failures](https://blogs.technet.microsoft.com/configmgrdogs/2018/08/09/troubleshooting-windows-10-intune-policy-failures/) (Устранение неполадок со сбоями политик Intune в Windows 10).
-- **Устройства Android**. Отсутствуют диагностические данные для политики защиты приложений на устройствах Android.
+- **Устройства Android**. Для сбора журналов используйте Microsoft Edge для Android. Дополнительные сведения см. в разделе [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs). 
 
 В таблице ниже перечислены имена параметров политики защиты приложений и поддерживаемые значения, которые записываются в журнал. Кроме того, все эти параметры определяют параметры политики, которые можно найти на портале диспетчера конечных точек Майкрософт. Подробные сведения о каждом параметре см. в [этой статье](app-protection-policy-settings-ios.md).
 

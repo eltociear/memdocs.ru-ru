@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 72e8f8a19ef27eee039090f146c46488ed1e1205
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 55660497751f1961c9c579ba1d800900189db782
+ms.sourcegitcommit: bbb63f69ff8a755a2f2d86f2ea0c5984ffda4970
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79350581"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79526467"
 ---
 # <a name="troubleshoot-device-to-ndes-server-communication-for-scep-certificate-profiles-in-microsoft-intune"></a>Устранение неполадок при обмене данными между устройствами и сервером NDES для профилей сертификатов SCEP в Microsoft Intune
 
@@ -243,6 +243,19 @@ debug    18:30:55.487908 -0500    profiled    Performing synchronous URL request
 
   ![Разрешения IIS](../protect/media/troubleshoot-scep-certificate-device-to-ndes/iis-permissions.png)
 
+- **Причина 4**. Срок действия сертификата модуля NDESPolicy истек.
+
+  В журнале CAPI2 (см. решение для причины 2) отобразятся сообщения об ошибках, связанных с сертификатом, на который ссылается раздел реестра "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP\Modules\NDESPolicy\NDESCertThumbprint" за пределами срока действия сертификата.
+
+  **Решение**. Обновите ссылку, указав отпечаток действительного сертификата.
+  1. Укажите сертификат для замены:
+     - Продлите имеющийся сертификат.
+     - Выберите другой сертификат с аналогичным свойством (тема, EKU, тип и длина ключа и т. п.).
+     - Зарегистрируйте новый сертификат.
+  2. Экспортируйте раздел реестра `NDESPolicy`, чтобы создать резервную копию текущих значений.
+  3. Замените данные значения реестра `NDESCertThumbprint` на отпечаток нового сертификата. Не забудьте удалить все пробелы и преобразовать текст в нижний регистр.
+  4. Перезапустите пулы приложений службы IIS сервера NDES или воспользуйтесь командой `iisreset` из командной строки с повышенными правами.
+
 #### <a name="gatewaytimeout"></a>GatewayTimeout
 
 При переходе по URL-адресу сервера SCEP появляется следующее сообщение об ошибке:
@@ -289,7 +302,7 @@ debug    18:30:55.487908 -0500    profiled    Performing synchronous URL request
 
   **Решение**. Используйте домен по умолчанию *yourtenant.msappproxy.net* для внешнего URL-адреса SCEP в конфигурации прокси приложения.
 
-#### <a name="internal-server-error"></a>500 — внутренняя ошибка сервера
+#### <a name="500---internal-server-error"></a><a name="internal-server-error"></a>500 — внутренняя ошибка сервера
 
 При переходе по URL-адресу сервера SCEP появляется следующее сообщение об ошибке:
 

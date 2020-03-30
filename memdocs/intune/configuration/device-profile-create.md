@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 02/18/2020
+ms.date: 03/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4b706ea076ebcc239904a9ae918389ccafa287ec
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 462f9ca9618d16c0291792f86d00c46f641c6cc8
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79339960"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084059"
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
@@ -52,7 +52,7 @@ ms.locfileid: "79339960"
    - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
    - **Платформа**. Выберите платформу устройств. Доступны следующие параметры:  
 
-       - **Android**
+       - **Администратор устройства с Android**
        - **Android для бизнеса**
        - **iOS/iPadOS**
        - **macOS**
@@ -68,12 +68,14 @@ ms.locfileid: "79339960"
        - [Оптимизация доставки](delivery-optimization-windows.md)
        - [Возможности устройств](device-features-configure.md)
        - [Ограничения устройств](device-restrictions-configure.md)
+       - [Присоединение к домену](domain-join-configure.md)
        - [Обновление выпуска и переключение режима](edition-upgrade-configure-windows-10.md)
        - [Образование](education-settings-configure.md)
        - [Электронная почта](email-settings-configure.md)
        - [Защита конечных точек](../protect/endpoint-protection-configure.md)
        - [Защита идентификации](../protect/identity-protection-configure.md)  
        - [Киоск](kiosk-settings.md)
+       - [ATP в Защитнике Майкрософт](../protect/advanced-threat-protection.md)
        - [Сертификат PKCS](../protect/certficates-pfx-configure.md)
        - [Импортированный сертификат PKCS](../protect/certificates-imported-pfx-configure.md)
        - [Файл предпочтений](preference-file-settings-macos.md)
@@ -82,12 +84,12 @@ ms.locfileid: "79339960"
        - [Политики обновления](../protect/software-updates-ios.md)
        - [VPN](vpn-settings-configure.md)
        - [Wi-Fi](wi-fi-settings-configure.md)
-       - [ATP в Защитнике Майкрософт](../protect/advanced-threat-protection.md)
        - [Windows Information Protection](../protect/windows-information-protection-configure.md)
 
      Например, если вы выберете **iOS/iPadOS** в качестве платформы, параметры профиля будут выглядеть следующим образом:
 
-     ![Создайте профиль iOS/iPadOS в Intune](./media/device-profile-create/create-device-profile.png)
+     > [!div class="mx-imgBorder"]
+     > ![Создание профиля iOS/iPadOS в Intune](./media/device-profile-create/create-device-profile.png)
 
 4. Когда закончите, нажмите **Добавить** > **OK**, чтобы сохранить изменения. Созданный вами профиль отобразится в списке.
 
@@ -138,7 +140,8 @@ ms.locfileid: "79339960"
 
 1. Выберите **Правила применимости**. Можно выбрать **правило**, **свойство** и **выпуск ОС**:
 
-    ![Добавление правила применимости в профиль конфигурации устройства в Microsoft Intune](./media/device-profile-create/applicability-rules.png)
+    > [!div class="mx-imgBorder"]
+    > ![Добавление правила применимости в профиль конфигурации устройства в Microsoft Intune](./media/device-profile-create/applicability-rules.png)
 
 2. В поле **Правило** выберите, следует ли включать или исключать пользователей или группы. Доступны следующие параметры:
 
@@ -184,7 +187,8 @@ Intune использует разные циклы обновления для 
 
   На следующем рисунке показан пример параметра, который может применяться к пользователям и (или) устройствам:
 
-  ![Административный шаблон Intune, который применяется к пользователям и устройствам](./media/device-profile-create/setting-applies-to-user-and-device.png)
+  > [!div class="mx-imgBorder"]
+  > ![Административный шаблон Intune, который применяется к пользователям и устройствам](./media/device-profile-create/setting-applies-to-user-and-device.png)
 
 - Каждый раз при создании ограничительной политики вам потребуется донести ее смысл до пользователей. Например, если вы изменяете требование к секретному коду с 4 символов на 6, сообщите пользователям об этом до назначения политики.
 

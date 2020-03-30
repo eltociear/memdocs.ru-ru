@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/04/2019
+ms.date: 03/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,16 +17,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: eaaa9095becbcac7840d5babc2a099e7ec84af03
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: dbb8e5644390c589756af5a69f2fdd5a829866a1
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79362021"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80084004"
 ---
 # <a name="use-and-manage-zebra-devices-with-zebra-mobility-extensions-in-microsoft-intune"></a>Использование устройств Zebra с Zebra Mobility Extensions и управление ими в Microsoft Intune
-
-
 
 Intune содержит широкий набор компонентов, включая управление приложениями и настройку параметров устройств. Эти встроенные компоненты и параметры используются для управления устройствами Android, произведенными компанией Zebra Technologies, также известными как "устройства Zebra".
 
@@ -36,7 +34,9 @@ Intune содержит широкий набор компонентов, вкл
 
 Данная функция применяется к:
 
-- Android
+- Администратор устройства с Android
+
+Для устройств Android Enterprise используйте [OEMConfig](android-oem-configuration-overview.md).
 
 Ваша компания может использовать устройства Zebra для розничной торговли, на заводской площадке и тому подобное. Например, вы занимаетесь розничной торговлей, и ваша среда насчитывает тысячи мобильных устройств Zebra, которыми пользуются продавцы-консультанты. Intune помогает управлять этими устройствами в рамках решения для управления мобильными устройствами.
 
@@ -139,7 +139,7 @@ Intune содержит широкий набор компонентов, вкл
 
     - **Имя** — Введите описательное имя для нового профиля.
     - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
-    - **Платформа**. Выберите **Android**.
+    - **Платформа**. Выберите элемент **Администратор устройств Android**.
     - **Тип профиля**. Выберите **Профиль MX (только Zebra)** .
 
 4. В области **Профиль MX в формате XML** добавьте XML-файл профиля, [экспортированный из StageNow](#step-4-create-a-device-management-profile-in-stagenow) (в этой статье).

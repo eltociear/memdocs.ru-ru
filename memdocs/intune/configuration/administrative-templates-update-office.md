@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 10/17/2019
+ms.date: 03/23/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6ba140f9d49cbdfbada0cb992b333a690cbb4a85
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: fcf2139019b1f4d764b55ee31f5961711a71834c
+ms.sourcegitcommit: 795e8a6aca41e1a0690b3d0d55ba3862f8a683e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79350256"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80219883"
 ---
 # <a name="use-update-channel-and-target-version-settings-to-update-office-365-with-microsoft-intune-administrative-templates"></a>Использование параметров канала обновления и целевой версии для обновления Office 365 с помощью административных шаблонов Microsoft Intune
 
@@ -39,13 +39,15 @@ ms.locfileid: "79350256"
 
 Не забудьте [включить автоматические обновления Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/configure-update-settings-for-office-365-proplus) для приложений Office. Это можно сделать с помощью групповой политики или шаблона Intune Office 2016 ADMX:
 
-![Настройка параметра "Включить автоматическое обновление" для Office в административном шаблоне Intune](./media/administrative-templates-update-office/admx-enable-automatic-updates.png)
+> [!div class="mx-imgBorder"]
+> ![Настройка параметра "Включить автоматическое обновление" для Office в административном шаблоне Intune](./media/administrative-templates-update-office/admx-enable-automatic-updates.png)
 
 ## <a name="set-the-update-channel-in-the-intune-administrative-template"></a>Настройка канала обновления в административном шаблоне Intune
 
-1. В [административном шаблоне Intune](administrative-templates-windows.md#create-a-template) перейдите к параметру **Канал обновления** и введите нужный канал. Например, выберите `Semi-Annual Channel`:
+1. В [административном шаблоне Intune](administrative-templates-windows.md#create-the-template) перейдите к параметру **Канал обновления** и введите нужный канал. Например, выберите `Semi-Annual Channel`:
 
-    ![Настройка параметра "Канал обновления" для Office в административном шаблоне Intune](./media/administrative-templates-update-office/admx-enable-update-channel-setting.png)
+    > [!div class="mx-imgBorder"]
+    > ![Настройка параметра "Канал обновления" для Office в административном шаблоне Intune](./media/administrative-templates-update-office/admx-enable-update-channel-setting.png)
 
     > [!NOTE]
     > Рекомендуется выполнять обновление чаще. Канал обновления раз в полгода используется только в качестве примера.
@@ -53,7 +55,7 @@ ms.locfileid: "79350256"
 2. Не забудьте [назначить политику](device-profile-assign.md) для устройств с Windows 10. Чтобы протестировать политику раньше, вы также можете синхронизировать ее следующим образом:
 
     - [синхронизация политики в Intune](../remote-actions/device-sync.md);
-    - [синхронизация политики на устройстве вручную](https://docs.microsoft.com/user-help/sync-your-device-manually-windows#sync-from-settings-app).
+    - [синхронизация политики на устройстве вручную](https://docs.microsoft.com/mem/intune/user-help/sync-your-device-manually-windows#sync-from-settings-app).
 
 ## <a name="check-the-intune-registry-keys"></a>Проверка разделов реестра Intune
 
@@ -72,7 +74,8 @@ ms.locfileid: "79350256"
 
     В следующем примере видно, что `L_UpdateBranch` имеет значение `<enabled /><data id="L_UpdateBranchID" value="Deferred" />`. Это значение означает, что для него задан канал Semi-Annual Channel:
 
-    ![Пример раздела реестра L_Updatebranch административного шаблона](./media/administrative-templates-update-office/admx-update-branch-registry-key.png)
+    > [!div class="mx-imgBorder"]
+    > ![Пример раздела реестра L_Updatebranch административного шаблона](./media/administrative-templates-update-office/admx-update-branch-registry-key.png)
 
     > [!TIP]
     > В статье [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates#bkmk_channel) (Управление Office 365 профессиональный плюс с помощью Configuration Manager) содержится список значений и их описание. Значения реестра основаны на выбранном канале распространения:
@@ -99,7 +102,8 @@ ms.locfileid: "79350256"
 
     В следующем примере показано, что `UpdateChannel` имеет значение `http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60` (**ежемесячно**):
 
-    ![Пример раздела реестра Office UpdateChannel административного шаблона](./media/administrative-templates-update-office/admx-update-channel-office-registry-key.png)
+    > [!div class="mx-imgBorder"]
+    > ![Пример раздела реестра Office UpdateChannel административного шаблона](./media/administrative-templates-update-office/admx-update-channel-office-registry-key.png)
 
     Этот пример означает, что политика еще не применена, так как по-прежнему установлено значение **ежемесячно**, а не **на полгода**.
 
@@ -120,7 +124,8 @@ ms.locfileid: "79350256"
     2. Разверните узел **Библиотека планировщика задач** > **Microsoft** > **Office**.
     3. Выберите **Office Automatic Updates 2.0** (Автоматическое обновление Office 2.0) > **Запустить**:
 
-        ![Открытие планировщика задач и запуск задачи автоматического обновления Office](./media/administrative-templates-update-office/admx-task-scheduler-office-automatic-updates.png)
+        > [!div class="mx-imgBorder"]
+        > ![Открытие планировщика задач и запуск задачи автоматического обновления Office](./media/administrative-templates-update-office/admx-task-scheduler-office-automatic-updates.png)
 
         Дождитесь завершения задачи. Это может занять несколько минут.
 
@@ -138,11 +143,12 @@ ms.locfileid: "79350256"
 
 1. Убедитесь, что версия Office поддерживает выбранный вами канал обновления. В статье [Журнал обновлений для Office 365 профессиональный плюс (перечислены по дате)](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date) перечислены номера сборок, которые поддерживают различные каналы обновления.
 
-2. В [административном шаблоне Intune](administrative-templates-windows.md#create-a-template) перейдите к параметру **Целевая версия** и введите нужную версию.
+2. В [административном шаблоне Intune](administrative-templates-windows.md#create-the-template) перейдите к параметру **Целевая версия** и введите нужную версию.
 
     Параметр **Целевая версия** выглядит следующим образом:
 
-    ![Настройка параметра "Целевая версия" для Office в административном шаблоне Intune](./media/administrative-templates-update-office/admx-enable-target-version-setting.png)
+    > [!div class="mx-imgBorder"]
+    > ![Настройка параметра "Целевая версия" для Office в административном шаблоне Intune](./media/administrative-templates-update-office/admx-enable-target-version-setting.png)
 
 > [!IMPORTANT]
 >
@@ -167,7 +173,8 @@ ms.locfileid: "79350256"
       1. На устройстве перейдите в расположение `C:\Program Files (x86)\Microsoft Office\Updates\Detection\Version`.
       2. Откройте файл `VersionDescriptor.xml` и перейдите к разделу `<Version>`. Доступная версия должна совпадать с версией, введенной в политике Intune, например:
 
-          ![Проверка раздела версии в XML-файле дескриптора версий Office](./media/administrative-templates-update-office/office-version-descriptor-xml-example.png)
+          > [!div class="mx-imgBorder"]
+          > ![Проверка раздела версии в XML-файле дескриптора версий Office](./media/administrative-templates-update-office/office-version-descriptor-xml-example.png)
 
 4. После установки обновления приложение Office должно отобразить новую версию (например, в меню **Учетная запись**).
 

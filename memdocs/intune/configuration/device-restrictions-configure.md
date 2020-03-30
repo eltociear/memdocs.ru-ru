@@ -1,11 +1,11 @@
 ---
 title: Ограничение возможностей устройств с помощью политики в Microsoft Intune — Azure | Документация Майкрософт
-description: Добавление профиля устройства для ограничения функций на устройствах Android, macOS, iOS, iPadOS, Windows Phone и Windows 10 в Microsoft Intune
+description: Добавление профиля устройства для ограничения функций на устройствах с администратором устройств Android, Android для бизнеса, Android, macOS, iOS, iPadOS, Windows Phone и Windows 10 в Microsoft Intune.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 02/18/2020
+ms.date: 03/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,16 +15,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 28cf0b8bffc06a0b5a56165c1e9eeab780c453c7
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 7f1e421a344122dbd4cf59a49ea56ef0ba2bb125
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79361826"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80087086"
 ---
 # <a name="configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений устройств в Microsoft Intune
-
-
 
 Intune включает политики ограничения устройств, которые помогают администраторам контролировать устройства Android, iOS/iPadOS, macOS и Windows. Эти ограничения позволяют контролировать широкий спектр параметров и функций для защиты ресурсов организации. Например, администраторы могут:
 
@@ -48,7 +46,7 @@ Intune включает политики ограничения устройст
     - **Описание**. Введите описание политики. Этот параметр является необязательным, но мы рекомендуем его использовать.
     - **Платформа**. Выберите платформу устройств. Доступны следующие параметры:  
 
-        - **Android**
+        - **Администратор устройства с Android**
         - **Android для бизнеса**
         - **iOS/iPadOS**
         - **macOS**
@@ -62,7 +60,7 @@ Intune включает политики ограничения устройст
 
 4. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Выберите платформу для настройки дополнительных параметров:
 
-    - [Параметры Android](device-restrictions-android.md)
+    - [Параметры администратора устройства Android](device-restrictions-android.md)
     - [Параметры Android для бизнеса](device-restrictions-android-for-work.md)
     - [Параметры iOS/iPadOS](device-restrictions-ios.md)
     - [Параметры macOS](device-restrictions-macos.md)

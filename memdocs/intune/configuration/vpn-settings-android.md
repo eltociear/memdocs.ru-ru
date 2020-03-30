@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 02/18/2020
+ms.date: 03/19/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d31d83aff2bc2dc6c0c62c46220bf73b430a912c
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 8b43b9671767a2d67bb98db6150799d266fe9fa6
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79360474"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086563"
 ---
 # <a name="android-device-settings-to-configure-vpn-in-intune"></a>Параметры устройства Android для настройки VPN в Intune
 
@@ -32,7 +32,7 @@ ms.locfileid: "79360474"
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-[Создайте профиль конфигурации устройства](vpn-settings-configure.md#create-a-device-profile) и выберите **Android**.
+[Создайте профиль конфигурации устройства](vpn-settings-configure.md) и выберите **Android (администратор устройств)** .
 
 ## <a name="base-vpn"></a>Базовые настройки VPN
 
@@ -53,7 +53,7 @@ ms.locfileid: "79360474"
   - **Pulse Secure**
   - **Citrix SSO**
 
-- **Отпечаток** (только Check Point Capsule VPN). Укажите строку (например, **Contoso Fingerprint Code**), которая будет использоваться для проверки надежности VPN-сервера. Клиенту отправляется отпечаток пальца, чтобы клиент мог доверять любому серверу, имеющему такой же отпечаток. Если на устройстве еще нет отпечатка, пользователь получит запрос на доверие к VPN-серверу с отображением отпечатка. Пользователь должен вручную проверить отпечаток и нажать кнопку "Доверять" для подключения.
+- **Отпечаток** (только Check Point Capsule VPN). Укажите строку (например, **Contoso Fingerprint Code**), которая будет использоваться для проверки надежности VPN-сервера. Клиенту отправляется отпечаток пальца, чтобы клиент мог доверять любому серверу, имеющему такой же отпечаток. Если на устройстве еще нет отпечатка, пользователь получит запрос на подтверждение доверия к VPN-серверу с отображением отпечатка. Пользователь должен вручную проверить отпечаток и нажать кнопку "Доверять" для подключения.
 - **Введите пары "ключ — значение" для атрибутов Citrix VPN** (только Citrix). Введите пары "ключ — значение", предоставленные Citrix. Эти значения настраивают свойства VPN-подключения. 
 
   Можно также **импортировать** файл с разделителями-запятыми (CSV), содержащий пары ключей и значений. Проверьте, заданы ли свойства **Мои данные имеют заголовки** и **Ключ**.

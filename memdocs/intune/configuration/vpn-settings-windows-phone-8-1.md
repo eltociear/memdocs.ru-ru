@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 12/19/2019
+ms.date: 03/19/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,16 +15,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fcaa3d4dc27f1791db77b70513968eeda51c668d
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: df05c4b1a7a5ee3f30d33e40620a8a116f508333
+ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79363906"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80086484"
 ---
 # <a name="add-vpn-settings-on-windows-phone-81-devices-in-microsoft-intune"></a>Добавление параметров VPN для устройств Windows Phone 8.1 в Microsoft Intune
-
-
 
 Сведения о параметрах Intune, используемых для настройки VPN-подключений на устройствах Windows Phone 8.1. 
 
@@ -32,6 +30,10 @@ ms.locfileid: "79363906"
 
 >[!IMPORTANT]
 >Профили VPN на устройствах Windows Phone 8.1 также применяются к устройствам Windows 10.
+
+## <a name="before-you-begin"></a>Подготовка к работе
+
+[Создайте профиль конфигурации устройства VPN](vpn-settings-configure.md).
 
 ## <a name="base-vpn-settings"></a>Основные параметры VPN
 
@@ -51,7 +53,7 @@ ms.locfileid: "79363906"
 - **Обходить VPN в сети Wi-Fi компании**. Включите этот параметр, чтобы указать, что VPN-подключение не должно использоваться, когда устройство подключено к сети Wi-Fi компании.
 - **Обходить VPN в домашней сети Wi-Fi**. Включите этот параметр, чтобы указать, что VPN-подключение не должно использоваться, когда устройство подключено к домашней сети Wi-Fi.
 
-- **Тип подключения**. Выберите тип VPN-подключения из этого списка поставщиков:
+- **Тип подключения**. Выберите тип VPN-подключения. Доступны следующие параметры:
   - **Check Point Capsule VPN**;
   - **SonicWall Mobile Connect**;
   - **F5 Edge Client**
@@ -91,7 +93,7 @@ ms.locfileid: "79363906"
 
   Дополнительные сведения о написании пользовательских команд XML см. в документации по VPN каждого производителя.
 
-- **Раздельное туннелирование**. Выберите значение **Включить** или **Отключить**. Этот параметр позволяет устройствам выбирать нужное подключение в зависимости от трафика. Например, пользователь в отеле использует VPN-подключение для доступа к рабочим файлам, а стандартную сеть отеля — для обычного просмотра веб-страниц.
+- **Раздельное туннелирование**. Выберите значение **Включить**, чтобы разрешить устройствам выбирать нужное подключение в зависимости от трафика. Например, пользователь в отеле использует VPN-подключение для доступа к рабочим файлам, а стандартную сеть отеля — для обычного просмотра веб-страниц. Если требуется, чтобы весь трафик использовал VPN-туннель при активном VPN-подключении, выберите значение **Отключить**.
 
 ## <a name="proxy-settings"></a>Параметры прокси-сервера
 
