@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 83107121b05b2126e4c6b2b377baf57ee069f917
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 893981700ede9587a980faa0e4d6b0384c24e3d4
+ms.sourcegitcommit: e7fb8cf2ffce29548b4a33b2a0c33a3a227c6bc4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79343990"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80401485"
 ---
 # <a name="quickstart-try-microsoft-intune-for-free"></a>Краткое руководство. Бесплатная пробная версия Microsoft Intune
 
@@ -64,7 +64,7 @@ Intune предоставляет надежную облачную службу
 
 Если вы еще не вошли на портал, выполните следующие действия:
 
-1. Откройте новое окно браузера и введите в адресной строке **https://devicemanagement.microsoft.com** . 
+1. Откройте новое окно браузера и введите в адресной строке **https://endpoint.microsoft.com** . 
 2. Используйте идентификатор пользователя, приведенный в шагах выше, чтобы войти в систему ( *yourID@yourdomain* .onmicrosoft.com).
 
     ![Изображение страницы входа на портал](./media/free-trial-sign-up/azure-portal-signin.png)
@@ -126,7 +126,7 @@ Intune предоставляет надежную облачную службу
 ## <a name="admin-experiences"></a>Интерфейс администратора
 
 Есть два портала, которые вы будете использовать наиболее часто:
-- Центр администрирования Microsoft Endpoint Manager ([https://devicemanagement.microsoft.com/](https://devicemanagement.microsoft.com/)) — здесь можно просматривать [возможности Intune](what-is-intune.md). Это место, где администратор будет работать с Intune.
+- Центр администрирования Microsoft Endpoint Manager ([https://endpoint.microsoft.com/](https://endpoint.microsoft.com/)) — здесь можно просматривать [возможности Intune](what-is-intune.md). Это место, где администратор будет работать с Intune.
 - Центр администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)) позволяет вам добавлять пользователей и управлять ими, если для этого не используется Azure Active Directory. Здесь также можно управлять и другими функциями учетной записи, включая выставление счетов и предоставление поддержки.
 
 ## <a name="next-steps"></a>Дальнейшие шаги

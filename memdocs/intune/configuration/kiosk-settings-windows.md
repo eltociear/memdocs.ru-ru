@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1750ff93f0896e620af243d96914caa428e37a4a
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 69432082c199152b18b2afa95fd8351917d9bba9
+ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79360812"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80359232"
 ---
 # <a name="windows-10-and-later-device-settings-to-run-as-a-kiosk-in-intune"></a>Настройка параметров устройства Windows 10 (и более поздних версий) для запуска в качестве киоска в Intune
 
@@ -196,6 +196,6 @@ ms.locfileid: "79360812"
 
 [Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
-Вы также можете создать профили киоска для устройств [Android](device-restrictions-android.md#kiosk), [Android Enterprise](device-restrictions-android-for-work.md#dedicated-device-settings) и [Windows Holographic for Business](kiosk-settings-holographic.md).
+Вы также можете создать профили киоска для устройств [Android](device-restrictions-android.md#kiosk), [Android Enterprise](device-restrictions-android-for-work.md#dedicated-devices) и [Windows Holographic for Business](kiosk-settings-holographic.md).
 
 См. также [Настройка киоска с одним приложением](https://docs.microsoft.com/windows/configuration/kiosk-single-app) или [Настройка киоска с несколькими приложениями](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps) в руководстве Windows.

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5011e24064c4c546107f950925d12489ed9113c9
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 6095c079c6b5cb6f132d9963e3e7413e97180d70
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79340610"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80324587"
 ---
 # <a name="include-and-exclude-app-assignments-in-microsoft-intune"></a>Включение и исключение назначений приложений в Microsoft Intune
 
@@ -90,7 +90,7 @@ ms.locfileid: "79340610"
 
 Чтобы изменить назначения, выберите в списке **Назначения** строку с конкретным назначением, которое вы хотите изменить. Кроме того, вы можете удалить назначение, щелкнув многоточие ( **…** ) в конце строки и выбрав действие **Удалить**. Чтобы изменить представление списка **Назначения**, сгруппируйте его по параметру **Тип назначения** или состоянию **Включено/Исключено**.
 
-![Назначение приложений Intune — завершение](/media/apps-inc-exl-assignments/apps-inc-exl-05.png)
+![Назначение приложений Intune — завершение](./media/apps-inc-exl-assignments/apps-inc-exl-05.png)
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

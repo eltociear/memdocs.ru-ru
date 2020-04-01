@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1598be8f5f54f1f509194aed0232730bd821624b
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 8583c625277735d653143f5cf87c56c350bdc1ff
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79357120"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80326708"
 ---
 # <a name="use-policy-sets-to-group-collections-of-management-objects"></a>Используйте наборы политик для группировки коллекций объектов управления
 
@@ -63,7 +63,7 @@ ms.locfileid: "79357120"
     - **Имя набора политик**. Укажите имя для этого набора политик.
     - **Описание**. Введите описание набора политик (необязательно).
    <p>
-   <img alt="Create policy set - Basics" src="/media/policy-sets/policy-sets-01.png">
+      <img alt="Create policy set - Basics" src="./media/policy-sets/policy-sets-01.png">
 
 4. Нажмите кнопку **Далее. Управление приложениями**.<br>
    На странице **Управление приложениями** можно дополнительно [добавить приложения](../apps/apps-add.md), [политики конфигурации приложений](../apps/app-configuration-policies-overview.md) и [политики защиты приложений](../apps/app-protection-policy.md) в набор политик. Дополнительные сведения об управлении приложениями см. в разделе [Что такое управление приложениями с помощью Microsoft Intune?](../apps/app-management.md).

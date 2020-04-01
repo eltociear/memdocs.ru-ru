@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ed8acbcbe550ffd0a3a3f94e07d5752489ae8be6
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 89d9fce6579b0fdf89299e342969f647c457cc84
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79340935"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80324827"
 ---
 # <a name="configure-google-chrome-for-android-devices-using-intune"></a>Настройка Google Chrome для устройств Android с помощью Intune 
 
@@ -40,7 +40,7 @@ ms.locfileid: "79340935"
 2. Выберите **Приложения** > **Все приложения** > **Добавить**, затем добавьте приложение **Управляемый Google Play**.
 3. Перейдите в раздел Управляемый Google Play, выполните поиск с помощью **Google Chrome** и утвердите.
 
-    ![Поиск и утверждение Google Chrome](/media/apps-configure-chrome-android/search.png)
+    ![Поиск и утверждение Google Chrome](./media/apps-configure-chrome-android/search.png)
 
 4. Назначьте Google Chrome группе пользователей в качестве требуемого типа приложения. Google Chrome будет автоматически развернут при регистрации устройства в Intune.
 
@@ -55,15 +55,15 @@ ms.locfileid: "79340935"
     - **Тип регистрации устройства** — этот параметр имеет значение **Управляемые устройства**.
     - **Платформа**. Выберите **Android**.
 
-    ![Добавление политики конфигурации Google Chrome](/media/apps-configure-chrome-android/add-policy.png)
+    ![Добавление политики конфигурации Google Chrome](./media/apps-configure-chrome-android/add-policy.png)
 
 3. Щелкните **Связанное приложение**, чтобы отобразить область **Связанное приложение**. Найдите и выберите **Google Chrome**. Этот список содержит [приложения в управляемом Google Play, которые были утверждены и синхронизированы в Intune](apps-add-android-for-work.md).
 
-    ![Выбор Google Chrome в разделе "Связанное приложение"](/media/apps-configure-chrome-android/associated-app.png)
+    ![Выбор Google Chrome в разделе "Связанное приложение"](./media/apps-configure-chrome-android/associated-app.png)
 
 4. Щелкните **Параметры конфигурации**, выберите **Применить конструктор конфигураций**, а затем щелкните **Добавить**, чтобы выбрать ключи конфигурации.
 
-    ![Добавьте "Использовать конструктор конфигурации"](/media/apps-configure-chrome-android/configuration.png)
+    ![Добавьте "Использовать конструктор конфигурации"](./media/apps-configure-chrome-android/configuration.png)
 
     Ниже приведен пример общих параметров.
     - **Блокировать доступ к списку URL-адресов** : `["*"]`
@@ -73,7 +73,7 @@ ms.locfileid: "79340935"
 
     После добавления параметров конфигурации с помощью конструктора конфигураций они будут перечислены в таблице. 
 
-    ![Общие параметры](/media/apps-configure-chrome-android/common-settings.png)
+    ![Общие параметры](./media/apps-configure-chrome-android/common-settings.png)
 
     Указанные выше параметры создают закладки и блокируют доступ ко всем URL-адресам, кроме `baidu.com`, `yahoo.com`, `chromium.org` и `chrome://`.
 
@@ -84,31 +84,31 @@ ms.locfileid: "79340935"
 
 После регистрации устройства Android в Android для бизнеса управляемое приложение Google Chrome со значком портфеля будет развернуто автоматически.
 
-   <img alt="Managed Google Chrome with the portfolio icon" src="/media/apps-configure-chrome-android/chrome-icon.png" width="350">
+   <img alt="Managed Google Chrome with the portfolio icon" src="./media/apps-configure-chrome-android/chrome-icon.png" width="350">
 
 Запустите Google Chrome, и вы увидите примененные параметры.
 
    Закладки:<br>
-   <img alt="Bookmarks" src="/media/apps-configure-chrome-android/bookmarks.png" width="350">
+   <img alt="Bookmarks" src="./media/apps-configure-chrome-android/bookmarks.png" width="350">
 
    Заблокированный URL-адрес:<br>
-   <img alt="Blocked URL" src="/media/apps-configure-chrome-android/blocked-url.png" width="350">
+   <img alt="Blocked URL" src="./media/apps-configure-chrome-android/blocked-url.png" width="350">
 
    Разрешить URL-адрес:<br>
-   <img alt="Allow URL" src="/media/apps-configure-chrome-android/allowed-url.png" width="350">
+   <img alt="Allow URL" src="./media/apps-configure-chrome-android/allowed-url.png" width="350">
 
    Вкладка в режиме инкогнито:<br>
-   <img alt="Incognito tab" src="/media/apps-configure-chrome-android/incognito-tab.png" width="350">
+   <img alt="Incognito tab" src="./media/apps-configure-chrome-android/incognito-tab.png" width="350">
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
 1. Проверяйте портал Intune, чтобы отслеживать состояние развертывания политики.
 
-    ![Мониторинг состояния развертывания политики](/media/apps-configure-chrome-android/monitor-status.png)
+    ![Мониторинг состояния развертывания политики](./media/apps-configure-chrome-android/monitor-status.png)
 
 2. Запустите Google Chrome и посетите **chrome://policy**. Мы можем подтвердить, что настройки успешно применены.
 
-    ![Подтверждение успешного применения настроек](/media/apps-configure-chrome-android/confirm.png)
+    ![Подтверждение успешного применения настроек](./media/apps-configure-chrome-android/confirm.png)
 
 ## <a name="additional-information"></a>Дополнительные сведения
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9c04423f79855f4c28121dad11fa21ccb05216de
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: b25d5439aa9d0842cbbee24b5e8759d00f371d4b
+ms.sourcegitcommit: e2877d21dfd70c4029c247275fa2b38e76bd22b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80084159"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80407720"
 ---
 # <a name="manage-web-access-by-using-microsoft-edge-with-microsoft-intune"></a>Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune
 
@@ -343,7 +343,7 @@ ms.locfileid: "80084159"
 
 |    Key    |    Значение    |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     `com.microsoft.intune.man.managedbrowser.disableShareBrowsingHistory`    |     Если установлено значение **true**, запрос не будет отображаться для конечных пользователей.     |
+|     `com.microsoft.intune.mam.managedbrowser.disableShareBrowsingHistory`    |     Если установлено значение **true**, запрос не будет отображаться для конечных пользователей.     |
 
 ### <a name="disable-prompts-that-offer-to-save-passwords"></a>Отключение запросов на сохранение паролей
 

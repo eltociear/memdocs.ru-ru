@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b833e5265387637a35bfcdf79f4ae5f37558de61
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: dc536d4c2c0d06a768d42d4a796ec56cf80c0d66
+ms.sourcegitcommit: e7fb8cf2ffce29548b4a33b2a0c33a3a227c6bc4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79343964"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80401442"
 ---
 # <a name="intune-guided-scenarios-overview"></a>Обзор. Интерактивные сценарии Intune 
 
@@ -46,7 +46,7 @@ ms.locfileid: "79343964"
 
 ### <a name="launching"></a>Запуск  
 
-Все интерактивные сценарии доступны в разделе **[Портал управления устройствами](https://devicemanagement.microsoft.com)**  > **Устранение неполадок и поддержка** > **Интерактивные сценарии**. 
+Все интерактивные сценарии доступны в разделе **[Портал управления устройствами](https://endpoint.microsoft.com)**  > **Устранение неполадок и поддержка** > **Интерактивные сценарии**. 
 
 Интерактивный сценарий начинается с введения, объясняющего назначение сценария, и всех требований, необходимых для завершения установки. На этом этапе разрешения администратора проверяются на наличие всех необходимых привилегий для выполнения сценария.  
 
