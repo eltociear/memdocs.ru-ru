@@ -12,6 +12,7 @@
 
 ## Использование устройства Android
 ### [Зачем регистрировать устройство Android](why-enroll-android-device.md)
+### [Установка Корпоративного портала в Китае](install-company-portal-android-china.md)
 ### Регистрация устройства
 #### [Регистрация устройства Android](enroll-device-android-company-portal.md)  
 #### [Регистрация с помощью рабочего профиля Android](enroll-device-android-work-profile.md)

@@ -26,6 +26,8 @@
     - name: Политики защиты приложений и рабочие профили (Android)
       href: android-deployment-scenarios-app-protection-work-profiles.md
       displayName: app-we; without; without enrollment
+    - name: "Использование Intune без\_GMS"
+      href: manage-without-gms.md
     - name: ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ О MAM
       href: mam-faq.md
 - name: Практические руководства
