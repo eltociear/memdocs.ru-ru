@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f58c20731395c95e532e28165553743fdef701e9
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: 7686be29b819d29aa39ed12d558780dde9bf4159
+ms.sourcegitcommit: e7fb8cf2ffce29548b4a33b2a0c33a3a227c6bc4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80083574"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80401369"
 ---
 # <a name="review-client-app-protection-logs"></a>Просмотр журналов защиты клиентских приложений
 
@@ -33,6 +33,9 @@ ms.locfileid: "80083574"
 - **Устройства iOS/iPadOS**. Для получения журналов используйте Microsoft Edge для iOS или iPadOS. Дополнительные сведения см. в разделе [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs). 
 - На **устройствах с ОС Windows 10** используйте *MDMDiag* и журналы событий. Ознакомьтесь со статьей [Diagnose MDM failures in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10) (Диагностика сбоев MDM в Windows 10) в материалах по управлению клиентом Windows и с блогом [Troubleshooting Windows 10 Intune Policy Failures](https://blogs.technet.microsoft.com/configmgrdogs/2018/08/09/troubleshooting-windows-10-intune-policy-failures/) (Устранение неполадок со сбоями политик Intune в Windows 10).
 - **Устройства Android**. Для сбора журналов используйте Microsoft Edge для Android. Дополнительные сведения см. в разделе [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs). 
+
+  > [!Note]
+  > На полностью управляемых устройствах Android в некоторых случаях приложение Корпоративного портала Intune может быть видимо во всех приложениях. Это может произойти, если приложение, связанное с политикой защиты приложений, не установлено или не запущено. 
 
 В таблице ниже перечислены имена параметров политики защиты приложений и поддерживаемые значения, которые записываются в журнал. Кроме того, все эти параметры определяют параметры политики, которые можно найти на портале диспетчера конечных точек Майкрософт. Подробные сведения о каждом параметре см. в [этой статье](app-protection-policy-settings-ios.md).
 

@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 10/02/2019
+ms.date: 03/24/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -15,16 +15,20 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8ef60333b53e03b3a6a8d736817ef27df9a182f1
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 5e857cdd7028851f14f607739ba7e37c744fa2f1
+ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79352076"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80359467"
 ---
 # <a name="macos-endpoint-protection-settings-in-intune"></a>Параметры защиты конечных точек macOS в Intune  
 
 В этой статье описаны параметры защиты конечных точек, которые можно настроить для устройств под управлением macOS. Эти параметры настраиваются с помощью профиля конфигурации устройства macOS для [защиты конечных точек](endpoint-protection-configure.md) в Intune.  
+
+## <a name="before-you-begin"></a>Подготовка к работе
+
+[Создание профиля защиты конечных точек в macOS](endpoint-protection-configure.md)
 
 ## <a name="gatekeeper"></a>Привратник  
 
@@ -97,7 +101,7 @@ ms.locfileid: "79352076"
     Для устройств создаются *личные* ключи восстановления. Настройте следующие параметры для личного ключа.  
 
     - **Расположение личного ключа восстановления**. Введите короткое сообщение для пользователя, в котором объясняется, как и где можно получить личный ключ восстановления. Этот текст вставляется в сообщение, которое пользователь видит на экране входа в систему при появлении запроса на ввод личного ключа восстановления в случае, если пароль забыт.  
-      
+
     - **Смена личного ключа восстановления**. Укажите частоту смены личного ключа восстановления для устройства. Можно выбрать значение по умолчанию **Не настроено** или значение от **1** до **12** месяцев.  
 
   - **Отключить запрос при выходе**  
@@ -118,3 +122,8 @@ ms.locfileid: "79352076"
 
 Дополнительные сведения о FileVault см. в разделе [Ключи восстановления FileVault](encryption-monitor.md#filevault-recovery-keys).
 
+## <a name="next-steps"></a>Дальнейшие шаги
+
+[Назначьте профиль](../configuration/device-profile-assign.md) и [отслеживайте его состояние](../configuration/device-profile-monitor.md).
+
+Кроме того, можно настроить защиту конечных точек на [устройствах Windows 10 и более поздних версий](endpoint-protection-windows-10.md).

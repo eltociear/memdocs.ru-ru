@@ -17,12 +17,12 @@ ms.reviewer: annovich
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: ac81ceced473eacc32a3fca566f7c36eb7a262e2
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: d79f97da88a939d95b68a9ef747da87cf3844598
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80084880"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80322472"
 ---
 # <a name="use-device-encryption-with-intune"></a>Использование шифрования устройств в Intune
 
@@ -43,7 +43,7 @@ Intune также предоставляет встроенный [отчет](e
 
 FileVault — это программа шифрования всего диска, входящая в состав macOS. Вы можете использовать Intune для настройки FileVault на устройствах под управлением **macOS 10.13 или более поздней версии**.
 
-Чтобы настроить FileVault, создайте [профиль](../configuration/device-profile-create.md) конфигурации устройства Endpoint Protection для платформы macOS. Параметры FileVault — это одна из категорий доступных параметров для macOS в Endpoint Protection.
+Чтобы настроить FileVault, создайте [профиль](endpoint-protection-configure.md) конфигурации устройства Endpoint Protection для платформы macOS. Параметры FileVault — это одна из категорий доступных параметров для macOS в Endpoint Protection.
 
 После создания политики шифрования устройств с помощью FileVault она применяется к устройствам в два этапа. Во-первых, устройство готовится к тому, что Intune будет разрешено получить и сохранить ключ восстановления. Название такого действия — эскроу. Когда ключ попал в эскроу, можно начинать шифрование диска.
 
@@ -105,7 +105,7 @@ FileVault — это программа шифрования всего диск
 
 BitLocker доступен на устройствах под управлением **Windows 10 или более поздней версии**.
 
-Чтобы настроить BitLocker, создайте [профиль конфигурации устройства](../configuration/device-profile-create.md) Endpoint Protection для платформы Windows 10 или более поздней версии. Параметры BitLocker находятся в категории параметров шифрования Windows для Endpoint Protection в Windows 10.
+Чтобы настроить BitLocker, создайте [профиль конфигурации устройства](endpoint-protection-configure.md) Endpoint Protection для платформы Windows 10 или более поздней версии. Параметры BitLocker находятся в категории параметров шифрования Windows для Endpoint Protection в Windows 10.
 
 ![Параметры BitLocker](./media/encrypt-devices/bitlocker-settings.png)
 

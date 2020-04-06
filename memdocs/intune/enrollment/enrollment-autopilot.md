@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f566361eab24ee93e8b332eeb3e005c8555ece0d
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: b6512aa01a55a3a1ed949b634b97eb891e9459a9
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79363750"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80327127"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
@@ -180,7 +180,7 @@ Windows Autopilot упрощает регистрацию устройств в 
 > [!NOTE]
 > Назначение пользователю определенного устройства Autopilot не работает, если вы используете ADFS.
 
-1. В [Центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Windows** > **Регистрация Windows** > **Устройства** (в разделе **Программа развертывания Windows AutoPilot** &gt; выбрать устройство &gt; **Назначить пользователя**).
+1. В [Центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Windows** > **Регистрация Windows** > **Устройства** (в разделе **Программа развертывания Windows AutoPilot** > выбрать устройство > **Назначить пользователя**).
 
     ![Снимок экрана: назначение пользователя](./media/enrollment-autopilot/assign-user.png)
 
@@ -223,9 +223,9 @@ Windows Autopilot упрощает регистрацию устройств в 
 Можно сгруппировать устройства Windows, зарегистрированные с помощью [Autopilot для существующих устройств](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/New-Windows-Autopilot-capabilities-and-expanded-partner-support/ba-p/260430) в Configuration Manager, по идентификатору коррелятора. Идентификатор коррелятора — это параметр файла конфигурации Autopilot. Для [атрибута enrollmentProfileNam устройства Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#rules-for-devices) автоматически устанавливается значение"OfflineAutopilotprofile-\<идентификатор коррелятора\>". Это позволяет создавать произвольные динамические группы Azure AD на основе идентификатора коррелятора с помощью атрибута enrollmentprofileName.
 
 >[!WARNING] 
-> Так как идентификатор коррелятора отсутствует в готовом списке Intune, устройство может выдать любой идентификатор коррелятора. Если пользователь создает идентификатор коррелятора, соответствующий имени профиля Autopilot или Apple DEP, устройство будет добавлено в любую динамическую группу устройств в соответствии с атрибутом enrollmentProfileName. Чтобы избежать этого конфликта, соблюдайте такие правила:
+> Так как идентификатор коррелятора отсутствует в готовом списке Intune, устройство может выдать любой идентификатор коррелятора. Если пользователь создает идентификатор коррелятора, соответствующий имени профиля Autopilot или Apple ADE, устройство будет добавлено в любую динамическую группу устройств в соответствии с атрибутом enrollmentProfileName. Чтобы избежать этого конфликта, соблюдайте такие правила:
 > - Всегда создавайте правила для динамических групп, *полностью* совпадающих со значением enrollmentProfileName.
-> - Никогда не назначайте имя профилю Autopilot или Apple DEP, начиная с "OfflineAutopilotprofile-".
+> - Никогда не назначайте имя профилю Autopilot или Apple ADE, начиная с "OfflineAutopilotprofile-".
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 После настройки Windows Autopilot для зарегистрированных устройств с ОС Windows 10 узнайте, как управлять этими устройствами. Дополнительные сведения см. в разделе [Что такое управление устройствами с помощью Microsoft Intune](../remote-actions/device-management.md)?

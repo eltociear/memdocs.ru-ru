@@ -17,18 +17,18 @@ ms.reviewer: shpate
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
-ms.openlocfilehash: c07fc8102504a9ca3ee5694e8cb9b1d5f8b568bc
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 81864c207cec560ca8b42041f9248560ebcf3b04
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79352245"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80322441"
 ---
 # <a name="monitor-device-encryption-with-intune"></a>Мониторинг шифрования устройств в Intune
 
 Отчет о шифровании Microsoft Intune — это централизованное расположение, в котором можно просмотреть сведения о состоянии шифрования устройства и найти параметры для управления ключами восстановления устройства. Доступные варианты ключей восстановления зависят от типа просматриваемого устройства.
 
-Чтобы найти отчет войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431). Выберите **Устройства** > **Мониторинг**, а затем в *Конфигурации* щелкните **Отчет о шифровании**.
+Чтобы найти отчет, войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431). Выберите **Устройства** > **Мониторинг**, а затем в *Конфигурации* щелкните **Отчет о шифровании**.
 
 ## <a name="view-encryption-details"></a>Просмотр сведений о шифровании
 

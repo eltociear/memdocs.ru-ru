@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4c22da8e3c4fdbcf40c3292476e734dd50f9543a
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: 8e44fa26c84537fdcf801192ce8cc22790f320b9
+ms.sourcegitcommit: 6a6a713fc1090e03893d80f4259dc7300fb1d5ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80086219"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80438792"
 ---
 # <a name="android-device-administrator-enrollment"></a>Регистрация с использованием функции администратора устройства Android
 
@@ -32,8 +32,6 @@ ms.locfileid: "80086219"
 Поэтому, чтобы избежать проблем, связанных с этим ограничением, мы рекомендуем зарегистрировать новые устройства с помощью соответствующего процесса, описанного ниже.
 
 По тем же причинам рекомендуется выполнить переход для устройств с функции управления устройством администратором, если они будут обновлены до Android 10. 
-
-Дополнительные сведения о поддержке функции администратора устройства Android в Intune см. в разделе [Уведомления](../fundamentals/whats-new.md#decreasing-support-for-android-device-administrator).
 
 Если вы хотите, чтобы пользователи зарегистрировали свои устройства Android с помощью функции управления администратором устройства, перейдите к следующему разделу.  
 

@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/18/2020
+ms.date: 03/26/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 462f9ca9618d16c0291792f86d00c46f641c6cc8
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: c2031ba23b49bda4890d2638272e3b808b4bf5a9
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80084059"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80327439"
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
@@ -37,73 +37,64 @@ ms.locfileid: "80084059"
 
 ## <a name="create-the-profile"></a>Создание профиля
 
-1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
+Профили создаются в [Центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431). В центре администрирования выберите **Устройства**. Можно выбрать один из следующих параметров.
 
-2. Выберите **Устройства** > **Профили конфигурации**. Можно выбрать один из следующих параметров.
+- **Обзор**: состояния профилей и дополнительные сведения о профилях, назначенных для пользователей и устройств
+- **Монитор**: проверка состояния профилей (успех или ошибка) и просмотр журналов для профилей.
+- **По платформе**: создание и просмотр политик и профилей по платформе. В этом представлении также могут отображаться функции, относящиеся к платформе. Например, выберите **Windows**. Вы увидите функции Windows, такие как **Круги обновления Windows 10** и **Сценарии PowerShell**.
+- **Политика**. Создание профилей устройств и отправка пользовательских [сценариев PowerShell](../apps/intune-management-extension.md) для запуска на устройствах и добавление планов сотовой связи на устройства с помощью [eSIM](esim-device-configuration.md).
 
-    - **Обзор**: состояния профилей и дополнительные сведения о профилях, назначенных для пользователей и устройств
-    - **Управление**: создание профилей устройств и отправка пользовательских [сценариев PowerShell](../apps/intune-management-extension.md) для запуска в профиле и добавление планов сотовой связи на устройства с помощью [eSIM](esim-device-configuration.md).
-    - **Монитор**: проверка состояния профиля (успех или ошибка) и просмотр журналов для профилей
-    - **Настройка**: добавление ЦС (SCEP или PFX) или включение управления [затратами на телекоммуникации](telecom-expenses-monitor.md) для профиля.
+При создании профиля (**Профили конфигурации** > **Создать профиль**) выберите свою платформу:
 
-3. Выберите **Создать профиль**. Укажите следующие свойства.
+- **Администратор устройства с Android**
+- **Android Enterprise**
+- **iOS/iPadOS**
+- **macOS**
+- **Windows 10 и более поздних версий**.
+- **Windows 8.1 и более поздние версии**
+- **Windows Phone 8.1**
 
-   - **Имя** — Введите описательное имя для нового профиля. Назначьте имена профилям, чтобы позже их можно было легко найти. Например, хорошее имя профиля — **Профиль электронной почты WP для компании**.
-   - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
-   - **Платформа**. Выберите платформу устройств. Доступны следующие параметры:  
+Затем выберите тип профиля. Доступные для настройки параметры различаются в зависимости от выбранной платформы. Параметры различных типов профиля описаны в следующих статьях:
 
-       - **Администратор устройства с Android**
-       - **Android для бизнеса**
-       - **iOS/iPadOS**
-       - **macOS**
-       - **Windows Phone 8.1**
-       - **Windows 8.1 и более поздние версии**
-       - **Windows 10 и более поздних версий**.
+- [Административные шаблоны (Windows)](administrative-templates-windows.md)
+- [Пользовательский](custom-settings-configure.md)
+- [Оптимизация доставки (Windows)](delivery-optimization-windows.md)
+- [Производные учетные данные (Android Enterprise, iOS, iPadOS)](../protect/derived-credentials.md)
+- [Функции устройства (macOS, iOS, iPadOS)](device-features-configure.md)
+- [Встроенное ПО устройства (Windows)](device-firmware-configuration-interface-windows.md)
+- [Ограничения устройств](device-restrictions-configure.md)
+- [Присоединение к домену (Windows)](domain-join-configure.md)
+- [Обновление выпуска и переключение режима (Windows)](edition-upgrade-configure-windows-10.md)
+- [Образование (iOS, iPadOS)](../fundamentals/education-settings-configure-ios.md)
+- [Электронная почта](email-settings-configure.md)
+- [Защита конечных точек (macOS, Windows)](../protect/endpoint-protection-configure.md)
+- [Расширения (macOS)](kernel-extensions-overview-macos.md)
+- [Защита идентификации (Windows)](../protect/identity-protection-configure.md)
+- [Киоск](kiosk-settings.md)
+- [ATP в Microsoft Defender (Windows)](../protect/advanced-threat-protection.md)
+- [Профиль расширений для мобильности (MX) (администратор устройств Android)](android-zebra-mx-overview.md)
+- [OEMConfig (Android Enterprise)](android-oem-configuration-overview.md)
+- [Сертификат PKCS](../protect/certficates-pfx-configure.md)
+- [Импортированный сертификат PKCS](../protect/certificates-imported-pfx-configure.md)
+- [Файл настроек (macOS)](preference-file-settings-macos.md)
+- [Сертификат SCEP](../protect/certificates-scep-configure.md)
+- [Оценка безопасности (образование) (Windows)](education-settings-configure.md)
+- [Общее устройство с несколькими пользователями (Windows)](shared-user-device-settings.md)
+- [Расходы на телекоммуникации (администратор устройств Android, iOS, iPadOS)](telecom-expenses-monitor.md)
+- [Надежный сертификат](../protect/certificates-configure.md)
+- [VPN](vpn-settings-configure.md)
+- [Wi-Fi](wi-fi-settings-configure.md)
 
-   - **Тип профиля**. Выберите тип создаваемых параметров. Показанный список зависит от выбранной **платформы**.
-   - **Параметры**: Параметры каждого типа профиля описаны в следующих статьях:
+Например, если вы выберете **iOS/iPadOS** в качестве платформы, параметры профиля будут выглядеть следующим образом:
 
-       - [Административные шаблоны](administrative-templates-windows.md)
-       - [Пользовательский](custom-settings-configure.md)
-       - [Оптимизация доставки](delivery-optimization-windows.md)
-       - [Возможности устройств](device-features-configure.md)
-       - [Ограничения устройств](device-restrictions-configure.md)
-       - [Присоединение к домену](domain-join-configure.md)
-       - [Обновление выпуска и переключение режима](edition-upgrade-configure-windows-10.md)
-       - [Образование](education-settings-configure.md)
-       - [Электронная почта](email-settings-configure.md)
-       - [Защита конечных точек](../protect/endpoint-protection-configure.md)
-       - [Защита идентификации](../protect/identity-protection-configure.md)  
-       - [Киоск](kiosk-settings.md)
-       - [ATP в Защитнике Майкрософт](../protect/advanced-threat-protection.md)
-       - [Сертификат PKCS](../protect/certficates-pfx-configure.md)
-       - [Импортированный сертификат PKCS](../protect/certificates-imported-pfx-configure.md)
-       - [Файл предпочтений](preference-file-settings-macos.md)
-       - [Сертификат SCEP](../protect/certificates-scep-configure.md)
-       - [Надежный сертификат](../protect/certificates-configure.md)
-       - [Политики обновления](../protect/software-updates-ios.md)
-       - [VPN](vpn-settings-configure.md)
-       - [Wi-Fi](wi-fi-settings-configure.md)
-       - [Windows Information Protection](../protect/windows-information-protection-configure.md)
-
-     Например, если вы выберете **iOS/iPadOS** в качестве платформы, параметры профиля будут выглядеть следующим образом:
-
-     > [!div class="mx-imgBorder"]
-     > ![Создание профиля iOS/iPadOS в Intune](./media/device-profile-create/create-device-profile.png)
-
-4. Когда закончите, нажмите **Добавить** > **OK**, чтобы сохранить изменения. Созданный вами профиль отобразится в списке.
+> [!div class="mx-imgBorder"]
+> ![Создание профиля iOS/iPadOS в Intune](./media/device-profile-create/create-device-profile.png)
 
 ## <a name="scope-tags"></a>Теги области
 
-После добавления параметров можно также добавить тег области к профилю. Теги области отфильтровывают профили для отдельных ИТ-групп, таких как `US-NC IT Team` или `JohnGlenn_ITDepartment`.
+После добавления параметров можно также добавить тег области к профилю. Теги области отфильтровывают профили для отдельных ИТ-групп, таких как `US-NC IT Team` или `JohnGlenn_ITDepartment`. И используются в распределенных ИТ-системах.
 
 Дополнительные сведения о тегах области см. в статье [Use role-based access control (RBAC) and scope tags for distributed IT](../fundamentals/scope-tags.md) (Использование управления доступом на основе ролей (RBAC) и тегов области для распределенной ИТ-разработки).
-
-### <a name="add-a-scope-tag"></a>Добавление тега области
-
-1. Щелкните **Область (теги)** .
-2. Нажмите кнопку **Добавить**, чтобы создать тег области. Или выберите имеющийся тег области из списка.
-3. Нажмите кнопку **OK**, чтобы сохранить изменения.
 
 ## <a name="applicability-rules"></a>Правила применения
 

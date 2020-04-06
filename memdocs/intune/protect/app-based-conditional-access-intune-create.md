@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f2883add5a3dbba274201bfeebb7960a312e33da
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 73b471d7eefa8e696b17a949756ce1395530c5f7
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79354234"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80323197"
 ---
 # <a name="set-up-app-based-conditional-access-policies-with-intune"></a>Настройка политик условного доступа на основе приложений в Intune
 
@@ -38,11 +38,11 @@ ms.locfileid: "79354234"
 
 Условный доступ — это технология Azure Active Directory (Azure AD). Узел условного доступа, доступ к которому осуществляется из *Intune*, является тем же узлом, доступ к которому осуществляется из *Azure AD*. Это означает, что для настройки политик нет необходимости переключаться между Intune и Azure AD.
 
-Прежде чем создавать политики условного доступа из центра администрирования Microsoft Endpoint Manager, необходимо получить лицензию на Azure AD Premium.
+Прежде чем создавать политики условного доступа из центра администрирования Microsoft Endpoint Manager, необходимо получить лицензию на Azure AD Premium.
 
 ### <a name="to-create-an-app-based-conditional-access-policy"></a>Создание политики условного доступа на базе приложений
 
-1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)
 
 2. Выберите **Endpoint security** (Защита конечной точки) > **Условный доступ**  > **Новая политика**.
 

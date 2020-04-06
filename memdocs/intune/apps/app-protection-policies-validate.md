@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/27/2020
+ms.date: 03/31/2020
 ms.service: microsoft-intune
 ms.subservice: apps
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0e7ed0aa1d45c66c5688cde07b385cf95081a3c3
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: d41dec48ff1f357733882ebe99bcad670e676675
+ms.sourcegitcommit: d601f4e08268d139028f720c0a96dadecc7496d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79342053"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80488013"
 ---
 # <a name="how-to-validate-your-app-protection-policy-setup-in-microsoft-intune"></a>Проверка настройки политики защиты приложений в Microsoft Intune
 
@@ -44,7 +44,7 @@ ms.locfileid: "79342053"
 
 ### <a name="user-app-protection-status"></a>Состояние защиты приложений пользователя
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
-3. Выберите **Приложения** >  **Состояние защиты приложений** и щелкните плитку **Назначенные пользователи**. 
+3. Выберите **Приложения** > **Монитор** >  **Состояние защиты приложений** и щелкните плитку **Назначенные пользователи**. 
 4. На странице **Отчеты по приложению** выберите **Выбрать пользователя**, чтобы вывести список пользователей и групп. 
 5. Найдите и добавьте пользователя или выберите пользователя из списка, а затем нажмите **Выбрать пользователя**. В верхней части области **Отчеты по приложению** отображаются сведения о том, есть ли у пользователя лицензия на защиту приложений. Вы также можете узнать, есть ли у этого пользователя лицензия на O365, и просмотреть состояние приложения для всех его устройств.
 

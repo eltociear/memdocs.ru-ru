@@ -17,12 +17,12 @@ ms.reviewer: mghadial
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 98567612b31604f79339a550275e274a2c90c3a4
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 431d2753b04269e9aacd7ef951ef3f45a076df60
+ms.sourcegitcommit: e2877d21dfd70c4029c247275fa2b38e76bd22b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79342417"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80407898"
 ---
 # <a name="intune-app-installation-error-reference"></a>Справочник по ошибкам установки приложений Intune
 
@@ -92,6 +92,8 @@ ms.locfileid: "79342417"
 | 0x87D13B77 | -2016330889 | Сбой защищенного подключения.  | Сбой проверки манифеста приложения из-за сетевого подключения (сбой защищенного подключения) |
 | 0x87D13B80 | -2016330880 | CannotConnectToITunesStoreError | Не удалось установить приложение из-за сбоя подключения к магазину iTunes |
 | 0x87D13B9F  | -2016330849 | Доступно обновление для приложения VPP | Данный код возвращается при установке приложения VPP, когда доступна более новая версия. |
+| 0x87D13B9E | 2016330850 | Не удается применить параметр удаления приложения. Повторите попытку установки приложения. | Приложение уже установлено на устройстве, но параметр "Удаление при прекращении использования" не соответствует заданному значению. Попросите пользователя запросить app-install на Корпоративном портале, чтобы снова попытаться применить параметр "Удаление при прекращении использования". |
+
 
 ## <a name="other-installation-errors"></a>Другие проблемы с установкой
 

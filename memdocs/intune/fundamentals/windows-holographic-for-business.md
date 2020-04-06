@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/13/2019
+ms.date: 03/26/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6f8a15199f599cf0fd4f90ea965bcc3e668f3b27
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 44cae6e1e7fdd310a6053cbcb6f19371263d0161
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79354416"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80326622"
 ---
 # <a name="manage-and-use-different-device-management-features-on-windows-holographic-and-hololens-devices-with-intune"></a>Администрирование и использование различных возможностей управления устройствами Windows Holographic и HoloLens с помощью Intune
 
@@ -107,7 +107,7 @@ Intune имеет несколько встроенных действий, по
 
 ## <a name="device-configuration-profiles"></a>Профили конфигурации устройства
 
-**[Начало работы с профилями конфигураций](../configuration/device-profiles.md) и [создание собственного профиля](../configuration/device-profile-create.md)**
+**[Начало работы с профилями конфигураций](../configuration/device-profiles.md) и [обзор профиля](../configuration/device-profile-create.md)**
 
 Intune содержит параметры и функции, которые можно включать или отключать на различных устройствах в вашей организации. Эти параметры и функции управляются с помощью профилей. Например, можно создать профиль, который включает Кортану или использует Smart Screen Защитника Майкрософт на устройствах с Windows Holographic for Business.
 

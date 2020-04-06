@@ -17,12 +17,12 @@ ms.reviewer: spshumwa
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7f102daeab975bbbf0a618d1a5d642c84f52edba
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 077d7c4dd345b9b16677d61269b9f331dedb4dbb
+ms.sourcegitcommit: d601f4e08268d139028f720c0a96dadecc7496d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79344497"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80488077"
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Массовая регистрация для устройств Windows
 
@@ -61,11 +61,13 @@ ms.locfileid: "79344497"
 7. Укажите учетные данные Azure AD для получения массового токена.
    ![Снимок экрана: вход в приложение "Конструктор конфигураций Windows"](./media/windows-bulk-enroll/bulk-enroll-cred.png)
 
-8. Нажмите кнопку **Next** (Далее) после успешного получения **массового токена**.
+8. На странице **Использовать эту учетную запись везде на этом устройстве** выберите пункт **Только это приложение**.
 
-9. При необходимости можно **добавить приложения** и **добавить сертификаты**. Эти приложения и сертификаты подготовлены на устройстве.
+9. Нажмите кнопку **Next** (Далее) после успешного получения **массового токена**.
 
-10. При необходимости можно защитить пакет подготовки паролем.  Нажмите кнопку **Создать**.
+10. При необходимости можно **добавить приложения** и **добавить сертификаты**. Эти приложения и сертификаты подготовлены на устройстве.
+
+11. При необходимости можно защитить пакет подготовки паролем.  Нажмите кнопку **Создать**.
     ![Снимок экрана: защита пакетов в приложении "Конструктор конфигураций Windows"](./media/windows-bulk-enroll/bulk-enroll-create.png)
 
 ## <a name="provision-devices"></a>Подготовка устройств

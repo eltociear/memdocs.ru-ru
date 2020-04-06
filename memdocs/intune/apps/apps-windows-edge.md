@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e1ef0c2c4b7fdd7bb25fcb0237eb68485f1be701
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 687ef14791d1ae0df60d28802d27b99dd9547423
+ms.sourcegitcommit: e7fb8cf2ffce29548b4a33b2a0c33a3a227c6bc4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79340181"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80401337"
 ---
 # <a name="add-microsoft-edge-for-windows-10-to-microsoft-intune"></a>Добавление Microsoft Edge для Windows 10 в Microsoft Intune
 
@@ -38,7 +38,7 @@ ms.locfileid: "79340181"
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-- Требуется Windows 10 RS2 или более поздних версий.
+- Windows 10 версии 1703 или более поздней.
 - Все предварительно установленные версии Microsoft Edge (*версия 77 и выше*) для всех каналов в контексте пользователя будут перезаписаны версией Edge, установленной в контексте системы.
 
 ## <a name="configure-the-app-in-intune"></a>Настройка приложения в Intune

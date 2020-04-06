@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/18/2020
+ms.date: 03/26/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 420340e18eb4e638ed7bde049e6b548037c54f87
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: 386e59fe3a7156a8bb74ed39a1b2fcad6ad91dad
+ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80087100"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80359308"
 ---
 # <a name="apply-features-and-settings-on-your-devices-using-device-profiles-in-microsoft-intune"></a>Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune
 
@@ -53,7 +53,7 @@ Microsoft Intune включает параметры и функции, кото
 
 [Сертификаты](../protect/certificates-configure.md) — настройка доверенных сертификатов, сертификатов SCEP и PKCS, которые можно назначить устройствам. Эти сертификаты можно использовать для проверки подлинности Wi-Fi, VPN и профилей электронной почты.
 
-Эта функция поддерживает: 
+Эта функция поддерживает:
 
 - Администратор устройства с Android
 - Android для бизнеса
@@ -84,6 +84,15 @@ Microsoft Intune включает параметры и функции, кото
 Эта функция поддерживает:
 
 - Windows 10 и более поздней версии
+
+## <a name="derived-credential"></a>Производные учетные данные
+
+[Производные учетные данные](../protect/derived-credentials.md) — это сертификаты на смарт-картах, которые используются для проверки подлинности, подписания и шифрования. В Intune можно создавать профили с этими учетными данными для использования в приложениях, профилях электронной почты, подключении к VPN, S/MIME и Wi-Fi.
+
+Эта функция поддерживает:
+
+- Android для бизнеса
+- iOS/iPadOS
 
 ## <a name="device-features"></a>Возможности устройств
 
@@ -133,7 +142,7 @@ Microsoft Intune включает параметры и функции, кото
 
 ## <a name="education"></a>Образование
 
-[Параметры образования — Windows 10](education-settings-configure.md) — настройка параметров для [приложения Windows Take a Test](https://education.microsoft.com/gettrained/win10takeatest). После настройки этих параметров никакие другие приложения не смогут работать на устройстве до завершения теста.
+[Параметры образования — Windows 10](education-settings-configure.md) — настройка параметров для [приложения Windows Take a Test](https://docs.microsoft.com/education/windows/take-tests-in-windows-10). После настройки этих параметров никакие другие приложения не смогут работать на устройстве до завершения теста.
 
 [Параметры образования — iOS/iPadOS](../fundamentals/education-settings-configure-ios-shared.md) — приложение iOS/iPadOS Класс помогает преподавателям руководить обучением и управлять устройствами учащихся в классе. Устройства iPad можно настроить так, чтобы несколько учащихся могли пользоваться одним устройством.
 
@@ -141,7 +150,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Профиль [параметров электронной почты](email-settings-configure.md) позволяет создавать, назначать и отслеживать параметры электронной почты Exchange ActiveSync на устройствах. Этот профиль обеспечивают согласованность, сокращение числа обращений в службу поддержки, а также предоставляет пользователям доступ к электронной почте компании с личных устройств без дополнительных настроек. 
 
-Эта функция поддерживает: 
+Эта функция поддерживает:
 
 - Администратор устройства с Android
 - Android для бизнеса
@@ -151,12 +160,13 @@ Microsoft Intune включает параметры и функции, кото
 
 ## <a name="endpoint-protection"></a>Защита конечных точек
 
-[Параметры защиты конечных точек для Windows 10](../protect/endpoint-protection-windows-10.md) — настройка параметров BitLocker и защитника Майкрософт для устройств Windows 10.
+[Защита конечных точек](../protect/endpoint-protection-configure.md) — настройка параметров BitLocker и Microsoft Defender для устройств Windows 10. Также настройте брандмауэр, шлюз и другие ресурсы на устройствах macOS.
 
 Сведения о внедрении Advanced Threat Protection в Microsoft Defender (WDATP) с помощью Microsoft Intune см. в статье [Настройка конечных точек с помощью средств управления мобильными устройствами (MDM)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-mdm).
 
 Эта функция поддерживает:
 
+- MacOS
 - Windows 10 и более поздней версии
 
 ## <a name="esim-cellular---public-preview"></a>Сотовая связь eSIM (общедоступная предварительная версия)
@@ -192,7 +202,15 @@ Microsoft Intune включает параметры и функции, кото
 
 - Windows 10 и более поздней версии
 
-Этот профиль также можно использовать в качестве ограничений для устройств [Android](device-restrictions-android.md#kiosk), [Android для бизнеса](device-restrictions-android-for-work.md#dedicated-device-settings) и [iOS/iPadOS](device-restrictions-ios.md#kiosk).
+Этот профиль также можно использовать в качестве ограничений для устройств [Android](device-restrictions-android.md#kiosk), [Android для бизнеса](device-restrictions-android-for-work.md#dedicated-devices) и [iOS/iPadOS](device-restrictions-ios.md#kiosk).
+
+## <a name="microsoft-defender-atp"></a>ATP в Microsoft Defender
+
+[Служба Advanced Threat Protection (ATP) в Microsoft Defender](../protect/advanced-threat-protection.md) интегрируется с Intune для мониторинга и защиты устройств. Вы устанавливаете уровни риска и определяете, что произойдет, если устройства превышают этот уровень. В сочетании с условным доступом можно предотвратить вредоносные действия в организации.
+
+Эта функция поддерживает:
+
+- Windows 10 и более поздней версии
 
 ## <a name="oemconfig"></a>OEMConfig
 
@@ -206,11 +224,18 @@ Microsoft Intune включает параметры и функции, кото
 
 [Сценарии PowerShell на устройствах с Windows 10](../apps/intune-management-extension.md) использует расширение управления Intune для отправки скриптов PowerShell в Intune, а затем выполняет эти сценарии на устройствах. Также ознакомьтесь с требованиями к использованию расширения, добавлением их в Intune и другими важными сведениями.
 
-
 Эта функция поддерживает:
 
 - Windows 10 и более поздней версии
 - Windows Holographic for Business
+
+## <a name="preference-file"></a>Файл предпочтений
+
+[Файлы предпочтений](preference-file-settings-macos.md) на устройствах macOS включают сведения о приложениях. Например, файлы настроек можно использовать для управления параметрами веб-браузера, настройки приложений и многого другого.
+
+Эта функция поддерживает:
+
+- MacOS
 
 ## <a name="shared-multi-user-device"></a>Общие устройства для множества пользователей
 
@@ -260,14 +285,6 @@ Microsoft Intune включает параметры и функции, кото
 - iOS/iPadOS
 - MacOS
 - Windows 8.1 (только импорт)
-- Windows 10 и более поздней версии
-
-## <a name="windows-information-protection-profile"></a>Профиль Windows Information Protection
-
-[Windows Information Protection](../protect/windows-information-protection-configure.md) позволяет предотвратить утечку данных, не влияя при этом на работу сотрудника. Кроме того, эта политика защищает от случайной утечки данных корпоративные приложения и данные на рабочих устройствах, принадлежащих организации или сотрудникам. При использовании Windows Information Protection не требуется вносить изменения в вашу среду или другие приложения.
-
-Эта функция поддерживает:
-
 - Windows 10 и более поздней версии
 
 ## <a name="zebra-mobility-extensions-mx"></a>Zebra Mobility Extensions (MX)

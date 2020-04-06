@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b66777e9c108ab4a6b84e4d4fa0942532685912f
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: 2c8c521dc0899b3429de85e95116a6277d724771
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80086732"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80327273"
 ---
 # <a name="move-android-devices-from-device-administrator-to-work-profile-management"></a>Перевод устройств Android с управления администратором устройств на управление рабочими профилями
 
@@ -40,7 +40,7 @@ ms.locfileid: "80086732"
 - Настройте управление рабочими профилями Android, [подключив учетную запись клиента Intune к учетной записи Android для бизнеса](connect-intune-android-enterprise.md).
 - [Настройте регистрацию рабочих профилей Android для бизнеса](android-work-profile-enroll.md) для группы пользователей, которые переводятся на использование рабочего профиля Android.
 - Рекомендуем увеличить пределы устройств пользователей. Возможно, при отмене управления администратором устройств соответствующие записи устройств будут удалены не сразу. Чтобы обеспечить резерв на этот период, возможно, вам понадобится увеличить предел устройств. Так пользователи смогут зарегистрировать свои устройства в управлении рабочими профилями.
-  - [Настройте параметры устройств Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/device-management-azure-portal.md#configure-device-settings), задав подходящее максимальное число устройств на пользователя.
+  - [Настройте параметры устройств Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/device-management-azure-portal#configure-device-settings), задав подходящее максимальное число устройств на пользователя.
   - Измените [предел устройств Intune](enrollment-restrictions-set.md#create-a-device-limit-restriction), задав значение параметра "Предел устройств". 
 
 ## <a name="create-device-compliance-policy"></a>Создание политики соответствия устройств
@@ -71,6 +71,7 @@ ms.locfileid: "80086732"
     > [!NOTE]
     > - Разумеется, в сообщениях вы можете использовать понятные для пользователя гипертекстовые ссылки. Но не используйте средства сокращения URL-адресов, так как полученные с их помощью ссылки могут не работать.
     > - Если приложение "Корпоративный портал" для Android открыто и работает в фоновом режиме, возможно, по ссылке пользователь будет перенаправлен к последней странице, которую он открывал.
+    > - Пользователи должны коснуться ссылки на устройстве Android. Если они вставят ссылку в браузер, Корпоративный портал Android не запустится. 
 
     Нажмите кнопку **Далее**.
 
@@ -80,7 +81,7 @@ ms.locfileid: "80086732"
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-С помощью [инструкций по переходу на новую схему управления устройством](https://docs.microsoft.com/mem/intune/user-help/move-to-new-device-management-setup.md) пользователи могут отменить управление администраторами устройств и настроить управление рабочими профилями для своих устройств. Пользователям следует использовать [устройства Android под управлением администратора устройств](android-enroll-device-administrator.md) с установленным приложением "Корпоративный портал" для Android версии 5.0.4720.0 или более поздней.
+С помощью [инструкций по переходу на новую схему управления устройством](../user-help/move-to-new-device-management-setup.md) пользователи могут отменить управление администраторами устройств и настроить управление рабочими профилями для своих устройств. Пользователям следует использовать [устройства Android под управлением администратора устройств](android-enroll-device-administrator.md) с установленным приложением "Корпоративный портал" для Android версии 5.0.4720.0 или более поздней.
 
 ### <a name="user-sees-an-error-after-tapping-resolve"></a>Для пользователя отображается сообщение об ошибке после касания кнопки "Разрешить"
 Если для пользователя отображается сообщение об ошибке после касания кнопки **Разрешить**, это, скорее всего, вызвано одной из следующих причин:
@@ -103,8 +104,5 @@ ms.locfileid: "80086732"
 - устройство работает на базе ОС Android 6 или более ранней версии. 
 
 ## <a name="next-steps"></a>Дальнейшие шаги
-[См. порядок действий для пользователей](https://docs.microsoft.com/mem/intune/user-help/move-to-new-device-management-setup.md)
-
+[См. поток конечного пользователя](../user-help/move-to-new-device-management-setup.md)
 [Управление устройствами с рабочим профилем Android в Intune](android-enterprise-overview.md)
-
-

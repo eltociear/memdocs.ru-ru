@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ec131df32e06c1c43b8904dde732b4e6a17a91aa
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 3daf758ed93fb03ac63b062f604a457d033637dc
+ms.sourcegitcommit: 6a6a713fc1090e03893d80f4259dc7300fb1d5ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79334201"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80438753"
 ---
 # <a name="add-and-assign-the-windows-10-company-portal-app-for-autopilot-provisioned-devices"></a>Добавление и назначение приложения Корпоративного портала Windows 10 для подготовленных устройств Autopilot
 
@@ -52,9 +52,9 @@ ms.locfileid: "79334201"
 ## <a name="assign-the-company-portal-app"></a>Назначение приложения Корпоративного портала
 
 1. Войдите в  [Центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431)  с учетной записью администратора. 
-2. В правой области выберите вкладку  **Приложения** .
-3. В разделе  **По платформе** выберите **Windows**.
-4. Выберите  **Корпоративный портал (автономный режим)** .
+2. В правой области выберите вкладку **Приложения**.
+3. В разделе **По платформе** выберите **Windows**.
+4. Выберите **Корпоративный портал (автономный режим)** .
 5. Необходимо либо дождаться завершения расписания синхронизации, либо выполнить синхронизацию вручную в Центре администрирования диспетчера конечных точек (Майкрософт).
 6. Назначьте приложение Корпоративного портала в качестве требуемого в выбранном наборе групп устройств Autopilot.
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b7330f50c61679ab91b5f364f718cefcc456435f
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: b2e2d5fb2f698d7e0b544dbdbd4ab05f2b94b7ea
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79351270"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80325454"
 ---
 # <a name="quickstart-create-a-password-compliance-policy-for-android-devices"></a>Краткое руководство. Создание политики соответствия требованиям к паролю для устройств Android
 
@@ -38,7 +38,7 @@ ms.locfileid: "79351270"
 
 ## <a name="sign-in-to-intune"></a>Вход в Intune
 
-Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) в качестве [глобального администратора](../fundamentals/users-add.md#types-of-administrators) или [администратора службы](../fundamentals/users-add.md#types-of-administrators) Intune.
+Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) в качестве [глобального администратора](../fundamentals/users-add.md#types-of-administrators) или [администратора службы Intune](../fundamentals/users-add.md#types-of-administrators).
 
 ## <a name="create-a-device-compliance-policy"></a>Создание политики соответствия устройств
 

@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/23/2020
+ms.date: 03/30/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 71e8b874e50fc1300124d748dfb70963acae089b
-ms.sourcegitcommit: 795e8a6aca41e1a0690b3d0d55ba3862f8a683e7
+ms.openlocfilehash: 237e281b88492ff7b7e1b5614600662e15761935
+ms.sourcegitcommit: e2877d21dfd70c4029c247275fa2b38e76bd22b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80220104"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80407844"
 ---
 # <a name="windows-10-and-newer-device-settings-to-allow-or-restrict-features-using-intune"></a>Параметры устройства с Windows 10 (и более новых версий), которые позволяют разрешить или ограничить некоторые функции через Intune
 
@@ -208,7 +208,9 @@ ms.locfileid: "80220104"
   Этот параметр политики не применяется, если компьютер присоединен к Azure AD и включена автоматическая регистрация.
 
 - **Ручная установка корневого сертификата (только для мобильных устройств)** . Значение **Блокировать** запрещает ручную установку корневых сертификатов и промежуточных CAP-сертификатов. Если задано значение **Не настроено** (по умолчанию), Intune не изменяет или не обновляет этот параметр.
-- **Камера**. Значение **Блокировать** запрещает конечным пользователям использовать камеру на устройстве. Если задано значение **Не настроено** (по умолчанию), Intune не изменяет или не обновляет этот параметр.
+- **Камера**. Значение **Блокировать** запрещает конечным пользователям использовать камеру на устройстве. Если задано значение **Не настроено** (по умолчанию), Intune не изменяет или не обновляет этот параметр. По умолчанию ОС может разрешить доступ к камере устройства.
+
+  Intune управляет доступом только к камере устройства. У него нет доступа к изображениям или видео.
 
   [CSP камеры](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-camera)
 

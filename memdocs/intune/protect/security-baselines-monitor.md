@@ -16,12 +16,12 @@ ms.reviewer: shpate
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e51e969abcc4e8ab1b37796df72381fa3bdbe335
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 6f7118fbbf05c7793d93faf2aa4c9a4bb1af821c
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79351101"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80322615"
 ---
 # <a name="monitor-security-baseline-and-profiles-in-microsoft-intune"></a>Мониторинг базовых показателей безопасности и профилей в Microsoft Intune
 
@@ -110,7 +110,7 @@ ms.locfileid: "79351101"
 
 Просмотр сведений о конфигурациях безопасности, применяемых к отдельному устройству, чтобы изолировать неправильно настроенные параметры.
 
-1. Войдите в [Центр администрирования диспетчера конечных точек (Майкрософт)](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 
 2. Щелкните **Устройства** > **Все устройства** и выберите устройство, регистрацию которого вы хотите просмотреть.
 

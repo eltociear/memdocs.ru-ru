@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cf732907b9123dfe8cbd72970556ecfbb5380733
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: 2fbb82123f28c5049a60d60572aadcb3d03777b7
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80086031"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80326955"
 ---
 # <a name="how-to-get-support-for-microsoft-intune"></a>Получение поддержки для Microsoft Intune
 
@@ -66,7 +66,7 @@ ms.locfileid: "80086031"
 
 - **Из Центра администрирования Microsoft Endpoint Manager**
 
-  - В любом узле Центра администрирования Microsoft Endpoint Manager выберите значок **?** в правом верхнем углу, а затем в раскрывающемся списке выберите тип управления, для которого требуется помощь. Центр администрирования Microsoft Endpoint Manager поддерживает следующие типы управления. Вам нужно выбрать тот, для которого требуется помощь, например Intune.
+  - В любом узле Центра администрирования Microsoft Endpoint Manager выберите значок **?** в правом верхнем углу, а затем в раскрывающемся списке выберите тип управления, для которого требуется помощь. Центр администрирования Microsoft Endpoint Manager поддерживает следующие типы управления. Вам нужно выбрать тот, для которого требуется помощь, например Intune:
 
     - Диспетчер управления (включает Аналитику компьютеров)
     - Intune

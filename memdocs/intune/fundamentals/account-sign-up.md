@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ad73f89ff4dccd3151bd3123cd4bb54483aaae30
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: e4bec3347ec45f020fd4c8e128278dc619335442
+ms.sourcegitcommit: e7fb8cf2ffce29548b4a33b2a0c33a3a227c6bc4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79363178"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80401463"
 ---
 # <a name="sign-up-or-sign-in-to-microsoft-intune"></a>Регистрация или вход в Microsoft Intune
 
@@ -62,7 +62,7 @@ ms.locfileid: "79363178"
 
 ### <a name="intune-admin-portal-url"></a>URL-адрес портала администрирования Intune
 
-Центр администрирования Microsoft 365: https://devicemanagement.microsoft.com
+Центр администрирования Microsoft Endpoint Manager: https://endpoint.microsoft.com
 
 Портал Intune Azure: https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade
 
@@ -74,7 +74,7 @@ Intune для образования: https://intuneeducation.portal.azure.com
 
 Microsoft 365 бизнес: https://portal.microsoft.com/adminportal
 
-Управление мобильными устройствами Office 365: https://portal.office.com/adminportal/home#/MifoDevices
+Управление мобильными устройствами Office 365: https://admin.microsoft.com/adminportal/home#/MifoDevices
 
 ## <a name="see-also"></a>См. также
 

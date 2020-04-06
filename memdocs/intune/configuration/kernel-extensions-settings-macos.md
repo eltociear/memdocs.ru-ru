@@ -6,26 +6,25 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/10/2019
+ms.date: 03/24/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: medium
 ms.technology: ''
+ms.reviewer: annovich
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: aa471beb5929a6c5b39267871518f560fe6978f6
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 2e18fad8f1112681a62bcdacd63c652cfd4ad3ac
+ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79343431"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80359298"
 ---
 # <a name="macos-device-settings-to-configure-and-use-kernel-extensions-in-intune"></a>Параметры устройства macOS для настройки и использования расширений ядра в Intune
-
-
 
 В этой статье перечислены и описаны различные параметры расширения ядра, которыми можно управлять на устройствах macOS. В рамках решения в системе управления мобильными устройствами используйте эти параметры для добавления расширений ядра на устройствах и управления ими.
 
@@ -44,7 +43,7 @@ ms.locfileid: "79343431"
 
 ### <a name="settings-apply-to-user-approved-automated-device-enrollment"></a>Область применения параметров: Утвержденная и автоматизированная пользователями регистрация устройств
 
-- **Разрешить пользовательские переопределения**: **Разрешить** позволяет пользователям утверждать расширения ядра, не входящие в профиль конфигурации. **Не настроено** (по умолчанию) запрещает пользователям утверждать расширения, не включенные в профиль конфигурации. Это означает, что разрешены только расширения, которые входят в профиль конфигурации.
+- **Разрешить пользовательские переопределения**: **Разрешить** позволяет пользователям утверждать расширения ядра, не входящие в профиль конфигурации. Если задано значение **Не настроено** (по умолчанию), Intune не изменяет или не обновляет этот параметр. По умолчанию ОС может запретить пользователям утверждать расширения, не включенные в профиль конфигурации. Это означает, что разрешены только расширения, которые входят в профиль конфигурации.
 
   Дополнительные сведения об этой функции см. в статье [Загрузка разрешений ядра, утвержденных пользователем](https://developer.apple.com/library/archive/technotes/tn2459/_index.html) (на веб-сайте Apple).
 

@@ -1,12 +1,12 @@
 ---
 title: Политика защиты приложений Windows Information Protection (WIP)
 titleSuffix: Microsoft Intune
-description: Как создать и развернуть политику защиты приложений Windows Information Protection (WIP) с помощью Microsoft Intune
+description: Как создать и развернуть политику Windows Information Protection (WIP) с помощью Microsoft Intune
 keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/26/2020
+ms.date: 03/25/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,18 +18,18 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4ea664594744facd36f3f92900a1e80c48053904
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 6e7305d33b1c40c2624c5c860f59922a5817c818
+ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79345693"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80326106"
 ---
-# <a name="create-and-deploy-windows-information-protection-wip-app-protection-policy-with-intune"></a>Создание и развертывание политики защиты приложений Windows Information Protection (WIP) с помощью Intune
+# <a name="create-and-deploy-windows-information-protection-wip-policy-with-intune"></a>Как создать и развернуть политику Windows Information Protection (WIP) с помощью Intune
 
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]
 
-Вы можете использовать политики защиты с Windows 10, чтобы защитить приложения без регистрации устройств.
+Вы можете использовать политики Windows Information Protection (WIP) с приложениями Windows 10, чтобы защитить приложения без регистрации устройств.
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
@@ -49,10 +49,10 @@ ms.locfileid: "79345693"
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-Прежде чем создавать политику защиты приложений WIP, необходимо настроить поставщик MAM. Узнайте больше о [настройке поставщика MAM при помощи Intune](app-protection-policies-configure-windows-10.md).  
+Прежде чем создавать политику WIP, необходимо настроить поставщик MAM. Узнайте больше о [настройке поставщика MAM при помощи Intune](app-protection-policies-configure-windows-10.md).  
 
 > [!IMPORTANT]
-> WIP не поддерживает множественную идентификацию: одновременно может существовать только одно управляемое удостоверение.
+> WIP не поддерживает множественную идентификацию: одновременно может существовать только одно управляемое удостоверение. Подробные сведения о возможностях и ограничениях WIP см. в статье [Защита данных предприятия с помощью Windows Information Protection (WIP)](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
 Кроме того, вам понадобится следующая лицензия и обновление:
 
@@ -63,7 +63,7 @@ ms.locfileid: "79345693"
 
 
 
-## <a name="to-add-a-wip-app-protection-policy"></a>Как добавить политику защиты приложений WIP
+## <a name="to-add-a-wip-policy"></a>Добавление политики WIP
 
 После настройки Intune в вашей организации можно создать политику для конкретного экземпляра WIP.
 
@@ -76,7 +76,7 @@ ms.locfileid: "79345693"
 3. Добавьте следующие значения:
     - **Имя**: введите имя (обязательно) для новой политики.
     - **Описание.** Введите описание (необязательно).
-    - **Платформа**: выберите **Windows 10** в качестве поддерживаемой платформы для вашей политики защиты приложений.
+    - **Платформа**: выберите **Windows 10** в качестве поддерживаемой платформы для политики WIP.
     - **Состояние регистрации**: выберите вариант **Без регистрации** в качестве состояния регистрации для вашей политики.
 4. Выберите команду **Создать**. Политика будет создана и отобразится в таблице в колонке **Политики защиты приложений**.
 

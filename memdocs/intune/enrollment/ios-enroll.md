@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 79bb7e627043e439c7438c2fc4afcfdee5a44406
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: e7d7f35d6d6b11875c722d4969f5776040ca0dfc
+ms.sourcegitcommit: 71f26a0756fd40c1a06f885f3d31e49734fe97fe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80086111"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "80256459"
 ---
 # <a name="enroll-iosipados-devices-in-intune"></a>Регистрация устройств iOS и iPadOS в Intune
 
@@ -52,23 +52,23 @@ Intune позволяет осуществлять управление моби
 
 Для организаций, которые сами приобретают устройства для своих пользователей, Intune поддерживает следующие методы регистрации корпоративных устройств iOS и iPadOS:
 
-- программа регистрации устройств (DEP) Apple;
+- Автоматическая регистрация устройств Apple (ADE)
 - Apple School Manager
 - помощник по настройке регистрации Apple Configurator;
 - прямая регистрация с помощью Apple Configurator.
 
 Кроме того, корпоративные устройства iOS и iPadOS можно регистрировать с помощью учетной записи [диспетчера регистрации устройств](device-enrollment-manager-enroll.md).
 
-## <a name="device-enrollment-program"></a>Программа регистрации устройств
+## <a name="automated-device-enrollment"></a>Автоматическая регистрация устройств
 
-Организации могут приобретать устройства с iOS и iPadOS через Программу регистрации устройств Apple (DEP). Эта программа позволяет в удаленном режиме развертывать профиль регистрации для управления устройствами. Дополнительные сведения см. в статье [Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple](device-enrollment-program-enroll-ios.md).
+Организации могут приобретать устройства с iOS и iPadOS через программу автоматической регистрации устройств Apple (ADE). ADE позволяет в удаленном режиме развертывать профиль регистрации для управления устройствами. Дополнительные сведения см. в статье [Автоматическая регистрация устройств iOS с помощью программы регистрации устройств Apple](device-enrollment-program-enroll-ios.md).
 
 ## <a name="user-enrollment"></a>Регистрация пользователей
 Регистрация пользователя предоставляет администраторам подмножество параметров управления по сравнению с другими методами регистрации. Дополнительные сведения см. в статьях о [действиях и параметрах Intune, поддерживаемых при регистрации пользователей Apple](ios-user-enrollment-supported-actions.md) и [настройке регистрации пользователей iOS и iPadOS](ios-user-enrollment.md).
 
 ## <a name="apple-school-manager"></a>Apple School Manager
 
-Apple School Manager — это программа приобретения и регистрации устройств для образовательных учреждений. Как и в DEP, вы можете регистрировать устройства для управления, используя развертывание профиля. См. дополнительные сведения об [Apple School Manager](apple-school-manager-set-up-ios.md).
+Apple School Manager — это программа приобретения и регистрации устройств для образовательных учреждений. Как и в ADE, вы можете регистрировать устройства для управления, используя развертывание профиля. См. дополнительные сведения об [Apple School Manager](apple-school-manager-set-up-ios.md).
 
 ## <a name="apple-configurator"></a>Apple Configurator
 
@@ -79,7 +79,7 @@ Apple School Manager — это программа приобретения и
 
 См. дополнительные сведения о [регистрации с помощью Apple Configurator](apple-configurator-enroll-ios.md).
 
-## <a name="use-the-company-portal-on-dep-enrolled-or-apple-configurator-enrolled-devices"></a>Использование корпоративного портала на устройствах, зарегистрированных через DEP или Apple Configurator
+## <a name="use-the-company-portal-on-ade-enrolled-or-apple-configurator-enrolled-devices"></a>Использование корпоративного портала на устройствах, зарегистрированных через ADE или Apple Configurator
 
 Устройства, для которых настроено сходство пользователей, могут установить и запустить приложение корпоративного портала для скачивания приложений и управления устройствами. Когда пользователи получают свои устройства, они должны выполнить ряд дополнительных действий, чтобы запустить помощник по настройке и установить приложение корпоративного портала.
 
