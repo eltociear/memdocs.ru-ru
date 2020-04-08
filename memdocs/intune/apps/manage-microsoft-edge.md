@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b25d5439aa9d0842cbbee24b5e8759d00f371d4b
-ms.sourcegitcommit: e2877d21dfd70c4029c247275fa2b38e76bd22b8
+ms.openlocfilehash: 58e651849632fd06f962edfc90649ad14eeaeda0
+ms.sourcegitcommit: e17fc618d4c56c38a65c489b73ba27baa133ee7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80407720"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80696539"
 ---
 # <a name="manage-web-access-by-using-microsoft-edge-with-microsoft-intune"></a>Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune
 
@@ -367,14 +367,14 @@ ms.locfileid: "80407720"
 
 |    Key    |    Значение    |
 |-----------|-------------|
-|    `com.microsoft.intune.mam.managedbrowser.disableFeatures`    |    Если установлено значение **inprivate**, просмотр InPrivate отключен.   |
+|    `com.microsoft.intune.mam.managedbrowser.disabledFeatures`    |    Если установлено значение **inprivate**, просмотр InPrivate отключен.   |
 
 ### <a name="restrict-microsoft-edge-use-to-allowed-accounts-only"></a>Разрешение Microsoft Edge использовать только разрешенные учетные записи
 
 Помимо блокировки InPrivate и просмотра MSA, можно разрешить использование Microsoft Edge только при входе пользователя в систему с учетной записью AAD. Эта функция доступна только для пользователей, зарегистрированных в MDM. Дополнительные сведения о настройке этого параметра см. здесь:
 
 >[!NOTE]
-> `com.microsoft.intune.mam.managedbrowser.disableFeatures` можно использовать для одновременного отключения нескольких компонентов. Например, чтобы отключить просмотр InPrivate и запросы на сохранения паролей, используйте `inprivate| password`.
+> `com.microsoft.intune.mam.managedbrowser.disabledFeatures` можно использовать для одновременного отключения нескольких компонентов. Например, чтобы отключить просмотр InPrivate и запросы на сохранения паролей, используйте `inprivate|password`.
 
 ## <a name="configure-microsoft-edge-as-a-kiosk-app-on-android-devices"></a>Настройка Microsoft Edge в качестве приложения для киоска на устройствах Android
 
