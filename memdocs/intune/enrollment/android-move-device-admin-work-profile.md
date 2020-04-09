@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2c8c521dc0899b3429de85e95116a6277d724771
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: 6f16c39ff0af44918099863be5d23ec9fe564493
+ms.sourcegitcommit: 954b3aae7916ad14065e6e86a577c5205103a50e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80327273"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80624915"
 ---
 # <a name="move-android-devices-from-device-administrator-to-work-profile-management"></a>Перевод устройств Android с управления администратором устройств на управление рабочими профилями
 
@@ -65,8 +65,8 @@ ms.locfileid: "80327273"
 
 
     В текст отправляемых пользователям сообщений можно включить приведенный ниже URL-адрес. По этому URL-адресу запустится приложение "Корпоративный портал" для Android на странице **Обновить параметры устройства**. На этой странице приведены инструкции по переходу на управление рабочими профилями.
-    - [https://portal.manage.microsoft.com/UpdateSettings.aspx](https://portal.manage.microsoft.com/UpdateSettings.aspx).
-    - Для государственных организаций США можно использовать эту ссылку: [https://portal.manage.microsoft.us/UpdateSettings.aspx](https://portal.manage.microsoft.us/UpdateSettings.aspx).
+    - `https://portal.manage.microsoft.com/UpdateSettings.aspx`.
+    - Для государственных организаций США можно использовать эту ссылку: `https://portal.manage.microsoft.us/UpdateSettings.aspx`.
   
     > [!NOTE]
     > - Разумеется, в сообщениях вы можете использовать понятные для пользователя гипертекстовые ссылки. Но не используйте средства сокращения URL-адресов, так как полученные с их помощью ссылки могут не работать.

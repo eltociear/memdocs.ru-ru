@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 67a26a42efb56c75d9538d9e7fcd2d726327d26d
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: b437a72a2380fea215746aa76b35898c6fc60b16
+ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80322996"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551387"
 ---
 # <a name="create-a-compliance-policy-in-microsoft-intune"></a>Создание политики соответствия требованиям в Microsoft Intune
 
@@ -58,6 +58,9 @@ ms.locfileid: "80322996"
 - Зарегистрируйте устройства в Intune (необходимо, чтобы увидеть состояние соответствия).
 
 - Зарегистрируйте устройства для одного пользователя или зарегистрируйтесь без основного пользователя. Устройства, зарегистрированные для нескольких пользователей, не поддерживаются.
+
+> [!NOTE]
+> В течение нескольких недель пользовательский интерфейс Intune получит обновление и сможет работать в полноэкранном режиме. В текущей версии процесс создания или изменении параметров может несколько отличаться от описанного в этой статье.
 
 ## <a name="create-the-policy"></a>Создание политики
 

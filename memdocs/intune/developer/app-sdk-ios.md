@@ -5,7 +5,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/02/2020
+ms.date: 04/02/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -17,17 +17,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 55cee62704660a3cf51fea88c2b8b877aa9ce6ef
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 172d76b8d6f196a40fc66eeaba91b7bb32228ccc
+ms.sourcegitcommit: 9145a5b3b39c111993e8399a4333dd82d3fe413c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79345628"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80620507"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
 > [!NOTE]
 > Рекомендуется прочесть статью [Начало работы с пакетом SDK для приложений Intune](app-sdk-get-started.md), где описана подготовка к интеграции на каждой поддерживаемой платформе.
+>
+> Инструкции по скачиванию пакета SDK см. в [этой статье](../developer/app-sdk-get-started.md#download-the-sdk-files).
 
 Пакет SDK для приложений Microsoft Intune для iOS позволяет встроить в собственное приложение для iOS политики защиты приложений Intune, также известные как политики защиты приложений (APP) или политики управления мобильными приложениями (MAM). В приложение, которое использует MAM, встроен пакет SDK для приложений Intune. ИТ-администраторы могут развернуть политики защиты приложений в вашем мобильном приложении, когда Intune активно управляет им.
 
@@ -95,7 +97,7 @@ ms.locfileid: "79345628"
 
 Чтобы использовать пакет SDK для приложений Intune, сделайте следующее.
 
-1. **Вариант 1 — платформа (рекомендуется)**. Если вы используете Xcode 10.2 и более поздней версии и ваше приложение или расширение содержит код SWIFT, свяжите `IntuneMAMSwift.framework` и `IntuneMAMSwiftStub.framework` с целевым объектом: Перетащите `IntuneMAMSwift.framework` и `IntuneMAMSwiftStub.framework` в список **Встроенные двоичные файлы** целевого объекта проекта.
+1. **Вариант 1 — платформа (рекомендуется)** . Если вы используете Xcode 10.2 и более поздней версии и ваше приложение или расширение содержит код SWIFT, свяжите `IntuneMAMSwift.framework` и `IntuneMAMSwiftStub.framework` с целевым объектом: Перетащите `IntuneMAMSwift.framework` и `IntuneMAMSwiftStub.framework` в список **Встроенные двоичные файлы** целевого объекта проекта.
 
     В противном случае свяжите `IntuneMAM.framework` с целевым объектом: Перетащите `IntuneMAM.framework` в список **Embedded Binaries** (Встроенные двоичные файлы) цели проекта.
 

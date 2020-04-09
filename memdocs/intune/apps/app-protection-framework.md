@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cd6956a9bdb19f25e39dd8cfb8e7e685d60f7b8c
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: 635804a9ad5cd76d104f16bcd204df1daa28b114
+ms.sourcegitcommit: e17fc618d4c56c38a65c489b73ba27baa133ee7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80083558"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80696509"
 ---
 # <a name="data-protection-framework-using-app-protection-policies"></a>Использование политик защиты приложений на платформе защиты данных 
 
@@ -62,6 +62,9 @@ ms.locfileid: "80083558"
 Следующие параметры политики защиты приложений должны быть включены для соответствующих приложений и назначены всем пользователям мобильных устройств. Дополнительные сведения о каждом параметре политики см. в статях [Параметры политики защиты приложений iOS](app-protection-policy-settings-ios.md) и [Параметры политики защиты приложений Android](app-protection-policy-settings-android.md).
 
 Корпорация Майкрософт рекомендует проверять и классифицировать сценарии использования, а затем настраивать пользователей с помощью нормативных руководств по соответствующему уровню. Как и на любой платформе, параметры на соответствующем уровне можно скорректировать в зависимости от потребностей организации, так как политика защиты данных должна оценивать среду угроз, склонность к рискам и влияние на удобство использования.  
+
+### <a name="conditional-access-policies"></a>Политики условного доступа
+Чтобы доступ к данным рабочей или учебной учетной записи имели только приложения, поддерживающие политики защиты приложений, к таким приложениям необходимо применить политики условного доступа Azure Active Directory. Инструкции даны в **Сценарии 1**  из [этой статьи об организации доступа для облачных приложения с помощью условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
 
 ### <a name="apps-to-include-in-the-app-protection-policies"></a>Приложения, включаемые в политики защиты приложений  
 

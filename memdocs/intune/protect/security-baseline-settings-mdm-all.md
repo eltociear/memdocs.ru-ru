@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 388630712b398ef82e78e55efa63418e95187681
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 5b40ed9dff0d83639015e70889bf7008e8e68173
+ms.sourcegitcommit: e17fc618d4c56c38a65c489b73ba27baa133ee7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79351192"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80696493"
 ---
 # <a name="windows-mdm-security-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности Windows MDM для Intune
 
@@ -1583,6 +1583,9 @@ ms.locfileid: "79351192"
 ::: zone pivot="mdm-may-2019"
 
 - **Adobe Reader launch in a child process** (Запуск Adobe Reader в дочернем процессе).  
+Это правило предотвращает атаки, блокируя в Adobe Reader создание дополнительных процессов. С помощью социотехники или эксплойтов вредоносные программы могут скачивать и запускать дополнительные полезные нагрузки и прерывать работу Adobe Reader. В результате блокировки вредоносная программа не может распространяться с помощью дочерних процессов, создаваемых Adobe Reader.
+[Дополнительные сведения](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction)
+
   **По умолчанию**: Включите параметр
 
 ::: zone-end
@@ -2162,3 +2165,9 @@ ms.locfileid: "79351192"
 - **Требовать прописные буквы в PIN-коде**
 
 ::: zone-end
+
+## <a name="next-steps"></a>Дальнейшие шаги
+
+- [Базовые конфигурации безопасности](security-baselines.md)
+- [Устранение конфликтов](security-baselines.md#avoid-conflicts)
+- [Устранение неполадок с политиками и профилями в Intune](../configuration/troubleshoot-policies-in-microsoft-intune.md)

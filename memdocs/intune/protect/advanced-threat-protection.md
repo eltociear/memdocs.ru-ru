@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d7398ec523796dbbff5f01aee6ce69fe6e8ce13a
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: 7c5528e5de99e599c968f0c006aa98545b2004e2
+ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80323302"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551543"
 ---
 # <a name="enforce-compliance-for-microsoft-defender-atp-with-conditional-access-in-intune"></a>Обеспечение соответствия требованиям ATP в Microsoft Defender с помощью условного доступа в Intune
 
@@ -35,6 +35,9 @@ ms.locfileid: "80323302"
 - **Политика условного доступа**, блокирующая пользовательский доступ к корпоративным ресурсам с устройств, которые не соответствуют требованиям.
 
 При интеграции Intune с ATP в Microsoft Defender можно воспользоваться преимуществами средства по управлению угрозами и уязвимостями (TVM), а также [использовать Intune для устранения уязвимостей конечной точки, определенных TVM](atp-manage-vulnerabilities.md).
+
+> [!NOTE]
+> В течение нескольких недель пользовательский интерфейс Intune получит обновление и сможет работать в полноэкранном режиме. В текущей версии процесс создания или изменении параметров может несколько отличаться от описанного в этой статье.
 
 ## <a name="example-of-using-microsoft-defender-atp-with-intune"></a>Пример использования ATP в Microsoft Defender с Intune
 

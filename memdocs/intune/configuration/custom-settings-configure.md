@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c96de75557a4817f4e5f034689faecf7374cfe3f
-ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
+ms.openlocfilehash: feb211b1de15aa0400e9ff71b428e2db02ef4b03
+ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80359446"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551362"
 ---
 # <a name="create-a-profile-with-custom-settings-in-intune"></a>Создайте профиль с настраиваемыми параметрами в Intune
 
@@ -31,6 +31,9 @@ Microsoft Intune включает множество встроенных пар
 Дополнительные сведения о профилях конфигурации см. в разделе [Что такое профили устройств в Microsoft Intune?](device-profiles.md).
 
 В этой статье показано, как создать настраиваемый профиль для администратора устройства Android, Android для бизнеса, iOS/iPadOS, macOS и Windows. Также можно увидеть все доступные настройки для разных платформ.
+
+> [!NOTE]
+> В течение нескольких недель пользовательский интерфейс Intune получит обновление и сможет работать в полноэкранном режиме. В текущей версии процесс создания или изменении параметров может несколько отличаться от описанного в этой статье.
 
 ## <a name="create-the-profile"></a>Создание профиля
 

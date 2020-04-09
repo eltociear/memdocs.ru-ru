@@ -5,7 +5,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/27/2020
+ms.date: 03/18/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: remote-actions
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f5f32ffb864f40d8cb5402f7d4488b3870686d1a
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: ed5ff548d28a5bc973c43c84861b9b256b41a203
+ms.sourcegitcommit: e17fc618d4c56c38a65c489b73ba27baa133ee7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80322520"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80696289"
 ---
 # <a name="see-device-details-in-intune"></a>Просмотр сведений об устройствах в Intune
 
@@ -48,13 +48,19 @@ ms.locfileid: "80322520"
       - [Сброс Autopilot](/windows/deployment/windows-autopilot/windows-autopilot-reset#reset-devices-with-remote-windows-autopilot-reset) (только Windows)
       - [Быстрая проверка](../configuration/device-restrictions-windows-10.md) (только Windows 10)
       - [Полная проверка](../configuration/device-restrictions-windows-10.md) (только Windows 10)
-       - [Переименование устройства](device-rename.md)
-      - Запуск сеанса удаленной помощи
+      - Обновление аналитики безопасности Защитника Windows
+      - [Смена ключа BitLocker](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#to-rotate-the-bitlocker-recovery-key)
+      - [Переименование устройства](device-rename.md)
+      - [Новый сеанс удаленного помощника](https://docs.microsoft.com/mem/intune/remote-actions/teamviewer-support)
    - В разделе **Свойства** можно назначить [создаваемую категорию устройства](../enrollment/device-group-mapping.md) и изменить тип владения устройством на личное или корпоративное.
    - Раздел **Оборудование** содержит много сведений об устройстве, например идентификатор устройства, операционную систему, версию, дисковое пространство и дополнительные сведения.
    - В разделе **Обнаруженные приложения** отображается список установленных на устройстве приложений, найденных с помощью Intune. Дополнительные сведения см. в статье [Intune discovered apps](../apps/app-discovered-apps.md) (Обнаруженные Intune приложения).
    - В разделе **Соответствие устройства политике** отображаются все назначенные политики соответствия, а также состояние устройства — соответствующее или не соответствующее политике.
    - В разделе **Конфигурация устройства** отображаются все политики конфигурации, назначенные устройству, а также состояние применения политики — успешно или неудачно.
+   - **Конфигурация приложений**. 
+   - **Конфигурация безопасности конечных точек**.
+   - В разделе **Ключи восстановления** показаны доступные для устройства ключи BitLocker.
+   - В разделе **Управляемые приложения** перечислены все управляемые приложения, настроенные Intune и развернутые на устройстве. 
 
 ## <a name="hardware-device-details"></a>Сведения об аппаратном обеспечении устройства
 Могут собираться не все сведения. Это зависит от оператора, выбранного для устройств.

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 19660a8b2dc6b804a1ee1a1eaf407261ca9af2b1
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: 1bbca477b389b568d2aca1ab0f9394ec09fe2b24
+ms.sourcegitcommit: e17fc618d4c56c38a65c489b73ba27baa133ee7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80327241"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80696559"
 ---
 # <a name="set-up-iosipados-device-enrollment-with-apple-school-manager"></a>Настройка регистрации устройств iOS и iPadOS с помощью Apple School Manager
 
@@ -38,7 +38,6 @@ ms.locfileid: "80327241"
 **Предварительные требования**
 - [Сертификат Apple Mobile Device Management (MDM) Push Certificate](apple-mdm-push-certificate-get.md)
 - [Центр MDM](../fundamentals/mdm-authority-set.md)
-- [Сертификат Apple MDM Push Certificate](apple-mdm-push-certificate-get.md)
 - Если вы используете ADFS, для сопоставления пользователей требуется [конечная точка WS-Trust 1.3 с режимом "Имя пользователя/смешанный"](https://technet.microsoft.com/library/adfs2-help-endpoints). [Дополнительные сведения](https://technet.microsoft.com/itpro/powershell/windows/adfs/get-adfsendpoint).
 - Устройства, приобретенные по программе [Apple School Management](http://school.apple.com)
 
@@ -120,7 +119,7 @@ ms.locfileid: "80327241"
 
 8. Вы можете позволить нескольким пользователям входить на зарегистрированные устройства iPad с помощью управляемого идентификатора Apple ID. Для этого выберите **Да** в разделе **Общий iPad** (для этого параметра требуется задать значение **Да** в разделах **Регистрация без сходства пользователей** и **Защищено**.) Управляемые идентификаторы Apple ID создаются на портале Apple School Manager. См. дополнительные сведения об [общих устройствах iPad](../fundamentals/education-settings-configure-ios-shared.md) и [общих требования Apple к iPad](https://help.apple.com/classroom/ipad/2.0/#/cad7e2e0cf56).
 
-9. Укажите, нужно ли, чтобы устройства, использующие этот профиль, могли **синхронизироваться с компьютерами**. Если выбрать **Разрешить конфигуратор Apple по сертификату**, необходимо выбрать сертификат в разделе **Apple Configurator Certificates** (Сертификаты конфигуратора Apple).
+9. Укажите, нужно ли, чтобы устройства, использующие этот профиль, могли **синхронизироваться с компьютерами**. **Запретить все** означает, использующие этот профиль устройства, не смогут синхронизировать свои данные с данными на компьютерах. Если выбрать **Разрешить конфигуратор Apple по сертификату**, необходимо выбрать сертификат в разделе **Apple Configurator Certificates** (Сертификаты конфигуратора Apple).
 
 10. Если на предыдущем шаге вы выбрали **Разрешить конфигуратор Apple по сертификату**, укажите сертификат конфигуратора Apple для импорта.
 

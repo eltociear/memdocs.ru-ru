@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/19/2020
+ms.date: 04/02/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ba5aebca04a93198e7694d52085225284c88027c
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: a6855abaf09a89303bfadd1a973dd1e1761346af
+ms.sourcegitcommit: 954b3aae7916ad14065e6e86a577c5205103a50e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80325015"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80624904"
 ---
 # <a name="add-managed-google-play-apps-to-android-enterprise-devices-with-intune"></a>Добавление приложений управляемого Google Play для устройств Android для бизнеса с помощью Intune
 
@@ -224,6 +224,8 @@ ms.locfileid: "80325015"
 
 > [!NOTE]
 > Если приложение не утверждено или удалено из управляемого хранилища Google Play, оно не будет удалено из списка клиентских приложений Intune. Это позволит вам по-прежнему использовать политику удаления для пользователей, даже если это приложение не утверждено.
+> 
+> Сведения о том, как отключить учетную запись Android для бизнеса, см. в [этом разделе](../enrollment/connect-intune-android-enterprise.md#disconnect-your-android-enterprise-administrative-account).
 
 ## <a name="android-enterprise-system-apps"></a>Системные приложения Android для бизнеса
 

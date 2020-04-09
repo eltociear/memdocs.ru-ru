@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5937cd09a5224933004233b8d4efe8a0e47155f3
-ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
+ms.openlocfilehash: 8f9212d275b17db6a40e3133b5363cd13c9d13d6
+ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80359378"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551426"
 ---
 # <a name="add-macos-kernel-extensions-in-intune"></a>Добавление расширений ядра macOS в Intune
 
@@ -68,6 +68,9 @@ Intune использует "профили конфигурации" для с�
 >
 > - [Заверение приложения перед распространением](https://developer.apple.com/documentation/security/notarizing_your_app_before_distribution) (на веб-сайте Apple) 
 > - [Подготовка к изменениям в расширениях ядра в macOS High Sierra](https://support.apple.com/en-us/HT208019) (на веб-сайте Apple)
+
+> [!NOTE]
+> В течение нескольких недель пользовательский интерфейс Intune получит обновление и сможет работать в полноэкранном режиме. В текущей версии процесс создания или изменении параметров может несколько отличаться от описанного в этой статье.
 
 ## <a name="create-the-profile"></a>Создание профиля
 

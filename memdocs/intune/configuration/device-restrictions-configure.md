@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 470ca47aa92b30acacc8a251c6d7d1741513bdf1
-ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
+ms.openlocfilehash: 716925f077b7433eab06a6ea2f557c7653d0b03d
+ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80359227"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551412"
 ---
 # <a name="configure-device-restriction-settings-in-microsoft-intune"></a>Настройка параметров ограничений устройств в Microsoft Intune
 
@@ -35,6 +35,9 @@ Intune включает политики ограничения устройст
 Эти функции настраиваются администратором и доступны в Intune. Intune использует "профили конфигурации" для создания и настройки этих параметров для вашей организации. После добавления этих компонентов в профиль вы сможете отправлять или развертывать профиль в устройства в своей организации.
 
 В этой статье описано, как создать профиль ограничения для устройств. Также можно увидеть все доступные настройки для разных платформ.
+
+> [!NOTE]
+> В течение нескольких недель пользовательский интерфейс Intune получит обновление и сможет работать в полноэкранном режиме. В текущей версии процесс создания или изменении параметров может несколько отличаться от описанного в этой статье.
 
 ## <a name="create-the-profile"></a>Создание профиля
 

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/17/2020
+ms.date: 03/31/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 185cfbf49c9a6623559a2b50f0184980286e03eb
-ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
+ms.openlocfilehash: 9e97322fa8a126203bf6e4d1e7a3703b92ded339
+ms.sourcegitcommit: 0907ee1137773f0482b1d2b9bb344e206d05aede
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80358710"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80536850"
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
 
@@ -119,6 +119,8 @@ Intune предлагает широкий набор возможностей, 
 - **Токены VPP Apple**. Применение и просмотр лицензий Volume Purchase Program (VPP) для iOS и iPadOS. Дополнительные сведения см. в разделе [Приложения iOS/iPadOS, приобретенные по программе Volume Purchase Program (VPP)](vpp-apps-ios.md).
 - **Управляемый Google Play**. Управляемый Google Play — это корпоративное хранилище приложений Google и единственный источник приложений в Android для бизнеса. Дополнительные сведения см. в статье [Назначение приложений управляемого Google Play для корпоративных устройств с Android с помощью Intune](apps-add-android-for-work.md).
 - **Настройка**. Здесь можно настроить фирменную символику для Корпоративного портала. Дополнительные сведения см. в разделе [Конфигурация приложений корпоративного портала](company-portal-app.md).
+
+Дополнительные сведения о добавлении приложений в Intune см. в [этой статье](../apps/apps-add.md).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

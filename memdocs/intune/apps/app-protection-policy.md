@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, get-started, seoapril2019
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c57a201d71d3a8278499636c6ca794b437e11e9a
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: 672c978a7e590e8e26f676733bd2903d3684e978
+ms.sourcegitcommit: db511e03f14e6120968b60def8990485eb42529b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80083801"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80611740"
 ---
 # <a name="app-protection-policies-overview"></a>Общие сведения о политиках защиты приложений
 
@@ -135,7 +135,7 @@ Intune предлагает широкий набор возможностей, 
 
 Любым приложением, которое интегрировано с [пакетом SDK для Intune](../developer/app-sdk.md) или упаковано с помощью [инструмента упаковки для приложений Intune](../developer/apps-prepare-mobile-application-management.md), можно управлять с помощью политик защиты приложений Intune. См. официальный список [защищенных приложений Microsoft Intune](apps-supported-intune-apps.md), которые были созданы с использованием этих средств и являются общедоступными.
 
-Команда разработчиков пакета SDK для Intune активно тестирует и обеспечивает поддержку приложений, созданных с помощью платформ Android, iOS/iPadOS (Obj-C, Swift), Xamarin, Xamarin.Forms и Cordova. Хотя некоторым клиентам удалось интегрировать пакет SDK для Intune с другими платформами, такими как React Native и NativeScript, мы не предоставляем конкретных рекомендаций и не предлагаем подключаемых модулей для неподдерживаемых нами платформ разработки.
+Команда разработчиков пакета SDK для Intune активно тестирует и обеспечивает поддержку приложений, созданных с помощью платформ Android, iOS и iPadOS (Obj-C, Swift), Xamarin и Xamarin.Forms. Хотя некоторым клиентам удалось интегрировать пакет SDK для Intune с другими платформами, такими как React Native и NativeScript, мы не предоставляем конкретных рекомендаций и не предлагаем подключаемых модулей для неподдерживаемых нами платформ разработки.
 
 [Пакет SDK для Intune](../developer/app-sdk.md) использует современные возможности проверки подлинности, доступные в [Библиотеке проверки подлинности Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) как для собственных, так и для сторонних версий пакета SDK. Поэтому [Библиотека проверки подлинности Майкрософт](https://docs.microsoft.com/azure/active-directory/develop/reference-v2-libraries) (MSAL) недостаточно хорошо работает со многими нашими основными сценариями, такими как проверка подлинности в службе Защиты приложений Intune и условный запуск. Учитывая тот факт, что специалисты по управлению удостоверениями (Майкрософт) рекомендуют переход на MSAL для всех приложений Microsoft Office, в перспективе [пакет SDK для Intune](../developer/app-sdk.md) будет поддерживать эту библиотеку, но пока рано говорить о конкретных сроках.
 

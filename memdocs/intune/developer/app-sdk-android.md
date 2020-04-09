@@ -5,7 +5,7 @@ keywords: Пакет SDK
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/19/2020
+ms.date: 04/02/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -17,17 +17,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 367a632b082ad5d58221f33ca9a191fb229f8f66
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: 71d5efbf8b61c08e9a2edbc5312c61279571339e
+ms.sourcegitcommit: 9145a5b3b39c111993e8399a4333dd82d3fe413c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80086337"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80620560"
 ---
 # <a name="microsoft-intune-app-sdk-for-android-developer-guide"></a>Руководство по пакету SDK для приложений Intune для разработчиков под Android
 
 > [!NOTE]
 > При желании прочтите статью [Обзор пакета SDK для приложений Intune](app-sdk.md), в которой рассмотрены актуальные функции пакета SDK и описана подготовка к интеграции на каждой поддерживаемой платформе.
+>
+> Инструкции по скачиванию пакета SDK см. в [этой статье](../developer/app-sdk-get-started.md#download-the-sdk-files).
 
 Пакет SDK для приложений Microsoft Intune для Android позволяет встроить в ваше собственное приложение для Android **политики защиты приложений — APP** (или политики управления мобильными приложениями — MAM). В управляемое приложение Intune интегрирован пакет SDK для приложений Intune. Администраторы Intune могут развертывать политики защиты приложений в вашем управляемом приложении Intune, когда Intune активно управляет им.
 

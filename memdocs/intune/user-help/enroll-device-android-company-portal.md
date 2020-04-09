@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/31/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -19,12 +19,12 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 0f6efa6d026879a3231c21662e799bf8ba7ada09
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 0c9bf96188e27afeaf66e7b2897f8cda19f9df37
+ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79337750"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551655"
 ---
 # <a name="enroll-your-device-with-company-portal"></a>Регистрация устройства с использованием корпоративного портала  
 Регистрация личного или корпоративного устройства с Android обеспечивает безопасный доступ к корпоративной электронной почте, приложениям и другим данным. Корпоративный портал поддерживает устройства Android, включая Samsung Knox, под управлением Android 4.4 и более поздних версий.  
@@ -35,7 +35,7 @@ ms.locfileid: "79337750"
 > Samsung Knox — это программа для обеспечения безопасности, используемая для дополнительной защиты на некоторых устройствах Samsung под управлением Android. Чтобы определить, используете ли вы устройство Samsung Knox, последовательно выберите **Настройки** > **Сведения об устройстве**. Если вы не видите строку **Версия Knox**, то у вас обычное устройство с Android.
 
 ## <a name="enroll-device"></a>Регистрация устройства  
-Установите [бесплатное приложение корпоративного портала Intune из Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal). 
+Установите [приложение Корпоративного портала Intune из Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal). Список сайтов, где это приложение доступно для пользователей из Китая, см. в [этой статье](install-company-portal-android-china.md).    
 
 Возможно, до или после регистрации вам потребуется выбрать категорию, которая наилучшим образом соответствует характеру использования устройства. Служба поддержки вашей компании использует ваш ответ для определения приложений, к которым у вас есть доступ.  
 

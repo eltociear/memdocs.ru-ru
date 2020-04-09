@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e6b0c901cd52edcd674a2d787bc703c371dcf519
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: 27ec9e4c407dd8ef1a94e9c443f62ea5456866dc
+ms.sourcegitcommit: 252e718dc58da7d3e3d3a4bb5e1c2950757f50e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80327136"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80808139"
 ---
 # <a name="enroll-devices-in-intune-by-using-a-device-enrollment-manager-account"></a>Регистрация устройств в Intune с помощью учетной записи диспетчера регистрации устройств
 
@@ -42,7 +42,7 @@ ms.locfileid: "80327136"
 - Устройства заблокированы для условного доступа, за исключением Windows 10 версии 1803 и выше
 - Каждое устройство, зарегистрированное с учетными записями DEM, должно иметь действующую лицензию для управления в Intune. Это может быть лицензия пользователя Intune или лицензия устройства Intune.
 - Если вы [регистрируете устройства с рабочим профилем Android для бизнеса](android-work-profile-enroll.md) с использованием учетной записи диспетчера регистрации устройств, на одну такую запись можно зарегистрировать не более 10 устройств.
-
+- [Регистрация полностью управляемых устройств Android Enterprise](android-fully-managed-enroll.md) с учетными записями DEM не поддерживается.
 
 ## <a name="add-a-device-enrollment-manager"></a>Добавление диспетчера регистрации устройств
 

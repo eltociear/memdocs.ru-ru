@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: af0d79f42f1c8861fe60cb2f4f9b618cb54009d1
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 6a26e32d0a719df7c3982591042991ae760d9281
+ms.sourcegitcommit: db511e03f14e6120968b60def8990485eb42529b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79360305"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80611700"
 ---
 # <a name="prepare-line-of-business-apps-for-app-protection-policies"></a>Подготовка бизнес-приложений для политик защиты приложений
 
@@ -76,7 +76,7 @@ ms.locfileid: "79360305"
 
 ## <a name="not-using-an-app-development-platform-listed-above"></a>Не используете платформу разработки приложений, указанную выше?
 
-Команда разработчиков пакета SDK для Intune активно тестирует и обеспечивает поддержку приложений, созданных с помощью платформ Android, iOS (Obj-C, Swift), Xamarin, Xamarin.Forms и Cordova. Хотя некоторым клиентам удалось интегрировать пакет SDK для Intune с другими платформами, такими как React Native и NativeScript, мы не предоставляем конкретных рекомендаций и не предлагаем подключаемых модулей для неподдерживаемых нами платформ разработки. 
+Команда разработчиков пакета SDK для Intune активно тестирует и обеспечивает поддержку приложений, созданных с помощью платформ Android, iOS (Obj-C, Swift), Xamarin и Xamarin.Forms. Хотя некоторым клиентам удалось интегрировать пакет SDK для Intune с другими платформами, такими как React Native и NativeScript, мы не предоставляем конкретных рекомендаций и не предлагаем подключаемых модулей для неподдерживаемых нами платформ разработки. 
 
 ## <a name="feature-comparison"></a>Сравнение функций
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 mr.reviewer: karthib
-ms.openlocfilehash: 4071614c7cb93194eef00f49aa2e1759ba1028f6
-ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
+ms.openlocfilehash: 6b5d0f88222c8d48da4f91ff3cf8d4628ccb179d
+ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80359247"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551578"
 ---
 # <a name="add-endpoint-protection-settings-in-intune"></a>Добавление параметров защиты конечных точек в Intune
 
@@ -38,6 +38,9 @@ ms.locfileid: "80359247"
 
 - [Параметры macOS](endpoint-protection-macos.md)
 - [Параметры Windows 10](endpoint-protection-windows-10.md)
+
+> [!NOTE]
+> В течение нескольких недель пользовательский интерфейс Intune получит обновление и сможет работать в полноэкранном режиме. В текущей версии процесс создания или изменении параметров может несколько отличаться от описанного в этой статье.
 
 ## <a name="create-a-device-profile-containing-endpoint-protection-settings"></a>Создание профиля устройства с параметрами защиты конечных точек
 

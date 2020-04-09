@@ -6,26 +6,27 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 09/05/2019
+ms.date: 04/06/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
 ms.localizationpriority: high
 ms.assetid: 7954a686-25dc-4fce-b395-324816f46d3b
+ms.reviewer: crisk
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 99a34167f8616c6bbf2e441628de0d73aba080c3
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: d309b295281c88dff717c5f609905b3e541e3fed
+ms.sourcegitcommit: e17fc618d4c56c38a65c489b73ba27baa133ee7b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79355898"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80696444"
 ---
 # <a name="use-the-intune-tenant-status-page"></a>Страница "Состояние клиента" в Intune
 Страница состояния клиента Microsoft Intune — это централизованный узел, где можно посматривать актуальные и важные сведения о клиенте. Здесь отображаются данные о доступности и использовании лицензии, состоянии соединителя и важная информация о службе Intune.  
 
-Чтобы отобразить панель мониторинга, войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973) и щелкните **Состояние клиента**.  Параметр *Состояние клиента* находится в разделе **Справка и поддержка**.  
+Чтобы просмотреть панель мониторинга, войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431), перейдите в раздел **Администрирование клиента** и выберите **Состояние клиента**.
 
 Эта страница имеет три вкладки:
 

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 03/12/2020
+ms.date: 04/02/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4c08e0a967d18aaa7defb8e7b180a60f68c1b92c
-ms.sourcegitcommit: e2877d21dfd70c4029c247275fa2b38e76bd22b8
+ms.openlocfilehash: ee632901162042f7d777043e6700b796b4badf58
+ms.sourcegitcommit: 9145a5b3b39c111993e8399a4333dd82d3fe413c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80407806"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80620613"
 ---
 # <a name="intune-standalone---win32-app-management"></a>Изолированная среда Intune — управление приложениями Win32
 
@@ -33,7 +33,7 @@ ms.locfileid: "80407806"
 > Эта функция поддерживает 32- и 64-разрядные архитектуры ОС для приложений Windows.
 
 > [!IMPORTANT]
-> При развертывании приложений Win32 рассмотрите возможность использования исключительно [справочника по расширению управления Intune](../apps/intune-management-extension.md), особенно если у вас есть многофайловый установщик приложений Win32. Если вы совместите установку приложений Win32 и бизнес-приложений во время регистрации AutoPilot, установка приложения может завершиться сбоем.  
+> Для развертывания приложений Win32 рекомендуется использовать исключительно [расширение управления Intune](../apps/intune-management-extension.md), в особенности если применяется многофайловый установщик приложений Win32. Если вы совместите установку приложений Win32 и бизнес-приложений во время регистрации AutoPilot, установка приложения может завершиться сбоем. Расширение управления Intune устанавливается автоматически, когда скрипт PowerShell или приложение Win32 назначаются пользователю или устройству.
 
 ## <a name="prerequisites"></a>Предварительные условия
 

@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/28/2020
+ms.date: 04/07/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 691da0c74ceddb34a48bfdf01e19dadaed444e45
-ms.sourcegitcommit: 670c90a2e2d3106048f53580af76cabf40fd9197
+ms.openlocfilehash: 2e5a9db094163bcf4f987b881c83d98be655acfd
+ms.sourcegitcommit: 252e718dc58da7d3e3d3a4bb5e1c2950757f50e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "80233478"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80808086"
 ---
 # <a name="add-app-configuration-policies-for-managed-android-enterprise-devices"></a>Добавление политик конфигурации приложений для управляемых устройств Android Enterprise
 
@@ -47,7 +47,7 @@ ms.locfileid: "80233478"
 8. Щелкните **Добавить**, чтобы отобразить область **Добавление разрешений**.
 9. Щелкните разрешения, которые нужно переопределить. Предоставляемые разрешения переопределят политику "Разрешения приложения по умолчанию" для выбранных приложений.
 10. Задайте **Состояние разрешения** для каждого разрешения. Вы можете выбрать между **Запрашивать**, **Разрешать автоматически**или **Запрещать автоматически**. Дополнительные сведения см. [Android Enterprise settings to mark devices as compliant or not compliant using Intune](../protect/compliance-policy-create-android-for-work.md) (Параметры Android для бизнеса, позволяющие пометить устройства как соответствующие или не соответствующие политике с помощью Intune).
-11. В раскрывающемся списке выберите **Формат параметров конфигурации**. Выберите один из следующих методов, чтобы добавить сведения о конфигурации:
+11. Если управляемое приложение поддерживает параметры конфигурации, в раскрывающемся списке выберите **Формат параметров конфигурации**. Выберите один из следующих методов, чтобы добавить сведения о конфигурации:
     - **Использовать конструктор конфигурации**
     - **Использование редактора JSON**<br><br>
     Дополнительные сведения об использовании конструктора конфигураций см. в разделе [Использование конструктора конфигураций](#use-the-configuration-designer). Дополнительные сведения о вводе XML-данных см. в разделе [Использование редактора JSON](#enter-json-data).
