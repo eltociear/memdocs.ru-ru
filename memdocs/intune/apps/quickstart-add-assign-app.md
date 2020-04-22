@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: c5b6762669e4d816010982c63a119bffdec2f055
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79334279"
 ---
 # <a name="quickstart-add-and-assign-a-client-app"></a>Краткое руководство. Добавление и назначение клиентского приложения
@@ -91,13 +91,13 @@ ms.locfileid: "79334279"
 4. Щелкните приложение, добавленное с помощью Intune. В этом кратком руководстве вы добавили приложение из **набора приложений Microsoft Office 365**.
 
     > [!NOTE]
-    > Если вам не удалось назначить приложения пользователю Intune, вы увидите следующее сообщение: *ИТ-администратор не предоставил вам никаких приложений.*
+    > Если вам не удалось назначить приложение пользователю Intune, вы увидите следующее сообщение: *Your IT administrator did not make any apps available to you* (ИТ-администратор не предоставил вам доступ к приложениям).
 
 5. Нажмите кнопку **Установить**.
 
 Если вам требуется назначить сотрудникам приложение "Корпоративный портал", для Windows 10 это можно сделать вручную непосредственно из Intune. Дополнительные сведения см. в статье [Добавление приложения "Корпоративный портал" для Windows 10 вручную с помощью Microsoft Intune](company-portal-app.md)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В этом кратком руководстве вы добавили приложение в Intune, назначили приложение группе и установили приложение на зарегистрированном устройстве Windows 10 Desktop. Дополнительные сведения об управлении приложениями в Intune см. в разделе [Что такое управление приложениями с помощью Microsoft Intune?](app-management.md).
 

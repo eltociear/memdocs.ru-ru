@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 953dbf7883377b95647a1cd1f253306cf41f0fd6
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79351309"
 ---
 # <a name="privacy-and-personal-data-in-intune"></a>Конфиденциальность и персональные данные в Intune
@@ -39,6 +39,6 @@ Microsoft Intune не использует персональные данные
 
 Вы можете отобразить условия и положения вашей организации в приложении "Корпоративный портал". Это позволяет пользователям просматривать условия и положения, включая заявление о конфиденциальности, прежде чем регистрироваться в Intune и получать доступ к корпоративным активам и данным.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Дополнительные сведения о том, как Intune [собирает](privacy-data-collect.md), [сохраняет и обрабатывает](privacy-data-store-process.md) персональные данные, а также обеспечивает их [совместное использование](privacy-data-secure-share.md). 

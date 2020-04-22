@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: ed623abeb602e599866af7b7249756edd87d5a29
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79349203"
 ---
 # <a name="zimperium-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Zimperium с Intune
@@ -41,7 +41,7 @@ ms.locfileid: "79349203"
 
 - Azure Active Directory Premium
 
-- Подписка на Microsoft Intune
+- Подписка Microsoft Intune
 
 - Подписка на службу Mobile Threat Defense Zimperium
 
@@ -80,7 +80,7 @@ ms.locfileid: "79349203"
 > [!div class="mx-imgBorder"]
 > ![Схематическое изображение обнаруженных вредоносных приложений](./media/zimperium-mobile-threat-defense-connector/Maliciousapps-blocked-zimperium.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 > [!div class="mx-imgBorder"]
 > ![Схематическое изображение предоставления доступа после устранения угрозы](./media/zimperium-mobile-threat-defense-connector/maliciousapps-unblocked-zimperium.png)
@@ -94,12 +94,12 @@ ms.locfileid: "79349203"
 > [!div class="mx-imgBorder"]
 > ![Блокировка доступа к сети через Wi-Fi](./media/zimperium-mobile-threat-defense-connector/network-wifi-blocked-zimperium.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 > [!div class="mx-imgBorder"]
 > ![Доступ предоставляется после устранения угрозы](./media/zimperium-mobile-threat-defense-connector/network-wifi-unblocked-zimperium.png)
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
 Обнаружение угроз типа **злоумышленник в середине** и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
 
@@ -108,7 +108,7 @@ ms.locfileid: "79349203"
 > [!div class="mx-imgBorder"]
 > ![Блокировка SharePoint Online при обнаружении сетевых угроз](./media/zimperium-mobile-threat-defense-connector/network-spo-blocked-zimperium.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 > [!div class="mx-imgBorder"]
 > ![Пример предоставления доступа к Sharepoint после устранения угрозы](./media/zimperium-mobile-threat-defense-connector/network-spo-unblocked-zimperium.png)
@@ -125,7 +125,7 @@ ms.locfileid: "79349203"
 > [!div class="mx-imgBorder"]
 > ![Доступ предоставляется после устранения угрозы для политики защиты приложений](./media/zimperium-mobile-threat-defense-connector/zimperium-mobile-app-policy-remediated.png)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Интеграция Zimperium с Intune](zimperium-mtd-connector-integration.md)
 

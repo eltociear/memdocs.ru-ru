@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: afd3f7a7c92fba23fc28903b328bc95f8555ba3d
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79353493"
 ---
 # <a name="check-point-sandblast-mobile-threat-defense-connector-with-intune"></a>Соединитель Check Point SandBlast Mobile Threat Defense для Intune
@@ -40,11 +40,11 @@ ms.locfileid: "79353493"
 
 - **iOS 8 и более поздние версии**
 
-## <a name="pre-requisites"></a>Предварительные условия
+## <a name="pre-requisites"></a>Предварительные требования
 
 - Azure Active Directory Premium
 
-- Подписка на Microsoft Intune
+- Подписка Microsoft Intune
 
 - Подписка на Check Point SandBlast Mobile Threat Defense
   - Дополнительные сведения см. на [веб-сайте CheckPoint SandBlast](https://www.checkpoint.com/).
@@ -72,7 +72,7 @@ ms.locfileid: "79353493"
 > [!div class="mx-imgBorder"]
 > ![Блокировка Check Point MTD при обнаружении вредоносных программ](./media/checkpoint-sandblast-mobile-mobile-threat-defense-connector/checkpoint-mtd-2.PNG)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 > [!div class="mx-imgBorder"]
 > ![Предоставлен доступ Check Point MTD](./media/checkpoint-sandblast-mobile-mobile-threat-defense-connector/checkpoint-mtd-3.PNG)
@@ -86,12 +86,12 @@ ms.locfileid: "79353493"
 > [!div class="mx-imgBorder"]
 > ![Блокировка Check Point MTD доступа к сети через Wi-Fi](./media/checkpoint-sandblast-mobile-mobile-threat-defense-connector/checkpoint-mtd-4.PNG)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 > [!div class="mx-imgBorder"]
 > ![Предоставлен доступ Check Point MTD к сети Wi-Fi](./media/checkpoint-sandblast-mobile-mobile-threat-defense-connector/checkpoint-mtd-5.PNG)
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
 Обнаружение угроз типа **злоумышленник в середине** и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
 
@@ -100,7 +100,7 @@ ms.locfileid: "79353493"
 > [!div class="mx-imgBorder"]
 > ![Блокировка Check Point MTD доступа к SharePoint Online](./media/checkpoint-sandblast-mobile-mobile-threat-defense-connector/checkpoint-mtd-6.PNG)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 > [!div class="mx-imgBorder"]
 > ![Предоставлен доступ Check Point MTD к SharePoint Online](./media/checkpoint-sandblast-mobile-mobile-threat-defense-connector/checkpoint-mtd-7.PNG)
@@ -117,7 +117,7 @@ Access is granted on remediation:
 > ![Access is granted on remediation for App protection policy](./media/checkpoint-sandblast-mobile-mobile-threat-defense-connector/sandblast-app-policy-remediated.png)
 -->
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Интеграция CheckPoint SandBlast с Intune](checkpoint-sandblast-mobile-mtd-connector-integration.md)
 

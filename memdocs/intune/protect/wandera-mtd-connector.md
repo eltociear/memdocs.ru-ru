@@ -16,10 +16,10 @@ ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: f9bf88dd3a30caeb57b10e0c88c6954d1479d4f2
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79349411"
 ---
 # <a name="wandera-mobile-threat-defense-connector-with-intune"></a>Соединитель Wandera Mobile Threat Defense в Intune  
@@ -54,7 +54,7 @@ ms.locfileid: "79349411"
 
 ## <a name="prerequisites"></a>Предварительные условия  
 
-- Подписка на Microsoft Intune  
+- Подписка Microsoft Intune  
 - Azure Active Directory  
 - Wandera Mobile Threat Defense (прежнее название: Wandera Secure)  
 
@@ -90,9 +90,9 @@ ms.locfileid: "79349411"
 
 *Доступ предоставляется после устранения угрозы*:  
 
-![Восстановление доступа после исправления](./media/wandera-mtd-connector/wandera-network-wifi-unblocked.png)  
+![Доступ предоставляется после устранения угрозы](./media/wandera-mtd-connector/wandera-network-wifi-unblocked.png)  
 
-## <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
+## <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
 Обнаруживайте угрозы для сети, такие как атаки типа "злоумышленник в середине", и запрещайте синхронизацию корпоративных файлов на основе риска устройства.
 
@@ -116,7 +116,7 @@ Access is granted on remediation:
 ![Access is granted on remediation for App protection policy](./media/wandera-mtd-connector/wandera-mobile-app-policy-remediated.png)
 -->
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Интеграция Wandera с Intune](wandera-mtd-connector-integration.md)
 - [Настройка приложений Wandera](mtd-apps-ios-app-configuration-policy-add-assign.md)

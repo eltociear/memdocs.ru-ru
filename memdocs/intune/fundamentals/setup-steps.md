@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 53a6d38212433b786719379c0916129ea5304c21
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79356249"
 ---
 # <a name="set-up-intune"></a>Настройка Intune
@@ -35,7 +35,7 @@ ms.locfileid: "79356249"
 >[!TIP]
 >При покупке по меньшей мере 150 лицензий для Intune в соответствующем плане можно использовать *преимущество Center FastTrack*. Благодаря этой службе специалисты Майкрософт помогут вам подготовить среду к работе с Intune. См. статью [Программа FastTrack для Enterprise Mobility](https://docs.microsoft.com/enterprise-mobility-security/Solutions/enterprise-mobility-fasttrack-program).
 
-| Шаги | Состояние  |
+| Шаги | состояние;  |
 |---|---|
 |   1   | [Поддерживаемые конфигурации](supported-devices-browsers.md). Что необходимо знать перед началом работы. Сюда входят поддерживаемые конфигурации и требования к сети.|
 |   2   |  [Вход в Intune](account-sign-up.md). Вход в пробную подписку или создание подписки Intune. |

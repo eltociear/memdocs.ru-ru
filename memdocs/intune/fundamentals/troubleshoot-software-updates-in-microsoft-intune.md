@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 851fea24f101d313dba3426e5d65c60c5f31fdb5
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79355586"
 ---
 # <a name="troubleshoot-software-updates-in-microsoft-intune"></a>Устранение неполадок с обновлениями программного обеспечения в Microsoft Intune
@@ -48,8 +48,8 @@ ms.locfileid: "79355586"
 3. Отклоните все замененные обновления, которые могут применяться для Windows 7 или приложений (например, Microsoft Office), установленных на затронутых клиентах.
 4. Перезапустите затронутые клиенты.
 
-Если вы используете Windows 7, убедитесь, что установлено обновление [3050265 — клиент Центра обновления Windows для Windows 7 за июнь 2015 г](https://support.microsoft.com/kb/3050265).
+Если вы используете Windows 7, убедитесь, что установлено обновление [3050265 — клиент Центра обновления Windows для Windows 7 за июнь 2015 г.](https://support.microsoft.com/kb/3050265)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Получите [поддержку от корпорации Майкрософт](get-support.md) или обратитесь на [форумы сообщества](https://social.technet.microsoft.com/Forums/en-US/home?category=microsoftintune).

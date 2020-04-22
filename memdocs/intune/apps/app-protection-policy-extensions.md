@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: d7de306a7d4f632b3eedf321323e12c7ad95b713
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79341962"
 ---
 # <a name="protecting-application-extensions"></a>Защита расширений приложений
@@ -64,7 +64,7 @@ ms.locfileid: "79341962"
 Если пользователь соглашается на обмен данными между учетными записями, как и в случае с надстройками Office, интеграция с LinkedIn использует существующие API Microsoft Graph. Интеграция с LinkedIn использует лишь подмножество интерфейсов API, доступных для надстроек Office, и поддерживает различные исключения.
 
 
-|Разрешения Microsoft Graph  |Описание:  |
+|Разрешения Microsoft Graph  |Описание  |
 |---------|---------|
 |Разрешения на чтение для объекта [Люди](https://developer.microsoft.com/graph/docs/concepts/permissions_reference#people-permissions)     |Позволяет приложению считывать оцененный список людей, имеющих отношение к вошедшему в систему пользователю. Этот список может включать в себя локальные контакты, контакты из социальных сетей или каталога организации, а также людей, с которыми пользователь недавно общался (например, по электронной почте и Skype).         |
 |Разрешения на чтение для объекта [Календари](https://developer.microsoft.com/graph/docs/concepts/permissions_reference#calendars-permissions)     |Позволяет приложению считывать события из пользовательских календарей. Включает в себя собрания в календарях вошедшего в систему пользователя, время их проведения, расположения и участников.         |

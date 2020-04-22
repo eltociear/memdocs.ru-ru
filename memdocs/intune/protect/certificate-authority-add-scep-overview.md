@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 1dfac34615c208328cab06a3fd047d3a9b99c794
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79353896"
 ---
 # <a name="add-partner-certification-authority-in-intune-using-scep"></a>Добавление центра сертификации партнера в Intune с помощью SCEP
@@ -41,7 +41,7 @@ ms.locfileid: "79353896"
 
 В этой статье приводится обзор этой функции с точки зрения администратора, включая создание приложения Azure AD.
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Overview
 
 Ниже приведены общие сведения об использовании SCEP для сертификатов в Intune.
 

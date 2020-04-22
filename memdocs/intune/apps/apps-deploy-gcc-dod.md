@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 5d37bf060f11be9e295a9ef2743fa0ba33844df7
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79340922"
 ---
 # <a name="deploying-apps-using-intune-on-the-gcc-high-and-dod-environments"></a>Развертывание приложений в средах GCC High и DoD 
@@ -56,7 +56,7 @@ ms.locfileid: "79340922"
 
 Анализируя целесообразность использования этих служб, изучайте заявления о конфиденциальности и соответствии требованиям для приложений и сравнивайте их с требованиями в области соответствия, безопасности и конфиденциальности, действующими в вашей организации.   
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Дополнительные сведения о развертывании и назначении приложений см. в статье [Назначение приложений группам с помощью Microsoft Intune](apps-deploy.md).
 

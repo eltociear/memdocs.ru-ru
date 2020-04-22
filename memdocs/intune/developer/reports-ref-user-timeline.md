@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 7b339941da247cf6bc5efd9f3fa9c598415ed0e9
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79339908"
 ---
 # <a name="user-lifetime-representation-in-the-microsoft-intune-data-warehouse"></a>Представление времени существования пользователя в хранилище данных Microsoft Intune
@@ -78,7 +78,7 @@ ms.locfileid: "79339908"
  
 Чтобы просмотреть имеющиеся сейчас сущности измерений, следует применить фильтр, где **IsDeleted = FALSE**.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Дополнительные сведения о сущности **текущего пользователя** см. в [этом справочнике](reports-ref-data-model.md).
 - Дополнительные сведения о сущности **пользователя** см. в [этом справочнике](reports-ref-user.md).

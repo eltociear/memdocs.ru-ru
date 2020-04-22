@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 5bb106e482beb7894c84f11d0994b43ba43eb302
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79338387"
 ---
 # <a name="integrate-zimperium-with-intune"></a>Интеграция Zimperium с Intune
@@ -35,11 +35,11 @@ ms.locfileid: "79338387"
 
 Перед началом интеграции Zimperium с Intune убедитесь в наличии следующей подписки и учетных данных:
 
-- Подписка на Microsoft Intune
+- Подписка Microsoft Intune
 
 - Учетные данные глобального администратора Azure Active Directory для предоставления следующих разрешений:
 
-  - Вход в систему и чтение профиля пользователя
+  - Вход и чтение профилей пользователей
 
   - Доступ к каталогу от имени вошедшего в систему пользователя
 
@@ -74,7 +74,7 @@ ms.locfileid: "79338387"
 
 4. Выберите **Добавить MDM,** а затем **Microsoft Intune** в списке **поставщиков MDM**.
 
-5. Когда вы настроите Microsoft Intune как службу управления мобильными устройствами, откроется окно **Настройка Microsoft Intune**. Выберите вариант **Добавить Azure Active Directory** для каждого параметра: **Zimperium zConsole**, **zIPS iOS and Android apps** (Приложения zIPS iOS и Android), чтобы разрешить Zimperium взаимодействовать с Intune и Azure AD в режиме единого входа Azure AD.
+5. Когда вы настроите Microsoft Intune как службу управления мобильными устройствами, откроется окно **Настройка Microsoft Intune**. Выберите вариант **Добавить Azure Active Directory** для каждого параметра: **Zimperium zConsole**, **Приложения iOS и Android zIPS**, чтобы разрешить Zimperium взаимодействовать с Intune и Azure AD в режиме единого входа Azure AD.
 
     > [!IMPORTANT]  
     > Чтобы завершить процесс интеграции с Intune, вам потребуется добавить приложения zConsole Zimperium, zIPS iOS и Android.
@@ -87,7 +87,7 @@ ms.locfileid: "79338387"
 
 9. Выйдите из консоли Zimperium MTD.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Настройка приложений Zimperium для зарегистрированных устройств](mtd-apps-ios-app-configuration-policy-add-assign.md)
 - [Настройка приложений Zimperium для незарегистрированных устройств](mtd-add-apps-unenrolled-devices.md)

@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: b7bf08775a6cccac3dd96268765d6e1a2e453c51
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79345368"
 ---
 # <a name="move-your-intune-data-warehouse-account-data"></a>Перенос учетной записи хранилища данных Intune 
@@ -80,7 +80,7 @@ ms.locfileid: "79345368"
 
 Клиент Х запрашивает перенос учетной записи начиная с 1.06.2018. В ответ на этот запрос клиент получит ссылку для просмотра документации с подробными сведениями о действиях, которые необходимо выполнить для резервного копирования данных предыдущего хранилища данных. Начиная с 1.06.2018 хранилище данных и диаграммы, которые оно поддерживает, будут сброшены и данные будут сохраняться в новом центре обработки данных. 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Следите за [еженедельными новостями об улучшениях в Intune](../fundamentals/whats-new.md). Кроме того, здесь можно узнать о предстоящих изменениях и получить важные уведомления относительно службы, а также сведения о прошлых выпусках.
 - Прочтите [блог Microsoft Intune](https://go.microsoft.com/fwlink/?LinkID=273882).

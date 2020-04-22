@@ -20,10 +20,10 @@ ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
 ms.openlocfilehash: 700a06fd876705a14f661a71d6d97419f13a13c6
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79337490"
 ---
 # <a name="enroll-your-corporate-device-with-the-microsoft-intune-app"></a>Регистрация корпоративного устройства с помощью приложения Microsoft Intune
@@ -68,8 +68,8 @@ ms.locfileid: "79337490"
 
 7. При появлении запроса войдите в рабочую или учебную учетную запись.   
 
-    a. Введите адрес электронной почты и коснитесь **Далее**.      
-    b. Введите пароль, а затем нажмите кнопку **Войти**.  
+    а. Введите адрес электронной почты и коснитесь **Далее**.      
+    б. Введите пароль, а затем нажмите кнопку **Войти**.  
 
 8. В зависимости от требований вашей организации может потребоваться обновить параметры, такие как блокировка экрана или шифрования. Если вы видите подобные запросы, нажмите **Задать** и следуйте инструкциям на экране.  
 
@@ -127,5 +127,5 @@ ms.locfileid: "79337490"
 
 
 
-## <a name="next-steps"></a>Дальнейшие шаги   
+## <a name="next-steps"></a>Дальнейшие действия   
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании (см. контактные данные на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980)) или отправьте письмо <a href="mailto:wintunedroidfbk@microsoft.com?subject=I'm having trouble with enrolling my Android device&body=Describe the issue you're experiencing here.">команде разработчиков Майкрософт для Android</a>.  

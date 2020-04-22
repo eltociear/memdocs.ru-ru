@@ -19,17 +19,17 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 54e81a7b9614e1633fe9061fd13d1b99810ce43c
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79351751"
 ---
 # <a name="set-up-lookout-mobile-endpoint-security-integration-with-intune"></a>Настройка интеграции Lookout Mobile Endpoint Security с Intune
 Интегрировать Lookout Mobile Endpoint Security с Intune можно при наличии [отвечающей требованиям](lookout-mobile-threat-defense-connector.md#prerequisites) среды. Сведения в этой статье помогут вам настроить интеграцию и важные параметры в Lookout для использования с Intune.  
 
 > [!IMPORTANT]
-> Существующий клиент Lookout Mobile Endpoint Security, который еще не связан с вашим клиентом Azure AD, нельзя использовать для интеграции с Azure AD и Intune. Свяжитесь со службой поддержки Lookout, чтобы создать новый клиент Lookout Mobile Endpoint Security. Используйте новый клиент для подключения пользователей Azure AD.
+> Существующий клиент Lookout Mobile Endpoint Security, который еще не связан с клиентом Azure AD, невозможно использовать для интеграции с Azure AD и Intune. Свяжитесь со службой поддержки Lookout, чтобы создать новый клиент Lookout Mobile Endpoint Security. Используйте новый клиент для подключения пользователей Azure AD.
 
 ## <a name="collect-azure-ad-information"></a>Сбор сведения из Azure AD  
 Для интеграции Lookout в Intune необходимо связать клиент Lookout Mobility Endpoint Security с вашей подпиской Azure AD.
@@ -77,7 +77,7 @@ ms.locfileid: "79351751"
 ### <a name="initial-sign-in"></a>Изначальный вход  
 При первом входе в консоль Lookout MES отображается страница согласия (https://aad.lookout.com/les?action=consent). Глобальный администратор Azure AD просто выполняет вход и нажимает кнопку **Принять**. В дальнейшем этот уровень прав Azure AD не потребуется. 
 
- Выводится страница подтверждения. Чтобы завершить регистрацию, нажмите кнопку **Принять**. 
+ Открывается страница согласия. Выберите **Принять** для завершения регистрации. 
    ![снимок экрана страницы первоначального входа в консоль Lookout](./media/lookout-mtd-connector-integration/lookout_mtp_initial_login.png)
 
 Приняв условия, вы будете перенаправлены в консоль Lookout.
@@ -97,7 +97,7 @@ ms.locfileid: "79351751"
 
 3. Выберите **Enrollment Management** (Управление регистрацией) и для параметра **Use the following Azure AD security groups to identify devices that should be enrolled in Lookout for Work** (Использовать следующие группы безопасности Azure AD, чтобы определить устройства, которые должны быть зарегистрированы в Lookout for Work) укажите *имя группы* Azure AD для использования с Lookout, а затем щелкните **Save changes** (Сохранить изменения).
 
-    ![снимок экрана со страницей регистрации соединителя Intune](./media/lookout-mtd-connector-integration/lookout-mtp-enrollment.png)  
+    ![снимок экрана: страница регистрации соединителя Intune](./media/lookout-mtd-connector-integration/lookout-mtp-enrollment.png)  
 
    **О группах, которые вы используете**:
    - Для тестирования интеграции с Lookout рекомендуется создать группу безопасности Azure AD, содержащую небольшое число пользователей.
@@ -108,7 +108,7 @@ ms.locfileid: "79351751"
 
 5. Щелкните **Error Management** (Управление ошибками), укажите адрес электронной почты, на который должны приходить отчеты об ошибках, а затем выберите **Save changes** (Сохранить изменения).
  
-   ![снимок экрана со страницей управления ошибками соединителя Intune](./media/lookout-mtd-connector-integration/lookout-mtp-connector-error-notifications.png)
+   ![снимок экрана страницы управления ошибками соединителя Intune](./media/lookout-mtd-connector-integration/lookout-mtp-connector-error-notifications.png)
 
 6. Щелкните **Create connector** (Создать соединитель), чтобы завершить настройку соединителя. Позже, когда вы будете удовлетворены результатами, вы можете расширить регистрацию для дополнительных групп пользователей.
 
@@ -144,7 +144,7 @@ ms.locfileid: "79351751"
 >[!IMPORTANT]
 > Уровни риска — это важный аспект службы Mobile Endpoint Security, так как функция интеграции с Intune во время выполнения определяет соответствие устройства требованиям на основе этих уровней рисков.  
 > 
-> Администратор Intune задает правило в политике, которое определяет устройство как не соответствующее требованиям, если на нем есть активная угроза с одним из минимальных уровней: **Высокий**, **Средний** или **Низкий**. Политика классификации угроз в службе Lookout Mobile Endpoint Security непосредственно влияет на оценку соответствия устройств системой Intune.  
+> Администратор Intune задает в политике правило, которое определяет устройство как несоответствующее, если для устройства зафиксирована активная угроза с заданным минимальным уровнем (**высоким**, **средним** или **низким**). Политика классификации угроз в службе Lookout Mobile Endpoint Security непосредственно влияет на оценку соответствия устройств системой Intune.  
 
 ## <a name="monitor-enrollment"></a>Мониторинг регистрации
 После завершения установки служба Lookout Mobile Endpoint Security начинает опрашивать Azure AD на предмет наличия устройств, которые соответствуют указанным группам регистрации.  Сведения о зарегистрированных устройствах можно найти, перейдя в раздел **Devices** (Устройства) в консоли Lookout MES.  
@@ -153,7 +153,7 @@ ms.locfileid: "79351751"
 
 Сведения о развертывании приложения *Lookout for Work* на устройство см. в статье [Добавление и назначение приложений Mobile Threat Defense (MTD) в Intune](mtd-apps-ios-app-configuration-policy-add-assign.md).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Настройка приложений Lookout для зарегистрированных устройств](mtd-apps-ios-app-configuration-policy-add-assign.md)
 - [Настройка приложений Lookout для незарегистрированных устройств](mtd-add-apps-unenrolled-devices.md)

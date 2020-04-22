@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 16b7cc65ae043fb48b7f500bfcd65195c7ff7561
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79355703"
 ---
 # <a name="endpoint-protection-issues-and-possible-solutions-in-microsoft-intune"></a>Устранение неполадок с Endpoint Protection и возможные решения проблем в Microsoft Intune
@@ -62,13 +62,13 @@ ms.locfileid: "79355703"
 
 - [Добавление параметров Endpoint Protection](../protect/endpoint-protection-configure.md)
 - [Антивирусная программа в Microsoft Defender](../configuration/device-restrictions-windows-10.md#microsoft-defender-antivirus)
-- [Включение пользователями защиты в реальном времени для доступа к ресурсам компании](../user-help/turn-on-defender-windows.md)
+- [Включение пользователем защиты в реальном времени для доступа к ресурсам компании](../user-help/turn-on-defender-windows.md)
 
 ### <a name="malware-definitions-out-of-date"></a>Определения вредоносных программ устарели
 
 Это состояние возникает, если с даты последнего обновления определений вредоносных программ на устройстве прошло более 14 дней. Например, это сообщение может отображаться, если устройство отключено от Интернета или если определения вредоносных программ устарели.
 
-**Возможные решения**. Если определения вредоносных программ устарели, их можно обновить с помощью [антивирусной программы в Microsoft Defender](../configuration/device-restrictions-windows-10.md#microsoft-defender-antivirus).
+**Возможные решения**. Если определения вредоносных программ устарели, их можно обновить с помощью [антивирусной программы Microsoft Defender](../configuration/device-restrictions-windows-10.md#microsoft-defender-antivirus).
 
 ### <a name="full-scan-overdue-or-quick-scan-overdue"></a>Полная или быстрая проверки просрочены
 
@@ -80,8 +80,8 @@ ms.locfileid: "79355703"
 
 Запущено другое приложение Endpoint Protection, и устройство находится в работоспособном состоянии.
 
-**Возможные решения**. Если установлено другое приложение Endpoint Protection и Intune обнаружит такое приложение, работа устройства может стать нестабильной.
+**Возможные решения**. Если установлено другое приложение Endpoint Protection, и Intune обнаружит такое приложение, устройство может работать нестабильно.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Получите [поддержку от корпорации Майкрософт](get-support.md) или обратитесь на [форумы сообщества](https://social.technet.microsoft.com/Forums/en-US/home?category=microsoftintune).

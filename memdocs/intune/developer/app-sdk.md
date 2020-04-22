@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 8d47d91388fffd0e5716d20be640c4afbad2862e
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79343041"
 ---
 # <a name="microsoft-intune-app-sdk-overview"></a>Общие сведения о пакете SDK для приложений Microsoft Intune
@@ -30,7 +30,7 @@ ms.locfileid: "79343041"
 
 Если вы разрешили использовать политики защиты приложений Intune для своего приложения, ИТ-администраторы могут развернуть такие политики для защиты корпоративных данных в нем.
 
-## <a name="app-protection-features"></a>Функции защиты приложений
+## <a name="app-protection-features"></a>Параметры защиты приложений
 
 Ниже приведены примеры функций защиты приложения Intune, которые можно включить с помощью пакета SDK.
 
@@ -79,6 +79,6 @@ ms.locfileid: "79343041"
  
 Дополнительные сведения о Citrix MDX см. в разделе [О наборе инструментов MDX](https://docs.citrix.com/en-us/mdx-toolkit/10/about-mdx-toolkit.html), [Средство создания оболочек для приложений Citrix MDX для iOS](https://docs.citrix.com/en-us/mdx-toolkit/10/xmob-mdx-kit-app-wrap-ios.html) и [Средство создания оболочек для приложений Citrix MDX для Android](https://docs.citrix.com/en-us/mdx-toolkit/10/xmob-mdx-kit-app-wrap-android.html).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Начало работы с SDK для приложений Microsoft Intune](app-sdk-get-started.md).

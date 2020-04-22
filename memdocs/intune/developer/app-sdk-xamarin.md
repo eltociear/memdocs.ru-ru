@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: b29069d4543d4abb4bc403c446441e181d963bdd
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79345563"
 ---
 # <a name="microsoft-intune-app-sdk-xamarin-bindings"></a>Привязки Xamarin из пакета SDK для приложений Microsoft Intune
@@ -29,7 +29,7 @@ ms.locfileid: "79345563"
 > [!NOTE]
 > Вы можете сначала прочесть статью [Начало работы с пакетом SDK для приложений Intune](app-sdk-get-started.md), в которой описана подготовка к интеграции на каждой поддерживаемой платформе.
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Overview
 [Привязки Xamarin из пакета SDK для приложений Intune](https://github.com/msintuneappsdk/intune-app-sdk-xamarin) позволяют использовать [политику защиты приложений Intune](../apps/app-protection-policy.md) в приложениях iOS и Android, созданных с помощью Xamarin. Привязки разрешают разработчикам легко встраивать в свои приложения на базе Xamarin функции защиты приложений Intune.
 
 Привязки Xamarin из пакета SDK для приложений Microsoft Intune позволяют встраивать в приложения, разработанные с помощью Xamarin, политики защиты приложений Intune, также известные как политики защиты приложений или политики управления мобильными приложениями. В приложение, которое использует MAM, встроен пакет SDK для приложений Intune. ИТ-администраторы могут развернуть политики защиты приложений в вашем мобильном приложении, когда Intune активно управляет им.
@@ -38,7 +38,7 @@ ms.locfileid: "79345563"
 
 ### <a name="developer-machines"></a>Компьютеры разработчиков
 * Windows (версия Visual Studio 15.7 и более поздние)
-* MacOS
+* macOS
 
 ### <a name="mobile-app-platforms"></a>Платформы мобильных приложений
 * Android
@@ -56,7 +56,7 @@ ms.locfileid: "79345563"
 
 Прочтите [условия лицензионного соглашения](https://github.com/msintuneappsdk/intune-app-sdk-xamarin/blob/master/Microsoft%20License%20Terms%20Intune%20App%20SDK%20Xamarin%20Component.pdf). Распечатать и сохранить копию условий лицензии для своих записей. Скачивая и используя привязки Xamarin из пакета SDK для приложений Intune, вы соглашаетесь с этими условиями лицензии. Если вы не согласны, не используйте это программное обеспечение.
 
-Для [аутентификации](https://azure.microsoft.com/documentation/articles/active-directory-authentication-scenarios/) пакет SDK для Intune использует [Библиотеку проверки подлинности Active Directory (ADAL)](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/) и сценарии условного запуска. Для этого в приложении должна быть определенная конфигурация [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/). 
+Для [аутентификации](https://azure.microsoft.com/documentation/articles/active-directory-authentication-libraries/) пакет SDK для Intune использует [Библиотеку проверки подлинности Active Directory (ADAL)](https://azure.microsoft.com/documentation/articles/active-directory-authentication-scenarios/) и сценарии условного запуска. Для этого в приложении должна быть определенная конфигурация [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/). 
 
 Если приложение уже настроено для использования ADAL или MSAL и имеет свой собственный пользовательский идентификатор клиента, используемый для проверки подлинности с помощью Azure Active Directory, убедитесь, что выполнены шаги для предоставления разрешений приложения Xamarin для службы управления мобильными приложениями Intune (MAM). Инструкции см. в разделе [Предоставить вашему приложению доступ к Intune защиты службы приложений](app-sdk-get-started.md#give-your-app-access-to-the-intune-app-protection-service-optional) руководства [Приступая к работе с руководством по пакету SDK для Intune](app-sdk-get-started.md).
 
@@ -76,7 +76,7 @@ ms.locfileid: "79345563"
 ## <a name="enabling-intune-app-protection-polices-in-your-ios-mobile-app"></a>Включение политик защиты приложений Intune в мобильном приложении iOS
 1. Добавьте [пакет Microsoft.Intune.MAM.Xamarin.iOS NuGet](https://www.nuget.org/packages/Microsoft.Intune.MAM.Xamarin.iOS) в проект Xamarin.iOS.
 2. Выполните общие шаги, необходимые для интеграции пакета SDK для приложений Intune в мобильное приложение iOS. Можно начать с шага 3 инструкций по интеграции из раздела [Интеграция пакета SDK с мобильным приложением](app-sdk-ios.md#build-the-sdk-into-your-mobile-app). Последний шаг в этом разделе IntuneMAMConfigurator можно пропустить, так как это средство включено в пакет Microsoft.Intune.MAM.Xamarin.iOS и будет запущено автоматически во время сборки.
-    **Важно**. Включение общего доступа к цепочке ключей для приложения в Visual Studio немного отличается от этой процедуры в среде Xcode. Откройте PLIST-файл прав. Убедитесь, что включен параметр "Включить цепочку ключей" и что в этом разделе добавлены соответствующие группы совместного доступа к цепочке ключей. Убедитесь, что PLIST-файл прав указан в поле "Настраиваемые назначения" параметров пакетной подписи iOS проекта для всех соответствующих сочетаний конфигурации и платформы.
+    **Важно.** Включение общего доступа к цепочке ключей для приложения в Visual Studio немного отличается от этой процедуры в среде Xcode. Откройте PLIST-файл прав. Убедитесь, что включен параметр "Включить цепочку ключей" и что в этом разделе добавлены соответствующие группы совместного доступа к цепочке ключей. Убедитесь, что PLIST-файл прав указан в поле "Настраиваемые назначения" параметров пакетной подписи iOS проекта для всех соответствующих сочетаний конфигурации и платформы.
 3. После добавления привязок и правильной настройки приложение сможет использовать API пакета SDK для Intune. Для этого необходимо включить следующее пространство имен:
 
       ```csharp
@@ -151,20 +151,20 @@ ms.locfileid: "79345563"
 > Проблема с привязками MAM Xamarin может привести к сбою при развертывании в режиме отладки. Чтобы избежать этого, необходимо добавить атрибут `Debuggable=false` в класс `Application`, а флаг `android:debuggable="true"` необходимо удалить из манифеста, если он был задан вручную.
 
 #### <a name="enable-features-that-require-app-participation"></a>[Включение функций, требующих содействия со стороны приложения](app-sdk-android.md#enable-features-that-require-app-participation)
-Пример: Настройка обязательного использования ПИН-кода в приложении
+Пример. Определение необходимости использования ПИН-кода в приложении
 
 ```csharp
 MAMPolicyManager.GetPolicy(currentActivity).IsPinRequired;
 ```
 
-Пример: Определение основного пользователя Intune
+Пример. Определение основного пользователя Intune
 
 ```csharp
 IMAMUserInfo info = MAMComponents.Get<IMAMUserInfo>();
 return info?.PrimaryUser;
 ```
 
-Пример: Определение разрешения на сохранение данных на устройстве или в облачном хранилище
+Пример. Определение разрешения на сохранение данных на устройстве или в облачном хранилище
 
 ```csharp
 MAMPolicyManager.GetPolicy(currentActivity).GetIsSaveToLocationAllowed(SaveLocation service, String username);
@@ -214,12 +214,12 @@ IMAMEnrollmentManager mgr = MAMComponents.Get<IMAMEnrollmentManager>();
 Если не сделать замену, могут возникнуть следующие ошибки компиляции:
 * [Ошибка компилятора CS0239](https://docs.microsoft.com/dotnet/csharp/misc/cs0239). Эта ошибка обычно возникает в этой форме ``'MainActivity.OnCreate(Bundle)': cannot override inherited member 'MAMAppCompatActivityBase.OnCreate(Bundle)' because it is sealed``.
 Это ожидаемо; когда remapper изменяет наследование классов Xamarin, некоторые функции станут `sealed` и для переопределения вместо этого добавляется новый вариант MAM.
-* [Ошибка компилятора CS0507](https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs0507). Эта ошибка обычно возникает в этой форме ``'MyActivity.OnRequestPermissionsResult()' cannot change access modifiers when overriding 'public' inherited member ...``. По мере изменения порядка наследования некоторых классов Xamarin средством remapper некоторые функции-члены будут изменены на `public`. Если переопределить какую-либо из этих функций, может также потребоваться изменить модификаторы доступа переопределений на `public`.
+* [Ошибка компилятора CS0507](https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-messages/cs0507): данная ошибка обычно возникает в этой форме ``'MyActivity.OnRequestPermissionsResult()' cannot change access modifiers when overriding 'public' inherited member ...``. По мере изменения порядка наследования некоторых классов Xamarin средством remapper некоторые функции-члены будут изменены на `public`. Если переопределить какую-либо из этих функций, может также потребоваться изменить модификаторы доступа переопределений на `public`.
 
 > [!NOTE]
 > Remapper перезаписывает зависимость, которая используется Visual Studio для автоматического завершения IntelliSense. Таким образом, может потребоваться перезагрузить и перестроить проект в том случае, если был добавлен Remapper, чтобы технология IntelliSense могла правильно распознать изменения.
 
-#### <a name="troubleshooting"></a>Устранение неполадок
+#### <a name="troubleshooting"></a>Диагностика
 * Если после запуска приложения появляется пустой белый экран, то может потребоваться принудительно выполнить вызовы навигации в основном потоке.
 * Привязки Xamarin в пакете SDK для Intune не поддерживают приложения, использующие кроссплатформенную среду, такую как MvvmCross, ввиду наличия конфликтов между MvvmCross и классами MAM Intune. Несмотря на то, что некоторым клиентам, возможно, удалось успешно выполнить интеграцию после перемещения приложений в обычные Xamarin.Forms, мы не предоставляем разработчикам приложений, использующим MvvmCross, явные указания или подключаемые модули.
 

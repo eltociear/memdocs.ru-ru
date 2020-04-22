@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: da9ab5fe5a8716e3af0ae02122f51d06e6e55e6f
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79352505"
 ---
 # <a name="data-intune-sends-to-apple"></a>Данные, отправляемые Intune в Apple
@@ -65,7 +65,7 @@ ms.locfileid: "79352505"
 | ASM/DEP | support_phone_number | Необязательный параметр. Строка. Номер телефона службы поддержки для организации. |
 | ASM/DEP | support_email_address | Необязательный параметр. Строка. Адрес электронной почты службы поддержки для организации. Этот ключ допустим в протоколе сервера X версии 2 и более поздних версиях. |
 | ASM/DEP | department | Необязательный параметр. Строка. Определяемые пользователем имя отдела или расположения. |
-| ASM/DEP | Устройства | Массив строк, содержащий серийный номер устройства. (Может быть пустым.) |
+| ASM/DEP | устройства | Массив строк, содержащий серийный номер устройства. (Может быть пустым.) |
 | VPP | Глобальный уникальный идентификатор пользователя Intune | Идентификатор GUID, созданный Intune. |
 | VPP | Идентификатор Apple ID для имени участника-пользователя | Идентификатор Apple ID, указанный администратором при настройке подключения токена VPP с Apple. |
 | VPP | Серийный номер | Серийный номер управляемого устройства. |

@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 7b75faa501fa91dc82bfec83b8c418e28b39fcec
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79350685"
 ---
 # <a name="intune-certificate-connector-events-and-diagnostic-codes"></a>События и диагностические коды соединителя Intune Certificate Connector
@@ -73,5 +73,5 @@ ms.locfileid: "79350685"
 | 0x0FFFFFFFF | Unknown_Error  | Невозможно выполнить запрос из-за ошибки на стороне сервера. Повторите попытку. |
 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 Дополнительные сведения см. в руководстве по [устранению неполадок, связанных с развертыванием профиля сертификата SCEP в Microsoft Intune](https://support.microsoft.com/help/4457481/troubleshooting-scep-certificate-profile-deployment-in-intune).

@@ -16,10 +16,10 @@ search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: c65235caa7e53dbe8dee4605803a6e58d6ab31a0
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79344120"
 ---
 # <a name="overview-of-the-microsoft-intune-mobile-device-management-mdm-lifecycle"></a>Общие сведения о жизненном цикле системы управления мобильными устройствами (MDM) Microsoft Intune
@@ -28,7 +28,7 @@ ms.locfileid: "79344120"
 
 ![Жизненный цикл устройства](./media/device-lifecycle/device-lifecycle.png "Жизненный цикл устройства Intune")
 
-## <a name="enroll"></a>Enroll (Регистрация)
+## <a name="enroll"></a>Регистрация
 
 Современные стратегии управления мобильными устройствами (MDM) распространяются на различные телефоны, планшеты и компьютеры (iOS/iPadOS, Android, Windows и Mac OS X). Чтобы реализовать возможность управления мобильными устройствами, что обычно нужно для устройств, которыми владеют организации, сначала необходимо [настроить регистрацию устройств](../enrollment/device-enrollment.md). Для управления компьютерами с Windows их также можно зарегистрировать в Intune (MDM) или путем [установки клиентского программного обеспечения Intune](manage-windows-pcs-with-microsoft-intune.md).
 
@@ -52,6 +52,6 @@ ms.locfileid: "79344120"
 
 При потере или краже устройства, при необходимости его замены или вступлении пользователя в другую должность обычно требуется [снять устройство с учета или очистить его](../remote-actions/device-management.md). Существует ряд способов выполнения этих процедур, включая сброс настроек устройства, вывод его из управления или удаление с него данных организации.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Дополнительные сведения об [управлении устройствами в Microsoft Intune](../remote-actions/device-management.md)

@@ -20,10 +20,10 @@ ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
 ms.openlocfilehash: 839809de89d4220fa87012cd9a28e5f6b6c35dcf
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79348592"
 ---
 # <a name="enroll-device-with-android-work-profile"></a>Регистрация устройства с помощью рабочего профиля Android
@@ -76,7 +76,7 @@ ms.locfileid: "79348592"
     ![Пример изображения Корпоративного портала с экраном "Настройка доступа к ресурсам организации", подтверждением завершения настройки и выделенной кнопкой "Готово".](./media/work-profile-done-1911.png)  
 
 
-## <a name="next-steps"></a>Дальнейшие шаги  
+## <a name="next-steps"></a>Дальнейшие действия  
 
 Теперь, когда устройство зарегистрировано, вы можете установить на него учебные или рабочие приложения. Перейдите в управляемый Google Play Маркет, чтобы найти эти приложения и установить их. 
 

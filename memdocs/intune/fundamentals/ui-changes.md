@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 9fbf58b7ae035bbd7da15814787f283c7b80e13e
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79355118"
 ---
 # <a name="where-did-my-intune-feature-go-in-azure"></a>Мои функции Intune исчезли в Azure. Почему?
@@ -52,7 +52,7 @@ ms.locfileid: "79355118"
 
 ![Рисунок — правила регистрации мобильных устройств в классической консоли](./media/ui-changes/01-classic-rules.png)
 
-Эти правила применялись ко всем пользователям в вашей учетной записи Intune без исключений. На портале Azure эти правила теперь отображаются в двух разных типах политик: "Ограничения числа устройств" и "Ограничения по типу устройств".
+Эти правила применялись ко всем пользователям в вашей учетной записи Intune без исключений. На портале Azure эти правила теперь отображаются в двух разных типах политик: "Ограничения по типу устройств" и "Ограничения количества устройств".
 
 ![Рисунок — ограничения регистрации мобильных устройств в Azure](./media/ui-changes/02-azure-enroll-restrictions.png)
 

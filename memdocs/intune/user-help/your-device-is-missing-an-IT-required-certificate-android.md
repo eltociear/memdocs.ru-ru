@@ -20,10 +20,10 @@ ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
 ms.openlocfilehash: b4a16204afc99169183e02eb269ab24d7f63cc49
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79346057"
 ---
 # <a name="install-missing-certificate-required-by-your-organization"></a>Установка отсутствующего сертификата, необходимого для вашей организации  
@@ -84,6 +84,6 @@ ms.locfileid: "79346057"
 
 Если вы видите сообщение об отсутствующем сертификате, которое показано выше, но уже выполнили описанную здесь процедуру, вероятно, необходим другой сертификат, для установки которого нужна помощь службы поддержки вашей компании. Если вам нужна помощь, обратитесь в службу поддержки вашей компании, используя контактные данные на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
 
-## <a name="next-steps"></a>Дальнейшие шаги  
+## <a name="next-steps"></a>Дальнейшие действия  
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).  

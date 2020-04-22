@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: c658176046fca5dfc8cda1a3c655e32150a7d9c7
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79343847"
 ---
 # <a name="add-the-windows-10-company-portal-app-by-using-microsoft-intune"></a>Добавление приложения Корпоративного портала для Windows 10 с помощью Microsoft Intune
@@ -95,7 +95,7 @@ ms.locfileid: "79343847"
 3. Чтобы подписать приложение "Корпоративный портал" для Windows 10, запустите скрипт с входными параметрами, указанными в заголовке скрипта, как показано в таблице ниже.  
     Зависимости не обязательно передавать в скрипт. Они нужны только в том случае, если приложение отправляется в консоль администрирования Intune.
 
-| Параметр |  Описание:  |
+| Параметр |  Описание  |
 |---|---|
 | InputWin10AppxBundle  |  Путь к исходному файлу APPXBUNDLE. |
 | OutputWin10AppxBundle | Выходной путь для подписанного файла appxbundle. 
@@ -107,7 +107,7 @@ ms.locfileid: "79343847"
 
 По окончании работы скрипт создает подписанную версию приложения "Корпоративный портал" для Windows 10. Затем подписанную версию приложения можно назначить как бизнес-приложение через Intune, что приведет к обновлению назначенных сейчас версий до этого нового приложения.  
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [назначение приложений группам](apps-deploy.md).
 

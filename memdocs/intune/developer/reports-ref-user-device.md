@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic; seodec18
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 6127b365a04ad48a9cbaa98bdef821c4d1334181
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79339895"
 ---
 # <a name="reference-for-user-device-association-entity"></a>Справочник по сущности сопоставления пользователя и устройства
@@ -32,7 +32,7 @@ ms.locfileid: "79339895"
 ## <a name="userdeviceassociations"></a>userDeviceAssociations
 
 
-|        Имя        |                                           Описание:                                            |        Пример         |
+|        Название        |                                           Описание                                            |        Пример         |
 |--------------------|--------------------------------------------------------------------------------------------------|------------------------|
 |      userKey       |              Уникальный идентификатор пользователя в хранилище данных. (Суррогатный ключ).               |          123           |
 |     deviceKey      |                      Уникальный идентификатор устройства в хранилище данных.                      |          123           |
@@ -40,6 +40,6 @@ ms.locfileid: "79339895"
 |     isDeleted      | Указывает, что пользователь отменил регистрацию этого устройства и что сопоставление больше не действительно. |       Истина/ложь       |
 |  endedDateTimeUTC  |              Дата и время (в формате UTC), когда значение IsDeleted изменилось на <strong>True</strong>.               | 23/06/2017 12:00:00 |
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Дополнительные сведения см. в статье [Использование хранилища данных Intune](reports-nav-create-intune-reports.md).

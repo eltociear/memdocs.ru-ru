@@ -16,13 +16,13 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 1bcfab31d6efc2ff43451b3193848060c6f178a8
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79344978"
 ---
-# <a name="quickstart-set-up-automatic-enrollment-for-windows-10-devices"></a>Краткое руководство. Настройка автоматической регистрации устройств с Windows 10
+# <a name="quickstart-set-up-automatic-enrollment-for-windows-10-devices"></a>Краткое руководство. Настройка автоматической регистрации устройств Windows 10
 
 В этом кратком руководстве вы настроите Microsoft Intune для автоматической регистрации устройств при входе конкретных пользователей на устройства Windows 10.
 
@@ -78,11 +78,11 @@ ms.locfileid: "79344978"
 
 Сведения о перенастройке автоматической регистрации в Intune см. в статье [Настройка регистрации устройств Windows](windows-enroll.md).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В этом кратком руководстве вы узнали, как настроить автоматическую регистрацию устройств Windows 10. Дополнительные сведения о регистрации устройств см. в статье [Что такое регистрация устройств?](device-enrollment.md).
 
 Чтобы выполнить эту серию кратких руководств по Intune, переходите к следующему руководству.
 
 > [!div class="nextstepaction"]
-> [Краткое руководство. Регистрация устройства с ОС Windows 10](quickstart-enroll-windows-device.md)
+> [Краткое руководство. Регистрация устройства Windows 10](quickstart-enroll-windows-device.md)

@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 6aebd63cc0d0b1664b406ce07bfe6624b9384071
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79342937"
 ---
 # <a name="intune-on-azure-console-and-legacy-intune-pc-client"></a>Intune в консоли Azure и устаревшем клиенте компьютера Intune
@@ -66,5 +66,5 @@ ms.locfileid: "79342937"
   ![Всплывающее окно предупреждения с выбранным переключателем "Выборочная очистка устройства"](./media/intune-legacy-pc-client/image02.png)
 2. Повторно зарегистрируйте устройство с помощью [MDM (или путем присоединения к Azure Active Directory)](../enrollment/windows-enroll.md).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 [Регистрация устройств с Windows](../enrollment/windows-enroll.md)

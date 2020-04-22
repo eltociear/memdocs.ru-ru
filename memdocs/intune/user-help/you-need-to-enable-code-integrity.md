@@ -20,10 +20,10 @@ ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
 ms.openlocfilehash: b6fc5fbc3a657eeabd8771e02e20aa168987ea5e
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79346447"
 ---
 # <a name="enable-code-integrity"></a>Включение проверки целостности кода
@@ -38,6 +38,6 @@ ms.locfileid: "79346447"
 
 Если вы являетесь администратором Intune и хотите узнать больше о параметрах соответствия требованиям в Intune, см. статью [Добавление политики соответствия устройств для устройств с Windows 10 в Intune](https://docs.microsoft.com/intune/protect/compliance-policy-create-windows). Подробные сведения о действиях по обеспечению соответствия, которые можно предпринять в Intune, см. в разделе [Аттестация работоспособности устройства CSP](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp#step-8-take-appropriate-policy-action-based-on-evaluation-results).  
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).

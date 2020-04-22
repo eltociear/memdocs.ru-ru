@@ -16,10 +16,10 @@ ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: d491fba013df10b6576f49b1e00ab9a1ea18f482
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79337958"
 ---
 # <a name="reduce-help-desk-costs-with-self-service-password-reset"></a>Сокращение затрат на службу поддержки благодаря функции самостоятельного сброса паролей
@@ -37,7 +37,7 @@ ms.locfileid: "79337958"
 3. Предоставьте сотрудникам и учащимся инструкции по [сбросу или смене паролей](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-update-your-own-password).
 4. [Включите самостоятельный сброс паролей](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Ознакомьтесь с дополнительными сведениями в следующих статьях:
 

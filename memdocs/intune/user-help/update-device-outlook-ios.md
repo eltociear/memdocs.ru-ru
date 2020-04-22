@@ -21,10 +21,10 @@ ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
 ms.openlocfilehash: 4e2c16a4002d807ba7665e53eea7347d498f8981
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79347097"
 ---
 # <a name="you-need-to-update-your-ios-device-to-install-the-outlook-app"></a>Необходимо обновить устройство с iOS для установки приложения Outlook
@@ -32,7 +32,7 @@ ms.locfileid: "79347097"
 Приложение Outlook помогает миллионам людей использовать все свои учетные записи электронной почты, календари и файлы в одном удобном месте для устройств с [iOS](https://itunes.apple.com/app/microsoft-outlook-email-calendar/id951937596).
 
 >[!NOTE]
-> Ищете инструкции для устройств с Android? [Дополнительные сведения](update-device-outlook-android.md).
+> Ищете инструкции для устройств с Android? [(Learn more) Дополнительные сведения](update-device-outlook-android.md).
 
 Иногда установка приложения может завершиться неудачно, особенно если на устройстве не установлены последние обновления. 
 

@@ -16,10 +16,10 @@ ms.assetid: cde4d389-1770-4226-85a3-a2f3b3fb92a3
 search.appverid: MET150
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: a23155c31586992c82781998bb664bf2ce6a0889
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79339180"
 ---
 # <a name="pradeo-mobile-threat-defense-connector-with-intune"></a>Соединитель Mobile Threat Defense Pradeo с Intune
@@ -41,7 +41,7 @@ ms.locfileid: "79339180"
 
 - Azure Active Directory Premium
 
-- Подписка на Microsoft Intune
+- Подписка Microsoft Intune
 
 - Подписка на службу Pradeo Security для Mobile Threat Defense
 
@@ -71,7 +71,7 @@ ms.locfileid: "79339180"
 
 ![Схематическое изображение обнаруженных вредоносных приложений](./media/pradeo-mobile-threat-defense-connector/pradeo-maliciousapps-blocked.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 ![Обнаружены вредоносные приложения, доступ предоставлен](./media/pradeo-mobile-threat-defense-connector/pradeo-maliciousapps-unblocked.png)
 
@@ -83,11 +83,11 @@ ms.locfileid: "79339180"
 
 ![Блокировка доступа к сети через Wi-Fi](./media/pradeo-mobile-threat-defense-connector/pradeo-network-wifi-blocked.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 ![Схематическое изображение предоставления доступа после устранения угрозы](./media/pradeo-mobile-threat-defense-connector/pradeo-network-wifi-unblocked.png)
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
 Обнаружение угроз для вашей сети, таких как атаки **злоумышленник в середине**, и блокирование синхронизации корпоративных файлов на основании риска для устройства.
 
@@ -95,7 +95,7 @@ ms.locfileid: "79339180"
 
 ![Блокировка SharePoint Online при обнаружении сетевых угроз](./media/pradeo-mobile-threat-defense-connector/pradeo-network-spo-blocked.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 ![Схематическое изображение примера предоставления доступа к Sharepoint после устранения угрозы](./media/pradeo-mobile-threat-defense-connector/pradeo-network-spo-unblocked.png)
 
@@ -111,7 +111,7 @@ Access is granted on remediation:
 ![Access is granted on remediation for App protection policy](./media/pradeo-mobile-threat-defense-connector/pradeo-app-policy-remediated.png)
 -->
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Интеграция Pradeo с Intune](pradeo-mtd-connector-integration.md)
 

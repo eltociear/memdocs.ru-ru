@@ -18,10 +18,10 @@ search.appverid: ''
 ms.custom: ''
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 227ed78b593ce10d47b9a1cdcc14dfbd58acdd93
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79339518"
 ---
 # <a name="work-with-existing-on-premises-proxy-servers"></a>Работа с имеющимися локальными прокси-серверами
@@ -154,6 +154,6 @@ ms.locfileid: "79339518"
 ![Снимок экрана: перезапуск службы](./media/autopilot-hybrid-connector-proxy/service-restart.png)
 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Управление вашими устройствами](../remote-actions/device-management.md)

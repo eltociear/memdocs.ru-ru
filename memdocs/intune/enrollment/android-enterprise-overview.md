@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: df5cb910d38deaca76ee92246badcebf02a7e4de
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79339609"
 ---
 # <a name="manage-android-work-profile-devices-with-intune"></a>Управление устройствами с рабочим профилем Android в Intune
@@ -90,6 +90,6 @@ Intune предоставляет шаблоны конфигурации для
 
 Когда устройство списывается из Intune, а рабочий профиль удаляется, также удаляются профили Wi-Fi, которыми управляет Android для бизнеса. Дополнительные сведения см. в разделе [Настройка параметров Wi-Fi в Microsoft Intune](../configuration/wi-fi-settings-configure.md).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 - [Регистрация устройств Android](android-enroll.md)
 - [Назначение приложений управляемого Google Play для корпоративных устройств с Android в Intune](../apps/apps-add-android-for-work.md)

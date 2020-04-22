@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 8746a6dee0b35dec7886a596d0448874dfb04f16
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79352024"
 ---
 # <a name="protect-office-365-exchange-online-without-requiring-device-management"></a>Защита Office 365 Exchange Online без необходимости управления устройствами
@@ -44,7 +44,7 @@ ms.locfileid: "79352024"
 * Попросите сотрудников и учащихся скачать и установить приложение Microsoft Outlook или Microsoft SharePoint для iOS, iPadOS (в Apple App Store) или Android (в Google Play Маркет). 
 * Если предполагается блокировать доступ к приложениям, которые не используют современную проверку подлинности, расскажите сотрудникам и учащимся об этом ограничении. 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Вы использовали условный доступ на основе приложений для повышения безопасности корпоративных данных. В рамках следующей процедуры вы узнаете о других способах повышения безопасности данных компании, включая: 
 
