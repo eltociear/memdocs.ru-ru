@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/25/2020
+ms.date: 04/16/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: ''
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7c6c8b9d964355b1c08756fc2026a87e30bc7297
-ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
+ms.openlocfilehash: 63ffda60d00c1a386eb65d851563c911957c0acd
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80551511"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81615724"
 ---
 # <a name="macos-device-feature-settings-in-intune"></a>Настройка параметров для функций устройств macOS в Intune
 
@@ -82,9 +82,6 @@ Intune включает в себя встроенные параметры дл
   При добавлении любого приложения, папки или файла обязательно вводите правильный путь. Не все элементы находятся в папке `Applications`. Если пользователь переместит элемент из одного расположения в другое, путь изменяется. Перемещенный элемент не будет открываться при входе пользователя в систему.
 
 - **Скрыть из конфигурации пользователя**: **Скрыть** — приложение не отображается в списке элементов входа "Пользователи и группы". Если задано значение **Не настроено** (по умолчанию), Intune не изменяет или не обновляет этот параметр. По умолчанию в ОС отображается элемент, запускаемый при входе, в списке элементов входа "Пользователи и группы" со снятым флажком "Скрыть".
-
-  > [!NOTE]
-  > В течение следующих нескольких недель этот параметр станет доступен всем клиентам.
 
 ## <a name="login-window"></a>Окно входа в систему
 

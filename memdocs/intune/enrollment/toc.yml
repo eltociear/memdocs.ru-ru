@@ -89,7 +89,7 @@
     - name: Настройка регистрации устройств iOS и iPadOS
       href: ios-enroll.md
       items:
-        - name: Программа регистрации устройств
+        - name: Автоматическая регистрация устройств
           href: device-enrollment-program-enroll-ios.md
         - name: Настройка регистрации пользователей iOS и iPadOS
           href: ios-user-enrollment.md

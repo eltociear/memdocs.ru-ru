@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 55660497751f1961c9c579ba1d800900189db782
-ms.sourcegitcommit: bbb63f69ff8a755a2f2d86f2ea0c5984ffda4970
+ms.openlocfilehash: 934e2283fec0cd68ea5b72f092fb6dcac6f3fe4c
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79526467"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81379637"
 ---
 # <a name="troubleshoot-device-to-ndes-server-communication-for-scep-certificate-profiles-in-microsoft-intune"></a>Устранение неполадок при обмене данными между устройствами и сервером NDES для профилей сертификатов SCEP в Microsoft Intune
 
@@ -298,7 +298,7 @@ debug    18:30:55.487908 -0500    profiled    Performing synchronous URL request
 
 `This page can't be displayed`
 
-- **Причина**. Эта проблема возникает, если в конфигурации прокси приложения указан неправильный внешний URL-адрес SCEP. Примером такого URL-адреса является https://contoso.com/certsrv/mscep/mscep.dll.
+- **Причина**. Эта проблема возникает, если в конфигурации прокси приложения указан неправильный внешний URL-адрес SCEP. Примером такого URL-адреса является `https://contoso.com/certsrv/mscep/mscep.dll`.
 
   **Решение**. Используйте домен по умолчанию *yourtenant.msappproxy.net* для внешнего URL-адреса SCEP в конфигурации прокси приложения.
 

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9a431ad92c285e1a2912e0f387ee5ea514e876ef
-ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
+ms.openlocfilehash: 67f4d3c08cbad08464d488073c574babcc77dc61
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80551747"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81397515"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender для Intune
 
@@ -133,7 +133,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
     - **Да** — Windows не будет разрешать запись данных на фиксированные диски, не защищенные с помощью BitLocker. Если фиксированный диск не зашифрован, пользователю потребуется завершить работу мастера установки BitLocker для диска, прежде чем ему будет предоставлен доступ на запись.
 
   - **Настроить метод шифрования для фиксированных дисков с данными**  
-    CSP: [EncryptionMethodByDriveType](hhttps://go.microsoft.com/fwlink/?linkid=872526)  
+    CSP: [EncryptionMethodByDriveType](https://go.microsoft.com/fwlink/?linkid=872526)  
     Этот параметр доступен, если *Политика фиксированного диска BitLocker* имеет значение *Настроить*.
 
     Настройте метод шифрования и стойкость шифра для фиксированных дисков с данными. *XTS-AES, 128 бит* — это метод шифрования Windows по умолчанию и рекомендуемое значение.
@@ -215,7 +215,7 @@ Application Guard в Microsoft Defender изолирует среду в Microso
 ## <a name="device-installation"></a>Установка устройства
 
 - **Hardware device installation by device identifiers** (Установка аппаратных устройств по кодам устройств)  
-  [DeviceInstallation/PreventInstallationOfMatchingDeviceIDs](hhttps://go.microsoft.com/fwlink/?linkid=2066794)  
+  [DeviceInstallation/PreventInstallationOfMatchingDeviceIDs](https://go.microsoft.com/fwlink/?linkid=2066794)  
   
   Этот параметр политики позволяет указать список кодов самонастраивающегося оборудования и совместимых кодов для устройств, устанавливать которые системе Windows запрещено. Он имеет приоритет над любым другим параметром политики, позволяющим Windows устанавливать устройство.  При включении на сервере удаленных рабочих столов этот параметр политики затрагивает перенаправление указанных устройств с клиента удаленных рабочих столов на этот сервер.
 
