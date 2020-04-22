@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e838ab0123058b90f06814d5a1266072bd95385e
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: e3c939b2b21bc8bfbf82a997c05f24d91c487a9e
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80085779"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81681973"
 ---
 # <a name="whats-new-in-the-intune-classic-portal---previous-months"></a>Новые возможности классического портала Intune: предыдущие месяцы
 
@@ -361,9 +361,9 @@ __Новый корпоративный портал Microsoft Intune досту
 > [!IMPORTANT]
 > __Обновления в Intune и Android for Work__ Хотя приложения Android for Work можно разворачивать с действием __Необходимо__, в случае миграции групп Intune на новый интерфейс Azure AD приложения можно развернуть только с действием __Доступно__.
 
-__Пакет SDK для приложений Intune для подключаемого модуля Cordova сейчас поддерживает MAM без регистрации__. Разработчики приложений теперь могут использовать пакет SDK для приложений Intune для подключаемого модуля Cordova, чтобы включать функции MAM без регистрации устройств в своих приложениях на основе Cordova для iOS, iPadOS и Android. Пакет SDK для приложений Intune для подключаемого модуля Cordova можно найти [здесь](https://github.com/msintuneappsdk/cordova-plugin-ms-intune-mam).
+__Пакет SDK для приложений Intune для подключаемого модуля Cordova сейчас поддерживает MAM без регистрации__. Разработчики приложений теперь могут использовать пакет SDK для приложений Intune для подключаемого модуля Cordova, чтобы включать функции MAM без регистрации устройств в своих приложениях на основе Cordova для iOS, iPadOS и Android.
 
-__Компонент Xamarin из пакета SDK для приложений Intune сейчас поддерживает MAM без регистрации__. Разработчики приложений теперь могут использовать компонент Xamarin из пакета SDK для приложений Intune, чтобы включать функции MAM без регистрации устройств в своих приложениях на основе Xamarin для iOS, iPadOS и Android. Пакет SDK для приложений Intune для компонента Xamarin можно найти [здесь](https://github.com/msintuneappsdk/intune-app-sdk-xamarin).
+__Компонент Xamarin из пакета SDK для приложений Intune сейчас поддерживает MAM без регистрации__. Разработчики приложений теперь могут использовать компонент Xamarin из пакета SDK для приложений Intune, чтобы включать функции MAM без регистрации устройств в своих приложениях на основе Xamarin для iOS, iPadOS и Android. Пакет SDK для приложений Intune для компонента Xamarin можно найти [здесь](https://www.npmjs.com/package/cordova-plugin-ms-intune-mam).
 
 ### <a name="notices"></a>Объявления
 

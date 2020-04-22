@@ -1,0 +1,62 @@
+- name: Документация по соответствию устройств
+  href: index.yml
+- name: Изучение вопроса
+  items:
+    - name: Обеспечение соответствия устройств
+      href: understand/ensure-device-compliance.md
+- name: Начало работы
+  items:
+    - name: Приступая к работе с параметрами соответствия
+      href: get-started/get-started-with-compliance-settings.md
+- name: Планирование и проектирование
+  items:
+    - name: Планирование и настройка параметров соответствия
+      href: plan-design/plan-for-and-configure-compliance-settings.md
+    - name: Задачи по управлению соответствием
+      items:
+        - name: Распространенные задачи по управлению соответствием
+          href: plan-design/common-tasks-for-managing-compliance.md
+        - name: Устройства с клиентом Configuration Manager
+          href: plan-design/common-tasks-for-managing-compliance-on-devices-with-the-client.md
+        - name: Создание и развертывание конфигурационных баз
+          href: plan-design/common-tasks-for-creating-and-deploying-configuration-baselines.md
+    - name: Безопасность и конфиденциальность
+      href: plan-design/security-and-privacy-for-compliance-settings.md
+- name: Развертывание и использование
+  items:
+    - name: Создание элементов конфигурации
+      items:
+        - name: Общие сведения о создании элементов конфигурации
+          href: deploy-use/create-configuration-items.md
+        - name: 'Устройства, управляемые с помощью клиента Configuration Manager'
+          items:
+            - name: быть под управлением ОС Windows 10;
+              href: deploy-use/create-configuration-items-for-windows-10-devices-managed-with-the-client.md
+            - name: Mac OS X
+              href: deploy-use/create-configuration-items-for-mac-os-x-devices-managed-with-the-client.md
+            - name: Настольные компьютеры и серверы Windows (настраиваемые)
+              href: deploy-use/create-custom-configuration-items-for-windows-desktop-and-server-computers-managed-with-the-client.md
+    - name: Создание дочерних элементов конфигурации
+      href: deploy-use/create-child-configuration-items.md
+    - name: Создание конфигурационных баз
+      href: deploy-use/create-configuration-baselines.md
+    - name: Развертывание конфигурационных баз
+      href: deploy-use/deploy-configuration-baselines.md
+    - name: Управление данными конфигурации
+      items:
+        - name: Управление данными конфигурации
+          href: deploy-use/management-tasks-for-configuration-data.md
+        - name: Импорт данных конфигурации
+          href: deploy-use/import-configuration-data.md
+    - name: Создание элементов конфигурации данных и профилей пользователя
+      href: deploy-use/create-user-data-and-profiles-configuration-items.md
+    - name: Профили OneDrive для бизнеса
+      href: deploy-use/onedrive-profile.md
+    - name: Создание профилей удаленного подключения
+      href: deploy-use/create-remote-connection-profiles.md
+    - name: Обновление устройств Windows до последнего выпуска
+      href: deploy-use/upgrade-windows-version.md
+    - name: Настройка параметров Microsoft Edge
+      href: deploy-use/browser-profiles.md
+    - name: Мониторинг параметров соответствия
+      href: deploy-use/monitor-compliance-settings.md

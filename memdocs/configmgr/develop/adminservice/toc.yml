@@ -1,0 +1,16 @@
+- name: Документация по службе администрирования
+  href: index.yml
+- name: Что такое служба администрирования?
+  href: overview.md
+- name: Практические руководства
+  items:
+    - name: Руководство по настройке
+      href: set-up.md
+    - name: Использование
+      href: usage.md
+- name: Справочные сведения
+  items:
+    - name: Часто задаваемые вопросы
+      href: faq.md
+    - name: "Заметки о\_выпуске"
+      href: release-notes.md

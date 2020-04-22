@@ -1,0 +1,144 @@
+- name: Документация по защите данных и инфраструктуры
+  href: index.yml
+- name: Изучение вопроса
+  items:
+    - name: Обзор
+      href: understand\protect-data-and-site-infrastructure.md
+- name: Планирование и проектирование
+  items:
+    - name: Планирование Endpoint Protection
+      href: plan-design/planning-for-endpoint-protection.md
+    - name: "Планирование управления\_BitLocker"
+      href: plan-design/bitlocker-management.md
+    - name: Планирование профилей сертификатов
+      items:
+        - name: Предварительные требования для профилей сертификатов
+          href: plan-design/prerequisites-for-certificate-profiles.md
+        - name: Разрешения шаблонов сертификатов для профилей сертификатов
+          href: plan-design/planning-for-certificate-template-permissions.md
+    - name: Предварительные требования для профилей Wi-Fi и VPN
+      href: plan-design/prerequisites-for-wifi-vpn-profiles.md
+    - name: Безопасность и конфиденциальность
+      items:
+        - name: "Профили Wi-Fi и\_VPN"
+          href: plan-design/security-and-privacy-for-wifi-vpn-profiles.md
+        - name: Профили сертификатов
+          href: plan-design/security-and-privacy-for-certificate-profiles.md
+- name: Развертывание и использование
+  items:
+    - name: Endpoint Protection
+      items:
+        - name: Общие сведения об Endpoint Protection
+          href: deploy-use/endpoint-protection.md
+        - name: Настройка Endpoint Protection
+          items:
+            - name: Инструкции по настройке Endpoint Protection
+              href: deploy-use/endpoint-protection-configure.md
+            - name: Роль системы сайта
+              href: deploy-use/endpoint-protection-site-role.md
+            - name: Предупреждения
+              href: deploy-use/endpoint-configure-alerts.md
+            - name: Обновления определений
+              items:
+                - name: Общие сведения об обновлении определений
+                  href: deploy-use/endpoint-definition-updates.md
+                - name: Обновления Configuration Manager
+                  href: deploy-use/endpoint-definitions-configmgr.md
+                - name: Обновления WSUS
+                  href: deploy-use/endpoint-definitions-wsus.md
+                - name: Обновления Майкрософт
+                  href: deploy-use/endpoint-definitions-microsoft-updates.md
+                - name: Центр по защите от вредоносных программ
+                  href: deploy-use/endpoint-definitions-protection-center.md
+                - name: Обновления сетевых папок
+                  href: deploy-use/endpoint-definitions-network.md
+            - name: Развертывание политики
+              href: deploy-use/endpoint-antimalware-policies.md
+            - name: Настройка клиента
+              href: deploy-use/endpoint-protection-configure-client.md
+        - name: Политики брандмауэра Windows
+          href: deploy-use/create-windows-firewall-policies.md
+        - name: Advanced Threat Protection в Microsoft Defender
+          href: deploy-use/windows-defender-advanced-threat-protection.md
+        - name: "Создание и развертывание политики Exploit\_Guard"
+          href: deploy-use/create-deploy-exploit-guard-policy.md
+        - name: "Создание и развертывание политики Application\_Guard"
+          href: deploy-use/create-deploy-application-guard-policy.md
+        - name: Параметры управления приложениями в Защитнике Windows
+          href: deploy-use/use-device-guard-with-configuration-manager.md
+        - name: Задачи брандмауэра и защиты от вредоносных программ
+          href: deploy-use/endpoint-antimalware-firewall.md
+        - name: Сценарий использования Endpoint Protection
+          href: deploy-use/scenarios-endpoint-protection.md
+        - name: Справка клиента Endpoint Protection
+          href: deploy-use/endpoint-protection-client-help.md
+        - name: Устранение неполадок клиента
+          href: deploy-use/troubleshoot-endpoint-client.md
+        - name: "Часто задаваемые вопросы о Защитнике\_Windows"
+          href: deploy-use/endpoint-protection-client-faq.md
+    - name: Управление BitLocker
+      items:
+        - name: Шифрование данных восстановления
+          href: deploy-use/bitlocker/encrypt-recovery-data.md
+        - name: "Развертывание управления\_BitLocker"
+          href: deploy-use/bitlocker/deploy-management-agent.md
+        - name: "Настройка порталов\_BitLocker"
+          href: deploy-use/bitlocker/setup-websites.md
+        - name: Настройка портала самообслуживания
+          href: deploy-use/bitlocker/customize-self-service-portal.md
+        - name: "Просмотр отчетов\_BitLocker"
+          href: deploy-use/bitlocker/view-reports.md
+        - name: Веб-сайт администрирования и мониторинга
+          href: deploy-use/bitlocker/helpdesk-portal.md
+        - name: Портал самообслуживания
+          href: deploy-use/bitlocker/self-service-portal.md
+    - name: Параметры Windows Hello для бизнеса
+      href: deploy-use/windows-hello-for-business-settings.md
+    - name: Профили сертификатов
+      items:
+        - name: Общие сведения о профилях сертификатов
+          href: deploy-use/introduction-to-certificate-profiles.md
+        - name: Создание профилей сертификатов
+          href: deploy-use/create-certificate-profiles.md
+        - name: Настройка инфраструктуры сертификатов
+          href: deploy-use/certificate-infrastructure.md
+    - name: Профили Wi-Fi
+      items:
+        - name: Создание профилей Wi-Fi
+          href: deploy-use/create-wifi-profiles.md
+    - name: Профили VPN
+      items:
+        - name: Профили VPN
+          href: deploy-use/vpn-profiles.md
+        - name: Создание профилей VPN
+          href: deploy-use/create-vpn-profiles.md
+        - name: Поиск имени семейства пакетов для VPN для каждого приложения
+          href: deploy-use/find-a-pfn-for-per-app-vpn.md
+    - name: 'Развертывание профилей Wi-Fi, VPN, электронной почты и сертификатов'
+      href: deploy-use/deploy-wifi-vpn-email-cert-profiles.md
+    - name: Параметры для условий и положений
+      href: ../mdm/understand/what-happened-to-hybrid.md?toc=/sccm/protect/toc.json&bc=/sccm/protect/breadcrumb/toc.json
+    - name: Мониторинг защиты
+      items:
+        - name: "Мониторинг профилей Wi-Fi, электронной почты и\_VPN"
+          href: deploy-use/monitor-wifi-email-vpn-profiles.md
+        - name: Мониторинг профилей сертификатов
+          href: deploy-use/monitor-certificate-profiles.md
+        - name: Мониторинг Endpoint Protection
+          href: deploy-use/monitor-endpoint-protection.md
+- name: Технический справочник
+  items:
+    - name: Управление BitLocker
+      items:
+        - name: Справочник по настройкам
+          href: tech-ref/bitlocker/settings.md
+        - name: Устранение неполадок BitLocker
+          href: tech-ref/bitlocker/troubleshoot.md
+        - name: Журналы событий BitLocker
+          href: tech-ref/bitlocker/about-event-logs.md
+        - name: Журналы событий клиента
+          href: tech-ref/bitlocker/client-event-logs.md
+        - name: Журналы событий сервера
+          href: tech-ref/bitlocker/server-event-logs.md
+        - name: Коды несоответствия
+          href: tech-ref/bitlocker/non-compliance-codes.md

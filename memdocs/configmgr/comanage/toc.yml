@@ -1,0 +1,54 @@
+- name: Документация по совместному управлению
+  href: index.yml
+- name: Обзор
+  items:
+    - name: Что такое совместное управление?
+      href: overview.md
+- name: Краткие руководства
+  items:
+    - name: Обзор кратких руководств
+      href: quickstarts.md
+    - name: Значение интерпретации
+      items:
+        - name: Условный доступ
+          href: quickstart-conditional-access.md
+        - name: Удаленные действия из Intune
+          href: quickstart-remote-actions.md
+        - name: Работоспособность клиента
+          href: quickstart-client-health.md
+        - name: "Гибридный экземпляр Azure\_AD"
+          href: quickstart-hybrid-aad.md
+        - name: Windows Autopilot
+          href: quickstart-autopilot.md
+    - name: Начало работы
+      items:
+        - name: Пути для совместного управления
+          href: quickstart-paths.md
+        - name: "Настройка гибридного экземпляра Azure\_AD"
+          href: quickstart-setup-hybrid-aad.md
+        - name: Обновление до Windows 10
+          href: quickstart-upgrade-win10.md
+        - name: Получение справки FastTrack
+          href: quickstart-fasttrack.md
+- name: Руководства
+  items:
+    - name: Включение совместного управления для клиентов Configuration Manager
+      href: tutorial-co-manage-clients.md
+    - name: Включение совместного управления веб-устройствами
+      href: tutorial-co-manage-new-devices.md
+- name: Основные понятия
+  items:
+    - name: Рабочие нагрузки
+      href: workloads.md
+    - name: Сосуществование сторонних решений по MDM
+      href: coexistence.md
+- name: Практические руководства
+  items:
+    - name: Включение совместного управления
+      href: how-to-enable.md
+    - name: Подготовка подключенных через Интернет устройств
+      href: how-to-prepare-Win10.md
+    - name: Переключение рабочих нагрузок в Intune
+      href: how-to-switch-workloads.md
+    - name: Мониторинг совместного управления
+      href: how-to-monitor.md

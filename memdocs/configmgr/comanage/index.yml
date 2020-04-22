@@ -1,0 +1,56 @@
+### YamlMime:Landing
+title: Документация по совместному управлению
+summary: Совместное управление позволяет параллельно управлять устройствами Windows 10 с помощью Configuration Manager и Microsoft Intune.
+metadata:
+  title: Документация по совместному управлению
+  titleSuffix: Configuration Manager
+  description: Совместное управление позволяет параллельно управлять устройствами Windows 10 с помощью Configuration Manager и Microsoft Intune.
+  ms.product: configuration-manager
+  ms.technology: configmgr-comanage
+  ms.topic: landing-page
+  author: mestew
+  ms.author: mstewart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: bc1bf65ecaf77ded325fcdae19a0d318052b1cc9
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81741006"
+landingContent:
+- title: Сведения о совместном управлении
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое совместное управление?
+      url: overview.md
+    - text: Пути для совместного управления
+      url: quickstart-paths.md
+  - linkListType: video
+    links:
+    - text: Условный доступ с совместным управлением
+      url: https://channel9.msdn.com/Series/Endpoint-Zone/The-Security-Benefits-of-Conditional-Access/player
+- title: Начало работы
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Включение совместного управления для существующих клиентов Configuration Manager
+      url: tutorial-co-manage-clients.md
+    - text: по включению совместного управления интернет-устройствами
+      url: tutorial-co-manage-new-devices.md
+  - linkListType: video
+    links:
+    - text: Обновление до Windows 10 для совместного управления
+      url: https://channel9.msdn.com/Series/Endpoint-Zone/Upgrading-to-Windows-10-to-Enable-Co-Management/player
+- title: Основные задачи
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Переключение рабочих нагрузок Configuration Manager на Intune
+      url: how-to-switch-workloads.md
+    - text: Мониторинг совместного управления в Configuration Manager
+      url: how-to-monitor.md
+  - linkListType: video
+    links:
+    - text: Windows Autopilot и совместное управление
+      url: https://channel9.msdn.com/Series/Endpoint-Zone/Using-Windows-Autopilot-with-Co-Management/player

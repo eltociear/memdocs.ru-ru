@@ -1,0 +1,100 @@
+### YamlMime:Landing
+title: Документация по защите данных и инфраструктуры
+summary: Защитите инфраструктуру и данные от уязвимостей или вредоносной атаки с помощью Configuration Manager.
+metadata:
+  title: Документация по защите данных и инфраструктуры
+  titleSuffix: Configuration Manager
+  description: Защитите инфраструктуру и данные от уязвимостей или вредоносной атаки с помощью Configuration Manager.
+  ms.product: configuration-manager
+  ms.technology: configmgr-protect
+  ms.topic: landing-page
+  author: mestew
+  ms.author: mstewart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: 44481f1b0fb304ed12a40d100352a9f7a6d8dd39
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81741856"
+landingContent:
+- title: Управление шифрованием диска BitLocker (BDE)
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Планирование управления BitLocker
+      url: plan-design/bitlocker-management.md
+  - linkListType: deploy
+    links:
+    - text: Развертывание управления BitLocker
+      url: deploy-use/bitlocker/deploy-management-agent.md
+    - text: Настройка порталов BitLocker
+      url: deploy-use/bitlocker/setup-websites.md
+  - linkListType: how-to-guide
+    links:
+    - text: Просмотр отчетов BitLocker
+      url: deploy-use/bitlocker/view-reports.md
+    - text: Использование веб-сайта администрирования и мониторинга BitLocker
+      url: deploy-use/bitlocker/helpdesk-portal.md
+- title: Профили сертификатов
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о профилях сертификатов
+      url: deploy-use/introduction-to-certificate-profiles.md
+  - linkListType: get-started
+    links:
+    - text: Планирование разрешений шаблонов сертификатов для профилей сертификатов
+      url: plan-design/planning-for-certificate-template-permissions.md
+    - text: Необходимые условия для профилей сертификатов
+      url: plan-design/prerequisites-for-certificate-profiles.md
+  - linkListType: deploy
+    links:
+    - text: Настройка инфраструктуры сертификатов
+      url: deploy-use/certificate-infrastructure.md
+    - text: Создание профилей сертификатов
+      url: deploy-use/endpoint-configure-alerts.md
+    - text: Развертывание профилей доступа к ресурсам
+      url: deploy-use/endpoint-definition-updates.md
+- title: Основные задачи
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Подключение к Advanced Threat Protection в Microsoft Defender
+      url: deploy-use/windows-defender-advanced-threat-protection.md
+    - text: Устранение неполадок с Защитником Windows и клиентом Endpoint Protection
+      url: deploy-use/troubleshoot-endpoint-client.md
+    - text: Управление политиками защиты от вредоносных программ и параметрами брандмауэра
+      url: deploy-use/endpoint-antimalware-firewall.md
+    - text: Управление функцией управления приложениями в Защитнике Windows
+      url: deploy-use/use-device-guard-with-configuration-manager.md
+    - text: Создание и развертывание Application Guard в Защитнике Windows
+      url: deploy-use/create-deploy-application-guard-policy.md
+    - text: Параметры Windows Hello для бизнеса
+      url: deploy-use/windows-hello-for-business-settings.md
+- title: Endpoint Protection
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения об Endpoint Protection
+      url: deploy-use/endpoint-protection.md
+  - linkListType: get-started
+    links:
+    - text: Планирование Endpoint Protection
+      url: plan-design/planning-for-endpoint-protection.md
+  - linkListType: deploy
+    links:
+    - text: Создание роли системы сайта для точки Endpoint Protection
+      url: deploy-use/endpoint-protection-site-role.md
+    - text: Настройка оповещений для Endpoint Protection
+      url: deploy-use/endpoint-configure-alerts.md
+    - text: Настройка обновлений определений для Endpoint Protection
+      url: deploy-use/endpoint-definition-updates.md
+  - linkListType: how-to-guide
+    links:
+    - text: Создание и развертывание политик защиты от вредоносных программ для Endpoint Protection
+      url: deploy-use/endpoint-antimalware-policies.md
+    - text: Задание значений настраиваемых параметров клиентов для Endpoint Protection.
+      url: deploy-use/endpoint-protection-configure-client.md
+    - text: Мониторинг состояния Endpoint Protection
+      url: deploy-use/monitor-endpoint-protection.md

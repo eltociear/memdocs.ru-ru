@@ -1,0 +1,235 @@
+### YamlMime:Hub
+title: Документация по Microsoft Endpoint Configuration Manager
+summary: 'Официальная документация по следующим компонентам Microsoft Endpoint Manager: Configuration Manager, совместное управление и Аналитика компьютеров'
+metadata:
+  ms.topic: hub-page
+  ms.openlocfilehash: b890572e652528e1446f1dd2e194d933c27938dd
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81741482"
+highlightedContent:
+  items:
+  - title: Новые возможности
+    itemType: learn
+    url: ./core/plan-design/changes/whats-new-incremental-versions.md
+  - title: Поддерживаемые конфигурации
+    itemType: architecture
+    url: ./core/plan-design/configs/supported-configurations.md
+  - title: Обновления и обслуживание
+    itemType: deploy
+    url: ./core/servers/manage/updates.md
+  - title: Файлы журнала
+    itemType: learn
+    url: ./core/plan-design/hierarchy/log-files.md
+  - title: Порты
+    itemType: learn
+    url: ./core/plan-design/hierarchy/ports.md
+  - title: Technical Preview
+    itemType: get-started
+    url: ./core/get-started/technical-preview.md
+conceptualContent:
+  items:
+  - title: Управление в облаке
+    links:
+    - text: Управление клиентами в Интернете
+      url: ./core/clients/manage/manage-clients-internet.md
+      itemType: overview
+    - text: Планирование для Azure AD
+      url: ./core/plan-design/security/plan-for-security.md#bkmk_planazuread
+      itemType: architecture
+    - text: Службы Azure
+      url: ./core/servers/deploy/configure/azure-services-wizard.md
+      itemType: how-to-guide
+  - title: Совместное управление
+    links:
+    - text: Краткие руководства
+      url: ./comanage/quickstarts.md
+      itemType: quickstart
+    - text: Руководство
+      url: ./comanage/tutorial-co-manage-clients.md
+      itemType: tutorial
+    - text: Рабочие нагрузки
+      url: ./comanage/workloads.md
+      itemType: overview
+    footerLink:
+      text: Дополнительные сведения
+      url: ./comanage/index.yml
+  - title: Управление в реальном времени
+    links:
+    - text: CMPivot
+      url: ./core/servers/manage/cmpivot.md
+      itemType: get-started
+    - text: Запуск скриптов PowerShell
+      url: ./apps/deploy-use/create-deploy-scripts.md
+      itemType: how-to-guide
+  - title: Аналитика компьютеров
+    links:
+    - text: Обзор
+      url: ./desktop-analytics/overview.md
+      itemType: overview
+    - text: Развертывание Windows 10 в рамках пилотного проекта
+      url: ./desktop-analytics/tutorial-windows10.md
+      itemType: tutorial
+    - text: Настройка Аналитики компьютеров
+      url: ./desktop-analytics/set-up.md
+      itemType: how-to-guide
+    - text: Панель мониторинга Office 365
+      url: ./sum/deploy-use/office-365-dashboard.md
+      itemType: learn
+    footerLink:
+      text: Дополнительные сведения
+      url: ./desktop-analytics/index.yml
+  - title: Упрощение инфраструктуры
+    links:
+    - text: Высокая доступность сервера сайта
+      url: ./core/servers/deploy/configure/site-server-high-availability.md
+      itemType: deploy
+    - text: Переназначение точки распространения
+      url: ./core/servers/deploy/configure/install-and-configure-distribution-points.md#bkmk_reassign
+      itemType: how-to-guide
+    - text: Configuration Manager в Azure
+      url: ./core/understand/configuration-manager-on-azure.md
+      itemType: learn
+  - title: Базовая инфраструктура
+    links:
+    - text: Использование консоли
+      url: ./core/servers/manage/admin-console.md
+      itemType: how-to-guide
+    - text: Развертывание клиентов
+      url: ./core/clients/deploy/deploy-clients-to-windows-computers.md
+      itemType: deploy
+    - text: Будьте в курсе новостей, касающихся Configuration Manager и Windows 10
+      url: ./core/understand/configuration-manager-and-windows-as-service.md
+      itemType: learn
+    footerLink:
+      text: Дополнительные сведения
+      url: ./core/index.yml
+  - title: Управление приложениями
+    links:
+    - text: Создание приложений
+      url: ./apps/get-started/create-and-deploy-an-application.md
+      itemType: how-to-guide
+    - text: Развертывание приложений
+      url: ./apps/deploy-use/deploy-applications.md
+      itemType: deploy
+    - text: Планирование использования Центра программного обеспечения
+      url: ./apps/plan-design/plan-for-software-center.md
+      itemType: architecture
+    - text: Управление Microsoft Edge
+      url: ./apps/deploy-use/deploy-edge.md
+      itemType: how-to-guide
+    footerLink:
+      text: Дополнительные сведения
+      url: ./apps/index.yml
+  - title: Развертывание операционной системы
+    links:
+    - text: Обновление до Windows 10
+      url: ./osd/deploy-use/upgrade-windows-to-the-latest-version.md
+      itemType: overview
+    - text: Поэтапные развертывания
+      url: ./osd/deploy-use/create-phased-deployment-for-task-sequence.md
+      itemType: how-to-guide
+    - text: Шаги последовательности задач
+      url: ./osd/understand/task-sequence-steps.md
+      itemType: learn
+    footerLink:
+      text: Дополнительные сведения
+      url: ./osd/index.yml
+  - title: Обновления программного обеспечения
+    links:
+    - text: Планирование обновлений программного обеспечения
+      url: ./sum/plan-design/plan-for-software-updates.md
+      itemType: architecture
+    - text: Развертывание обновлений программного обеспечения
+      url: ./sum/deploy-use/deploy-software-updates.md
+      itemType: deploy
+    - text: Оптимизация доставки обновлений Windows 10
+      url: ./sum/deploy-use/optimize-windows-10-update-delivery.md
+      itemType: learn
+    - text: Обновление Office 365
+      url: ./sum/deploy-use/manage-office-365-proplus-updates.md
+      itemType: how-to-guide
+    footerLink:
+      text: Дополнительные сведения
+      url: ./sum/index.yml
+  - title: Соответствие устройства
+    links:
+    - text: Создание элементов конфигурации
+      url: ./compliance/deploy-use/create-configuration-items.md
+      itemType: how-to-guide
+    - text: Параметры Microsoft Edge
+      url: ./compliance/deploy-use/browser-profiles.md
+      itemType: how-to-guide
+    - text: Обновление выпусков Windows
+      url: ./compliance/deploy-use/upgrade-windows-version.md
+      itemType: how-to-guide
+    footerLink:
+      text: Дополнительные сведения
+      url: ./compliance/index.yml
+  - title: Защита
+    links:
+    - text: Защитник Windows
+      url: ./protect/deploy-use/endpoint-protection.md
+      itemType: overview
+    - text: WDATP
+      url: ./protect/deploy-use/windows-defender-advanced-threat-protection.md
+      itemType: how-to-guide
+    - text: Управление BitLocker
+      url: ./protect/plan-design/bitlocker-management.md
+      itemType: overview
+    footerLink:
+      text: Дополнительные сведения
+      url: ./protect/index.yml
+additionalContent:
+  sections:
+  - title: Сообщество и служба поддержки Configuration Manager
+    items:
+    - title: Блог, посвященный Configuration Manager
+      summary: Новости и объявления
+      url: https://techcommunity.microsoft.com/t5/Configuration-Manager-Blog/bg-p/ConfigurationManagerBlog
+    - title: 'Twitter: #ConfigMgr'
+      summary: Следите за новостями нашего оживленного сообщества в Twitter
+      url: https://twitter.com/hashtag/configmgr
+    - title: Форумы Configuration Manager
+      summary: Задавайте технические вопросы на форумах, посвященных продукту
+      url: https://social.technet.microsoft.com/Forums/home?forum=ConfigMgrCBGeneral%2CConfigMgrDeployment%2CConfigMgrMDM%2CConfigMgrMigration%2CConfigMgrCompliance%2CConfigMgrAppManagement%2CConfigMgrPowerShell%2CConfigMgrCBOSD&filter=alltypes&sort=lastpostdesc
+    - title: Отзывы о продукте на сайте UserVoice
+      summary: Делитесь идеями, касающимися продукта, с группой разработчиков
+      url: https://configurationmanager.uservoice.com/forums/300492-ideas
+    - title: Служба технической поддержки
+      summary: Получите профессиональную помощь от службы поддержки Майкрософт
+      url: https://aka.ms/cmcbsupport
+    - title: System Center 2012 R2 Configuration Manager
+      summary: Документация по предыдущей версии Configuration Manager
+      url: https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682144(v=technet.10)
+  - title: Другое содержимое
+    items:
+    - title: Разработка
+      links:
+      - url: https://docs.microsoft.com/powershell/sccm/overview?view=sccm-ps
+        text: PowerShell
+      - url: ./develop/index.yml
+        text: Пакет средств разработки программного обеспечения (SDK)
+      - url: ./develop/adminservice/index.yml
+        text: REST API службы администрирования
+      - url: ./develop/core/understand/sqlviews/create-custom-reports-using-sql-server-views.md
+        text: Представления SQL
+    - title: Средства
+      links:
+      - url: ./core/support/support-center.md
+        text: Центр поддержки
+      - url: ./mdt/index.yml
+        text: MDT
+      - url: ./apps/pcm/package-conversion-manager.md
+        text: Диспетчер преобразования пакетов
+      - url: ./core/support/tools.md
+        text: Дополнительные сведения >
+    - title: Другие сайты сообщества
+      links:
+      - url: https://www.reddit.com/r/sccm
+        text: Configuration Manager в Reddit
+      - url: https://www.facebook.com/groups/ConfigMgr2012
+        text: Группа специалистов по Configuration Manager на Facebook
+  footer: Обнаружили ошибку на нашем сайте? [Сообщите нам об этом](./core/understand/use-docs.md#bkmk_docfeedback)!

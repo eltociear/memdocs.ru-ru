@@ -1,0 +1,54 @@
+### YamlMime:Landing
+title: Документация по Аналитике компьютеров
+summary: Аналитика компьютеров — это облачная служба, которая интегрируется с Configuration Manager. Она предоставляет аналитические сведения по обновлению ваших клиентов Windows.
+metadata:
+  title: Документация по Аналитике компьютеров
+  titleSuffix: Configuration Manager
+  description: Аналитика компьютеров — это облачная служба, которая интегрируется с Configuration Manager. Она предоставляет аналитические сведения по обновлению ваших клиентов Windows.
+  ms.prod: configuration-manager
+  ms.technology: configmgr-analytics
+  ms.topic: landing-page
+  author: aczechowski
+  ms.author: aaroncz
+  ms.date: 01/28/2020
+  ms.openlocfilehash: 1c0aa1c481acb18fadeebbdecdcd4759568d2242
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81741414"
+landingContent:
+- title: Сведения об Аналитике компьютеров
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое Аналитика компьютеров?
+      url: overview.md
+    - text: Новые возможности
+      url: whats-new.md
+  - linkListType: tutorial
+    links:
+    - text: Пилотный проект Windows 10
+      url: tutorial-windows10.md
+- title: Начало работы
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка Аналитики компьютеров
+      url: set-up.md
+    - text: Подключение Configuration Manager
+      url: connect-configmgr.md
+    - text: регистрации устройств;
+      url: enroll-devices.md
+- title: Ресурсы
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Часто задаваемые вопросы по Аналитике компьютеров
+      url: faq.md
+    - text: Включение общего доступа к данным
+      url: enable-data-sharing.md
+    - text: Мониторинг работоспособности подключения
+      url: monitor-connection-health.md
+    - text: Устранение проблем с Аналитикой компьютера
+      url: troubleshooting.md

@@ -1,0 +1,148 @@
+- name: "Документация по развертыванию\_ОС"
+  href: index.yml
+- name: Введение
+  items:
+    - name: Общие сведения о развертывании ОС
+      href: understand/introduction-to-operating-system-deployment.md
+- name: Планирование и проектирование
+  items:
+    - name: Требования к инфраструктуре для развертывания ОС
+      href: plan-design/infrastructure-requirements-for-operating-system-deployment.md
+    - name: Вопросы планирования для автоматизации задач
+      href: plan-design/planning-considerations-for-automating-tasks.md
+    - name: Сценарии развертывания операционных систем предприятия
+      items:
+        - name: Общие сведения о сценариях развертывания ОС
+          href: deploy-use/scenarios-to-deploy-enterprise-operating-systems.md
+        - name: Обновление Windows до последней версии
+          href: deploy-use/upgrade-windows-to-the-latest-version.md
+        - name: Windows Autopilot для имеющихся устройств
+          href: deploy-use/windows-autopilot-for-existing-devices.md
+        - name: Обновление существующего компьютера до новой версии Windows
+          href: deploy-use/refresh-an-existing-computer-with-a-new-version-of-windows.md
+        - name: Установка новой версии Windows на новом компьютере (без операционной системы)
+          href: deploy-use/install-new-windows-version-new-computer-bare-metal.md
+        - name: Замена существующего компьютера и перенос параметров
+          href: deploy-use/replace-an-existing-computer-and-transfer-settings.md
+    - name: Методы развертывания операционных систем предприятия
+      items:
+        - name: Методы развертывания ОС
+          href: deploy-use/methods-to-deploy-enterprise-operating-systems.md
+        - name: Использование PXE для развертывания Windows по сети
+          href: deploy-use/use-pxe-to-deploy-windows-over-the-network.md
+        - name: Использование центра программного обеспечения для развертывания Windows по сети
+          href: deploy-use/use-software-center-to-deploy-windows-over-the-network.md
+        - name: Использование загрузочного носителя для развертывания Windows по сети
+          href: deploy-use/use-bootable-media-to-deploy-windows-over-the-network.md
+        - name: Применение автономного носителя для развертывания Windows без использования сети
+          href: deploy-use/use-stand-alone-media-to-deploy-windows-without-using-the-network.md
+        - name: Использование многоадресной рассылки для развертывания Windows по сети
+          href: deploy-use/use-multicast-to-deploy-windows-over-the-network.md
+        - name: Создание образа для изготовителей оборудования в фабрике или локальном хранилище
+          href: deploy-use/create-an-image-for-an-oem-in-factory-or-a-local-depot.md
+    - name: Безопасность и конфиденциальность при развертывании ОС
+      href: plan-design/security-and-privacy-for-operating-system-deployment.md
+    - name: Планирование взаимодействия при развертывании ОС
+      href: plan-design/planning-for-operating-system-deployment-interoperability.md
+- name: Начало работы
+  items:
+    - name: Подготовка ролей системы сайта к развертыванию ОС
+      href: get-started/prepare-site-system-roles-for-operating-system-deployments.md
+    - name: Подготовка к развертыванию ОС
+      items:
+        - name: Подготовка к развертыванию ОС
+          href: get-started/prepare-for-operating-system-deployment.md
+        - name: 'загрузочные образы,'
+          items:
+            - name: Управление загрузочными образами
+              href: get-started/manage-boot-images.md
+            - name: Настройка загрузочных образов
+              href: get-started/customize-boot-images.md
+        - name: Образы ОС
+          items:
+            - name: Управление образами ОС
+              href: get-started/manage-operating-system-images.md
+            - name: Настройка образов ОС
+              href: get-started/customize-operating-system-images.md
+        - name: Управление пакетами обновления ОС
+          href: get-started/manage-operating-system-upgrade-packages.md
+        - name: Управление драйверами
+          href: get-started/manage-drivers.md
+        - name: Управление пользовательской средой
+          href: get-started/manage-user-state.md
+        - name: Подготовка развертываний на неизвестные компьютеры
+          href: get-started/prepare-for-unknown-computer-deployments.md
+        - name: Связывание пользователей с конечным компьютером
+          href: get-started/associate-users-with-a-destination-computer.md
+    - name: Подготовка однорангового кэша Windows PE для снижения трафика глобальной сети
+      href: get-started/prepare-windows-pe-peer-cache-to-reduce-wan-traffic.md
+- name: Развертывание и использование
+  items:
+    - name: Создание последовательностей задач и управление ими
+      href: deploy-use/manage-task-sequences-to-automate-tasks.md
+    - name: Создание последовательностей задач для автоматизации
+      items:
+        - name: Создание последовательности задач для установки ОС
+          href: deploy-use/create-a-task-sequence-to-install-an-operating-system.md
+        - name: Создание последовательности задач для обновления ОС
+          href: deploy-use/create-a-task-sequence-to-upgrade-an-operating-system.md
+        - name: Этапы последовательности задач для управления преобразованием BIOS в UEFI
+          href: deploy-use/task-sequence-steps-to-manage-bios-to-uefi-conversion.md
+        - name: Создание последовательности задач для записи образа ОС
+          href: deploy-use/create-a-task-sequence-to-capture-an-operating-system.md
+        - name: Создание последовательности задач для записи и восстановления пользовательского состояния
+          href: deploy-use/create-a-task-sequence-to-capture-and-restore-user-state.md
+        - name: Создание настраиваемой последовательности задач
+          href: deploy-use/create-a-custom-task-sequence.md
+        - name: Создание последовательности задач для прочих развертываний (не ОС)
+          href: deploy-use/create-a-task-sequence-for-non-operating-system-deployments.md
+    - name: Развертывание последовательности задач
+      href: deploy-use/deploy-a-task-sequence.md
+    - name: Создание поэтапного развертывания
+      href: deploy-use/create-phased-deployment-for-task-sequence.md
+    - name: Мониторинг поэтапных развертываний и управление ими
+      href: deploy-use/manage-monitor-phased-deployments.md
+    - name: Управление Windows как службой
+      href: deploy-use/manage-windows-as-a-service.md
+    - name: Развертывание Windows to Go
+      href: deploy-use/deploy-windows-to-go.md
+    - name: Мониторинг развертываний ОС
+      href: deploy-use/monitor-operating-system-deployments.md
+    - name: Отладка последовательности задач
+      href: deploy-use/debug-task-sequence.md
+    - name: Настройка предварительного кэширования содержимого
+      href: deploy-use/configure-precache-content.md
+    - name: Создание носителя последовательности задач
+      items:
+        - name: Общие сведения о носителе последовательности задач
+          href: deploy-use/create-task-sequence-media.md
+        - name: Создание автономного носителя
+          href: deploy-use/create-stand-alone-media.md
+        - name: Создание предварительно подготовленного носителя
+          href: deploy-use/create-prestaged-media.md
+        - name: Создание загрузочного носителя
+          href: deploy-use/create-bootable-media.md
+        - name: Создание носителя для снятия образа
+          href: deploy-use/create-capture-media.md
+- name: Технические справочники
+  items:
+    - name: Использование редактора последовательности задач
+      href: understand/task-sequence-editor.md
+    - name: "Взаимодействие пользователей с развертыванием\_ОС"
+      href: understand/user-experience.md
+    - name: Шаги последовательности задач
+      items:
+        - name: Сведения о шагах последовательности задач
+          href: understand/task-sequence-steps.md
+        - name: Установить обновления программного обеспечения
+          href: understand/install-software-updates.md
+        - name: "Предварительная подготовка BitLocker в Windows\_PE"
+          href: deploy-use/preprovision-bitlocker-in-windows-pe.md
+    - name: Создание переменных последовательности задач
+      href: understand/using-task-sequence-variables.md
+    - name: Переменные последовательности задач
+      href: understand/task-sequence-variables.md
+    - name: Команды перед запуском для носителя с последовательностью задач
+      href: understand/prestart-commands-for-task-sequence-media.md
+    - name: Режим подготовки
+      href: understand/provisioning-mode.md

@@ -1,0 +1,68 @@
+### YamlMime:Landing
+title: Документация по управлению приложениями
+summary: Используйте Configuration Manager для контроля и развертывания пакетов, скриптов и приложений. Автоматизируйте развертывание или предоставьте пользователям возможность устанавливать приложения из центра программного обеспечения.
+metadata:
+  title: Документация по управлению приложениями
+  titleSuffix: Configuration Manager
+  description: Используйте Configuration Manager для контроля и развертывания пакетов, скриптов и приложений. Автоматизируйте развертывание или предоставьте пользователям возможность устанавливать приложения из центра программного обеспечения.
+  ms.prod: configuration-manager
+  ms.technology: configmgr-app
+  ms.topic: landing-page
+  author: aczechowski
+  ms.author: aaroncz
+  ms.date: 01/28/2020
+  ms.openlocfilehash: 7fccbe98c6199543554b48f28325b6531d0092c3
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81740904"
+landingContent:
+- title: Сведения об управлении приложениями
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения об управлении приложениями
+      url: understand/introduction-to-application-management.md
+    - text: Подготовка управления приложениями
+      url: plan-design/plan-for-and-configure-application-management.md
+    - text: Планирование использования Центра программного обеспечения
+      url: plan-design/plan-for-software-center.md
+  - linkListType: tutorial
+    links:
+    - text: Создание и развертывание приложения
+      url: get-started/create-and-deploy-an-application.md
+- title: Начало работы
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Создание приложений
+      url: deploy-use/create-applications.md
+    - text: Создание и выполнение скриптов PowerShell
+      url: deploy-use/create-deploy-scripts.md
+  - linkListType: deploy
+    links:
+    - text: Развертывание приложений
+      url: deploy-use/deploy-applications.md
+    - text: Развертывание и обновление Microsoft Edge
+      url: deploy-use/deploy-edge.md
+- title: Основные задачи
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Создание групп приложений
+      url: deploy-use/create-app-groups.md
+    - text: Утверждение приложений
+      url: deploy-use/app-approval.md
+    - text: Установка приложений на устройстве
+      url: deploy-use/install-app-for-device.md
+    - text: Сопоставление пользователей и устройств
+      url: deploy-use/link-users-and-devices-with-user-device-affinity.md
+    - text: Отслеживание применения приложений с помощью функции контроля использования программных продуктов
+      url: deploy-use/monitor-app-usage-with-software-metering.md
+  - linkListType: reference
+    links:
+    - text: Устранение неполадок, связанных с развертыванием приложений
+      url: understand/app-deployment-technical-reference.md
+    - text: Пакеты и программы
+      url: deploy-use/packages-and-programs.md

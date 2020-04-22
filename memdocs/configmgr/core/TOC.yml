@@ -1,0 +1,879 @@
+- name: Документация по базовой инфраструктуре
+  href: index.yml
+- name: Изучение вопроса
+  items:
+    - name: "Что такое Configuration\_Manager?"
+      href: understand/introduction.md
+    - name: "Вопросы и ответы по Microsoft\_Endpoint Configuration\_Manager"
+      href: understand/microsoft-endpoint-manager-faq.md
+    - name: "Что произошло с\_SCCM?"
+      href: understand/what-happened-to-sccm.md
+    - name: Введение
+      items:
+        - name: Поиск справки по Configuration Manager
+          href: understand/find-help.md
+        - name: Как работать с документацией
+          href: understand/use-docs.md
+        - name: Как пользоваться консолью
+          href: servers/manage/admin-console.md
+        - name: Специальные возможности
+          href: understand/accessibility-features.md
+        - name: Руководство пользователя центра программного обеспечения
+          href: understand/software-center.md
+    - name: Основы
+      items:
+        - name: 'Основные понятия, связанные с Configuration Manager'
+          href: understand/fundamentals.md
+        - name: Сайты и иерархии
+          href: understand/fundamentals-of-sites-and-hierarchies.md
+        - name: Сведения об обновлении и установке
+          href: understand/upgrade-update-install.md
+        - name: Управление устройствами
+          href: understand/fundamentals-of-managing-devices.md
+        - name: Управление клиентами
+          href: understand/fundamentals-of-client-management-tasks.md
+        - name: Безопасность
+          href: understand/fundamentals-of-security.md
+        - name: Администрирование на основе ролей
+          href: understand/fundamentals-of-role-based-administration.md
+    - name: Configuration Manager и Windows как услуга
+      href: understand/configuration-manager-and-windows-as-service.md
+    - name: Использование облачных служб
+      items:
+        - name: Общие сведения об облачных службах
+          href: understand/use-cloud-services.md
+        - name: Configuration Manager в Azure
+          href: understand/configuration-manager-on-azure.md
+    - name: Часто задаваемые вопросы об изменении размера и производительности сайта
+      href: understand/site-size-performance-faq.md
+    - name: Часто задаваемые вопросы о продукте и лицензировании
+      href: understand/product-and-licensing-faq.md
+    - name: Какую ветвь Configuration Manager следует использовать?
+      href: understand/which-branch-should-i-use.md
+    - name: Лицензирование и ветви
+      href: understand/learn-more-editions.md
+    - name: Клиент расширенного взаимодействия
+      href: understand/interoperability-client.md
+    - name: Long Term Servicing Branch
+      items:
+        - name: "Обзор Long-Term Servicing\_Branch"
+          href: understand/introduction-to-the-ltsb.md
+        - name: "Поддерживаемые конфигурации для\_LTSB"
+          href: understand/supported-configurations-for-ltsb.md
+        - name: Установка LTSB
+          href: understand/install-the-ltsb.md
+        - name: Управление LTSB
+          href: understand/manage-the-ltsb.md
+        - name: Обновление LTSB до текущей ветви
+          href: understand/convert-to-current-branch.md
+- name: Планирование и проектирование
+  items:
+    - name: Configuration Manager уже на подходе
+      href: plan-design/get-ready.md
+    - name: Изменения продукта
+      items:
+        - name: Функции и возможности
+          href: plan-design/changes/features-and-capabilities.md
+        - name: Новые возможности добавочных версий
+          href: plan-design/changes/whats-new-incremental-versions.md
+        - name: "Новые возможности в версии\_2002"
+          href: plan-design/changes/whats-new-in-version-2002.md
+        - name: "Новые возможности в версии\_1910"
+          href: plan-design/changes/whats-new-in-version-1910.md
+        - name: Новые возможности в версии 1906
+          href: plan-design/changes/whats-new-in-version-1906.md
+        - name: Новые возможности в версии 1902
+          href: plan-design/changes/whats-new-in-version-1902.md
+        - name: "Новые возможности в версии\_1810"
+          href: plan-design/changes/whats-new-in-version-1810.md
+        - name: Изменения по сравнению с Configuration Manager 2012
+          href: plan-design/changes/what-has-changed-from-configuration-manager-2012.md
+        - name: Удаленные и устаревшие компоненты
+          items:
+            - name: Обзор удаленных и устаревших компонентов
+              href: plan-design/changes/deprecated/removed-and-deprecated.md
+            - name: Удаленные и устаревшие компоненты
+              href: plan-design/changes/deprecated/removed-and-deprecated-cmfeatures.md
+            - name: Удаленные и устаревшие компоненты для серверов сайта
+              href: plan-design/changes/deprecated/removed-and-deprecated-server.md
+            - name: Удаленные и устаревшие компоненты для клиентов
+              href: plan-design/changes/deprecated/removed-and-deprecated-client.md
+    - name: Поддерживаемые конфигурации
+      items:
+        - name: Поддерживаемые конфигурации
+          href: plan-design/configs/supported-configurations.md
+        - name: Данные по размерам и масштабированию
+          href: plan-design/configs/size-and-scale-numbers.md
+        - name: Необходимые компоненты сайтов и систем сайтов
+          href: plan-design/configs/site-and-site-system-prerequisites.md
+        - name: Рекомендации по размеру и производительности сайта
+          href: plan-design/configs/site-size-performance-guidelines.md
+        - name: Поддерживаемые операционные системы для серверов системы сайта
+          href: plan-design/configs/supported-operating-systems-for-site-system-servers.md
+        - name: Поддерживаемые операционные системы для клиентов и устройств
+          href: plan-design/configs/supported-operating-systems-for-clients-and-devices.md
+        - name: "Поддержка Windows\_10 в качестве клиента"
+          href: plan-design/configs/support-for-windows-10.md
+        - name: Поддерживаемые операционные системы для консолей
+          href: plan-design/configs/supported-operating-systems-consoles.md
+        - name: Рекомендуемое оборудование
+          href: plan-design/configs/recommended-hardware.md
+        - name: Поддержка версий SQL Server
+          href: plan-design/configs/support-for-sql-server-versions.md
+        - name: Поддержка доменов Active Directory
+          href: plan-design/configs/support-for-active-directory-domains.md
+        - name: Поддержка функций и сетей Windows
+          href: plan-design/configs/support-for-windows-features-and-networks.md
+        - name: Поддержка сред виртуализации
+          href: plan-design/configs/support-for-virtualization-environments.md
+    - name: Выбор решения для управления устройствами
+      href: plan-design/choose-a-device-management-solution.md
+    - name: Разработка иерархии сайтов
+      items:
+        - name: Разработка иерархии
+          href: plan-design/hierarchy/design-a-hierarchy-of-sites.md
+        - name: Планирование использования поставщика SMS
+          href: plan-design/hierarchy/plan-for-the-sms-provider.md
+        - name: План для базы данных сайта
+          href: plan-design/hierarchy/plan-for-the-site-database.md
+        - name: Планирование серверов системы сайта
+          href: plan-design/hierarchy/plan-for-site-system-servers-and-site-system-roles.md
+        - name: Основные принципы управления содержимым
+          items:
+            - name: Основные принципы управления содержимым
+              href: plan-design/hierarchy/fundamental-concepts-for-content-management.md
+            - name: Использование облачной точки распространения
+              href: plan-design/hierarchy/use-a-cloud-based-distribution-point.md
+            - name: Использование точки распространения по запросу
+              href: plan-design/hierarchy/use-a-pull-distribution-point.md
+            - name: Библиотека содержимого
+              href: plan-design/hierarchy/the-content-library.md
+            - name: Блок-схема управления библиотекой содержимого
+              href: plan-design/hierarchy/manage-content-library-flowchart.md
+            - name: Средство очистки библиотеки содержимого
+              href: plan-design/hierarchy/content-library-cleanup-tool.md
+            - name: Одноранговый кэш для клиентов Configuration Manager
+              href: plan-design/hierarchy/client-peer-cache.md
+            - name: Диспетчер передачи пакетов
+              href: plan-design/hierarchy/package-transfer-manager.md
+            - name: Управление пропускной способностью сети для управления содержимым
+              href: plan-design/hierarchy/manage-network-bandwidth.md
+            - name: Безопасность и конфиденциальность управления содержимым
+              href: plan-design/hierarchy/security-and-privacy-for-content-management.md
+        - name: Передача данных между сайтами
+          items:
+            - name: Типы передачи данных
+              href: plan-design/hierarchy/data-transfers-between-sites.md
+            - name: файловую репликацию
+              href: plan-design/hierarchy/file-based-replication.md
+            - name: репликацию базы данных
+              href: plan-design/hierarchy/database-replication.md
+        - name: Порядок поиска ресурсов и служб клиентами
+          href: plan-design/hierarchy/understand-how-clients-find-site-resources-and-services.md
+        - name: Безопасность и конфиденциальность администрирования сайтов
+          href: plan-design/hierarchy/security-and-privacy-for-site-administration.md
+    - name: Планирование сетевой инфраструктуры
+      items:
+        - name: Рекомендации по сетевой инфраструктуре
+          href: plan-design/network/configure-firewalls-ports-domains.md
+        - name: Порты
+          href: plan-design/hierarchy/ports.md
+        - name: Поддержка прокси-сервера
+          href: plan-design/network/proxy-server-support.md
+        - name: Требования для доступа к Интернету
+          href: plan-design/network/internet-endpoints.md
+        - name: Схема Active Directory
+          items:
+            - name: Подготовка схемы Active Directory
+              href: plan-design/network/extend-the-active-directory-schema.md
+            - name: Расширения схемы
+              href: plan-design/network/schema-extensions.md
+        - name: Подготовка серверов Windows Server для поддержки систем сайтов
+          href: plan-design/network/prepare-windows-servers.md
+        - name: Веб-сайты для серверов системы сайта
+          href: plan-design/network/websites-for-site-system-servers.md
+        - name: Общие сведения о сертификатах CNG
+          href: plan-design/network/cng-certificates-overview.md
+        - name: Требования к сертификатам PKI
+          href: plan-design/network/pki-certificate-requirements.md
+        - name: Пример развертывания сертификата PKI
+          href: plan-design/network/example-deployment-of-pki-certificates.md
+    - name: Данные о диагностике и использовании
+      items:
+        - name: Обзор данных о диагностике и использовании
+          href: plan-design/diagnostics/diagnostics-and-usage-data.md
+        - name: Обработка данных о диагностике и использовании корпорацией Майкрософт
+          href: plan-design/diagnostics/how-diagnostics-and-usage-data-is-used.md
+        - name: "Сбор данных в Configuration\_Manager"
+          href: plan-design/diagnostics/how-diagnostics-and-usage-data-is-collected.md
+        - name: Как просмотреть данные о диагностике и использовании
+          href: plan-design/diagnostics/view-diagnostics-and-usage-data.md
+        - name: Уровни данных о диагностике и использовании
+          items:
+            - name: Обзор уровней
+              href: plan-design/diagnostics/levels-overview.md
+            - name: "Данные в версии\_2002"
+              href: plan-design/diagnostics/levels-of-diagnostic-usage-data-collection-2002.md
+            - name: "Данные в версии\_1910"
+              href: plan-design/diagnostics/levels-of-diagnostic-usage-data-collection-1910.md
+            - name: "Данные в версии\_1906"
+              href: plan-design/diagnostics/levels-of-diagnostic-usage-data-collection-1906.md
+            - name: "Данные в версии\_1902"
+              href: plan-design/diagnostics/levels-of-diagnostic-usage-data-collection-1902.md
+            - name: "Данные в версии\_1810"
+              href: plan-design/diagnostics/levels-of-diagnostic-usage-data-collection-1810.md
+        - name: Вопросы и ответы
+          href: plan-design/diagnostics/frequently-asked-questions.md
+    - name: Безопасность и конфиденциальность в Configuration Manager
+      items:
+        - name: Общие сведения об обеспечении безопасности и конфиденциальности
+          href: plan-design/security/security-and-privacy.md
+        - name: Планирование безопасности
+          href: plan-design/security/plan-for-security.md
+        - name: Рекомендации по обеспечению безопасности и сведения о конфиденциальности
+          href: plan-design/security/security-best-practices-and-privacy-information.md
+        - name: Заявление о конфиденциальности — библиотека командлетов Configuration Manager
+          href: plan-design/security/privacy-statement-cmdlet-library.md
+        - name: Дополнительные сведения о конфиденциальности
+          href: plan-design/security/additional-privacy.md
+        - name: Настройка безопасности
+          href: plan-design/security/configure-security.md
+        - name: Технический справочник по элементам управления шифрования
+          href: plan-design/security/cryptographic-controls-technical-reference.md
+        - name: Включите протокол TLS 1.2.
+          items:
+            - name: "Сведения о включении TLS\_1.2"
+              href: plan-design/security/enable-tls-1-2.md
+            - name: "Включение TLS\_1.2 на клиентах"
+              href: plan-design/security/enable-tls-1-2-client.md
+            - name: "Включение TLS\_1.2 на серверах сайта и удаленных системах сайта"
+              href: plan-design/security/enable-tls-1-2-server.md
+            - name: "Распространенные проблемы при включении TLS\_1.2"
+              href: plan-design/security/enable-tls-1-2-troubleshoot.md
+- name: Начало работы
+  items:
+    - name: Оценка Configuration Manager в лабораторной среде
+      items:
+        - name: Общие сведения о лаборатории
+          href: get-started/evaluate-with-lab-environment.md
+        - name: Настройка лаборатории
+          href: get-started/set-up-your-lab.md
+        - name: Создание лаборатории в Azure
+          href: get-started/azure-template.md
+    - name: Technical Preview
+      items:
+        - name: Общие сведения о Technical Preview
+          href: get-started/technical-preview.md
+        - name: "Функции версии\_2003"
+          href: get-started/2020/technical-preview-2003.md
+        - name: "Функции версии\_2002.2"
+          href: get-started/2020/technical-preview-2002-2.md
+        - name: "Функции версии\_2002"
+          href: get-started/2020/technical-preview-2002.md
+        - name: "Функции версии\_2001.2"
+          href: get-started/2020/technical-preview-2001-2.md
+        - name: "Функции версии\_2001"
+          href: get-started/2020/technical-preview-2001.md
+        - name: "1912\_функций"
+          href: get-started/2019/technical-preview-1912.md
+    - name: Миграция данных между иерархиями
+      items:
+        - name: Общие сведения о миграции
+          href: migration/migrate-data-between-hierarchies.md
+        - name: Планирование миграции
+          items:
+            - name: Планирование миграции
+              href: migration/planning-for-migration.md
+            - name: Необходимые условия для миграции
+              href: migration/prerequisites-for-migration.md
+            - name: Контрольные списки для миграции
+              href: migration/administrator-checklists-for-migration-planning.md
+            - name: Определение необходимости миграции данных
+              href: migration/determine-whether-to-migrate-data.md
+            - name: Планирование исходной иерархии
+              href: migration/planning-a-source-hierarchy-strategy.md
+            - name: Планирование заданий миграции
+              href: migration/planning-a-migration-job-strategy.md
+            - name: Планирование миграции клиентов
+              href: migration/planning-a-client-migration-strategy.md
+            - name: Планирование развертывания содержимого
+              href: migration/planning-a-content-deployment-migration-strategy.md
+            - name: Планирование миграции объектов
+              href: migration/planning-for-the-migration-of-objects.md
+            - name: Планирование мониторинга миграции
+              href: migration/planning-to-monitor-migration-activity.md
+            - name: Планирование завершения миграции
+              href: migration/planning-to-complete-migration.md
+        - name: Настройка исходных иерархий и исходных сайтов
+          href: migration/configuring-source-hierarchies-and-source-sites-for-migration.md
+        - name: Операции при миграции
+          href: migration/operations-for-migration.md
+        - name: Безопасность и конфиденциальность при миграции
+          href: migration/security-and-privacy-for-migration.md
+- name: Развертывание серверов и ролей
+  items:
+    - name: Развертывание серверов и ролей
+      href: servers/deploy/start-using.md
+    - name: Установка инфраструктуры
+      items:
+        - name: Получение установочного носителя
+          href: servers/deploy/install/get-install-media.md
+        - name: Перед запуском программы установки
+          items:
+            - name: Справочник по установке
+              href: servers/deploy/install/setup-reference.md
+            - name: Загрузчик программы установки
+              href: servers/deploy/install/setup-downloader.md
+            - name: Средство проверки готовности
+              href: servers/deploy/install/prerequisite-checker.md
+            - name: Проверки готовности
+              href: servers/deploy/install/list-of-prerequisite-checks.md
+        - name: Установка сайтов
+          items:
+            - name: Общие сведения о подготовке к установке сайтов
+              href: servers/deploy/install/installing-sites.md
+            - name: Подготовка к установке сайтов
+              href: servers/deploy/install/prepare-to-install-sites.md
+            - name: Необходимые условия для установки сайтов
+              href: servers/deploy/install/prerequisites-for-installing-sites.md
+            - name: Использование мастера установки
+              href: servers/deploy/install/use-the-setup-wizard-to-install-sites.md
+            - name: Использование командной строки
+              items:
+                - name: Общие сведения о командной строке
+                  href: servers/deploy/install/use-a-command-line-to-install-sites.md
+                - name: Параметры командной строки
+                  href: servers/deploy/install/command-line-options-for-setup.md
+            - name: Установка консолей
+              href: servers/deploy/install/install-consoles.md
+            - name: Переход с пробной на полную версию
+              href: servers/deploy/install/upgrade-an-evaluation-install-to-a-full-install.md
+            - name: Переход на версию Configuration Manager
+              href: servers/deploy/install/upgrade-to-configuration-manager.md
+            - name: Сценарии для оптимизации установки
+              href: servers/deploy/install/scenarios-to-streamline-your-installation.md
+    - name: Настройка сайтов и иерархий
+      items:
+        - name: Общие сведения о настройке сайтов и иерархий
+          href: servers/deploy/configure/configure-sites-and-hierarchies.md
+        - name: Добавление ролей системы сайта
+          items:
+            - name: Общие сведения о добавлении ролей системы сайта
+              href: servers/deploy/configure/add-site-system-roles.md
+            - name: Установка ролей системы сайта
+              href: servers/deploy/configure/install-site-system-roles.md
+            - name: Установка облачных точек распространения
+              href: servers/deploy/configure/install-cloud-based-distribution-points-in-microsoft-azure.md
+            - name: Удаление точки подключения службы
+              href: servers/deploy/configure/about-the-service-connection-point.md
+            - name: Параметры конфигурации ролей системы сайта
+              href: servers/deploy/configure/configuration-options-for-site-system-roles.md
+            - name: Реплики базы данных для точек управления
+              href: servers/deploy/configure/database-replicas-for-management-points.md
+        - name: Компоненты сайта
+          href: servers/deploy/configure/site-components.md
+        - name: Публикация данных сайта
+          href: servers/deploy/configure/publish-site-data.md
+        - name: Manage content and content infrastructure
+          items:
+            - name: Общие сведения об инфраструктуре содержимого
+              href: servers/deploy/configure/manage-content-and-content-infrastructure.md
+            - name: Установка и настройка точек распространения
+              href: servers/deploy/configure/install-and-configure-distribution-points.md
+            - name: Развертывание содержимого и управление им
+              href: servers/deploy/configure/deploy-and-manage-content.md
+            - name: Мониторинг содержимого
+              href: servers/deploy/configure/monitor-content-you-have-distributed.md
+            - name: "Microsoft Connected\_Cache"
+              href: plan-design/hierarchy/microsoft-connected-cache.md
+            - name: "Устранение неполадок Microsoft Connected\_Cache"
+              href: servers/deploy/configure/troubleshoot-microsoft-connected-cache.md
+        - name: Выполнение обнаружения
+          items:
+            - name: Общие сведения о методах обнаружения
+              href: servers/deploy/configure/run-discovery.md
+            - name: О методах обнаружения
+              href: servers/deploy/configure/about-discovery-methods.md
+            - name: Выбор методов обнаружения
+              href: servers/deploy/configure/select-discovery-methods-to-use.md
+            - name: Настройка методов обнаружения
+              href: servers/deploy/configure/configure-discovery-methods.md
+        - name: Границы сайтов и группы границ
+          items:
+            - name: Общие сведения о границах сайтов и группах границ
+              href: servers/deploy/configure/define-site-boundaries-and-boundary-groups.md
+            - name: 'границы,'
+              href: servers/deploy/configure/boundaries.md
+            - name: Группы границ
+              href: servers/deploy/configure/boundary-groups.md
+            - name: Процедуры для групп границ
+              href: servers/deploy/configure/boundary-group-procedures.md
+        - name: Высокий уровень доступности
+          items:
+            - name: Варианты обеспечения высокой доступности
+              href: servers/deploy/configure/high-availability-options.md
+            - name: Высокая доступность сервера сайта
+              href: servers/deploy/configure/site-server-high-availability.md
+            - name: Блок-схема пассивной настройки сервера сайта
+              href: servers/deploy/configure/passive-site-server-flowchart.md
+            - name: Блок-схема планового повышения уровня сервера сайта
+              href: servers/deploy/configure/promote-site-server-flowchart.md
+            - name: Блок-схема внепланового повышения уровня сервера сайта
+              href: servers/deploy/configure/promote-site-server-unplanned-flowchart.md
+            - name: Подготовка к использованию SQL Server Always On
+              href: servers/deploy/configure/sql-server-alwayson-for-a-highly-available-site-database.md
+            - name: Настройка SQL Server Always On
+              href: servers/deploy/configure/configure-aoag.md
+            - name: Использование кластера SQL Server
+              href: servers/deploy/configure/use-a-sql-server-cluster-for-the-site-database.md
+        - name: Настраиваемые расположения для файлов базы данных
+          href: servers/deploy/configure/custom-locations-for-site-database-files.md
+        - name: Настройка ролевого администрирования
+          href: servers/deploy/configure/configure-role-based-administration.md
+        - name: "Настройка служб\_Azure"
+          href: servers/deploy/configure/azure-services-wizard.md
+    - name: Удаление
+      items:
+        - name: 'Удаление ролей, сайтов и иерархий'
+          href: servers/deploy/install/uninstall-sites-and-hierarchies.md
+        - name: Удаление сайта центра администрирования
+          href: servers/deploy/install/remove-central-administration-site.md
+    - name: Технические справочники
+      items:
+        - name: Учетные записи
+          href: plan-design/hierarchy/accounts.md
+        - name: Связь между конечными точками
+          href: plan-design/hierarchy/communications-between-endpoints.md
+        - name: Расширенные HTTP-системы сайта
+          href: plan-design/hierarchy/enhanced-http.md
+        - name: Средство обслуживания иерархии
+          href: servers/manage/hierarchy-maintenance-tool-preinst.exe.md
+        - name: Международная поддержка
+          href: plan-design/hierarchy/international-support.md
+        - name: Взаимодействие различных версий
+          href: plan-design/hierarchy/interoperability-between-different-versions.md
+        - name: Языковые пакеты
+          href: servers/deploy/install/language-packs.md
+        - name: Сведения о файлах журнала
+          href: plan-design/hierarchy/about-log-files.md
+        - name: Справочник по файлам журнала
+          href: plan-design/hierarchy/log-files.md
+        - name: "Заметки о\_выпуске"
+          href: servers/deploy/install/release-notes.md
+        - name: Сообщения о состоянии
+          href: plan-design/hierarchy/state-messaging-system-center-configuration-manager.md
+        - name: Поддержка Юникода и ASCII
+          href: plan-design/hierarchy/unicode-and-ascii-support.md
+- name: Управление инфраструктурой
+  items:
+    - name: Аналитика управления
+      href: servers/manage/management-insights.md
+    - name: CMPivot
+      items:
+        - name: Использование CMPivot
+          href: servers/manage/cmpivot.md
+        - name: Устранение неполадок с CMPivot
+          href: servers/manage/cmpivot-tsg.md
+    - name: Задачи обслуживания
+      items:
+        - name: Общие сведения о задачах обслуживания
+          href: servers/manage/maintenance-tasks.md
+        - name: Справочник по задачам обслуживания
+          href: servers/manage/reference-for-maintenance-tasks.md
+    - name: Изменение инфраструктуры
+      items:
+        - name: Изменение инфраструктуры
+          href: servers/manage/modify-your-infrastructure.md
+        - name: Папка CD.Latest
+          href: servers/manage/the-cd.latest-folder.md
+    - name: Обновление локальной инфраструктуры
+      href: servers/manage/upgrade-on-premises-infrastructure.md
+    - name: Обзор обновлений для Configuration Manager
+      items:
+        - name: Обновления для Configuration Manager
+          href: servers/manage/updates.md
+        - name: Обновления в консоли
+          items:
+            - name: Установка обновлений в консоли
+              href: servers/manage/install-in-console-updates.md
+            - name: Средство сброса обновлений
+              href: servers/manage/update-reset-tool.md
+            - name: Тестирование обновления базы данных
+              href: servers/manage/test-database-upgrade.md
+            - name: 'Блок-схема: скачивание обновлений'
+              href: servers/manage/download-updates-flowchart.md
+            - name: 'Блок-схема: репликация обновлений'
+              href: servers/manage/update-replication-flowchart.md
+        - name: Функции предварительной версии
+          href: servers/manage/pre-release-features.md
+        - name: Периоды обслуживания для серверов сайта
+          href: servers/manage/service-windows.md
+        - name: Использование инструмента подключения службы
+          href: servers/manage/use-the-service-connection-tool.md
+        - name: Использование средства регистрации обновлений
+          href: servers/manage/use-the-update-registration-tool-to-import-hotfixes.md
+        - name: Использование установщика исправлений
+          href: servers/manage/use-the-hotfix-installer-to-install-updates.md
+        - name: "Контрольный список для установки обновления до версии\_2002"
+          href: servers/manage/checklist-for-installing-update-2002.md
+        - name: "Контрольный список для установки обновления до версии\_1910"
+          href: servers/manage/checklist-for-installing-update-1910.md
+        - name: "Контрольный список для установки обновления до версии\_1906"
+          href: servers/manage/checklist-for-installing-update-1906.md
+        - name: "Контрольный список для установки обновления до версии\_1902"
+          href: servers/manage/checklist-for-installing-update-1902.md
+        - name: "Контрольный список для установки обновления до версии\_1810"
+          href: servers/manage/checklist-for-installing-update-1810.md
+        - name: Поддержка версий Current Branch
+          href: servers/manage/current-branch-versions-supported.md
+    - name: резервное копирование и восстановление
+      items:
+        - name: Резервное копирование сайтов
+          href: servers/manage/backup-and-recovery.md
+        - name: Восстановление сайтов
+          href: servers/manage/recover-sites.md
+        - name: Автоматическое восстановление сайтов
+          href: servers/manage/unattended-recovery.md
+    - name: Последствия сбоев в работе сайта
+      href: servers/manage/site-failure-impacts.md
+    - name: Мониторинг инфраструктуры
+      items:
+        - name: Мониторинг иерархии
+          href: servers/manage/monitor-hierarchy.md
+        - name: Использование оповещений и системы состояния
+          href: servers/manage/use-alerts-and-the-status-system.md
+        - name: Аттестация работоспособности
+          href: servers/manage/health-attestation.md
+        - name: Инфраструктура репликации
+          items:
+            - name: Мониторинг репликации
+              href: servers/manage/monitor-replication.md
+            - name: "Устранение неполадок репликации\_SQL"
+              items:
+                - name: "Устранение неполадок репликации\_SQL"
+                  href: servers/manage/replication/overview.md
+                - name: "Репликация\_SQL"
+                  href: servers/manage/replication/sql-replication.md
+                - name: "Конфигурация\_SQL"
+                  href: servers/manage/replication/sql-configuration.md
+                - name: "Производительность\_SQL"
+                  href: servers/manage/replication/sql-performance.md
+                - name: "Повторная инициализация репликации\_SQL"
+                  href: servers/manage/replication/sql-replication-reinit.md
+                - name: Повторная инициализация глобальных данных
+                  href: servers/manage/replication/global-data-reinit.md
+                - name: Повторная инициализация данных сайта
+                  href: servers/manage/replication/site-data-reinit.md
+                - name: Повторная инициализация отсутствующего сообщения
+                  href: servers/manage/replication/reinit-missing-message.md
+        - name: Запросы
+          items:
+            - name: Общие сведения о запросах
+              href: servers/manage/introduction-to-queries.md
+            - name: Управление запросами
+              href: servers/manage/manage-queries.md
+            - name: Создание запросов
+              href: servers/manage/create-queries.md
+            - name: Безопасность и конфиденциальность запросов
+              href: servers/manage/security-and-privacy-for-queries.md
+        - name: Отчеты
+          items:
+            - name: Общие сведения о ведении отчетов
+              href: servers/manage/introduction-to-reporting.md
+            - name: "Интеграция с Сервером отчетов Power\_BI"
+              href: servers/manage/powerbi-report-server.md
+            - name: Планирование отчетов
+              items:
+                - name: Планирование отчетов
+                  href: servers/manage/planning-for-reporting.md
+                - name: Необходимые условия для ведения отчетов
+                  href: servers/manage/prerequisites-for-reporting.md
+                - name: Список отчетов
+                  href: servers/manage/list-of-reports.md
+            - name: Настройка отчетов
+              href: servers/manage/configuring-reporting.md
+            - name: Использование и обслуживание отчетов
+              href: servers/manage/operations-and-maintenance-for-reporting.md
+            - name: Создание настраиваемых моделей отчетов
+              href: servers/manage/creating-custom-report-models-in-sql-server-reporting-services.md
+        - name: Хранилище данных
+          href: servers/manage/data-warehouse.md
+    - name: Центр поддержки
+      href: support/support-center.md
+      items:
+        - name: Общие сведения о центре поддержки
+          href: support/support-center.md
+        - name: Краткое руководство
+          href: support/support-center-quickstart.md
+        - name: Accessibility
+          href: support/support-center-accessibility.md
+        - name: Справочник по пользовательскому интерфейсу
+          href: support/support-center-ui-reference.md
+        - name: Настройки
+          href: support/support-center-customize.md
+        - name: Центр поддержки OneTrace (предварительная версия)
+          href: support/support-center-onetrace.md
+    - name: Средства Configuration Manager
+      items:
+        - name: Общие сведения о средствах
+          href: support/tools.md
+        - name: CMTrace
+          href: support/cmtrace.md
+        - name: Client Spy
+          href: support/clispy.md
+        - name: Средство наблюдения за развертыванием
+          href: support/deployment-monitoring-tool.md
+        - name: Policy Spy
+          href: support/policy-spy.md
+        - name: Средство Power Viewer
+          href: support/power-viewer-tool.md
+        - name: Средство расписания отправок
+          href: support/send-schedule-tool.md
+        - name: Диспетчер очередей заданий DP
+          href: support/dp-job-manager.md
+        - name: Средство просмотра оценки изменений коллекции
+          href: support/ceviewer.md
+        - name: Обозреватель библиотеки содержимого
+          href: support/content-library-explorer.md
+        - name: Передача библиотеки содержимого
+          href: support/content-library-transfer.md
+        - name: Средство владения содержимым
+          href: support/content-ownership-tool.md
+        - name: "Расширение и перенос на Microsoft\_Azure"
+          href: support/azure-migration-tool.md
+        - name: Средство ролевого администрирования и аудита
+          href: support/rbaviewer.md
+        - name: Средство формирования сводных данных по контролю использования
+          href: support/run-meter-summ.md
+    - name: Управление развертываниями с высоким риском
+      href: servers/manage/settings-to-manage-high-risk-deployments.md
+- name: Развертывание клиентов
+  items:
+    - name: Планирование развертывания клиентов
+      items:
+        - name: Методы установки клиента
+          href: clients/deploy/plan/client-installation-methods.md
+        - name: Необходимые условия для развертывания клиентов на компьютерах с Windows
+          items:
+            - name: Необходимые условия для развертывания клиентов
+              href: clients/deploy/prerequisites-for-deploying-clients-to-windows-computers.md
+            - name: Параметры брандмауэра Windows и портов для клиентов
+              href: clients/deploy/windows-firewall-and-port-settings-for-clients.md
+        - name: Определение ролей систем сайтов для клиентов
+          href: clients/deploy/plan/determine-the-site-system-roles-for-clients.md
+        - name: Безопасность и конфиденциальность клиентов
+          href: clients/deploy/plan/security-and-privacy-for-clients.md
+        - name: Рекомендации по развертыванию клиентов
+          href: clients/deploy/plan/best-practices-for-client-deployment.md
+        - name: Определение необходимости блокировки клиентов
+          href: clients/deploy/plan/determine-whether-to-block-clients.md
+        - name: Планирование развертывания клиентов на компьютерах Linux и UNIX
+          href: clients/deploy/plan/planning-for-client-deployment-to-linux-and-unix-computers.md
+        - name: Планирование развертывания клиентов на компьютерах Mac
+          href: clients/deploy/plan/planning-for-client-deployment-to-mac-computers.md
+        - name: Развертывание клиентов на устройствах Windows Embedded
+          items:
+            - name: Планирование развертывания клиентов на устройствах Windows Embedded
+              href: clients/deploy/plan/planning-for-client-deployment-to-windows-embedded-devices.md
+            - name: Пример сценария
+              href: clients/deploy/example-scenario-for-deploying-and-managing-clients-on-windows-embedded-devices.md
+        - name: Планирование пробуждения клиентов
+          href: clients/deploy/plan/plan-wake-up-clients.md
+        - name: Управление клиентами VDI
+          href: clients/deploy/plan/considerations-for-managing-clients-in-a-vdi.md
+    - name: Задачи по развертыванию клиента
+      items:
+        - name: Настройка портов связи для клиентов
+          href: clients/deploy/configure-client-communication-ports.md
+        - name: Настройка клиентов для использования публикации DNS
+          href: clients/deploy/configure-client-computers-to-find-management-points-by-using-dns-publishing.md
+        - name: Настройка параметров клиента
+          items:
+            - name: Настройка параметров клиента
+              href: clients/deploy/configure-client-settings.md
+            - name: О параметрах клиентов
+              href: clients/deploy/about-client-settings.md
+        - name: Уведомления о перезапуске устройства
+          href: clients/deploy/device-restart-notifications.md
+        - name: Настройка пробуждения по локальной сети
+          href: clients/deploy/configure-wake-on-lan.md
+        - name: Развертывание клиентов на компьютерах Windows
+          items:
+            - name: Развертывание клиентов на компьютерах Windows
+              href: clients/deploy/deploy-clients-to-windows-computers.md
+            - name: Установка клиентов с помощью Azure AD
+              href: clients/deploy/deploy-clients-cmg-azure.md
+            - name: Маркеры проверки подлинности в шлюзе управления облачными клиентами
+              href: clients/deploy/deploy-clients-cmg-token.md
+            - name: Свойства установки клиента
+              href: clients/deploy/about-client-installation-properties.md
+            - name: 'Свойства установки клиентов, опубликованные в AD'
+              href: clients/deploy/about-client-installation-properties-published-to-active-directory-domain-services.md
+        - name: Развертывание клиентов на серверах UNIX и Linux
+          items:
+            - name: Развертывание клиентов на серверах UNIX и Linux
+              href: clients/deploy/deploy-clients-to-unix-and-linux-servers.md
+            - name: Команды клиентов Linux и UNIX
+              href: clients/deploy/linux-and-unix-clients-technical-reference.md
+        - name: Подготовка к развертыванию клиентов на компьютерах Mac
+          href: clients/deploy/prepare-to-deploy-mac-clients.md
+        - name: Развертывание клиентов на компьютерах Mac
+          href: clients/deploy/deploy-clients-to-macs.md
+        - name: Назначение клиентов сайту
+          href: clients/deploy/assign-clients-to-a-site.md
+        - name: Настройка состояния клиента
+          href: clients/deploy/configure-client-status.md
+        - name: Мониторинг состояния развертывания клиентов
+          href: clients/deploy/monitor-client-deployment-status.md
+- name: Управление клиентами
+  items:
+    - name: Общие сведения об управлении клиентами
+      href: clients/manage/monitor-and-manage-clients.md
+    - name: Мониторинг клиентов и управление ими
+      items:
+        - name: Мониторинг клиентов
+          href: clients/manage/monitor-clients.md
+        - name: Мониторинг клиентов Linux и UNIX
+          href: clients/manage/monitor-clients-for-linux-and-unix-servers.md
+        - name: Управление клиентами
+          href: clients/manage/manage-clients.md
+        - name: Уведомление клиентов
+          href: clients/manage/client-notification.md
+        - name: Управление клиентами Linux и UNIX
+          href: clients/manage/manage-clients-for-linux-and-unix-servers.md
+        - name: "Синхронизация данных с Azure\_Monitor"
+          href: 'https://docs.microsoft.com/azure/azure-monitor/platform/collect-sccm?context=sccm/core/context/core-context'
+        - name: Обслуживание клиентов Mac
+          href: clients/manage/maintain-mac-clients.md
+        - name: Панель мониторинга устройств Surface
+          href: clients/manage/surface-device-dashboard.md
+    - name: Управление клиентами в Интернете
+      items:
+        - name: Общие сведения об управлении клиентами в Интернете
+          href: clients/manage/manage-clients-internet.md
+        - name: Шлюз управления облаком
+          items:
+            - name: Планирование работы шлюза управления облачными клиентами
+              href: clients/manage/cmg/plan-cloud-management-gateway.md
+            - name: Безопасность и конфиденциальность шлюза управления облачными клиентами
+              href: clients/manage/cmg/security-and-privacy-for-cloud-management-gateway.md
+            - name: Вопросы и ответы по шлюзу управления облачными клиентами
+              href: clients/manage/cmg/cloud-management-gateway-faq.md
+            - name: Сертификаты для шлюза управления облачными клиентами
+              href: clients/manage/cmg/certificates-for-cloud-management-gateway.md
+            - name: Настройка шлюза управления облачными клиентами
+              href: clients/manage/cmg/setup-cloud-management-gateway.md
+            - name: Мониторинг клиентов в шлюзе управления облачными клиентами
+              href: clients/manage/cmg/monitor-clients-cloud-management-gateway.md
+        - name: Планирование управления клиентами через Интернет
+          href: clients/manage/plan-internet-based-client-management.md
+        - name: "Рабочий процесс проверки подлинности Azure\_AD"
+          href: clients/manage/azure-ccmsetup.md
+    - name: Коллекции
+      items:
+        - name: Общие сведения о коллекциях
+          href: clients/manage/collections/introduction-to-collections.md
+        - name: Необходимые условия для коллекций
+          href: clients/manage/collections/prerequisites-for-collections.md
+        - name: Рекомендации для коллекций
+          href: clients/manage/collections/best-practices-for-collections.md
+        - name: Создание коллекций
+          href: clients/manage/collections/create-collections.md
+        - name: Управление коллекциями
+          href: clients/manage/collections/manage-collections.md
+        - name: Использование периодов обслуживания
+          href: clients/manage/collections/use-maintenance-windows.md
+        - name: Автоматическое разбиение устройств по коллекциям
+          href: clients/manage/collections/automatically-categorize-devices-into-collections.md
+        - name: Безопасность и конфиденциальность коллекций
+          href: clients/manage/collections/security-and-privacy-for-collections.md
+    - name: Инвентаризация оборудования
+      items:
+        - name: Общие сведения об инвентаризации оборудования
+          href: clients/manage/inventory/introduction-to-hardware-inventory.md
+        - name: Расширение инвентаризации оборудования
+          href: clients/manage/inventory/extend-hardware-inventory.md
+        - name: How to configure hardware inventory
+          href: clients/manage/inventory/configure-hardware-inventory.md
+        - name: Использование обозревателя ресурсов для просмотра данных инвентаризации оборудования
+          href: clients/manage/inventory/use-resource-explorer-to-view-hardware-inventory.md
+        - name: Классы по умолчанию в обозревателе ресурсов
+          href: clients/manage/inventory/resource-explorer-classes.md
+        - name: Инвентаризация оборудования для Linux и UNIX
+          href: clients/manage/inventory/hardware-inventory-for-linux-and-unix.md
+        - name: Безопасность и конфиденциальность инвентаризации оборудования
+          href: clients/manage/inventory/security-and-privacy-for-hardware-inventory.md
+    - name: Инвентаризация программного обеспечения
+      items:
+        - name: Общие сведения об инвентаризации программного обеспечения
+          href: clients/manage/inventory/introduction-to-software-inventory.md
+        - name: Настройка инвентаризации программного обеспечения
+          href: clients/manage/inventory/configure-software-inventory.md
+        - name: Использование обозревателя ресурсов для просмотра данных инвентаризации программного обеспечения
+          href: clients/manage/inventory/use-resource-explorer-to-view-software-inventory.md
+        - name: Безопасность и конфиденциальность инвентаризации программного обеспечения
+          href: clients/manage/inventory/security-and-privacy-for-software-inventory.md
+    - name: Аналитика активов
+      items:
+        - name: Введение
+          href: clients/manage/asset-intelligence/introduction-to-asset-intelligence.md
+        - name: Предварительные условия
+          href: clients/manage/asset-intelligence/prerequisites-for-asset-intelligence.md
+        - name: Настройка аналитики активов
+          href: clients/manage/asset-intelligence/configuring-asset-intelligence.md
+        - name: Использование аналитики активов
+          href: clients/manage/asset-intelligence/operations-for-asset-intelligence.md
+        - name: Безопасность и конфиденциальность
+          href: clients/manage/asset-intelligence/security-and-privacy-for-asset-intelligence.md
+        - name: Примеры смены состояний проверки
+          href: clients/manage/asset-intelligence/example-validation-state-transitions-for-asset-intelligence.md
+        - name: Пример общего файла импорта лицензий
+          href: clients/manage/asset-intelligence/example-asset-intelligence-general-license-import.md
+        - name: Использование панели мониторинга жизненного цикла продукта
+          href: clients/manage/asset-intelligence/product-lifecycle-dashboard.md
+    - name: Удаленное управление
+      items:
+        - name: Общие сведения об удаленном управлении
+          href: clients/manage/remote-control/introduction-to-remote-control.md
+        - name: Необходимые условия для удаленного управления
+          href: clients/manage/remote-control/prerequisites-for-remote-control.md
+        - name: Настройка удаленного управления
+          href: clients/manage/remote-control/configuring-remote-control.md
+        - name: Удаленное администрирование клиентского компьютера Windows
+          href: clients/manage/remote-control/remotely-administer-a-windows-client-computer.md
+        - name: Аудит использования удаленного управления
+          href: clients/manage/remote-control/audit-remote-control-usage.md
+        - name: Безопасность и конфиденциальность удаленного управления
+          href: clients/manage/remote-control/security-and-privacy-for-remote-control.md
+    - name: Исключение брандмауэра Windows для прокси-сервера пробуждения
+      items:
+        - name: Общие сведения об управлении питанием
+          href: clients/manage/power/introduction-to-power-management.md
+        - name: Необходимые условия для управления питанием
+          href: clients/manage/power/prerequisites-for-power-management.md
+        - name: Рекомендации по управлению питанием
+          href: clients/manage/power/best-practices-for-power-management.md
+        - name: Контрольный список администратора по управлению питанием
+          href: clients/manage/power/administrator-checklist-for-power-management.md
+        - name: Настройка функций управления питанием
+          href: clients/manage/power/configuring-power-management.md
+        - name: Создание и применение схем управления питанием
+          href: clients/manage/power/create-and-apply-power-plans.md
+        - name: Отслеживание и планирование управления питанием
+          href: clients/manage/power/monitor-and-plan-for-power-management.md
+        - name: Безопасность и конфиденциальность управления питанием
+          href: clients/manage/power/security-and-privacy-for-power-management.md
+    - name: Обновление клиентов
+      items:
+        - name: Инструкции по обновлению клиентов
+          href: clients/manage/upgrade/upgrade-clients.md
+        - name: Проверка обновлений клиентов в предварительной коллекции
+          href: clients/manage/upgrade/test-client-upgrades.md
+        - name: Исключение клиентов Windows из обновлений
+          href: clients/manage/upgrade/exclude-clients-windows.md
+        - name: Обновление клиентов Windows
+          href: clients/manage/upgrade/upgrade-clients-for-windows-computers.md
+        - name: Обновление клиентов Linux и UNIX
+          href: clients/manage/upgrade/upgrade-clients-for-linux-and-unix-servers.md
+        - name: Обновление клиентов Mac
+          href: clients/manage/upgrade/upgrade-clients-on-mac-computers.md

@@ -1,0 +1,66 @@
+### YamlMime:Landing
+title: Документация по соответствию устройств
+summary: Configuration Manager включает инструменты и ресурсы, необходимые для управления конфигурациями и обеспечением соответствия на устройствах в вашей организации.
+metadata:
+  title: Документация по соответствию устройств
+  titleSuffix: Configuration Manager
+  description: Configuration Manager включает инструменты и ресурсы, необходимые для управления конфигурациями и обеспечением соответствия на устройствах в вашей организации.
+  ms.product: configuration-manager
+  ms.technology: configmgr-compliance
+  ms.topic: landing-page
+  author: mestew
+  ms.author: mstewart
+  ms.date: 01/25/2020
+  ms.openlocfilehash: 7b66409e8f4082927225246bb5144efb8b65d567
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81741108"
+landingContent:
+- title: Сведения о соответствии устройств
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о соответствии устройств
+      url: understand/ensure-device-compliance.md
+    - text: Приступая к работе с параметрами соответствия
+      url: get-started/get-started-with-compliance-settings.md
+  - linkListType: architecture
+    links:
+    - text: Планирование и настройка параметров соответствия
+      url: plan-design/plan-for-and-configure-compliance-settings.md
+- title: Начало работы
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Распространенные задачи по управлению соответствием
+      url: plan-design/common-tasks-for-managing-compliance-on-devices-with-the-client.md
+    - text: Создание элементов конфигурации для устройств с Windows 10
+      url: deploy-use/create-configuration-items-for-windows-10-devices-managed-with-the-client.md
+    - text: Создание конфигурационных баз
+      url: deploy-use/create-configuration-baselines.md
+  - linkListType: deploy
+    links:
+    - text: Развертывание конфигурационных баз
+      url: deploy-use/deploy-configuration-baselines.md
+  - linkListType: how-to-guide
+    links:
+    - text: Мониторинг параметров соответствия
+      url: deploy-use/monitor-compliance-settings.md
+- title: Основные задачи
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Создание настраиваемых элементов конфигурации
+      url: deploy-use/create-custom-configuration-items-for-windows-desktop-and-server-computers-managed-with-the-client.md
+    - text: Создание профилей удаленного подключения
+      url: deploy-use/create-remote-connection-profiles.md
+    - text: Создание элементов конфигурации данных и профилей пользователя
+      url: deploy-use/create-user-data-and-profiles-configuration-items.md
+  - linkListType: concept
+    links:
+    - text: Профили OneDrive для бизнеса
+      url: deploy-use/onedrive-profile.md
+    - text: Управление данными конфигурации
+      url: deploy-use/management-tasks-for-configuration-data.md

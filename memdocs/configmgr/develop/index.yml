@@ -1,0 +1,62 @@
+### YamlMime:Landing
+title: Документация в пакете SDK для Configuration Manager
+summary: Пакет SDK для Configuration Manager содержит документацию и примеры, полезные при разработке приложений, которые обращаются к данным Configuration Manager и изменяют их.
+metadata:
+  title: Документация в пакете SDK
+  titleSuffix: Configuration Manager
+  description: Пакет SDK для Configuration Manager содержит документацию и примеры, полезные при разработке приложений, которые обращаются к данным Configuration Manager и изменяют их.
+  ms.prod: configuration-manager
+  ms.technology: configmgr-sdk
+  ms.topic: landing-page
+  author: aczechowski
+  ms.author: aaroncz
+  ms.date: 04/01/2020
+  ms.openlocfilehash: 94ad699d6de55ffbbc77722b2e9e4063844f78a3
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81741720"
+landingContent:
+- title: Сведения о пакете SDK для Configuration Manager
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о пакете SDK
+      url: core/misc/system-center-configuration-manager-sdk.md
+    - text: Новые возможности
+      url: core/changes/what-s-new-in-the-system-center-configuration-manager-sdk.md
+    - text: Требования пакета SDK
+      url: core/reqs/about-configuration-manager-sdk-requirements.md
+  - linkListType: reference
+    links:
+    - text: Справочник по API Configuration Manager
+      url: reference/configuration-manager-reference.md
+    - text: REST API службы администрирования
+      url: adminservice/index.yml
+- title: Начало работы
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Как приступить к программированию Configuration Manager
+      url: core/understand/getting-started-with-configuration-manager-programming.md
+    - text: Общие сведения об архитектуре
+      url: core/understand/architectural-overview.md
+    - text: Начало работы с PowerShell
+      url: core/understand/getting-started-with-configuration-manager-and-windows-powershell.md
+  - linkListType: reference
+    links:
+    - text: Командлеты PowerShell в Configuration Manager
+      url: https://docs.microsoft.com/powershell/sccm/overview?view=sccm-ps
+- title: Основные задачи
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Знакомство с WBEMTEST
+      url: core/understand/introduction-to-wbemtest.md
+  - linkListType: reference
+    links:
+    - text: Режимы SQL для схемы Configuration Manager
+      url: core/understand/configuration-manager-schema-sql-views.md
+    - text: SMS_R_System, класс WMI сервера
+      url: reference/core/clients/manage/sms_r_system-server-wmi-class.md

@@ -1,0 +1,58 @@
+### YamlMime:Landing
+title: Документация по управлению мобильными устройствами (MDM)
+summary: Использование Microsoft Endpoint Manager для управления мобильными устройствами вашей организации в локальной среде или облаке
+metadata:
+  title: Управление мобильными устройствами
+  titleSuffix: Configuration Manager
+  description: Использование Microsoft Endpoint Manager для управления мобильными устройствами вашей организации в локальной среде или облаке
+  ms.prod: configuration-manager
+  ms.technology: configmgr-mdm
+  ms.topic: landing-page
+  author: aczechowski
+  ms.author: aaroncz
+  ms.date: 12/31/2019
+  ms.openlocfilehash: d9e3c95272c9e0d6596d214f73ea53f572b54c6b
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81741805"
+landingContent:
+- title: Сведения о локальном управлении мобильными устройствами
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое локальное управление мобильными устройствами?
+      url: understand/manage-mobile-devices-with-on-premises-infrastructure.md
+    - text: Планирование локального управления мобильными устройствами
+      url: plan-design/plan-on-premises-mdm.md
+  - linkListType: how-to-guide
+    links:
+    - text: Установка ролей
+      url: get-started/install-site-system-roles-for-on-premises-mdm.md
+    - text: регистрации устройств;
+      url: deploy-use/enroll-devices-on-premises-mdm.md
+    - text: Управление устройствами
+      url: deploy-use/wipe-lock-reset-devices.md
+- title: Подключение Configuration Manager и Exchange
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Управление устройствами с помощью Exchange
+      url: deploy-use/manage-mobile-devices-with-exchange-activesync.md
+  - linkListType: how-to-guide
+    links:
+    - text: Установка соединителя Exchange
+      url: deploy-use/install-configure-exchange-connector.md
+- title: Использование облачной службы Intune
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое Intune?
+      url: https://docs.microsoft.com/intune/fundamentals/what-is-intune
+    - text: Общие сведения об управлении устройствами
+      url: https://docs.microsoft.com/intune/fundamentals/what-is-device-management
+  - linkListType: tutorial
+    links:
+    - text: Пошаговое руководство по Intune в Microsoft Endpoint Manager
+      url: https://docs.microsoft.com/intune/fundamentals/tutorial-walkthrough-endpoint-manager

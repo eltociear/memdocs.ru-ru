@@ -1,0 +1,66 @@
+### YamlMime:Landing
+title: Документация по обновлению программного обеспечения
+summary: Configuration Manager помогает решать сложные задачи отслеживания и установки обновлений программного обеспечения на клиентах в вашей организации.
+metadata:
+  title: Документация по обновлению программного обеспечения
+  titleSuffix: Configuration Manager
+  description: Configuration Manager помогает решать сложные задачи отслеживания и установки обновлений программного обеспечения на клиентах в вашей организации.
+  ms.product: configuration-manager
+  ms.technology: configmgr-sum
+  ms.topic: landing-page
+  author: mestew
+  ms.author: mstewart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: aa421de09ee69713097a5efe78b0a9b2a1a71856
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81741176"
+landingContent:
+- title: Об обновлении программного обеспечения
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения об обновлениях программного обеспечения
+      url: understand/software-updates-introduction.md
+    - text: Пример развертывания и мониторинга ежемесячных обновлений ПО
+      url: deploy-use/example-scenario-deploy-monitor-monthly-security-updates.md
+  - linkListType: architecture
+    links:
+    - text: Планирование обновлений программного обеспечения
+      url: plan-design/plan-for-software-updates.md
+    - text: Рекомендации по обновлениям программного обеспечения
+      url: plan-design/software-updates-best-practices.md
+- title: Начало работы
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Установка точки обновления программного обеспечения
+      url: get-started/install-a-software-update-point.md
+    - text: Настройка классификаций и продуктов
+      url: get-started/configure-classifications-and-products.md
+    - text: Синхронизация обновлений программного обеспечения
+      url: get-started/synchronize-software-updates.md
+  - linkListType: how-to-guide
+    links:
+    - text: Автоматическое развертывание обновлений программного обеспечения
+      url: deploy-use/automatically-deploy-software-updates.md
+    - text: Мониторинг обновлений программного обеспечения
+      url: deploy-use/monitor-software-updates.md
+- title: Основные задачи
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Управление обновлениями Office 365 профессиональный плюс
+      url: deploy-use/manage-office-365-proplus-updates.md
+    - text: Включение сторонних обновлений
+      url: deploy-use/third-party-software-updates.md
+    - text: Управление параметрами для обновлений программного обеспечения
+      url: get-started/manage-settings-for-software-updates.md
+  - linkListType: concept
+    links:
+    - text: Оптимизация доставки обновлений Windows 10
+      url: deploy-use/optimize-windows-10-update-delivery.md
+    - text: Обслуживание обновлений программного обеспечения
+      url: deploy-use/software-updates-maintenance.md

@@ -1,0 +1,15 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+    - name: "Enterprise\_Mobility\_+\_Security"
+      tocHref: /
+      topicHref: /enterprise-mobility-security
+      items:
+        - name: Configuration Manager
+          tocHref: /sccm/
+          topicHref: /sccm/
+          items:
+            - name: Защита данных и инфраструктуры
+              tocHref: /sccm/mdm/deploy-use
+              topicHref: /sccm/protect/understand/protect-data-and-site-infrastructure

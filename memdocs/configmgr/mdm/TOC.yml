@@ -1,0 +1,48 @@
+- name: Документация по MDM
+  href: index.yml
+- name: локальное управление мобильными устройствами (MDM).
+  items:
+    - name: Что такое локальное управление мобильными устройствами
+      href: understand/manage-mobile-devices-with-on-premises-infrastructure.md
+    - name: Планирование локального управления мобильными устройствами
+      href: plan-design/plan-on-premises-mdm.md
+    - name: Настройка
+      items:
+        - name: Установка локальных ролей
+          href: get-started/install-site-system-roles-for-on-premises-mdm.md
+        - name: Настройка сертификатов
+          href: get-started/set-up-certificates-on-premises-mdm.md
+        - name: Настройка для регистрации
+          href: get-started/set-up-device-enrollment-on-premises-mdm.md
+    - name: регистрации устройств;
+      items:
+        - name: Общие сведения о регистрации
+          href: deploy-use/enroll-devices-on-premises-mdm.md
+        - name: Регистрация пользователей
+          href: deploy-use/user-enroll-devices-on-premises-mdm.md
+        - name: Массовая регистрация
+          href: deploy-use/bulk-enroll-devices-on-premises-mdm.md
+    - name: Управление устройствами и защита данных
+      href: deploy-use/wipe-lock-reset-devices.md
+    - name: Управление приложениями
+      href: deploy-use/management-tasks-applications.md
+    - name: Управление параметрами конфигурации
+      href: deploy-use/create-configuration-items-for-windows-8.1-and-windows-10-devices-managed-without-the-client.md
+    - name: Управление доступом к ресурсам
+      items:
+        - name: Создание профилей сертификатов PFX
+          href: deploy-use/create-pfx-certificate-profiles.md
+        - name: Импорт профилей сертификатов PFX
+          href: deploy-use/import-pfx-certificate-profiles.md
+        - name: Профили Wi-Fi
+          href: ../protect/deploy-use/create-wifi-profiles.md?toc=/configmgr/mdm/toc.json&bc=/configmgr/mdm/breadcrumb/toc.json
+        - name: Профили VPN
+          href: ../protect/deploy-use/vpn-profiles.md?toc=/configmgr/mdm/toc.json&bc=/configmgr/mdm/breadcrumb/toc.json
+- name: Соединитель Exchange Server
+  items:
+    - name: Управление устройствами с помощью Exchange
+      href: deploy-use/manage-mobile-devices-with-exchange-activesync.md
+    - name: Установка соединителя Exchange
+      href: deploy-use/install-configure-exchange-connector.md
+- name: Что произошло с гибридным управлением мобильными устройствами?
+  href: understand/what-happened-to-hybrid.md

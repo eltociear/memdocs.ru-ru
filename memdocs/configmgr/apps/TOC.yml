@@ -1,0 +1,126 @@
+- name: Документация по управлению приложениями
+  href: index.yml
+- name: Изучение вопроса
+  items:
+    - name: Введение
+      href: understand/introduction-to-application-management.md
+- name: Начало работы
+  items:
+    - name: Создание и развертывание приложения
+      href: get-started/create-and-deploy-an-application.md
+- name: Планирование и проектирование
+  items:
+    - name: Планирование и настройка управления приложениями
+      href: plan-design/plan-for-and-configure-application-management.md
+    - name: Планирование использования Центра программного обеспечения
+      href: plan-design/plan-for-software-center.md
+    - name: Безопасность и конфиденциальность
+      href: plan-design/security-and-privacy-for-application-management.md
+- name: Развертывание и использование
+  items:
+    - name: Создание приложений
+      href: deploy-use/create-applications.md
+      items:
+        - name: Создание приложений для компьютеров Mac
+          href: get-started/creating-mac-computer-applications.md
+        - name: Создание приложений Windows
+          href: get-started/creating-windows-applications.md
+        - name: Создание серверных приложений Linux и UNIX
+          href: get-started/creating-linux-and-unix-server-applications.md
+        - name: Создание приложений Windows Embedded
+          href: get-started/creating-windows-embedded-applications.md
+        - name: Создание глобальных условий
+          href: deploy-use/create-global-conditions.md
+        - name: Создание групп приложений
+          href: deploy-use/create-app-groups.md
+        - name: Пакеты и программы
+          href: deploy-use/packages-and-programs.md
+        - name: Файлы определения пакета
+          href: deploy-use/package-definition-files.md
+    - name: Развертывание приложений
+      items:
+        - name: Развертывание приложений
+          href: deploy-use/deploy-applications.md
+        - name: Создание поэтапного развертывания
+          href: ../osd/deploy-use/create-phased-deployment-for-task-sequence.md?toc=/sccm/apps/toc.json&bc=/sccm/apps/breadcrumb/toc.json
+        - name: Утверждение приложений
+          href: deploy-use/app-approval.md
+        - name: Установка приложений для устройства
+          href: deploy-use/install-app-for-device.md
+        - name: Предоставление общего доступа к приложению
+          href: deploy-use/share-applications.md
+        - name: Имитация развертываний приложений
+          href: deploy-use/simulate-application-deployments.md
+        - name: "Развертывание Microsoft\_Edge версии\_77 и более поздних версий"
+          href: deploy-use/deploy-edge.md
+        - name: Развертывание виртуальных приложений App-V
+          href: get-started/deploying-app-v-virtual-applications.md
+        - name: Советы по устранению неполадок с развертыванием приложений
+          href: deploy-use/troubleshoot-application-deployment.md
+    - name: Мониторинг приложений
+      items:
+        - name: Мониторинг приложений из консоли
+          href: deploy-use/monitor-applications-from-the-console.md
+        - name: Мониторинг поэтапных развертываний и управление ими
+          href: ../osd/deploy-use/manage-monitor-phased-deployments.md?toc=/sccm/apps/toc.json&bc=/sccm/apps/breadcrumb/toc.json
+        - name: Отслеживание применения приложений с помощью функции контроля использования программных продуктов
+          href: deploy-use/monitor-app-usage-with-software-metering.md
+    - name: Управление приложениями
+      items:
+        - name: Задачи управления
+          href: deploy-use/management-tasks-applications.md
+        - name: Сопоставление пользователей и устройств
+          href: deploy-use/link-users-and-devices-with-user-device-affinity.md
+        - name: "Microsoft\_Store для бизнеса и образования"
+          href: deploy-use/manage-apps-from-the-windows-store-for-business.md
+        - name: Виртуальные среды App-V
+          href: deploy-use/create-app-v-virtual-environments.md
+        - name: Импорт и экспорт приложений
+          href: deploy-use/import-export-applications.md
+    - name: Обновление и вывод приложений из эксплуатации
+      items:
+        - name: Обновление и вывод приложений из эксплуатации
+          href: deploy-use/update-and-retire-applications.md
+        - name: Изменение и замена приложений
+          href: deploy-use/revise-and-supersede-applications.md
+        - name: Удаление приложений
+          href: deploy-use/uninstall-applications.md
+    - name: Запуск и контроль сценариев
+      href: deploy-use/create-deploy-scripts.md
+      items:
+        - name: Дополнительные сведения о безопасности сценариев PowerShell
+          href: deploy-use/learn-script-security.md
+    - name: Диспетчер преобразования пакетов
+      items:
+        - name: Планирование для Диспетчера преобразования пакетов
+          href: pcm/package-conversion-manager.md
+        - name: Анализ и преобразование пакетов
+          href: pcm/how-to-analyze-and-convert.md
+- name: Устранение неполадок
+  items:
+    - name: 'Устранение неполадок, связанных с развертываниями приложений'
+      items:
+        - name: Подготовка к работе
+          href: understand/app-deployment-technical-reference.md
+        - name: Политика развертывания приложений
+          href: understand/deployment-policy-technical-reference.md
+        - name: Политика развертывания для устройств
+          href: understand/device-deployment-technical-reference.md
+        - name: Политика развертывания для пользователей
+          href: understand/user-deployment-technical-reference.md
+        - name: Клиентские компоненты для развертывания приложений
+          href: understand/client-components-technical-reference.md
+        - name: Оценка приложения
+          href: understand/deployment-evaluation-technical-reference.md
+        - name: Скачивание приложения
+          href: understand/deployment-download-technical-reference.md
+        - name: Установка приложения
+          href: understand/deployment-install-technical-reference.md
+    - name: "Устранение неполадок с интеграцией Microsoft\_Store для бизнеса и образования"
+      href: deploy-use/troubleshoot-microsoft-store-for-business-integration.md
+    - name: Устранение неполадок диспетчера преобразования пакетов
+      items:
+        - name: Устранение неполадок диспетчера преобразования пакетов
+          href: pcm/troubleshoot-pcm.md
+        - name: Сообщения об ошибках Диспетчера преобразования пакетов
+          href: pcm/error-messages.md
