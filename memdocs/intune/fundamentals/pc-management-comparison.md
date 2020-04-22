@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic-keep
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: b855628807861651cb641a976870c841089ff13b
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79357783"
 ---
 # <a name="compare-managing-windows-pcs-as-computers-or-mobile-devices"></a>Сравнение возможностей для управления ПК Windows как компьютерами или мобильными устройствами
@@ -43,7 +43,7 @@ ms.locfileid: "79357783"
 |**Управление лицензиями на программное обеспечение**|Доступно <br>[Управление лицензионными соглашениями для программного обеспечения компьютеров Windows](manage-license-agreements-for-windows-pc-software-in-microsoft-intune.md)|Магазин Майкрософт для бизнеса (только приложения с расширением appx)<br>[Управление приложениями, приобретенными в Магазине Майкрософт для бизнеса](../apps/windows-store-for-business.md)|
 |**Инвентаризация**|Доступно <br>[Просмотр данных инвентаризации оборудования и программного обеспечения для компьютеров под управлением Windows](view-hardware-and-software-inventory-for-windows-pcs-in-microsoft-intune.md)|Доступно <br>[Отслеживание сведений о приложении](../apps/apps-monitor.md)<br>[Что такое управление устройствами](../remote-actions/device-management.md)|
 |**Политика брандмауэра Windows**|Доступно <br>[Для защиты компьютеров под управлением Windows используйте политики брандмауэра Windows в Microsoft Intune](help-protect-windows-pcs-using-windows-firewall-policies-in-microsoft-intune.md) |Доступно <br>[Брандмауэр в Microsoft Defender](../protect/endpoint-protection-windows-10.md#microsoft-defender-firewall)|
-|**Защита от вредоносных программ**|Endpoint Protection<br>[Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)|Microsoft Defender<br>[Включение Microsoft Defender](../protect/advanced-threat-protection.md)|
+|**Защита от вредоносных программ**|Endpoint Protection<br>[Обеспечение защиты компьютеров с ОС Windows с помощью Endpoint Protection](help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune.md)|Microsoft Defender<br>[Включение Microsoft Defender](../protect/advanced-threat-protection.md)|
 |**Удаленная поддержка** |TeamViewer<br>[Запрос и предоставление удаленной помощи для компьютеров под управлением Windows](request-and-provide-remote-assistance-for-windows-pcs-in-microsoft-intune.md)|TeamViewer<br> [Использование TeamViewer для удаленного администрирования устройств Intune](../remote-actions/teamviewer-support.md) |
 |**Развертывание приложений** | Недоступно для Магазина Майкрософт для бизнеса,<br>только файлы с расширением exe, appx и пакеты msi с несколькими файлами<br>[Добавление приложений для компьютеров Windows, на которых выполняется программный клиент Intune](add-apps-for-windows-pcs-in-microsoft-intune.md)|Доступно для приложений Магазина Майкрософт и бизнес-приложений<br>[Добавление приложений Магазина Windows](../apps/store-apps-windows.md)<br>[Добавление бизнес-приложений Windows](../apps/lob-apps-windows.md)|
 |**Защита приложений**|Недоступно|Доступно <br>[Что такое политики защиты приложений?](../apps/app-protection-policy.md)|

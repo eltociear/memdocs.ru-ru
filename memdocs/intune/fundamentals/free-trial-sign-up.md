@@ -19,13 +19,13 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 893981700ede9587a980faa0e4d6b0384c24e3d4
-ms.sourcegitcommit: e7fb8cf2ffce29548b4a33b2a0c33a3a227c6bc4
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80401485"
 ---
-# <a name="quickstart-try-microsoft-intune-for-free"></a>Краткое руководство. Бесплатная пробная версия Microsoft Intune
+# <a name="quickstart-try-microsoft-intune-for-free"></a>Краткое руководство: бесплатная пробная версия Microsoft Intune
 
 Microsoft Intune помогает вам защищать корпоративные данные ваших сотрудников, управляя устройствами и приложениями. В этом кратком руководстве вы создадите бесплатную подписку, чтобы опробовать Intune в тестовой среде.
 
@@ -129,7 +129,7 @@ Intune предоставляет надежную облачную службу
 - Центр администрирования Microsoft Endpoint Manager ([https://endpoint.microsoft.com/](https://endpoint.microsoft.com/)) — здесь можно просматривать [возможности Intune](what-is-intune.md). Это место, где администратор будет работать с Intune.
 - Центр администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)) позволяет вам добавлять пользователей и управлять ими, если для этого не используется Azure Active Directory. Здесь также можно управлять и другими функциями учетной записи, включая выставление счетов и предоставление поддержки.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В этом кратком руководстве вы создали бесплатную подписку, чтобы опробовать Intune в тестовой среде. Для получения дополнительных сведений о настройке Intune см. [эту статью](setup-steps.md).
 

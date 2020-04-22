@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6b9f5a560b0f44b8ff256034b51cb9057faf0ec2
-ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
+ms.openlocfilehash: ce61f7af7c11fb579e34890700231ca2e59fb5cd
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80576858"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81267689"
 ---
 # <a name="how-to-use-intune-in-environments-without-google-mobile-services"></a>Использование Intune при отсутствии доступа к Сервисам Google для мобильных устройств
 
@@ -33,7 +33,7 @@ ms.locfileid: "80576858"
 
 ### <a name="for-users-outside-of-mainland-china"></a>Для пользователей за пределами континентальной части Китая 
 
-Если у устройства Android нет доступа к Google Play, можно скачать на него установочный файл  [приложения "Корпоративный портал Intune"](../user-help/install-the-company-portal-app-android.md) и загрузить неопубликованное приложение. При установке таким образом приложение автоматически не получает обновления или исправления. Вам придется регулярно выполнять эти задачи вручную. 
+Если у устройства Android нет доступа к Google Play, можно скачать на него установочный файл  [приложения "Корпоративный портал Intune"](https://www.microsoft.com/en-us/download/details.aspx?id=49140) и загрузить неопубликованное приложение. При установке таким образом приложение автоматически не получает обновления или исправления. Вам придется регулярно выполнять эти задачи вручную. 
 
 ### <a name="for-users-in-mainland-china"></a>Для пользователей из континентальной части Китая 
 
@@ -61,11 +61,11 @@ ms.locfileid: "80576858"
 На выполнение описанных ниже задач может потребоваться до 8 часов. 
 
 **Консоль Intune**:
-- полная очистка;
-- Выборочная очистка
+- Полная очистка
+- Selective wipe (Выборочная очистка)
 - Развертывание нового или обновленного приложения
-- удаленная блокировка;
-- Сброс секретного кода
+- Remote lock (удаленная блокировка)
+- Passcode reset (Сброс секретного кода)
 
 **Приложение "Корпоративный портал Intune" для Android**:
 - дистанционное удаление устройств;
@@ -79,6 +79,6 @@ ms.locfileid: "80576858"
 
 Если устройство зарегистрировано недавно, проверка соответствия, несоответствия и конфигурации выполняется чаще. Дополнительные сведения о синхронизации устройств см. в статье [Распространенные вопросы о политиках и профилях устройств в Microsoft Intune, связанные с ними проблемы и возможные решения](../configuration/device-profile-troubleshoot.md). 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Назначение приложений группам с помощью Microsoft Intune](../apps/apps-deploy.md)

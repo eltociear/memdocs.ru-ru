@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 077d7c4dd345b9b16677d61269b9f331dedb4dbb
-ms.sourcegitcommit: d601f4e08268d139028f720c0a96dadecc7496d5
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80488077"
 ---
 # <a name="bulk-enrollment-for-windows-devices"></a>Массовая регистрация для устройств Windows
@@ -99,5 +99,5 @@ ms.locfileid: "80488077"
 
 Если вы не используете открытую сеть, для установки подключений необходимо применять [сертификаты уровня устройства](../protect/certificates-configure.md). При массовой регистрации устройств вы не можете применять сертификаты, предназначенные для пользователей, для доступа к сети. 
 
-### <a name="conditional-access"></a>Условный доступ
+### <a name="conditional-access"></a>Conditional Access
 Для устройств Windows, прошедших массовую регистрацию, не предоставляется условный доступ.

@@ -17,10 +17,10 @@ ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.reviewer: samyada
 ms.openlocfilehash: 9a0687b9e3938c93cfaebe0e064fd994077a92af
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80086693"
 ---
 # <a name="settings-for-microsoft-defender-atp-for-mac-in-microsoft-intune"></a>Параметры ATP в Microsoft Defender для Mac в Microsoft Intune
@@ -55,8 +55,8 @@ ms.locfileid: "80086693"
   Настройте предоставление данных о диагностике и использовании корпорации Майкрософт.
 
   - **Не настроено** (*по умолчанию*) — используется системное значение по умолчанию.
-  - **Обязательное**
-  - **Необязательно**
+  - **Обязательно**
+  - **Необязательный**
 
 - **Folders excluded from scan** (Папки, исключаемые из проверки)  
   Выберите **Добавить**, а затем укажите папки, которые следует игнорировать во время проверки.

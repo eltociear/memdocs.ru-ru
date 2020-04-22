@@ -1,6 +1,6 @@
 - name: Удаленные действия
   href: index.yml
-- name: Обзор
+- name: Overview
   expanded: true
   items:
     - name: Общие сведения об управлении устройствами
@@ -59,7 +59,7 @@
           href: device-inventory.md
     - name: Массовые действия устройств
       href: bulk-device-actions.md
-    - name: Устранение неполадок
+    - name: Диагностика
       items:
         - name: 'Устранение неполадок, связанных с действиями устройств'
           href: troubleshoot-device-actions.md

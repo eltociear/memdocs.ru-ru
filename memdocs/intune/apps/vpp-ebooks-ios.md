@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 548174cfa891e832f9392604cca8347493db3dab
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80323567"
 ---
 # <a name="how-to-manage-iosipados-ebooks-you-purchased-through-a-volume-purchase-program-with-microsoft-intune"></a>Управление электронными книгами для iOS и iPadOS, приобретенными по программе Volume Purchase Program, с помощью Microsoft Intune
@@ -80,7 +80,7 @@ Microsoft Intune позволяет синхронизировать книги,
 Необходимо выбрать действие назначения **Доступно** или **Обязательно**. 
 5. По завершении нажмите кнопку **Сохранить**.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Сведения о мониторинге назначения книг см. в [этой статье](apps-monitor.md).
 

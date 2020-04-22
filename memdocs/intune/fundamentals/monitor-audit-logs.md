@@ -15,10 +15,10 @@ ms.assetid: 6ee841cc-5694-4ba1-8f66-1d58edec30a4
 search.appverid: MET150
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 5b271c05f71cdd166533d837e46c1396bf66c06c
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80326735"
 ---
 # <a name="use-audit-logs-to-track-and-monitor-events-in-microsoft-intune"></a>Использование журналов аудита для отслеживания событий в Microsoft Intune
@@ -67,7 +67,7 @@ ms.locfileid: "80326735"
 
 Дополнительные сведения о том, как использовать API Graph для получения событий аудита за период до одного года, см. в статье о [списке auditEvents](https://docs.microsoft.com/graph/api/intune-auditing-auditevent-list?view=graph-rest-1.0).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Отправка данных журнала в хранилище, концентраторы событий или Log Analytics](review-logs-using-azure-monitor.md)
 

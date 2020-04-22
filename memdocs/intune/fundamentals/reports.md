@@ -16,10 +16,10 @@ ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: d4e377e0cd9ad15d1d3a0ac9fb5c088dc1366d48
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80326745"
 ---
 # <a name="intune-reports"></a>Отчеты Intune
@@ -149,7 +149,7 @@ Log Analytics — это основной инструмент на порта�
 ### <a name="workbooks"></a>Книги
 Книги объединяют текст, запросы Analytics, метрики Azure и параметры в подробные интерактивные отчеты. Книги может редактировать любой другой член группы, у которого есть доступ к тем же ресурсам Azure. Дополнительные сведения о книгах см. в статье [Create interactive reports with Azure Monitor workbooks](https://docs.microsoft.com/azure/azure-monitor/app/usage-workbooks) (Создание интерактивных отчетов с использованием книг Azure Monitor). Кроме того, вы можете работать с шаблонами книг и добавлять собственные. Дополнительные сведения см. в статье [Azure Monitor Workbook Templates](https://go.microsoft.com/fwlink/?linkid=867045) (Шаблоны книг Azure Monitor).
 
-## <a name="next-steps"></a>Дальнейшие шаги 
+## <a name="next-steps"></a>Дальнейшие действия 
 
 Ознакомьтесь со следующими технологиями:
 - [платформа ответов Microsoft Intune (запись блога)](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/New-Reporting-Framework-Coming-to-Intune/ba-p/1009553);

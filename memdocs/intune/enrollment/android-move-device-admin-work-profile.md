@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 6f16c39ff0af44918099863be5d23ec9fe564493
-ms.sourcegitcommit: 954b3aae7916ad14065e6e86a577c5205103a50e
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80624915"
 ---
 # <a name="move-android-devices-from-device-administrator-to-work-profile-management"></a>Перевод устройств Android с управления администратором устройств на управление рабочими профилями
@@ -79,7 +79,7 @@ ms.locfileid: "80624915"
 8. На странице **Назначения** назначьте политику группе, в которой есть устройства под управлением администратора устройств > **Далее**.
 9. На странице **Проверка и создание** подтвердите все параметры, а затем выберите **Создать**.
 
-## <a name="troubleshooting"></a>Устранение неполадок
+## <a name="troubleshooting"></a>Диагностика
 
 С помощью [инструкций по переходу на новую схему управления устройством](../user-help/move-to-new-device-management-setup.md) пользователи могут отменить управление администраторами устройств и настроить управление рабочими профилями для своих устройств. Пользователям следует использовать [устройства Android под управлением администратора устройств](android-enroll-device-administrator.md) с установленным приложением "Корпоративный портал" для Android версии 5.0.4720.0 или более поздней.
 
@@ -103,6 +103,6 @@ ms.locfileid: "80624915"
 - на устройстве установлено приложение "Корпоративный портал" для Android более ранней версии, чем 5.0.4720.0;
 - устройство работает на базе ОС Android 6 или более ранней версии. 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 [См. поток конечного пользователя](../user-help/move-to-new-device-management-setup.md)
 [Управление устройствами с рабочим профилем Android в Intune](android-enterprise-overview.md)

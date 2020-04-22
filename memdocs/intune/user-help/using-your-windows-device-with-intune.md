@@ -20,10 +20,10 @@ ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
 ms.openlocfilehash: 3b3420dce8ea9d21b955e36506229817420cdbf0
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80084174"
 ---
 # <a name="using-your-windows-device-with-intune-company-portal"></a>Использование устройства Windows с Корпоративным порталом Intune
@@ -40,7 +40,7 @@ ms.locfileid: "80084174"
 Корпоративный портал сейчас поддерживает устройства под управлением следующих версий Windows:
 
 * Windows 10 — Домашняя, Профессиональная, Корпоративная версии и версия для образовательных учреждений, а также S-режим
-* Windows Phone 8.1 и более поздней версии
+* Windows Phone 8.1 и более поздней версии
 * Windows 8.1 RT
 * Windows 8.1
 
@@ -63,7 +63,7 @@ ms.locfileid: "80084174"
 
 ## <a name="troubleshoot-and-maintain-your-device"></a>Устранение неполадок и обслуживание устройства
 * [Устранение ошибок, связанных с ограничениями точек доступа](resolve-access-point-restrictions.md)
-* [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md)
+* [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md).
 * [Моя версия Windows не поддерживается](your-windows-version-isnt-yet-supported.md)
 * [Обновление устройства под управлением Windows](you-need-to-update-your-windows-device.md)
 * [Отправка журналов из приложения корпоративного портала](send-logs-to-your-it-admin-cp-windows.md)

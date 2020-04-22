@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: a679df157a2623012d19fab2370792cac73f6f2b
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80326819"
 ---
 # <a name="assign-a-role-to-an-intune-user"></a>Назначение роли пользователю Intune
@@ -46,7 +46,7 @@ ms.locfileid: "80326819"
 
 9. На странице **Проверка и создание** после завершения нажмите **Создать**. Новое назначение отобразится в списке назначений.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 - [Дополнительные сведения об управлении доступом на основе ролей в Intune](role-based-access-control.md)
 - [Создание пользовательской роли](create-custom-role.md)
 

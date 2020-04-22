@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 97298bba752f4af29c9dc7c2483c324cbd77a6bc
-ms.sourcegitcommit: 6a6a713fc1090e03893d80f4259dc7300fb1d5ff
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80438778"
 ---
 # <a name="us-government-endpoints-for-microsoft-intune"></a>Конечные точки для государственных организаций США для Microsoft Intune
@@ -78,6 +78,6 @@ ms.locfileid: "80438778"
 - [Сведения о подключениях узлов серверов macOS, iOS/iPadOS и iTunes и фоновых процессах iTunes](https://support.apple.com/HT201999)
 - [Если клиенты macOS и iOS/iPadOS не получают push-уведомления Apple](https://support.apple.com/HT203609)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 [Конечные точки сети для Microsoft Intune](intune-endpoints.md)
 

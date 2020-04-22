@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: dc4580c1debec3f8583a68305438443a211f9243
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80326181"
 ---
 # <a name="find-the-primary-user-of-an-intune-device"></a>Поиск основного пользователя устройства Intune
@@ -90,5 +90,5 @@ Intune автоматически добавляет основного поль
 ## <a name="primary-user-and-azure-ad-device-owner"></a>Основной пользователь и владелец устройства Azure AD
 В некоторых случаях основной пользователь Intune может отличаться от указанного в свойстве **Владелец** устройства Azure AD (щелкните **Устройства** > **Устройства Azure AD**). Владелец устройства Azure AD добавляется при регистрации устройства в Azure Active Directory.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 [Что такое управление устройствами с помощью Microsoft Intune](device-management.md)

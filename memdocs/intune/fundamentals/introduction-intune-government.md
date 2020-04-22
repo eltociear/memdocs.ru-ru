@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 65459953fab0faed3e0c64b2097dd2a41e795111
-ms.sourcegitcommit: b5a9ce31de743879d2a6306cea76be3a093976bb
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79372574"
 ---
 # <a name="what-is-intune-for-government"></a>Что такое Intune для государственных организаций?
@@ -36,7 +36,7 @@ Intune для государственных организаций позвол
 - защищать государственные данные, контролируя доступ и передачу данных пользователями;
 - обеспечить соответствие устройств и приложений требованиям к безопасности.
 
-### <a name="next-steps"></a>Дальнейшие шаги
+### <a name="next-steps"></a>Дальнейшие действия
 - Дополнительные сведения об Intune для государственных организаций США см. в статье [Microsoft Intune для государственных организаций в США: описание службы GCC High и DoD](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-intune-govt-service-description).
 - Узнайте о [технических требованиях и возможностях](/intune/supported-devices-browsers) Intune.
 - [Ознакомьтесь с различиями в функциях Intune и Intune для государственных организаций США](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-intune-govt-service-description).

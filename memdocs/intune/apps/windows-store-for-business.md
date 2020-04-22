@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure, seoapril2019
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 02f90fc0cd249062f878b5a18481f6a6a73228af
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80323378"
 ---
 # <a name="how-to-manage-volume-purchased-apps-from-the-microsoft-store-for-business-with-microsoft-intune"></a>Управление приложениями, приобретенными по программе Volume Purchase Program, из Microsoft Store для бизнеса с помощью Microsoft Intune
@@ -64,7 +64,7 @@ ms.locfileid: "80323378"
 3. Если вы не используете **Microsoft Intune** как средство управления мобильными устройствами, выберите **Добавить средство управления**, чтобы добавить **Microsoft Intune**. Если вы не активировали **Microsoft Intune** как средство управления мобильными устройствами, выберите **Активировать** рядом с **Microsoft Intune**. Обратите внимание, что вы должны активировать **Microsoft Intune** вместо **регистрации в Microsoft Intune**.
 
 > [!NOTE]
-> Ранее для назначения приложений связать с Магазином Майкрософт для бизнеса можно было только одно средство управления. Теперь можно связать с Магазином несколько средств управления, например Intune и Configuration Manager.
+> Ранее для назначения приложений связать с Магазином Майкрософт для бизнеса можно было только одно средство управления. Теперь с ним можно связывать несколько средств управления, например Intune и Configuration Manager.
 
 Теперь можно настроить синхронизацию в консоли Intune.
 
@@ -107,6 +107,6 @@ ms.locfileid: "80323378"
 > [!NOTE]
 > Если скрыть приложение из частного магазина, Intune все равно будет синхронизировать его. Необходимо вернуть приложение, чтобы полностью удалить его.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 * [Управление приложениями и книгами, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune](vpp-apps.md)

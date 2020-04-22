@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 29b30d46fc5998c69059c743c3f469e198cee1ef
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80325136"
 ---
 # <a name="remotely-lock-devices-with-intune"></a>Удаленная блокировка устройств с помощью Intune
@@ -34,12 +34,12 @@ ms.locfileid: "80325136"
 **Удаленная блокировка** поддерживается на указанных ниже платформах.
 
 - Android
-- Корпоративные устройства с Android для киосков
+- Киоски с Android для бизнеса
 - Устройства с рабочим профилем Android для бизнеса
 - iOS
-- MacOS
+- macOS
 - Windows 10 Mobile
-- Windows Phone 8.1 и более поздней версии
+- Windows Phone 8.1 и более поздней версии
 
 **Удаленная блокировка** не поддерживается для следующих систем:
 - Windows 10 Desktop
@@ -53,7 +53,7 @@ ms.locfileid: "80325136"
 3. Выберите **Устройства** > **Все устройства**.
 4. Выберите нужное устройство в списке устройств, а затем укажите действие **Удаленная блокировка**.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Чтобы отобразились сведения о состоянии действия, выберите **Microsoft Intune** > **Устройства** > **Действия устройства**. 
 - Дополнительные действия по управлению устройствами см. в статье о [доступных действиях](device-management.md).

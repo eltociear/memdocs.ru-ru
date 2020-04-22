@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: cf5ab63f72484ddbbf311810e232404ab643d2d2
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79359850"
 ---
 # <a name="microsoft-intune-data-warehouse-data-model"></a>Модель данных для хранилища данных Microsoft Intune
@@ -40,7 +40,7 @@ ms.locfileid: "79359850"
 
 Эти области содержат сущности, важные в вашей среде Intune. Сведения о наборах сущностей см. в следующих статьях:
 
-- [Приложение](reports-ref-application.md)
+- [Приложения](reports-ref-application.md)
 - [Дата](reports-ref-date.md)
 - [Устройства](reports-ref-devices.md)
 - [Справочник по расширению управления Intune](reports-ref-intunemanagementextension.md)
@@ -61,7 +61,7 @@ ms.locfileid: "79359850"
 
 Хранилище распределяет данные из Intune в нисходящем направлении. Intune ежедневно в полночь (в формате UTC) создает моментальные снимки и сохраняет их в хранилище. Длительность удержания моментальных снимков зависит от таблицы фактов. Некоторые могут храниться семь дней, другие — 30 дней, а некоторые даже еще дольше.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Дополнительные сведения о том, как хранилище данных отслеживает время существования пользователей в Intune, см. в статье [Представление времени существования пользователя в хранилище данных Microsoft Intune](reports-ref-user-timeline.md).
 - Дополнительные сведения о работе с хранилищами данных см. [здесь](https://www.codeproject.com/Articles/652108/Create-First-Data-WareHouse).

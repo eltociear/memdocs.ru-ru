@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: b9dca2303d960937a529a902391d6c05539fc9d4
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79359317"
 ---
 # <a name="intune-enrollment-method-capabilities-for-windows-devices"></a>Возможности Intune по регистрации устройств Windows
@@ -41,7 +41,7 @@ ms.locfileid: "79359317"
 
 | **Возможности** | **[Присоединение к Azure AD](windows-enroll.md#enable-windows-10-automatic-enrollment)**|**[Присоединение к Azure AD с помощью Autopilot (пользовательский режим)](enrollment-autopilot.md)** |**[Присоединение к Azure AD с помощью Autopilot (режим самостоятельного развертывания)](enrollment-autopilot.md)** |**[Массовая регистрация](windows-bulk-enroll.md)**|**[DEM](device-enrollment-manager-enroll.md)** | **[BYOD](device-enrollment.md#bring-your-own-device)** | **[Объект групповой политики](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy)** | **[Совместное управление](https://docs.microsoft.com/configmgr/core/clients/manage/co-management-overview)** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Условный доступ                                      |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)\*\*|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
+|Conditional Access                                      |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)\*\*|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
 |Пользователи связываются в устройством                    |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
 |Требуется Azure AD Premium                               |![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
 |Устройство может оценивать ресурсы, защищенные ЦС             |![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![X](./media/enrollment-method-capab/xmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|![Флажок](./media/enrollment-method-capab/checkmark.png)|
@@ -57,7 +57,7 @@ ms.locfileid: "79359317"
 
 \** [Устройства заблокированы для условного доступа, за исключением Windows 10 версии 1803 и выше.](device-enrollment-manager-enroll.md)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Настройка регистрации для Windows](windows-enroll.md)
 

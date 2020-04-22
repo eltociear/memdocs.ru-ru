@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 3cf638ba82d1b6e91e3c4c24d5cfd3433df3b010
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80326532"
 ---
 # <a name="enable-lost-mode-on-iosipados-devices-with-intune"></a>Включение режима пропажи на устройствах iOS и iPadOS с помощью Intune
@@ -37,7 +37,7 @@ ms.locfileid: "80326532"
 Эта возможность не поддерживается в следующих системах: 
 - Windows
 - Windows Phone
-- MacOS
+- macOS
 - Android
 
 ## <a name="enable-lost-mode"></a>Включение режима пропажи
@@ -59,6 +59,6 @@ ms.locfileid: "80326532"
 - Данные о расположении шифруются как во время хранения, так и во время передачи.
 - В сообщении, которое будет отображаться на экране блокировки, укажите подробные сведения для возврата потерянного устройства.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Чтобы отобразились сведения о состоянии режима пропажи (включен или отключен), откройте раздел **Устройства** и выберите **Действия устройства**.

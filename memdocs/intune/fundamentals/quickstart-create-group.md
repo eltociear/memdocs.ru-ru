@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: d7adb23f4709bf3ead07a01cb00d1b38fcb23c40
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79356912"
 ---
 # <a name="quickstart-create-a-group-to-manage-users"></a>Краткое руководство. Создание группы для управления пользователями
@@ -60,11 +60,11 @@ ms.locfileid: "79356912"
 
 Успешно созданная группа появится в списке **Все группы**. 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В этом кратком руководстве вы с помощью Intune создали группу на основе существующих пользователей. Дополнительные сведения о добавлении групп в Intune см. в разделе [Добавление групп для организации пользователей и устройств](groups-add.md).
 
 Чтобы выполнить эту серию кратких руководств по Intune, переходите к следующему руководству.
 
 > [!div class="nextstepaction"]
-> [Краткое руководство. Настройка автоматической регистрации устройств с Windows 10](../enrollment/quickstart-setup-auto-enrollment.md)
+> [Краткое руководство. Настройка автоматической регистрации устройств Windows 10](../enrollment/quickstart-setup-auto-enrollment.md)

@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 5f33198e71fd4250ee93207e571bc535abd1c95f
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80325373"
 ---
 # <a name="use-bulk-device-actions"></a>Использование массовых действий устройств
@@ -30,7 +30,7 @@ ms.locfileid: "80325373"
 - [Сброс Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-reset#reset-devices-with-remote-windows-autopilot-reset)
 - [Настраиваемые уведомления](custom-notifications.md#send-a-custom-notification-to-a-single-device)
 - [Удалить](devices-wipe.md#delete-devices-from-the-intune-portal)
-- [Переименование](device-rename.md)
+- [Переименовать](device-rename.md)
 - [Перезапуск](device-restart.md)
 - [Синхронизация](device-sync.md)
 - [Очистка](devices-wipe.md#wipe)
@@ -44,5 +44,5 @@ ms.locfileid: "80325373"
 4. На странице **Устройства** выберите от 1 до 100 устройств и нажмите кнопку **Далее**.
 5. На странице **Проверка и создание** нажмите кнопку **Создать**.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 [Общие сведения об управлении устройствами](device-management.md)

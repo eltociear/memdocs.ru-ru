@@ -18,10 +18,10 @@ ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: e50d518c3709d71085a57ad9a430444564c24cb9
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79357562"
 ---
 # <a name="additional-resources-for-planning-your-intune-deployment"></a>Дополнительные ресурсы по планированию развертывания Intune
@@ -38,9 +38,9 @@ ms.locfileid: "79357562"
 | Задачи развертывания |Устройства|Проверочное тестирование для сценария ИТ-администратора|
 | Трудности при развертывании |Условия|Проверочное тестирование для сценария конечного пользователя|
 | Сценарии вариантов использования |Политика конфигурации| |
-| Требования для сценариев вариантов использования |Certificate profile (Профиль сертификата)| |
-| План развертывания |профиль Wi-Fi;| |
-| Коммуникационный план развертывания|VPN profile (Профиль VPN)| |
+| Требования для сценариев вариантов использования |Профиль сертификата| |
+| План развертывания |Wi-Fi profile (Профиль Wi-Fi)| |
+| Коммуникационный план развертывания|профиль VPN;| |
 | |  Профиль электронной почты | |
 | | Приложения | |
 | | Compliance policy (Политика соответствия требованиям) | |

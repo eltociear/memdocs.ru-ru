@@ -20,10 +20,10 @@ ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
 ms.openlocfilehash: 95f9677b95dc9dde4b12e60e3006b4cee5081471
-ms.sourcegitcommit: 670c90a2e2d3106048f53580af76cabf40fd9197
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80233424"
 ---
 # <a name="what-is-device-enrollment"></a>Что такое регистрация устройств?
@@ -67,7 +67,7 @@ ms.locfileid: "80233424"
   - Windows 8.1
 - Устройства Apple
     - iOS
-    - MacOS
+    - macOS
 - Устройства Android
 
 
@@ -99,7 +99,7 @@ ms.locfileid: "80233424"
 
 Вы также можете обратиться к специалисту службы ИТ-поддержки. Контактные данные и способы сообщения о проблеме приведены на страницах справки и поддержки корпоративного портала и приложения Microsoft Intune. Кроме того, эти сведения доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980) вашей организации.  
 
-## <a name="next-steps"></a>Дальнейшие шаги  
+## <a name="next-steps"></a>Дальнейшие действия  
 
 Если вы готовы получить доступ к рабочей или учебной учетной записи, следуйте инструкциям организации по регистрации устройства. Пошаговые руководства по регистрации также можно найти в следующих статьях.
 

@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: b10d56e9eb915273d5be9a5b14ca4528a64a2057
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80327104"
 ---
 # <a name="categorize-devices-into-groups"></a>Разделение устройств на группы
@@ -52,7 +52,7 @@ ms.locfileid: "80327104"
 
 Имя категории устройств используется при создании групп безопасности Azure Active Directory (Azure AD) на шаге 2.
 
-### <a name="step-2-create-azure-active-directory-security-groups"></a>Шаг 2. Создание групп безопасности Azure Active Directory
+### <a name="step-2-create-azure-active-directory-security-groups"></a>Шаг 2. Создание групп безопасности Azure Active Directory
 На этом шаге на портале Azure создаются динамические группы с использованием категории устройств и имени категории устройств.
 
 Дальнейшие действия описываются в разделе [Использование атрибутов для создания расширенных правил](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-with-advanced-rules/#using-attributes-to-create-rules-for-device-objects) в документации по Azure AD.

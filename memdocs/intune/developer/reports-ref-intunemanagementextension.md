@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: f8152eb12779376e1885d0a2b2898cd602aa825d
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79359772"
 ---
 # <a name="reference-for-intune-management-extensions"></a>Справочник по расширениям для управления Intune
@@ -36,7 +36,7 @@ ms.locfileid: "79359772"
 
 Сущность **intuneManagementExtensionVersion** выводит список всех версий, используемых intuneManagementExtensions.
 
-| Свойство  | Описание: | Пример |
+| Свойство  | Описание | Пример |
 |---------|------------|--------|
 | extensionVersionKey |Уникальный идентификатор для версии IntuneManagementExtensions. | 1 |
 | extensionVersion |Номер версии из 4 цифр. |1.0.2.0 |
@@ -45,7 +45,7 @@ ms.locfileid: "79359772"
 
 **intuneManagementExtensionHealthState** выводит список всех возможных состояний работоспособности intuneManagementExtensions.
 
-| Свойство  | Описание: | Пример |
+| Свойство  | Описание | Пример |
 |---------|------------|--------|
 | extensionStateKey |Уникальный идентификатор для состояния работоспособности. | 2 |
 | extensionState |Состояние работоспособности IntuneManagementExtension. | Работоспособно |
@@ -56,7 +56,7 @@ ms.locfileid: "79359772"
 Эти данные хранятся в течение 60 дней. 
 
 
-|      Свойство       |                         Описание:                         | Пример |
+|      Свойство       |                         Описание                         | Пример |
 |---------------------|-------------------------------------------------------------|---------|
 |       dateKey       |               Уникальный идентификатор даты.                |   123   |
 |      tenantKey      |              Уникальный идентификатор клиента.               |   456   |

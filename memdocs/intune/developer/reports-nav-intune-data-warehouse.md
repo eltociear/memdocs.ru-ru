@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 576080bca172b25292954c7bfac592273cacb660
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79360123"
 ---
 # <a name="microsoft-intune-data-warehouse-api"></a>API хранилища данных Microsoft Intune
@@ -55,7 +55,7 @@ OData (Open Data Protocol) — это стандарт организации A
 
 ## <a name="interacting-with-the-api"></a>Взаимодействие с API
 
-Этому API требуется авторизация с помощью Azure AD. Azure AD использует OAuth 2.0. После авторизации вы можете получить данные из API с помощью команды HTTP GET и обращения к предоставленным коллекциям сущностей. Более подробные сведения см. в статье
+Этому API требуется авторизация с помощью Azure AD. Azure AD использует OAuth 2.0. После авторизации вы можете получить данные из API с помощью команды HTTP GET и обращения к предоставленным коллекциям сущностей. Дополнительные сведения см. в разделе:
 
 - [Авторизация](reports-api-url.md#authorization)
 - [Структура URL-адресов API](reports-api-url.md#api-url-structure)
@@ -64,7 +64,7 @@ OData (Open Data Protocol) — это стандарт организации A
 
 OData определяет абстрактную модель данных и протокол, позволяющие любому клиенту получить доступ к сведениям, предоставляемым любым источником данных. Раздел о документации по модели данных содержит пояснения для пространств имен, сущностей и возвращаемых объектов в модели данных хранилища данных Intune. Дополнительные сведения см. в разделе [Модель данных для хранилища данных](reports-ref-data-model.md).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Дополнительные сведения о работе с Azure AD см. в статье [Сценарии проверки подлинности в Azure AD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios).
 

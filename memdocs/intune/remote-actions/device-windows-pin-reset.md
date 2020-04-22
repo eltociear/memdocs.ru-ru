@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 7107669b3a87f0ca7488f2fdd5203c6052beffad
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80326277"
 ---
 # <a name="reset-the-passcode-on-windows-devices-using-intune"></a>Сброс секретного кода на устройствах Windows с помощью Intune
@@ -34,7 +34,7 @@ ms.locfileid: "80326277"
 Следующие платформы **не** поддерживаются:
 - Windows
 - iOS
-- MacOS
+- macOS
 - Android
 
 ## <a name="authorize-the-pin-reset-services"></a>Авторизация служб сброса ПИН-кода
@@ -42,9 +42,9 @@ ms.locfileid: "80326277"
 Чтобы сбросить секретный код на устройствах Windows, подключите службу сброса ПИН-кода к вашему клиенту Intune.
 
 1. Перейдите к [службе сброса ПИН-кода Майкрософт](https://login.windows.net/common/oauth2/authorize?response_type=code&client_id=b8456c59-1230-44c7-a4a2-99b085333e84&resource=https%3A%2F%2Fgraph.windows.net&redirect_uri=https%3A%2F%2Fcred.microsoft.com&state=e9191523-6c2f-4f1d-a4f9-c36f26f89df0&prompt=admin_consent) и войдите через учетную запись администратора клиента.
-2. Нажмите **Принять**, чтобы служба сброса ПИН-кода получила доступ к вашей учетной записи. ![Принятие запроса сервера на сброс ПИН-кода для разрешений](./media/device-windows-pin-reset/pin-reset-service-home-screen.png)
+2. Нажмите **Принять**, чтобы служба сброса ПИН-кода получила доступ к вашей учетной записи: ![Принять запрос сервера сброса ПИН-кода на разрешения](./media/device-windows-pin-reset/pin-reset-service-home-screen.png)
 3. Перейдите к [клиенту сброса ПИН-кода Майкрософт](https://login.windows.net/common/oauth2/authorize?response_type=code&client_id=9115dd05-fad5-4f9c-acc7-305d08b1b04e&resource=https%3A%2F%2Fcred.microsoft.com%2F&redirect_uri=ms-appx-web%3A%2F%2FMicrosoft.AAD.BrokerPlugin%2F9115dd05-fad5-4f9c-acc7-305d08b1b04e&state=6765f8c5-f4a7-4029-b667-46a6776ad611&prompt=admin_consent) и войдите через учетную запись администратора клиента. Нажмите **Принять**, чтобы клиент сброса ПИН-кода получил доступ к вашей учетной записи.
-4. На [портале Azure](https://portal.azure.com) убедитесь, что службы сброса ПИН-кода находятся в списке "Корпоративные приложения" (Все приложения). ![Страница разрешений для службы сброса ПИН-кода](./media/device-windows-pin-reset/pin-reset-service-application.png)
+4. На [портале Azure](https://portal.azure.com) проверьте, что службы сброса ПИН-кода находятся в списке "Корпоративные приложения" (Все приложения): ![страница разрешений службы сброса ПИН-кода](./media/device-windows-pin-reset/pin-reset-service-application.png)
 
 > [!NOTE]
 > После принятия запросов на сброс ПИН-кода вы можете получить сообщение `Page not found` или не произойдет ничего. Это нормально. Обязательно проверьте, что оба приложения для сброса ПИН-кода указаны для вашего клиента.

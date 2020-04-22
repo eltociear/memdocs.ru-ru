@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 4ff0e650a3eccf057158d3faf28875e42ed90a4d
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80325025"
 ---
 # <a name="rename-a-device-in-intune"></a>Переименование устройства в Intune
@@ -46,13 +46,13 @@ ms.locfileid: "80325025"
 При переименовании устройства с Windows новое имя должно соответствовать следующим правилам.
 - Не более 15 символов (должен быть не больше 63 байт, не включая завершающее значение NULL).
 - Не допускается значение NULL или пустая строка.
-- Разрешенные символы ASCII: буквы (a–z, A–Z), цифры (0–9) и дефисы.
+- Разрешенные символы ASCII: буквы (a–z, A–Z), цифры (0–9) и дефисы
 - Допускается Юникод: символы > = 0x80, должны относиться к допустимой кодировке UTF8, должны быть IDN-сопоставимыми (т. е. RtlIdnToNameprepUnicode будет успешно выполнен; см. RFC 3492).
 - Имя не должно состоять из одних цифр.
 - В имени нет пробелов.
 - Недопустимые символы: { | } ~ [ \ ] ^ ' : ; < = > ? & @ ! " # $ % ` ( ) + / , . _ *)
 
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Чтобы увидеть состояние действия **переименования устройства**, перейдите на страницу **Обзор** устройства.

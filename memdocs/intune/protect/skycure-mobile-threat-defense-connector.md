@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: d6f8f3cf9ced5b613323093ed2baafcf65667997
-ms.sourcegitcommit: fe7484e86ec8a109fa5f54fe9cceef8aac94bd9f
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80275090"
 ---
 # <a name="symantec-endpoint-protection-mobile-connector"></a>Соединитель Symantec Endpoint Protection Mobile
@@ -48,11 +48,11 @@ ms.locfileid: "80275090"
 
 - **iOS 8 и более поздние версии**
 
-## <a name="pre-requisites"></a>Предварительные условия
+## <a name="pre-requisites"></a>Предварительные требования
 
 - Azure Active Directory Premium
 
-- Подписка на Microsoft Intune
+- Подписка Microsoft Intune
 
 - Подписка Symantec Endpoint Protection Mobile
 
@@ -90,7 +90,7 @@ Intune поддерживает два режима интеграции с SEP 
 
 ![Схематическое изображение обнаруженных вредоносных приложений](./media/skycure-mobile-threat-defense-connector/symantec-arch-1.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 ![Изображение предоставления доступа после устранения угрозы в случае обнаружения вредоносных приложений](./media/skycure-mobile-threat-defense-connector/symantec-arch-2.png)
 
@@ -102,11 +102,11 @@ Intune поддерживает два режима интеграции с SEP 
 
 ![Блокировка доступа к сети через Wi-Fi](./media/skycure-mobile-threat-defense-connector/symantec-arch-3.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 ![Доступ предоставляется после устранения угрозы](./media/skycure-mobile-threat-defense-connector/symantec-arch-4.png)
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
 Обнаружение угроз типа **злоумышленник в середине** и предотвращение синхронизации корпоративных файлов на основе риска для устройств.
 
@@ -114,7 +114,7 @@ Intune поддерживает два режима интеграции с SEP 
 
 ![Блокировка SharePoint Online при обнаружении сетевых угроз](./media/skycure-mobile-threat-defense-connector/symantec-arch-5.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 ![Пример предоставления доступа к Sharepoint после устранения угрозы](./media/skycure-mobile-threat-defense-connector/symantec-arch-6.png)
 
@@ -129,7 +129,7 @@ Access is granted on remediation:
 ![Access is granted on remediation for App protection policy](./media/skycure-mobile-threat-defense-connector/symantec-app-policy-remediated.png)
 -->
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Следующие шаги помогут завершить интеграцию Intune с SEP Mobile:
 

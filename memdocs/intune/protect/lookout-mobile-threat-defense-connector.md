@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 17b120faa0021a1fc044d7831b4b81ea88f404a7
-ms.sourcegitcommit: bbb63f69ff8a755a2f2d86f2ea0c5984ffda4970
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79526586"
 ---
 # <a name="lookout-mobile-endpoint-security-connector-with-intune"></a>Соединитель Lookout Mobile Endpoint Security с Intune
@@ -60,7 +60,7 @@ ms.locfileid: "79526586"
 ## <a name="prerequisites"></a>Предварительные условия
 
 - Корпоративная подписка на Lookout Mobile Endpoint Security  
-- Подписка на Microsoft Intune
+- Подписка Microsoft Intune
 - Azure Active Directory Premium
 - Enterprise Mobility and Security (EMS) E3 или E5 с лицензиями, назначенными пользователям.  
 
@@ -83,7 +83,7 @@ ms.locfileid: "79526586"
 > [!div class="mx-imgBorder"]
 > ![Схематическое изображение блокирования доступа политикой из-за вредоносных приложений](./media/lookout-mobile-threat-defense-connector/malicious-apps-blocked.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 > [!div class="mx-imgBorder"]
 > ![Схематическое изображение предоставления доступа к устройствам после устранения угрозы](./media/lookout-mobile-threat-defense-connector/malicious-apps-unblocked.png)
@@ -97,12 +97,12 @@ ms.locfileid: "79526586"
 > [!div class="mx-imgBorder"]
 > ![Изображение блокирования доступа к Wi-Fi из-за угроз для сети](./media/lookout-mobile-threat-defense-connector/network-wifi-blocked.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 > [!div class="mx-imgBorder"]
 > ![Схематическое изображение предоставления доступа политикой условного доступа после устранения угрозы](./media/lookout-mobile-threat-defense-connector/network-wifi-unblocked.png)
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
 Обнаруживайте угрозы для сети, такие как атаки типа "злоумышленник в середине", и запрещайте синхронизацию корпоративных файлов на основе риска устройства.
 
@@ -111,7 +111,7 @@ ms.locfileid: "79526586"
 > [!div class="mx-imgBorder"]
 > ![Схематическое изображение блокирования доступа к SharePoint Online](./media/lookout-mobile-threat-defense-connector/network-spo-blocked.png)
 
-*Доступ восстановлен после исправления:*
+*Доступ предоставлен после устранения угрозы:*
 
 > [!div class="mx-imgBorder"]
 > ![Схематическое изображение предоставления доступа после устранения сетевой угрозы](./media/lookout-mobile-threat-defense-connector/network-spo-unblocked.png)
@@ -127,7 +127,7 @@ ms.locfileid: "79526586"
 > [!div class="mx-imgBorder"]
 > ![Доступ предоставляется после устранения угрозы для политики защиты приложений](./media/lookout-mobile-threat-defense-connector/lookout-app-policy-remediated.png)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Вот основные шаги по реализации этого решения:
 

@@ -18,13 +18,13 @@ search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 4f70c8487d9cb30b2a7cced63e6e019541f73704
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80327052"
 ---
-# <a name="quickstart-enroll-your-windows-10-device"></a>Краткое руководство. Регистрация устройства с ОС Windows 10
+# <a name="quickstart-enroll-your-windows-10-device"></a>Краткое руководство. Регистрация устройства Windows 10
 
 В этом кратком руководстве вы возьмете на себя роль пользователя Intune и зарегистрируете устройство Windows 10 в Microsoft Intune. Затем вы вернетесь в Intune и подтвердите зарегистрированное устройство.
 
@@ -101,7 +101,7 @@ ms.locfileid: "80327052"
 
 Сведения об отмене регистрации устройства Windows см. в разделе [Удаление устройства Windows из системы управления](../user-help/unenroll-your-device-from-intune-windows.md).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В этом кратком руководстве вы узнали, как зарегистрировать устройство Windows 10 в Intune. Вы также можете изучить другие способы регистрации устройств на всех платформах. Дополнительные сведения об использовании устройств с помощью Intune см. в разделе [Использование управляемых устройств для выполнения задач](../user-help/use-managed-devices-to-get-work-done.md).
 

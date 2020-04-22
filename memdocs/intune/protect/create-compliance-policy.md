@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: b437a72a2380fea215746aa76b35898c6fc60b16
-ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80551387"
 ---
 # <a name="create-a-compliance-policy-in-microsoft-intune"></a>Создание политики соответствия требованиям в Microsoft Intune
@@ -50,8 +50,8 @@ ms.locfileid: "80551387"
   - Администратор устройства с Android
   - Android для бизнеса
   - iOS
-  - MacOS
-  - быть под управлением ОС Windows 10;
+  - macOS
+  - Windows 10
   - Windows 8.1
   - Windows Phone 8.1
 
@@ -73,9 +73,9 @@ ms.locfileid: "80551387"
    - *Android Enterprise*
    - *iOS/iPadOS*
    - *macOS*
-   - *Windows Phone 8.1*
+   - *Windows Phone 8.1*
    - *Windows 8.1 и более поздние версии*
-   - *Windows 10 и более поздних версий*.
+   - *Windows 10 и более поздних версий*
 
     Для *Android для бизнеса* также следует выбрать значение параметра **Тип политики**:
      - *Политика соответствия требованиям для владельца устройства Android*;
@@ -93,7 +93,7 @@ ms.locfileid: "80551387"
    - [iOS/iPadOS](compliance-policy-create-ios.md)
    - [macOS](compliance-policy-create-mac-os.md)
    - [Windows Phone 8.1, Windows 8.1 и более поздних версий](compliance-policy-create-windows-8-1.md)
-   - [Windows 10 и более поздних версий](compliance-policy-create-windows.md).  
+   - [Windows 10 и более поздних версий](compliance-policy-create-windows.md)  
 
 6. На вкладке **Местоположения** можно настроить требования к соответствию в зависимости от расположения устройства. Выберите существующие расположения. Если у вас еще нет доступного расположения, см. указания в статье [Использование расположений (границы сети)](use-network-locations.md).
    > [!TIP]
@@ -162,11 +162,11 @@ Intune использует разные циклы обновления для 
 
 Если устройство имеет несколько политик соответствия требованиям, по крайней мере две из которых имеют разные состояния соответствия, назначается одно итоговое состояние соответствия. Назначение производится на основе концептуального уровня серьезности, задаваемого для каждого состояния соответствия. Ниже указаны уровни серьезности для каждого состояния соответствия.
 
-|Состояние  |Статус  |
+|состояние;  |Серьезность  |
 |---------|---------|
 |Неизвестно     |1|
 |NotApplicable     |2|
-|соответствующие требованиям|3|
+|Соответствует|3|
 |InGracePeriod|4|
 |NonCompliant|5|
 |Ошибка|6|
@@ -175,6 +175,6 @@ Intune использует разные циклы обновления для 
 
 Например, устройству назначено три политики соответствия требованиям: одна с состоянием Unknown (серьезность = 1), одна с состоянием Compliant (серьезность = 3) и одна с состоянием InGracePeriod (серьезность = 4). Состояние InGracePeriod имеет наивысший уровень серьезности. Таким образом все три политики имеют состояние соответствия InGracePeriod.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Мониторинг политик](compliance-policy-monitor.md).

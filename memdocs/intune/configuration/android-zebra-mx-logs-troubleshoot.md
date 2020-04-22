@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 607e2303cbec9ec7fc069db602d51684b71e6575
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80083848"
 ---
 # <a name="troubleshoot-and-see-potential-issues-on-android-zebra-devices-in-microsoft-intune"></a>Устранение неполадок и просмотр потенциальных проблем на устройствах Android Zebra в Microsoft Intune
@@ -147,7 +147,7 @@ ms.locfileid: "80083848"
 
 Intune может обновить минимальную требуемую версию приложения корпоративного портала. Если на устройстве не установлен Google Play, приложение корпоративного портала не обновляется автоматически. Если минимальная требуемая версия новее установленной версии, приложение корпоративного портала перестает работать. Обновите приложение корпоративного портала до актуальной версии, используя [передачу данных корпоративного портала на устройства Zebra](android-zebra-mx-overview.md#sideload-the-company-portal-app).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Доски обсуждений Zebra](https://developer.zebra.com/community/home/discussions) (на веб-сайте Zebra)
 

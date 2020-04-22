@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: ed5ff548d28a5bc973c43c84861b9b256b41a203
-ms.sourcegitcommit: e17fc618d4c56c38a65c489b73ba27baa133ee7b
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80696289"
 ---
 # <a name="see-device-details-in-intune"></a>Просмотр сведений об устройствах в Intune
@@ -68,9 +68,9 @@ ms.locfileid: "80696289"
 > [!Note]  
 > Данные о наличии оборудования и программного обеспечения обновляются в службе Intune каждые 7 дней.
 
-|Сведения|Описание:|Платформа| 
+|Сведения|Описание|Платформа| 
 |--------------|----------------------|----|  
-|Имя|Название устройства.|Windows, iOS|
+|Название|Название устройства.|Windows, iOS|
 |Имя для управления|Имя устройства, используемое только в консоли. Изменение этого имени не изменит имя на устройстве.|Windows, iOS|
 |UDID.|Уникальный идентификатор устройства.|Windows, iOS|
 |Идентификатор устройства Intune|Глобальный уникальный идентификатор (GUID) устройства.|Windows, iOS|
@@ -107,5 +107,5 @@ ms.locfileid: "80696289"
 > [!Note]  
 > Номер телефона не включен в учет на выделенных или полностью управляемых устройствах Android Enterprise.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 Узнайте, какие еще действия по [управлению устройствами](device-management.md) вы можете выполнять с помощью Intune.

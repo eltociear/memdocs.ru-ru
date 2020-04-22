@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 386e59fe3a7156a8bb74ed39a1b2fcad6ad91dad
-ms.sourcegitcommit: 7687cf8fdecd225216f58b8113ad07a24e43d4a3
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80359308"
 ---
 # <a name="apply-features-and-settings-on-your-devices-using-device-profiles-in-microsoft-intune"></a>Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune
@@ -58,7 +58,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- MacOS
+- macOS
 - Windows Phone 8.1
 - Windows 8.1
 - Windows 10 и более поздней версии
@@ -72,7 +72,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- MacOS
+- macOS
 - Windows Phone 8.1
 
 ## <a name="delivery-optimization"></a>Оптимизация доставки
@@ -101,7 +101,7 @@ Microsoft Intune включает параметры и функции, кото
 Эта функция поддерживает:
 
 - iOS/iPadOS
-- MacOS
+- macOS
 
 ## <a name="device-firmware-configuration-interface"></a>Интерфейс конфигурации встроенного ПО устройства
 
@@ -120,7 +120,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- MacOS
+- macOS
 - Windows 10 и более поздней версии
 - Windows 10 для совместной работы
 
@@ -166,7 +166,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- MacOS
+- macOS
 - Windows 10 и более поздней версии
 
 ## <a name="esim-cellular---public-preview"></a>Сотовая связь eSIM (общедоступная предварительная версия)
@@ -183,7 +183,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- MacOS
+- macOS
 
 ## <a name="identity-protection"></a>Защита идентификации
 
@@ -235,7 +235,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- MacOS
+- macOS
 
 ## <a name="shared-multi-user-device"></a>Общие устройства для множества пользователей
 
@@ -269,7 +269,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- MacOS
+- macOS
 - Windows Phone 8.1
 - Windows 8.1
 - Windows 10 и более поздней версии
@@ -283,7 +283,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- MacOS
+- macOS
 - Windows 8.1 (только импорт)
 - Windows 10 и более поздней версии
 
@@ -299,6 +299,6 @@ Microsoft Intune включает параметры и функции, кото
 
 [Управление профилями](device-profile-monitor.md) используется для проверки состояния устройств и назначенных профилей. Оно также помогает разрешать конфликты путем просмотра параметров, которые вызывают конфликт, и профилей, содержащих эти параметры. В [этой статье](device-profile-troubleshoot.md) описаны общие проблемы и решения, которые помогут администраторам работать с профилями. В ней описано, что происходит при удалении профиля, что вызывает отправку уведомлений на устройства и многое другое.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Выберите платформу и приступайте к работе.

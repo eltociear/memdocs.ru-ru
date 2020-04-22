@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: e7dcad93f836ee564e973555bebe1a1f5d7ba3c3
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80323689"
 ---
 # <a name="get-ready-for-windows-information-protection-in-windows-10"></a>Подготовка к Windows Information Protection в Windows 10 
@@ -54,6 +54,6 @@ ms.locfileid: "80323689"
 
 7. Нажмите кнопку **Сохранить**.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Создание политики WIP](windows-information-protection-policy-create.md)

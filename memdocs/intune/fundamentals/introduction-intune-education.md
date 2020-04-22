@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 57878ee1f87d53c05ad7eddd39714a5fc5a8ae08
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79358836"
 ---
 # <a name="how-is-intune-for-education-different-from-the-full-device-management-experience-in-intune"></a>Чем возможности Intune для образовательных учреждений отличаются от возможностей полной версии Intune для управления устройствами?
@@ -41,7 +41,7 @@ Intune для образовательных учреждений позволя
 * защитить данные организации, управляя обращением к ним и их совместным использованием пользователями;
 * обеспечить соответствие устройств и приложений требованиям к безопасности.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 * Ознакомьтесь с продуктом, воспользовавшись [90-дневной пробной версией Intune](https://signup.microsoft.com/Signup?OfferId=5eec053c-cc40-4cd5-a06a-ea8d75cf2686&ali=1). Если у вас уже есть доступ, перейдите на страницу по адресу https://intuneeducation.portal.azure.com), чтобы приступить к работе.
 * Узнайте о том, как быстрее всего [приступить к работе с Intune для образовательных учреждений](/intune-education/what-is-express-configuration).
 * Узнайте о [технических требованиях и возможностях](/intune/supported-devices-browsers) Intune.

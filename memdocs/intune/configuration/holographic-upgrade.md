@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: f4e809a888fc2696e54540ee6baa2271d7340579
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79361059"
 ---
 # <a name="upgrade-devices-running-windows-holographic-to-windows-holographic-for-business"></a>Обновление устройств с Windows Holographic до Windows Holographic for Business
@@ -37,12 +37,12 @@ Microsoft Intune включает множество параметров для
 
 ## <a name="edition-upgrade"></a>Обновление выпусков
 
-- **Выпуск, до которого необходимо обновить**: выберите **Windows 10 Holographic для бизнеса**.
-- **Файл лицензии**: перейдите и выберите полученный вами файл лицензии XML.
+- В поле **Выпуск, до которого необходимо обновить** выберите **Windows 10 Holographic for Business**.
+- **Файл лицензии**: укажите расположение полученного вами XML-файла лицензии.
 
   ![Введите имя файла XML, которое включает информацию о Holographic for Business.](./media/holographic-upgrade/Holographic-edition-upgrade.png)
  
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Профиль создан, но пока в нем ничего нельзя делать. Обязательно изучите статьи [Назначение профилей пользователей и устройств в Microsoft Intune](device-profile-assign.md) и [Мониторинг профилей устройств в Microsoft Intune](device-profile-monitor.md).
 

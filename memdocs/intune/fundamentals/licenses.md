@@ -17,16 +17,16 @@ search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 2517c9f548489e33488c2f4b37de3b5a910d8dad
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79362294"
 ---
 # <a name="microsoft-intune-licensing"></a>Лицензирование Microsoft Intune
 Служба Microsoft Intune доступна для клиентов с различными потребностями и организаций любых размеров. Она предоставляет простое управление для учебных учреждений и малых предприятий, а также предлагает более расширенные функциональные возможности, необходимые корпоративным клиентам. Большинство лицензий, включающих Microsoft Intune, также предоставляют права на использование Microsoft Endpoint Configuration Manager при наличии активной подписки. Администратору должна быть назначена лицензия для администрирования Intune.
 
-## <a name="microsoft-intune"></a>Microsoft Intune
+## <a name="microsoft-intune"></a>Microsoft Intune
 Intune включена в следующие лицензии:
 
 - Microsoft 365 E5

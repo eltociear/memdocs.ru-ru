@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 6095c079c6b5cb6f132d9963e3e7413e97180d70
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80324587"
 ---
 # <a name="include-and-exclude-app-assignments-in-microsoft-intune"></a>Включение и исключение назначений приложений в Microsoft Intune
@@ -92,7 +92,7 @@ ms.locfileid: "80324587"
 
 ![Назначение приложений Intune — завершение](./media/apps-inc-exl-assignments/apps-inc-exl-05.png)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Дополнительные сведения о включении и исключении назначений групп для приложений см. в [блоге о Microsoft Intune](https://aka.ms/new_app_assignment_process).
 - См. дополнительные сведения об [отслеживании сведений о приложении и его назначении с помощью Microsoft Intune](apps-monitor.md).

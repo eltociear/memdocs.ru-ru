@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 87c1a63ffdfc0b923f636159536f6d6cf6420db9
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79360019"
 ---
 # <a name="create-an-intune-report-from-the-odata-feed-with-power-bi"></a>Создание отчета Intune из веб-канала OData с помощью Power BI
@@ -47,7 +47,7 @@ ms.locfileid: "79360019"
 
 ## <a name="install-power-bi-desktop"></a>Установка Power BI Desktop
 
-Установите последнюю версию Power BI Desktop. Ее можно скачать на веб-сайте [PowerBI.microsoft.com](https://powerbi.microsoft.com/desktop).
+Установите последнюю версию Power BI Desktop. Ее можно скачать с сайта: [PowerBI.microsoft.com](https://powerbi.microsoft.com/desktop).
 
 ## <a name="connect-to-the-odata-feed-for-the-intune-data-warehouse-for-your-tenant"></a>Подключение к веб-каналу OData для хранилища данных Intune вашего клиента
 
@@ -64,7 +64,7 @@ ms.locfileid: "79360019"
 
     ![Веб-канал OData для хранилища данных Intune на вашем клиенте](./media/reports-proc-create-with-odata/reports-create-01-odatafeed.png)
 
-8. Нажмите кнопку **OK**.
+8. Нажмите кнопку **ОК**.
 9. Выберите пункт **Учетная запись организации**, а затем выполните вход, используя учетные данные Intune.
 
     ![Учетные данные организации](./media/reports-proc-create-with-odata/reports-create-02-org-account.png)
@@ -96,7 +96,7 @@ ms.locfileid: "79360019"
 2. В области **Поля** найдите таблицу `devices`.
 3. Разверните таблицу `devices` и выберите поле данных `manufacturer`.
 4. Перетащите поле данных `manufacturer` в **Диаграмму дерева** на холсте отчетов.
-5. `devices` Перетащите поле данных из таблицы на панель **визуализация** и поместите его в разделе **Ценности** в поле **Добавить поля данных**. `deviceKey`  
+5. `deviceKey` Перетащите поле данных из таблицы на панель `devices`визуализация**и поместите его в разделе**Ценности**в поле**Добавить поля данных **.**  
 
 Вы создали визуализацию, на которой представлено распределение устройств в организации по производителям.
 
@@ -106,10 +106,10 @@ ms.locfileid: "79360019"
 
 Вы можете добавить к диаграмме "дерево" фильтр, который позволяет получать ответы на дополнительные вопросы.
 
-1. Чтобы добавить фильтр, щелкните холст отчетов, а затем на панели **Визуализации** щелкните **значок среза** (![Диаграмма "дерево" с моделью данных и поддерживаемыми связями](./media/reports-proc-create-with-odata/reports-create-slicer.png)). На холсте появится пустая визуализация **Срез**.
+1. Чтобы добавить фильтр, щелкните холст отчетов, а затем на панели **Визуализации** щелкните ![значок среза](./media/reports-proc-create-with-odata/reports-create-slicer.png) (**Диаграмма "дерево" с моделью данных и поддерживаемыми связями**). На холсте появится пустая визуализация **Срез**.
 2. В области **Поля** найдите таблицу `ownerTypes`.
 3. Разверните таблицу `ownerTypes` и выберите поле данных `ownerTypeName`.
-4. `ownerTypes` Перетащите поле данных из таблицы на панель **Фильтры** и поместите его в разделе **Фильтры на этой странице** в поле **Добавить поля данных**. `onwerTypeName`  
+4. `onwerTypeName` Перетащите поле данных из таблицы на панель `ownerTypes`Фильтры**и поместите его в разделе**Фильтры на этой странице**в поле**Добавить поля данных **.**  
 
    В таблице `OwnerTypes` есть поле данных `OwnerTypeKey`, которое содержит данные, указывающие, является ли устройство корпоративным или личным. Так как в фильтре должны отображаться понятные имена, найдите таблицу `ownerTypes` и перетащите поле **ownerTypeName** в срез. Этот пример показывает, как модель данных поддерживает связи между таблицами.
 
@@ -120,7 +120,7 @@ ms.locfileid: "79360019"
 1. Выберите в срезе **Корпоративные**, чтобы увидеть распределение корпоративных устройств.
 2. Выберите в срезе **Личные**, чтобы увидеть распределение личных устройств.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Дополнительные сведения о [создании связей и управлении ими](https://powerbi.microsoft.com/documentation/powerbi-desktop-create-and-manage-relationships/) в приложении Power BI Desktop см. в документации по Power BI.
 - Изучите [модель хранилища данных Intune](reports-ref-data-model.md).

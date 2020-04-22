@@ -16,10 +16,10 @@ ms.assetid: ''
 search.appverid: MET150
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 285f323f55d41edab5ccd450deb0244b6fbda874
-ms.sourcegitcommit: bbb63f69ff8a755a2f2d86f2ea0c5984ffda4970
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79526450"
 ---
 # <a name="sophos-mobile-threat-defense-connector-with-intune"></a>Соединитель Sophos Mobile Threat Defense в Intune
@@ -37,7 +37,7 @@ ms.locfileid: "79526450"
 ## <a name="prerequisites"></a>Предварительные условия
 
 - Azure Active Directory Premium
-- Подписка на Microsoft Intune
+- Подписка Microsoft Intune
 - Подписка на Sophos Mobile Threat Defense
 
 Дополнительные сведения см. на [веб-сайте Sophos](https://www.sophos.com/products/mobile-control.aspx).
@@ -77,7 +77,7 @@ ms.locfileid: "79526450"
 *Доступ предоставляется после устранения угрозы*:   
 ![Доступ предоставляется после устранения угрозы](./media/sophos-mtd-connector/sophos-network-wifi-unblocked.png)  
 
-### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основе оценки угроз для сети
+### <a name="control-access-to-sharepoint-online-based-on-threat-to-network"></a>Управление доступом к SharePoint Online на основании оценки угрозы для сети
 
 Обнаружение угроз для вашей сети, таких как атаки злоумышленник в середине, и блокирование синхронизации корпоративных файлов на основании риска для устройства.  
 
@@ -101,7 +101,7 @@ Access is granted on remediation:
 ![Access is granted on remediation for App protection policy](./media/sophos-mtd-connector/sophos-mobile-app-policy-remediated.png)
 -->
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Интеграция Sophos с Intune](sophos-mtd-connector-integration.md)
 - [Настройка приложений Sophos](mtd-apps-ios-app-configuration-policy-add-assign.md)

@@ -17,6 +17,9 @@
 #### [Регистрация устройства Android](enroll-device-android-company-portal.md)  
 #### [Регистрация с помощью рабочего профиля Android](enroll-device-android-work-profile.md)
 #### [Регистрация с помощью приложения Microsoft Intune](enroll-device-android-microsoft-intune-app.md)
+#### Регистрация производных учетных данных
+##### [Регистрация с помощью Entrust Datacard](enroll-android-device-entrust-datacard.md)
+##### [Регистрация с помощью Intercede](enroll-android-device-intercede.md)
 ### [Переход на новую схему управления устройствами](move-to-new-device-management-setup.md)
 ### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-android.md)
 ### [Шифрование устройства](encrypt-your-device-android.md)
@@ -34,7 +37,7 @@
 #### [Решение распространенных проблем с Samsung Knox](samsung-knox-errors-android.md)
 #### [Обновление устройства для установки Outlook](update-device-outlook-android.md)
 
-#### Ведение журнала
+#### Logging
 ##### [Включение подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 ##### [Журналы передачи и электронной почты](send-logs-to-your-it-admin-by-email-android.md)
 ##### [Отправка журналов при помощи USB-кабеля](send-logs-to-your-it-admin-using-cable-android.md)
@@ -94,7 +97,7 @@
 #### [Определение расположения серийного номера](how-do-i-find-the-serial-number-on-my-device-ios.md)
 #### [Обновление устройства iOS](you-need-to-update-your-ios-device.md)
 #### [Обновление устройства для установки Outlook](update-device-outlook-ios.md)
-#### [Моя версия iOS еще не поддерживается](your-ios-version-isnt-yet-supported.md)
+#### [Моя версия iOS еще не поддерживается](your-ios-version-isnt-yet-supported.md).
 
 ### Mobile Threat Defense
 #### [Установка приложения Mobile Threat Defense](you-are-prompted-to-install-mtd-ios.md)
@@ -144,14 +147,14 @@
 
 ### [Устранение распространенных неполадок для Windows](troubleshoot-your-device-windows.md)
 #### [Устранение ошибок, связанных с ограничениями точек доступа](resolve-access-point-restrictions.md)
-#### [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md)
+#### [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md).
 #### [Обновление устройства под управлением Windows](you-need-to-update-your-windows-device.md)
 #### [Отправка журналов из приложения корпоративного портала](send-logs-to-your-it-admin-cp-windows.md)
 #### [Отправка журналов из приложения параметров устройства](send-logs-to-your-it-admin-settings-windows.md)
 #### [Моя версия Windows не поддерживается](your-windows-version-isnt-yet-supported.md)
 #### [Установка Office 365 на устройстве под управлением Windows 10](install-office-windows.md)
 #### [Мне необходимо зашифровать свое устройство](you-need-to-enable-windows-encryption.md)
-#### [Моему устройству требуется защита от вредоносных программ](your-device-needs-antimalware-software.md)
+#### [Моему устройству требуется защита от вредоносных программ](your-device-needs-antimalware-software.md).
 #### [Включение безопасной загрузки](you-need-to-enable-secure-boot-windows.md)
 #### [Включение функции обеспечения целостности кода Windows](you-need-to-enable-code-integrity.md)
 #### [Включение брандмауэра Windows](you-need-to-enable-defender-firewall-windows.md)

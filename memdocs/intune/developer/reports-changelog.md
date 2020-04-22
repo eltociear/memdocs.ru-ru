@@ -19,10 +19,10 @@ search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 632f3bf16fd062acf05c7bd4e269069468df42a3
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79360214"
 ---
 # <a name="change-log-for-the-intune-data-warehouse-api"></a>Журнал изменений для API-интерфейса хранилища данных Intune
@@ -219,7 +219,7 @@ _Выпущен: май 2018 г._
 В коллекцию **Устройства** были внесены изменения, которые могут уменьшить общее число устройств, для которых можно применить фильтр по атрибуту `isDeleted`. Уменьшение числа является результатом исправлений и не является ошибкой. Дополнительные сведения о коллекции **Устройства** можно узнать из статьи [Справочник по сущностям устройств](reports-ref-devices.md). 
 
 
-## <a name="1801"></a>1801;
+## <a name="1801"></a>1801
 _Выпущен в январе 2018 г._
 
 ### <a name="intune-data-warehouse-application-only-authentication----1867540---"></a>Аутентификация в хранилище данных, предназначенная только для приложений <!-- 1867540 -->
@@ -263,6 +263,6 @@ _Выпущено: октябрь 2017 г._
 - Добавлена сущность [**UserDeviceAssociation**](reports-ref-user-device.md). Сущность **UserDeviceAssociation** содержит сопоставления пользователей и устройств в вашей организации. Теперь вы можете создавать отчеты и средства визуализации данных, используя сведения о сопоставлении пользователей и устройств, что позволяет сопоставлять коллекции сущностей для пользователей и устройств.  
 - Добавлена сущность [**IntuneManagementExtension**](reports-ref-intunemanagementextension.md). **IntuneManagementExtension** содержит сущности для мобильных устройств, отслеживающие такую информацию, как версия и состояние установки.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 - Следите за [еженедельными новостями об улучшениях в Intune](../fundamentals/whats-new.md). Кроме того, здесь можно узнать о предстоящих изменениях и получить важные уведомления относительно службы, а также сведения о прошлых выпусках.
 - Прочтите [блог Microsoft Intune](https://go.microsoft.com/fwlink/?LinkID=273882).

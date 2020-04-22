@@ -17,10 +17,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 433bea6442ef52cd970513213d1623faf8aae2ca
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80327482"
 ---
 # <a name="locate-lost-or-stolen-iosipados-devices-with-intune"></a>Поиск потерянных или украденных устройств iOS и iPadOS с помощью Intune
@@ -36,7 +36,7 @@ ms.locfileid: "80327482"
 Эта возможность не поддерживается в следующих системах: 
 - Windows
 - Windows Phone
-- MacOS
+- macOS
 - Android
 
 ## <a name="locate-a-lost-or-stolen-device"></a>Поиск потерянного или украденного устройства
@@ -64,6 +64,6 @@ ms.locfileid: "80327482"
 - Данные о расположении шифруются как во время хранения, так и во время передачи.
 - В режиме пропажи можно настроить сообщение, которое будет отображаться на экране блокировки. Обязательно добавьте в сообщение сведения о том, как нашедший устройство может вернуть его.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Чтобы увидеть сведения о состоянии действия "Найти устройство" (включено или отключено), откройте раздел **Устройства** и выберите **Действия устройства**.

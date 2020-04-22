@@ -17,10 +17,10 @@ ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 3b7784d4ad86e3418259f85ca1c4577d2289dc86
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79358160"
 ---
 # <a name="basic-setup"></a>Базовая настройка
@@ -29,7 +29,7 @@ ms.locfileid: "79358160"
 
 ## <a name="external-dependencies-for-an-intune-deployment"></a>Внешние зависимости развертывания Intune
 
-### <a name="identity"></a>Идентификация
+### <a name="identity"></a>Удостоверение
 
 Intune требуется Azure Active Directory (AAD) в качестве поставщика групп идентификаторов и пользователей. Дополнительные сведения
 
@@ -55,17 +55,17 @@ Intune требуется Azure Active Directory (AAD) в качестве по�
 
 ## <a name="task-list-for-an-intune-setup"></a>Список задач для настройки Intune
 
-### <a name="task-1-intune-subscription"></a>Задача 1. Подписка Intune
+### <a name="task-1-intune-subscription"></a>Задача 1. Подписка Intune
 
 Перед миграцией в Intune потребуется [подписка Intune](account-sign-up.md).
 
-### <a name="task-2-assign-intune-user-licenses"></a>Задача 2. Назначение лицензий пользователей Intune.
+### <a name="task-2-assign-intune-user-licenses"></a>Задача 2. Назначение лицензий пользователя Intune
 
 - Узнайте, как можно [назначить лицензии пользователя Intune](licenses-assign.md).
 
 - Узнайте, как можно [создать пользователей или синхронизировать пользователя из локальной службы Active Directory (AD)](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) (при создании клиента Azure Active Directory).
 
-### <a name="task-3-set-your-mdm-authority-to-intune"></a>Задача 3. Установка Intune в качестве центра MDM
+### <a name="task-3-set-your-mdm-authority-to-intune"></a>Задача 3. Установка Intune в качестве центра MDM
 
 Для управления Intune рекомендуем использовать [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 

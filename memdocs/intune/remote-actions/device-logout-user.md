@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: a731769a7fa3118170119ae935478eb7dd67e06b
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "80326558"
 ---
 # <a name="logout-the-current-user-on-intune-managed-iosipados-devices"></a>Выход из системы для текущего пользователя на устройствах iOS или iPadOS, управляемых в Intune
@@ -44,6 +44,6 @@ ms.locfileid: "80326558"
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) и выберите **Устройства** > **Все устройства**.
 2. Выберите устройство iOS/iPadOS > **...**  > **Выход текущего пользователя**.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Чтобы просмотреть состояние выполненного действия, в колонке **Устройства и группы** выберите **Действия устройства**.

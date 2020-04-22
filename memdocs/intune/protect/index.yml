@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Защита данных и устройств в Intune
+title: Защита данных и устройств в Intune
 summary: В Intune защита устройств и корпоративных данных реализуется с помощью таких инструментов, как базовые конфигурации безопасности, условный доступ Azure AD и партнерских решений Mobile Threat Defense.
 metadata:
-  title: Защита данных и устройств в Intune
+  title: Защита данных и устройств в Intune
   description: В Intune защита устройств и корпоративных данных реализуется с помощью таких инструментов, как базовые конфигурации безопасности, условный доступ Azure AD и партнерских решений Mobile Threat Defense.
   services: service
   ms.service: microsoft-intune
@@ -12,12 +12,12 @@ metadata:
   author: brenduns
   ms.author: brenduns
   ms.date: 08/20/2019
-  ms.openlocfilehash: 9d5c1c95cd5247f32fd32a77c774ec787d052e16
-  ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+  ms.openlocfilehash: be6460b9faa9dea44ea14c7198dbdfd8af539d46
+  ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/13/2020
-  ms.locfileid: "79333708"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81525684"
 landingContent:
 - title: Настройка на устройствах правил доступа к ресурсам
   linkLists:
@@ -27,7 +27,7 @@ landingContent:
       url: device-compliance-get-started.md
   - linkListType: quickstart
     links:
-    - text: Создание политики соответствия устройств
+    - text: Создание политики соответствия устройства
       url: quickstart-set-password-length-android.md
   - linkListType: tutorial
     links:
@@ -134,4 +134,4 @@ landingContent:
     - text: Стандартные способы использования условного доступа
       url: conditional-access-intune-common-ways-use.md
     - text: Jamf Pro для macOS
-      url: conditional-access-integrate-jamf.md
+      url: conditional-access-jamf-cloud-connector.md

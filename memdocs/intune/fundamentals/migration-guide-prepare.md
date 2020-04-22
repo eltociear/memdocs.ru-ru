@@ -18,10 +18,10 @@ ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 46e717478078ab13cc2c8783cdacbde0911e83a5
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79358199"
 ---
 # <a name="phase-1-prepare-microsoft-intune-for-mobile-device-management-mdm"></a>Этап 1. Подготовка Microsoft Intune к управлению мобильными устройствами (MDM)
@@ -77,7 +77,7 @@ ms.locfileid: "79358199"
   <br/><br/>
 - Можно ли сделать временные исключения для определенных требований во избежание простоя, или же устройства с доступом должны постоянно соответствовать всем требованиям безопасности?
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 Примеры использования в различных отраслях, которые помогут узнать, как в организациях оценили требования к управлению мобильными устройствами, см. [здесь](https://customers.microsoft.com/story/mwh-global-now-part-of-stantec-secures-mobile-devices-with-intune).
 
 Ознакомьтесь с [основными настройками Intune](migration-guide-setup.md).
