@@ -18,10 +18,10 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.openlocfilehash: 55f51f94cf26aa2486ef390d5fbb668eaf013e10
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/21/2020
 ms.locfileid: "79350633"
 ---
 # <a name="resolve-common-problems-with-the-intune-exchange-connector"></a>Устранение распространенных проблем с соединителем Intune с Exchange
@@ -84,7 +84,7 @@ ms.locfileid: "79350633"
 
    1. определите URL-адрес EWS. URL-адрес EWS по умолчанию для Exchange — `https://<mailServerFQDN>/ews/exchange.asmx`, но ваш URL-адрес может отличаться. Обратитесь к администратору Exchange, чтобы уточнить правильный URL-адрес вашей среды.
 
-   2. Откройте для редактирования файл *OnPremisesExchangeConnectorServiceConfiguration.xml*. По умолчанию файл расположен в папке *%ProgramData%\Microsoft\Windows Intune Exchange Connector* на компьютере, на котором работает соединитель Exchange. Откройте файл в текстовом редакторе, а затем измените следующую строку в соответствии с URL-адресом EWS для вашей среды: `<ExchangeWebServiceURL> https://<YourExchangeHOST>/EWS/Exchange.asmx</ExchangeWebServiceURL>`
+   2. Откройте для редактирования файл *OnPremisesExchangeConnectorServiceConfiguration.xml*. По умолчанию файл расположен в папке *%ProgramData%\Microsoft\Windows Intune Exchange Connector* на компьютере, на котором работает соединитель Exchange. Откройте файл в текстовом редакторе, а затем измените следующую строку в соответствии с URL-адресом EWS для вашей среды: `<ExchangeWebServiceURL>https://<YourExchangeHOST>/EWS/Exchange.asmx</ExchangeWebServiceURL>`
 
 3. Сохраните файл, а затем перезагрузите компьютер или перезапустите службу соединителя Exchange Microsoft Intune.
 
