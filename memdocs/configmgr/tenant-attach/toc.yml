@@ -1,0 +1,8 @@
+- name: Документация по подключению клиентов
+  href: index.yml
+- name: Развертывание и использование
+  items:
+    - name: Активация подключения клиентов
+      href: device-sync-actions.md
+    - name: 'Устранение неполадок, связанных с действиями устройств'
+      href: technical-reference.md

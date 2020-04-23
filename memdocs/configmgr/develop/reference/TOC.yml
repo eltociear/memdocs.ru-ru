@@ -1,0 +1,2532 @@
+- name: Справочник по API Configuration Manager
+  href: configuration-manager-reference.md
+- name: Квалификаторы классов и свойств
+  href: misc/class-and-property-qualifiers.md
+- name: 'SMS_WhatsNewFeature, класс WMI сервера'
+  href: misc/sms_whatsnewfeature-server-wmi-class.md
+  items:
+    - name: Метод GetFeatures
+      href: misc/getfeatures-method-in-class-sms_whatsnewfeature.md
+- name: 'SMS_WhatsNewScenario, класс WMI сервера'
+  href: misc/sms_whatsnewscenario-server-wmi-class.md
+- name: Классы WMI серверов для системы предупреждений
+  items:
+    - name: 'SMS_Alert, класс WMI сервера'
+      href: core/servers/manage/sms_alert-server-wmi-class.md
+      items:
+        - name: Метод Close
+          href: core/servers/manage/close-method-in-class-sms_alert.md
+    - name: 'SMS_AlertBase, класс WMI сервера'
+      href: core/servers/manage/sms_alertbase-server-wmi-class.md
+    - name: 'SMS_AlertEmailTemplate, класс WMI сервера'
+      href: core/servers/manage/sms_alertemailtemplate-server-wmi-class.md
+    - name: 'SMS_AlertEvent, класс WMI сервера'
+      href: core/servers/manage/sms_alertevent-server-wmi-class.md
+    - name: 'SMS_CHAlert, класс WMI сервера'
+      href: core/servers/manage/sms_chalert-server-wmi-class.md
+      items:
+        - name: Метод Close
+          href: core/servers/manage/close-method-in-class-sms_chalert.md
+    - name: 'SMS_EPAlert, класс WMI сервера'
+      href: core/servers/manage/sms_epalert-server-wmi-class.md
+      items:
+        - name: Метод Close
+          href: core/servers/manage/close-method-in-class-sms_epalert.md
+    - name: 'SMS_Subscription, класс WMI сервера'
+      href: core/servers/manage/sms_subscription-server-wmi-class.md
+      items:
+        - name: Метод GetAvailableLanguages
+          href: core/servers/manage/getavailablelanguages-method-in-class-sms_subscription.md
+        - name: Метод GetTestSmtpConnectionResult
+          href: core/servers/manage/gettestsmtpconnectionresult-method-in-class-sms_subscription.md
+        - name: Метод TestSmtpConnection
+          href: core/servers/manage/testsmtpconnection-method-in-class-sms_subscription.md
+- name: Классы альтернативного поставщика содержимого (ACP)
+  items:
+    - name: 'CCM_CONTENTFLAG, перечисление'
+      href: core/servers/configure/ccm_contentflag-enumeration.md
+    - name: 'CCM_DTS_PRIORITY, перечисление'
+      href: core/servers/configure/ccm_dts_priority-enumeration.md
+    - name: 'CCM_DTS_FLAG, перечисление'
+      href: core/servers/configure/ccm_dts_flag-enumeration.md
+    - name: Типы хода выполнения
+      href: core/servers/configure/progress-types.md
+    - name: 'CCM_CTM_JobStateEx4, класс'
+      href: core/servers/configure/ccm_ctm_jobstateex4-class.md
+    - name: 'CCM_Download_Provider, класс WMI'
+      href: core/servers/configure/ccm_download_provider-wmi-class.md
+    - name: Метод SendNotifyErrorToCTM
+      href: core/servers/configure/sendnotifyerrortoctm-method.md
+    - name: Метод SendNotifyProgressToCTM
+      href: core/servers/configure/sendnotifyprogresstoctm-method.md
+    - name: Метод SendNotifySuccessToCTM
+      href: core/servers/configure/sendnotifysuccesstoctm-method.md
+    - name: 'ICcmAlternateDowloadProvider, интерфейс'
+      href: core/servers/configure/iccmalternatedowloadprovider-interface.md
+      items:
+        - name: Метод CancelJob
+          href: core/servers/configure/iccmalternatedownloadprovider---canceljob-method.md
+        - name: Метод DownloadContent
+          href: core/servers/configure/iccmalternatedownloadprovider---downloadcontent-method.md
+        - name: Метод ModifyJobPriority
+          href: core/servers/configure/iccmalternatedownloadprovider---modifyjobpriority-method.md
+        - name: Метод ModifyJobSource
+          href: core/servers/configure/iccmalternatedownloadprovider---modifyjobsource-method.md
+        - name: Метод ModifyJobTimeout
+          href: core/servers/configure/iccmalternatedownloadprovider---modifyjobtimeout-method.md
+        - name: Метод Resume
+          href: core/servers/configure/iccmalternatedownloadprovider---resume-method.md
+        - name: Метод Suspend
+          href: core/servers/configure/iccmalternatedownloadprovider---suspend-method.md
+    - name: 'ICcmContentTransferManager4, интерфейс'
+      href: core/servers/configure/iccmcontenttransfermanager4-interface.md
+- name: Классы WMI серверов для управления приложениями
+  items:
+    - name: 'SMS_AppConflictsData, класс WMI сервера'
+      href: apps/sms_appconflictsdata-server-wmi-class.md
+    - name: 'SMS_AppDependencyData, класс WMI сервера'
+      href: apps/sms_appdependencydata-server-wmi-class.md
+    - name: 'SMS_AppDeploymentAssetDetails, класс WMI сервера'
+      href: apps/sms_appdeploymentassetdetails-server-wmi-class.md
+    - name: 'SMS_AppDeploymentErrorAssetDetails, класс WMI сервера'
+      href: apps/sms_appdeploymenterrorassetdetails-server-wmi-class.md
+    - name: 'SMS_AppDeploymentErrorStatus, класс WMI сервера'
+      href: apps/sms_appdeploymenterrorstatus-server-wmi-class.md
+    - name: 'SMS_AppDeploymentRequirementsNotMetAssetDetails, класс WMI сервера'
+      href: apps/sms_appdeploymentrequirementsnotmetassetdetails-server-wmi-class.md
+    - name: 'SMS_AppDeploymentRequirementsNotMetStatus, класс WMI сервера'
+      href: apps/sms_appdeploymentrequirementsnotmetstatus-server-wmi-class.md
+    - name: 'SMS_AppDeploymentStatus, класс WMI сервера'
+      href: apps/sms_appdeploymentstatus-server-wmi-class.md
+    - name: 'SMS_AppDTDeploymentSummary, класс WMI сервера'
+      href: apps/sms_appdtdeploymentsummary-server-wmi-class.md
+    - name: 'SMS_AppFailedVEsData, класс WMI сервера'
+      href: apps/sms_appfailedvesdata-server-wmi-class.md
+    - name: 'SMS_Application, класс WMI сервера'
+      href: apps/sms_application-server-wmi-class.md
+      items:
+        - name: Метод GetCIDocumentBody
+          href: apps/getcidocumentbody-method-in-class-sms_application.md
+        - name: Метод GetCIDocuments
+          href: apps/getcidocuments-method-in-class-sms_application.md
+        - name: Метод InitiateUserInstall
+          href: apps/initiateuserinstall-method-in-class-sms_application.md
+        - name: Метод ManageDeploymentForDevice
+          href: apps/managedeploymentfordevice-method-in-class-sms_application.md
+        - name: Метод Restore
+          href: apps/restore-method-in-class-sms_application.md
+        - name: Метод SetIsExpired
+          href: apps/setisexpired-method-in-class-sms_application.md
+        - name: Метод UpdateStats
+          href: apps/updatestats-method-in-class-sms_application.md
+    - name: 'SMS_ApplicationAssignment, класс WMI сервера'
+      href: apps/sms_applicationassignment-server-wmi-class.md
+    - name: 'SMS_ApplicationCondition, класс WMI сервера'
+      href: apps/sms_applicationcondition-server-wmi-class.md
+    - name: 'SMS_ApplicationLatest, класс WMI сервера'
+      href: apps/sms_applicationlatest-server-wmi-class.md
+      items:
+        - name: Метод SetIsExpired в Latest
+          href: apps/setisexpired-method-in-class-sms_applicationlatest.md
+        - name: Метод UpdateStats в Latest
+          href: apps/updatestats-method-in-class-sms_applicationlatest.md
+    - name: 'SMS_ApplicationPublishingItem, класс WMI сервера'
+      href: apps/sms_applicationpublishingitem-server-wmi-class.md
+    - name: 'SMS_ApplicationTechnology, класс WMI сервера'
+      href: apps/sms_applicationtechnology-server-wmi-class.md
+    - name: 'SMS_AppRelation_Flat, класс WMI сервера'
+      href: apps/sms_apprelation_flat-server-wmi-class.md
+    - name: 'SMS_AppRequirementsData, класс WMI сервера'
+      href: apps/sms_apprequirementsdata-server-wmi-class.md
+    - name: 'SMS_CIDeploymentUnknownAssetDetails, класс WMI сервера'
+      href: apps/sms_cideploymentunknownassetdetails-server-wmi-class.md
+    - name: 'SMS_CIDeploymentUnknownStatus, класс WMI сервера'
+      href: apps/sms_cideploymentunknownstatus-server-wmi-class.md
+    - name: 'SMS_DeploymentInfo, класс WMI сервера'
+      href: apps/sms_deploymentinfo-server-wmi-class.md
+      items:
+        - name: Метод GetDeployments
+          href: apps/getdeployments-method-in-class-sms_deployment_info.md
+    - name: 'SMS_DeploymentInfoFlat, класс WMI сервера'
+      href: apps/sms_deploymentinfoflat-server-wmi-class.md
+    - name: 'SMS_DeploymentSummary, класс WMI сервера'
+      href: apps/sms_deploymentsummary-server-wmi-class.md
+      items:
+        - name: Метод UpdateClassicDeployment
+          href: apps/updateclassicdeployment-method-in-class-sms_deploymentsummary.md
+        - name: Метод UpdateDeployment
+          href: apps/updatedeployment-method-in-class-sms_deploymentsummary.md
+    - name: 'SMS_DeploymentType, класс WMI сервера'
+      href: apps/sms_deploymenttype-server-wmi-class.md
+      items:
+        - name: Метод DistributeDeploymentTypeExtension
+          href: apps/distributedeploymenttypeextension-method-in-class-sms_deploymenttype.md
+    - name: 'SMS_DeploymentTypeLicenseAssociation, класс WMI сервера'
+      href: apps/sms_deploymenttypelicenseassociation-server-wmi-class.md
+      items:
+        - name: Метод AddLicense
+          href: apps/addlicense-method-in-class-sms_deploymenttypelicenseassociation.md
+    - name: 'SMS_G_System_AppClientState, класс WMI сервера'
+      href: apps/sms_g_system_appclientstate-server-wmi-class.md
+    - name: 'SMS_G_SYSTEM_DCMDeploymentCompliantAssetDetails, класс WMI сервера'
+      href: apps/sms_g_system_dcmdeploymentcompliantassetdetails-server-wmi-class.md
+    - name: 'SMS_G_SYSTEM_DCMDeploymentErrorAssetDetails, класс WMI сервера'
+      href: apps/sms_g_system_dcmdeploymenterrorassetdetails-server-wmi-class.md
+    - name: 'SMS_G_SYSTEM_DCMDeploymentNonCompliantAssetDetails, класс WMI сервера'
+      href: apps/sms_g_system_dcmdeploymentnoncompliantassetdetails-server-wmi-class.md
+    - name: 'SMS_G_USER_DCMDeploymentCompliantAssetDetails, класс WMI сервера'
+      href: apps/sms_g_user_dcmdeploymentcompliantassetdetails-server-wmi-class.md
+    - name: 'SMS_G_USER_DCMDeploymentErrorAssetDetails, класс WMI сервера'
+      href: apps/sms_g_user_dcmdeploymenterrorassetdetails-server-wmi-class.md
+    - name: 'SMS_G_USER_DCMDeploymentNonCompliantAssetDetails, класс WMI сервера'
+      href: apps/sms_g_user_dcmdeploymentnoncompliantassetdetails-server-wmi-class.md
+    - name: 'SMS_GlobalCondition, класс WMI сервера'
+      href: apps/sms_globalcondition-server-wmi-class.md
+    - name: 'SMS_LicensedVppApps, класс WMI сервера'
+      href: apps/sms_licensedvppapps-server-wmi-class.md
+    - name: 'SMS_MAMStoreApplication, класс WMI сервера'
+      href: apps/sms_mamstoreapplication-server-wmi-class.md
+    - name: 'SMS_UnManagedApps, класс WMI сервера'
+      href: apps/sms_unmanagedapps-server-wmi-class.md
+    - name: 'SMS_UserApplicationRequest, класс WMI сервера'
+      href: apps/sms_userapplicationrequest-server-wmi-class.md
+      items:
+        - name: Метод Approve
+          href: apps/approve-method-in-class-sms_userapplicationrequest.md
+        - name: Метод Deny
+          href: apps/deny-method-in-class-sms_userapplicationrequest.md
+    - name: 'SMS_UserApplicationRequestHistoryItem, класс WMI сервера'
+      href: apps/sms_userapplicationrequesthistoryitem-server-wmi-class.md
+    - name: 'SMS_VirtualEnvironment, классы WMI сервера'
+      href: apps/sms_virtualenvironment-server-wmi-classes.md
+- name: Классы WMI серверов аналитики активов
+  items:
+    - name: 'SMS_AICategory, класс WMI сервера'
+      href: core/clients/asset-intelligence/sms_aicategory-server-wmi-class.md
+      items:
+        - name: Метод GetSummary
+          href: core/clients/asset-intelligence/getsummary-method-in-class-sms_aicategory.md
+    - name: 'SMS_AIHardwareRequirements, класс WMI сервера'
+      href: core/clients/asset-intelligence/sms_aihardwarerequirements-server-wmi-class.md
+      items:
+        - name: Метод GetSummary
+          href: core/clients/asset-intelligence/getsummary-method-in-class-sms_aihardwarerequirements.md
+    - name: 'SMS_AIMLSParser, класс WMI сервера'
+      href: core/clients/asset-intelligence/sms_aimlsparser-server-wmi-class.md
+      items:
+        - name: Метод GetStatus
+          href: core/clients/asset-intelligence/getstatus-method-in-class-sms_aimlsparser.md
+        - name: Метод GetSummary
+          href: core/clients/asset-intelligence/getsummary-method-in-class-sms_aimlsparser.md
+        - name: Метод Import
+          href: core/clients/asset-intelligence/import-method-in-class-sms_aimlsparser.md
+    - name: 'SMS_AIProxy, класс WMI сервера'
+      href: core/clients/asset-intelligence/sms_aiproxy-server-wmi-class.md
+      items:
+        - name: Метод RequestCatalogUpdate
+          href: core/clients/asset-intelligence/requestcatalogupdate-method-in-class-sms_aiproxy.md
+    - name: 'SMS_AISoftwareList, класс WMI сервера'
+      href: core/clients/asset-intelligence/sms_aisoftwarelist-server-wmi-class.md
+      items:
+        - name: Метод AddSoftwareHashData
+          href: core/clients/asset-intelligence/addsoftwarehashdata-method-in-class-sms_aisoftwarelist.md
+        - name: Метод GetCategorizationRequestText
+          href: core/clients/asset-intelligence/getcategorizationrequesttext-method-in-class-sms_aisoftwarelist.md
+        - name: Метод GetSummary
+          href: core/clients/asset-intelligence/getsummary-method-in-class-sms_aisoftwarelist.md
+        - name: Метод ResolveConflict
+          href: core/clients/asset-intelligence/resolveconflict-method-in-class-sms_aisoftwarelist.md
+        - name: Метод SetCategorizationRequest
+          href: core/clients/asset-intelligence/setcategorizationrequest-method-in-class-sms_aisoftwarelist.md
+- name: Классы клиентов
+  items:
+    - name: Интерфейсы клиентов для управления приложениями
+      href: core/clients/client-classes/application-management-client-interfaces.md
+      items:
+        - name: 'AppDetectState, перечисление'
+          href: core/clients/client-classes/appdetectstate-enumeration.md
+        - name: 'AppContentInfo, структура'
+          href: core/clients/client-classes/appcontentinfo-structure.md
+        - name: 'AppDeploymentTypeData, структура'
+          href: core/clients/client-classes/appdeploymenttypedata-structure.md
+        - name: 'AppDeploymentTypeItem, структура'
+          href: core/clients/client-classes/appdeploymenttypeitem-structure.md
+        - name: 'IAppContentExt, интерфейс'
+          href: core/clients/client-classes/iappcontentext-interface.md
+          items:
+            - name: Метод GetExcludedFileList интерфейса IAppContentExt
+              href: core/clients/client-classes/iappcontentext--getexcludedfilelist.md
+        - name: 'IAppManagementHandler, интерфейс'
+          href: core/clients/client-classes/iappmanagementhandler-interface.md
+          items:
+            - name: Метод CheckReconnectData интерфейса IAppManagementHandler
+              href: core/clients/client-classes/iappmanagementhandler--checkreconnectdata-method.md
+            - name: Метод CompleteEnforcement интерфейса IAppManagementHandler
+              href: core/clients/client-classes/iappmanagementhandler--completeenforcement-method.md
+            - name: Метод DiscoverApp интерфейса IAppManagementHandler
+              href: core/clients/client-classes/iappmanagementhandler--discoverapp-method.md
+            - name: Метод EnforceApp интерфейса IAppManagementHandler
+              href: core/clients/client-classes/iappmanagementhandler--enforceapp-method.md
+            - name: Метод EnumerateApps интерфейса IAppManagementHandler
+              href: core/clients/client-classes/iappmanagementhandler--enumerateapps-method.md
+            - name: Метод GetPendingComponentList интерфейса IAppManagementHandler
+              href: core/clients/client-classes/iappmanagementhandler--getpendingcomponentlist-method.md
+        - name: 'IAppManagementTypes, интерфейс'
+          href: core/clients/client-classes/iappmanagementtypes-interface.md
+          items:
+            - name: 'AppAction, перечисление'
+              href: core/clients/client-classes/appaction-enumeration.md
+    - name: Классы WMI клиентов для аналитики активов
+      href: core/clients/client-classes/asset-intelligence-client-wmi-classes.md
+      items:
+        - name: 'SMS_AutoStartSoftware, класс WMI клиента'
+          href: core/clients/client-classes/sms_autostartsoftware-client-wmi-class.md
+        - name: 'SMS_BrowserHelperObject, класс WMI клиента'
+          href: core/clients/client-classes/sms_browserhelperobject-client-wmi-class.md
+        - name: 'SMS_InstalledExecutable, класс WMI клиента'
+          href: core/clients/client-classes/sms_installedexecutable-client-wmi-class.md
+        - name: 'SMS_InstalledSoftware, класс WMI клиента'
+          href: core/clients/client-classes/sms_installedsoftware-client-wmi-class.md
+        - name: 'SMS_InstalledSoftwareMS, класс WMI клиента'
+          href: core/clients/client-classes/sms_installedsoftwarems-client-wmi-class.md
+        - name: 'SMS_Processor, класс WMI клиента'
+          href: core/clients/client-classes/sms_processor-client-wmi-class.md
+        - name: 'SMS_SoftwareShortcut, класс WMI клиента'
+          href: core/clients/client-classes/sms_softwareshortcut-client-wmi-class.md
+        - name: 'SMS_SoftwareTag, класс WMI клиента'
+          href: core/clients/client-classes/sms_softwaretag-client-wmi-class.md
+        - name: 'SMS_SystemConsoleUsage, класс WMI клиента'
+          href: core/clients/client-classes/sms_systemconsoleusage-client-wmi-class.md
+        - name: 'SMS_SystemConsoleUser, класс WMI клиента'
+          href: core/clients/client-classes/sms_systemconsoleuser-client-wmi-class.md
+    - name: Инфраструктура клиента Configuration Manager
+      href: core/clients/client-classes/client-infrastructure.md
+      items:
+        - name: 'CCM_Messaging_Configuration, класс WMI клиента'
+          href: core/clients/client-classes/ccm_messaging_configuration-client-wmi-class.md
+        - name: 'CCM_Service_BITSConfiguration, класс WMI клиента'
+          href: core/clients/client-classes/ccm_service_bitsconfiguration-client-wmi-class.md
+        - name: 'CCM_Service_EndpointConfiguration, класс WMI клиента'
+          href: core/clients/client-classes/ccm_service_endpointconfiguration-client-wmi-class.md
+        - name: 'CCM_Service_GlobalConfiguration, класс WMI клиента'
+          href: core/clients/client-classes/ccm_service_globalconfiguration-client-wmi-class.md
+        - name: 'CCM_Service_HostedClass, класс WMI клиента'
+          href: core/clients/client-classes/ccm_service_hostedclass-client-wmi-class.md
+        - name: 'CCM_Service_IISConfiguration, класс WMI клиента'
+          href: core/clients/client-classes/ccm_service_iisconfiguration-client-wmi-class.md
+        - name: 'CCM_Service_SystemTaskConfiguration, класс WMI клиента'
+          href: core/clients/client-classes/ccm_service_systemtaskconfiguration-client-wmi-class.md
+        - name: 'SMS_Authority, класс WMI клиента'
+          href: core/clients/client-classes/sms_authority-client-wmi-class.md
+        - name: 'SMS_Client, класс WMI клиента'
+          href: core/clients/client-classes/sms_client-client-wmi-class.md
+          items:
+            - name: Метод EvaluateMachinePolicy
+              href: core/clients/client-classes/evaluatemachinepolicy-method-in-class-sms_client.md
+            - name: Метод GetAssignedSite
+              href: core/clients/client-classes/getassignedsite-method-in-class-sms_client.md
+            - name: Метод RequestMachinePolicy
+              href: core/clients/client-classes/requestmachinepolicy-method-in-class-sms_client.md
+            - name: Метод ResetPolicy
+              href: core/clients/client-classes/resetpolicy-method-in-class-sms_client.md
+            - name: Метод SetAssignedSite
+              href: core/clients/client-classes/setassignedsite-method-in-class-sms_client.md
+            - name: Метод SetGlobalLoggingConfiguration
+              href: core/clients/client-classes/setgloballoggingconfiguration-method-in-class-sms_client.md
+            - name: Метод TriggerSchedule
+              href: core/clients/client-classes/triggerschedule-method-in-class-sms_client.md
+        - name: 'SMS_LocalMP, класс WMI клиента'
+          href: core/clients/client-classes/sms_localmp-client-wmi-class.md
+        - name: 'SMS_MPProxyInformation, класс WMI клиента'
+          href: core/clients/client-classes/sms_mpproxyinformation-client-wmi-class.md
+        - name: 'SMS_PendingReRegistrationOnSiteReAssignment, класс WMI клиента'
+          href: core/clients/client-classes/sms_pendingreregistrationonsitereassignment-client-wmi-class.md
+        - name: 'CCM_Policy, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy-client-wmi-class.md
+        - name: 'CCM_Policy_Action, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_action-client-wmi-class.md
+        - name: 'CCM_Policy_ActionHandlerRegistration, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_actionhandlerregistration-client-wmi-class.md
+        - name: 'CCM_Policy_Assignment, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_assignment-client-wmi-class.md
+        - name: 'CCM_Policy_Assignment2, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_assignment2-client-wmi-class.md
+        - name: 'CCM_Policy_AuthorityData, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_authoritydata-client-wmi-class.md
+        - name: 'CCM_Policy_Condition, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_condition-client-wmi-class.md
+        - name: 'CCM_Policy_Config, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_config-client-wmi-class.md
+        - name: 'CCM_Policy_EmbeddedObject, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_embeddedobject-client-wmi-class.md
+        - name: 'CCM_Policy_Expression, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_expression-client-wmi-class.md
+        - name: 'CCM_Policy_ExpressionHandlerRegistration, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_expressionhandlerregistration-client-wmi-class.md
+        - name: 'CCM_Policy_Operator, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_operator-client-wmi-class.md
+        - name: 'CCM_Policy_Policy, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_policy-client-wmi-class.md
+        - name: 'CCM_Policy_Rule, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policy_rule-client-wmi-class.md
+        - name: 'CCM_PolicyAgent_Configuration, класс WMI клиента'
+          href: core/clients/client-classes/ccm_policyagent_configuration-client-wmi-class.md
+    - name: Интерфейсы клиентов для параметров соответствия
+      href: core/clients/client-classes/compliance-settings--dcm--client-interfaces.md
+      items:
+        - name: 'ICIINFO, интерфейс'
+          href: core/clients/client-classes/iciinfo-interface.md
+          items:
+            - name: Метод GetCategory интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getcategory-method.md
+            - name: Метод GetCategoryCount интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getcategorycount-method.md
+            - name: Метод GetCIPresence интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getcipresence-method.md
+            - name: Метод GetContextInfo интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getcontextinfo-method.md
+            - name: Метод GetDependantPackages интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getdependantpackages-method.md
+            - name: Метод GetDetailedComplianceInfo интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getdetailedcomplianceinfo-method.md
+            - name: Метод GetEvalState интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getevalstate-method.md
+            - name: Метод GetId интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getid-method.md
+            - name: Метод GetJobState интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getjobstate-method.md
+            - name: Метод GetLastEvalTime интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getlastevaltime-method.md
+            - name: Метод GetProperty интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getproperty-method.md
+            - name: Метод GetSdmTypeName интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getsdmtypename-method.md
+            - name: Метод GetVersion интерфейса ICIINFO
+              href: core/clients/client-classes/iciinfo--getversion-method.md
+        - name: 'IDCMAgentCallback, интерфейс'
+          href: core/clients/client-classes/idcmagentcallback-interface.md
+          items:
+            - name: Метод NotifyComplete интерфейса IDCMAgentCallback
+              href: core/clients/client-classes/idcmagentcallback--notifycomplete-method.md
+            - name: Метод NotifyError интерфейса IDCMAgentCallback
+              href: core/clients/client-classes/idcmagentcallback--notifyerror-method.md
+            - name: Метод NotifyProgress интерфейса IDCMAgentCallback
+              href: core/clients/client-classes/idcmagentcallback--notifyprogress-method.md
+        - name: 'IDCMSDK, интерфейс'
+          href: core/clients/client-classes/idcmsdk-interface.md
+          items:
+            - name: Метод EvaluateBaseline интерфейса IDCMSDK
+              href: core/clients/client-classes/idcmsdk--evaluatebaseline-method.md
+            - name: Метод GetAssignedBaselines интерфейса IDCMSDK
+              href: core/clients/client-classes/idcmsdk--getassignedbaselines-method.md
+            - name: Метод GetBaselineComplianceReport интерфейса IDCMSDK
+              href: core/clients/client-classes/idcmsdk--getbaselinecompliancereport-method.md
+            - name: Метод GetBaselineInfo интерфейса IDCMSDK
+              href: core/clients/client-classes/idcmsdk--getbaselineinfo-method.md
+            - name: Метод SetEvaluationCallback интерфейса IDCMSDK
+              href: core/clients/client-classes/idcmsdk--setevaluationcallback-method.md
+        - name: 'CIDetectInfo, структура'
+          href: core/clients/client-classes/cidetectinfo-structure.md
+        - name: 'CIPackageInfo, структура'
+          href: core/clients/client-classes/cipackageinfo-structure.md
+        - name: 'CIEvalState, перечисление'
+          href: core/clients/client-classes/cievalstate-enumeration.md
+        - name: 'CIJobState, перечисление'
+          href: core/clients/client-classes/cijobstate-enumeration.md
+        - name: 'CIPresence, перечисление'
+          href: core/clients/client-classes/cipresence-enumeration.md
+    - name: Классы WMI клиентов для управления устройствами
+      href: core/clients/client-classes/device-management-client-wmi-classes.md
+      items:
+        - name: 'SMS_DmInvVersion, класс WMI клиента'
+          href: core/clients/client-classes/sms_dminvversion-client-wmi-class.md
+        - name: 'SMS_ActiveSyncConnectedDevice, класс WMI клиента'
+          href: core/clients/client-classes/sms_activesyncconnecteddevice-client-wmi-class.md
+        - name: 'SMS_ActiveSyncService, класс WMI клиента'
+          href: core/clients/client-classes/sms_activesyncservice-client-wmi-class.md
+    - name: Классы WMI клиентов для агента инвентаризации
+      href: core/clients/client-classes/inventory-agent-client-wmi-classes.md
+      items:
+        - name: 'CollectableFileItem, класс WMI клиента'
+          href: core/clients/client-classes/collectablefileitem-client-wmi-class.md
+        - name: 'FileCollectionAction, класс WMI клиента'
+          href: core/clients/client-classes/filecollectionaction-client-wmi-class.md
+        - name: 'FileSystemFile, класс WMI клиента'
+          href: core/clients/client-classes/filesystemfile-client-wmi-class.md
+        - name: 'InventoryAction, класс WMI клиента'
+          href: core/clients/client-classes/inventoryaction-client-wmi-class.md
+        - name: 'InventoryActionStatus, класс WMI клиента'
+          href: core/clients/client-classes/inventoryactionstatus-client-wmi-class.md
+        - name: 'InventoryDataContext, класс WMI клиента'
+          href: core/clients/client-classes/inventorydatacontext-client-wmi-class.md
+        - name: 'InventoryDataItem, класс WMI клиента'
+          href: core/clients/client-classes/inventorydataitem-client-wmi-class.md
+        - name: 'SMS_MIFGroup, класс WMI клиента'
+          href: core/clients/client-classes/sms_mifgroup-client-wmi-class.md
+        - name: 'SMS_Windows8Application, класс WMI клиента'
+          href: core/clients/client-classes/sms_windows8application-client-wmi-class.md
+        - name: 'SMS_Windows8ApplicationUserInfo, класс WMI клиента'
+          href: core/clients/client-classes/sms_windows8applicationuserinfo-client-wmi-class.md
+    - name: Классы COM-автоматизации клиентов для развертывания операционной системы
+      href: core/clients/client-classes/operating-system-deployment-client-com-automation-classes.md
+      items:
+        - name: 'ProgressUI, класс COM-автоматизации клиента'
+          href: core/clients/client-classes/progressui-client-com-automation-class.md
+          items:
+            - name: 'IProgressUI, интерфейс'
+              href: core/clients/client-classes/iprogressui-interface.md
+              items:
+                - name: Метод CloseProgressDialog интерфейса IProgressUI
+                  href: core/clients/client-classes/iprogressui--closeprogressdialog-method.md
+                - name: Метод ShowActionProgress интерфейса IProgressUI
+                  href: core/clients/client-classes/iprogressui--showactionprogress-method.md
+                - name: Метод ShowErrorDialog интерфейса IProgressUI
+                  href: core/clients/client-classes/iprogressui--showerrordialog-method.md
+                - name: Метод ShowMessage интерфейса IProgressUI
+                  href: core/clients/client-classes/iprogressui--showmessage-method.md
+                - name: Метод ShowRebootDialog интерфейса IProgressUI
+                  href: core/clients/client-classes/iprogressui--showrebootdialog-method.md
+                - name: Метод ShowSwapMediaDialog интерфейса IProgressUI
+                  href: core/clients/client-classes/iprogressui--showswapmediadialog-method.md
+                - name: Метод ShowTSProgress интерфейса IProgressUI
+                  href: core/clients/client-classes/iprogressui--showtsprogress-method.md
+        - name: 'PxeAuthClass, класс COM-автоматизации клиента'
+          href: core/clients/client-classes/pxeauthclass-client-com-automation-class.md
+          items:
+            - name: 'IPxeAuthClass, интерфейс'
+              href: core/clients/client-classes/ipxeauthclass-interface.md
+              items:
+                - name: Метод CreateIdentity интерфейса IPxeAuthClass
+                  href: core/clients/client-classes/ipxeauthclass--createidentity-method.md
+                - name: Метод ReadIdentity интерфейса IPxeAuthClass
+                  href: core/clients/client-classes/ipxeauthclass--readidentity-method.md
+        - name: 'ITSEnvClass, интерфейс'
+          href: core/clients/client-classes/itsenvclass-interface.md
+          items:
+            - name: Метод Clear интерфейса ITSEnvClass
+              href: core/clients/client-classes/itsenvclass--clear-method.md
+            - name: Метод Create интерфейса ITSEnvClass
+              href: core/clients/client-classes/itsenvclass--create-method.md
+            - name: Метод GetVariables интерфейса ITSEnvClass
+              href: core/clients/client-classes/itsenvclass--getvariables-method.md
+            - name: 'ITSEnvClass, свойство Value'
+              href: core/clients/client-classes/itsenvclass--value-property.md
+    - name: Классы WMI клиентов для планирования
+      href: core/clients/client-classes/scheduling-client-wmi-classes.md
+      items:
+        - name: 'CCM_Scheduler_History, класс WMI клиента'
+          href: core/clients/client-classes/ccm_scheduler_history-client-wmi-class.md
+        - name: 'CCM_Scheduler_ScheduledMessage, класс WMI клиента'
+          href: core/clients/client-classes/ccm_scheduler_scheduledmessage-client-wmi-class.md
+- name: Классы WMI серверов для конфигурации клиента
+  items:
+    - name: 'SMS_AdvancedAntimalwareSettings, класс WMI сервера'
+      href: core/clients/config/sms_advancedantimalwaresettings-server-wmi-class.md
+    - name: 'SMS_AntimalwareAdvancedSettingsConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwareadvancedsettingsconfig-server-wmi-class.md
+    - name: 'SMS_AntimalwareConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwareconfig-server-wmi-class.md
+    - name: 'SMS_AntimalwareExcludedSettingsConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwareexcludedsettingsconfig-server-wmi-class.md
+    - name: 'SMS_AntimalwareRealtimeSettingsConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwarerealtimesettingsconfig-server-wmi-class.md
+    - name: 'SMS_AntimalwareScanConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwarescanconfig-server-wmi-class.md
+    - name: 'SMS_AntimalwareScanScheduleConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwarescanscheduleconfig-server-wmi-class.md
+    - name: 'SMS_AntimalwareSettings, класс WMI сервера'
+      href: core/clients/config/sms_antimalwaresettings-server-wmi-class.md
+    - name: 'SMS_AntimalwareSettingsDefault, класс WMI сервера'
+      href: core/clients/config/sms_antimalwaresettingsdefault-server-wmi-class.md
+    - name: 'SMS_AntimalwareSignatureUpdateConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwaresignatureupdateconfig-server-wmi-class.md
+    - name: 'SMS_AntimalwareSpynetConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwarespynetconfig-server-wmi-class.md
+    - name: 'SMS_AntimalwareThreatDefaultActionConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwarethreatdefaultactionconfig-server-wmi-class.md
+    - name: 'SMS_AntimalwareThreatOverrideActionConfig, класс WMI сервера'
+      href: core/clients/config/sms_antimalwarethreatoverrideactionconfig-server-wmi-class.md
+    - name: 'SMS_ApplicationManagementAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_applicationmanagementagentconfig-server-wmi-class.md
+    - name: 'SMS_BigGreenButtonConfig, класс WMI сервера'
+      href: core/clients/config/sms_biggreenbuttonconfig-server-wmi-class.md
+    - name: 'SMS_BITS2Config, класс WMI сервера'
+      href: core/clients/config/sms_bits2config-server-wmi-class.md
+    - name: 'SMS_ClientCommunicationConfig, класс WMI сервера'
+      href: core/clients/config/sms_clientcommunicationconfig-server-wmi-class.md
+    - name: 'SMS_ClientResourcesConfig, класс WMI сервера'
+      href: core/clients/config/sms_clientresourcesconfig-server-wmi-class.md
+    - name: 'SMS_ClientRestartAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_clientrestartagentconfig-server-wmi-class.md
+    - name: 'SMS_ClientSettings, класс WMI сервера'
+      href: core/clients/config/sms_clientsettings-server-wmi-class.md
+      items:
+        - name: Метод CheckPortalUrl
+          href: core/clients/config/checkportalurl-method-for-class-sms_clientsettings.md
+    - name: 'SMS_ClientSettingsAssignment, класс WMI сервера'
+      href: core/clients/config/sms_clientsettingsassignment-server-wmi-class.md
+    - name: 'SMS_ClientSettingsBase, класс WMI сервера'
+      href: core/clients/config/sms_clientsettingsbase-server-wmi-class.md
+    - name: 'SMS_ClientSettingsDefault, класс WMI сервера'
+      href: core/clients/config/sms_clientsettingsdefault-server-wmi-class.md
+    - name: 'SMS_CloudAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_cloudagentconfig-server-wmi-class.md
+    - name: 'SMS_ConfigMgrClientAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_configmgrclientagentconfig-server-wmi-class.md
+    - name: 'SMS_DCMAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_dcmagentconfig-server-wmi-class.md
+    - name: 'SMS_EndpointProtectionAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_endpointprotectionagentconfig-server-wmi-class.md
+    - name: 'SMS_HardwareInventoryAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_hardwareinventoryagentconfig-server-wmi-class.md
+    - name: 'SMS_MobileDeviceAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_mobiledeviceagentconfig-server-wmi-class.md
+    - name: 'SMS_NetworkAccessAccountConfig, класс WMI сервера'
+      href: core/clients/config/sms_networkaccessaccountconfig-server-wmi-class.md
+    - name: 'SMS_PolicyAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_policyagentconfig-server-wmi-class.md
+    - name: 'SMS_PowerAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_poweragentconfig-server-wmi-class.md
+    - name: 'SMS_RemoteToolsAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_remotetoolsagentconfig-server-wmi-class.md
+    - name: 'SMS_SoftwareDistributionAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_softwaredistributionagentconfig-server-wmi-class.md
+    - name: 'SMS_SoftwareInventoryAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_softwareinventoryagentconfig-server-wmi-class.md
+    - name: 'SMS_SoftwareMeteringAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_softwaremeteringagentconfig-server-wmi-class.md
+    - name: 'SMS_SoftwareUpdatesAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_softwareupdatesagentconfig-server-wmi-class.md
+    - name: 'SMS_StateSystemConfig, класс WMI сервера'
+      href: core/clients/config/sms_statesystemconfig-server-wmi-class.md
+    - name: 'SMS_TargetingAgentConfig, класс WMI сервера'
+      href: core/clients/config/sms_targetingagentconfig-server-wmi-class.md
+- name: Классы WMI серверов для развертывания клиента
+  items:
+    - name: 'SMS_ClientBaseline, класс WMI сервера'
+      href: core/clients/deploy/sms_clientbaseline-server-wmi-class.md
+    - name: 'SMS_ClientBaselineItem, класс WMI сервера'
+      href: core/clients/deploy/sms_clientbaselineitem-server-wmi-class.md
+    - name: 'SMS_ClientBaselineStatus, класс WMI сервера'
+      href: core/clients/deploy/sms_clientbaselinestatus-server-wmi-class.md
+      items:
+        - name: Метод GetClientBaselineStatusSummary
+          href: core/clients/deploy/getclientbaselinestatussummary-method-in-class-sms_clientbaselinestatus.md
+    - name: 'SMS_ClientDataSourcesContent, класс WMI сервера'
+      href: core/clients/deploy/sms_clientdatasourcescontent-server-wmi-class.md
+    - name: 'SMS_ClientDataSourcesContentStats, класс WMI сервера'
+      href: core/clients/deploy/sms_clientdatasourcescontentstats-server-wmi-class.md
+    - name: 'SMS_ClientDataSourcesDeviceCounts, класс WMI сервера'
+      href: core/clients/deploy/sms_clientdatasourcesdevicecounts-server-wmi-class.md
+    - name: 'SMS_ClientDataSourcesPolicy, класс WMI сервера'
+      href: core/clients/deploy/sms_clientdatasourcespolicy-server-wmi-class.md
+    - name: 'SMS_ClientDeploymentCollectionBucket, класс WMI сервера'
+      href: core/clients/deploy/sms_clientdeploymentcollectionbucket-server-wmi-class.md
+    - name: 'SMS_ClientDeploymentFailureBucket, класс WMI сервера'
+      href: core/clients/deploy/sms_clientdeploymentfailurebucket-server-wmi-class.md
+    - name: 'SMS_ClientDeploymentStateDetailsView, класс WMI сервера'
+      href: core/clients/deploy/sms_clientdeploymentstatedetailsview-server-wmi-class.md
+    - name: 'SMS_ClientPfxCertificate, класс WMI сервера'
+      href: core/clients/deploy/sms_clientpfxcertificate-server-wmi-class.md
+      items:
+        - name: Метод ImportForUser
+          href: core/clients/deploy/importforuser-method-in-class-sms_clientpfxcertificate.md
+        - name: Метод DeleteForUser
+          href: core/clients/deploy/deleteforuser-method-in-class-sms_clientpfxcertificate.md
+- name: Классы WMI пакета SDK для клиента
+  items:
+    - name: 'CCM_AppDeploymentType, класс WMI клиента'
+      href: core/clients/sdk/ccm_appdeploymenttype-client-wmi-class.md
+      items:
+        - name: Метод GetDeploymentTypeForUser
+          href: core/clients/sdk/getdeploymenttypeforuser-method-in-class-ccm_appdeploymenttype.md
+        - name: Метод GetProperty
+          href: core/clients/sdk/getproperty-method-in-class-ccm_appdeploymenttype.md
+        - name: Метод GetTargetedUsers
+          href: core/clients/sdk/gettargetedusers-method-in-class-ccm_appdeploymenttype.md
+    - name: 'CCM_Application, класс WMI клиента'
+      href: core/clients/sdk/ccm_application-client-wmi-class.md
+      items:
+        - name: Метод Cancel
+          href: core/clients/sdk/cancel-method-in-class-ccm_application.md
+        - name: Метод DownloadContents
+          href: core/clients/sdk/downloadcontents-method-in-class-ccm_application.md
+        - name: Метод GetPendingComponentList
+          href: core/clients/sdk/getpendingcomponentlist-method-in-class-ccm_application.md
+        - name: Метод GetProperty
+          href: core/clients/sdk/getproperty-method-in-class-ccm_application.md
+        - name: Метод Install
+          href: core/clients/sdk/install-method-in-class-ccm_application.md
+        - name: Метод Uninstall
+          href: core/clients/sdk/uninstall-method-in-class-ccm_application.md
+    - name: 'CCM_ApplicationActions, класс WMI клиента'
+      href: core/clients/sdk/ccm_applicationactions-client-wmi-class.md
+    - name: 'CCM_ApplicationPolicy, класс WMI клиента'
+      href: core/clients/sdk/ccm_applicationpolicy-client-wmi-class.md
+      items:
+        - name: Метод EvaluateAllPolicies
+          href: core/clients/sdk/evaluateallpolicies-method-in-class-ccm_applicationpolicy.md
+        - name: Метод EvaluateAppPolicy
+          href: core/clients/sdk/evaluateapppolicy-method-in-class-ccm_applicationpolicy.md
+        - name: Метод GetEvaluationState
+          href: core/clients/sdk/getevaluationstate-method-in-class-ccm_applicationpolicy.md
+    - name: 'CCM_CIEvaluationJob, класс WMI клиента'
+      href: core/clients/sdk/ccm_cievaluationjob-client-wmi-class.md
+    - name: 'CCM_ClientAgentSettings, класс WMI клиента'
+      href: core/clients/sdk/ccm_clientagentsettings-client-wmi-class.md
+    - name: 'CCM_ClientEvents, класс WMI клиента'
+      href: core/clients/sdk/ccm_clientevents-client-wmi-class.md
+      items:
+        - name: Метод StoreEvent
+          href: core/clients/sdk/storeevent-method-in-class-ccm_clientevents.md
+    - name: 'CCM_ClientUtilities, класс WMI клиента'
+      href: core/clients/sdk/ccm_clientutilities-client-wmi-class.md
+      items:
+        - name: Метод DetermineIfRebootPending
+          href: core/clients/sdk/determineifrebootpending-method-in-class-ccm_clientutilities.md
+        - name: Метод GetMachinePolicy
+          href: core/clients/sdk/getmachinepolicy-method-in-class-ccm_clientutilities.md
+        - name: Метод GetNetworkCost
+          href: core/clients/sdk/getnetworkcost-method-in-class-ccm_clientutilities.md
+        - name: Метод GetUserCapability
+          href: core/clients/sdk/getusercapability-method-in-class-ccm_clientutilities.md
+        - name: Метод GetUserPolicy
+          href: core/clients/sdk/getuserpolicy-method-in-class-ccm_clientutilities.md
+        - name: Метод RestartComputer
+          href: core/clients/sdk/restartcomputer-method-in-class-ccm_clientutilities.md
+    - name: 'CCM_ClientUXSettings, класс WMI клиента'
+      href: core/clients/sdk/ccm_clientuxsettings-client-wmi-class.md
+      items:
+        - name: Метод GetAutoInstallRequiredSoftwaretoNonBusinessHours
+          href: core/clients/sdk/getautoinstallrequiredsoftwaretononbusinesshours-method.md
+        - name: Метод GetBusinessHours
+          href: core/clients/sdk/getbusinesshours-method-in-class-ccm_clientuxsettings.md
+        - name: Метод GetSuppressComputerActivityInPresentationMode
+          href: core/clients/sdk/getsuppresscomputeractivityinpresentationmode-method.md
+        - name: Метод SetAutoInstallRequiredSoftwaretoNonBusinessHours
+          href: core/clients/sdk/setautoinstallrequiredsoftwaretononbusinesshours-method.md
+        - name: Метод SetBusinessHours
+          href: core/clients/sdk/setbusinesshours-method-in-class-ccm_clientuxsettings.md
+        - name: Метод SetSuppressComputerActivityInPresentationMode
+          href: core/clients/sdk/setsuppresscomputeractivityinpresentationmode-method.md
+    - name: 'CCM_EvaluationState, класс WMI клиента'
+      href: core/clients/sdk/ccm_evaluationstate-client-wmi-class.md
+    - name: 'CCM_InstalledDeploymentType, класс WMI клиента'
+      href: core/clients/sdk/ccm_installeddeploymenttype-client-wmi-class.md
+    - name: 'CCM_InstanceEvent, класс WMI клиента'
+      href: core/clients/sdk/ccm_instanceevent-client-wmi-class.md
+    - name: 'CCM_NetworkSettings, класс WMI клиента'
+      href: core/clients/sdk/ccm_networksettings-client-wmi-class.md
+    - name: 'CCM_PowerManagementClientOptoutSetting, класс WMI клиента'
+      href: core/clients/sdk/ccm_powermanagementclientoptoutsetting-client-wmi-class.md
+    - name: 'CCM_PowerManagementSettings, класс WMI клиента'
+      href: core/clients/sdk/ccm_powermanagementsettings-client-wmi-class.md
+      items:
+        - name: Метод SetPowerManagementSettings
+          href: core/clients/sdk/setpowermanagementsettings-method-in-class-ccm_powermanagementsettings.md
+    - name: 'CCM_Program, класс WMI клиента'
+      href: core/clients/sdk/ccm_program-client-wmi-class.md
+    - name: 'CCM_ProgramsManager, класс WMI клиента'
+      href: core/clients/sdk/ccm_programsmanager-client-wmi-class.md
+      items:
+        - name: Метод CancelDownload
+          href: core/clients/sdk/canceldownload-method-in-class-ccm_programsmanager.md
+        - name: Метод ExecuteProgram
+          href: core/clients/sdk/executeprogram-method-in-class-ccm_programsmanager.md
+        - name: Метод ExecutePrograms
+          href: core/clients/sdk/executeprograms-method-in-class-ccm_programsmanager.md
+        - name: Метод PostponeProgramsToNonBusinessHours
+          href: core/clients/sdk/postponeprogramstononbusinesshours-method-in-class-ccm_programsmanager.md
+    - name: 'CCM_RemoteControlManager, класс WMI клиента'
+      href: core/clients/sdk/ccm_remotecontrolmanager-client-wmi-class.md
+      items:
+        - name: Метод GetRemCtrlSettings
+          href: core/clients/sdk/getremctrlsettings-method-in-class-ccm_remotecontrolmanager.md
+        - name: Метод SetRemCtrlSettings
+          href: core/clients/sdk/setremctrlsettings-method-in-class-ccm_remotecontrolmanager.md
+    - name: 'CCM_RequestedAppPolicy, класс WMI клиента'
+      href: core/clients/sdk/ccm_requested-apppolicy-client-wmi-class.md
+      items:
+        - name: Метод QueueRequestedAppPolicy
+          href: core/clients/sdk/queuerequestedapppolicy-method-in-class-ccm_requestedapppolicy.md
+    - name: 'CCM_RequestedAppPolicyActivation, класс WMI клиента'
+      href: core/clients/sdk/ccm_requestedapppolicyactivation-client-wmi-class.md
+      items:
+        - name: Метод QueueAppPolicyActivationAction
+          href: core/clients/sdk/queueapppolicyactivationaction-method-in-class-ccm_requestedapppolicyactivation.md
+    - name: 'CCM_ServiceWindow, класс WMI клиента'
+      href: core/clients/sdk/ccm_servicewindow-client-wmi-class.md
+    - name: 'CCM_ServiceWindowManager, класс WMI клиента'
+      href: core/clients/sdk/ccm_servicewindowmanager-client-wmi-class.md
+      items:
+        - name: Метод GetCurrentWindowAvailableTime
+          href: core/clients/sdk/getcurrentwindowavailabletime-method-in-class-ccm_servicewindowmanager.md
+        - name: Метод GetNextServiceWindowID
+          href: core/clients/sdk/getnextservicewindowid-method-in-class-ccm_servicewindowmanager.md
+        - name: Метод IsFutureWindowAvailable
+          href: core/clients/sdk/isfuturewindowavailable-method-in-class-ccm_servicewindowmanager.md
+        - name: Метод IsWindowAvailableNow
+          href: core/clients/sdk/iswindowavailablenow-method-in-class-ccm_servicewindowmanager.md
+    - name: 'CCM_SoftwareBase, класс WMI клиента'
+      href: core/clients/sdk/ccm_softwarebase-client-wmi-class.md
+    - name: 'CCM_SoftwareCatalogUtilities, класс WMI клиента'
+      href: core/clients/sdk/ccm_softwarecatalogutilities-client-wmi-class.md
+      items:
+        - name: Метод ApplyPolicyEx
+          href: core/clients/sdk/applypolicyex-method-in-class-ccm_softwarecatalogutilities.md
+        - name: Метод GetClientVersion
+          href: core/clients/sdk/getclientversion-method-in-class-ccm_softwarecatalogutilities.md
+        - name: Метод GetDeviceId
+          href: core/clients/sdk/getdeviceid-method-in-class-ccm_softwarecatalogutilities.md
+        - name: Метод GetPolicyState
+          href: core/clients/sdk/getpolicystate-method-in-class-ccm_softwarecatalogutilities.md
+        - name: Метод GetPortalUrlValue
+          href: core/clients/sdk/getportalurlvalue-method-in-class-ccm_softwarecatalogutilities.md
+        - name: Метод VerifySignature
+          href: core/clients/sdk/verifysignature-method-in-class-ccm_softwarecatalogutilities.md
+    - name: 'CCM_SoftwareUpdate, класс WMI клиента'
+      href: core/clients/sdk/ccm_softwareupdate-client-wmi-class.md
+    - name: 'CCM_SoftwareUpdatesManager, класс WMI клиента'
+      href: core/clients/sdk/ccm_softwareupdatesmanager-client-wmi-class.md
+      items:
+        - name: Метод CancelDownload
+          href: core/clients/sdk/canceldownload-method-in-class-ccm_softwareupdatesmanager.md
+        - name: Метод GetAllUpdatesUserExperience
+          href: core/clients/sdk/getallupdatesuserexperience-method-in-class-ccm_softwareupdatesmanager.md
+        - name: Метод InstallUpdates
+          href: core/clients/sdk/installupdates-method-in-class-ccm_softwareupdatesmanager.md
+        - name: Метод PostponeUpdatesToNonBusinessHours
+          href: core/clients/sdk/postponeupdatestononbusinesshours-method-in-class-ccm_softwareupdatesmanager.md
+        - name: Метод SetAllUpdatesUserExperience
+          href: core/clients/sdk/setallupdatesuserexperience-method-in-class-ccm_softwareupdatesmanager.md
+    - name: 'CCM_UserLogonEvents, класс WMI клиента'
+      href: core/clients/sdk/ccm_userlogonevents-client-wmi-class.md
+- name: Классы WMI серверов для состояния клиента
+  items:
+    - name: 'SMS_CH_CheckSummary, класс WMI сервера'
+      href: core/clients/status/sms_ch_checksummary-server-wmi-class.md
+    - name: 'SMS_CH_EvalResult, класс WMI сервера'
+      href: core/clients/status/sms_ch_evalresult-server-wmi-class.md
+    - name: 'SMS_CH_Settings, класс WMI сервера'
+      href: core/clients/status/sms_ch_settings-server-wmi-class.md
+    - name: 'SMS_CH_SummaryCurrent, класс WMI сервера'
+      href: core/clients/status/sms_ch_summarycurrent-server-wmi-class.md
+    - name: 'SMS_CH_SummaryHistory, класс WMI сервера'
+      href: core/clients/status/sms_ch_summaryhistory-server-wmi-class.md
+    - name: 'SMS_CN_ClientStatus, класс WMI сервера'
+      href: core/clients/status/sms_cn_clientstatus-server-wmi-class.md
+      items:
+        - name: Метод GetOnlineCount
+          href: core/clients/status/getonlinecount-method-in-class-sms_cn_clientstatus.md
+- name: 'Collections, классы WMI сервера'
+  items:
+    - name: 'SMS_CM_RES_COLL_CollectionID, класс WMI сервера'
+      href: core/clients/collections/sms_cm_res_coll_collectionid-server-wmi-class.md
+    - name: 'SMS_Collection, класс WMI сервера'
+      href: core/clients/collections/sms_collection-server-wmi-class.md
+      items:
+        - name: Метод AddMembershipRule
+          href: core/clients/collections/addmembershiprule-method-in-class-sms_collection.md
+        - name: Метод AddMembershipRules
+          href: core/clients/collections/addmembershiprules-method-in-class-sms_collection.md
+        - name: Метод ApproveClients
+          href: core/clients/collections/approveclients-method-in-class-sms_collection.md
+        - name: Метод BlockClients
+          href: core/clients/collections/blockclients-method-in-class-sms_collection.md
+        - name: Метод ChangeOwnership
+          href: core/clients/collections/changeownership-method-in-class-sms_collection.md
+        - name: Метод ClearDeploymentLocksForCollection
+          href: core/clients/collections/cleardeploymentlocksforcollection-method-in-class-sms_collection.md
+        - name: Метод ClearDeviceCategory
+          href: core/clients/collections/cleardevicecategory-method-in-class-sms_collection.md
+        - name: Метод ClearLastNBSAdvForCollection
+          href: core/clients/collections/clearlastnbsadvforcollection-method-in-class-sms_collection.md
+        - name: Метод ClearLastNBSAdvForMachines
+          href: core/clients/collections/clearlastnbsadvformachines-method-in-class-sms_collection.md
+        - name: Метод ClientEditions
+          href: core/clients/collections/clienteditions-method-in-class-sms_collection.md
+        - name: Метод CreateCCR
+          href: core/clients/collections/createccr-method-in-class-sms_collection.md
+        - name: Метод CreateCCRs
+          href: core/clients/collections/createccrs-method-in-class-sms_collection.md
+        - name: Метод DeleteAllMembers
+          href: core/clients/collections/deleteallmembers-method-in-class-sms_collection.md
+        - name: Метод DeleteMembershipRule
+          href: core/clients/collections/deletemembershiprule-method-in-class-sms_collection.md
+        - name: Метод DeleteMembershipRules
+          href: core/clients/collections/deletemembershiprules-method-in-class-sms_collection.md
+        - name: Метод FindResourceSite
+          href: core/clients/collections/findresourcesite-method-in-class-sms_collection.md
+        - name: Метод FindMachineSite
+          href: core/clients/collections/findmachinesite-method-in-class-sms_collection.md
+        - name: Метод GetNumResults
+          href: core/clients/collections/getnumresults-method-in-class-sms_collection.md
+        - name: Метод GenerateCCRByName
+          href: core/clients/collections/generateccrbyname-method-in-class-sms_collecton.md
+        - name: Метод GetTotalNumResults
+          href: core/clients/collections/gettotalnumresults-method-in-class-sms_collection.md
+        - name: Метод ReassignClientsToSite
+          href: core/clients/collections/reassignclientstosite-method-in-class-sms_collection.md
+        - name: Метод RequestRefresh
+          href: core/clients/collections/requestrefresh-method-in-class-sms_collection.md
+        - name: Метод SetDeviceCategory
+          href: core/clients/collections/setdevicecategory-method-in-class-sms_collection.md
+        - name: Метод SetMemberOrder
+          href: core/clients/collections/setmemberorder-method-in-class-sms_collection.md
+        - name: UpdateVisibilityInEPDashBoard
+          href: core/clients/collections/updatevisibilityinepdashboard-in-class-sms_collection.md
+        - name: Метод VerifyNoCircularDependencies
+          href: core/clients/collections/verifynocirculardependencies-method-in-class-sms_collection.md
+    - name: 'SMS_CollectionBucket, класс WMI сервера'
+      href: core/clients/collections/sms_collectionbucket-server-wmi-class.md
+    - name: 'SMS_CollectionDependencies, класс WMI сервера'
+      href: core/clients/collections/sms_collectiondependencies-server-wmi-class.md
+    - name: 'SMS_CollectionMember, класс WMI сервера'
+      href: core/clients/collections/sms_collectionmember-server-wmi-class.md
+    - name: 'SMS_CollectionMember_a, класс WMI сервера'
+      href: core/clients/collections/sms_collectionmember_a-server-wmi-class.md
+    - name: 'SMS_CollectionPermission, класс WMI сервера'
+      href: core/clients/collections/sms_collectionpermission-server-wmi-class.md
+    - name: 'SMS_CollectionRule, класс WMI сервера'
+      href: core/clients/collections/sms_collectionrule-server-wmi-class.md
+    - name: 'SMS_CollectionRuleDirect, класс WMI сервера'
+      href: core/clients/collections/sms_collectionruledirect-server-wmi-class.md
+    - name: 'SMS_CollectionRuleExcludeCollection, класс WMI сервера'
+      href: core/clients/collections/sms_collectionruleexcludecollection-server-wmi-class.md
+    - name: 'SMS_CollectionRuleIncludeCollection, класс WMI сервера'
+      href: core/clients/collections/sms_collectionruleincludecollection-server-wmi-class.md
+    - name: 'SMS_CollectionRuleQuery, класс WMI сервера'
+      href: core/clients/collections/sms_collectionrulequery-server-wmi-class.md
+      items:
+        - name: Метод ValidateQuery
+          href: core/clients/collections/validatequery-method-in-class-sms_collectionrulequery.md
+    - name: 'SMS_CollectionSettings, класс WMI сервера'
+      href: core/clients/collections/sms_collectionsettings-server-wmi-class.md
+    - name: 'SMS_CollectionToPkgAdvert_a, класс WMI сервера'
+      href: core/clients/collections/sms_collectiontopkgadvert_a-server-wmi-class.md
+    - name: 'SMS_CombinedDeviceResources, класс WMI сервера'
+      href: core/clients/collections/sms_combineddeviceresources-server-wmi-class.md
+    - name: 'SMS_CombinedResources, класс WMI сервера'
+      href: core/clients/collections/sms_combinedresources-server-wmi-class.md
+    - name: 'SMS_CombinedUserResources, класс WMI сервера'
+      href: core/clients/collections/sms_combineduserresources-server-wmi-class.md
+    - name: 'SMS_DirFullCollMem, класс WMI сервера'
+      href: core/clients/collections/sms_dirfullcollmem-server-wmi-class.md
+    - name: 'SMS_FullCollectionMembership, класс WMI сервера'
+      href: core/clients/collections/sms_fullcollectionmembership-server-wmi-class.md
+- name: Классы WMI серверов для параметров соответствия
+  items:
+    - name: Сведения о классах WMI серверов для параметров соответствия
+      href: compliance/compliance-settings-dcm-server-wmi-classes.md
+    - name: 'SMS_AdvancedThreatProtectionSettings, класс WMI сервера'
+      href: compliance/sms_advancedthreatprotectionsettings-server-wmi-class.md
+    - name: 'SMS_BaselineAssignment, класс WMI сервера'
+      href: compliance/sms_baselineassignment-server-wmi-class.md
+    - name: 'SMS_Category_LocalizedProperties, класс WMI сервера'
+      href: compliance/sms_category_localizedproperties-server-wmi-class.md
+    - name: 'SMS_CategoryInstance, класс WMI сервера'
+      href: compliance/sms_categoryinstance-server-wmi-class.md
+    - name: 'SMS_CategoryInstanceBase, класс WMI сервера'
+      href: compliance/sms_categoryinstancebase-server-wmi-class.md
+    - name: 'SMS_CategoryInstanceMembership, класс WMI сервера'
+      href: compliance/sms_categoryinstancemembership-server-wmi-class.md
+    - name: 'SMS_CI_ComplianceHistory, класс WMI сервера'
+      href: compliance/sms_ci_compliancehistory-server-wmi-class.md
+    - name: 'SMS_CI_ComplianceSummary, класс WMI сервера'
+      href: compliance/sms_ci_compliancesummary-server-wmi-class.md
+    - name: 'SMS_CI_CurrentComplianceStatus, класс WMI сервера'
+      href: compliance/sms_ci_currentcompliancestatus-server-wmi-class.md
+    - name: 'SMS_CI_LocalizedEulas, класс WMI сервера'
+      href: compliance/sms_ci_localizedeulas-server-wmi-class.md
+    - name: 'SMS_CI_LocalizedProperties, класс WMI сервера'
+      href: compliance/sms_ci_localizedproperties-server-wmi-class.md
+    - name: 'SMS_CIAssignmentBaseClass, класс WMI сервера'
+      href: compliance/sms_ciassignmentbaseclass-server-wmi-class.md
+    - name: 'SMS_CIAssignmentToCI, класс WMI сервера'
+      href: compliance/sms_ciassignmenttoci-server-wmi-class.md
+    - name: 'SMS_CIRelation_Flat, класс WMI сервера'
+      href: compliance/sms_cirelation_flat-server-wmi-class.md
+    - name: 'SMS_CIContentPackage, класс WMI сервера'
+      href: compliance/sms_cicontentpackage-server-wmi-class.md
+    - name: 'SMS_CompliancePolicySettings, класс WMI сервера'
+      href: compliance/sms_compliancepolicysettings-server-wmi-class.md
+    - name: 'SMS_ConfigurationBaselineInfo, класс WMI сервера'
+      href: compliance/sms_configurationbaselineinfo-server-wmi-class.md
+    - name: 'SMS_ConfigurationItem, класс WMI сервера'
+      href: compliance/sms_configurationitem-server-wmi-class.md
+      items:
+        - name: Метод AcceptEULA
+          href: compliance/accepteula-method-in-class-sms_configurationitem.md
+        - name: Метод GetEULA
+          href: compliance/geteula-method-in-class-sms_configurationitem.md
+        - name: Метод GetSDMDefinition
+          href: compliance/getsdmdefinition-method-in-class-sms_configurationitem.md
+        - name: Метод SetEnforcement
+          href: compliance/setenforcement-method-in-class-sms_configurationitem.md
+    - name: 'SMS_ConfigurationItemBaseClass, класс WMI сервера'
+      href: compliance/sms_configurationitembaseclass-server-wmi-class.md
+    - name: 'SMS_ConfigurationItemLatestBaseClass, класс WMI сервера'
+      href: compliance/sms_configurationitemlatestbaseclass-server-wmi-class.md
+    - name: 'SMS_ConfigurationItemRules, класс WMI сервера'
+      href: compliance/sms_configurationitemrules-server-wmi-class.md
+    - name: 'SMS_ConfigurationItemSettings, класс WMI сервера'
+      href: compliance/sms_configurationitemsettings-server-wmi-class.md
+    - name: 'SMS_ConfigurationItemSettingReference, класс WMI сервера'
+      href: compliance/sms_configurationitemsettingreference-server-wmi-class.md
+    - name: 'SMS_ConfigurationPlatform, класс WMI сервера'
+      href: compliance/sms_configurationplatform-server-wmi-class.md
+    - name: 'SMS_ConfigurationPolicy, класс WMI сервера'
+      href: compliance/sms_configurationpolicy-server-wmi-class.md
+      items:
+        - name: Метод AcceptEULA
+          href: compliance/accepteula-method-in-class-sms_configurationpolicy.md
+        - name: Метод GetEULA
+          href: compliance/geteula-method-in-class-sms_configurationpolicy.md
+    - name: 'SMS_ConfigurationPolicyAssignment, класс WMI сервера'
+      href: compliance/sms_configurationpolicyassignment-server-wmi-class.md
+    - name: 'SMS_ConfigurationPolicyBase, класс WMI сервера'
+      href: compliance/sms_configurationpolicybase-server-wmi-class.md
+      items:
+        - name: Метод AcceptEULA
+          href: compliance/accepteula-method-in-class-sms_configurationpolicybase.md
+        - name: Метод GetEULA
+          href: compliance/geteula-method-in-class-sms_configurationpolicybase.md
+    - name: 'SMS_DCMDeploymentCompliantAssetDetails, класс WMI сервера'
+      href: compliance/sms_dcmdeploymentcompliantassetdetails-server-wmi-class.md
+    - name: 'SMS_DCMDeploymentCompliantDetailsPerAsset, класс WMI сервера'
+      href: compliance/sms_dcmdeploymentcompliantdetailsperasset-server-wmi-class.md
+    - name: 'SMS_DCMDeploymentCompliantStatus, класс WMI сервера'
+      href: compliance/sms_dcmdeploymentcompliantstatus-server-wmi-class.md
+    - name: 'SMS_DCMDeploymentErrorAssetDetails, класс WMI сервера'
+      href: compliance/sms_dcmdeploymenterrorassetdetails-server-wmi-class.md
+    - name: 'SMS_DCMDeploymentErrorDetailsPerAsset, класс WMI сервера'
+      href: compliance/sms_dcmdeploymenterrordetailsperasset-server-wmi-class.md
+    - name: 'SMS_DCMDeploymentErrorStatus, класс WMI сервера'
+      href: compliance/sms_dcmdeploymenterrorstatus-server-wmi-class.md
+    - name: 'SMS_DCMDeploymentNonCompliantAssetDetails, класс WMI сервера'
+      href: compliance/sms_dcmdeploymentnoncompliantassetdetails-server-wmi-class.md
+    - name: 'SMS_DCMDeploymentNonCompliantStatus, класс WMI сервера'
+      href: compliance/sms_dcmdeploymentnoncompliantstatus-server-wmi-class.md
+    - name: 'SMS_G_System_CI_ComplianceState, класс WMI сервера'
+      href: compliance/sms_g_system_ci_compliancestate-server-wmi-class.md
+    - name: 'SMS_HealthAttestationDetails, класс WMI сервера'
+      href: compliance/sms_healthattestationdetails-server-wmi-class.md
+    - name: 'SMS_MAMPolicyTemplate, класс WMI сервера'
+      href: compliance/sms_mampolicytemplate-server-wmi-class.md
+    - name: 'SMS_PassportForWorkProfileSettings, класс WMI сервера'
+      href: compliance/sms_passportforworkprofilesettings-server-wmi-class.md
+    - name: 'SMS_PfxCertificateSettings, класс WMI сервера'
+      href: compliance/sms_pfxcertificatesettings-server-wmi-class.md
+    - name: 'SMS_SDMPackageLocalizedData, класс WMI сервера'
+      href: compliance/sms_sdmpackagelocalizeddata-server-wmi-class.md
+    - name: 'SMS_SettingsDefinitionBase, класс WMI сервера'
+      href: compliance/sms_settingsdefinitionbase-server-wmi-class.md
+      items:
+        - name: Метод AcceptEULA
+          href: compliance/accepteula-method-in-class-sms_settingsdefinitionbase.md
+        - name: Метод GetEULA
+          href: compliance/geteula-method-in-class-sms_settingsdefinitionbase.md
+    - name: 'SMS_TermsAndConditionsSettings, класс WMI сервера'
+      href: compliance/sms_termsandconditionssettings-server-wmi-class.md
+    - name: 'SMS_UserStateManagementSettings, класс WMI сервера'
+      href: compliance/sms_userstatemanagementsettings-server-wmi-class.md
+      items:
+        - name: Метод AcceptEULA
+          href: compliance/accepteula-method-in-class-sms_userstatemanagementsettings.md
+        - name: Метод GetEULA
+          href: compliance/geteula-method-in-class-sms_userstatemanagementsettings.md
+    - name: 'SMS_WSfBConfigurationData, класс WMI сервера'
+      href: compliance/sms_wsfbconfigurationdata-server-wmi-class.md
+- name: Классы WMI серверов для расширения консоли
+  items:
+    - name: Классы WMI серверов для папки консоли Configuration Manager
+      items:
+        - name: 'SMS_InstanceChangeNotification, класс WMI сервера'
+          href: core/servers/console/sms_instancechangenotification-server-wmi-class.md
+        - name: 'SMS_ObjectContainerItem, класс WMI сервера'
+          href: core/servers/console/sms_objectcontaineritem-server-wmi-class.md
+          items:
+            - name: Метод MoveMembers
+              href: core/servers/console/movemembers-method-in-class-sms_objectcontaineritem.md
+            - name: Метод MoveMembersEx
+              href: core/servers/console/movemembersex-method-in-class-sms_objectcontaineritem.md
+        - name: 'SMS_ObjectContainerNode, класс WMI сервера'
+          href: core/servers/console/sms_objectcontainernode-server-wmi-class.md
+          items:
+            - name: Метод MoveFolders
+              href: core/servers/console/movefolders-method-in-class-sms_objectcontainernode.md
+        - name: 'SMS_ObjectContentExtraInfo, класс WMI сервера'
+          href: core/servers/console/sms_objectcontentextrainfo-server-wmi-class.md
+        - name: 'SMS_ObjectContentInfo, класс WMI сервера'
+          href: core/servers/console/sms_objectcontentinfo-server-wmi-class.md
+        - name: 'SMS_RoleInObjectType, класс WMI сервера'
+          href: core/servers/console/sms_roleinobjecttype-server-wmi-class.md
+        - name: 'SMS_SearchFolder, класс WMI сервера'
+          href: core/servers/console/sms_searchfolder-server-wmi-class.md
+- name: 'Content, классы WMI сервера'
+  items:
+    - name: 'SMS_Content, класс WMI сервера'
+      href: core/servers/configure/sms_content-server-wmi-class.md
+      items:
+        - name: Метод IsOfficeContent
+          href: core/servers/configure/isofficecontent-method-in-class-sms_content.md
+    - name: 'SMS_ContentPackage, класс WMI сервера'
+      href: core/servers/configure/sms_contentpackage-server-wmi-class.md
+      items:
+        - name: Метод AddChangeNotification
+          href: core/servers/configure/addchangenotification-method-in-class-sms_contentpackage.md
+        - name: Метод AddContent
+          href: core/servers/configure/addcontent-method-in-class-sms_contentpackage.md
+        - name: Метод AddDistributionPointGroup
+          href: core/servers/configure/adddistributionpointgroup-method-in-class-sms_contentpackage.md
+        - name: Метод AddDistributionPoints
+          href: core/servers/configure/adddistributionpoints-method-in-class-sms_contentpackage.md
+        - name: Метод Commit
+          href: core/servers/configure/commit-method-in-class-sms_contentpackage.md
+        - name: Метод RefreshPkgSource
+          href: core/servers/configure/refreshpkgsource-method-in-class-sms_contentpackage.md
+        - name: Метод RemoveContent
+          href: core/servers/configure/removecontent-method-in-class-sms_contentpackage.md
+        - name: Метод SetSourceSite
+          href: core/servers/configure/setsourcesite-method-in-class-sms_contentpackage.md
+        - name: Метод Unlock
+          href: core/servers/configure/unlock-method-in-class-sms_contentpackage.md
+    - name: 'SMS_DPContentInfo, класс WMI сервера'
+      href: core/servers/configure/sms_dpcontentinfo-server-wmi-class.md
+    - name: 'SMS_DPGroupCollections, класс WMI сервера'
+      href: core/servers/configure/sms_dpgroupcollections-server-wmi-class.md
+    - name: 'SMS_DPGroupContentInfo, класс WMI сервера'
+      href: core/servers/configure/sms_dpgroupcontentinfo-server-wmi-class.md
+    - name: 'SMS_DPGroupDistributionStatus, класс WMI сервера'
+      href: core/servers/configure/sms_dpgroupdistributionstatus-server-wmi-class.md
+    - name: 'SMS_DPGroupDistributionStatusDetails, класс WMI сервера'
+      href: core/servers/configure/sms_dpgroupdistributionstatusdetails-server-wmi-class.md
+    - name: 'SMS_DPGroupInfo, класс WMI сервера'
+      href: core/servers/configure/sms_dpgroupinfo-server-wmi-class.md
+    - name: 'SMS_DPGroupMembers, класс WMI сервера'
+      href: core/servers/configure/sms_dpgroupmembers-server-wmi-class.md
+    - name: 'SMS_DPGroupPackages, класс WMI сервера'
+      href: core/servers/configure/sms_dpgrouppackages-server-wmi-class.md
+    - name: 'SMS_DPStatusDetails, класс WMI сервера'
+      href: core/servers/configure/sms_dpstatusdetails-server-wmi-class.md
+    - name: 'SMS_DPStatusInfo, класс WMI сервера'
+      href: core/servers/configure/sms_dpstatusinfo-server-wmi-class.md
+    - name: 'SMS_PackageContentServerInfo, класс WMI сервера'
+      href: core/servers/configure/sms_packagecontentserverinfo-server-wmi-class.md
+- name: Нерекомендуемые функции
+  href: misc/deprecated-functions.md
+- name: Классы WMI серверов для управления устройствами
+  href: mdm/device-management-server-wmi-classes.md
+  items:
+    - name: 'SMS_DeviceEnrollmentProfile, класс WMI сервера'
+      href: mdm/sms_deviceenrollmentprofile-server-wmi-class.md
+    - name: 'SMS_DeviceMethods, класс WMI сервера'
+      href: mdm/sms_devicemethods-server-wmi-class.md
+      items:
+        - name: Метод AllowAccess
+          href: mdm/allowaccess-method-in-class-sms_devicemethods.md
+        - name: Метод BlockAccess
+          href: mdm/blockaccess-method-in-class-sms_devicemethods.md
+        - name: Метод CancelRetire
+          href: mdm/cancelretire-method-in-class-sms_devicemethods.md
+        - name: Метод CancelWipe
+          href: mdm/cancelwipe-method-in-class-sms_devicemethods.md
+        - name: Метод RequestRetire
+          href: mdm/requestretire-method-in-class-sms_devicemethods.md
+        - name: Метод RequestWipe
+          href: mdm/requestwipe-method-in-class-sms_devicemethods.md
+    - name: 'SMS_DeviceSettingItem, класс WMI сервера'
+      href: mdm/sms_devicesettingitem-server-wmi-class.md
+    - name: 'SMS_DeviceSettingPackage, класс WMI сервера'
+      href: mdm/sms_devicesettingpackage-server-wmi-class.md
+      items:
+        - name: Метод AddChangeNotification
+          href: mdm/addchangenotification-method-in-class-sms_devicesettingpackage.md
+        - name: Метод AddDistributionPoints
+          href: mdm/adddistributionpoints-method-in-class-sms_devicesettingpackage.md
+        - name: Метод RefreshPkgSource
+          href: mdm/refreshpkgsource-method-in-class-sms_devicesettingpackage.md
+        - name: Метод SetSourceSite
+          href: mdm/setsourcesite-method-in-class-sms_devicesettingpackage.md
+        - name: Метод Unlock
+          href: mdm/unlock-method-in-class-sms_devicesettingpackage.md
+    - name: 'SMS_DeviceSettingPackageItem, класс WMI сервера'
+      href: mdm/sms_devicesettingpackageitem-server-wmi-class.md
+- name: Классы обнаружения
+  items:
+    - name: Классы WMI серверов для обнаружения
+      items:
+        - name: 'SMS_ADDomain, класс WMI сервера'
+          href: core/servers/configure/sms_addomain-server-wmi-class.md
+        - name: 'SMS_ADForest, класс WMI сервера'
+          href: core/servers/configure/sms_adforest-server-wmi-class.md
+          items:
+            - name: Метод DeleteDiscoveryData
+              href: core/servers/configure/deletediscoverydata-method-in-class-sms_adforest.md
+        - name: 'SMS_ADForestDiscoveryStatus, класс WMI сервера'
+          href: core/servers/configure/sms_adforestdiscoverystatus-server-wmi-class.md
+        - name: 'SMS_ADSite, класс WMI сервера'
+          href: core/servers/configure/sms_adsite-server-wmi-class.md
+        - name: 'SMS_ADSubnet, класс WMI сервера'
+          href: core/servers/configure/sms_adsubnet-server-wmi-class.md
+    - name: 'SMSResGen, класс COM-автоматизации'
+      href: core/servers/configure/smsresgen-com-automation-class.md
+      items:
+        - name: 'ISMSResGen, интерфейс'
+          href: core/servers/configure/ismsresgen-interface.md
+          items:
+            - name: DDRAddStringArray
+              href: core/servers/configure/ddraddstringarray.md
+            - name: DDRAddIntegerArray
+              href: core/servers/configure/ddraddintegerarray.md
+            - name: DDRAddInteger
+              href: core/servers/configure/ddraddinteger.md
+            - name: DDRNew
+              href: core/servers/configure/ddrnew.md
+            - name: DDRWrite
+              href: core/servers/configure/ddrwrite.md
+            - name: DDRAddString
+              href: core/servers/configure/ddraddstring.md
+            - name: 'DDRPropertyFlagsEnum, перечисление'
+              href: core/servers/configure/ddrpropertyflagsenum-enumeration.md
+- name: Классы WMI серверов для защиты конечных точек
+  items:
+    - name: 'SMS_AmPolicySummary, класс WMI сервера'
+      href: protect/sms_ampolicysummary-server-wmi-class.md
+    - name: 'SMS_ClientAction, класс WMI сервера'
+      href: protect/sms_clientaction-server-wmi-class.md
+    - name: 'SMS_ClientActionStatus, класс WMI сервера'
+      href: protect/sms_clientactionstatus-server-wmi-class.md
+    - name: 'SMS_ClientOperation, класс WMI сервера'
+      href: protect/sms_clientoperation-server-wmi-class.md
+      items:
+        - name: Метод AllowThreat
+          href: protect/allowthreat-method-in-class-sms_clientoperation.md
+        - name: Метод CancelClientOperation
+          href: protect/cancelclientoperation-method-in-class-sms_clientoperation.md
+        - name: Метод DeleteClientOperation
+          href: protect/deleteclientoperation-method-in-class-sms_clientoperation.md
+        - name: Метод ExcludeScanPaths
+          href: protect/excludescanpaths-method-in-class-sms_clientoperation.md
+        - name: Метод IsClientOperationAllowed
+          href: protect/isclientoperationallowed-method-in-class-sms_clientoperation.md
+        - name: Метод IsClientOperationUpdateAllowed
+          href: protect/isclientoperationupdateallowed-method-in-class-sms_clientoperation.md
+        - name: Метод InitiateClientOperation
+          href: protect/initiateclientoperation-method-in-class-sms_clientoperation.md
+        - name: Метод RestoreQuarantinedItem
+          href: protect/restorequarantineditem-method-in-class-sms_clientoperation.md
+    - name: 'SMS_ClientOperationStatus, класс WMI сервера'
+      href: protect/sms_clientoperationstatus-server-wmi-class.md
+    - name: 'SMS_EndpointProtectionDashboardBucket, класс WMI сервера'
+      href: protect/sms_endpointprotectiondashboardbucket-server-wmi-class.md
+    - name: 'SMS_EndpointProtectionHealthStatus, класс WMI сервера'
+      href: protect/sms_endpointprotectionhealthstatus-server-wmi-class.md
+    - name: 'SMS_EndpointProtectionThreatData, класс WMI сервера'
+      href: protect/sms_endpointprotectionthreatdata-server-wmi-class.md
+    - name: 'SMS_FirewallSettings, класс WMI сервера'
+      href: protect/sms_firewallsettings-server-wmi-class.md
+    - name: 'SMS_FirewallPolicy, класс WMI сервера'
+      href: protect/sms_firewallpolicy-server-wmi-class.md
+    - name: 'SMS_G_SYSTEM_AmPolicyStatus, класс WMI сервера'
+      href: protect/sms_g_system_ampolicystatus-server-wmi-class.md
+    - name: 'SMS_G_System_EndpointProtectionStatus, класс WMI сервера'
+      href: protect/sms_g_system_endpointprotectionstatus-server-wmi-class.md
+    - name: 'SMS_TopThreatsDetected, класс WMI сервера'
+      href: protect/sms_topthreatsdetected-server-wmi-class.md
+    - name: 'SMS_TopThreatPath, класс WMI сервера'
+      href: protect/sms_topthreatpath-server-wmi-class.md
+    - name: 'SMS_TopThreatSummary, класс WMI сервера'
+      href: protect/sms_topthreatsummary-server-wmi-class.md
+- name: Классы WMI гибридных серверов
+  items:
+    - name: Классы WMI серверов для управления мобильными устройствами
+      items:
+        - name: 'MDM_GenericAppConfiguration, класс WMI сервера'
+          href: mdm/mdm_genericappconfiguration-server-wmi-class.md
+        - name: 'SMS_BulkEnrollmentProfiles, класс WMI сервера'
+          href: mdm/sms_bulkenrollmentprofiles-server-wmi-class.md
+          items:
+            - name: Метод GenerateProvisioningXML
+              href: mdm/generateprovisioningxml-method-in-class-sms_bulkenrollmentprofiles.md
+        - name: 'SMS_IntuneAccountInfo, класс WMI сервера'
+          href: mdm/sms_intuneaccountinfo-server-wmi-class.md
+        - name: 'SMS_MDMAppleVppLicense, класс WMI сервера'
+          href: mdm/sms_mdmapplevpplicense-server-wmi-class.md
+        - name: 'SMS_MDMAppleVppToken, класс WMI сервера'
+          href: mdm/sms_mdmapplevpptoken-server-wmi-class.md
+          items:
+            - name: Метод SyncToken
+              href: mdm/synctoken-method-in-class-sms_mdmapplevpptoken.md
+            - name: Метод UploadToken
+              href: mdm/uploadtoken-method-in-class-sms_mdmapplevpptoken.md
+        - name: 'SMS_MDMBulkEnrollmentPackages, класс WMI сервера'
+          href: mdm/sms_mdmbulkenrollmentpackages-server-wmi-class.md
+          items:
+            - name: Метод ImportForProfile
+              href: mdm/importforprofile-method-in-class-sms_mdmbulkenrollmentpackages.md
+        - name: 'SMS_MDMBulkEnrollmentProfiles, класс WMI сервера'
+          href: mdm/sms_mdmbulkenrollmentprofiles-server-wmi-class.md
+        - name: 'SMS_MDMCorpEnrollmentProfiles, класс WMI сервера'
+          href: mdm/sms_mdmcorpenrollmentprofiles-server-wmi-class.md
+        - name: 'SMS_MDMCorpOwnedDevices, класс WMI сервера'
+          href: mdm/sms_mdmcorpowneddevices-server-wmi-class.md
+          items:
+            - name: Метод UpdateProfileIDForDevices
+              href: mdm/updateprofileidfordevices-method-in-class-sms_mdmcorpowneddevices.md
+        - name: 'SMS_MDMDeviceCategory, класс WMI сервера'
+          href: mdm/sms_mdmdevicecategory-server-wmi-class.md
+        - name: 'SMS_MDMDeviceEnrollmentManagers, класс WMI сервера'
+          href: mdm/sms_mdmdeviceenrollmentmanagers-server-wmi-class.md
+          items:
+            - name: Метод InsertMultipleResourceIds
+              href: mdm/insertmultipleresourceids-method-in-class-sms_mdmdeviceenrollmentmanagers.md
+            - name: Метод RemoveMultipleResourceIds
+              href: mdm/removemultipleresourceids-method-in-class-sms_mdmdeviceenrollmentmanagers.md
+    - name: 'SMS_WinRTSideLoadingKey, класс WMI сервера'
+      href: mdm/sms_winrtsideloadingkey-server-wmi-class.md
+- name: Классы WMI серверов миграции
+  items:
+    - name: 'SMS_MigrationCollectionInfo, класс WMI сервера'
+      href: core/migration/sms_migrationcollectioninfo-server-wmi-class.md
+      items:
+        - name: Метод GetClientsCountByCollections
+          href: core/migration/getclientscountbycollections-method-in-class-sms_migrationcollectioninfo.md
+    - name: 'SMS_MigrationDashboard, класс WMI сервера'
+      href: core/migration/sms_migrationdashboard-server-wmi-class.md
+    - name: 'SMS_MigrationDP, класс WMI сервера'
+      href: core/migration/sms_migrationdp-server-wmi-class.md
+    - name: 'SMS_MigrationEntity, класс WMI сервера'
+      href: core/migration/sms_migrationentity-server-wmi-class.md
+      items:
+        - name: Метод ExcludeAndInclude
+          href: core/migration/excludeandinclude-method-in-class-sms_migrationentity.md
+        - name: Метод GetEntityReferences
+          href: core/migration/getentityreferences-method-in-class-sms_migrationentity.md
+    - name: 'SMS_MigrationEntityDependency, класс WMI сервера'
+      href: core/migration/sms_migrationentitydependency-server-wmi-class.md
+    - name: 'SMS_MigrationExpandingScope, класс WMI сервера'
+      href: core/migration/sms_migrationexpandingscope-server-wmi-class.md
+    - name: 'SMS_MigrationJob, класс WMI сервера'
+      href: core/migration/sms_migrationjob-server-wmi-class.md
+      items:
+        - name: Метод Start
+          href: core/migration/start-method-in-class-sms_migrationjob.md
+        - name: Метод Stop
+          href: core/migration/stop-method-in-class-sms_migrationjob.md
+    - name: 'SMS_MigrationJobEntityRelation, класс WMI сервера'
+      href: core/migration/sms_migrationjobentityrelation-server-wmi-class.md
+    - name: 'SMS_MigrationSiteMapping, класс WMI сервера'
+      href: core/migration/sms_migrationsitemapping-server-wmi-class.md
+      items:
+        - name: Метод ActivateHierarchy
+          href: core/migration/activatehierarchy-method-in-class-sms_migrationsitemapping.md
+        - name: Метод CheckDecommissionState
+          href: core/migration/checkdecommissionstate-method-in-class-sms_migrationsitemapping.md
+        - name: Метод CleanupHierarchyData
+          href: core/migration/cleanuphierarchydata-method-in-class-sms_migrationsitemapping.md
+        - name: Метод Decommission
+          href: core/migration/decommission-method-in-class-sms_migrationsitemapping.md
+        - name: Метод Resuscitate
+          href: core/migration/resuscitate-method-in-class-sms_migrationsitemapping.md
+        - name: Метод Sync
+          href: core/migration/sync-method-in-class-sms_migrationsitemapping.md
+    - name: 'SMS_MigrationSourceSite, класс WMI сервера'
+      href: core/migration/sms_migrationsourcesite-server-wmi-class.md
+- name: Устаревшие классы
+  href: misc/obsolete-classes.md
+- name: Классы развертывания ОС
+  items:
+    - name: Схема поддерживаемых платформ для драйвера развертывания ОС
+      href: osd/operating-system-deployment-driver-supported-platforms-schema.md
+      items:
+        - name: PlatformApplicabilityCondition
+          href: osd/platformapplicabilitycondition.md
+        - name: PlatformApplicabilityConditions
+          href: osd/platformapplicabilityconditions.md
+        - name: Query1
+          href: osd/query1.md
+        - name: Query2
+          href: osd/query2.md
+    - name: Классы WMI серверов для развертывания ОС
+      items:
+        - name: 'SMS_BootImagePackage, класс WMI сервера'
+          href: osd/sms_bootimagepackage-server-wmi-class.md
+          items:
+            - name: Метод AddChangeNotification
+              href: osd/addchangenotification-method-in-class-sms_bootimagepackage.md
+            - name: Метод AddDistributionPoints
+              href: osd/adddistributionpoints-method-in-class-sms_bootimagepackage.md
+            - name: Метод DeleteContextID
+              href: osd/deletecontextid-method-in-class-sms_bootimagepackage.md
+            - name: Метод ExportDefaultBootImage
+              href: osd/exportdefaultbootimage-method-in-class-sms_bootimagepackage.md
+            - name: Метод GetImageProperties
+              href: osd/getimageproperties-method-in-class-sms_bootimagepackage.md
+            - name: Метод QueryOSDBinaryInjectionStatus
+              href: osd/queryosdbinaryinjectionstatus-method-in-class-sms_bootimagepackage.md
+            - name: Метод RefreshPkgSource
+              href: osd/refreshpkgsource-method-in-class-sms_bootimagepackage.md
+            - name: Метод ReloadImageProperties
+              href: osd/reloadimageproperties-method-in-class-sms_bootimagepackage.md
+            - name: Метод SetSourceSite
+              href: osd/setsourcesite-method-in-class-sms_bootimagepackage.md
+            - name: Метод Unlock
+              href: osd/unlock-method-in-class-sms_bootimagepackage.md
+            - name: Метод UpdateDefaultImage
+              href: osd/updatedefaultimage-method-in-class-sms_bootimagepackage.md
+            - name: Метод UpdateImage
+              href: osd/updateimage-method-in-class-sms_bootimagepackage.md
+            - name: Метод UpdateOptionalComponents
+              href: osd/updateoptionalcomponents-method-in-class-sms_bootimagepackage.md
+        - name: 'SMS_BootImagePackage_DriverRef, класс WMI сервера'
+          href: osd/sms_bootimagepackage_driverref-server-wmi-class.md
+        - name: 'SMS_Certificate, класс WMI сервера'
+          href: osd/sms_certificate-server-wmi-class.md
+        - name: 'SMS_CertificateData, класс WMI сервера'
+          href: osd/sms_certificatedata-server-wmi-class.md
+          items:
+            - name: Метод SubmitCertificate
+              href: osd/submitcertificate-method-in-class-sms_certificatedata.md
+            - name: Метод DeleteCertificate
+              href: osd/deletecertificate-method-in-class-sms_certificatedata.md
+        - name: 'SMS_CertificateInfo, класс WMI сервера'
+          href: osd/sms_certificateinfo-server-wmi-class.md
+          items:
+            - name: Метод BlockCertificate
+              href: osd/blockcertificate-method-in-class-sms_certificateinfo.md
+        - name: 'SMS_CollectionVariable, класс WMI сервера'
+          href: osd/sms_collectionvariable-server-wmi-class.md
+        - name: 'SMS_Driver, класс WMI сервера'
+          href: osd/sms_driver-server-wmi-class.md
+          items:
+            - name: Метод CreateFromINF
+              href: osd/createfrominf-method-in-class-sms_driver.md
+            - name: Метод CreateFromINFs
+              href: osd/createfrominfs-method-in-class-sms_driver.md
+            - name: Метод CreateFromOEM
+              href: osd/createfromoem-method-in-class-sms_driver.md
+        - name: 'SMS_DriverContainer, класс WMI сервера'
+          href: osd/sms_drivercontainer-server-wmi-class.md
+        - name: 'SMS_Driver_Details, класс WMI сервера'
+          href: osd/sms_driver_details-server-wmi-class.md
+        - name: 'SMS_DriverPackage, класс WMI сервера'
+          href: osd/sms_driverpackage-server-wmi-class.md
+          items:
+            - name: Метод AddChangeNotification
+              href: osd/addchangenotification-method-in-class-sms_driverpackage.md
+            - name: Метод AddDistributionPoints
+              href: osd/adddistributionpoints-method-in-class-sms_driverpackage.md
+            - name: Метод AddDriverContent
+              href: osd/adddrivercontent-method-in-class-sms_driverpackage.md
+            - name: Метод CheckSourceFolder
+              href: osd/checksourcefolder-method-in-class-sms_driverpackage.md
+            - name: Метод RebuildPackage
+              href: osd/rebuildpackage-method-in-class-sms_driverpackage.md
+            - name: Метод RefreshPkgSource
+              href: osd/refreshpkgsource-method-in-class-sms_driverpackage.md
+            - name: Метод RemoveDriverContent
+              href: osd/removedrivercontent-method-in-class-sms_driverpackage.md
+            - name: Метод SetSourceSite
+              href: osd/setsourcesite-method-in-class-sms_driverpackage.md
+            - name: Метод Unlock
+              href: osd/unlock-method-in-class-sms_driverpackage.md
+            - name: Метод ValidateNewPackageSource
+              href: osd/validatenewpackagesource-method-in-class-sms_driverpackage.md
+        - name: 'SMS_DriverModel, класс WMI сервера'
+          href: osd/sms_drivermodel-server-wmi-class.md
+        - name: 'SMS_FailedImageUpdateView, класс WMI сервера'
+          href: osd/sms_failedimageupdateview-server-wmi-class.md
+        - name: 'SMS_ImageDiskInformation, класс WMI сервера'
+          href: osd/sms_imagediskinformation-server-wmi-class.md
+        - name: 'SMS_ImageInformation, класс WMI сервера'
+          href: osd/sms_imageinformation-server-wmi-class.md
+        - name: 'SMS_ImagePackage, класс WMI сервера'
+          href: osd/sms_imagepackage-server-wmi-class.md
+          items:
+            - name: Метод AddChangeNotification
+              href: osd/addchangenotification-method-in-class-sms_imagepackage.md
+            - name: Метод AddDistributionPoints
+              href: osd/adddistributionpoints-method-in-class-sms_imagepackage.md
+            - name: Метод GetImageProperties
+              href: osd/getimageproperties-method-in-class-sms_imagepackage.md
+            - name: Метод RefreshPkgSource
+              href: osd/refreshpkgsource-method-in-class-sms_imagepackage.md
+            - name: Метод ReloadImageProperties
+              href: osd/reloadimageproperties-method-in-class-sms_imagepackage.md
+            - name: Метод RunOfflineServicingManager
+              href: osd/runofflineservicingmanager-method-in-class-sms_imagepackage.md
+            - name: Метод SetSourceSite
+              href: osd/setsourcesite-method-in-class-sms_imagepackage.md
+            - name: Метод Unlock
+              href: osd/unlock-method-in-class-sms_imagepackage.md
+        - name: 'SMS_ImageServicingProgress, класс WMI сервера'
+          href: osd/sms_imageservicingprogress-server-wmi-class.md
+        - name: 'SMS_ImageServicingSchedule, класс WMI сервера'
+          href: osd/sms_imageservicingschedule-server-wmi-class.md
+        - name: 'SMS_ImageServicingScanRequest, класс WMI сервера'
+          href: osd/sms_imageservicingscanrequest-server-wmi-class.md
+        - name: 'SMS_ImageServicingScheduledImage, класс WMI сервера'
+          href: osd/sms_imageservicingscheduledimage-server-wmi-class.md
+        - name: 'SMS_ImageServicingScheduledUpdate, класс WMI сервера'
+          href: osd/sms_imageservicingscheduledupdate-server-wmi-class.md
+        - name: 'SMS_ImageUpdateHistory, класс WMI сервера'
+          href: osd/sms_imageupdatehistory-server-wmi-class.md
+        - name: 'SMS_ImageUpdateStatus, класс WMI сервера'
+          href: osd/sms_imageupdatestatus-server-wmi-class.md
+        - name: 'SMS_ImageUpdateStatusView, класс WMI сервера'
+          href: osd/sms_imageupdatestatusview-server-wmi-class.md
+        - name: 'SMS_MachineSettings, класс WMI сервера'
+          href: osd/sms_machinesettings-server-wmi-class.md
+        - name: 'SMS_MachineVariable, класс WMI сервера'
+          href: osd/sms_machinevariable-server-wmi-class.md
+        - name: 'SMS_OperatingSystemInstallPackage, класс WMI сервера'
+          href: osd/sms_operatingsysteminstallpackage-server-wmi-class.md
+          items:
+            - name: Метод AddChangeNotification
+              href: osd/addchangenotification-method-in-class-sms_operatingsysteminstallpackage.md
+            - name: Метод AddDistributionPoints
+              href: osd/adddistributionpoints-method-in-class-sms_operatingsysteminstallpackage.md
+            - name: Метод GetImageProperties
+              href: osd/getimageproperties-method-in-class-sms_operatingsysteminstallpackage.md
+            - name: Метод RefreshPkgSource
+              href: osd/refreshpkgsource-method-in-class-sms_operatingsysteminstallpackage.md
+            - name: Метод ReloadImageProperties
+              href: osd/reloadimageproperties-method-in-class-sms_operatingsysteminstallpackage.md
+            - name: Метод SetSourceSite
+              href: osd/setsourcesite-method-in-class-sms_operatingsysteminstallpackage.md
+            - name: Метод Unlock
+              href: osd/unlock-method-in-class-sms_operatingsysteminstallpackage.md
+        - name: 'SMS_OSDeploymentConfig, класс WMI сервера'
+          href: osd/sms_osdeploymentconfig-server-wmi-class.md
+        - name: 'SMS_OSDeploymentKitInstalledVersion, класс WMI сервера'
+          href: osd/sms_osdeploymentkitinstalledversion-server-wmi-class.md
+        - name: 'SMS_OSDeploymentKitSupportedPlatforms, класс WMI сервера'
+          href: osd/sms_osdeploymentkitsupportedplatforms-server-wmi-class.md
+        - name: 'SMS_OSDeploymentKitWinPEOptionalComponent, класс WMI сервера'
+          href: osd/sms_osdeploymentkitwinpeoptionalcomponent-server-wmi-class.md
+        - name: 'SMS_PXECertificateInfo, класс WMI сервера'
+          href: osd/sms_pxecertificateinfo-server-wmi-class.md
+        - name: 'SMS_StateInformation, класс WMI сервера'
+          href: osd/sms_stateinformation-server-wmi-class.md
+        - name: 'SMS_StateMigration, класс WMI сервера'
+          href: osd/sms_statemigration-server-wmi-class.md
+          items:
+            - name: Метод AddAssociation
+              href: osd/addassociation-method-in-class-sms_statemigration.md
+            - name: Метод AddAssociationEx
+              href: osd/addassociationex-method-in-class-sms_statemigration.md
+            - name: Метод DeleteAssociation
+              href: osd/deleteassociation-method-in-class-sms_statemigration.md
+            - name: Метод GetEncryptDecryptKey
+              href: osd/getencryptdecryptkey-method-in-class-sms_statemigration.md
+        - name: 'SMS_StateMigrationUserNames, класс WMI сервера'
+          href: osd/sms_statemigrationusernames-server-wmi-class.md
+        - name: 'SMS_TaskSequence, класс WMI сервера'
+          href: osd/sms_tasksequence-server-wmi-class.md
+          items:
+            - name: Метод ExportXml
+              href: osd/exportxml-method-in-class-sms_tasksequence.md
+            - name: Метод LoadFromXml
+              href: osd/loadfromxml-method-in-class-sms_tasksequence.md
+            - name: Метод SaveToXml
+              href: osd/savetoxml-method-in-class-sms_tasksequence.md
+        - name: 'SMS_TaskSequence_Action, класс WMI сервера'
+          href: osd/sms_tasksequence_action-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ApplicationInfo, класс WMI сервера'
+          href: osd/sms_tasksequence_applicationinfo-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ApplyDataImageAction, класс WMI сервера'
+          href: osd/sms_tasksequence_applydataimageaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ApplyDriverPackageAction, класс WMI сервера'
+          href: osd/sms_tasksequence_applydriverpackageaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ApplyNetworkSettingsAction, класс WMI сервера'
+          href: osd/sms_tasksequence_applynetworksettingsaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ApplyOperatingSystemAction, класс WMI сервера'
+          href: osd/sms_tasksequence_applyoperatingsystemaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ApplyWindowsSettingsAction, класс WMI сервера'
+          href: osd/sms_tasksequence_applywindowssettingsaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_AutoApplyAction, класс WMI сервера'
+          href: osd/sms_tasksequence_autoapplyaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_CaptureNetworkSettingsAction, класс WMI сервера'
+          href: osd/sms_tasksequence_capturenetworksettingsaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_CaptureSystemImageAction, класс WMI сервера'
+          href: osd/sms_tasksequence_capturesystemimageaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_CaptureUserStateAction, класс WMI сервера'
+          href: osd/sms_tasksequence_captureuserstateaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_CaptureWindowsSettingsAction, класс WMI сервера'
+          href: osd/sms_tasksequence_capturewindowssettingsaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_Condition, класс WMI сервера'
+          href: osd/sms_tasksequence_condition-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ConditionExpression, класс WMI сервера'
+          href: osd/sms_tasksequence_conditionexpression-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ConditionOperand, класс WMI сервера'
+          href: osd/sms_tasksequence_conditionoperand-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ConditionOperator, класс WMI сервера'
+          href: osd/sms_tasksequence_conditionoperator-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ConnectNetworkFolderAction, класс WMI сервера'
+          href: osd/sms_tasksequence_connectnetworkfolderaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ConvertDiskAction, класс WMI сервера'
+          href: osd/sms_tasksequence_convertdiskaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_DisableBitLockerAction, класс WMI сервера'
+          href: osd/sms_tasksequence_disablebitlockeraction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_DownloadPackageContentAction, класс WMI сервера'
+          href: osd/sms_tasksequence_downloadpackagecontentaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_EnableBitLockerAction, класс WMI сервера'
+          href: osd/sms_tasksequence_enablebitlockeraction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_FileConditionExpression, класс WMI сервера'
+          href: osd/sms_tasksequence_fileconditionexpression-server-wmi-class.md
+        - name: 'SMS_TaskSequence_FolderConditionExpression, класс WMI сервера'
+          href: osd/sms_tasksequence_folderconditionexpression-server-wmi-class.md
+        - name: 'SMS_TaskSequence_Group, класс WMI сервера'
+          href: osd/sms_tasksequence_group-server-wmi-class.md
+        - name: 'SMS_TaskSequence_InstallApplicationAction, класс WMI сервера'
+          href: osd/sms_tasksequence_installapplicationaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_InstallDeployToolsAction, класс WMI сервера'
+          href: osd/sms_tasksequence_installdeploytoolsaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_InstallSoftwareAction, класс WMI сервера'
+          href: osd/sms_tasksequence_installsoftwareaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_InstallUpdateAction, класс WMI сервера'
+          href: osd/sms_tasksequence_installupdateaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_JoinDomainWorkgroupAction, класс WMI сервера'
+          href: osd/sms_tasksequence_joindomainworkgroupaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_NetworkAdapterSettings, класс WMI сервера'
+          href: osd/sms_tasksequence_networkadaptersettings-server-wmi-class.md
+        - name: SMS_TaskSequence_OfflineEnableBitLockerAction
+          href: osd/sms_tasksequence_offlineenablebitlockeraction.md
+        - name: 'SMS_TaskSequence_OSConditionGroup, класс WMI сервера'
+          href: osd/sms_tasksequence_osconditiongroup-server-wmi-class.md
+        - name: 'SMS_TaskSequence_OSExpressionGroup, класс WMI сервера'
+          href: osd/sms_tasksequence_osexpressiongroup-server-wmi-class.md
+        - name: 'SMS_TaskSequence_PackageInfo, класс WMI сервера'
+          href: osd/sms_tasksequence_packageinfo-server-wmi-class.md
+        - name: 'SMS_TaskSequence_PartitionDiskAction, класс WMI сервера'
+          href: osd/sms_tasksequence_partitiondiskaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_PartitionSettings, класс WMI сервера'
+          href: osd/sms_tasksequence_partitionsettings-server-wmi-class.md
+        - name: 'SMS_TaskSequence_Pointer, класс WMI сервера'
+          href: osd/sms_tasksequence_pointer-server-wmi-class.md
+        - name: 'SMS_TaskSequence_PrepareOSAction, класс WMI сервера'
+          href: osd/sms_tasksequence_prepareosaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_PrepareSMSClientAction, класс WMI сервера'
+          href: osd/sms_tasksequence_preparesmsclientaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_RebootAction, класс WMI сервера'
+          href: osd/sms_tasksequence_rebootaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_Reference, класс WMI сервера'
+          href: osd/sms_tasksequence_reference-server-wmi-class.md
+        - name: 'SMS_TaskSequence_RegistryConditionExpression, класс WMI сервера'
+          href: osd/sms_tasksequence_registryconditionexpression-server-wmi-class.md
+        - name: 'SMS_TaskSequence_ReleaseStateStoreAction, класс WMI сервера'
+          href: osd/sms_tasksequence_releasestatestoreaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_RequestStateStoreAction, класс WMI сервера'
+          href: osd/sms_tasksequence_requeststatestoreaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_RestoreUserStateAction, класс WMI сервера'
+          href: osd/sms_tasksequence_restoreuserstateaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_RunCommandLineAction, класс WMI сервера'
+          href: osd/sms_tasksequence_runcommandlineaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_SetupWindowsAndSMSAction, класс WMI сервера'
+          href: osd/sms_tasksequence_setupwindowsandsmsaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_SetVariableAction, класс WMI сервера'
+          href: osd/sms_tasksequence_setvariableaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_SoftwareConditionExpression, класс WMI сервера'
+          href: osd/sms_tasksequence_softwareconditionexpression-server-wmi-class.md
+        - name: 'SMS_TaskSequence_Step, класс WMI сервера'
+          href: osd/sms_tasksequence_step-server-wmi-class.md
+        - name: 'SMS_TaskSequence_UpgradeOperatingSystemAction, класс WMI сервера'
+          href: osd/sms_tasksequence_upgradeoperatingsystemaction-server-wmi-class.md
+        - name: 'SMS_TaskSequence_VariableConditionExpression, класс WMI сервера'
+          href: osd/sms_tasksequence_variableconditionexpression-server-wmi-class.md
+        - name: 'SMS_TaskSequence_WMIConditionExpression, класс WMI сервера'
+          href: osd/sms_tasksequence_wmiconditionexpression-server-wmi-class.md
+        - name: 'SMS_TaskSequenceAppReferenceDps, класс WMI сервера'
+          href: osd/sms_tasksequenceappreferencedps-server-wmi-class.md
+        - name: 'SMS_TaskSequenceAppReferencesInfo, класс WMI сервера'
+          href: osd/sms_tasksequenceappreferencesinfo-server-wmi-class.md
+        - name: 'SMS_TaskSequencePackage, класс WMI сервера'
+          href: osd/sms_tasksequencepackage-server-wmi-class.md
+          items:
+            - name: Метод AddChangeNotification
+              href: osd/addchangenotification-method-in-class-sms_tasksequencepackage.md
+            - name: Метод AddDistributionPoints
+              href: osd/adddistributionpoints-method-in-class-sms_tasksequencepackage.md
+            - name: Метод CheckReferencesShareType
+              href: osd/checkreferencessharetype-method-in-class-sms_tasksequencepackage.md
+            - name: Метод GetClientConfigPolicies
+              href: osd/getclientconfigpolicies-method-in-class-sms_tasksequencepackage.md
+            - name: Метод GetContentHash
+              href: osd/getcontenthash-method-in-class-sms_tasksequencepackage.md
+            - name: Метод GetPackageDefaultHash
+              href: osd/getpackagedefaulthash-method-in-class-sms_tasksequencepackage.md
+            - name: Метод GetPackageHash
+              href: osd/getpackagehash-method-in-class-sms_tasksequencepackage.md
+            - name: Метод GetSequence
+              href: osd/getsequence-method-in-class-sms_tasksequencepackage.md
+            - name: Метод GetTsPolicies
+              href: osd/gettspolicies-method-in-class-sms_tasksequencepackage.md
+            - name: Метод GetTsPoliciesSaMedia
+              href: osd/gettspoliciessamedia-method-in-class-sms_tasksequencepackage.md
+            - name: Метод GetTSRelatedToDriverCategory
+              href: osd/gettsrelatedtodrivercategory-method-in-class-sms_tasksequencepackage.md
+            - name: Метод ImportSequence
+              href: osd/importsequence-method-in-class-sms_tasksequencepackage.md
+            - name: Метод RefreshPkgSource
+              href: osd/refreshpkgsource-method-in-class-sms_tasksequencepackage.md
+            - name: Метод SetSequence
+              href: osd/setsequence-method-in-class-sms_tasksequencepackage.md
+            - name: Метод SetSourceSite
+              href: osd/setsourcesite-method-in-class-sms_tasksequencepackage.md
+            - name: Метод Unlock
+              href: osd/unlock-method-in-class-sms_tasksequencepackage.md
+        - name: 'SMS_TaskSequencePackageReference, класс WMI сервера'
+          href: osd/sms_tasksequencepackagereference-server-wmi-class.md
+        - name: 'SMS_TaskSequenceReferenceDps, класс WMI сервера'
+          href: osd/sms_tasksequencereferencedps-server-wmi-class.md
+        - name: 'SMS_TaskSequenceReferencesInfo, класс WMI сервера'
+          href: osd/sms_tasksequencereferencesinfo-server-wmi-class.md
+        - name: 'SMS_TaskSequencePackageReference_All, класс WMI сервера'
+          href: osd/sms_tasksequencepackagereference_all-server-wmi-class.md
+        - name: 'SMS_TaskSequencePackageReference_Flat, класс WMI сервера'
+          href: osd/sms_tasksequencepackagereference_flat-server-wmi-class.md
+        - name: 'SMS_TaskSequenceExecutionStatus, класс WMI сервера'
+          href: osd/sms_tasksequenceexecutionstatus-server-wmi-class.md
+        - name: 'SMS_UserSettings, класс WMI сервера'
+          href: osd/sms_usersettings-server-wmi-class.md
+        - name: 'SMS_UserVariable, класс WMI сервера'
+          href: osd/sms_uservariable-server-wmi-class.md
+        - name: 'SMS_WinPEOptionalComponentInBootImage, класс WMI сервера'
+          href: osd/sms_winpeoptionalcomponentinbootimage-server-wmi-class.md
+        - name: 'SMS_WinPEOptionalComponentInfo, класс WMI сервера'
+          href: osd/sms_winpeoptionalcomponentinfo-server-wmi-class.md
+        - name: CreateMedia.exe для развертывания ОС
+          href: osd/operating-system-deployment-createmedia.exe.md
+- name: Классы WMI серверов для отчетов
+  items:
+    - name: 'SMS_ReportViewSchema, класс WMI сервера'
+      href: core/servers/reporting/sms_reportviewschema-server-wmi-class.md
+      items:
+        - name: Метод GetSampleValues
+          href: core/servers/reporting/getsamplevalues-method-in-class-sms_reportviewschema.md
+- name: Классы WMI серверов для управления ресурсами
+  items:
+    - name: Классы WMI серверов для инвентаризации оборудования
+      href: core/clients/manage/hardware-inventory-server-wmi-classes.md
+      items:
+        - name: 'SMS_G_System_SYSTEM, класс WMI сервера'
+          href: core/clients/manage/sms_g_system_system-server-wmi-class.md
+        - name: 'SMS_G_Sysetm_WORKSTATION_STATUS, класс WMI сервера'
+          href: core/clients/manage/sms_g_system_workstation_status-server-wmi-class.md
+        - name: 'SMS_InventoryClass, класс WMI сервера'
+          href: core/clients/manage/sms_inventoryclass-server-wmi-class.md
+        - name: 'SMS_InventoryClassProperty, класс WMI сервера'
+          href: core/clients/manage/sms_inventoryclassproperty-server-wmi-class.md
+        - name: 'SMS_InventoryReport, класс WMI сервера'
+          href: core/clients/manage/sms_inventoryreport-server-wmi-class.md
+          items:
+            - name: Метод ImportInventoryReport
+              href: core/clients/manage/importinventoryreport-method-in-class-sms_inventoryreport.md
+        - name: 'SMSInventoryReportClass, класс WMI сервера'
+          href: core/clients/manage/sms_inventoryreportclass-server-wmi-class.md
+    - name: 'SMS_G_System, класс WMI сервера'
+      href: core/clients/manage/sms_g_system-server-wmi-class.md
+    - name: 'SMS_G_System_AdvancedThreatProtectionHealthStatus, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_advancedthreatprotectionhealthstatus-server-wmi-class.md
+    - name: 'SMS_G_System_CollectedFile, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_collectedfile-server-wmi-class.md
+    - name: 'SMS_G_System_Current, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_current-server-wmi-class.md
+    - name: 'SMS_G_System_ExHistory, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_exthistory-server-wmi-class.md
+    - name: 'SMS_G_System_History, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_history-server-wmi-class.md
+    - name: 'SMS_G_System_LastSoftwareScan, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_lastsoftwarescan-server-wmi-class.md
+    - name: 'SMS_G_SYSTEM_ResourceClientSettingsAssignment, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_resourceclientsettingsassignment-server-wmi-class.md
+    - name: 'SMS_G_System_SoftwareFile, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_softwarefile-server-wmi-class.md
+    - name: 'SMS_G_System_SoftwareProduct, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_softwareproduct-server-wmi-class.md
+    - name: 'SMS_G_System_UnknownFile, класс WMI сервера'
+      href: core/clients/manage/sms_g_system_unknownfile-server-wmi-class.md
+    - name: 'SMS_Group, класс WMI сервера'
+      href: core/clients/manage/sms_group-server-wmi-class.md
+    - name: 'SMS_PendingRegistrationRecord, класс WMI сервера'
+      href: core/clients/manage/sms_pendingregistrationrecord-server-wmi-class.md
+      items:
+        - name: Метод ResolvePendingRegistrationRecord
+          href: core/clients/manage/resolvependingregistrationrecord-method-in-class-sms_pendingregistrationrecord.md
+    - name: 'SMS_Query, класс WMI сервера'
+      href: core/clients/manage/sms_query-server-wmi-class.md
+      items:
+        - name: Метод CreateCCRs
+          href: core/clients/manage/createccrs-method-in-class-sms_query.md
+        - name: Метод FindResourceSite
+          href: core/clients/manage/findresourcesite-method-in-class-sms_query.md
+    - name: 'SMS_R_IPNetwork, класс WMI сервера'
+      href: core/clients/manage/sms_r_ipnetwork-server-wmi-class.md
+    - name: 'SMS_R_System, класс WMI сервера'
+      href: core/clients/manage/sms_r_system-server-wmi-class.md
+    - name: 'SMS_R_User, класс WMI сервера'
+      href: core/clients/manage/sms_r_user-server-wmi-class.md
+    - name: 'SMS_R_UserGroup, класс WMI сервера'
+      href: core/clients/manage/sms_r_usergroup-server-wmi-class.md
+    - name: 'SMS_ResIDValueLookup, класс WMI сервера'
+      href: core/clients/manage/sms_residvaluelookup-server-wmi-class.md
+    - name: 'SMS_Resource, класс WMI сервера'
+      href: core/clients/manage/sms_resource-server-wmi-class.md
+    - name: 'SMS_ResourceMap, класс WMI сервера'
+      href: core/clients/manage/sms_resourcemap-server-wmi-class.md
+      items:
+        - name: Метод GetClassesWithData
+          href: core/clients/manage/getclasseswithdata-method-in-class-sms_resourcemap.md
+        - name: Метод Refresh
+          href: core/clients/manage/refresh-method-in-class-sms_resourcemap.md
+    - name: 'SMS_SoftwareConversionRules, класс WMI сервера'
+      href: core/clients/manage/sms_softwareconversionrules-server-wmi-class.md
+    - name: 'SMS_UserMachineRelationship, класс WMI сервера'
+      href: core/clients/manage/sms_usermachinerelationship-server-wmi-class.md
+      items:
+        - name: Метод AddSource
+          href: core/clients/manage/addsource-method-in-class-sms_usermachinerelationship.md
+        - name: Метод AddType
+          href: core/clients/manage/addtype-method-in-class-sms_usermachinerelationship.md
+        - name: Метод CreateRelationship
+          href: core/clients/manage/createrelationship-method-in-class-sms_usermachinerelationship.md
+        - name: Метод RemoveSource
+          href: core/clients/manage/removesource-method-in-class-sms_usermachinerelationship.md
+        - name: Метод RemoveType
+          href: core/clients/manage/removetype-method-in-class-sms_usermachinerelationship.md
+- name: Классы WMI серверов для ролевого администрирования
+  items:
+    - name: 'SMS_Admin, класс WMI сервера'
+      href: core/servers/configure/sms_admin-server-wmi-class.md
+      items:
+        - name: Метод GetAdminExtendedData
+          href: core/servers/configure/getadminextendeddata-method-in-class-sms_admin.md
+    - name: 'SMS_AdminCategory, класс WMI сервера'
+      href: core/servers/configure/sms_admincategory-server-wmi-class.md
+    - name: 'SMS_AdminRole, класс WMI сервера'
+      href: core/servers/configure/sms_adminrole-server-wmi-class.md
+    - name: 'SMS_APermission, класс WMI сервера'
+      href: core/servers/configure/sms_apermission-server-wmi-class.md
+    - name: 'SMS_ARoleOperation, класс WMI сервера'
+      href: core/servers/configure/sms_aroleoperation-server-wmi-class.md
+    - name: 'SMS_AssociatedSecuredCategory, класс WMI сервера'
+      href: core/servers/configure/sms_associatedsecuredcategory-server-wmi-class.md
+    - name: 'SMS_InitSettableSecuredCategory, класс WMI сервера'
+      href: core/servers/configure/sms_initsettablesecuredcategory-server-wmi-class.md
+    - name: 'SMS_LastCategoryObject, класс WMI сервера'
+      href: core/servers/configure/sms_lastcategoryobject-server-wmi-class.md
+    - name: 'SMS_Operation, класс WMI сервера'
+      href: core/servers/configure/sms_operation-server-wmi-class.md
+    - name: 'SMS_Permission, класс WMI сервера'
+      href: core/servers/configure/sms_permission-server-wmi-class.md
+    - name: 'SMS_RbacSecuredObject, класс WMI сервера'
+      href: core/servers/configure/sms_rbacsecuredobject-server-wmi-class.md
+      items:
+        - name: Метод GetAvailableScopes
+          href: core/servers/configure/getavailablescopes-method-in-class-sms_rbacsecuredobject.md
+        - name: Метод GetCollectionsWithResourcePermissions
+          href: core/servers/configure/getcollectionswithresourcepermissions-method-in-class-sms_rbacsecuredobject.md
+        - name: Метод GetUserList
+          href: core/servers/configure/getuserlist-method-in-class-sms_rbacsecuredobject.md
+        - name: Метод UserHasPermissions
+          href: core/servers/configure/userhaspermissions-method-in-class-sms_rbacsecuredobject.md
+    - name: 'SMS_Role, класс WMI сервера'
+      href: core/servers/configure/sms_role-server-wmi-class.md
+      items:
+        - name: Метод ExportRole
+          href: core/servers/configure/exportrole-method-in-class-sms_role.md
+        - name: Метод ImportRole
+          href: core/servers/configure/importrole-method-in-class-sms_role.md
+    - name: 'SMS_SecuredCategory, класс WMI сервера'
+      href: core/servers/configure/sms_securedcategory-server-wmi-class.md
+    - name: 'SMS_SecuredCategoryMembership, класс WMI сервера'
+      href: core/servers/configure/sms_securedcategorymembership-server-wmi-class.md
+      items:
+        - name: Метод AddMemberships
+          href: core/servers/configure/addmemberships-method-in-class-sms_securedcategorymembership.md
+        - name: Метод RemoveMemberships
+          href: core/servers/configure/removememberships-method-in-class-sms_securedcategorymembership.md
+    - name: 'SMS_SettableSecuredCategory, класс WMI сервера'
+      href: core/servers/configure/sms_settablesecuredcategory-server-wmi-class.md
+- name: Классы WMI серверов для планирования
+  items:
+    - name: 'SMS_ScheduleMethods, класс WMI сервера'
+      href: core/servers/configure/sms_schedulemethods-server-wmi-class.md
+      items:
+        - name: Метод ReadFromString
+          href: core/servers/configure/readfromstring-method-in-class-sms_schedulemethods.md
+        - name: Метод WriteToString
+          href: core/servers/configure/writetostring-method-in-class-sms_schedulemethods.md
+    - name: 'SMS_ScheduleToken, класс WMI сервера'
+      href: core/servers/configure/sms_scheduletoken-server-wmi-class.md
+    - name: 'SMS_ST_NonRecurring, класс WMI сервера'
+      href: core/servers/configure/sms_st_nonrecurring-server-wmi-class.md
+    - name: 'SMS_ST_RecurInterval, класс WMI сервера'
+      href: core/servers/configure/sms_st_recurinterval-server-wmi-class.md
+    - name: 'SMS_ST_RecurMonthlyByDate, класс WMI сервера'
+      href: core/servers/configure/sms_st_recurmonthlybydate-server-wmi-class.md
+    - name: 'SMS_ST_RecurMonthlyByWeekday, класс WMI сервера'
+      href: core/servers/configure/sms_st_recurmonthlybyweekday-server-wmi-class.md
+    - name: 'SMS_ST_RecurWeekly, класс WMI сервера'
+      href: core/servers/configure/sms_st_recurweekly-server-wmi-class.md
+- name: Классы WMI серверов для SEDO
+  items:
+    - name: 'SMS_ObjectLock, класс WMI сервера'
+      href: misc/sms_objectlock-server-wmi-class.md
+      items:
+        - name: Метод CancelLockRequest
+          href: misc/cancellockrequest-method-in-class-sms_objectlock.md
+        - name: Метод CancelLockRequests
+          href: misc/cancellockrequests-method-in-class-sms_objectlock.md
+        - name: Метод CheckLockRequest
+          href: misc/checklockrequest-method-in-class-sms_objectlock.md
+        - name: Метод CheckLockRequests
+          href: misc/checklockrequests-method-in-class-sms_objectlock.md
+        - name: Метод GetLockInformation
+          href: misc/getlockinformation-method-in-class-sms_objectlock.md
+        - name: Метод ReleaseAllLocks
+          href: misc/releasealllocks-method-in-class-sms_objectlock.md
+        - name: Метод ReleaseLock
+          href: misc/releaselock-method-in-class-sms_objectlock.md
+        - name: Метод ReleaseLocks
+          href: misc/releaselocks-method-in-class-sms_objectlock.md
+        - name: Метод RequestLock
+          href: misc/requestlock-method-in-class-sms_objectlock.md
+        - name: Метод RequestLockAsync
+          href: misc/requestlockasync-method-in-class-sms_objectlock.md
+        - name: Метод RequestLocks
+          href: misc/requestlocks-method-in-class-sms_objectlock.md
+        - name: Метод RequestLocksAsync
+          href: misc/requestlocksasync-method-in-class-sms_objectlock.md
+    - name: 'SMS_ObjectLockRequest, класс WMI сервера'
+      href: misc/sms_objectlockrequest-server-wmi-class.md
+- name: Классы WMI серверов для конфигурации сайта
+  href: core/servers/configure/site-configuration-server-wmi-classes.md
+  items:
+    - name: 'SMS_Boundary, класс WMI сервера'
+      href: core/servers/configure/sms_boundary-server-wmi-class.md
+    - name: 'SMS_BoundaryGroup, класс WMI сервера'
+      href: core/servers/configure/sms_boundarygroup-server-wmi-class.md
+      items:
+        - name: Метод AddBoundary
+          href: core/servers/configure/addboundary-method-in-class-sms_boundarygroup.md
+        - name: Метод AddSiteSystem
+          href: core/servers/configure/addsitesystem-method-in-class-sms_boundarygroup.md
+        - name: Метод RemoveBoundary
+          href: core/servers/configure/removeboundary-method-in-class-sms_boundarygroup.md
+        - name: Метод RemoveSiteSystem
+          href: core/servers/configure/removesitesystem-method-in-class-sms_boundarygroup.md
+    - name: 'SMS_BoundaryGroupMembers, класс WMI сервера'
+      href: core/servers/configure/sms_boundarygroupmembers-server-wmi-class.md
+    - name: 'SMS_BoundaryGroupRelationships, класс WMI сервера'
+      href: core/servers/configure/sms-boundarygrouprelationships-server-wmi-class.md
+      items:
+        - name: Метод FallbackDP
+          href: core/servers/configure/fallbackdp-method-in-class-sms-boundarygrouprelationships.md
+        - name: Метод FallbackMP
+          href: core/servers/configure/fallbackmp-method-in-class-sms-boundarygrouprelationships.md
+        - name: Метод FallbackSMP
+          href: core/servers/configure/fallbacksmp-method-in-class-sms-boundarygrouprelationships.md
+        - name: Метод FallbackSUP
+          href: core/servers/configure/fallbacksup-method-in-class-sms-boundarygrouprelationships.md
+    - name: 'SMS_BoundaryGroupSiteSystems, класс WMI сервера'
+      href: core/servers/configure/sms_boundarygroupsitesystems-server-wmi-class.md
+    - name: 'SMS_Client_Reg_MultiString_List, класс WMI сервера'
+      href: core/servers/configure/sms_client_reg_multistring_list-server-wmi-class.md
+    - name: 'SMS_CMSiteConfiguration, класс WMI сервера'
+      href: core/servers/configure/sms_cmsiteconfiguration-server-wmi-class.md
+    - name: 'SMS_DefaultBoundaryGroup, класс WMI сервера'
+      href: core/servers/configure/sms-defaultboundarygroup-server-wmi-class.md
+      items:
+        - name: Метод AddBoundary
+          href: core/servers/configure/addboundary-method-in-class-sms-defaultboundarygroup.md
+        - name: Метод AddSiteSystem
+          href: core/servers/configure/addsitesystem-method-in-class-sms-defaultboundarygroup.md
+        - name: Метод RemoveBoundary
+          href: core/servers/configure/removeboundary-method-in-class-sms-defaultboundarygroup.md
+        - name: Метод RemoveSiteSystem
+          href: core/servers/configure/removesitesystem-method-in-class-sms-defaultboundarygroup.md
+    - name: 'SMS_EmbeddedProperty, класс WMI сервера'
+      href: core/servers/configure/sms_embeddedproperty-server-wmi-class.md
+    - name: 'SMS_EmbeddedPropertyList, класс WMI сервера'
+      href: core/servers/configure/sms_embeddedpropertylist-server-wmi-class.md
+    - name: 'SMS_Identification, класс WMI сервера'
+      href: core/servers/configure/sms_identification-server-wmi-class.md
+      items:
+        - name: Метод GetCurrentUser
+          href: core/servers/configure/getcurrentuser-method-in-class-sms_identification.md
+        - name: Метод GetFileBinary
+          href: core/servers/configure/getfilebinary-method-in-class-sms_identification.md
+        - name: Метод GetProviderVersion
+          href: core/servers/configure/getproviderversion-method-in-class-sms_identification.md
+        - name: Метод GetSiteID
+          href: core/servers/configure/getsiteid-method-in-class-sms_identification.md
+    - name: 'SMS_RcmSqlControl, класс WMI сервера'
+      href: core/servers/configure/sms_rcmsqlcontrol-server-wmi-class.md
+    - name: 'SMS_RcmSqlControlProperty, класс WMI сервера'
+      href: core/servers/configure/sms_rcmsqlcontrolproperty-server-wmi-class.md
+    - name: 'SMS_ReplicationGroup, класс WMI сервера'
+      href: core/servers/configure/sms_replicationgroup-server-wmi-class.md
+      items:
+        - name: Метод InitializeData
+          href: core/servers/configure/initializedata-method-in-class-sms_replicationgroup.md
+    - name: 'SMS_ReplicationLinkStatus, класс WMI сервера'
+      href: core/servers/configure/sms_replicationlinkstatus-server-wmi-class.md
+    - name: 'SMS_ReplicationLinkSummary, класс WMI сервера'
+      href: core/servers/configure/sms_replicationlinksummary-server-wmi-class.md
+    - name: 'SMS_SCI_Address, класс WMI сервера'
+      href: core/servers/configure/sms_sci_address-server-wmi-class.md
+    - name: 'SMS_SCI_ClientComp, класс WMI сервера'
+      href: core/servers/configure/sms_sci_clientcomp-server-wmi-class.md
+    - name: 'SMS_SCI_ClientConfig, класс WMI сервера'
+      href: core/servers/configure/sms_sci_clientconfig-server-wmi-class.md
+    - name: 'SMS_SCI_Component, класс WMI сервера'
+      href: core/servers/configure/sms_sci_component-server-wmi-class.md
+    - name: 'SMS_SCI_Configuration, класс WMI сервера'
+      href: core/servers/configure/sms_sci_configuration-server-wmi-class.md
+    - name: 'SMS_SCI_FileDefinition, класс WMI сервера'
+      href: core/servers/configure/sms_sci_filedefinition-server-wmi-class.md
+    - name: 'SMS_SCI_MaintenanceTask, класс WMI сервера'
+      href: core/servers/configure/sms_sci_maintenancetask-server-wmi-class.md
+    - name: 'SMS_SCI_SiteDefinition, класс WMI сервера'
+      href: core/servers/configure/sms_sci_sitedefinition-server-wmi-class.md
+    - name: 'SMS_SCI_SQLTask, класс WMI сервера'
+      href: core/servers/configure/sms_sci_sqltask-server-wmi-class.md
+    - name: 'SMS_SCI_SysResUse, класс WMI сервера'
+      href: core/servers/configure/sms_sci_sysresuse-server-wmi-class.md
+    - name: 'SMS_SII_Property, класс WMI сервера'
+      href: core/servers/configure/sms_sii_property-server-wmi-class.md
+    - name: 'SMS_SII_PropertyList, класс WMI сервера'
+      href: core/servers/configure/sms_sii_propertylist-server-wmi-class.md
+    - name: 'SMS_SIIB_AddressType, класс WMI сервера'
+      href: core/servers/configure/sms_siib_addresstype-server-wmi-class.md
+    - name: 'SMS_SIIB_Component_FileList, класс WMI сервера'
+      href: core/servers/configure/sms_siib_component_filelist-server-wmi-class.md
+    - name: 'SMS_SIIB_Configuration, класс WMI сервера'
+      href: core/servers/configure/sms_siib_configuration-server-wmi-class.md
+    - name: 'SMS_SIIB_Generic_Configuration, класс WMI сервера'
+      href: core/servers/configure/sms_siib_generic_configuration-server-wmi-class.md
+    - name: 'SMS_SIIB_SenderType, класс WMI сервера'
+      href: core/servers/configure/sms_siib_sendertype-server-wmi-class.md
+    - name: 'SMS_SIIB_SysResRole, класс WMI сервера'
+      href: core/servers/configure/sms_siib_sysresrole-server-wmi-class.md
+    - name: 'SMS_Site, класс WMI сервера'
+      href: core/servers/configure/sms_site-server-wmi-class.md
+      items:
+        - name: Метод EncryptDataEx
+          href: core/servers/configure/encryptdataex-method-in-class-sms_site.md
+        - name: Метод GetAutoUpgradeConfigs
+          href: core/servers/configure/getautoupgradeconfigs-method-in-class-sms_site.md
+        - name: Метод GetClientInfo
+          href: core/servers/configure/getclientinfo-method-in-class-sms_site.md
+        - name: Метод GetClientPilotingConfigs
+          href: core/servers/configure/getclientpilotingconfigs-method-in-class-sms_site.md
+        - name: Метод GetFeatureState
+          href: core/servers/configure/getfeaturestate-method-in-class-sms_site.md
+        - name: Метод GetSiteADInfo
+          href: core/servers/configure/getsiteadinfo-method-in-class-sms_site.md
+        - name: Метод ImportGlobalUserAccount
+          href: core/servers/configure/importglobaluseraccount-method-in-class-sms_site.md
+        - name: Метод ImportGlobalUserAccountEx
+          href: core/servers/configure/importglobaluseraccountex-method-in-class-sms_site.md
+        - name: Метод ImportMachineEntry
+          href: core/servers/configure/importmachineentry-method-in-class-sms_site.md
+        - name: Метод ImportMachineEntryToMultipleCollections
+          href: core/servers/configure/importmachineentrytomultiplecollections-method-in-class-sms_site.md
+        - name: Метод IsUsedCert
+          href: core/servers/configure/isusedcert-method-in-class-sms_site.md
+        - name: Метод RedistributeAutoUpgradeClientContent
+          href: core/servers/configure/redistributeautoupgradeclientcontent-method-in-class-sms_site.md
+        - name: Метод SubmitRegistrationRecord
+          href: core/servers/configure/submitregistrationrecord-method-in-class-sms_site.md
+        - name: Метод UpdateAutoUpgradeClientContent
+          href: core/servers/configure/updateautoupgradeclientcontent-method-in-class-sms_site.md
+        - name: Метод UpdateAutoUpgradeConfigs
+          href: core/servers/configure/updateautoupgradeconfigs-method-in-class-sms_site.md
+        - name: Метод UpdateClientPilotingConfigs
+          href: core/servers/configure/updateclientpilotingconfigs-method-in-class-sms_site.md
+        - name: Метод UpdateConsoleUsageData
+          href: core/servers/configure/updateconsoleusagedata-method-in-class-sms_site.md
+        - name: Метод UpdateFeatureState
+          href: core/servers/configure/updatefeaturestate-method-in-class-sms_site.md
+        - name: Метод VerifyNoLoops
+          href: core/servers/configure/verifynoloops-method-in-class-sms_site.md
+    - name: 'SMS_SiteAndSubsites, класс WMI сервера'
+      href: core/servers/configure/sms_siteandsubsites-server-wmi-class.md
+    - name: 'SMS_SiteControlDaySchedule, класс WMI сервера'
+      href: core/servers/configure/sms_sitecontroldayschedule-server-wmi-class.md
+    - name: 'SMS_SiteControlFile, класс WMI сервера'
+      href: core/servers/configure/sms_sitecontrolfile-server-wmi-class.md
+    - name: 'SMS_SiteControlItem, класс WMI сервера'
+      href: core/servers/configure/sms_sitecontrolitem-server-wmi-class.md
+    - name: 'SMS_SiteInstallItem, класс WMI сервера'
+      href: core/servers/configure/sms_siteinstallitem-server-wmi-class.md
+    - name: 'SMS_SiteInstallItemBase, класс WMI сервера'
+      href: core/servers/configure/sms_siteinstallitembase-server-wmi-class.md
+    - name: 'SMS_SiteInstallMap, класс WMI сервера'
+      href: core/servers/configure/sms_siteinstallmap-server-wmi-class.md
+      items:
+        - name: Метод Refresh
+          href: core/servers/configure/refresh-method-in-class-sms_siteinstallmap.md
+    - name: 'SMS_SystemResourceList, класс WMI сервера'
+      href: core/servers/configure/sms_systemresourcelist-server-wmi-class.md
+    - name: 'SMS_SCFToSCI_a, класс WMI сервера'
+      href: core/servers/configure/sms_scftosci_a-server-wmi-class.md
+    - name: 'SMS_SCFToSite_a, класс WMI сервера'
+      href: core/servers/configure/sms_scftosite_a-server-wmi-class.md
+    - name: 'SMS_SiteToSubSite_a, класс WMI сервера'
+      href: core/servers/configure/sms_sitetosubsite_a-server-wmi-class.md
+    - name: 'SMS_SiteToSiteID_a, класс WMI сервера'
+      href: core/servers/configure/sms_sitetositeid_a-server-wmi-class.md
+- name: Классы WMI серверов для распространения программного обеспечения
+  items:
+    - name: 'SMS_Advertisement, класс WMI сервера'
+      href: core/servers/configure/sms_advertisement-server-wmi-class.md
+      items:
+        - name: Метод GetAdvertisements
+          href: core/servers/configure/getadvertisements-method-in-class-sms_advertisement.md
+        - name: Метод GetNextID
+          href: core/servers/configure/getnextid-method-in-class-sms_advertisement.md
+        - name: Метод RiskyDeploymentStatusMessage
+          href: core/servers/configure/riskydeploymentstatusmessage-method-in-class-sms_advertisement.md
+        - name: Метод SetNextID
+          href: core/servers/configure/setnextid-method-in-class-sms_advertisement.md
+        - name: Метод SetSourceSite
+          href: core/servers/configure/setsourcesite-method-in-class-sms_advertisement.md
+        - name: Метод Unlock
+          href: core/servers/configure/unlock-method-in-class-sms_advertisement.md
+    - name: 'SMS_AdvertisementInfo, класс WMI сервера'
+      href: core/servers/configure/sms_advertisementinfo-server-wmi-class.md
+    - name: 'SMS_AdvertisementStatusInformation, класс WMI сервера'
+      href: core/servers/configure/sms_advertisementstatusinformation-server-wmi-class.md
+    - name: 'SMS_AdvertToSourceSite_a, класс WMI сервера'
+      href: core/servers/configure/sms_adverttosourcesite_a-server-wmi-class.md
+    - name: 'SMS_ClassicDeploymentAssetDetails, класс WMI сервера'
+      href: core/servers/configure/sms_classicdeploymentassetdetails-server-wmi-class.md
+    - name: 'SMS_ClassicDeploymentStatus, класс WMI сервера'
+      href: core/servers/configure/sms_classicdeploymentstatus-server-wmi-class.md
+    - name: 'SMS_ClientAdvertisementStatus, класс WMI сервера'
+      href: core/servers/configure/sms_clientadvertisementstatus-server-wmi-class.md
+    - name: 'SMS_ClientAdvertisementSummary, класс WMI сервера'
+      href: core/servers/configure/sms_clientadvertisementsummary-server-wmi-class.md
+    - name: 'SMS_DistributionDPStatus, класс WMI сервера'
+      href: core/servers/configure/sms_distributiondpstatus-server-wmi-class.md
+    - name: 'SMS_DistributionJob, класс WMI сервера'
+      href: core/servers/configure/sms_distributionjob-server-wmi-class.md
+    - name: 'SMS_DistributionPoint, класс WMI сервера'
+      href: core/servers/configure/sms_distributionpoint-server-wmi-class.md
+      items:
+        - name: Метод VerifyPackage
+          href: core/servers/configure/verifypackage-method-in-class-sms_distributionpoint.md
+        - name: Метод CancelDistribution
+          href: core/servers/configure/canceldistribution-method-in-class-sms_distributionpoint.md
+    - name: 'SMS_DistributionPointDriveInfo, класс WMI сервера'
+      href: core/servers/configure/sms_distributionpointdriveinfo-server-wmi-class.md
+    - name: 'SMS_DistributionPointGroup, класс WMI сервера'
+      href: core/servers/configure/sms_distributionpointgroup-server-wmi-class.md
+      items:
+        - name: Метод AddDistributionPoints
+          href: core/servers/configure/adddistributionpoints-method-in-class-sms_distributionpointgroup.md
+        - name: Метод AddPackages
+          href: core/servers/configure/addpackages-method-in-class-sms_distributionpointgroup.md
+        - name: Метод AssociateCollections
+          href: core/servers/configure/associatecollections-method-in-class-sms_distributionpointgroup.md
+        - name: Метод DisassociateCollections
+          href: core/servers/configure/disassociatecollections-method-in-class-sms_distributionpointgroup.md
+        - name: Метод ReDistributePackage
+          href: core/servers/configure/redistributepackage-method-in-class-sms_distributionpointgroup.md
+        - name: Метод RefreshDPGroup
+          href: core/servers/configure/refreshdpgroup-method-in-class-sms_distributionpointgroup.md
+        - name: Метод RemoveDistributionPoints
+          href: core/servers/configure/removedistributionpoints-method-in-class-sms_distributionpointgroup.md
+        - name: Метод RemovePackages
+          href: core/servers/configure/removepackages-method-in-class-sms_distributionpointgroup.md
+    - name: Класс WMI сервера SMS_DistributionPointInfo
+      href: core/servers/configure/sms_distributionpointinfo-server-wmi-class.md
+      items:
+        - name: Метод GetChainedPullDPs
+          href: core/servers/configure/getchainedpulldps-method-in-class-smsdistributionpointinfo.md
+        - name: Метод SetDPMaintenanceMode
+          href: core/servers/configure/setdpmaintenancemode-method-in-class-sms-distributionpointinfo.md
+    - name: 'SMS_DistributionStatus, класс WMI сервера'
+      href: core/servers/configure/sms_distributionstatus-server-wmi-class.md
+    - name: 'SMS_LastPXEAdvertisement, класс WMI сервера'
+      href: core/servers/configure/sms_lastpxeadvertisement-server-wmi-class.md
+    - name: 'SMS_OS_Details, класс WMI сервера'
+      href: core/servers/configure/sms_os_details-server-wmi-class.md
+    - name: 'SMS_Package, класс WMI сервера'
+      href: core/servers/configure/sms_package-server-wmi-class.md
+      items:
+        - name: Метод AddChangeNotification
+          href: core/servers/configure/addchangenotification-method-in-class-sms_package.md
+        - name: Метод AddDistributionPoints
+          href: core/servers/configure/adddistributionpoints-method-in-class-sms_package.md
+        - name: Метод CheckDuplicateShareName
+          href: core/servers/configure/checkduplicatesharename-method-in-class-sms_package.md
+        - name: Метод CheckDuplicateSourceName
+          href: core/servers/configure/checkduplicatesourcename-method-in-class-sms_package.md
+        - name: Метод CheckPackageShareForTaskSequenceDeployment
+          href: core/servers/configure/checkpackagesharefortasksequencedeployment-method-in-class-sms_package.md
+        - name: Метод RefreshPkgSource
+          href: core/servers/configure/refreshpkgsource-method-in-class-sms_package.md
+        - name: Метод SetSourceSite
+          href: core/servers/configure/setsourcesite-method-in-class-sms_package.md
+        - name: Метод Unlock
+          href: core/servers/configure/unlock-method-in-class-sms_package.md
+    - name: 'SMS_PackageAccessByUsers, класс WMI сервера'
+      href: core/servers/configure/sms_packageaccessbyusers-server-wmi-class.md
+    - name: 'SMS_PackageBaseclass, класс WMI сервера'
+      href: core/servers/configure/sms_packagebaseclass-server-wmi-class.md
+    - name: 'SMS_PackageStatus, класс WMI сервера'
+      href: core/servers/configure/sms_packagestatus-server-wmi-class.md
+    - name: 'SMS_PackageStatusDetailSummarizer, класс WMI сервера'
+      href: core/servers/configure/sms_packagestatusdetailsummarizer-server-wmi-class.md
+    - name: 'SMS_PackageStatusDistPointsSummarizer, класс WMI сервера'
+      href: core/servers/configure/sms_packagestatusdistpointssummarizer-server-wmi-class.md
+    - name: 'SMS_PackageStatusRootSummarizer, класс WMI сервера'
+      href: core/servers/configure/sms_packagestatusrootsummarizer-server-wmi-class.md
+    - name: 'SMS_PackageToAdvert_a, класс WMI сервера'
+      href: core/servers/configure/sms_packagetoadvert_a-server-wmi-class.md
+    - name: 'SMS_PackageToContent, класс WMI сервера'
+      href: core/servers/configure/sms_packagetocontent-server-wmi-class.md
+      items:
+        - name: Метод IsContentValid
+          href: core/servers/configure/iscontentvalid-method-in-class-sms_packagetocontent.md
+    - name: 'SMS_PackageToSourceSite_a, класс WMI сервера'
+      href: core/servers/configure/sms_packagetosourcesite_a-server-wmi-class.md
+    - name: 'SMS_PDF_Package, класс WMI сервера'
+      href: core/servers/configure/sms_pdf_package-server-wmi-class.md
+      items:
+        - name: Метод GetPDFData
+          href: core/servers/configure/getpdfdata-method-in-class-sms_pdf_package.md
+        - name: Метод LoadIconForPDF
+          href: core/servers/configure/loadiconforpdf-method-in-class-sms_pdf_package.md
+        - name: Метод LoadPDF
+          href: core/servers/configure/loadpdf-method-in-class-sms_pdf_package.md
+        - name: Метод ProcessInBox
+          href: core/servers/configure/processinbox-method-in-class-sms_pdf_package.md
+    - name: 'SMS_PDF_Program, класс WMI сервера'
+      href: core/servers/configure/sms_pdf_program-server-wmi-class.md
+    - name: 'SMS_PDFPkgToPDFProgram_a, класс WMI сервера'
+      href: core/servers/configure/sms_pdfpkgtopdfprogram_a-server-wmi-class.md
+    - name: 'SMS_PkgToPkgAccess_a, класс WMI сервера'
+      href: core/servers/configure/sms_pkgtopkgaccess_a-server-wmi-class.md
+    - name: 'SMS_PkgToPkgProgram_a, класс WMI сервера'
+      href: core/servers/configure/sms_pkgtopkgprogram_a-server-wmi-class.md
+    - name: 'SMS_PkgToPkgServer_a, класс WMI сервера'
+      href: core/servers/configure/sms_pkgtopkgserver_a-server-wmi-class.md
+    - name: 'SMS_Program, класс WMI сервера'
+      href: core/servers/configure/sms_program-server-wmi-class.md
+    - name: 'SMS_ServiceWindow, класс WMI сервера'
+      href: core/servers/configure/sms_servicewindow-server-wmi-class.md
+    - name: 'SMS_SupportedPlatforms, класс WMI сервера'
+      href: core/servers/configure/sms_supportedplatforms-server-wmi-class.md
+      items:
+        - name: Метод Enable
+          href: core/servers/configure/enable-method-in-class-sms_supportedplatforms.md
+    - name: 'SMS_SupportedPlatformsOfflineServicing, класс WMI сервера'
+      href: core/servers/configure/sms_supportedplatformsofflineservicing-server-wmi-class.md
+- name: Классы WMI серверов для контроля использования программного обеспечения
+  items:
+    - name: 'SMS_FileUsageSummary, класс WMI сервера'
+      href: apps/sms_fileusagesummary-server-wmi-class.md
+    - name: 'SMS_G_System_SoftwareUsageData, класс WMI сервера'
+      href: apps/sms_g_system_softwareusagedata-server-wmi-class.md
+    - name: 'SMS_MeterData, класс WMI сервера'
+      href: apps/sms_meterdata-server-wmi-class.md
+    - name: 'SMS_MeteredFiles, класс WMI сервера'
+      href: apps/sms_meteredfiles-server-wmi-class.md
+    - name: 'SMS_MeteredProductRule, класс WMI сервера'
+      href: apps/sms_meteredproductrule-server-wmi-class.md
+    - name: 'SMS_MeteredUser, класс WMI сервера'
+      href: apps/sms_metereduser-server-wmi-class.md
+    - name: 'SMS_MonthlyUsageSummary, класс WMI сервера'
+      href: apps/sms_monthlyusagesummary-server-wmi-class.md
+    - name: 'SMS_ProductFileInfo, класс WMI сервера'
+      href: apps/sms_productfileinfo-server-wmi-class.md
+    - name: 'SMS_SummarizationInterval, класс WMI сервера'
+      href: apps/sms_summarizationinterval-server-wmi-class.md
+- name: Классы WMI серверов для обновлений программного обеспечения
+  items:
+    - name: 'SMS_ADRDeploymentSettings, класс WMI сервера'
+      href: sum/sms_adrdeploymentsettings-server-wmi-class.md
+    - name: 'SMS_AutoDeployment, класс WMI сервера'
+      href: sum/sms_autodeployment-server-wmi-class.md
+      items:
+        - name: Метод EvaluateAllAutoDeployment
+          href: sum/evaluateallautodeployment-method-in-class-sms_autodeployment.md
+        - name: Метод EvaluateAutoDeployment
+          href: sum/evaluateautodeployment-method-in-class-sms_autodeployment.md
+    - name: 'SMS_AuthorizationList, класс WMI сервера'
+      href: sum/sms_authorizationlist-server-wmi-class.md
+      items:
+        - name: Метод RunAuthListStatusSummarization
+          href: sum/runauthliststatussummarization-method-in-class-sms_authorizationlist.md
+    - name: 'SMS_CIAllCategories, класс WMI сервера'
+      href: sum/sms_ciallcategories-server-wmi-class.md
+    - name: 'SMS_CIContentFiles, класс WMI сервера'
+      href: sum/sms_cicontentfiles-server-wmi-class.md
+    - name: 'SMS_CIRelation, класс WMI сервера'
+      href: sum/sms_cirelation-server-wmi-class.md
+    - name: 'SMS_CIToContent, класс WMI сервера'
+      href: sum/sms_citocontent-server-wmi-class.md
+    - name: 'SMS_CIUpdateSources, класс WMI сервера'
+      href: sum/sms_ciupdatesources-server-wmi-class.md
+    - name: 'SMS_CM_UpdateFeatures, класс WMI сервера'
+      href: sum/sms_cm_updatefeatures-server-wmi-class.md
+      items:
+        - name: Метод UpdateFeatureExposureStatus
+          href: sum/updatefeatureexposurestatus-method-in-class-sms_cm_updatefeatures.md
+    - name: 'SMS_CM_UpdatePackageFeatures, класс WMI сервера'
+      href: sum/sms_cm_updatepackagefeatures-server-wmi-class.md
+      items:
+        - name: Метод UpdateFeatureExposureStatus
+          href: sum/updatefeatureexposurestatus-method-in-class-sms_cm_updatepackagefeatures.md
+    - name: 'SMS_CM_UpdatePackages, класс WMI сервера'
+      href: sum/sms_cm_updatepackages-server-wmi-class.md
+      items:
+        - name: Метод IsCurrentWorkingUpdatePackage
+          href: sum/iscurrentworkingupdatepackage-method-in-class-sms_cm_updatepackages.md
+        - name: Метод RetryContentReplication
+          href: sum/retrycontentreplication-method-in-class-sms_cm_updatepackages.md
+        - name: Метод SetIgnorePrereqWarning
+          href: sum/setignoreprereqwarning-method-in-class-sms_cm_updatepackages.md
+        - name: Метод UpdatePrereqAndStateFlags
+          href: sum/updateprereqandstateflags-method-in-class-sms_cm_updatepackages.md
+    - name: 'SMS_CM_UpdatePackagesHistory, класс WMI сервера'
+      href: sum/sms_cm_updatepackageshistory-server-wmi-class.md
+    - name: 'SMS_CM_UpdatePackageSiteStatus, класс WMI сервера'
+      href: sum/sms_cm_updatepackagesitestatus-server-wmi-class.md
+      items:
+        - name: Метод UpdatePackageSiteState
+          href: sum/updatepackagesitestate-method-in-class-sms_cm_updatepackagesitestatus.md
+    - name: 'SMS_CM_UpdatePackDetailedMonitoring, класс WMI сервера'
+      href: sum/sms_cm_updatepackdetailedmonitoring-server-wmi-class.md
+    - name: 'SMS_CM_UpdatePackDetailedPrereqMonitoring, класс WMI сервера'
+      href: sum/sms_cm_updatepackdetailedprereqmonitoring-server-wmi-class.md
+    - name: 'SMS_CM_UpdatePackDetailedSiteStatus, класс WMI сервера'
+      href: sum/sms_cm_updatepackdetailedsitestatus-server-wmi-class.md
+    - name: 'SMS_CM_UpdatePackDownloadMonitoring, класс WMI сервера'
+      href: sum/sms_cm_updatepackdownloadmonitoring-server-wmi-class.md
+    - name: 'SMS_CM_UpdatePackTopLevelMonitoring, класс WMI сервера'
+      href: sum/sms_cm_updatepacktoplevelmonitoring-server-wmi-class.md
+    - name: 'SMS_EULAContent, класс WMI сервера'
+      href: sum/sms_eulacontent-server-wmi-class.md
+    - name: 'SMS_FeatureExtension, класс WMI сервера'
+      href: sum/sms_featureextension-server-wmi-class.md
+    - name: 'SMS_ServicePlan, класс WMI сервера'
+      href: sum/sms_serviceplan-server-wmi-class.md
+    - name: 'SMS_SoftwareUpdate, класс WMI сервера'
+      href: sum/sms_softwareupdate-server-wmi-class.md
+      items:
+        - name: Метод AcceptEULA
+          href: sum/accepteula-method-in-class-sms_softwareupdate.md
+        - name: Метод GetEULA
+          href: sum/geteula-method-in-class-sms_softwareupdate.md
+        - name: Метод SetEnforcement
+          href: sum/setenforcement-method-in-class-sms_softwareupdate.md
+        - name: Метод SyncNow
+          href: sum/syncnow-method-in-class-sms_softwareupdate.md
+    - name: 'SMS_SoftwareUpdateBase, класс WMI сервера'
+      href: sum/sms_softwareupdatebase-server-wmi-class.md
+    - name: 'SMS_SoftwareUpdateSource, класс WMI сервера'
+      href: sum/sms_softwareupdatesource-server-wmi-class.md
+    - name: 'SMS_SoftwareUpdatesPackage, класс WMI сервера'
+      href: sum/sms_softwareupdatespackage-server-wmi-class.md
+      items:
+        - name: Метод AddChangeNotification
+          href: sum/addchangenotification-method-in-class-sms_softwareupdatespackage.md
+        - name: Метод AddDistributionPoints
+          href: sum/adddistributionpoints-method-in-class-sms_softwareupdatespackage.md
+        - name: Метод AddUpdateContent
+          href: sum/addupdatecontent-method-in-class-sms_softwareupdatespackage.md
+        - name: Метод RebuildPackage
+          href: sum/rebuildpackage-method-in-class-sms_softwareupdatespackage.md
+        - name: Метод RefreshPkgSource
+          href: sum/refreshpkgsource-method-in-class-sms_softwareupdatespackage.md
+        - name: Метод RemoveContent
+          href: sum/removecontent-method-in-class-sms_softwareupdatespackage.md
+        - name: Метод SetSourceSite
+          href: sum/setsourcesite-method-in-class-sms_softwareupdatespackage.md
+        - name: Метод Unlock
+          href: sum/unlock-method-in-class-sms_softwareupdatespackage.md
+        - name: Метод ValidateNewPackageSource
+          href: sum/validatenewpackagesource-method-in-class-sms_softwareupdatespackage.md
+    - name: 'SMS_SUMDeploymentAssetDetails, класс WMI сервера'
+      href: sum/sms_sumdeploymentassetdetails-server-wmi-class.md
+    - name: 'SMS_SUMDeploymentStatistics, класс WMI сервера'
+      href: sum/sms_sumdeploymentstatistics-server-wmi-class.md
+    - name: 'SMS_SUMDeploymentStatus, класс WMI сервера'
+      href: sum/sms_sumdeploymentstatus-server-wmi-class.md
+    - name: 'SMS_SUPSyncStatus, класс WMI сервера'
+      href: sum/sms_supsyncstatus-server-wmi-class.md
+    - name: 'SMS_Template, класс WMI сервера'
+      href: sum/sms_template-server-wmi-class.md
+    - name: 'SMS_UpdateCategoryInstance, класс WMI сервера'
+      href: sum/sms_updatecategoryinstance-server-wmi-class.md
+    - name: 'SMS_UpdateComplianceStatus, класс WMI сервера'
+      href: sum/sms_updatecompliancestatus-server-wmi-class.md
+    - name: 'SMS_UpdateDeploymentSummary, класс WMI сервера'
+      href: sum/sms_updatedeploymentsummary-server-wmi-class.md
+    - name: 'SMS_UpdateGroupAssignment, класс WMI сервера'
+      href: sum/sms_updategroupassignment-server-wmi-class.md
+    - name: 'SMS_UpdatesAssignment, класс WMI сервера'
+      href: sum/sms_updatesassignment-server-wmi-class.md
+- name: Классы WMI серверов для поддержки
+  items:
+    - name: 'SMS_ContextMethods, класс WMI сервера'
+      href: misc/sms_contextmethods-server-wmi-class.md
+      items:
+        - name: Метод ClearContextHandle
+          href: misc/clearcontexthandle-method-in-class-sms_contextmethods.md
+        - name: Метод GetContextHandle
+          href: misc/getcontexthandle-method-in-class-sms_contextmethods.md
+    - name: 'SMS_ExtendedStatus, класс WMI сервера'
+      href: misc/sms_extendedstatus-server-wmi-class.md
+    - name: 'SMS_NAL_Methods, класс WMI сервера'
+      href: misc/sms_nal_methods-server-wmi-class.md
+      items:
+        - name: Метод PackNALPath
+          href: misc/packnalpath-method-in-class-sms_nal_methods.md
+        - name: Метод UnPackNALPath
+          href: misc/unpacknalpath-method-in-class-sms_nal_methods.md
+    - name: 'SMS_ProviderLocation, класс WMI сервера'
+      href: misc/sms_providerlocation-server-wmi-class.md
+- name: Классы состояния
+  items:
+    - name: API клиентов состояния
+      items:
+        - name: Функции сообщений о состоянии Smscstat.dll
+          href: core/servers/manage/smscstat.dll-status-message-functions.md
+          items:
+            - name: 'AddAttributeToSMSStatusMessage, функция'
+              href: core/servers/manage/addattributetosmsstatusmessage-function.md
+            - name: 'CreateSMSStatusMessage, функция'
+              href: core/servers/manage/createsmsstatusmessage-function.md
+            - name: 'ReportSMSStatusMessage, функция'
+              href: core/servers/manage/reportsmsstatusmessage-function.md
+        - name: 'SMSEvent, класс'
+          href: core/servers/manage/smsevent-class.md
+          items:
+            - name: 'ICCMEvent, свойство EventType'
+              href: core/servers/manage/iccmevent--eventtype-property.md
+            - name: 'ICCMEvent, свойство RawEvent'
+              href: core/servers/manage/iccmevent--rawevent-property.md
+            - name: Метод ICCMEvent SetProperty
+              href: core/servers/manage/iccmevent--setproperty-method.md
+            - name: Метод ICCMEvent Submit
+              href: core/servers/manage/iccmevent--submit-method.md
+            - name: Метод ICCMEvent SubmitPending
+              href: core/servers/manage/iccmevent--submitpending-method.md
+    - name: Типы сообщений о состоянии
+      items:
+        - name: SMS_SofwareDistribution_Event
+          href: core/servers/manage/sms_sofwaredistribution_event.md
+        - name: SoftDistDownloadFailedEvent
+          href: core/servers/manage/softdistdownloadfailedevent.md
+        - name: SoftDistProgramCompletedSuccessfullyEvent
+          href: core/servers/manage/softdistprogramcompletedsuccessfullyevent.md
+        - name: SoftwareDistributionPackageEvent
+          href: core/servers/manage/softwaredistributionpackageevent.md
+    - name: Функции MIF-состояния
+      href: core/servers/manage/status-mif-functions.md
+      items:
+        - name: 'Create, функция'
+          href: core/servers/manage/create-function.md
+        - name: 'InstallStatusMIF, функция'
+          href: core/servers/manage/installstatusmif-function.md
+        - name: 'InstallStatusMIFEx, функция'
+          href: core/servers/manage/installstatusmifex-function.md
+    - name: API серверов состояния
+      items:
+        - name: 'SMSFormatMessageCtl, класс'
+          href: core/servers/manage/smsformatmessagectl-class.md
+          items:
+            - name: Метод FormatModuleMessage
+              href: core/servers/manage/formatmodulemessage-method.md
+            - name: Метод FormatModuleString
+              href: core/servers/manage/formatmodulestring-method.md
+            - name: Метод FormatSystemMessage
+              href: core/servers/manage/formatsystemmessage-method.md
+    - name: Классы WMI серверов состояния
+      items:
+        - name: 'SMS_ComponentSummarizer, класс WMI сервера'
+          href: core/servers/manage/sms_componentsummarizer-server-wmi-class.md
+          items:
+            - name: Метод DeleteStatistics
+              href: core/servers/manage/deletestatistics-method-in-class-sms_componentsummarizer.md
+        - name: 'SMS_SecondarySiteStatus, класс WMI сервера'
+          href: core/servers/manage/sms_secondarysitestatus-server-wmi-class.md
+        - name: 'SMS_SiteDetailSummarizer, класс WMI сервера'
+          href: core/servers/manage/sms_sitedetailsummarizer-server-wmi-class.md
+        - name: 'SMS_SiteSystemSummarizer, класс WMI сервера'
+          href: core/servers/manage/sms_sitesystemsummarizer-server-wmi-class.md
+        - name: 'SMS_StatAttr, класс WMI сервера'
+          href: core/servers/manage/sms_statattr-server-wmi-class.md
+        - name: 'SMS_StatInsStr, класс WMI сервера'
+          href: core/servers/manage/sms_statinsstr-server-wmi-class.md
+        - name: 'SMS_StatMsg, класс WMI сервера'
+          href: core/servers/manage/sms_statmsg-server-wmi-class.md
+        - name: 'SMS_StatMsgAttributes, класс WMI сервера'
+          href: core/servers/manage/sms_statmsgattributes-server-wmi-class.md
+        - name: 'SMS_StatMsgInsStrings, класс WMI сервера'
+          href: core/servers/manage/sms_statmsginsstrings-server-wmi-class.md
+        - name: 'SMS_StatMsgModuleNames, класс WMI сервера'
+          href: core/servers/manage/sms_statmsgmodulenames-server-wmi-class.md
+        - name: 'SMS_StatMsgWithInsStrings, класс WMI сервера'
+          href: core/servers/manage/sms_statmsgwithinsstrings-server-wmi-class.md
+        - name: 'SMS_StatusMessage, класс WMI сервера'
+          href: core/servers/manage/sms_statusmessage-server-wmi-class.md
+          items:
+            - name: Метод DeleteByID
+              href: core/servers/manage/deletebyid-method-in-class-sms_statusmessage.md
+            - name: Метод DeleteByQuery
+              href: core/servers/manage/deletebyquery-method-in-class-sms_statusmessage.md
+            - name: Метод RaiseErrorStatusMsg
+              href: core/servers/manage/raiseerrorstatusmsg-method-in-class-sms_statusmessage.md
+            - name: Метод RaiseInformationalStatusMsg
+              href: core/servers/manage/raiseinformationalstatusmsg-method-in-class-sms_statusmessage.md
+            - name: Метод RaiseRawStatusMsg
+              href: core/servers/manage/raiserawstatusmsg-method-in-class-sms_statusmessage.md
+            - name: Метод RaiseWarningStatusMsg
+              href: core/servers/manage/raisewarningstatusmsg-method-in-class-sms_statusmessage.md
+        - name: 'SMS_SummarizerRootStatus, класс WMI сервера'
+          href: core/servers/manage/sms_summarizerrootstatus-server-wmi-class.md
+          items:
+            - name: Метод GetTallyIntervals
+              href: core/servers/manage/gettallyintervals-method-in-class-sms_summarizerrootstatus.md
+        - name: 'SMS_SummarizationSettings, класс WMI сервера'
+          href: core/servers/manage/sms_summarizationsettings-server-wmi-class.md
+          items:
+            - name: Метод GetSummarizationSettings
+              href: core/servers/manage/getsummarizationsettings-method-in-class-sms_summarizationsettings.md
+            - name: Метод SetSummarizationSettings
+              href: core/servers/manage/setsummarizationsettings-method-in-class-sms_summarizationsettings.md
+        - name: 'SMS_SummarizerSiteStatus, класс WMI сервера'
+          href: core/servers/manage/sms_summarizersitestatus-server-wmi-class.md
+        - name: 'SMS_SummarizerStatus, класс WMI сервера'
+          href: core/servers/manage/sms_summarizerstatus-server-wmi-class.md
+- name: Классы WMI серверов для Microsoft Azure
+  items:
+    - name: 'SMS_AzureService, класс WMI сервера'
+      href: core/servers/configure/sms_azureservice-server-wmi-class.md
+      items:
+        - name: Метод Start
+          href: core/servers/configure/start-method-in-class-sms_azureservice.md
+        - name: Метод Stop
+          href: core/servers/configure/stop-method-in-class-sms_azureservice.md
+    - name: 'SMS_AzureServicesTask, класс WMI сервера'
+      href: core/servers/configure/sms_azureservicestask-server-wmi-class.md
+- name: "Классы WMI серверов для обслуживания Windows\_10"
+  items:
+    - name: 'SMS_AdminUIContent, класс WMI сервера'
+      href: misc/sms-adminuicontent-server-wmi-class.md
+    - name: 'SMS_Windows10Dashboard, класс WMI сервера'
+      href: misc/sms_windows10dashboard-server-wmi-class.md
+    - name: 'SMS_WindowsServicingBusinessReadyUpdates, класс WMI сервера'
+      href: misc/sms_windowsservicingbusinessreadyupdates-server-wmi-class.md
+    - name: 'SMS_WindowsServicingLocalizedNames, класс WMI сервера'
+      href: misc/sms_windowsservicinglocalizednames-server-wmi-class.md
+    - name: 'SMS_WindowsServicingStates, класс WMI сервера'
+      href: misc/sms_windowsservicingstates-server-wmi-class.md
