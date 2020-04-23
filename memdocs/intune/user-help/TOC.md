@@ -97,7 +97,7 @@
 #### [Определение расположения серийного номера](how-do-i-find-the-serial-number-on-my-device-ios.md)
 #### [Обновление устройства iOS](you-need-to-update-your-ios-device.md)
 #### [Обновление устройства для установки Outlook](update-device-outlook-ios.md)
-#### [Моя версия iOS еще не поддерживается](your-ios-version-isnt-yet-supported.md).
+#### [Моя версия iOS еще не поддерживается](your-ios-version-isnt-yet-supported.md)
 
 ### Mobile Threat Defense
 #### [Установка приложения Mobile Threat Defense](you-are-prompted-to-install-mtd-ios.md)
@@ -147,14 +147,14 @@
 
 ### [Устранение распространенных неполадок для Windows](troubleshoot-your-device-windows.md)
 #### [Устранение ошибок, связанных с ограничениями точек доступа](resolve-access-point-restrictions.md)
-#### [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md).
+#### [Мое устройство с Windows 10 не регистрируется](troubleshoot-your-windows-10-device-windows.md)
 #### [Обновление устройства под управлением Windows](you-need-to-update-your-windows-device.md)
 #### [Отправка журналов из приложения корпоративного портала](send-logs-to-your-it-admin-cp-windows.md)
 #### [Отправка журналов из приложения параметров устройства](send-logs-to-your-it-admin-settings-windows.md)
 #### [Моя версия Windows не поддерживается](your-windows-version-isnt-yet-supported.md)
 #### [Установка Office 365 на устройстве под управлением Windows 10](install-office-windows.md)
 #### [Мне необходимо зашифровать свое устройство](you-need-to-enable-windows-encryption.md)
-#### [Моему устройству требуется защита от вредоносных программ](your-device-needs-antimalware-software.md).
+#### [Моему устройству требуется защита от вредоносных программ](your-device-needs-antimalware-software.md)
 #### [Включение безопасной загрузки](you-need-to-enable-secure-boot-windows.md)
 #### [Включение функции обеспечения целостности кода Windows](you-need-to-enable-code-integrity.md)
 #### [Включение брандмауэра Windows](you-need-to-enable-defender-firewall-windows.md)
