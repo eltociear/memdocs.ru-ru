@@ -55,7 +55,7 @@ ms.locfileid: "80696509"
 
 При тестировании изменений политик APP следует учитывать [время реализации](app-protection-policy-delivery.md). Можно отслеживать состояние реализации политик APP для конкретного пользователя. Дополнительные сведения см. в статье [Как отслеживать политики защиты приложений](app-protection-policies-monitor.md).
 
-Отдельные параметры APP для каждого приложения можно проверить на устройствах с помощью Edge и URL-адреса *about:Intunehelp*. Дополнительные сведения см. в статьях [Просмотр журналов защиты клиентских приложений](app-protection-policy-settings-log.md) и [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs).
+Отдельные параметры APP для каждого приложения можно проверить на устройствах с помощью Microsoft Edge и URL-адреса *about:Intunehelp*. Дополнительные сведения см. в статьях [Просмотр журналов защиты клиентских приложений](app-protection-policy-settings-log.md) и [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs).
 
 ## <a name="app-data-protection-framework-settings"></a>Параметры платформы защиты данных с помощью APP
 
