@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 02/13/2020
+ms.date: 04/21/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0ccc5c93d72c026c38616c8fdcfea6f81f153aa0
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: fd126e59b8162a66815e89d0e80850fe2fe9c2d4
+ms.sourcegitcommit: 568f8f8c19fafdd0f4352d0682f1ca7a4d665d25
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79352323"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81771066"
 ---
 # <a name="set-rules-on-devices-to-allow-access-to-resources-in-your-organization-using-intune"></a>Установка правил на устройствах для разрешения доступа к ресурсам в организации с помощью Intune
 
@@ -82,7 +82,7 @@ Intune использует [условный доступ](https://docs.microso
 
 ## <a name="ways-to-deploy-device-compliance-policies"></a>Способы развертывания политик соответствия устройств
 
-Политику соответствия можно развернуть для пользователей в группах пользователей или для устройств в группах устройств. При развертывании политики соответствия для пользователя все его устройства проверяются на соответствие. На устройствах с Windows 10 версии 1803 (и более новыми версиями) политику рекомендуется развертывать в группу устройств, *если* основной пользователь не зарегистрировал устройство. Группы устройств в таких ситуациях помогают создавать отчеты о соответствии.
+Политику соответствия можно развернуть для пользователей в группах пользователей или для устройств в группах устройств. При развертывании политики соответствия для пользователя все его устройства проверяются на соответствие. Группы устройств в таких ситуациях помогают создавать отчеты о соответствии.
 
 Intune также содержит набор встроенных параметров политики соответствия требованиям. На всех устройствах, зарегистрированных в Intune, оцениваются следующие встроенные политики:
 

@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 934e2283fec0cd68ea5b72f092fb6dcac6f3fe4c
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 53f33b659e45720dc84b7c38ca54fec0e3768a60
+ms.sourcegitcommit: 2871a17e43b2625a5850a41a9aff447c8ca44820
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81379637"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82126098"
 ---
 # <a name="troubleshoot-device-to-ndes-server-communication-for-scep-certificate-profiles-in-microsoft-intune"></a>Устранение неполадок при обмене данными между устройствами и сервером NDES для профилей сертификатов SCEP в Microsoft Intune
 
@@ -161,7 +161,7 @@ debug    18:30:55.487908 -0500    profiled    Performing synchronous URL request
 
 Выполните следующие действия, чтобы проверить URL-адрес, указанный в профиле сертификата SCEP.
 
-1. В Intune измените профиль сертификата SCEP и скопируйте URL-адрес сервера. URL-адрес должен выглядеть примерно так: *https://contoso.com/certsrv/mscep/msecp.dll* .
+1. В Intune измените профиль сертификата SCEP и скопируйте URL-адрес сервера. URL-адрес должен выглядеть примерно так: *https://contoso.com/certsrv/mscep/mscep.dll* .
 
 2. Откройте веб-браузер и перейдите по URL-адресу сервера SCEP. Результат должен быть следующим: **Ошибка: HTTP 403.0 — запрещено**. Этот результат указывает, что URL-адрес работает правильно.
 
