@@ -11,12 +11,12 @@ author: aczechowski
 ROBOTS: NOINDEX
 manager: dougeby
 ms.author: aaroncz
-ms.openlocfilehash: 475cb4e9a4c6c3b90582210b0ebf4a7f69e9f643
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: f32eaffe673324699e20fc7c579ea1ac9b38c479
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81694292"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82076345"
 ---
 # <a name="capabilities-in-technical-preview-1511-for-configuration-manager"></a>Возможности в Technical Preview 1511 для Configuration Manager
 
@@ -48,7 +48,7 @@ ms.locfileid: "81694292"
 
 4.  Создайте параметр агента клиента для отключения рабочего процесса обновления программного обеспечения и разверните этот параметр в коллекции компьютеров, которые подключены непосредственно к Центру обновления Windows для бизнеса.  
 
-5.  Компьютеры, управляемые через Центр обновления Windows для бизнеса, имеют состояние соответствия требованиям **Неизвестно** и учитываются в общем проценте соответствия.  
+5.  Компьютеры, управляемые через Центр обновления Windows для бизнеса, имеют состояние соответствия требованиям **Неизвестно** и не учитываются в общем проценте соответствия.  
 
 ##  <a name="managing-office-365-proplus-client-update-through-configuration-manager"></a><a name="BKMK_Office365ProPlus"></a> Управление обновлением клиента Office 365 профессиональный плюс через Configuration Manager  
  Configuration Manager теперь может управлять обновлениями настольного клиента Office 365 с помощью рабочего процесса управления обновлениями программного обеспечения Configuration Manager.    

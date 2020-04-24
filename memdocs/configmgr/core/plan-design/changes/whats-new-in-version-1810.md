@@ -10,12 +10,12 @@ ms.assetid: 4812324b-e6aa-4431-bf1d-9fcd763a8caa
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 549940abdfd69f3998cab8f236a29b8fd097b705
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 6a9770dca209669659abf6e4fc9c23d5e6972981
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81702292"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82073557"
 ---
 # <a name="whats-new-in-version-1810-of-configuration-manager-current-branch"></a>Новые возможности в версии Configuration Manager 1810 (Current Branch)
 
@@ -418,7 +418,7 @@ Configuration Manager теперь поддерживает Windows Server 2019
 ### <a name="an-intune-connection-is-no-longer-required-for-new-on-premises-mdm-deployments"></a>Подключение к Intune больше не требуется для локального развертывания MDM
 
 <!--1359124-->
-Локальный компонент управления мобильными устройствами больше не требуется для настройки подписки Microsoft Intune для новых развертываний. Вашей организации по-прежнему требуется лицензия Intune для использования этой функции. В настоящее время невозможно удалить подключение Intune из существующих локальных развертываний MDM. Дополнительные сведения см. в [блоге группы поддержки Intune](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Move-from-Hybrid-Mobile-Device-Management-to-Intune-on-Azure/ba-p/280150).
+Локальный компонент управления мобильными устройствами больше не требуется для настройки подписки Microsoft Intune для новых развертываний. Вашей организации по-прежнему требуется лицензия Intune для использования этой функции. Сейчас вы не можете отказаться от подключения к Intune, используемого для существующих локальных развертываний MDM. Дополнительные сведения см. в [блоге группы поддержки Intune](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Move-from-Hybrid-Mobile-Device-Management-to-Intune-on-Azure/ba-p/280150).
 
 
 
