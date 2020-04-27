@@ -1,0 +1,96 @@
+### YamlMime:Hub
+title: Документация по Microsoft Endpoint Manager
+summary: Официальная документация по продукту Microsoft Endpoint Manager
+metadata:
+  services: service
+  ms.service: microsoft-intune
+  ms.topic: hub-page
+  author: dougeby
+  ms.author: dougeby
+  manager: mtillman
+  ms.date: 04/20/2020
+  ms.openlocfilehash: b72bb3a86129b67622f1f22b4e78814d3dfee574
+  ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81741312"
+highlightedContent:
+  items:
+  - title: Обзор Microsoft Endpoint Manager
+    itemType: overview
+    url: endpoint-manager-overview.md
+  - title: Microsoft Endpoint Manager (страница продукта)
+    itemType: get-started
+    url: https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager
+  - title: Руководство. Пошаговое руководство по Intune в Microsoft Endpoint Manager
+    itemType: tutorial
+    url: ./intune/fundamentals/tutorial-walkthrough-endpoint-manager.md
+  - title: Обеспечьте безопасность удаленных сотрудников
+    itemType: get-started
+    url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
+conceptualContent:
+  items:
+  - title: Microsoft Intune
+    links:
+    - url: ./intune/index.yml
+      itemType: overview
+      text: Документация по Microsoft Intune
+    - url: ./intune/fundamentals/index.yml
+      itemType: overview
+      text: Планирование и настройка Intune
+    - url: ./intune/enrollment/index.yml
+      itemType: overview
+      text: регистрации устройств;
+    - url: ./intune/remote-actions/index.yml
+      itemType: overview
+      text: Удаленное управление устройствами
+    - url: ./intune/protect/index.yml
+      itemType: overview
+      text: Создание правил соответствия для пользователей и устройств
+    - url: ./intune/configuration/index.yml
+      itemType: overview
+      text: Управление функциями и параметрами устройств
+    - url: ./intune/apps/index.yml
+      itemType: concept
+      text: Управление приложениями и их защита
+  - title: Microsoft Endpoint Configuration Manager
+    links:
+    - url: ./configmgr/index.yml
+      itemType: get-started
+      text: Документация по Microsoft Endpoint Configuration Manager
+    - url: ./configmgr/comanage/index.yml
+      itemType: concept
+      text: Управление рабочими нагрузками устройств в Configuration Manager и Intune
+    - url: ./configmgr/desktop-analytics/index.yml
+      itemType: overview
+      text: Использование Аналитики компьютеров для обеспечения готовности к обновлению
+    - url: ./configmgr/core/index.yml
+      itemType: overview
+      text: Управление инфраструктурой
+    - url: ./configmgr/apps/index.yml
+      itemType: concept
+      text: Управление приложениями
+    - url: ./configmgr/osd/index.yml
+      itemType: concept
+      text: Развертывание операционной системы
+    - url: ./configmgr/sum/index.yml
+      itemType: concept
+      text: Обновления программного обеспечения
+    - url: ./configmgr/compliance/index.yml
+      itemType: concept
+      text: Управление конфигурацией и соответствием устройств
+    - url: ./configmgr/protect/index.yml
+      itemType: concept
+      text: Защита инфраструктуры и данных
+  - title: Windows Autopilot
+    links:
+    - url: https://docs.microsoft.com/windows/deployment/windows-autopilot/
+      itemType: concept
+      text: Документация по Windows Autopilot
+    - url: /mem/intune/enrollment/enrollment-autopilot
+      itemType: how-to-guide
+      text: 'Intune: Регистрация устройств Windows с помощью Windows Autopilot'
+    - url: ./configmgr/osd/deploy-use/windows-autopilot-for-existing-devices.md
+      itemType: how-to-guide
+      text: 'Configuration Manager: Использование Windows Autopilot для существующих устройств'

@@ -1,0 +1,7 @@
+- name: "Microsoft Endpoint\_Manager"
+  href: index.yml
+- name: Обзор
+  expanded: true
+  items:
+    - name: Обзор Microsoft Endpoint Manager
+      href: endpoint-manager-overview.md

@@ -1,0 +1,60 @@
+- name: Документация по Аналитике компьютеров
+  href: index.yml
+- name: Обзор
+  items:
+    - name: Что такое Аналитика компьютеров?
+      href: overview.md
+    - name: Новые возможности
+      href: whats-new.md
+- name: Руководства
+  items:
+    - name: "Пилотный проект Windows\_10"
+      href: tutorial-windows10.md
+- name: Основные понятия
+  items:
+    - name: Планы развертывания
+      href: about-deployment-plans.md
+    - name: Ресурсы
+      href: about-assets.md
+    - name: Исправления и обновления компонентов
+      href: about-updates.md
+    - name: Оценка совместимости
+      href: compat-assessment.md
+    - name: Мониторинг состояния работоспособности
+      href: health-status-monitoring.md
+- name: Практические руководства
+  items:
+    - name: Настройка Аналитики компьютеров
+      href: set-up.md
+    - name: Подключение Configuration Manager
+      href: connect-configmgr.md
+    - name: регистрации устройств;
+      href: enroll-devices.md
+    - name: Создание планов развертывания
+      href: create-deployment-plans.md
+    - name: Развертывание в пилотную версию
+      href: deploy-pilot.md
+    - name: Развертывание в рабочую среду
+      href: deploy-prod.md
+    - name: Сброс учетной записи
+      href: account-reset.md
+    - name: Закрытие учетной записи
+      href: account-close.md
+- name: Справочные сведения
+  items:
+    - name: Включение общего доступа к данным
+      href: enable-data-sharing.md
+    - name: Конфиденциальность
+      href: privacy.md
+    - name: Устранение неполадок
+      href: troubleshooting.md
+    - name: Сборщик журналируемых данных
+      href: log-collector.md
+    - name: Мониторинг работоспособности подключения
+      href: monitor-connection-health.md
+    - name: Параметры групповой политики
+      href: group-policy-settings.md
+    - name: Часто задаваемые вопросы
+      href: faq.md
+    - name: Получение поддержки
+      href: get-support.md
