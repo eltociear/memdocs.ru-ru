@@ -17,12 +17,12 @@ searchScope:
 ROBOTS: ''
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: f7dc2fcf505890af1e24f8176bef653a6d5f1022
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 0aff833df367cced712219fff0be85653ef79e89
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79334981"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079660"
 ---
 # <a name="you-need-to-install-sandblast-mobile-protect-on-your-android-device"></a>Вам необходимо установить SandBlast Mobile Protect на устройстве с Android
 
@@ -52,7 +52,7 @@ ms.locfileid: "79334981"
 
 10. Если угрозы не найдены, все три типа угроз будут выделены зеленым цветом.
 
-11. Экран **сведений об устройстве** на корпоративном портале показывает, что теперь ваше устройство соответствует требованиям безопасности вашей организации.
+11. На экране **сведений об устройстве** на корпоративном портале показано, что ваше устройство соответствует требованиям безопасности вашей организации.
 
     ![Устройство теперь соответствует политикам](./media/mtd-device-now-compliant-android.png)
 

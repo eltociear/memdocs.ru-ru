@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.prod: configuration-manager
 ms.technology: configmgr-sum
 ms.assetid: 04536d51-3bf7-45e5-b4af-36ceed10583d
-ms.openlocfilehash: 8104bbab04e2c8741bfbbc9c6fb61039033941c9
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 00accfc5150226830b68beb194fa168c08148b84
+ms.sourcegitcommit: 2cafbba6073edca555594deb99ae29e79cd0bc79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81696142"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82110429"
 ---
 # <a name="deploy-software-updates"></a>Развертывание обновлений программного обеспечения  
 
@@ -68,10 +68,9 @@ ms.locfileid: "81696142"
 
 Дополнительные сведения и подробные инструкции см. в статье [Развертывание обновлений программного обеспечения вручную](manually-deploy-software-updates.md).
 
-> [!Tip]  
-> При развертывании обновлений для клиента Office 365 вручную найдите их в узле **Обновления Office 365** в разделе **Управление клиентом Office 365** рабочей области **Библиотека программного обеспечения**.  
-
-
+> [!Note]
+> - Начиная с 21 апреля 2020 г. Office 365 профессиональный плюс переименовывается в **Приложения Microsoft 365 для предприятия**. Дополнительные сведения см. в статье [Изменение названия Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/name-change). Пока консоль Configuration Manager обновляется, в ней и в сопутствующей документации может встречаться старое название.
+> - При развертывании обновлений для клиента Office 365 вручную найдите их в узле **Обновления Office 365** в разделе **Управление клиентом Office 365** рабочей области **Библиотека программного обеспечения**. 
 
 ## <a name="automatically-deploy-software-updates"></a><a name="bkmk_auto"></a> Автоматическое развертывание обновлений программного обеспечения
 

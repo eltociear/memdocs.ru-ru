@@ -17,12 +17,12 @@ searchScope:
 ROBOTS: ''
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 2bd295b0dca016971c34997873994a4fe1bc2c0d
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 5c521740eb714ac6e80499dfb99d1e9de2df376e
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79334942"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079643"
 ---
 # <a name="install-symantec-endpoint-protection-mobile-on-your-android-device"></a>Установка Symantec Endpoint Protection Mobile на устройстве Android
 
@@ -52,7 +52,7 @@ ms.locfileid: "79334942"
 
    * Если угрозы не найдены, все три типа угроз будут выделены зеленым цветом.
 
-     * Экран **сведений об устройстве** на корпоративном портале показывает, что теперь ваше устройство соответствует требованиям безопасности вашей организации.
+     * На экране **сведений об устройстве** на корпоративном портале показано, что ваше устройство соответствует требованиям безопасности вашей организации.
 
      ![Устройство теперь соответствует политикам](./media/mtd-device-now-compliant-android.png)
 

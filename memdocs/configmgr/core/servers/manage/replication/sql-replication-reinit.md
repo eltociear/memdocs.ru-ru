@@ -10,12 +10,12 @@ ms.assetid: ce4a1ca8-6433-4447-819f-19dd5faa6f46
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: c0e48f2c04e218a7f0eba1b7f06dec768edc8af4
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: f6207ed4eeeef892de38c85096d2cc80189214d1
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81699882"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82078568"
 ---
 # <a name="sql-replication-reinit"></a>Повторная инициализация репликации SQL
 
@@ -63,7 +63,7 @@ WHERE dt.InitializationStatus NOT IN (6,7)
 AND rg.ReplicationPattern=N'Site'
 ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Повторная инициализация глобальных данных](global-data-reinit.md)
 - [Повторная инициализация данных сайта](site-data-reinit.md)

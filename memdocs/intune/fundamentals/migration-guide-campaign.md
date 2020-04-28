@@ -17,12 +17,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 11959de1d03c7aa9cd29de2b4069c6d7bc133f79
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 9a15bc7c1fd74aa3741a9bd699778795cbf3faab
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79358446"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82080034"
 ---
 # <a name="phase-2-migration-campaign"></a>Этап 2. Кампания по миграции
 
@@ -69,6 +69,6 @@ ms.locfileid: "79358446"
 > [!IMPORTANT]
 > Не настраивайте в Intune и существующем стороннем решении MDM применение средств управления доступом к ресурсам, например Exchange или SharePoint Online. Кроме того, одновременно можно регистрировать устройства только в одном решении.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Создайте [коммуникационный план развертывания](migration-guide-communication-plan.md).

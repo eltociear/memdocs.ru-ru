@@ -10,12 +10,12 @@ ms.assetid: da5f8b61-2386-4530-ad54-1a5c51911f07
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: cff249bf5289ebcf354851258b5c9d598314ce3b
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 11045ff31dc3832ac97d62f491561b3cf989813c
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81709062"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079354"
 ---
 # <a name="use-pxe-to-deploy-windows-over-the-network-with-configuration-manager"></a>Использование PXE для развертывания Windows по сети с помощью Configuration Manager
 
@@ -105,6 +105,9 @@ Configuration Manager может распознавать несколько к�
 - Только носители и PXE
 
 - Только носители и PXE (скрытые)
+
+## <a name="option-82-during-pxe-dhcp-handshake"></a>Параметр 82 при подтверждении DHCP PXE
+Начиная с версии 1906 параметр 82 в процессе подтверждения DHCP PXE поддерживается отвечающим устройством PXE без WDS. Если требуется параметр 82, используйте отвечающее устройство PXE без WDS. Параметр 82 не поддерживается с WDS.
 
 ## <a name="deploy-the-task-sequence"></a><a name="BKMK_Deploy"></a> Развертывание последовательности задач
 

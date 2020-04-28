@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e81a88ae3d6db37dfeece31a2e78a2243a9a6387
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: a05e36a2da42bf88e2d9d7e94a67e2d81b8f1271
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79364504"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82078283"
 ---
 # <a name="assign-user-and-device-profiles-in-microsoft-intune"></a>Назначение профилей пользователей и устройств в Microsoft Intune
 
@@ -89,7 +89,7 @@ ms.locfileid: "79364504"
 
 ### <a name="user-groups"></a>Группы пользователей
 
-Параметры профиля, применяемые к группам пользователей, всегда связаны с пользователем, даже если они выполняют вход на многочисленных устройствах. У пользователей может быть много устройств, таких как Surface Pro для выполнения рабочих задач и личное устройство iOS/iPadOS. И это нормально, когда пользователь получает доступ к электронной почте и другим ресурсам организации с этих устройств.
+Параметры профиля, применяемые к группам пользователей, всегда связаны с пользователем, даже если они выполняют вход на многочисленных устройствах. У пользователей может быть много устройств, таких как Surface Pro для выполнения рабочих задач и личное устройство iOS или iPadOS. И это нормально, когда пользователь получает доступ к электронной почте и другим ресурсам организации с этих устройств.
 
 Пример.
 

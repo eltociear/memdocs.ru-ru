@@ -10,12 +10,12 @@ ms.assetid: 97e23075-549c-4e45-ab1e-0671027edacf
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 94ad19c2b405af75c7432bb4601098f980c1e821
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: c7ad4e96d9afba7e52d2ff2e5dd3f4f6be0b9a98
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81702332"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82078708"
 ---
 # <a name="whats-new-in-version-1906-of-configuration-manager-current-branch"></a>Новые возможности Configuration Manager версии 1906 (Current Branch)
 
@@ -371,6 +371,10 @@ OneTrace — это новое средство просмотра журнал
 - Последовательность задач задает новую переменную только для чтения **_SMSTSLastContentDownloadLocation**. Эта переменная содержит последнее расположение, где скачивалась последовательность задач или была попытка скачать содержимое. Проверяйте эту переменную вместо синтаксического анализа журналов клиента.<!-- 2840337 -->
 
 - При создании носителей для последовательности задач Configuration Manager не добавляет файл autorun.inf. Этот файл обычно блокируется продуктами для защиты от вредоносных программ. При необходимости этот файл можно включить.<!-- 4090666 -->
+
+### <a name="improvements-to-pxe"></a>Улучшения PXE
+
+Параметр 82 в процессе подтверждения DHCP PXE теперь поддерживается отвечающим устройством PXE без WDS. Параметр 82 не поддерживается с WDS.
 
 
 ## <a name="software-center"></a><a name="bkmk_userxp"></a> Центр программного обеспечения

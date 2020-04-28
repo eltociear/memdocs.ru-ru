@@ -17,12 +17,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f8be97edbbba9a998dd223a5a0e9c8982c1a16a1
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 70f6e3d3fcd0a5f65866e43198b499b321aab836
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80326603"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079048"
 ---
 # <a name="tutorial-protect-exchange-online-email-on-unmanaged-devices"></a>Руководство. Защита электронной почты Exchange Online на неуправляемых устройствах
 
@@ -38,7 +38,7 @@ ms.locfileid: "80326603"
 
 - Azure Active Directory Premium ([бесплатная пробная версия](https://azure.microsoft.com/free/?WT.mc_id=A261C142F));
 - подписка Intune ([бесплатная пробная версия](../fundamentals/free-trial-sign-up.md));
-- Office 365 бизнес, которая включает Exchange ([бесплатная пробная версия](https://go.microsoft.com/fwlink/p/?LinkID=510938)).
+- подписка "Приложения Microsoft 365 для бизнеса", которая включает Exchange ([бесплатная пробная версия](https://go.microsoft.com/fwlink/p/?LinkID=510938)).
 
 ## <a name="sign-in-to-intune"></a>Вход в Intune
 
@@ -46,7 +46,7 @@ ms.locfileid: "80326603"
 
 ## <a name="create-the-app-protection-policy"></a>Создание политики защиты приложений
 
-В этом учебнике мы настроим политику защиты приложений Intune для приложения Outlook на платформе iOS, чтобы обеспечить защиту на уровне приложения. Мы настроим требование ввода ПИН-кода для открытия приложения в рабочем контексте, а также ограничим обмен данными между приложениями и предотвратим сохранение корпоративных данных в личных расположениях.
+В этом руководстве описано, как настроить политику защиты приложений Intune для приложения Outlook на платформе iOS, чтобы обеспечить защиту на уровне приложения. Мы настроим требование ввода ПИН-кода для открытия приложения в рабочем контексте, а также ограничим обмен данными между приложениями и предотвратим сохранение корпоративных данных в личных расположениях.
 
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6327de8fd4543f60d66eedc3ac6b86b8275f2ca2
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 65d4745580a4b0d733ffe14be03f0f9893074586
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79357224"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82080102"
 ---
 # <a name="intune-deployment-planning-design-and-implementation-guide"></a>Руководство по планированию, проектированию и внедрению для Intune
 
@@ -35,11 +35,11 @@ ms.locfileid: "79357224"
 
 - [Раздел 1. Определение целей развертывания, задач и возможных трудностей](planning-guide-deployment-goals.md)
 
-- [Раздел 2. Определение сценариев вариантов использования](planning-guide-scenarios.md)
+- [Раздел 2. Определение вариантов использования](planning-guide-scenarios.md)
 
-- [Раздел 3: Определение требований для вариантов использования](planning-guide-requirements.md)
+- [Раздел 3. Определение требований для вариантов использования](planning-guide-requirements.md)
 
-- [Раздел 4. Разработка плана развертывания](planning-guide-rollout-plan.md)
+- [Раздел 4. Разработка плана внедрения](planning-guide-rollout-plan.md)
 
 - [Раздел 5. Разработка коммуникационного плана развертывания](planning-guide-communication-plan.md)
 
@@ -55,12 +55,12 @@ ms.locfileid: "79357224"
 
 - [Дополнительные ресурсы: ссылки и шаблоны таблиц](planning-guide-resources.md)
 
-## <a name="assumptions"></a>Допущения
+## <a name="assumptions"></a>Предположения
 
 - Вы уже оценили Intune в среде для подтверждения концепции и решили использовать эту службу в качестве решения по управлению мобильными устройствами в своей организации.
 
 - Вы уже знакомы с Intune и ее функциями.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
-Начнем работу с изучения первого раздела: [Определение целей развертывания, задач и возможных трудностей](planning-guide-deployment-goals.md).
+Давайте начнем с первого раздела: [Определение целей развертывания, задач и возможных трудностей](planning-guide-deployment-goals.md).

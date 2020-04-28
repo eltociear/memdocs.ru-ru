@@ -2,7 +2,7 @@
 title: Ready for Windows
 titleSuffix: Configuration Manager
 description: Сведения о прекращении поддержки веб-сайта Ready for Windows
-ms.date: 10/30/2019
+ms.date: 04/21/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-analytics
 ms.topic: conceptual
@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: da56dbe1a363606e50569db8be10d65d10d1b422
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: b3f378ce519085eb1d2714a901e20b29b62b0cd4
+ms.sourcegitcommit: 2cafbba6073edca555594deb99ae29e79cd0bc79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81695572"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82109987"
 ---
 # <a name="ready-for-modern-desktop-retirement-faq"></a>Часто задаваемые вопросы о прекращении поддержки подготовки для современного настольного компьютера
 
@@ -31,6 +31,9 @@ ms.locfileid: "81695572"
 В каталоге *Ready for modern desktop* (Подготовка для современного настольного компьютера) перечислены решения для программного обеспечения, которые поддерживаются и используются на коммерческих устройствах под управлением Windows 10 и Office 365 профессиональный плюс. Каталог пригодится руководителям ИТ-отдела, которые рассматривают использование последних версий Windows 10 и Office 365 для своих развертываний.
 
 Руководители ИТ-отдела хотят, чтобы эти аналитические сведения были интегрированы с инструментами, используемыми для планирования планов развертывания. Используйте [Аналитику компьютеров](https://aka.ms/dadocs) и [компоненты для подготовки Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/readiness-tools#office-365-proplus-readiness-features-in-configuration-manager-current-branch) в Configuration Manager для планирования проектов обновления Windows 10 и Office 365 профессиональный плюс и управления ими. 
+
+> [!Note]
+> Начиная с 21 апреля 2020 г. Office 365 профессиональный плюс переименовывается в **Приложения Microsoft 365 для предприятия**. Дополнительные сведения см. в статье [Изменение названия Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/name-change). Пока консоль Configuration Manager обновляется, в ней и в сопутствующей документации может встречаться старое название.
 
 ### <a name="what-is-desktop-analytics"></a>Что такое Аналитика компьютеров?
 

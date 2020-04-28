@@ -19,12 +19,12 @@ ms.reviewer: elocholi
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 5b22902d4cc0aa28903cf5a159355c92befb8e6b
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: c0c2e76157ee09d5094e81856a27e655b5932d1f
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79335423"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82077416"
 ---
 # <a name="unenroll-your-macos-device-from-company-portal"></a>Отмена регистрации устройства с macOS на корпоративном портале
 
@@ -40,7 +40,7 @@ ms.locfileid: "79335423"
 
 При отмене регистрации устройства в Intune происходит следующее:
 
-- устройство больше не отображается на корпоративном портале;
+- устройство не отображается на корпоративном портале;
 
 - вы не сможете устанавливать приложения с корпоративного портала;
 

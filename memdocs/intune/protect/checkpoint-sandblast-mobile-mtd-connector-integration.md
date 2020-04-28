@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ed468bfd9a16bb231d29f21c545cd27f121d22e7
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 71dc3eed84f2f1a5a267740b5c1539b29f4c63bb
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79353376"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079864"
 ---
 # <a name="integrate-check-point-sandblast-mobile-with-intune"></a>Интеграция Check Point SandBlast Mobile с Intune
 
@@ -38,7 +38,7 @@ ms.locfileid: "79353376"
 
 Перед началом интеграции Check Point SandBlast Mobile с Intune убедитесь, что у вас есть следующее:
 
-- Подписка Microsoft Intune
+- Подписка на Microsoft Intune
 
 - Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
 
@@ -58,7 +58,7 @@ ms.locfileid: "79353376"
 
 - Вы разрешаете службе Check Point SandBlast Mobile передавать в Intune сведения о состоянии работоспособности устройства.
 
-- CheckPoint SandBlast Mobile синхронизируется с членством в группе регистрации Azure AD и заполняет базу данных устройства.
+- CheckPoint SandBlast Mobile синхронизирует данные о членстве в группе регистрации Azure AD для заполнения базы данных устройства.
 
 - Вы разрешаете консоли администрирования Check Point SandBlast использовать единый вход (SSO) Azure AD.
 
@@ -87,6 +87,6 @@ ms.locfileid: "79353376"
 
 8. Выберите пункт **Проверка**, а после успешной проверки группы безопасности Azure AD нажмите кнопку **Сохранить**.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Настройка приложений Check Point SandBlast Mobile](mtd-apps-ios-app-configuration-policy-add-assign.md)

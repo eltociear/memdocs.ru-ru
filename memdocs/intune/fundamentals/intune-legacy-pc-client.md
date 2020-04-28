@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6aebd63cc0d0b1664b406ce07bfe6624b9384071
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 41b5b4116359864c4d1251515d29005b9d9af425
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79342937"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82077943"
 ---
 # <a name="intune-on-azure-console-and-legacy-intune-pc-client"></a>Intune в консоли Azure и устаревшем клиенте компьютера Intune
 
@@ -42,7 +42,7 @@ ms.locfileid: "79342937"
 - Для всех задач управления (кроме управления группами) с помощью клиента компьютера Intune необходимо использовать консоль Silverlight.
 - При управлении группами необходимо использовать [Intune на портале Azure](https://portal.azure.com/). Это требование появилось, потому что теперь Intune использует группы Azure Active Directory вместо устаревших групп Intune. 
 
-Из-за этого фильтрация "на основе группы" в представлениях панели мониторинга консоли Silverlight немного изменилась. Чтобы выполнить фильтрацию в обновленном пользовательском интерфейсе Silverlight, сделайте следующее:
+Из-за этого фильтрация "на основе групп" Azure AD в представлениях панели мониторинга консоли Silverlight немного изменилась. Чтобы выполнить фильтрацию в обновленном пользовательском интерфейсе Silverlight, сделайте следующее:
 
 1. Выберите представление.
 2. В поле **Фильтры** введите имя группы, для которой необходимо выполнить фильтрацию, и нажмите клавишу ВВОД. В этой группе выполнится фильтрация списка представлений для устройств.
@@ -52,7 +52,7 @@ ms.locfileid: "79342937"
 
 ## <a name="continue-to-manage-windows-7-by-using-intune-pc-client"></a>Управление устройствами с Windows 7 с помощью клиента компьютера Intune
 
-Для устройств с Windows 7, которыми нельзя управлять с помощью MDM, мы продолжим предоставлять поддержку имеющихся возможностей клиента компьютера Intune только в консоли Silverlight. Рассмотрите возможность перехода на управление MDM при обновлении до Windows 10.
+Для устройств с Windows 7, которыми нельзя управлять с помощью MDM, мы продолжим предоставлять поддержку имеющихся возможностей клиента Intune для компьютеров только в консоли Silverlight. Рассмотрите возможность перехода на управление MDM при обновлении до Windows 10.
 
 ## <a name="mdm-capabilities"></a>Возможности управления мобильными устройствами
 
@@ -66,5 +66,5 @@ ms.locfileid: "79342937"
   ![Всплывающее окно предупреждения с выбранным переключателем "Выборочная очистка устройства"](./media/intune-legacy-pc-client/image02.png)
 2. Повторно зарегистрируйте устройство с помощью [MDM (или путем присоединения к Azure Active Directory)](../enrollment/windows-enroll.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 [Регистрация устройств с Windows](../enrollment/windows-enroll.md)

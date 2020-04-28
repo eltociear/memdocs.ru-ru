@@ -17,16 +17,16 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 46e717478078ab13cc2c8783cdacbde0911e83a5
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: cb0b8bdc3fb5ed13f68ab2e261ada091e245ac1d
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79358199"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079678"
 ---
 # <a name="phase-1-prepare-microsoft-intune-for-mobile-device-management-mdm"></a>Этап 1. Подготовка Microsoft Intune к управлению мобильными устройствами (MDM)
 
-Прежде чем углубиться в подробности настройки Intune, давайте рассмотрим требования вашей организации к управлению мобильными устройствами. Чтобы определить критически важные группы пользователей, сформируйте отчеты по активным пользователям вашего действующего поставщика MDM. После этого можно приступать к решению вопросов, указанных в разделе [Оценка требований к MDM](migration-guide-prepare.md#assess-mdm-requirements).
+Прежде чем перейти к детальному изучению настроек Intune, давайте рассмотрим требования вашей организации к управлению мобильными устройствами. Чтобы определить критически важные группы пользователей, сформируйте отчеты по активным пользователям вашего действующего поставщика MDM. После этого можно приступать к решению вопросов, указанных в разделе [Оценка требований к MDM](migration-guide-prepare.md#assess-mdm-requirements).
 
 ## <a name="assess-mdm-requirements"></a>Оценка требований к MDM
 
@@ -77,7 +77,7 @@ ms.locfileid: "79358199"
   <br/><br/>
 - Можно ли сделать временные исключения для определенных требований во избежание простоя, или же устройства с доступом должны постоянно соответствовать всем требованиям безопасности?
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 Примеры использования в различных отраслях, которые помогут узнать, как в организациях оценили требования к управлению мобильными устройствами, см. [здесь](https://customers.microsoft.com/story/mwh-global-now-part-of-stantec-secures-mobile-devices-with-intune).
 
 Ознакомьтесь с [основными настройками Intune](migration-guide-setup.md).

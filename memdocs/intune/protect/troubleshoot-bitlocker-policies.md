@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7d193e067a752e89377b4bec903ff4f890add230
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: ac6650f06abddd2633e73f39a6bf72d54e344a61
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80325624"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079201"
 ---
 # <a name="troubleshoot-bitlocker-policies-in-microsoft-intune"></a>Устранение неполадок с политиками BitLocker в Microsoft Intune
 
@@ -35,7 +35,7 @@ ms.locfileid: "80325624"
 
 - **Политики конфигурации устройств** — при создании профиля конфигурации устройства для управления защитой конечных точек доступны некоторые встроенные параметры политики Intune. Чтобы перейти к этим параметрам, [создайте профиль устройства для защиты конечных точек](endpoint-protection-configure.md#create-a-device-profile-containing-endpoint-protection-settings), выберите **Windows 10 и более поздней версии** для параметра *Платформа*, а затем выберите категорию **Шифрование Windows** в разделе *Настройки*. 
 
-   Дополнительные сведения о доступных параметрах и функциях см. в статье, посвященной [шифрованию Windows](https://docs.microsoft.com/intune/endpoint-protection-windows-10#windows-encryption).
+   Дополнительные сведения о доступных параметрах и функциях см. в этом разделе: [Windows Encryption](https://docs.microsoft.com/intune/endpoint-protection-windows-10#windows-encryption) (Шифрование Windows).
 
 - **Базовые конфигурации безопасности**. - [Базовые конфигурации безопасности](security-baselines.md) — это известные группы параметров и значений по умолчанию, рекомендуемые специалистами по вопросам безопасности, которые помогают защитить устройства Windows. Различные базовые источники, такие как *Базовая конфигурация безопасности MDM* или *Базовые показатели ATP в Защитнике Windows*, могут управлять теми же параметрами, а также другими. С их помощью также можно управлять теми параметрами, для управления которыми используются политики конфигурации устройств. 
 
@@ -105,7 +105,7 @@ Confirm-SecureBootUEFI
 
 ### <a name="review-the-devices-registry-key-configuration"></a>Проверка конфигурации раздела реестра на устройстве
 
-После успешного развертывания политики BitLocker на устройстве перейдите в следующий раздел реестра, где можно просмотреть конфигурацию параметров BitLocker: *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\BitLocker*. Пример:
+После успешного развертывания политики BitLocker на устройстве перейдите в следующий раздел реестра, где можно просмотреть конфигурацию параметров BitLocker:  *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\BitLocker*. Пример:
 
 ![Раздел реестра BitLocker](./media/troubleshooting-bitlocker-policies/registry.png)
 
@@ -205,7 +205,7 @@ EncryptionMethodWithXtsRdvDropDown: 6 (The value 6 refers to the 128 bit encrypt
 
 При устранении неполадок политики BitLocker в Intune и подтверждении того, что политика передана на требуемое устройство, можно считать, что проблема не связана напрямую с Intune. Скорее всего, проблема связана с операционной системой Windows или оборудованием устройства. В этом случае рекомендуется начать поиск проблемы в других областях, таких как конфигурация TPM или UEFI и безопасная загрузка.
 
-## <a name="next-steps"></a>Дальнейшие действия  
+## <a name="next-steps"></a>Дальнейшие шаги  
 
 Ниже приведены дополнительные ресурсы, которые могут помочь при работе с BitLocker.
 

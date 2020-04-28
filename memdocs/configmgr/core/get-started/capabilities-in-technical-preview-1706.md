@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: e986827cee4911ac2204a8e2f50923dcdd71fed0
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: d554f4f6e0c68912f4fac91bc1a8db2807b26a04
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81705152"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82078793"
 ---
 # <a name="capabilities-in-technical-preview-1706-for-configuration-manager"></a>Возможности в Technical Preview 1706 для Configuration Manager
 
@@ -186,7 +186,7 @@ ms.locfileid: "81705152"
 
 ## <a name="include-trust-for-specific-files-and-folders-in-a-device-guard-policy"></a>Включение доверительных отношений для отдельных файлов и папок в политику Device Guard
 <!-- 1324676 -->
-В этом выпуске мы добавили дополнительные возможности для управления политиками [Device Guard](../../protect/deploy-use/use-device-guard-with-configuration-manager.md).
+В этом выпуске мы добавили расширенные возможности для управления политиками [Device Guard](../../protect/deploy-use/use-device-guard-with-configuration-manager.md).
 
 Теперь вы можете включить отношение доверия для конкретных файлов или папок в политику Device Guard. Это позволяет:
 

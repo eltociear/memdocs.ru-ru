@@ -1,6 +1,6 @@
 ---
-title: включить файл
-description: включить файл
+title: Включить имя файла
+description: Включить файл
 services: azure-policy
 author: eross-msft
 ms.service: azure-policy
@@ -9,12 +9,12 @@ ms.date: 04/24/2018
 ms.author: lizross
 ms.custom: include file
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b5e550f18908ae34c7df7e8ba9f03ce6a1b7d0a5
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 349ad64867426efda8bb33134edc09fcae7b16cf
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79339115"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82096095"
 ---
 >[!Note] 
-> В этой статье приведены пошаговые инструкции по удалению персональных данных с устройства или из службы. Эти сведения можно использовать для соблюдения обязательств согласно Общему регламенту по защите данных (GDPR). Если вы ищете общие сведения о GDPR, см. [раздел о GDPR на Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
+> В этой статье описываются действия по удалению персональных данных с устройства или службы и их использование для поддержки обязательств в GDPR. Если вам нужны общие сведения о GDPR, ознакомьтесь с [разделом о GDPR на портале Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).

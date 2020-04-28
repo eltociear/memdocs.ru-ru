@@ -17,12 +17,12 @@ ms.reviewer: dagerrit
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 88f30f10af5969d202dd8eb252cc82d03d3d921e
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 7b09240c2bd1d562985ce69c35f07181dc5c9489
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79358069"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079915"
 ---
 # <a name="intune-migration-guide"></a>Руководство по переходу к Intune
 
@@ -48,7 +48,7 @@ ms.locfileid: "79358069"
 
   - [Особые примечания о миграции](migration-guide-considerations.md)
 
-- [Этап 2: кампании по миграции](migration-guide-campaign.md)
+- [Этап 2. Кампания по миграции](migration-guide-campaign.md)
 
   - [Коммуникационный план](migration-guide-communication-plan.md)
 
@@ -58,7 +58,7 @@ ms.locfileid: "79358069"
     - [Мониторинг миграции](migration-guide-cycle.md#monitoring-migration)
     - [Задачи, выполняемые после переноса](migration-guide-cycle.md#post-migration)
 
-## <a name="assumptions"></a>Допущения
+## <a name="assumptions"></a>Предположения
 
 - Вы уже оценили Intune в среде для подтверждения концепции и решили использовать эту службу в качестве решения по управлению мобильными устройствами в своей организации.
 
@@ -70,6 +70,6 @@ ms.locfileid: "79358069"
 
 - Ознакомьтесь с [распространенными способами использования Intune](common-scenarios.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Этап 1. Подготовка Intune к управлению мобильными устройствами](migration-guide-prepare.md)

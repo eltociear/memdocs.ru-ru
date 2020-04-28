@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b530e4590d50190160695049e2b72f03a0384131
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 7ba564ace6837f81fd6d6c1b0cc27620f0123de2
+ms.sourcegitcommit: af8a3efd361a7f3fa6e98e5126dfb1391966ff76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80233597"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149107"
 ---
 # <a name="automatically-enroll-android-devices-by-using-samsungs-knox-mobile-enrollment"></a>Автоматическая регистрация устройств Android с помощью Samsung Knox Mobile Enrollment
 
@@ -78,7 +78,7 @@ ms.locfileid: "80233597"
 
 \* Это поле не требуется для завершения создания профиля на портале Knox. Тем не менее Intune требует, чтобы это поле было заполнено, чтобы профиль мог успешно зарегистрировать устройство в Intune.
 
-### <a name="for-android"></a>Для Android
+### <a name="for-android-device-administrator"></a>Для администратора устройства Android 
 
 Пошаговые инструкции см. в статье о [создании профиля Samsung](https://docs.samsungknox.com/KME-Getting-Started/Content/create-profiles.htm).
 

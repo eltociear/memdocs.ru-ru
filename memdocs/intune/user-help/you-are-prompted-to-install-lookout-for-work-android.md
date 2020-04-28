@@ -17,12 +17,12 @@ searchScope:
 ROBOTS: ''
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 6d588955a625c6cf1e7771560f298bd612b10aff
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 6eaf0013531018e77a65386ca32dece0bee4ea08
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79346668"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079694"
 ---
 # <a name="install-lookout-for-work"></a>Установка Lookout for Work
 
@@ -68,7 +68,7 @@ ms.locfileid: "79346668"
 
    ![приложение Lookout for Work не нашло угроз безопасности](./media/lookout-scan-no-threats-found-android.png)
 
-   Экран сведений об устройстве на корпоративном портале показывает, что вы теперь соответствуете требованиям безопасности вашей организации.
+   На экране сведений об устройстве на корпоративном портале показано, что ваше устройство соответствует требованиям безопасности вашей организации.
 
     ![устройство теперь соответствует политикам](./media/mtd-device-now-compliant-android.png)
 

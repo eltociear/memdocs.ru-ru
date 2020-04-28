@@ -2,7 +2,7 @@
 title: Синхронизация обновлений Office 365 без подключения к Интернету
 titleSuffix: Configuration Manager
 description: Вы можете выполнять синхронизацию обновлений Office 365 в точке обновления ПО верхнего уровня, отключенной от Интернета.
-ms.date: 04/01/2020
+ms.date: 04/21/2020
 ms.topic: conceptual
 ms.prod: configuration-manager
 ms.technology: configmgr-sum
@@ -10,18 +10,21 @@ ms.assetid: a8fa7e7a-bf55-42de-b0c2-c56777dc1508
 manager: dougeby
 author: mestew
 ms.author: mstewart
-ms.openlocfilehash: 78b97be755659fa06466dd1bb1f6920e2a7be330
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 3627d2f7772b7b9e133d742b0ee4f94dba6e457a
+ms.sourcegitcommit: 2cafbba6073edca555594deb99ae29e79cd0bc79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81699472"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82110361"
 ---
 # <a name="synchronize-office-365-updates-from-a-disconnected-software-update-point"></a><a name="bkmk_O365"></a> Синхронизация обновлений Office 365 с отключенной точки обновления программного обеспечения
 
 *Область применения: Configuration Manager (Current Branch)*
 <!--4065163-->
 Начиная с Configuration Manager версии 2002, вы можете использовать средство для импорта обновлений Office 365 с подключенного к Интернету сервера WSUS в отключенную среду Configuration Manager. Ранее при экспорте и импорте метаданных для программного обеспечения, обновленного в отключенных средах, не удавалось выполнить развертывание обновлений Office 365. Для обновлений Office 365 требуются дополнительные метаданные, скачанные из API Office и CDN Office, что невозможно для отключенных сред.
+
+> [!Note]
+> Начиная с 21 апреля 2020 г. Office 365 профессиональный плюс переименовывается в **Приложения Microsoft 365 для предприятия**. Дополнительные сведения см. в статье [Изменение названия Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/name-change). Пока консоль Configuration Manager обновляется, в ней и в сопутствующей документации может встречаться старое название.
 
 ## <a name="prerequisites"></a>Предварительные условия
 

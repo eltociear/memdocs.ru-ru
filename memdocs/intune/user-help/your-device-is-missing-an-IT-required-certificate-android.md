@@ -19,16 +19,16 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: b4a16204afc99169183e02eb269ab24d7f63cc49
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 6fa5865c1be4733df6edef484894b246c767db59
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79346057"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079609"
 ---
 # <a name="install-missing-certificate-required-by-your-organization"></a>Установка отсутствующего сертификата, необходимого для вашей организации  
 
-Если устройство не зарегистрировано в Intune и на нем отсутствует требуемый сертификат, вы не сможете войти в приложение корпоративного портала. При попытке войти вы увидите следующее сообщение:
+Если устройство не зарегистрировано в Intune и на нем отсутствует требуемый сертификат, вы не сможете войти в приложение "Корпоративный портал". При попытке войти вы увидите следующее сообщение:
 
 ![screenshot-error-message-about-missing-certificate](./media/andr-cert_install-1-cert_missing.png)
 
@@ -84,6 +84,6 @@ ms.locfileid: "79346057"
 
 Если вы видите сообщение об отсутствующем сертификате, которое показано выше, но уже выполнили описанную здесь процедуру, вероятно, необходим другой сертификат, для установки которого нужна помощь службы поддержки вашей компании. Если вам нужна помощь, обратитесь в службу поддержки вашей компании, используя контактные данные на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
 
-## <a name="next-steps"></a>Дальнейшие действия  
+## <a name="next-steps"></a>Дальнейшие шаги  
 
 По-прежнему нужна помощь? Обратитесь в службу поддержки вашей компании. Его контактные данные доступны на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).  

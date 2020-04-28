@@ -15,12 +15,12 @@ ms.reviewer: aiwang
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7e568a7700a6849993d24be4dd042195a95ab000
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 8bb76dbb14fe2deb95c02a18ccc048fc6a4b2538
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79338426"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82078963"
 ---
 # <a name="windows-update-settings-for-intune"></a>Параметры Центра обновления Windows для Intune  
 
@@ -55,14 +55,14 @@ ms.locfileid: "79338426"
   > Начиная с Windows версии 1903, использование *Semi-Annual Channel (целевой)* (SAC-T) прекращено. Благодаря этому изменению SAC-T объединяется с *Semi-Annual Channel*. Дополнительные сведения об этом изменении и о том, как оно влияет на Центр обновления Windows для бизнеса, см. [в этой записи блога](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Windows-Update-for-Business-and-the-retirement-of-SAC-T/ba-p/339523).  
  
 - **Обновления продуктов Майкрософт**  
-  **По умолчанию**: разрешить  
+  **По умолчанию**:  Allow  
   CSP-поставщик Центра обновления Windows: [Update/AllowMUUpdateService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice)
 
   - **Разрешить** — выберите *Разрешить*, чтобы проверять наличие обновлений для приложений в Центре обновления Майкрософт.  
   - **Блокировать** — выберите "Блокировать", чтобы запретить проверку на наличие обновлений для приложений.  
 
 - **Драйверы Windows**  
-  **По умолчанию**: разрешить  
+  **По умолчанию**:  Allow  
   CSP-поставщик Центра обновления Windows: [Update/ExcludeWUDriversInQualityUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-excludewudriversinqualityupdate)  
 
   - **Разрешить** — выберите *Разрешить*, чтобы включать при обновлениях драйверы Центра обновления Windows.  
@@ -104,7 +104,7 @@ ms.locfileid: "79338426"
 Параметры взаимодействия с пользователем управляют взаимодействием с пользователем при перезапуске устройства и отправке напоминаний. Дополнительные сведения о поведении каждого параметра см. в справочной документации по CSP в Центре обновления Windows.  
 
 - **Автоматическое обновление**  
-  **По умолчанию:** автоматическая установка во время обслуживания  
+  **По умолчанию**: Автоматическая установка во время обслуживания  
   CSP-поставщик Центра обновления Windows: [Update/AllowAutoUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowautoupdate)  
 
   Выберите способ установки автоматических обновлений и при необходимости время перезапуска устройства.  
@@ -143,13 +143,13 @@ ms.locfileid: "79338426"
     Эта опция поддерживает дополнительные параметры.  
 
     - **Частота автоматического поведения:** используйте этот параметр для планирования времени установки обновлений, включая неделю, день и время.  
-      **По умолчанию**: каждую неделю
+      **По умолчанию**: Каждую неделю
 
     - **День запланированной установки:** укажите день недели для установки обновлений.  
-      **По умолчанию**: любой день  
+      **По умолчанию**: Любой день  
 
     - **Время запланированной установки:** укажите время суток, когда вы хотите установить обновления.  
-      **Значение по умолчанию**: 03:00  
+      **По умолчанию**: 03:00.  
 
   - **Автоматическая установка и перезагрузка без управления со стороны пользователя:** обновления скачиваются автоматически, а затем устанавливаются во время автоматического обслуживания, когда устройство не используется или работает от батареи. Если требуется перезапуск, устройство перезапустится в тот момент, когда оно не используется. Этот параметр устанавливает для панели управления пользователя значение "только для чтения".  
 
@@ -157,7 +157,7 @@ ms.locfileid: "79338426"
 
 
 - **Проверки при перезапуске**  
-  **По умолчанию**: разрешить  
+  **По умолчанию**: Allow  
   CSP-поставщик Центра обновления Windows: [Update/SetEDURestart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setedurestart)  
 
   Чтобы пропустить эти проверки при перезагрузке устройства, выберите **Пропустить**. 
@@ -169,21 +169,21 @@ ms.locfileid: "79338426"
   - *Windows версии 1709 и выше:* на протяжении периода активности для обновлений не запускаются следующие процессы: сканирование, скачивание, установка и перезапуск. По истечении периода активности процессы обновления запускаются и могут выводить устройство из спящего режима, выполнять сканирование, скачивание, установку и перезагрузку устройств до тех пор, пока не завершатся проверки батареи и питания. 
 
 - **Запретить пользователю приостанавливать обновления Windows**  
-  **По умолчанию**: разрешить  
+  **По умолчанию**: Allow  
   CSP-поставщик Центра обновления Windows: [Update/SetDisablePauseUXAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setdisablepauseuxaccess)  
 
   - **Разрешить** — разрешить пользователям устройств приостанавливать установку обновления.  
   - **Блокировать** — запретить пользователям устройств приостанавливать установку обновления.  
 
 - **Запретить пользователю проверять наличие обновлений Windows**  
-  **По умолчанию**: разрешить  
+  **По умолчанию**: Allow  
   CSP-поставщик Центра обновления Windows: [Update/SetDisableUXWUAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setdisableuxwuaccess) 
 
   - **Разрешить** — разрешить пользователям устройств использовать проверку Центра обновления Windows для поиска и скачивания обновлений и установки компонентов.
   - **Блокировать** — запретить пользователям устройств доступ к проверке Центра обновления Windows, скачиванию обновлений и установке компонентов.  
 
-- **Требовать от пользователя утверждения на перезапуск в нерабочее время**  
-  **Значение по умолчанию**: не настроено  
+- **Требовать от пользователя утверждения на перезапуск вне рабочего времени**  
+  **По умолчанию**: Не настроено  
   CSP-поставщик Центра обновления Windows: [Update/AutoRestartRequiredNotificationDismissal](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-autorestartrequirednotificationdismissal)
   
   - **Не настроено**.  
@@ -206,7 +206,7 @@ ms.locfileid: "79338426"
   При очистке значения по умолчанию этот параметр получает значение *Не настроено*.  
 
 - **Изменить уровень уведомлений об обновлениях**  
-  **По умолчанию**: использовать уведомления об обновлениях Windows по умолчанию  
+  **По умолчанию**: Использовать уведомления Центра обновлений Windows по умолчанию  
   CSP-поставщик Центра обновления Windows: [Update/UpdateNotificationLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-updatenotificationlevel)
   
   Укажите уровень уведомлений об обновлениях Windows, которые будут получать пользователи. Этот параметр не контролирует, как и когда обновления скачиваются и устанавливаются.  
@@ -218,7 +218,7 @@ ms.locfileid: "79338426"
   - **Отключить все уведомления, включая предупреждения о перезагрузке**  
 
 - **Использование параметров крайнего срока**  
-  **Значение по умолчанию**: не настроено  
+  **По умолчанию**: Не настроено  
  
   Разрешает пользователю применять параметры крайнего срока.  
 
@@ -228,29 +228,27 @@ ms.locfileid: "79338426"
   Если задано значение *Разрешить*, вы можете настроить для крайних сроков следующие параметры:
 
   - **Крайний срок для обновлений компонентов**  
-    **Значение по умолчанию:** *Не настроено*  
+    **По умолчанию**: *Не настроено*.  
     CSP-поставщик Центра обновления Windows: [Update/ConfigureDeadlineForFeatureUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-configuredeadlineforfeatureupdates)  
 
     Указывает число дней до автоматической установки обновлений компонентов на пользовательских устройствах (2–30).
 
   - **Крайний срок для исправлений**  
-    **Значение по умолчанию:** *Не настроено*  
+    **По умолчанию**: *Не настроено*.  
     CSP-поставщик Центра обновления Windows: [Update/ConfigureDeadlineForQualityUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-configuredeadlineforqualityupdates)
 
     Указывает число дней до автоматической установки исправлений на пользовательских устройствах (2–30).
 
   - **Льготный период**  
-    **По умолчанию**: *Не настроено*
-    CSP-поставщик Центра обновления Windows: [Update/ConfigureDeadlineGracePeriod]( https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-configuredeadlinegraceperiod)
+    **По умолчанию**: *Не настроен* CSP-поставщик Центра обновления Windows: [Update/ConfigureDeadlineGracePeriod]( https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-configuredeadlinegraceperiod)
 
     Указывает минимальное число дней после крайнего срока, когда будет автоматически выполняться перезагрузка (2–7).
 
   - **Автоматическая перезагрузка перед сроком**  
-    **Значение по умолчанию**: "Да"
-    CSP-поставщик Центра обновления Windows: [Update/ConfigureDeadlineNoAutoReboot](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-configuredeadlinenoautoreboot)
+    **По умолчанию**:  Да CSP-поставщик Центра обновления Windows: [Update/ConfigureDeadlineNoAutoReboot](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-configuredeadlinenoautoreboot)
 
     Указывает, должно ли устройство автоматически перезагружаться перед крайним сроком.
-    - **Да**.
+    - **Да**
     - **Нет**
 
 ### <a name="delivery-optimization-download-mode"></a>Режим скачивания с оптимизацией доставки  

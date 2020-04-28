@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b2d058da21a0ab9afea68b1f9cc1be4a73930d43
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 92eafef5bac7f1008284f896b85981d170331382
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79351179"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079218"
 ---
 <!-- This article contains the exact baseline details for baseline versions that were previously published in security-baseline-settings-mdm.md.  -->
 
@@ -125,7 +125,7 @@ ms.locfileid: "79351179"
 
 - **Require SmartScreen for Microsoft Edge** (Требовать SmartScreen для Microsoft Edge)  
 
-  Microsoft Edge по умолчанию использует (включает) SmartScreen Защитника Windows для защиты пользователей от потенциальных фишинговых сообщений и вредоносных программ. Кроме того, по умолчанию пользователи не могут отключить SmartScreen Защитника Windows. Включение этой политики отключает SmartScreen Защитника Windows и не позволяет пользователям включить его. Не следует настраивать эту политику, чтобы позволить пользователям выбирать, включать SmartScreen Защитника Windows или нет.  
+  Microsoft Edge по умолчанию использует (включает) SmartScreen Защитника Windows для защиты пользователей от потенциальных фишинговых сообщений и вредоносных программ. Кроме того, по умолчанию пользователи не могут отключить SmartScreen Защитника Windows. Включение этой политики отключает SmartScreen Защитника Windows и не позволяет пользователям включить его. Не следует настраивать эту политику, чтобы пользователи могли выбирать, включать SmartScreen Защитника Windows или нет.  
   
   **По умолчанию**: Да  
   

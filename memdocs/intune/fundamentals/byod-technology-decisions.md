@@ -15,18 +15,18 @@ ms.reviewer: pfetty
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2bc28f1b5170fb955f8614f098a46ed0c66a9f3a
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: f5d0e809e834a82f192128263742bc2b9b0024a2
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79344380"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079286"
 ---
 # <a name="technology-decisions-for-enabling-byod-with-microsoft-enterprise-mobility--security-ems"></a>Технические решения при реализации концепции BYOD с помощью Microsoft Enterprise Mobility + Security (EMS)
 
 В процессе разработки стратегии по обеспечению удаленной работы сотрудников с помощью собственных устройств (BYOD) необходимо принять ряд ключевых решений в отношении сценариев BYOD и способов защиты корпоративных данных. К счастью, решение EMS предлагает исчерпывающий набор возможностей.  
 
-В этом разделе мы рассмотрим простой случай обеспечения доступа к электронной почте предприятия в рамках концепции BYOD. Мы сосредоточимся на том, необходимо ли управлять всем устройством или только приложениями. Оба эти варианта вполне допустимы.
+В этом разделе мы рассмотрим простой случай обеспечения доступа к электронной почте предприятия в рамках концепции BYOD. Мы сосредоточимся на том, необходимо ли управлять всем устройством или только приложениями. Оба варианта вполне допустимы.
 
 ## <a name="assumptions"></a>Предположения
 * Вы имеете базовые знания об Azure Active Directory и Microsoft Intune.

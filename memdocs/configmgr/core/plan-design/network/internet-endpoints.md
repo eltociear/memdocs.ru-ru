@@ -2,7 +2,7 @@
 title: Требования для доступа к Интернету
 titleSuffix: Configuration Manager
 description: Узнайте о конечных точках Интернета, чтобы обеспечить полную функциональность Configuration Manager.
-ms.date: 04/01/2020
+ms.date: 04/21/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: b34fe701-5d05-42be-b965-e3dccc9363ca
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 2edcff868a684d5e108626b7372241dd1ec47d1c
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 58afaf564a8afaba4569755575fcc7c1757c5529
+ms.sourcegitcommit: 2cafbba6073edca555594deb99ae29e79cd0bc79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81701532"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82110140"
 ---
 # <a name="internet-access-requirements"></a>Требования для доступа к Интернету
 
@@ -171,13 +171,16 @@ ms.locfileid: "81701532"
 
 ## <a name="manage-office-365"></a>Управление Office 365
 
-Если вы используете Configuration Manager для развертывания и обновления Office 365, разрешите доступ к следующим конечным точкам:
+> [!NOTE]
+> Начиная с 21 апреля 2020 г. Office 365 профессиональный плюс переименовывается в **Приложения Microsoft 365 для предприятия**. Дополнительные сведения см. в статье [Изменение названия Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/name-change). Пока консоль Configuration Manager обновляется, в ней и в сопутствующей документации может встречаться старое название.
+
+Если вы используете Configuration Manager для развертывания и обновления Приложений Microsoft 365 для предприятия, разрешите доступ к следующим конечным точкам:
 
 <!-- SCCMDocs#929 -->
 
-- `officecdn.microsoft.com` для синхронизации точки обновления программного обеспечения для обновлений клиента Office 365.
+- `officecdn.microsoft.com` для синхронизации точки обновления программного обеспечения для обновлений клиента Приложений Microsoft 365 для предприятия;
 
-- `config.office.com` для создания пользовательских конфигураций для развертываний Office 365.
+- `config.office.com` для создания пользовательских конфигураций для развертываний Приложений Microsoft 365 для предприятия.
 
 ## <a name="configuration-manager-console"></a>Консоль Configuration Manager
 

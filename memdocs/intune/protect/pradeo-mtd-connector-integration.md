@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: 82872ba6-80f8-4cc9-adf4-0ccd8ff26dd2
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fe58f7baf20903ade462430f4944d0f4555223af
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 10cda4126f709ddd0cb5cda40b36067bd078a3f0
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81725970"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079592"
 ---
 # <a name="integrate-pradeo-mobile-threat-defense-with-intune"></a>Интеграция Pradeo Mobile Threat Defense с Intune
 
@@ -36,7 +36,7 @@ ms.locfileid: "81725970"
 
 Перед началом интеграции Pradeo с Intune убедитесь в наличии следующего:
 
-- Подписка Microsoft Intune
+- Подписка на Microsoft Intune
 
 - Учетные данные администратора Azure Active Directory для предоставления следующих разрешений:
 
@@ -56,7 +56,7 @@ ms.locfileid: "81725970"
 
 - Вы разрешаете службе Pradeo передавать в Intune сведения о состоянии работоспособности устройства.
 
-- Pradeo синхронизируется с членством в группе регистрации Azure AD и заполняет базу данных устройства.
+- Pradeo синхронизирует данные о членстве в группе регистрации Azure AD для заполнения базы данных устройства.
 
 - Вы разрешаете консоли администрирования Pradeo использовать единый вход (SSO) Azure AD.
 
@@ -88,6 +88,6 @@ ms.locfileid: "81725970"
 
 11. При отображении сообщения **Successful Integration** (Интеграция выполнена) интеграция завершена.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Настройка приложений Pradeo для зарегистрированных устройств](mtd-apps-ios-app-configuration-policy-add-assign.md)

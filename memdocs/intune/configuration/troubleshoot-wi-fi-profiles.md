@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 48ca59c9eea6ba7dd489f5c958ef6976095f27c9
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 40eaf6be1b5f6cdb0222fc5bd79e8e5a5b72a947
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79360630"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82078215"
 ---
 # <a name="troubleshoot-wi-fi-device-configuration-profiles-in-microsoft-intune"></a>Устранение неполадок в профилях конфигурации устройств, подключенных к сети Wi-Fi, в Microsoft Intune
 
@@ -56,7 +56,7 @@ ms.locfileid: "79360630"
     > [!TIP]
     > При использовании устройства Android, управляемого администратором, может быть указано несколько сертификатов. При отмене или удалении профиля сертификата сам сертификат остается на устройстве. В этом случае выберите самый новый сертификат. Обычно им будет последний сертификат в списке.
     >
-    > Подобная ситуация не возникает на устройствах Android для бизнеса и Samsung Knox. Дополнительные сведения см. в статье [Управление устройствами с рабочим профилем Android в Intune](../enrollment/android-enterprise-overview.md) и разделе [Устройства Android KNOX](../protect/remove-certificates.md#android-knox-devices).
+    > Подобная ситуация не возникает на устройствах с Android для бизнеса и Samsung Knox. Дополнительные сведения см. в статье [Управление устройствами с рабочим профилем Android в Intune](../enrollment/android-enterprise-overview.md) и разделе [Устройства Android KNOX](../protect/remove-certificates.md#android-knox-devices).
 
 3. Затем пользователи получают уведомление для установки профиля Wi-Fi:
 
@@ -211,7 +211,7 @@ WiFiConfigurationServiceProvider: Node set value, type: (0x4), Result: (The oper
 
   - Если на устройстве Android имеются совместимые профили доверенного корневого сертификата и SCEP, профиль Wi-Fi может отсутствовать. Эта проблема возникает, когда поставщик **CertificateSelector** из приложения Корпоративного портала не находит сертификат, соответствующий указанным критериям. Эти критерии могут быть указаны в шаблоне сертификата или в профиле SCEP.
 
-    Если соответствующий сертификат не найден, это свидетельствует о том, что сертификаты на устройстве не установлены. Профиль Wi-Fi не применяется по причине отсутствия правильного сертификата. В этом случае в файле Omadmlog приложения Корпоративного портала отобразится следующая запись:
+    Если соответствующий сертификат не найден, это свидетельствует о том, что сертификаты на устройстве не установлены. Профиль Wi-Fi не применяется из-за отсутствия правильного сертификата. В этом случае в файле Omadmlog приложения Корпоративного портала отобразится следующая запись:
 
     ` Skipping Wifi profile <profile ID> because it is pending certificates.`
 
@@ -246,7 +246,7 @@ WiFiConfigurationServiceProvider: Node set value, type: (0x4), Result: (The oper
     > [!div class="mx-imgBorder"]
     > ![Пример выходных данных журнала CMTrace, отображающих успешное применение профиля конфигурации Wi-Fi Intune на устройствах](./media/troubleshoot-wi-fi-profiles/cmtrace-sample-log-output.png)
 
-    Если в журнале отображается ошибка, скопируйте метку времени ошибки и отмените фильтрацию журнала. Затем используйте параметр "Найти" с меткой времени, чтобы просмотреть сведения о действиях, предшествовавших ошибке.
+    Если в журнале отображается ошибка, скопируйте метку времени ошибки и отмените фильтрацию журнала. Затем используйте параметр find (Найти) с меткой времени, чтобы просмотреть сведения о действиях, предшествовавших ошибке.
 
 ### <a name="issue-2-the-wi-fi-profile-is-deployed-to-the-device-but-the-device-cant-connect-to-the-network"></a>Проблема 2. Профиль Wi-Fi развернут на устройстве, но устройство не может подключиться к сети
 

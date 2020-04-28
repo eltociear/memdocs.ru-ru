@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6dc2c1d4f07e601d98bc2f26ec4766e21a8f1bc7
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 5d56d3982a036ace198ceae9bf2d01a8c12de6d5
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79350672"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079150"
 ---
 # <a name="troubleshoot-conditional-access"></a>Устранение неполадок условного доступа
 В этой статье описано, что делать, если пользователям не удается получить доступ к ресурсам, защищенным с помощью условного доступа, или если пользователи, которые могут получить доступ к защищенным ресурсам, должны быть заблокированы.
@@ -80,12 +80,12 @@ ms.locfileid: "79350672"
   1. Откройте приложение корпоративного портала.
   2. Перейдите на страницу "Настройки", нажав кнопку с тремя точками (...) или аппаратную кнопку меню.
   3. Нажмите кнопку *Включить доступ в браузере*.
-  4. В браузере Chrome выйдите из Office 365 и перезагрузите Chrome.  
+  4. В браузере Chrome выйдите из Office 365 и перезагрузите Chrome.  
 
 
 ## <a name="devices-are-blocked-and-no-quarantine-email-is-received"></a>Устройства заблокированы, и сообщение электронной почты о карантине отсутствует
 
-- Проверьте, что устройство отображается в консоли администрирования Intune как устройство Exchange ActiveSync. Если нет, то, скорее всего, при обнаружении устройства произошел сбой. Возможная причина — проблема с соединителем Exchange. Дополнительные сведения см. в статье [Troubleshoot the Intune on-premises Exchange connector](troubleshoot-exchange-connector.md) (Устранение неполадок с локальным соединителем Exchange в Intune).
+- Проверьте, что устройство отображается в консоли администрирования Intune как устройство Exchange ActiveSync. Если нет, то, скорее всего, при обнаружении устройства произошел сбой. Возможная причина — проблема с соединителем Exchange. Дополнительные сведения см. в статье [Troubleshoot the Intune on-premises Exchange connector](troubleshoot-exchange-connector.md) (Устранение неполадок с локальным соединителем Exchange в Intune).
 
 - Прежде чем заблокировать устройство, соединитель Exchange отправляет электронное сообщение для активации (о карантине). Если устройство находится вне сети, то оно может не получить это сообщение. 
 
@@ -114,5 +114,5 @@ ms.locfileid: "79350672"
   
   - Если устройство есть в списке, используйте командлет Get-CASmailbox -identity:’upn’ | fl, чтобы получить подробные сведения о его состоянии доступа, и предоставьте эти сведения службе поддержки Майкрософт.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 Если эта информация не помогла, вы можете [получить поддержку для Microsoft Intune](../fundamentals/get-support.md).

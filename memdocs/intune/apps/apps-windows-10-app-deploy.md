@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 58203c09784f0d4a50472ff4ae9cd06957025a1c
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 391fa20cf7ba53af649f9f614d9ca02c653c278b
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80324333"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079320"
 ---
 # <a name="windows-10-app-deployment-by-using-microsoft-intune"></a>Развертывание приложений Windows 10 с помощью Microsoft Intune 
 
@@ -58,7 +58,7 @@ Microsoft Intune поддерживает различные типы прило
 
 <sup>1</sup> Чтобы разблокировать управление приложениями, обновите устройство HoloLens до уровня [Holographic для бизнеса](../fundamentals/windows-holographic-for-business.md).<br />
 <sup>2</sup> Запуск только с Корпоративного портала.<br />
-<sup>3</sup> Для успешной установки приложения Edge устройствам также должна быть назначена политика в режиме S-Mode.
+<sup>3</sup> Для успешной установки приложения Microsoft Edge устройствам также должна быть назначена политика в режиме S-Mode.
 
 > [!NOTE]
 > Для всех типов приложений Windows требуется регистрация.
@@ -97,7 +97,7 @@ Microsoft Intune поддерживает различные типы прило
 - приложения Win32;
 - автономные лицензированные приложения Microsoft Store для бизнеса;
 - бизнес-приложения (MSI, APPX и MSIX);
-- Office 365 профессиональный плюс
+- Приложения Microsoft 365 для предприятия
 
 Бизнес-приложения Windows (в частности, APPX и MSIX) и приложения Microsoft Store для бизнеса (автономные приложения), выбранные для установки в контексте устройства, должны быть назначены группе устройств. Установка завершается сбоем, если одно из этих приложений развернуто в контексте пользователя. В консоли администратора отображается следующее состояние и ошибка:
   - Состояние: сбой.

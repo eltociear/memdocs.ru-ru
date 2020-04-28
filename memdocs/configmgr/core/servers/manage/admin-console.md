@@ -2,7 +2,7 @@
 title: Консоль Configuration Manager
 titleSuffix: Configuration Manager
 description: Сведения о навигации по консоли Configuration Manager.
-ms.date: 04/01/2020
+ms.date: 04/21/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 463ce307-59dd-4abd-87b8-42ca9db178d7
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: f6bcd0bc06721fbd6ea3ce1226867db522bb2560
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 58b66639094a602206114cd75a724504618ad38c
+ms.sourcegitcommit: 2cafbba6073edca555594deb99ae29e79cd0bc79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81700342"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82110038"
 ---
 # <a name="how-to-use-the-configuration-manager-console"></a>Использование консоли Configuration Manager
 
@@ -428,6 +428,8 @@ Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
 1. Для детализации по списку устройств щелкните гиперссылку **Просмотреть обязательные** рядом с круговой диаграммой.
 1. В результате откроется временный узел в разделе **Устройства**, в котором представлены устройства, требующие обновления. В узле также можно выполнить такие действия, как создание коллекции на основе списка.
 
+> [!NOTE]
+> Начиная с 21 апреля 2020 г. Office 365 профессиональный плюс переименовывается в **Приложения Microsoft 365 для предприятия**. Дополнительные сведения см. в статье [Изменение названия Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/name-change). Пока консоль Configuration Manager обновляется, в ней и в сопутствующей документации может встречаться старое название.
 
 #### <a name="maximize-the-browse-registry-window"></a>Развертывание окна обзора реестра
 

@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a3d0335274604519da82146cab8837459e190801
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 5464e70d915dceb9cf2c6a3b2385419cfc11e38b
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80322843"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82077841"
 ---
 # <a name="use-intune-to-remediate-vulnerabilities-identified-by-microsoft-defender-atp"></a>Устранение уязвимостей, определенных ATP в Microsoft Defender, с помощью Intune
 
@@ -67,7 +67,7 @@ ms.locfileid: "80322843"
 
 **Подписки**:
 
-- Microsoft Intune  
+- Microsoft Intune  
 - Расширенная защита от угроз в Microsoft Defender ([зарегистрируйтесь для получения бесплатной пробной версии](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-main-abovefoldlink)).
 
 **Настройки Intune для ATP**:
@@ -96,7 +96,7 @@ ms.locfileid: "80322843"
 
 5. Приняв задачу по обеспечению безопасности, снова откройте ее (если она закрыта) и устраните уязвимость в соответствии с указаниями в разделе "Исправление". Инструкции, предоставленные ATP в сведениях о задаче обеспечения безопасности, зависят от конкретной уязвимости.
 
-   По возможности инструкции по устранению включают ссылки, открывающие соответствующие объекты конфигурации в консоли Intune.
+   По возможности инструкции по устранению включают ссылки на соответствующие объекты конфигурации в консоли Intune.
 
 6. Выполнив действия по устранению уязвимости, откройте задачу по обеспечению безопасности и выберите **Завершение задачи**.  При этом состояние задачи по обеспечению безопасности обновится в Intune и ATP.
 

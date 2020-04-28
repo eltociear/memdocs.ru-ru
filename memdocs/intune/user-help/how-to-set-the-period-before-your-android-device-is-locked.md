@@ -19,16 +19,16 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 1d6534fcbbf4e511635d452132f705fafb2e6166
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 9c82bf136f736218b3f831f1bed7471277093a57
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79336710"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82078878"
 ---
 # <a name="how-to-set-the-amount-of-time-before-your-android-device-locks-its-screen"></a>Установка периода времени до блокировки экрана на устройстве Android
 
-Чтобы повторно подключиться к рабочей учетной записи, необходимо задать время ожидания на ввод пароля на устройстве, выполнив следующие инструкции, соответствующие типу используемого вами устройства.
+Чтобы повторно подключиться к рабочей учетной записи, необходимо задать время ожидания на ввод пароля на устройстве, выполнив следующие инструкции, соответствующие типу вашего устройства.
 
 ## <a name="native-non-samsung-knox-device"></a>Устройства без Samsung Knox
 

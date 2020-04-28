@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 525389e2f1cec207389bc37816ea4fc5399c99b4
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 9bb40b21d9a257586bbd38d24b2e9b6b0a9f8ce3
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79351400"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079541"
 ---
 # <a name="data-storage-and-processing-in-intune"></a>Хранение и обработка данных в Intune
 
@@ -37,7 +37,7 @@ ms.locfileid: "79351400"
 - Надежные коллекций (Service Fabric)  
 - Хранилище Azure 
 
-Данные телеметрии (журналы служб, журналы производительности, ошибки и т. д.), наиболее важные для мониторинга и стабильный работы службы, отправляются в хранилища данных телеметрии Майкрософт.
+Данные телеметрии (журналы служб, журналы производительности, ошибки и т. д.), наиболее важные для мониторинга и стабильный работы службы, отправляются в хранилища данных телеметрии Майкрософт.
 
 ### <a name="storage-locations"></a>Места хранения
 
@@ -70,6 +70,6 @@ Microsoft Intune не использует персональные данные
     - связанные журналы.
 2. Удаление учетной записи пользователя и связанных с ней данных из Intune.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Дополнительные сведения о том, как Intune [обеспечивает защиту и совместное использование](privacy-data-secure-share.md) персональных данных. 

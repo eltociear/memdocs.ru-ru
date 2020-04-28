@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b9f0a4b260fcd2698315ba8b777d88b86e203259
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: f58723be1a3fed09173a20a585077aef72e0c8f0
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79350009"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079116"
 ---
 # <a name="troubleshoot-the-ndes-policy-module-in-microsoft-intune"></a>Устранение неполадок модуля политики NDES в Microsoft Intune
 
@@ -67,7 +67,7 @@ ms.locfileid: "79350009"
 
 **Когда индикаторы успеха отсутствуют**.
 
-Если вы не нашли эти записи, начните с изучения руководства по устранению неполадок для [устройства связи с сервером NDES](troubleshoot-scep-certificate-device-to-ndes.md#troubleshoot-common-errors).
+Если вы не нашли эти записи, изучите руководство по устранению неполадок с [обменом данными между устройством и сервером NDES](troubleshoot-scep-certificate-device-to-ndes.md#troubleshoot-common-errors).
 
 Если сведения из этой статьи не помогут устранить проблему, ниже приведены дополнительные записи, которые могут указывать на проблемы.
 
@@ -92,7 +92,7 @@ Failed to send http request /CertificateRegistrationSvc/Certificate/VerifyReques
 
 ### <a name="ndespluginlog-contains-an-error-403--forbidden-access-is-denied"></a>NDESPlugin.log содержит ошибку "403 — запрещено: доступ запрещен"
 
-Если в следующих журналах содержится ошибка 403, аналогичная приведенной ниже, то сертификат клиента может быть ненадежным или недопустимым:
+Если в следующих журналах содержится ошибка 403, аналогичная приведенной ниже, сертификат клиента может быть ненадежным или недопустимым:
 
 **NDESPlugin.log**:
 
@@ -125,7 +125,7 @@ Signing certificate could not be retrieved. System.Security.Cryptography.Cryptog
 
 **Решение**. На сервере, где установлен соединитель, откройте редактор реестра, найдите раздел реестра `HKLM\SOFTWARE\Microsoft\MicrosoftIntune\NDESConnector` и проверьте, существует ли значение SigningCertificate.
 
-Если это значение не существует, перезапустите службу соединителя Intune в services.msc и проверьте, отображается ли значение в реестре. Если значение по-прежнему отсутствует, это часто происходит из-за проблем с сетевым подключением между сервером, на котором работает служба NDES и служба Intune.
+Если это значение не существует, перезапустите службу соединителя Intune в services.msc и проверьте, отображается ли значение в реестре. Если значение по-прежнему отсутствует, это зачастую может быть из-за проблем с сетевым подключением между сервером NDES и службой Intune.
 
 ## <a name="ndes-passes-the-request-to-issue-the-certificate"></a>NDES передает запрос на выдачу сертификата
 
@@ -155,7 +155,7 @@ Signing certificate could not be retrieved. System.Security.Cryptography.Cryptog
 
 **Когда индикаторы успеха отсутствуют**.
 
-Если вы не видите записи, указывающие на успех, выполните следующие действия:
+Если вы не видите записи, указывающие на успешное выполнение, сделайте следующее:
 
 1. Найдите проблемы, которые зарегистрированы в *CertificateRegistrationPoint.svclog*, когда точка регистрации сертификатов проверяла проблему. Найдите записи между следующими строками:
 

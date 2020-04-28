@@ -17,12 +17,12 @@ searchScope:
 ROBOTS: ''
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: ee2d862f29866ecaaa758983f847d0a1a598e2f1
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: ee0cd575da83231723ea869d472da1be599ce477
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79346473"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82079626"
 ---
 # <a name="install-zimperium-zips-on-your-android-device"></a>Установка Zimperium zIPS на устройстве Android
 
@@ -52,7 +52,7 @@ ms.locfileid: "79346473"
 
    * Если угрозы не найдены, все три типа угроз будут выделены зеленым цветом.
 
-11. Экран **сведений об устройстве** на корпоративном портале показывает, что теперь ваше устройство соответствует требованиям безопасности вашей организации.
+11. На экране **сведений об устройстве** на корпоративном портале показано, что ваше устройство соответствует требованиям безопасности вашей организации.
 
     ![Устройство теперь соответствует политикам](./media/mtd-device-now-compliant-android.png)
 

@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: 3cefbbb9824266fd5fa057a7625332e85ec0ab32
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: bedb515c8446e13189fb84644bc0ce7563cc1574
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81705122"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82078776"
 ---
 # <a name="capabilities-in-technical-preview-1709-for-configuration-manager"></a>Возможности в Technical Preview 1709 для Configuration Manager
 
@@ -152,7 +152,7 @@ ms.locfileid: "81705122"
 #### <a name="command-line-to-install-configuration-manager-client"></a>Командная строка для установки клиента Configuration Manager
 В Intune создайте приложение для устройств Windows 10 устройств, которые еще не являются клиентами Configuration Manager. При создании приложения в следующих разделах используйте приведенную ниже командную строку:
 
-ccmsetup.msi CCMSETUPCMD="/mp:&#60;*URL-адрес конечной точки для взаимной проверки подлинности шлюза управления облачными клиентами*&#62;/ CCMHOSTNAME=&#60;*URL-адрес конечной точки для взаимной проверки подлинности шлюза управления облачными клиентами*&#62; SMSSiteCode=&#60;*Код сайта*&#62; SMSMP=https:&#47;/&#60;*Полное доменное имя точки управления*&#62; AADTENANTID=&#60;*ИД клиента AAD*&#62; AADTENANTNAME=&#60;*Имя клиента*&#62; AADCLIENTAPPID=&#60;*ИД приложения сервера для интеграции AAD*&#62; AADRESOURCEURI=https:&#47;/&#60;*ИД ресурса*&#62;”
+ccmsetup.msi CCMSETUPCMD="/mp:&#60;*URL-адрес конечной точки для взаимной проверки подлинности шлюза управления облачными клиентами*&#62;/ CCMHOSTNAME=&#60;*URL-адрес конечной точки для взаимной проверки подлинности шлюза управления облачными клиентами*&#62; SMSSiteCode=&#60;*Код сайта*&#62; SMSMP=https:&#47;/&#60;*Полное доменное имя точки управления*&#62; AADTENANTID=&#60;*ИД клиента AAD*&#62; AADTENANTNAME=&#60;*Имя клиента*&#62; AADCLIENTAPPID=&#60;*ИД приложения сервера для интеграции AAD*&#62; AADRESOURCEURI=https:&#47;/&#60;*ИД ресурса*&#62;"
 
 Например, если у вас есть следующие значения.
 
@@ -173,7 +173,7 @@ ccmsetup.msi CCMSETUPCMD="/mp:&#60;*URL-адрес конечной точки �
 
 Можно использовать следующую командную строку:
 
-ccmsetup.msi CCMSETUPCMD="/mp:https:/&#47;contoso.cloudapp.net/CCM_Proxy_MutualAuth/72057594037928100    CCMHOSTNAME=contoso.cloudapp.net/CCM_Proxy_MutualAuth/72057594037928100 SMSSiteCode=PS1 SMSMP=https:/&#47;sccmmp.corp.contoso.com AADTENANTID=72F988BF-86F1-41AF-91AB-2D7CD011XXXX AADTENANTNAME=contoso  AADCLIENTAPPID=bef323b3-042f-41a6-907a-f9faf0d1XXXX AADRESOURCEURI=https:/&#47;ConfigMgrServer”
+ccmsetup.msi CCMSETUPCMD="/mp:https:/&#47;contoso.cloudapp.net/CCM_Proxy_MutualAuth/72057594037928100    CCMHOSTNAME=contoso.cloudapp.net/CCM_Proxy_MutualAuth/72057594037928100 SMSSiteCode=PS1 SMSMP=https:/&#47;sccmmp.corp.contoso.com AADTENANTID=72F988BF-86F1-41AF-91AB-2D7CD011XXXX AADTENANTNAME=contoso  AADCLIENTAPPID=bef323b3-042f-41a6-907a-f9faf0d1XXXX AADRESOURCEURI=https:/&#47;ConfigMgrServer"
 
 > [!Tip]
 >Параметры командной строки для веб-сайта можно найти, выполнив следующие действия.     
