@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 04/20/2020
+ms.date: 04/22/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 098ccdef50c9f006884f9b6ae6acc635da100cb2
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: d9a3e2c2a2c50f2d0fde264eedc2096d34f815a9
+ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81725678"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82023186"
 ---
 # <a name="configure-and-use-imported-pkcs-certificates-with-intune"></a>Настройка и использование импортированных сертификатов PKCS в Intune
 
@@ -210,6 +210,9 @@ Intune поддерживает импорт сертификатов PFX для
 ## <a name="create-a-pkcs-imported-certificate-profile"></a>Создание профиля импортированного сертификата PKCS
 
 После импорта сертификатов в Intune создайте профиль **импортированного сертификата PKCS** и назначьте его группам Azure Active Directory.
+
+> [!NOTE]
+> После создания профиля сертификата, импортированного PKCS, значения **Назначение** и **Поставщик хранилища ключей** в профиле будут доступными только для чтения без возможности изменения. Если для любого из этих параметров требуется другое значение, создайте и разверните новый профиль. 
 
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 

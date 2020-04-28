@@ -1,0 +1,33 @@
+### YamlMime:ZonePivotGroups
+groups:
+- id: security-baseline-settings-one
+  title: Базовые конфигурации безопасности
+  prompt: Выбор базового показателя системы безопасности
+  pivots:
+  - id: windows-mdm
+    title: Windows MDM
+  - id: microsoft-defender-atp
+    title: Advanced Threat Protection в Microsoft Defender
+- id: windows-mdm-versions
+  title: Базовые версии Windows MDM
+  prompt: Выбор версии
+  pivots:
+  - id: mdm-may-2019
+    title: Май 2019 г.
+  - id: mdm-preview
+    title: Предварительная версия, октябрь 2018 г.
+- id: edge-baseline-versions
+  title: Базовые версии Edge
+  prompt: Выбор версии
+  pivots:
+  - id: edge-october-2019
+    title: Октябрь 2019 г.
+  - id: edge-april-2020
+    title: Апрель 2020 г.
+metadata:
+  ms.openlocfilehash: 2071c0b05d2ec5f8b5fb20f25436e0ec297613e6
+  ms.sourcegitcommit: 1eebe9ad283a048f166c9654a548485cac6a1b9b
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/17/2020
+  ms.locfileid: "82136019"

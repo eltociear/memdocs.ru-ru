@@ -10,12 +10,12 @@ ms.assetid: 8d878443-90e7-46e4-9cd3-99e2a19b2ad0
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: ebadb47ca67f331ac88f8947b396438893e12386
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 5ca960ddd6a4057da10341063f0b14a7f1d104d1
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81690872"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82075818"
 ---
 # <a name="cloud-connecting-with-co-management"></a>Облачные подключения при использовании совместного управления
 
@@ -29,7 +29,7 @@ ms.locfileid: "81690872"
 
 > [!VIDEO https://channel9.msdn.com/Series/Endpoint-Zone/Cloud-Connecting-with-Co-Management/player]
 
-| Значение интерпретации | начало работы |
+| Значение интерпретации | Начало работы |
 |-----------------|-----------------|
 | - [Условный доступ](#bkmk_ca)<br> - [Действия, выполняемые удаленно из Intune](#bkmk_remote)<br> - [Работоспособность клиента](#bkmk_client-health)<br> - [Гибридное присоединение к Azure AD](#bkmk_hybrid-aad)<br> - [Windows Autopilot](#bkmk_autopilot) | - [Пути для совместного управления](#bkmk_paths)<br> - [Настройка гибридного экземпляра Azure AD](#bkmk_setup-hybrid-aad)<br> - [Обновление до Windows 10](#bkmk_upgrade-win10)<br> - [Получение справки FastTrack](#bkmk_fasttrack) |
 
@@ -43,7 +43,7 @@ ms.locfileid: "81690872"
 | <a name="bkmk_hybrid-aad"></a>**Azure Active Directory (Azure AD)** | Azure AD позволяет повысить продуктивность работы пользователей и безопасность ресурсов как в облачной, так и в локальной средах. | [![Эскиз видео о гибридном подключении к Azure AD](media/thumbnail-azure-ad.png)](quickstart-hybrid-aad.md) |
 | <a name="bkmk_autopilot"></a>**Windows Autopilot** | Сократите затраты времени и ресурсов, а также упростите процессы развертывания, администрирования, снятия с учета и повторного использования устройств. Autopilot также повышает удобство работы для пользователей. | [![Эскиз видео о Windows Autopilot](media/thumbnail-autopilot.png)](quickstart-autopilot.md) |
 
-## <a name="getting-started"></a>начало работы
+## <a name="getting-started"></a>Начало работы
 
 Если вы хотите включить совместное управление, начните с этого документа с ответами на технические вопросы, которые могут вас беспокоить.
 

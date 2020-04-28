@@ -11,12 +11,12 @@ author: aczechowski
 ROBOTS: NOINDEX
 manager: dougeby
 ms.author: aaroncz
-ms.openlocfilehash: ea003aef949f5624591d87dd6105d3a1cff3b691
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 2ae184400a3de0d7ab27fffc1ce1e6287593b1ae
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81705732"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82076311"
 ---
 # <a name="capabilities-in-technical-preview-1601-for-configuration-manager"></a>Возможности в Technical Preview 1601 для Configuration Manager
 
@@ -126,7 +126,7 @@ ms.locfileid: "81705732"
 ##  <a name="client-online-status"></a><a name="bkmk_clientStatus"></a> Состояние клиента в сети  
 Начиная с версии Technical Preview 1601, вы можете быстро определить, в сети или вне сети клиент в консоли Configuration Manager. Обновленные значки и столбцы в списке устройств консоли позволяют оценивать состояние клиентов в вашей среде для определения проблемных областей и других вопросов, которые могут потребовать вашего внимания.  
 
-Клиент находится в сети, если он в настоящее время подключен к роли системы сайта точки управления Configuration Manager. Пока точка управления получает от клиента сообщения, подобные сообщениям проверки связи, он находится в сети. Если точка управления не получает сообщение в течение около 5 минут, состояние клиента изменяется на "вне сети".  
+Клиент находится в сети, если он в настоящее время подключен к роли системы сайта точки управления Configuration Manager. Пока точка управления получает от клиента сообщения, подобные сообщениям проверки связи, он находится в сети. Если точка управления не получает сообщение в течение примерно 5 минут, состояние клиента изменяется на "вне сети".  
 
 ### <a name="icons-for-client-status"></a>Значки состояния клиента  
 

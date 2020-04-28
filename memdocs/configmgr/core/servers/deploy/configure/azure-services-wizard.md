@@ -10,12 +10,12 @@ ms.assetid: a26a653e-17aa-43eb-ab36-0e36c7d29f49
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 3a4dee8af68fec8c08cc58b02520f53e13adfbb3
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: f36da59c6924f6d2f71d882f601c6dd563840d73
+ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81704892"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82022540"
 ---
 # <a name="configure-azure-services-for-use-with-configuration-manager"></a>Настройка служб Azure для использования с Configuration Manager
 
@@ -273,3 +273,5 @@ ms.locfileid: "81704892"
 4. Клиент Configuration Manager запрашивает маркер пользователя Azure AD. Клиент формирует утверждение с использованием идентификатора клиентского приложения Azure AD и серверным приложением в качестве аудитории. Дополнительные сведения см. в разделе [Утверждения в маркерах безопасности Azure AD](/azure/active-directory/develop/authentication-scenarios#security-tokens).  
 
 5. Чтобы пройти проверку подлинности для сайта, клиент предоставляет маркер Azure AD шлюзу управления облаком и локальной точке управления с поддержкой HTTPS.  
+
+Дополнительные сведения см. в статье [Рабочий процесс проверки подлинности Azure AD](../../../clients/manage/azure-ccmsetup.md).

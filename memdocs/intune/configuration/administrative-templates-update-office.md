@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: fcf2139019b1f4d764b55ee31f5961711a71834c
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 6b0c673eb702e3e9f08209d04bf256c049b10ee6
+ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80219883"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82022693"
 ---
 # <a name="use-update-channel-and-target-version-settings-to-update-office-365-with-microsoft-intune-administrative-templates"></a>Использование параметров канала обновления и целевой версии для обновления Office 365 с помощью административных шаблонов Microsoft Intune
 
@@ -37,7 +37,7 @@ ms.locfileid: "80219883"
 
 ## <a name="prerequisites"></a>Предварительные условия
 
-Не забудьте [включить автоматические обновления Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/configure-update-settings-for-office-365-proplus) для приложений Office. Это можно сделать с помощью групповой политики или шаблона Intune Office 2016 ADMX:
+Не забудьте [включить автоматические обновления Приложений Microsoft 365](https://docs.microsoft.com/deployoffice/configure-update-settings-for-office-365-proplus) для приложений Office. Это можно сделать с помощью групповой политики или шаблона Intune Office 2016 ADMX:
 
 > [!div class="mx-imgBorder"]
 > ![Настройка параметра "Включить автоматическое обновление" для Office в административном шаблоне Intune](./media/administrative-templates-update-office/admx-enable-automatic-updates.png)
@@ -78,7 +78,7 @@ ms.locfileid: "80219883"
     > ![Пример раздела реестра L_Updatebranch административного шаблона](./media/administrative-templates-update-office/admx-update-branch-registry-key.png)
 
     > [!TIP]
-    > В статье [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates#bkmk_channel) (Управление Office 365 профессиональный плюс с помощью Configuration Manager) содержится список значений и их описание. Значения реестра основаны на выбранном канале распространения:
+    > В руководстве по [управлению Приложениями Microsoft 365 с помощью Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates#bkmk_channel) содержится список значений и их описание. Значения реестра основаны на выбранном канале распространения:
     >
     >- Monthly Channel: значение — Current.
     >- Monthly Channel (Targeted): значение — Current.
@@ -98,7 +98,7 @@ ms.locfileid: "80219883"
     - `UpdateChannel`: динамический ключ, который изменяется в зависимости от настроенных параметров.
     - `CDNBaseUrl`: задается при установке Office 365 на устройстве.
 
-3. Проверьте значение `UpdateChannel`. Значение указывает, как часто обновляется Office. В статье [Manage Office 365 ProPlus with Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates#bkmk_channel) (Управление Office 365 профессиональный плюс с помощью Configuration Manager) содержится список значений и их описание.
+3. Проверьте значение `UpdateChannel`. Значение указывает, как часто обновляется Office. В руководстве по [управлению Приложения Microsoft 365 с помощью Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates#bkmk_channel) содержится список значений и соответствующих параметров.
 
     В следующем примере показано, что `UpdateChannel` имеет значение `http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60` (**ежемесячно**):
 
@@ -141,7 +141,7 @@ ms.locfileid: "80219883"
 
 ### <a name="step-1-force-the-office-version-to-update"></a>Шаг 1. Принудительное обновление версии Office
 
-1. Убедитесь, что версия Office поддерживает выбранный вами канал обновления. В статье [Журнал обновлений для Office 365 профессиональный плюс (перечислены по дате)](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date) перечислены номера сборок, которые поддерживают различные каналы обновления.
+1. Убедитесь, что версия Office поддерживает выбранный вами канал обновления. В [журнале обновлений для Приложений Microsoft 365](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date) перечислены номера сборок, которые поддерживают разные каналы обновления.
 
 2. В [административном шаблоне Intune](administrative-templates-windows.md#create-the-template) перейдите к параметру **Целевая версия** и введите нужную версию.
 
@@ -182,6 +182,6 @@ ms.locfileid: "80219883"
 
 [Раздел об обновлении значений каналов для клиентов Office 365](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates#bkmk_channel)
 
-[Общие сведения о службе облачной политики Office для Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/overview-office-cloud-policy-service)
+[Общие сведения о службе облачной политики Office для Приложений Microsoft 365](https://docs.microsoft.com/deployoffice/overview-office-cloud-policy-service)
 
 [Использование шаблонов Windows 10 для настройки параметров групповой политики в Microsoft Intune](administrative-templates-windows.md)

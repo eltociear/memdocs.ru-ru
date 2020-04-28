@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 02/26/2020
+ms.date: 04/15/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 671f80efb54f51cac410b37de6227e456d9316d9
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: 36b39d20e666015ae040a1fa058dca1d167686e4
+ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80323129"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81739904"
 ---
 # <a name="configure-exchange-on-premises-access-for-intune"></a>Настройка доступа к локальной организации Exchange для Intune
 
@@ -35,7 +35,7 @@ ms.locfileid: "80323129"
 
 Прежде чем настроить условный доступ, необходимо проверить наличие следующей конфигурации:
 
-- **Используется версия Exchange 2010 с пакетом обновления 1 (SP1) или более поздней версии**. Массив сервера клиентского доступа (CAS) сервера Exchange Server поддерживается.
+- **Используется версия Exchange 2010 с пакетом обновления 3 (SP3) или более поздней версии**. Массив сервера клиентского доступа (CAS) сервера Exchange Server поддерживается.
 
 - Установлен и используется [соединитель локальной службы Exchange ActiveSync](exchange-connector-install.md), который подключает Intune к локальной среде Exchange.
 
@@ -124,7 +124,7 @@ ms.locfileid: "80323129"
    > [!div class="mx-imgBorder"]
    > ![Снимок экрана с примером рабочего процесса "Изменение организации" для уведомлений](./media/conditional-access-exchange-create/edit-organization-user-notification.png)
 
-   Измените сообщение электронной почты по умолчанию, отправляемое пользователям, если их устройства не соответствуют требованиям, но им требуется доступ к локальной организации Exchange. В шаблоне сообщения используется язык разметки. При вводе вы также можете предварительно просмотреть сообщение.
+   Измените сообщение электронной почты по умолчанию, отправляемое пользователям, когда их устройства не соответствуют требованиям, но им требуется доступ к локальной среде Exchange. В шаблоне сообщения используется язык разметки. При вводе вы также можете предварительно просмотреть сообщение.
 
    Выберите **Review + save** (Просмотреть и сохранить), а потом **Сохранить**, чтобы сохранить изменения и завершить настройку доступа к локальной организации Exchange.
 

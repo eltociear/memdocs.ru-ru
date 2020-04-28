@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 104996e87c830701b1725129727c76d8c7a09ee3
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: cf4fc3017ccf3efcf93986544c8a60b60acbf3c8
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79344133"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82076124"
 ---
 # <a name="how-to-configure-intune-settings-for-the-iosipados-classroom-app"></a>Как настроить параметры Intune для приложения "Класс" на устройствах iOS и iPadOS
 
@@ -78,7 +78,7 @@ SDS синхронизирует сведения из вашей системы
 
 1. Войдите в [Intune](https://go.microsoft.com/fwlink/?linkid=2090973).
 3. На панели **Intune** выберите пункт **Конфигурация устройства**.
-2. На панели **Конфигурации устройства** в разделе **Управление** выберите **Профили**.
+2. На панели **Конфигурация устройства** в разделе **Управление** выберите **Профили**.
 5. На панели профилей выберите **Создать профиль**.
 6. На панели **Создать профиль** введите **имя** и **описание** профиля iOS или iPadOS для образования.
 7. В раскрывающемся списке **Платформа** выберите **iOS**.
@@ -153,7 +153,7 @@ SDS синхронизирует сведения из вашей системы
 
 Назначьте профиль устройствам учащихся в группах аудиторий, созданных при синхронизации учебных данных с Azure AD. (Дополнительные сведения см. в статье [Как назначать профили устройств Microsoft Intune](../configuration/device-profile-assign.md).)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Теперь при использовании приложения "Класс" преподаватели будут иметь полный контроль над устройствами учащихся.
 

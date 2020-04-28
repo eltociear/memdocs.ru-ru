@@ -11,12 +11,12 @@ author: mestew
 ms.author: mstewart
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: c541c257d885ee5cba9e174a86a6859b078c8594
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 15735b015796d2cccfa9b0a24afc8f6eb0573df1
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81702412"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82073625"
 ---
 # <a name="what39s-new-in-version-1710-of-configuration-manager"></a>Новые возможности в Configuration Manager версии 1710
 
@@ -189,7 +189,7 @@ Configuration Manager обеспечивает ограниченную подд
 В политики Device Guard внесены следующие три изменения.
 
 - Политики Device Guard переименованы в политики Application Control в Защитнике Windows. Например, **мастер создания политик Device Guard** теперь называется **мастер создания политик Application Control в Защитнике Windows** .
-- Устройства, использующие Fall Creators Update для Windows версии 1709, не нужно перезагружать для применения политик управления приложениями в Защитнике Windows. По умолчанию перезапуск по-прежнему выполняется, но вы можете [отключить его](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md).
+- Устройства, использующие Fall Creators Update для Windows версии 1709, не нужно перезагружать для применения политик управления приложениями в Защитнике Windows. По умолчанию перезапуск по-прежнему выполняется, но вы можете [отключить его](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md).
 - Вы можете [настроить устройства для автоматического запуска программного обеспечения](../../../protect/deploy-use/use-device-guard-with-configuration-manager.md), которому доверяет Intelligent Security Graph.
 
 

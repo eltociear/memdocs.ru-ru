@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ce61f7af7c11fb579e34890700231ca2e59fb5cd
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 5aa91a84b2fe5d8870afc93022ab5a468b30e0db
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81267689"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82074798"
 ---
 # <a name="how-to-use-intune-in-environments-without-google-mobile-services"></a>Использование Intune при отсутствии доступа к Сервисам Google для мобильных устройств
 
@@ -61,11 +61,11 @@ ms.locfileid: "81267689"
 На выполнение описанных ниже задач может потребоваться до 8 часов. 
 
 **Консоль Intune**:
-- Полная очистка
-- Selective wipe (Выборочная очистка)
+- полная очистка;
+- Выборочная очистка
 - Развертывание нового или обновленного приложения
-- Remote lock (удаленная блокировка)
-- Passcode reset (Сброс секретного кода)
+- удаленная блокировка;
+- Сброс секретного кода
 
 **Приложение "Корпоративный портал Intune" для Android**:
 - дистанционное удаление устройств;
@@ -79,6 +79,6 @@ ms.locfileid: "81267689"
 
 Если устройство зарегистрировано недавно, проверка соответствия, несоответствия и конфигурации выполняется чаще. Дополнительные сведения о синхронизации устройств см. в статье [Распространенные вопросы о политиках и профилях устройств в Microsoft Intune, связанные с ними проблемы и возможные решения](../configuration/device-profile-troubleshoot.md). 
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - [Назначение приложений группам с помощью Microsoft Intune](../apps/apps-deploy.md)

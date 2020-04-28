@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 26576212f4df86681210956669320ed4b124025d
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: c1bb178c03682b9dd04902fecd50e5f2c9f01d0b
+ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80488190"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82022863"
 ---
 # <a name="tutorial-use-the-cloud-to-configure-group-policy-on-windows-10-devices-with-admx-templates-and-microsoft-intune"></a>Руководство. Настройка групповой политики на устройствах Windows 10 с шаблонами ADMX и Microsoft Intune с помощью облака
 
@@ -34,7 +34,7 @@ ms.locfileid: "80488190"
 Шаблоны ADMX доступны для следующих служб:
 
 - **Microsoft Edge**: загрузка в [файле политики Microsoft Edge](https://www.microsoftedgeinsider.com/en-us/enterprise).
-- **Office**: загрузка в [Office 365 профессиональный плюс, Office 2019 и Office 2016](https://www.microsoft.com/download/details.aspx?id=49030).
+- **Office**: Скачайте на странице [Приложений Microsoft 365, Office 2019 и Office 2016](https://www.microsoft.com/download/details.aspx?id=49030).
 - **Windows**: встроено в ОС Windows 10.
 
 Дополнительные сведения о политиках ADMX см. в разделе [Общие сведения о политиках на основе ADMX](https://docs.microsoft.com/windows/client-management/mdm/understanding-admx-backed-policies).

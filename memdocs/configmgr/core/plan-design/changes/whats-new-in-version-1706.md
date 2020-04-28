@@ -11,12 +11,12 @@ author: mestew
 ms.author: mstewart
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: 9b70850a8ef52c97c4fb7d78537fbc559701210d
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: a4fa056c9c0708d2cecc0ca5f244e134e22ad10b
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81702582"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82073715"
 ---
 # <a name="what39s-new-in-version-1706-of-configuration-manager"></a>Новые возможности в Configuration Manager версии 1706
 
@@ -254,7 +254,7 @@ Windows Analytics — это набор решений, которые пред
 
 ### <a name="include-trust-for-specific-files-and-folders-in-a-device-guard-policy"></a>Включение доверительных отношений для отдельных файлов и папок в политику Device Guard
 <!--1324676-->
-В этом выпуске мы добавили дополнительные возможности для управления политиками Device Guard.
+В этом выпуске мы добавили расширенные возможности для управления политиками Device Guard.
 
 Теперь вы можете включить отношение доверия для конкретных файлов или папок в политику Device Guard. Это позволяет:
 

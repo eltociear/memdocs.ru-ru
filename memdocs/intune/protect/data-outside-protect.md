@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 682791256bf0ce40db1dedd1fa6b947efc85b729
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: aa8a18d24fb27b1d1ca7ea7dbe4fad532f85d662
+ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79352388"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82022727"
 ---
 # <a name="prevent-unauthorized-access-to-company-data-using-microsoft-intune"></a>Предотвращение несанкционированного доступа к корпоративным данным с помощью Microsoft Intune
 
@@ -36,7 +36,7 @@ ms.locfileid: "79352388"
 * Компания использует Office 365 Exchange Online, SharePoint Online, OneDrive для бизнеса или Yammer.
 * Компания имеет лицензии Microsoft 365, Enterprise Mobility + Security (EMS) и Azure Information Protection.
 * В вашей организации используются устройства под управлением Windows 7 с пакетом обновления 1 (SP1) или более поздней версии.
-* В компании используется Office 365 профессиональный плюс с приложениями версий 2016 или 2013, Office профессиональный плюс 2016, Office профессиональный плюс 2013 с пакетом обновления 1 (SP1) или Office профессиональный плюс 2010.
+* В компании используется Приложения Microsoft 365 с приложениями версий 2016 или 2013, Office профессиональный плюс 2016, Office профессиональный плюс 2013 с пакетом обновления 1 (SP1) или Office профессиональный плюс 2010.
 
 ## <a name="action-plan"></a>План действий
 
@@ -46,7 +46,7 @@ ms.locfileid: "79352388"
 
 Расскажите пользователям о том, [как и в каких случаях необходимо защищать документы и сообщения электронной почты, содержащие конфиденциальные сведения](https://docs.microsoft.com/information-protection/deploy-use/help-users).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 В рамках следующей процедуры вы узнаете о других способах повышения безопасности данных компании, включая: 
 
