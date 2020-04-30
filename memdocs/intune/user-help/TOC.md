@@ -37,7 +37,7 @@
 #### [Решение распространенных проблем с Samsung Knox](samsung-knox-errors-android.md)
 #### [Обновление устройства для установки Outlook](update-device-outlook-android.md)
 
-#### Logging
+#### Ведение журнала
 ##### [Включение подробного ведения журналов](use-verbose-logging-to-help-your-it-administrator-fix-device-issues-android.md)
 ##### [Журналы передачи и электронной почты](send-logs-to-your-it-admin-by-email-android.md)
 ##### [Отправка журналов при помощи USB-кабеля](send-logs-to-your-it-admin-using-cable-android.md)
@@ -54,12 +54,11 @@
 #### [Неподдерживаемое обновление для системы безопасности](you-need-to-update-your-device-OS-security-patch-android.md)
 #### [Устройства с ошибками шифрования](your-device-appears-encrypted-but-cp-says-otherwise-android.md)
 
-### Mobile Threat Defense
-#### [Установка приложения Mobile Threat Defense](you-are-prompted-to-install-mtd-android.md)
-##### [Установка Lookout for Work](you-are-prompted-to-install-lookout-for-work-android.md)
-##### [Установка Symantec Endpoint Protection Mobile](you-are-prompted-to-install-skycure-android.md)
-##### [Установка SandBlast Mobile Protect](you-are-prompted-to-install-sandblast-android.md)
-##### [Установка Zimperium zIPS](you-are-prompted-to-install-zips-android.md)
+### Приложения для защиты от угроз на мобильных устройствах 
+#### [Установка Lookout for Work](you-are-prompted-to-install-lookout-for-work-android.md)
+#### [Установка Symantec Endpoint Protection Mobile](you-are-prompted-to-install-skycure-android.md)
+#### [Установка SandBlast Mobile Protect](you-are-prompted-to-install-sandblast-android.md)
+#### [Установка Zimperium zIPS](you-are-prompted-to-install-zips-android.md)
 #### [Устранение угрозы](you-need-to-resolve-a-threat-found-by-mtd-android.md)
 ##### [Использование Lookout for Work](you-need-to-resolve-a-threat-found-by-lookout-for-work-android.md)
 ##### [Использование Symantec Endpoint Protection Mobile](you-need-to-resolve-a-threat-found-by-skycure-android.md)
@@ -99,12 +98,11 @@
 #### [Обновление устройства для установки Outlook](update-device-outlook-ios.md)
 #### [Моя версия iOS еще не поддерживается](your-ios-version-isnt-yet-supported.md)
 
-### Mobile Threat Defense
-#### [Установка приложения Mobile Threat Defense](you-are-prompted-to-install-mtd-ios.md)
-##### [Установка Lookout for Work](you-are-prompted-to-install-lookout-for-work-ios.md)
-##### [Установка Symantec Endpoint Protection Mobile](you-are-prompted-to-install-skycure-ios.md)
-##### [Установка SandBlast Mobile Protect](you-are-prompted-to-install-sandblast-ios.md)
-##### [Установка Zimperium zIPS](you-are-prompted-to-install-zips-ios.md)
+### Приложения для защиты от угроз на мобильных устройствах
+#### [Установка Lookout for Work](you-are-prompted-to-install-lookout-for-work-ios.md)
+#### [Установка Symantec Endpoint Protection Mobile](you-are-prompted-to-install-skycure-ios.md)
+#### [Установка SandBlast Mobile Protect](you-are-prompted-to-install-sandblast-ios.md)
+#### [Установка Zimperium zIPS](you-are-prompted-to-install-zips-ios.md)
 #### [Устранение угрозы](you-need-to-resolve-a-threat-found-by-mtd-ios.md)
 ##### [Использование Lookout for Work](you-need-to-resolve-a-threat-found-by-lookout-for-work-ios.md)
 ##### [Использование Symantec Endpoint Protection Mobile](you-need-to-resolve-a-threat-found-by-skycure-ios.md)
