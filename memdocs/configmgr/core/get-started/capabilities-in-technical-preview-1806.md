@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: 647eba601cbfa5304bf02f8bcf059fe6e851cbf0
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 522e01b0d811d768d4f239bc917c2e3db08e05ef
+ms.sourcegitcommit: f94cdca69981627d6a3471b04ac6f0f5ee8f554f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82074067"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82210083"
 ---
 # <a name="capabilities-in-technical-preview-1806-for-configuration-manager"></a>Возможности в Technical Preview 1806 для Configuration Manager
 
@@ -163,10 +163,10 @@ SCUP по-прежнему поддерживает другие каталог�
 
 ## <a name="configure-windows-defender-smartscreen-settings-for-microsoft-edge"></a>Настройка параметров SmartScreen Защитника Windows для Microsoft Edge
 <!--1353701-->
-В этом выпуске в [политику параметров соответствия браузера Microsoft Edge](../../compliance/deploy-use/browser-profiles.md) добавлены три параметра [SmartScreen Защитника Windows](/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview). На странице **Параметры SmartScreen** политики теперь имеются указанные ниже дополнительные параметры.
-- **Разрешить SmartScreen**. Указывает, разрешено ли использовать функцию SmartScreen Защитника Windows. Дополнительные сведения см. в описании [политики браузера AllowSmartScreen](/windows/client-management/mdm/policy-csp-browser#browser-allowsmartscreen).
-- **Пользователи могут переопределять запрос SmartScreen для сайтов**. Указывает, могут ли пользователи переопределить предупреждения фильтра SmartScreen Защитника Windows о потенциально вредоносных веб-сайтах. Дополнительные сведения см. в описании [политики браузера PreventSmartScreenPromptOverride](/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverride).
-- **Пользователи могут переопределять запрос SmartScreen для файлов**. Указывает, могут ли пользователи переопределить предупреждения фильтра SmartScreen Защитника Windows о скачивании непроверенных файлов. Дополнительные сведения см. в описании [политики браузера PreventSmartScreenPromptOverrideForFiles](/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverrideforfiles).
+В этом выпуске в [политику параметров соответствия браузера Microsoft Edge](../../compliance/deploy-use/browser-profiles.md) добавлены три параметра [SmartScreen Защитника Windows](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview). На странице **Параметры SmartScreen** политики теперь имеются указанные ниже дополнительные параметры.
+- **Разрешить SmartScreen**. Указывает, разрешено ли использовать функцию SmartScreen Защитника Windows. Дополнительные сведения см. в описании [политики браузера AllowSmartScreen](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowsmartscreen).
+- **Пользователи могут переопределять запрос SmartScreen для сайтов**. Указывает, могут ли пользователи переопределить предупреждения фильтра SmartScreen Защитника Windows о потенциально вредоносных веб-сайтах. Дополнительные сведения см. в описании [политики браузера PreventSmartScreenPromptOverride](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverride).
+- **Пользователи могут переопределять запрос SmartScreen для файлов**. Указывает, могут ли пользователи переопределить предупреждения фильтра SmartScreen Защитника Windows о скачивании непроверенных файлов. Дополнительные сведения см. в описании [политики браузера PreventSmartScreenPromptOverrideForFiles](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverrideforfiles).
 
 
 
