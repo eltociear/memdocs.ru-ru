@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ad0964eafccc5bf007b1569762e4cea4d0ee691a
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: b8552bd6bb570c91e84acd40cd2b654696eca972
+ms.sourcegitcommit: f94cdca69981627d6a3471b04ac6f0f5ee8f554f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80326778"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82210355"
 ---
 # <a name="assign-licenses-to-users-so-they-can-enroll-devices-in-intune"></a>Назначение пользователям лицензий для регистрации устройств в Intune
 
@@ -36,7 +36,7 @@ ms.locfileid: "80326778"
 
 1. В [Центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Пользователи** > **Все пользователи**, выберите нужного пользователя, а затем щелкните **Лицензии** > **Назначения**.
 
-2. Установите флажок для **Intune** и нажмите кнопку >  **Сохранить**.
+2. Установите флажок для **Intune** и нажмите кнопку >  **Сохранить**. Если вы хотите использовать Enterprise Mobility + Security (план E5) или другую лицензию, установите соответствующий флажок.
 
    ![Снимок экрана раздела лицензии на продукт Центра администрирования Microsoft 365.](./media/licenses-assign/mem-assign-license.png)
 
@@ -76,7 +76,7 @@ ms.locfileid: "80326778"
 - Если вы приобрели Intune по номеру CC# или накладной, лицензии предоставляются по модели "на пользователя".
 
 ## <a name="use-powershell-to-selectively-manage-ems-user-licenses"></a>Использование PowerShell для избирательного управления пользовательскими лицензиями EMS
-Организации, использующие Microsoft Enterprise Mobility + Security (ранее Enterprise Mobility Suite), могут иметь пользователей, которым в пакете EMS нужны только службы Azure Active Directory Premium или Intune. С помощью [командлетов PowerShell для Azure Active Directory](https://msdn.microsoft.com/library/jj151815.aspx) можно назначить одну службу или подмножество служб.
+Организации, использующие Microsoft Enterprise Mobility + Security (ранее Enterprise Mobility Suite), могут иметь пользователей, которым в пакете EMS нужны только службы Azure Active Directory Premium или Intune. Можно назначить одну службу или подмножество служб с помощью [командлетов PowerShell для Azure Active Directory](https://msdn.microsoft.com/library/jj151815.aspx).
 
 Чтобы выборочно назначить лицензии пользователя для служб EMS, откройте PowerShell с правами администратора на компьютере с установленным [модулем Azure Active Directory для Windows PowerShell](https://msdn.microsoft.com/library/jj151815.aspx#bkmk_installmodule). PowerShell можно установить на локальном компьютере или на сервере ADFS.
 

@@ -17,12 +17,12 @@ ms.reviewer: mghadial
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 04bc86ff697ed7083cacd552cbf9ebe5096a228c
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: f74308e5c59adee6810d54ce44cf104514f83056
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80326865"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254781"
 ---
 # <a name="troubleshoot-windows-device-enrollment-problems-in-microsoft-intune"></a>Устранение проблем с регистрацией устройств Windows в Microsoft Intune
 
@@ -304,7 +304,7 @@ Registering your device for mobile management (Previous step failed)
 
 - Устройство должно содержать микросхему физического платформенного модуля версии 2.0. Устройства с виртуальными доверенными платформенными модулями (например, виртуальные машины Hyper-V) или микросхемами модулей версии 1.2 не работают с режимом самостоятельного развертывания.
 - Устройство должно работать под управлением одной из следующих версий Windows:
-    - Windows 10 сборки 1703 или более поздней версии.
+    - Windows 10 сборки 1709 или более поздней версии.
     - Windows 10 сборки 1809 или более поздней версии (при использовании гибридного присоединения устройств к Azure AD).
 
 

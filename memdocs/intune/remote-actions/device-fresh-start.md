@@ -16,19 +16,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f6d409f3ba1dc91815ce3dc67a2d65e5703c7268
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: ac718ee2351260f79ae91882c71373111900d8fd
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80322550"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254747"
 ---
 # <a name="use-fresh-start-to-reset-windows-10-devices-with-intune"></a>Сброс устройств с Windows 10 с помощью функции нового запуска в Intune
 
 
 [!INCLUDE [azure_portal](../includes/azure_portal.md)]
 
-При использовании на устройствах действия **Новый запуск** будут удалены все приложения, установленные на компьютерах с Windows 10 версии 1703 и более поздними версиями. Это действие помогает удалить предварительно установленные приложения (от изготовителя оборудования), обычно имеющиеся на новом компьютере. 
+При использовании на устройствах действия **Новый запуск** будут удалены все приложения, установленные на компьютерах с Windows 10 версии 1709 и более поздними версиями. Это действие помогает удалить предварительно установленные приложения (от изготовителя оборудования), обычно имеющиеся на новом компьютере. 
 
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) и выберите **Устройства** > **Все устройства**.
 2. Выберите настольный компьютер с Windows 10 из списка управляемых устройств.

@@ -19,12 +19,12 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: f9e62cd4c4034e4cf2eafaea56aa3e5175b1797e
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: cc2fbfac43916a8298646f6ff57c146c45966b1c
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79335748"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254815"
 ---
 # <a name="sync-your-windows-device-manually"></a>Синхронизация устройства с Windows вручную.
 
@@ -40,7 +40,7 @@ Intune поддерживает синхронизацию вручную из �
 * [Windows Phone 8.1](#windows-phone-81)    
 
 ## <a name="sync-directly-from-company-portal-app-for-windows"></a>Синхронизация из приложения корпоративного портала для Windows
-Чтобы вручную настроить синхронизацию любого устройства под управлением Windows 10 Creators Update (1703) или более поздней версии, сделайте следующее.
+Чтобы вручную выполнить синхронизацию любого устройства под управлением Windows 10 Creators Update 1709 или более поздней версии, сделайте следующее:
 
 1. Откройте приложение "Корпоративный портал" на устройстве.
 

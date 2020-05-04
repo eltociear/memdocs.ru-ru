@@ -15,12 +15,12 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c156e0d1b627d285c6654994d6114920f86b2bab
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 060fa4af918df05588a858a3883d0bbb96a99334
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80488066"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254679"
 ---
 # <a name="manage-windows-10-software-updates-in-intune"></a>Управление обновлениями программного обеспечения Windows 10 в Intune
 
@@ -46,7 +46,7 @@ Intune предоставляет следующие типы политик д�
 
 - Компьютеры с Windows 10 должны работать под управлением следующих версий Windows 10:
   - **Круги обновления Windows 10**: версии 1607 или более поздней
-  - **Обновления компонентов Windows 10**: версии 1703 или более поздней
+  - **Обновления компонентов Windows 10**: версии 1709 или более поздней.
 
 - Центр обновления Windows поддерживает следующие выпуски Windows 10:
   - быть под управлением ОС Windows 10;

@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 10/25/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -17,12 +17,12 @@ searchScope:
 ROBOTS: ''
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: b5df63a14f27b657c585eb43e09b02368d969939
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 676af3373acd399056a0ebdc77c9152442a72101
+ms.sourcegitcommit: 53bab52e42de28b87e53596646a3532e25eb9c14
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80084399"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82182282"
 ---
 # <a name="install-mobile-threat-defense"></a>Установка Mobile Threat Defense   
 
@@ -30,7 +30,7 @@ ms.locfileid: "80084399"
 
 Если у вас нет необходимого приложения MTD, вам будет запрещено входить в защищенные приложения с помощью рабочей или учебной учетной записи. В этой статье вы узнаете, [как установить](set-up-mobile-threat-defense.md#install-app) приложение MTD для разблокирования.  
 
-Существует множество приложений поставщика MTD, доступных для установки. Ваша организация сообщит, какой из них использовать. 
+Существует множество различных приложений поставщика MTD, доступных для установки. Организация сообщит вам, какое из них использовать. Если вам предложено установить приложение, но не приводятся дальнейшие инструкции или ссылка для получения приложения, обратитесь к специалисту службы поддержки. 
 
 
 ## <a name="information-your-organization-can-see"></a>Сведения, доступные вашей организации   

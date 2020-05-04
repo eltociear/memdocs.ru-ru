@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 06/02/2017
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -19,16 +19,16 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: e8b2fe2cfa080c5fffc1e66e66a397a036d794c6
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 65a7c561e8686a88367d70bf17d0f08eee80af02
+ms.sourcegitcommit: f94cdca69981627d6a3471b04ac6f0f5ee8f554f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79347188"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82210338"
 ---
-# <a name="fix-common-issues-with-your-ios-device"></a>Решение распространенных проблем с устройствами iOS
+# <a name="fix-common-problems-with-your-ios-device"></a>Решение распространенных проблем с устройствами iOS
 
-Иногда на устройствах iOS могут возникать проблемы, которые можно решить посредством устранения неполадок. Ниже перечислены некоторые распространенные проблемы, которые вы можете попробовать решить самостоятельно. С более сложными проблемами рекомендуем обращаться в службу поддержки вашей компании. Ее контактные данные см. на [веб-сайте корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).
+Используйте ссылки в этой статье, чтобы получить ответы на распространенные вопросы о регистрации устройств iOS или устранить проблемы, связанные с iOS. Если у вас есть вопрос или вам нужна помощь по теме, которая не указана здесь, обратитесь к специалисту службы поддержки, используя контактные данные на [веб-сайте Корпоративного портала](https://go.microsoft.com/fwlink/?linkid=2010980).  
 
 - [Мне нужно повторно подключить скомпрометированное устройство с iOS](how-to-reconnect-a-compromised-ios-device.md).
 - [Мне нужно отправить ошибки в службу поддержки моей компании](send-errors-to-your-it-admin-ios.md)
@@ -37,6 +37,6 @@ ms.locfileid: "79347188"
 - [Мне нужно идентифицировать свое устройство для регистрации](you-are-asked-to-identify-your-device-when-trying-to-enroll-ios.md).
 - [Как найти серийный номер на устройстве?](how-do-i-find-the-serial-number-on-my-device-ios.md)
 - [Мне нужно обновить устройство с iOS](you-need-to-update-your-ios-device.md).
-- [Моя версия iOS еще не поддерживается](your-ios-version-isnt-yet-supported.md).
-- [Вам нужно установить приложение Mobile Threat Defense на устройстве iOS](you-are-prompted-to-install-mtd-ios.md)
+- [Моя версия iOS еще не поддерживается](your-ios-version-isnt-yet-supported.md)
+- [Вам нужно установить приложение Mobile Threat Defense на устройстве iOS](set-up-mobile-threat-defense.md)
 - [Вам требуется устранить угрозу, обнаруженную приложением Mobile Threat Defense](you-need-to-resolve-a-threat-found-by-mtd-ios.md)

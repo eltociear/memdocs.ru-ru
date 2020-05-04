@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c1bb178c03682b9dd04902fecd50e5f2c9f01d0b
-ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
+ms.openlocfilehash: 41a2dce895761053e482fe029e4599819a099ac6
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82022863"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254866"
 ---
 # <a name="tutorial-use-the-cloud-to-configure-group-policy-on-windows-10-devices-with-admx-templates-and-microsoft-intune"></a>Руководство. Настройка групповой политики на устройствах Windows 10 с шаблонами ADMX и Microsoft Intune с помощью облака
 
@@ -53,7 +53,7 @@ ms.locfileid: "82022863"
 
 Данная функция применяется к:
 
-- Windows 10 версии 1703 и более поздние
+- Windows 10 версии 1709 и более поздней
 
 ## <a name="prerequisites"></a>Предварительные условия
 

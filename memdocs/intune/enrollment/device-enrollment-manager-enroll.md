@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 02/22/2018
+ms.date: 04/28/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: enrollment
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 27ec9e4c407dd8ef1a94e9c443f62ea5456866dc
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 8710043244e0b6becebef60890ac1a0ec3105971
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80808139"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254645"
 ---
 # <a name="enroll-devices-in-intune-by-using-a-device-enrollment-manager-account"></a>Регистрация устройств в Intune с помощью учетной записи диспетчера регистрации устройств
 
@@ -43,6 +43,13 @@ ms.locfileid: "80808139"
 - Каждое устройство, зарегистрированное с учетными записями DEM, должно иметь действующую лицензию для управления в Intune. Это может быть лицензия пользователя Intune или лицензия устройства Intune.
 - Если вы [регистрируете устройства с рабочим профилем Android для бизнеса](android-work-profile-enroll.md) с использованием учетной записи диспетчера регистрации устройств, на одну такую запись можно зарегистрировать не более 10 устройств.
 - [Регистрация полностью управляемых устройств Android Enterprise](android-fully-managed-enroll.md) с учетными записями DEM не поддерживается.
+- Установка предела устройств в Azure AD для учетной записи DEM не позволит зарегистрировать более 1000 устройств с использованием такой учетной записи.
+
+## <a name="enrollment-methods-supported-by-dem-accounts"></a>Методы регистрации, поддерживаемые учетными записями DEM
+
+- [Windows Autopilot](enrollment-autopilot.md)
+- [Массовая регистрация устройств Windows](windows-bulk-enroll.md)
+- Автоматическая регистрация устройств, инициированная с помощью Корпоративного портала
 
 ## <a name="add-a-device-enrollment-manager"></a>Добавление диспетчера регистрации устройств
 
@@ -52,14 +59,13 @@ ms.locfileid: "80808139"
 
 3. В колонке **Добавить пользователя** введите имя участника-пользователя для пользователя DEM и нажмите кнопку **Добавить**. Пользователь DEM добавлен в список пользователей диспетчера регистрации устройств.
 
-## <a name="permissions-for-dem"></a>Разрешения для DEM
+## <a name="permissions-required-to-create-dem-accounts"></a>Требуемые разрешения для создания учетных записей DEM
 
 Роли Azure AD глобального администратора или администратора служб Intune требуются для:
 - назначения разрешения DEM учетной записи пользователя Azure AD;
 - просмотра всех пользователей DEM.
 
 Пользователь без прав глобального администратора или администратора службы Intune, у которого есть разрешения на чтение для роли диспетчеров регистрации устройств, может просматривать только созданных им пользователей DEM.
-
 
 ## <a name="remove-device-enrollment-manager-permissions"></a>Удаление разрешений диспетчера регистрации устройств
 

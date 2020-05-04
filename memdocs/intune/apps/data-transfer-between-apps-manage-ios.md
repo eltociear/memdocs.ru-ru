@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2d3b794fdd180ad655b7cd11cc5c1f6d11bc874e
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: f0a7bbdd5bb27b6fe17f5b4f44302551ff67de5d
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82075461"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254985"
 ---
 # <a name="how-to-manage-data-transfer-between-ios-apps-in-microsoft-intune"></a>Как управлять передачей данных между приложениями iOS в Microsoft Intune
 
@@ -45,7 +45,7 @@ ms.locfileid: "82075461"
 ## <a name="configure-user-upn-setting-for-microsoft-intune-or-third-party-emm"></a>Настройка пользовательского параметра имени участника-пользователя для Microsoft Intune или стороннего решения EMM
 Настройка пользовательского параметра имени участника-пользователя **обязательна** для устройств, которые управляются Intune или сторонним решением EMM для указания учетной записи зарегистрированного пользователя. Конфигурация UPN работает с политиками защиты приложений, развертываемыми из Intune. Ниже приведена общая процедура настройки параметра UPN и сведения о соответствующем взаимодействии с пользователем:
 
-1. На [портале Azure](https://portal.azure.com)[создайте и назначьте политику защиты приложений](app-protection-policies.md) для iOS или iPadOS. Настройте параметры политики в соответствии с требованиями вашей организации и выберите приложения iOS, которые должны иметь эту политику.
+1. В [центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) [создайте и назначьте политику защиты приложений](app-protection-policies.md) для iOS и iPadOS. Настройте параметры политики в соответствии с требованиями вашей организации и выберите приложения iOS, которые должны иметь эту политику.
 
 2. Разверните приложения и профиль электронной почты, которые будут управляться с помощью Intune или стороннего решения MDM, выполнив следующие универсальные шаги. Эта процедура также показана в *примере 1*.
 
