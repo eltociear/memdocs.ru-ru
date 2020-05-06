@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/21/2020
+ms.date: 04/07/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.localizationpriority: high
@@ -17,19 +17,19 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 002d8e8826fbc1420bf9deca6fb88a3468e8a2ad
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: c0d9267f989988ae33d56696d424de56a649bca2
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80324527"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "80900479"
 ---
 # <a name="add-microsoft-edge-to-macos-devices-using-microsoft-intune"></a>Установка Microsoft Edge на устройства с macOS с помощью Microsoft Intune
 
 Чтобы назначать, отслеживать, настраивать и защищать приложения, их необходимо добавить в Intune. Один из доступных [типов приложений](apps-add.md#app-types-in-microsoft-intune) — Microsoft Edge *версии 77 и более поздних*. Выбрав этот тип приложения в Intune, вы можете назначать и устанавливать Microsoft Edge *версии 77 и более поздних* на управляемых устройствах с macOS. Этот тип приложения упрощает назначение Microsoft Edge устройствам с macOS, не требуя использования инструмента упаковки приложений для macOS. Чтобы обеспечить безопасность и актуальность приложений, эти приложения также поддерживают службу Microsoft AutoUpdater (MAU).
 
 > [!IMPORTANT]
-> Этот тип приложения находится в **общедоступной предварительной версии** и поддерживает каналы разработчиков и бета-версий для macOS. Развертывание выполняется только на английском языке (EN), однако конечные пользователи могут изменить язык интерфейса в браузере в разделе **Параметры** > **Языки**. 
+> Этот тип приложения поддерживает каналы разработчиков и бета-версий для macOS. Развертывание выполняется только на английском языке (EN), однако конечные пользователи могут изменить язык интерфейса в браузере в разделе **Параметры** > **Языки**. 
 
 > [!NOTE]
 > Microsoft Edge *версии 77 и более поздних* также доступен для Windows 10.

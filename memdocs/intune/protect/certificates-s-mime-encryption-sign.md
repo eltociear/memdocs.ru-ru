@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 12/10/2018
+ms.date: 04/20/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -15,12 +15,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b4965f29144131895660796bc3282ba46d6b8101
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: b93e850e7a38feb7dd5347670279f6d85b92455b
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79353610"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81725651"
 ---
 # <a name="smime-overview-to-sign-and-encrypt-email-in-intune"></a>Общие сведения об S/MIME для подписывания и шифрования электронной почты в Intune
 
@@ -46,7 +46,7 @@ ms.locfileid: "79353610"
 
 Сертификаты подписи в Intune используют сертификаты PKCS. В разделе [Настройка и использование сертификатов PKCS](certficates-pfx-configure.md) описывается развертывание и использование сертификатов PKCS в среде Intune. Шаги включают следующее:
 
-- Скачайте и установите соединитель сертификатов Microsoft Intune для поддержки запросов сертификатов PKCS.
+- Скачайте и установите соединитель сертификатов Microsoft Intune для поддержки запросов сертификатов PKCS. Соединитель предъявляет такие же требования к сети, что и [управляемые устройства](../fundamentals/intune-endpoints.md#access-for-managed-devices).
 - Создайте профиль доверенного корневого сертификата для вашего устройства. Этот этап включает использование доверенных корневых и промежуточных сертификатов центра сертификации и дальнейшее развертывание профиля на устройствах.
 - Создайте профиль сертификата PKCS, используя созданный шаблон сертификата. Этот профиль выдает сертификаты для подписи устройствам и развертывает на них профиль сертификата PKCS.
 

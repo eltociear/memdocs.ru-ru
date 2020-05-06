@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/21/2019
+ms.date: 04/30/2020
 ms.topic: tutorial
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -17,12 +17,12 @@ ms.reviewer: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 70f6e3d3fcd0a5f65866e43198b499b321aab836
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 4f32ced29b6bb53f8c091ba1a0f42261a2baa493
+ms.sourcegitcommit: d05b1472385c775ebc0b226e8b465dbeb5bf1f40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82079048"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "82605224"
 ---
 # <a name="tutorial-protect-exchange-online-email-on-unmanaged-devices"></a>Руководство. Защита электронной почты Exchange Online на неуправляемых устройствах
 
@@ -95,7 +95,6 @@ ms.locfileid: "82079048"
    Чтобы продолжить, нажмите кнопку **Далее** .
 
 8. Страница **Назначения** позволяет назначить политику защиты приложений группам пользователей. В этом учебнике вы не будете назначать эту политику группе.  
- Вам не нужно настраивать эти параметры.
 
    Чтобы продолжить, нажмите кнопку **Далее** .
 
