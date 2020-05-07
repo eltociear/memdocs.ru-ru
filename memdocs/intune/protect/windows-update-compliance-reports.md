@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 11/25/2019
+ms.date: 04/13/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -16,20 +16,20 @@ ms.reviewer: mghadial
 ms.suite: ems
 search.appverid: MET150
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7ad666f21b2ff271b99675486835357dfd071773
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: 157c61e9f145295f5ef728d12385fa44697a88e2
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80326507"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81725641"
 ---
 # <a name="intune-compliance-reports-for-updates"></a>Отчет о соответствии Intune для обновлений
 
-Когда вы используете Intune для развертывания обновления Windows на устройствах Windows 10, просматривайте сведения о поддержке обновлений с помощью Intune или бесплатного решения *Поддержка обновлений*, которое входит в Microsoft Operations Management Suite (OMS).
+Когда вы используете Intune для развертывания обновления Windows на устройствах Windows 10, просматривайте сведения о поддержке обновлений с помощью Intune или бесплатного решения *Поддержка обновлений*. Это решение входит в Microsoft Operations Management Suite (OMS).
 
 ## <a name="use-intune"></a>Использование Intune
 
-Просмотрите отчет о политиках, чтобы узнать состояние развертывания для настроенных кругов обновления Windows 10:
+Чтобы просмотреть отчет о политиках и узнать состояние развертывания для настроенных кругов обновления Windows 10, выполните приведенные ниже действия.
 
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
 
@@ -47,13 +47,13 @@ ms.locfileid: "80326507"
 
 ## <a name="use-update-compliance"></a>Использование средства "Поддержка обновлений"
 
-Для отслеживания выпуска обновлений Windows 10 можно использовать решение [Поддержка обновлений](https://technet.microsoft.com/itpro/windows/manage/update-compliance-monitor) в Windows Analytics. Решение "Поддержка обновлений" предоставляется через портал Azure бесплатно для устройств, которые отвечают [предварительным требованиям](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started#update-compliance-prerequisites).  
+Для отслеживания выпуска обновлений Windows 10 можно использовать решение [Поддержка обновлений](https://technet.microsoft.com/itpro/windows/manage/update-compliance-monitor). Решение "Поддержка обновлений" предоставляется через портал Azure бесплатно для устройств, которые отвечают [предварительным требованиям](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started#update-compliance-prerequisites).  
 
 Благодаря этому решению можно развернуть коммерческий идентификатор на любых управляемых Intune устройствах с Windows 10, для которых требуется получать отчеты о поддержке обновлений.  
 
 В Intune для настройки коммерческого идентификатора используйте параметры OMA-URI настраиваемой политики. См. статью [Использование настраиваемых параметров для устройств Windows 10 в Intune](../configuration/custom-settings-windows-10.md).
 
-Путь OMA-URI (с учетом регистра) для настройки коммерческого идентификатора выглядит следующим образом: *./Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID*  
+Путь OMA-URI (с учетом регистра) для настройки коммерческого идентификатора выглядит следующим образом: *./Vendor/MSFT/DMClient/Provider/MS DM Server/CommercialID*
 
 Например, в разделе **Добавление или изменение настройки OMA-URI** можно использовать следующие значения.
 

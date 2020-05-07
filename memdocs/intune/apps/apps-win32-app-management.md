@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: ee632901162042f7d777043e6700b796b4badf58
-ms.sourcegitcommit: 9145a5b3b39c111993e8399a4333dd82d3fe413c
+ms.openlocfilehash: 8d1933350675a0d36042d1a4bd1e6a26c9a95814
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80620613"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254611"
 ---
 # <a name="intune-standalone---win32-app-management"></a>Изолированная среда Intune — управление приложениями Win32
 
@@ -357,6 +357,11 @@ ms.locfileid: "80620613"
 ## <a name="set-win32-app-availability-and-notifications"></a>Настройка доступности и уведомлений для приложений Win32
 Вы можете настроить время начала и крайний срок для установки приложения Win32. При наступлении указанной начальной даты управляющее расширение Intune скачает приложение и сохранит его в кэше. При наступлении крайнего срока приложение будет установлено. Для доступных приложений время начала будет определять появление приложения на Корпоративном портале, а загрузка содержимого будет начинаться, когда пользователь запросит это приложение на Корпоративном портале. Кроме того, вы можете задать период отсрочки до перезапуска. 
 
+> [!IMPORTANT]
+> Параметр **Перезапустить льготный период** в разделе **Назначение** доступен, только если для параметра **Действие при перезагрузке устройства** в разделе **Программа** установлено одно из следующих значений:
+> - **Определять режим по кодам возврата**;
+> - **Intune выполнит принудительную перезагрузку устройства**.
+
 Настройте дату и время доступности для выбранного приложения, выполнив следующие действия:
 
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
@@ -405,6 +410,8 @@ ms.locfileid: "80620613"
 > **На клиентских компьютерах X86**:<br>
 > *C:\Program Files\Microsoft Intune Management Extension\Content*<br>
 > *C:\windows\IMECache*
+>
+> Дополнительные сведения см. в статье [Рекомендации по проверке компьютеров с поддерживаемыми версиями Windows, используемых на крупных предприятиях, на наличие вирусов](https://support.microsoft.com/help/822158/virus-scanning-recommendations-for-enterprise-computers).
 
 ### <a name="detecting-the-win32-app-file-version-using-powershell"></a>Обнаружение версии файла Win32 приложения с помощью PowerShell
 

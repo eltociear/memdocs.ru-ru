@@ -147,10 +147,10 @@
               href: apps-configure-chrome-android.md
         - name: 'Приложения и книги, приобретенные по корпоративной программе'
           items:
-            - name: Управление приложениями и книгами VPP
+            - name: Общие сведения о приобретении по корпоративной программе
               href: vpp-apps.md
               displayName: vpp; volume purchased
-            - name: Приложения VPP iOS
+            - name: 'Приложения iOS, приобретенные по корпоративной программе'
               href: vpp-apps-ios.md
             - name: Приложения из Магазина Майкрософт для бизнеса
               href: windows-store-for-business.md
@@ -206,6 +206,10 @@
           href: app-install-error-codes.md
         - name: Устранение неполадок управления мобильными приложениями
           href: troubleshoot-mam.md
+        - name: Просмотрите журналы защиты приложений
+          href: app-protection-policy-settings-log.md
+        - name: Устранение неполадок при развертывании политики защиты приложений
+          href: troubleshoot-app-protection-policy-deployment.md
 - name: Справочные сведения
   items:
     - name: Защита приложений с помощью пакета SDK для приложений Intune

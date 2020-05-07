@@ -2,7 +2,7 @@
 title: Маркеры проверки подлинности в шлюзе управления облачными клиентами
 titleSuffix: Configuration Manager
 description: Зарегистрируйте клиент во внутренней сети для получения уникального маркера или создайте маркер групповой регистрации для интернет-устройств.
-ms.date: 04/01/2020
+ms.date: 04/29/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-client
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: f0703475-85a4-450d-a4e8-7a18a01e2c47
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: ae92fa2f8e3ee3270de4777fd889bc5fc16a6de4
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 3a05c10d1f73fa0817febdd591190f6bc2ff0a0e
+ms.sourcegitcommit: b7e5b053dfa260e7383a9744558d50245f2bccdc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81694142"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82587277"
 ---
 # <a name="token-based-authentication-for-cloud-management-gateway"></a>Проверка подлинности на основе маркеров для шлюза управления облачными клиентами
 
@@ -99,7 +99,7 @@ ms.locfileid: "81694142"
 
 #### <a name="lifetime"></a>/lifetime
 
-Используйте с параметром `/new`, чтобы указать срок действия маркера. Укажите целочисленное значение в минутах. Значение по умолчанию — 4320 (три дня).
+Используйте с параметром `/new`, чтобы указать срок действия маркера. Укажите целочисленное значение в минутах. Значение по умолчанию — 4320 (три дня). Максимальное значение — 10 080 (семь дней).
 
 Пример: `BulkRegistrationTokenTool.exe /lifetime:4320`
 

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure;seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c3b9497d80fad3a0abd7e7b14b1b8ac02b249c77
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 0913937714b59aca56c1e61fabe9d8154b6d4d24
+ms.sourcegitcommit: af8a3efd361a7f3fa6e98e5126dfb1391966ff76
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79339856"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149135"
 ---
 # <a name="enroll-your-android-enterprise-dedicated-devices-or-fully-managed-devices"></a>Регистрация выделенных или полностью управляемых устройств Android для бизнеса
 
@@ -31,16 +31,15 @@ ms.locfileid: "79339856"
 
 | Метод регистрации | Минимальная версия ОС Android для выделенного и полностью управляемого устройства |
 | ----- | ----- |
-| NFC | 5.1 |
+| NFC | 6.0 |
 | Запись токена | 6.0 |
 | QR-код | 7.0 |
-| Zero Touch  | 8.0\* |
-
-\*, участвующие в программе производители.
+| Zero Touch  | 8.0<br><br> Участвующие в программе производители. |
+| [Регистрация мобильных устройств Knox](https://docs.microsoft.com/mem/intune/enrollment/android-samsung-knox-mobile-enroll)  | 6.0<br><br> Только на устройствах Samsung Knox 2.8 или более поздних версий. |
 
 ## <a name="enroll-by-using-near-field-communication-nfc"></a>Регистрация с помощью NFC
 
-Для устройств с поддержкой NFC вы можете подготовить устройства, создав специально отформатированный тег NFC. Вы можете использовать собственное приложение или любой инструмент создания тегов NFC. Дополнительные сведения см. в разделе [Регистрация устройств с Android на базе C для бизнеса с помощью Microsoft Intune](https://blogs.technet.microsoft.com/cbernier/2018/10/15/nfc-based-android-enterprise-device-enrollment-with-microsoft-intune/) и [документации Google по API управления Android](https://developers.google.com/android/management/provision-device#nfc_method).
+Для устройств версии 6 и более поздних с поддержкой NFC можно подготовить устройства, создав специально отформатированный тег NFC. Вы можете использовать собственное приложение или любой инструмент создания тегов NFC. Дополнительные сведения см. в разделе [Регистрация устройств с Android на базе C для бизнеса с помощью Microsoft Intune](https://blogs.technet.microsoft.com/cbernier/2018/10/15/nfc-based-android-enterprise-device-enrollment-with-microsoft-intune/) и [документации Google по API управления Android](https://developers.google.com/android/management/provision-device#nfc_method).
 
 ## <a name="enroll-by-using-a-token"></a>Регистрация с помощью токена
 
@@ -91,6 +90,8 @@ ms.locfileid: "79339856"
 
 4. Нажмите кнопку **Применить**.
 
+## <a name="enroll-by-using-knox-mobile-enrollment"></a>Регистрация с помощью функции регистрации мобильных устройств Knox
+Чтобы использовать функцию регистрации мобильных устройств Samsung Knox, на устройстве должна быть установлена ОС Android 6 или более поздней версии, а также Samsung Knox 2.8 или более поздней версии. См. сведения об [автоматической регистрации устройств с помощью функции регистрации мобильных устройств Knox](https://docs.microsoft.com/mem/intune/enrollment/android-samsung-knox-mobile-enroll).
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 - [Развертывание приложений Android](../apps/apps-deploy.md)

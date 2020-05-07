@@ -2,7 +2,7 @@
 title: Группы оркестрации
 titleSuffix: Configuration Manager
 description: Создавайте группы оркестрации и развертывайте в них обновления.
-ms.date: 04/01/2020
+ms.date: 04/28/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-sum
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: cddbebea-b418-4839-b0a8-7809486c8a4c
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: d9998f298cee24e9f10b3fd8c5e58d7b76200485
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: e9a307df23900abb985535b2ab59a5ff172cafb7
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81702982"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254917"
 ---
 # <a name="orchestration-groups-in-configuration-manager"></a>Группы оркестрации в Configuration Manager
 <!--3098816-->
@@ -138,7 +138,6 @@ ms.locfileid: "81702982"
    1. Определите причину сбоя оркестрации и устраните проблемы.
    1. [Сбросьте состояние оркестрации для членов группы](#bkmk_reset).
    1. В узле **Группа оркестрации** нажмите кнопку **Начать оркестрацию**, чтобы перезапустить оркестрацию.
-    Сбросьте его состояние с помощью кнопки **Начать оркестрацию**.  
    [![Начать оркестрацию ](./media/3098816-start-orchestration.png)](./media/3098816-start-orchestration.png#lightbox)
 
 

@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 07/22/2019
+ms.date: 04/20/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 7e1a7c9665f142bf7dd7832e6bac0e016539ddea
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 86c90d8313cd9eed853ad438a5ea9a31f0d834ce
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79358732"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81725532"
 ---
 # <a name="network-endpoints-for-microsoft-intune"></a>Конечные точки сети для Microsoft Intune  
 
@@ -34,6 +34,9 @@ ms.locfileid: "79358732"
 
 Для управления устройствами, защищенными брандмауэрами и прокси-серверами, нужно включить возможность обмена данными с Intune.
 
+> [!NOTE]
+> Сведения в разделе также относятся к Microsoft Intune Certificate Connector. Соединитель предъявляет такие же требования к сети, что и управляемые устройства.
+
 - Прокси-сервер должен поддерживать протоколы **HTTP (80)** и **HTTPS (443)** , так как клиенты Intune используют оба этих протокола. Windows Information Protection использует порт 444.
 - Для некоторых задач (например, скачивание программного обеспечения и обновлений для агента для классических ПК) Intune требуется доступ к manage.microsoft.com через прокси-сервер без проверки подлинности.
 
@@ -44,6 +47,7 @@ ms.locfileid: "79358732"
 > [!NOTE] If Windows 8.1 devices haven't cached proxy server credentials, enrollment might fail because the request doesn't prompt for credentials. Enrollment fails without warning as the request wait for a connection. If users might experience this issue, instruct them to open their browser settings and save proxy server settings to enable a connection.   -->
 
 Управляемые устройства должны иметь конфигурации с выбранным параметром **Все пользователи**, чтобы все пользователи могли получать доступ к службам через брандмауэры.
+
 
 В приведенной ниже таблице перечислены порты и службы, к которым обращается клиент Intune.
 

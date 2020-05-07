@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 07c29f45c2d9356bda78e021d3baf9647aa03397
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: 6633682a9572ba36f41f42e77c5aa64403e0e209
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80326799"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81440583"
 ---
 # <a name="create-a-custom-role-in-intune"></a>Создание пользовательской роли в Intune
 
@@ -40,7 +40,7 @@ ms.locfileid: "80326799"
 
 3. На странице **Разрешения** выберите разрешения, которые нужно использовать с этой ролью.
 
-4. На странице **Область (теги)** выберите теги для этой роли. Эта роль можно получить доступ к ресурсам, которые также имеют эти теги. Нажмите кнопку **Далее**.
+4. На странице **Область (теги)** выберите теги для этой роли. Когда эта роль назначается пользователю, этот пользователь может получить доступ к ресурсам, которые также имеют эти теги. Нажмите кнопку **Далее**.
 
 5. На странице **Проверка и создание** после завершения нажмите **Создать**. Новая роль будет отображаться в списке в колонке **"Все роли" в разделе ролей Intune**.
 

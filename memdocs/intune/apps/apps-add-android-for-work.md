@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 04/02/2020
+ms.date: 04/13/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: apps
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: a6855abaf09a89303bfadd1a973dd1e1761346af
-ms.sourcegitcommit: 954b3aae7916ad14065e6e86a577c5205103a50e
+ms.openlocfilehash: 728fa69303760252068db454c04ed4431b89602a
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80624904"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81615521"
 ---
 # <a name="add-managed-google-play-apps-to-android-enterprise-devices-with-intune"></a>Добавление приложений управляемого Google Play для устройств Android для бизнеса с помощью Intune
 
@@ -141,8 +141,6 @@ ms.locfileid: "80624904"
 2. В консоли выберите **Добавить новое приложение**.
 3. Предоставление и отправка данных о приложении осуществляются так же, как при публикации любого другого приложения в магазине Google Play. Тем не менее необходимо выбрать параметр **Сделать приложение доступным только для моей организации (<*название организации*>)** .
 
-    ![Параметр, позволяющий сделать приложение доступным только для вашей организации](./media/apps-add-android-for-work/restrict.png)
-
     Эта операция позволяет сделать приложение доступным только для вашей организации. Оно будет недоступно в общедоступном Google Play Маркете.
 
     Дополнительные сведения о загрузке и публикации приложений Android см. в [Справке по консоли разработчика Google](https://support.google.com/googleplay/android-developer/answer/113469).
@@ -218,6 +216,10 @@ ms.locfileid: "80624904"
 ## <a name="additional-managed-google-play-app-reporting-for-android-enterprise-work-profile-devices"></a>Дополнительные отчеты об управляемых приложениях Google Play для устройств с рабочим профилем Android Enterprise
 
 Для управляемых приложений Google Play, развернутых на устройствах с рабочим профилем Android Enterprise, можно просмотреть состояние и номер версии приложения, установленного на устройстве с Intune. 
+
+## <a name="working-with-managed-google-play-closed-testing-tracks"></a>Работа с каналами закрытого тестирования в управляемом Google Play
+
+В целях тестирования непроизводственную версию приложения управляемого Google Play можно распространять на устройства, зарегистрированные в сценарии Android для бизнеса (**Рабочий профиль Android для бизнеса**, **Полностью управляемые** и **Выделенные**). В Intune вы можете увидеть, опубликован ли для приложения канал предварительного тестирования, а также назначить этот канал группам пользователей или устройств AAD. Процесс назначения производственной версии уже существующей группе аналогичен назначению непроизводственного канала. После развертывания состояние установки каждого канала будет соответствовать номеру версии канала тестирования в управляемом Google Play. Дополнительные сведения см. в статье о [каналах закрытого тестирования предварительных версий приложений в Google Play](https://support.google.com/googleplay/android-developer/answer/3131213).
 
 ## <a name="delete-managed-google-play-apps"></a>Удаление приложений управляемого Google Play
 При необходимости можно удалять приложения управляемого Google Play из Microsoft Intune. Чтобы удалить приложение управляемого Google Play, откройте Microsoft Intune на портале Azure и выберите **Приложения** > **Все приложения**. В списке приложений щелкните многоточие (...) справа от приложения управляемого Google Play и в отобразившемся меню выберите **Удалить**. Приложение управляемого Google Play, удаленное из списка приложений, автоматически становится неутвержденным.

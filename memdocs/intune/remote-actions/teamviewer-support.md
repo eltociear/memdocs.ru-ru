@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f9dc309cb373d9f06fd68810531d5634eb4c0b7d
-ms.sourcegitcommit: e2567b5beaf6c5bf45a2d493b8ac05d996774cac
+ms.openlocfilehash: 1a18895ecfcb17567170dfae8f07814020a60df1
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80325042"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81726007"
 ---
 # <a name="use-teamviewer-to-remotely-administer-intune-devices"></a>Используйте TeamViewer для удаленного администрирования устройств Intune
 
@@ -67,7 +67,7 @@ ms.locfileid: "80325042"
 Когда вы запускаете удаленный сеанс, пользователь видит флажок уведомления на значке приложения "Корпоративный портал" на своем устройстве. Также уведомление отображается при открытии приложения. При необходимости пользователь может принять запрос удаленной помощи.
 
 > [!NOTE]
-> Устройства с ОС Windows, которые регистрируются без участия пользователей, например с помощью DEM и WCD, не отображают уведомление TeamViewer в приложении "Корпоративный портал". В этих случаях рекомендуется создать сеанс на портале TeamViewer.
+> Устройства с ОС Windows, которые регистрируются без участия пользователей, например с помощью диспетчера регистрации устройств (DEM) и конструктора конфигураций Windows (WCD), не отображают уведомление TeamViewer в приложении "Корпоративный портал". В этих случаях рекомендуется создать сеанс на портале TeamViewer.
 
 В TeamViewer можно выполнить ряд действий на устройстве, включая возможность управления устройством. Подробные сведения о доступных возможностях см. в [Руководстве по TeamViewer](https://www.teamviewer.com/support/documents/).
 

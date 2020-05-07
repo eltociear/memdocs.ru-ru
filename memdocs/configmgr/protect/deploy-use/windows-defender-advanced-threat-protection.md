@@ -2,7 +2,7 @@
 title: Advanced Threat Protection в Microsoft Defender
 titleSuffix: Configuration Manager
 description: Узнайте о возможностях управления и мониторинга новой службы Advanced Threat Protection в Microsoft Defender, которая помогает предприятию противостоять сложным кибератакам.
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-protect
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: a5fc033e-828e-4e45-9097-bbbd0697ebdf
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 186751bb8b1768b34573e2b614ce992b58fa9232
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: a635ae36875984537c18c4850a3526d57ffceb31
+ms.sourcegitcommit: f94cdca69981627d6a3471b04ac6f0f5ee8f554f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81706242"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82210151"
 ---
 # <a name="microsoft-defender-advanced-threat-protection"></a>Advanced Threat Protection в Microsoft Defender
 
@@ -29,7 +29,7 @@ Endpoint Protection помогает отслеживать службу [Рас
 
 - Подписка на веб-службу Advanced Threat Protection в Microsoft Defender  
 - Клиентские компьютеры под управлением клиента Configuration Manager
-- Клиенты, использующие ОС из раздела [Поддерживаемые клиентские операционные системы](#bkmk_os). 
+- Клиенты, использующие ОС из раздела [Поддерживаемые клиентские операционные системы](#bkmk_os).
 
 ### <a name="supported-client-operating-systems"></a><a name="bkmk_os"></a> Поддерживаемые клиентские операционные системы
 В зависимости от используемой версии Configuration Manager можно подключить следующие клиентские операционные системы.
@@ -62,7 +62,7 @@ Endpoint Protection помогает отслеживать службу [Рас
       1. Скопируйте значения **ключа рабочей области** и **идентификатора рабочей области** из раздела **Настройка подключения** после завершения процесса.
 
 > [!IMPORTANT]
-> Файл конфигурации ATP в Microsoft Defender содержит конфиденциальные сведения, которые должны быть защищены.
+> - Файл конфигурации ATP в Microsoft Defender содержит конфиденциальные сведения, которые должны быть защищены.
 
 ## <a name="onboard-devices"></a>Подключенные устройства
 
@@ -70,6 +70,7 @@ Endpoint Protection помогает отслеживать службу [Рас
 1. Введите **Имя** и **Описание** политики ATP в Microsoft Defender и выберите **Подключение**.
 1. Выберите **Обзор** и укажите файл конфигурации, предоставленный клиентом облачной службы ATP в Microsoft Defender вашей организации.
    - Для **Windows 7 и 8.1** или **Windows Server 2008 R2 SP1, 2012 R2 и 2016** укажите **ключ рабочей области** и **идентификатор рабочей области**.
+   - Для работы с Configuration Manager версии 2002 вам потребуется **ключ рабочей области** и **идентификатор рабочей области** даже при подключении только устройств Windows Server 2019 и Windows Server 1803 или более поздних версий. Чтобы получить эти значения, выберите **Параметры** > **Подключение** > **Windows 7 и 8.1** в разделе [Веб-служба ATP в Microsoft Defender](https://securitycenter.windows.com/). <!--7054188-->
 1. Укажите образцы файлов, которые собираются и совместно используются с управляемых устройств для анализа.  
 
    - **Нет**

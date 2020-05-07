@@ -11,12 +11,12 @@ author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b91f6b11df1b65176711df0ecd907a1764c2e692
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 3892da4f3783e8b169bff576a9945f34cc47c356
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79355092"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81726039"
 ---
 # <a name="using-the-intune-docs"></a>Использование документации по Intune
 
@@ -117,11 +117,11 @@ ms.locfileid: "79355092"
 
 ## <a name="consolidation-of-documentation-for-microsoft-endpoint-manager"></a>Объединение документации по Microsoft Endpoint Manager
 
-В целях улучшения поддержки объединенных сценариев для Intune и Configuration Manager эта библиотека документации была перемещена по адресу: [https://docs.microsoft.com/mem/intune](https://docs.microsoft.com/mem/intune). Позднее библиотека документации по Configuration Manager будет находиться по адресу: `docs.microsoft.com/mem/configmgr`. Все ссылки будут перенаправлены автоматически, поэтому для чтения этого содержимого не потребуется вносить никаких изменений.
+Чтобы улучшить поддержку объединенных сценариев для Intune и Configuration Manager, документацию по Intune и Configuration Manager на сайте Microsoft Endpoint Manager консолидировали. Документация по Intune теперь находится по адресу [https://docs.microsoft.com/mem/intune](https://docs.microsoft.com/mem/intune), а библиотека документации по Configuration Manager — по адресу [https://docs.microsoft.com/mem/configmgr](https://docs.microsoft.com/mem/configmgr). Если вы воспользуетесь старым URL-адресом, все ссылки будут перенаправлены автоматически, поэтому для чтения этого содержимого не потребуется вносить никаких изменений.
 
 При отправке отзыва или участии в написании статьей необходимо выполнить ряд изменений.
 
-- Существующие проблемы GitHub останутся в исходном репозитории по адресу: [https://github.com/MicrosoftDocs/IntuneDocs/issues](https://github.com/MicrosoftDocs/IntuneDocs/issues).
+- Существующие выпуски GitHub остались в исходном репозитории по адресу [https://github.com/MicrosoftDocs/IntuneDocs/issues](https://github.com/MicrosoftDocs/IntuneDocs/issues) или [https://github.com/MicrosoftDocs/sccmdocs/issues](https://github.com/MicrosoftDocs/sccmdocs/).
 
   - Они не будут отображаться как открытые или закрытые в разделе отзывов связанной статьи.
 

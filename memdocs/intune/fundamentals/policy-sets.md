@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 82e02795dc9dbcbc0598218418404fe74fdf1226
-ms.sourcegitcommit: 0ad7cd842719887184510c6acd9cdfa290a3ca91
+ms.openlocfilehash: e6a3e2b9026024791ef1a9e4eb5aca08718d8573
+ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80551620"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82023169"
 ---
 # <a name="use-policy-sets-to-group-collections-of-management-objects"></a>Используйте наборы политик для группировки коллекций объектов управления
 
@@ -89,7 +89,7 @@ ms.locfileid: "80551620"
   - Приложение для Магазина Android
   - Бизнес-приложение Android
   - Управляемое бизнес-приложение Android
-  - Набор Office 365 профессиональный плюс (Windows 10)
+  - Приложения Microsoft 365 (Windows 10)
   - Веб-ссылка
   - Встроенное приложение iOS/iPadOS
   - Встроенные приложения для Android
@@ -121,6 +121,7 @@ ms.locfileid: "80551620"
     Если политика добавляется в набор политик, развернутый в группе, группа будет показываться в рабочей нагрузке как непосредственно назначенная, а не "Назначенная через набор политик". В результате MAM не обрабатывает удаления назначений групп, поступающие из наборов политик.
 
 - MAM не поддерживает развертывание каких-либо типов политик в виртуальных группах **Все пользователи** и **Все устройства**.
+- Профиль конфигурации устройства типа "Административные шаблоны" нельзя выбрать в рамках набора политик.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

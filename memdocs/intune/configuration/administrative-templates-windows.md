@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/23/2020
+ms.date: 04/15/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 75ef2a03c9f42f0bda78af009f0fb563fbcedb75
-ms.sourcegitcommit: 795e8a6aca41e1a0690b3d0d55ba3862f8a683e7
+ms.openlocfilehash: f609ec62259deffb220c8ee935d0f10a98ae77b5
+ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80220055"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82254900"
 ---
 # <a name="use-windows-10-templates-to-configure-group-policy-settings-in-microsoft-intune"></a>Использование шаблонов Windows 10 для настройки параметров групповой политики в Microsoft Intune
 
@@ -41,7 +41,7 @@ ms.locfileid: "80220055"
 
 ## <a name="before-you-begin"></a>Подготовка к работе
 
-- Некоторые из этих параметров доступны, начиная с Windows 10, версия 1703 (RS2 / сборка 15063). Не все параметры доступны во всех выпусках Windows. Для оптимизации рекомендуется использовать Windows 10 Корпоративная версия 1903 (19H1 / сборка 18362) или более новой.
+- Некоторые из этих параметров доступны, начиная с Windows 10, версия 1709 (RS2 / сборка 15063). Не все параметры доступны во всех выпусках Windows. Для оптимизации рекомендуется использовать Windows 10 Корпоративная версия 1903 (19H1 / сборка 18362) или более новой.
 
 - Параметры Windows используют [политику поставщиков службы конфигурации Windows](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#policies-supported-by-group-policy-and-admx-backed-policies). Поставщики CSP работают в разных выпусках Windows, таких как Домашняя, Профессиональная, Корпоративная и т. д. Чтобы узнать, работает ли поставщик CSP в определенном выпуске, см. статью о [поставщиках CSP политики Windows](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#policies-supported-by-group-policy-and-admx-backed-policies).
 
@@ -102,6 +102,10 @@ ms.locfileid: "80220055"
     Выберите **Далее**.
 
 14. В разделе **Назначения** выберите пользователей или группы, которые будут принимать ваш профиль. Дополнительные сведения о назначении профилей см. в статье [Назначение профилей пользователей и устройств](device-profile-assign.md).
+
+    Если профиль назначен группам пользователей, настроенные параметры ADMX применяются к любому устройству, которое регистрирует пользователь и на которое он входит. Если профиль назначен группам устройств, настроенные параметры ADMX применяются к любому пользователю, который входит на устройство. Назначение происходит, если параметр ADMX является конфигурацией компьютера (`HKEY_LOCAL_MACHINE`) или конфигурацией пользователя (`HKEY_CURRENT_USER`). Некоторые параметры компьютера, назначенные пользователю, также могут влиять на работу других пользователей на этом устройстве.
+    
+    Дополнительные сведения см. в разделе [Группы пользователей и группы устройств](device-profile-assign.md#user-groups-vs-device-groups).
 
     Выберите **Далее**.
 

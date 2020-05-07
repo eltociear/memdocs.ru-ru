@@ -9,6 +9,7 @@ ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
+ms.subservice: end-user
 ms.technology: ''
 ms.assetid: ''
 searchScope:
@@ -18,12 +19,12 @@ ms.reviewer: tisilver
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 38d1b40ecdeee5bfd872297a5fd4f0229cb48dcf
-ms.sourcegitcommit: 3d895be2844bda2177c2c85dc2f09612a1be5490
+ms.openlocfilehash: 268ed874be65c9ade7f801b89528d1a23f176ee1
+ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79337594"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82077807"
 ---
 # <a name="set-up-ios-or-ipados-device-with-company-portal-and-disa-purebred"></a>Настройка устройства с iOS или iPadOS с помощью корпоративного портала DISA Purebred  
 
@@ -39,7 +40,7 @@ ms.locfileid: "79337594"
 В этой статье мы затронем следующие вопросы.  
 
    * Регистрация устройства с iOS или iPadOS с помощью корпоративного портала Intune.  
-   * Получение производных учетных данных от поставщика производных учетных данных организации — [DISA Purebred](https://cyber.mil/pki-pke/purebred/).  
+   * Получение производных учетных данных от поставщика производных учетных данных организации — DISA Purebred: https:\//cyber.mil/pki-pke/purebred/.  
 
 ## <a name="what-are-derived-credentials"></a>Что такое производные учетные данные?  
 Производные учетные данные — это сертификат, созданный на основе учетных данных смарт-карты и установленный на устройстве. Он предоставляет удаленный доступ к рабочим ресурсам, запрещая неавторизованным пользователям обращаться к конфиденциальной информации.  

@@ -6,7 +6,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 10/02/2019
+ms.date: 04/13/2020
 ms.topic: troubleshooting
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -17,12 +17,12 @@ ms.reviewer: ''
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f685f1f3d009d7ba7a1dc061ec3025b2f8c96b5f
-ms.sourcegitcommit: 017b93345d8d8de962debfe3db5fc1bda7719079
+ms.openlocfilehash: 49749ec3a839b11062b1cc2655a1cca4e3d6cfb0
+ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80084637"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81525714"
 ---
 # <a name="troubleshoot-integration-of-jamf-pro-with-microsoft-intune"></a>Устранение неполадок интеграции Jamf Pro с Microsoft Intune
 
@@ -35,21 +35,22 @@ ms.locfileid: "80084637"
 
 Перед тем как приступить к устранению неполадок, соберите базовые сведения, чтобы прояснить проблему и сократить время на поиск решения. Например, при возникновении проблем, связанных с интеграцией Jamf с Intune, всегда проверьте, что все предварительные требования выполнены. Прежде чем приступить к устранению неполадок, ознакомьтесь со следующими вопросами.
 
-- Изучите предварительные требования в разделе [Интеграция Jamf Pro с Intune](conditional-access-integrate-jamf.md#prerequisites).
-- Все пользователи должны иметь лицензии Premium P1 на Microsoft Intune и Microsoft AAD 
+- Ознакомьтесь с предварительными требованиями, приведенными в следующих статьях, в зависимости от способа настройки интеграции Jamf Pro с Intune:
+  - [Использование соединителя Jamf Cloud для интеграции Jamf Pro с Intune](conditional-access-jamf-cloud-connector.md)
+  - [Интеграция Jamf Pro с Intune](conditional-access-integrate-jamf.md#prerequisites)
+- Все пользователи должны иметь лицензии Premium P1 на Microsoft Intune и Microsoft AAD
 - Вам необходимо иметь учетную запись пользователя, у которой есть разрешения на интеграцию с Microsoft Intune в консоли Jamf Pro.
 - Вам необходимо иметь учетную запись пользователя, у которой есть разрешения глобального администратора в Azure.
 
+При изучении интеграции Jamf Pro с Intune учитывайте следующие сведения:
 
-При изучении интеграции Jamf Pro с Intune учитывайте следующие сведения: 
 - Какое именно сообщение об ошибке отображается?
 - Где это происходит?
 - Когда появилась проблема?  Удавалось ли ранее настроить интеграцию Jamf Pro с Intune?
 - Сколько пользователей затронуто? Все ли пользователи затронуты или лишь некоторые из них?
 - Сколько затронуто устройств? Все ли устройства затронуты или лишь некоторые из них?
  
-
-## <a name="common-problems"></a>Распространенные проблемы 
+## <a name="common-problems"></a>Распространенные проблемы
 
 Следующие сведения помогут определить и устранить распространенные проблемы с устройствами после настройки интеграции Jamf Pro с Intune.  
 
@@ -109,23 +110,23 @@ ms.locfileid: "80084637"
 
 #### <a name="cause-1"></a>Причина 1  
 
-**Корпоративное приложение Jamf Pro в Azure имеет неправильные разрешения или имеет несколько разрешений**  
+**Корпоративное приложение Jamf Pro в Azure имеет неправильные разрешения или имеет несколько разрешений**
 
   При создании приложения в Azure необходимо удалить все разрешения API по умолчанию, а затем назначить Intune одно разрешение *update_device_attributes*. 
 
   **Решение**  
-  Проверьте и при необходимости исправьте разрешения для приложения Jamf, созданного в Azure AD. См. процедуру [создания приложения для Jamf в Azure AD](conditional-access-integrate-jamf.md#create-an-application-in-azure-active-directory). 
+  Проверьте и при необходимости исправьте разрешения для приложения Jamf. При использовании облачного соединителя Jamf Pro это приложение создается автоматически. Если интеграция была настроена вручную, вы создали это приложение в Azure AD. Сведения о разрешениях для приложения см. в описании процедуры [создания приложения для Jamf в Azure AD](conditional-access-integrate-jamf.md#create-an-application-in-azure-active-directory).
 
 #### <a name="cause-2"></a>Причина 2  
 
 **В вашем клиенте Azure AD не создано приложение **Jamf Native macOS Connector** или согласие для этого соединителя было подписано учетной записью, не имеющей прав глобального администратора**  
 
   **Решение**  
-  См. раздел *Настройка интеграции macOS с Intune* в разделе [Интеграция с Microsoft Intune](https://docs.jamf.com/10.13.0/jamf-pro/administrator-guide/Integrating_with_Microsoft_Intune.html) на сайте docs.jamf.com. 
+  См. раздел *Настройка интеграции macOS с Intune* в разделе [Интеграция с Microsoft Intune](https://docs.jamf.com/10.13.0/jamf-pro/administrator-guide/Integrating_with_Microsoft_Intune.html) на сайте docs.jamf.com.
 
 #### <a name="cause-3"></a>Причина 3
 
-**У пользователя нет действительной лицензии Intune или Jamf**  
+**У пользователя нет действительной лицензии Intune или Jamf**
 
   Отсутствие действительной лицензии может привести к следующей ошибке, которая означает, что срок действия лицензии Jamf истек:  
   ```
@@ -183,8 +184,10 @@ ms.locfileid: "80084637"
 Сервер Jamf Pro отправляет сигнал проверки связи на серверы Intune, когда интеграция отключена. Так Intune определяет, что интеграция отключена. 
 
 **Решение**  
-Повторно включите интеграцию с Intune в Jamf Pro. См. статью [Настройка интеграции Microsoft Intune в Jamf Pro](conditional-access-integrate-jamf.md#enable-intune-to-integrate-with-jamf-pro).
+Повторно включите интеграцию с Intune в Jamf Pro. См. следующие сведения в зависимости от способа настройки интеграции.
 
+- [Использование соединителя Jamf Cloud для интеграции Jamf Pro с Intune](conditional-access-jamf-cloud-connector.md)
+- [Настройка интеграции Microsoft Intune в Jamf Pro вручную](conditional-access-integrate-jamf.md#enable-intune-to-integrate-with-jamf-pro)
 
 #### <a name="cause-6"></a><a name="cause-6"></a>Причина 6  
 
@@ -226,8 +229,8 @@ ms.locfileid: "80084637"
    - Тип: Пароль приложения; Учетная запись: com.microsoft.workplacejoin.registeredUserPrincipalName
    - Тип: Сертификат; Выдан: MS-Organization-Access
    - Тип: Параметр удостоверения; имя (URL-адрес службы токенов безопасности ADFS, если имеется): https://adfs\<DNSName>.com/adfs/ls
-   - Тип: Параметр удостоверения; имя: https://enterpriseregistration.windows.net
-   - Тип: Параметр удостоверения; имя: https://enterpriseregistration.windows.net/  
+   - Тип: Параметр удостоверения; имя: `https://enterpriseregistration.windows.net`
+   - Тип: Параметр удостоверения; имя: `https://enterpriseregistration.windows.net/`
 9. Перезапустите устройство Mac.
 10. Удалите корпоративный портал с устройства.
 11. Перейдите на страницу portal.manage.microsoft.com и удалите все экземпляры устройства Mac. Подождите по крайней мере 30 минут, прежде чем перейти к следующему шагу.
@@ -270,29 +273,27 @@ ms.locfileid: "80084637"
 Когда устройство удаляется из интеграции Jamf Pro с Intune, некоторые данные могут быть сохранены, что может привести к появлению последовательных регистраций и созданию повторяющихся записей.  
 
 **Решение**  
-Чтобы устранить эту проблему, см. решение для [*причины 6*](#cause-6) проблемы *Не удается зарегистрировать устройства* выше в этой статье. 
+Чтобы устранить эту проблему, см. решение для [*причины 6*](#cause-6) проблемы *Не удается зарегистрировать устройства* выше в этой статье.
 
 ### <a name="compliance-policy-fails-to-evaluate-the-device"></a>Политике соответствия не удается оценить устройство  
 
-**Причина**. Интеграция Jamf с Intune не поддерживает политику соответствия требованиям, ориентированную на группы устройств. 
+**Причина**. Интеграция Jamf с Intune не поддерживает политику соответствия требованиям, ориентированную на группы устройств.
 
 **Решение**  
-Измените политику соответствия для устройств macOS, чтобы они назначались группам пользователей. 
-
+Измените политику соответствия для устройств macOS, чтобы они назначались группам пользователей.
 
 ### <a name="could-not-retrieve-the-access-token-for-microsoft-graph-api"></a>Не удалось получить маркер доступа для API Microsoft Graph
 
 Вы получили следующую ошибку:
 
-```
-   Could not retrieve the access token for Microsoft Graph API. Check the configuration for Microsoft Intune Integration.
-```   
+`Could not retrieve the access token for Microsoft Graph API. Check the configuration for Microsoft Intune Integration.`
 
-Эта ошибка может быть вызвана одной из следующих причин: 
+Эта ошибка может быть вызвана одной из следующих причин:
 
 #### <a name="theres-a-permission-issue-with-the-jamf-pro-application-in-azure"></a>У приложения Jamf Pro в Azure есть проблема с разрешениями
 
-При регистрации приложения Jamf Pro в Azure возникло одно из следующих условий:  
+При регистрации приложения Jamf Pro в Azure возникло одно из следующих условий:
+
 - Приложение получило более одного разрешения.
 - Не был выбран параметр **Предоставить согласие администратора для *\<ваша организация>*** .  
 
@@ -301,12 +302,13 @@ ms.locfileid: "80084637"
 
 #### <a name="a-license-required-for-jamf-intune-integration-has-expired"></a>Срок действия лицензии, необходимой для интеграции Jamf-Intune, истек
 
-**Решение**. См. решение для причины 3 проблемы [Не удается зарегистрировать устройства](#devices-fail-to-register). 
+**Решение**. См. решение для причины 3 проблемы [Не удается зарегистрировать устройства](#devices-fail-to-register).
 
 #### <a name="the-required-ports-arent-open-on-your-network"></a>В вашей сети не открыты требуемые порты
 
-**Решение**. Просмотрите сведения о сетевых портах в разделе [Предварительные требования](conditional-access-integrate-jamf.md#prerequisites) для интеграции Jamf Pro с Intune.
-
+**Решение**.  
+Просмотрите сведения о сетевых портах в разделе [Предварительные требования](conditional-access-jamf-cloud-connector.md#prerequisites) для интеграции Jamf Pro с Intune.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
+
 Ознакомьтесь с дополнительными сведениями об [интеграции Jamf Pro с Intune](conditional-access-integrate-jamf.md)
