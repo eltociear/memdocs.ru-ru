@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: df289c284774a4e0bb3a379853f31f8d6f5bd44d
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 623a8dab52e13c4674b961e825033430d34a8f88
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81704172"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906563"
 ---
 # <a name="cryptographic-controls-technical-reference"></a>Технический справочник по элементам управления шифрования
 
@@ -260,5 +260,5 @@ Configuration Manager также использует сертификат пр�
 - Отключите протоколы SSL 3.0, TLS 1.1 и TLS 1.0. 
 - Изменить порядок комплектов шифров, связанных с TLS. 
 
-Дополнительные сведения см. в статьях [Ограничение использования определенных протоколов и алгоритмов шифрования в Schannel.dll](https://support.microsoft.com/en-us/kb/245030/) и [Назначение приоритетов для комплектов шифров Schannel](https://msdn.microsoft.com/library/windows/desktop/bb870930.aspx). Эти действия не повлияют на функциональные возможности Configuration Manager.
+Дополнительные сведения см. в статьях [Ограничение использования определенных протоколов и алгоритмов шифрования в Schannel.dll](https://support.microsoft.com/help/245030/) и [Назначение приоритетов для комплектов шифров Schannel](https://docs.microsoft.com/windows/win32/secauthn/prioritizing-schannel-cipher-suites). Эти действия не повлияют на функциональные возможности Configuration Manager.
 

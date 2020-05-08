@@ -11,12 +11,12 @@ author: aczechowski
 ROBOTS: NOINDEX
 manager: dougeby
 ms.author: aaroncz
-ms.openlocfilehash: 2ae184400a3de0d7ab27fffc1ce1e6287593b1ae
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: ed3f53b6e2e9557def20fc459dfcf4641b0e396d
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82076311"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905821"
 ---
 # <a name="capabilities-in-technical-preview-1601-for-configuration-manager"></a>Возможности в Technical Preview 1601 для Configuration Manager
 
@@ -164,7 +164,6 @@ ms.locfileid: "82076311"
 
  Configuration Manager помогает управлять приложениями, приобретенными по такой программе, импортируя сведения о лицензиях из магазина приложений и отслеживая число используемых лицензий.  
 
- Дополнительные сведения см. в статье [Управление приложениями, приобретенными по программе корпоративной закупки, с помощью Configuration Manager](https://technet.microsoft.com/library/mt627954.aspx).  
 
 ### <a name="ios---app-configuration-for-applicationsbr-hybrid"></a>iOS — конфигурация для гибридных<br />приложений  
  Некоторые приложения iOS поддерживают предварительную настройку таких параметров, как сервер или база данных, к которым должно подключаться приложение. Теперь Configuration Manager поддерживает развертывание политик конфигурации приложений на устройстве, что позволяет пользователю начать работу с приложением немедленно, без знания этих параметров. Разработчикам необходимо включить эту функциональность в своих приложениях.  

@@ -10,12 +10,12 @@ ms.assetid: cd74e5f5-33f6-4566-8c9d-d6a93bfe71ed
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: ec5581567925ee57300274e50288058e06d80ec0
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 53aa7e932e782254f63b422526b315f3ce91f397
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81700732"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906171"
 ---
 # <a name="language-packs-in-configuration-manager"></a>Языковые пакеты в Configuration Manager
 
@@ -42,7 +42,7 @@ ms.locfileid: "81700732"
 
 ## <a name="server-languages"></a>Серверные языки  
 
-Используйте следующую таблицу, чтобы сопоставить код языка с языком, для которого требуется включить поддержку на серверах. Дополнительных сведений о кодах языков см. в статье [Locale IDs Assigned by Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=252609) (Коды языков, назначенные Майкрософт).  
+Используйте следующую таблицу, чтобы сопоставить код языка с языком, для которого требуется включить поддержку на серверах. Дополнительных сведений о кодах языков см. в статье [Locale IDs Assigned by Microsoft](https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c) (Коды языков, назначенные Майкрософт).  
 
 |Серверный язык|Код языка (LCID)|Трехбуквенный код|  
 |---------------------|------------------------|-----------------------|  
@@ -69,7 +69,7 @@ ms.locfileid: "81700732"
 
 ## <a name="client-languages"></a>Языки клиентов  
 
-Используйте следующую таблицу, чтобы сопоставить коды языка с языком, для которого требуется включить поддержку на клиентских компьютерах. Дополнительных сведений о кодах языков см. в статье [Locale IDs Assigned by Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=252609) (Коды языков, назначенные Майкрософт).  
+Используйте следующую таблицу, чтобы сопоставить коды языка с языком, для которого требуется включить поддержку на клиентских компьютерах. Дополнительных сведений о кодах языков см. в статье [Locale IDs Assigned by Microsoft](https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c) (Коды языков, назначенные Майкрософт).  
 
 |Язык клиента|Код языка (LCID)|Трехбуквенный код|  
 |---------------------|------------------------|-----------------------|  

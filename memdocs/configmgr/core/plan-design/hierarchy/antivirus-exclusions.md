@@ -11,12 +11,12 @@ author: mestew
 ms.author: mstewart
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: df951bfb44313cfec8dacb8c0df34abb7beb0c56
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: f3f38de1d7440ffd0293bde359deeb6be3bbeffb
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81703742"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906208"
 ---
 # <a name="recommended-antivirus-exclusions-for-configuration-manager"></a>Рекомендуемые исключения антивирусной программы для Configuration Manager
 
@@ -114,10 +114,10 @@ ms.locfileid: "81703742"
 
 Дополнительные сведения о конкретных ограничениях антивирусных программ см. в следующих статьях:
 
-[Статья об исключениях антивирусных программ Configuration Manager (Current Branch) в блоге ведущих специалистов по эксплуатации System Center](https://blogs.technet.microsoft.com/systemcenterpfe/2017/05/24/configuration-manager-current-branch-antivirus-update/)
+[Статья об исключениях антивирусных программ Configuration Manager (Current Branch) в блоге ведущих специалистов по эксплуатации System Center](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/configuration-manager-current-branch-antivirus-exclusions/ba-p/884831)
 
-[Обновленные исключения антивирусных программ для System Center 2012 Configuration Manager с дополнительными сведениями об OSD и образах загрузки](https://blogs.technet.microsoft.com/systemcenterpfe/2013/01/11/updated-system-center-2012-configuration-manager-antivirus-exclusions-with-more-details-on-osd-and-boot-images-etc/)
+[Обновленные исключения антивирусных программ для System Center 2012 Configuration Manager с дополнительными сведениями об OSD и образах загрузки](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/updated-system-center-2012-configuration-manager-antivirus/ba-p/884371)
 
-[Выбор антивирусной программы для запуска на компьютерах под управлением SQL Server](https://support.microsoft.com/en-us/help/309422/how-to-choose-antivirus-software-to-run-on-computers-that-are-running-sql-server)
+[Выбор антивирусной программы для запуска на компьютерах под управлением SQL Server](https://support.microsoft.com/help/309422/how-to-choose-antivirus-software-to-run-on-computers-that-are-running-sql-server)
 
-[Рекомендации по проверке компьютеров с поддерживаемыми версиями Windows, используемых на крупных предприятиях, на наличие вирусов](https://support.microsoft.com/en-us/help/822158/virus-scanning-recommendations-for-enterprise-computers-that-are-running-currently-supported-versions-of-windows)
+[Рекомендации по проверке компьютеров с поддерживаемыми версиями Windows, используемых на крупных предприятиях, на наличие вирусов](https://support.microsoft.com/help/822158/virus-scanning-recommendations-for-enterprise-computers-that-are-running-currently-supported-versions-of-windows)

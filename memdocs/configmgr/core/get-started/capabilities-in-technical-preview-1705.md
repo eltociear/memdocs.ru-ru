@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: 0a10726062d679666d14cbbb0b87510af5dfe30c
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 3259bd1b20740046e70b1ef53281b0ff235a3896
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82078810"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905466"
 ---
 # <a name="capabilities-in-technical-preview-1705-for-configuration-manager"></a>Возможности в Technical Preview 1705 для Configuration Manager
 
@@ -121,12 +121,12 @@ ms.locfileid: "82078810"
 
 - Этот выпуск не поддерживает использование реплики с асинхронной фиксацией в качестве базы данных сайта при отработке отказа.
   > [!CAUTION]  
-  > Так как Configuration Manager не проверяет состояние и актуальность реплики с асинхронной фиксацией, которая [в силу конструктивных особенностей может быть не синхронизирована](https://msdn.microsoft.com/library/ff877884(SQL.120).aspx(d=robot)#Availability%20Modes), использование такой реплики в качестве базы данных сайта может нарушить целостность сайта или данных.  
+  > Так как Configuration Manager не проверяет состояние и актуальность реплики с асинхронной фиксацией, которая [в силу конструктивных особенностей может быть не синхронизирована](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server?view=sql-server-2014#AvailabilityModes), использование такой реплики в качестве базы данных сайта может нарушить целостность сайта или данных.  
 
 - Число и тип реплик, которые вы можете использовать в группе доступности, определяются характеристиками используемой версии SQL Server.   (Ранее ограничение составляло две реплики с синхронной фиксацией.)
 
 ### <a name="configure-an-asynchronous-commit-replica"></a>Настройка реплики с асинхронной фиксацией
-Чтобы добавить асинхронную реплику в [группу доступности, используемую с Configuration Manager](../servers/deploy/configure/sql-server-alwayson-for-a-highly-available-site-database.md), не нужно выполнять скрипты конфигурации, которые необходимы для настройки синхронной реплики. (Это связано с тем, что асинхронную реплику нельзя использовать в качестве базы данных сайта.) Инструкции по добавлению вторичных реплик в группы доступности см. в [документации по SQL Server](https://msdn.microsoft.com/library/hh213247(v=sql.120).aspx(d=robot)).
+Чтобы добавить асинхронную реплику в [группу доступности, используемую с Configuration Manager](../servers/deploy/configure/sql-server-alwayson-for-a-highly-available-site-database.md), не нужно выполнять скрипты конфигурации, которые необходимы для настройки синхронной реплики. (Это связано с тем, что асинхронную реплику нельзя использовать в качестве базы данных сайта.) Дополнительные сведения см. в разделе [Добавление вторичной реплики в группу доступности](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/add-a-secondary-replica-to-an-availability-group-sql-server?view=sql-server-2014).
 
 ### <a name="use-the-asynchronous-replica-to-recover-your-site"></a>Использование асинхронных реплик для восстановления сайта
 Прежде чем использовать асинхронную реплику для восстановления базы данных сайта, необходимо остановить работу первичного сайта, чтобы предотвратить выполнение дополнительных операций записи в базу данных сайта. После остановки сайта вы можете применить асинхронную реплику вместо [вручную восстановленной базы данных](../servers/manage/recover-sites.md#use-a-site-database-that-has-been-manually-recovered).
@@ -154,7 +154,7 @@ ms.locfileid: "82078810"
 
 ## <a name="configure-and-deploy-windows-defender-application-guard-policies"></a>Настройка и развертывание политик Application Guard в Защитнике Windows
 
-[Application Guard в Защитнике Windows](https://blogs.windows.com/msedgedev/2016/09/27/application-guard-microsoft-edge/#XLxEbcpkuKcFebrw.97) — это новая функция Windows, которая помогает защитить пользователей, открывая ненадежные веб-узлы в безопасном изолированном контейнере, который никак не взаимодействует с другими частями операционной системы. В этом выпуске Technical Preview мы добавили возможность настроить эту функцию с помощью параметров соответствия Configuration Manager. Вы можете настроить их и развернуть в коллекции.
+[Application Guard в Защитнике Windows](https://blogs.windows.com/msedgedev/2016/09/27/application-guard-microsoft-edge/#XLxEbcpkuKcFebrw.97) — это новая функция Windows, которая помогает защитить пользователей, открывая ненадежные веб-узлы в безопасном изолированном контейнере, который никак не взаимодействует с другими частями операционной системы. В этом выпуске Technical Preview мы добавили возможность настроить эту функцию с помощью параметров соответствия Configuration Manager. Вы можете настроить их и развернуть в коллекции.
 Эта функция будет выпущена в предварительной версии для 64-разрядной версии Windows 10 Creator. Чтобы проверить ее в работе, необходимо использовать предварительную версию этого обновления.
 
 

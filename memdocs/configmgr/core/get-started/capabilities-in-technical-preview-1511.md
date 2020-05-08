@@ -11,12 +11,12 @@ author: aczechowski
 ROBOTS: NOINDEX
 manager: dougeby
 ms.author: aaroncz
-ms.openlocfilehash: f32eaffe673324699e20fc7c579ea1ac9b38c479
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 337b494bdce24463c19dd22ae975af5e99d6d895
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82076345"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905851"
 ---
 # <a name="capabilities-in-technical-preview-1511-for-configuration-manager"></a>Возможности в Technical Preview 1511 для Configuration Manager
 
@@ -34,7 +34,7 @@ ms.locfileid: "82076345"
 
 -   Windows 10 Desktop Pro или Windows 10 Корпоративная версии 1511 или более поздней  
 
--   Компьютеры, которыми необходимо управлять через [Центр обновления Windows для бизнеса](https://technet.microsoft.com/library/mt622730\(v=vs.85\).aspx).  
+-   Компьютеры, которыми необходимо управлять через [Центр обновления Windows для бизнеса](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb).  
 
 ### <a name="try-it-out"></a>Попробуйте!  
  Попробуйте выполнить следующую задачу, а затем используйте информацию для обратной связи, расположенную ближе к началу этой статьи, чтобы сообщить нам о полученном результате.  
@@ -67,7 +67,7 @@ ms.locfileid: "82076345"
 
 4. Вы можете проверить соответствие обновлений Office 365 с помощью функций мониторинга или отчетов в консоли.  
 
-   Подробные инструкции см. в разделе [Управление обновлениями клиента Office 365 с помощью Configuration Manager Technical Preview](https://technet.microsoft.com/library/mt628083.aspx).  
+   Подробные инструкции см. в разделе [Управление обновлениями клиента Office 365 с помощью Configuration Manager Technical Preview](https://docs.microsoft.com/deployoffice/manage-microsoft-365-apps-updates-configuration-manager).  
 
 ##  <a name="support-for-sql-server-alwayson-for-highly-available-databases"></a><a name="BKMK_AlwasyOn"></a> Поддержка SQL Server AlwaysOn для высокодоступных баз данных  
  Теперь Configuration Manager позволяет использовать группы доступности SQL Server AlwaysOn для размещения базы данных сайта.  При установке нового сайта можно настроить программу установки для использования группы доступности вместо обычного экземпляра SQL Server.  
@@ -110,7 +110,7 @@ ms.locfileid: "82076345"
  Для создания и настройки группы доступности, а затем установки нового сайта Configuration Manager, использующего данную группу доступности, используйте следующие процедуры.  
 
 #### <a name="to-create-a-sql-server-alwayson-availability-group"></a>Создание группы доступности SQL Server AlwaysOn  
-Процесс [создания группы доступности SQL Server](https://technet.microsoft.com/library/ff878265\(v=sql.120\).aspx) описан в библиотеке документации по SQL Server.  При создании группы доступности убедитесь в соблюдении следующих требований для использования с Configuration Manager.  
+Процесс [создания группы доступности SQL Server](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/creation-and-configuration-of-availability-groups-sql-server?view=sql-server-ver15) описан в библиотеке документации по SQL Server.  При создании группы доступности убедитесь в соблюдении следующих требований для использования с Configuration Manager.  
 
 -   Максимум три члена:  
 
@@ -165,7 +165,7 @@ ms.locfileid: "82076345"
 
 #### <a name="to-create-a-collection-for-a-server-cluster"></a>Создание коллекции для кластера серверов  
 
-1.  [Создайте коллекцию устройств](https://technet.microsoft.com/library/gg712295.aspx), содержащую серверы в кластере.  
+1.  [Создайте коллекцию устройств](../clients/manage/collections/create-collections.md), содержащую серверы в кластере.  
 
 2.  В рабочей области **Активы и соответствие** выберите **Коллекции устройств**, щелкните правой кнопкой мыши коллекцию, содержащую серверы в кластере, и выберите пункт **Свойства**.  
 
@@ -200,6 +200,6 @@ ms.locfileid: "82076345"
 
 #### <a name="to-deploy-software-updates-to-the-server-cluster"></a>Развертывание обновлений программного обеспечения в кластере серверов  
 
-1.  [Разверните обновления программного обеспечения](https://technet.microsoft.com/library/gg712304.aspx) в коллекции кластера серверов.  
+1.  [Разверните обновления программного обеспечения](../../sum/deploy-use/deploy-software-updates.md) в коллекции кластера серверов.  
 
-2.  [Осуществляйте мониторинг развертывания обновлений программного обеспечения](https://technet.microsoft.com/library/gg712304.aspx).  
+2.  [Осуществляйте мониторинг развертывания обновлений программного обеспечения](../../sum/deploy-use/monitor-software-updates.md).  

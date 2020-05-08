@@ -11,12 +11,12 @@ author: mestew
 ms.author: mstewart
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: d154dc0ba681a37ebb2155bfa1bcdb6d8734965f
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: b3e1a2feaddb7384d76790249152c89dfa8ee2d3
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82073965"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82904803"
 ---
 # <a name="what39s-new-in-version-1610-of-configuration-manager"></a>Новые возможности в Configuration Manager версии 1610
 
@@ -29,8 +29,8 @@ ms.locfileid: "82073965"
 > Чтобы установить новый сайт, необходимо использовать базовую версию Configuration Manager.  
 >
 > Дополнительные сведения    
-> - [Установка новых сайтов](https://technet.microsoft.com/library/mt590197.aspx)  
-> - [Установка обновлений на сайтах](https://technet.microsoft.com/library/mt607046.aspx)  
+> - [Установка новых сайтов](../../servers/deploy/install/installing-sites.md)  
+> - [Установка обновлений на сайтах](../../servers/manage/updates.md)  
 > - [Базовые и обновленные версии](../../servers/manage/updates.md#bkmk_Baselines)
 
 В следующих разделах содержатся сведения об изменениях и новых возможностях, появившихся в Configuration Manager версии 1610.  
@@ -168,7 +168,7 @@ ms.locfileid: "82073965"
 
 ## <a name="filter-by-content-size-in-automatic-deployment-rules"></a>Фильтрация по размеру содержимого в правилах автоматического развертывания
 Теперь можно выполнять фильтрацию по размеру содержимого для обновлений программного обеспечения в правилах автоматического развертывания. Например, чтобы скачивать только обновления программного обеспечения, размер которых не превышает 2 МБ, можно задать для фильтра **Размер содержимого (КБ)** значение **< 2048**. Этот фильтр препятствует автоматическому скачиванию больших обновлений программного обеспечения, что позволяет более эффективно поддерживать упрощенное обслуживание старых версий Windows при ограниченной пропускной способности сети. Дополнительные сведения см. в разделе:
-- [Configuration Manager и упрощенное обслуживание более старых версий ОС Windows](https://blogs.technet.microsoft.com/enterprisemobility/2016/10/07/configuration-manager-and-simplified-windows-servicing-on-down-level-operating-systems/)
+- [Configuration Manager и упрощенное обслуживание более старых версий ОС Windows](https://techcommunity.microsoft.com/t5/configuration-manager-archive/configuration-manager-and-simplified-windows-servicing-on-down/ba-p/274056)
 - [Автоматическое развертывание обновлений программного обеспечения](../../../sum/deploy-use/automatically-deploy-software-updates.md)
 
 Чтобы настроить значение в поле **Размер содержимого (КБ)** , выполните одно из указанных ниже действий.

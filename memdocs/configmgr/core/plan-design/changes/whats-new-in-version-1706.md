@@ -11,12 +11,12 @@ author: mestew
 ms.author: mstewart
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: a4fa056c9c0708d2cecc0ca5f244e134e22ad10b
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: a8a4ce1c3d54311db18decc85f57d3e03298d339
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82073715"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82904695"
 ---
 # <a name="what39s-new-in-version-1706-of-configuration-manager"></a>Новые возможности в Configuration Manager версии 1706
 
@@ -28,8 +28,8 @@ ms.locfileid: "82073715"
 > Чтобы установить новый сайт, необходимо использовать базовую версию Configuration Manager.  
 >
 > Дополнительные сведения    
-> - [Установка новых сайтов](https://technet.microsoft.com/library/mt590197.aspx)  
-> - [Установка обновлений на сайтах](https://technet.microsoft.com/library/mt607046.aspx)  
+> - [Установка новых сайтов](../../servers/deploy/install/installing-sites.md)  
+> - [Установка обновлений на сайтах](../../servers/manage/updates.md)  
 > - [Базовые и обновленные версии](../../servers/manage/updates.md#bkmk_Baselines)  
 
 В следующих разделах содержатся сведения об изменениях и новых возможностях, появившихся в Configuration Manager версии 1706.  

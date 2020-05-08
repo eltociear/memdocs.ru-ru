@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: b30386745244900e7f525f8f45b25a598628bf43
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: b709d6ec0c0cda188502c314d945a70e8de71288
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82078742"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905250"
 ---
 # <a name="capabilities-in-technical-preview-1804-for-configuration-manager"></a>Возможности в Technical Preview 1804 для Configuration Manager
 
@@ -134,8 +134,6 @@ ms.locfileid: "82078742"
 
 Используйте Центр поддержки для устранения неполадок клиента, просмотра журнала в режиме реального времени или записи состояния компьютера клиента Configuration Manager для последующего анализа. Центр поддержки — это единый инструмент, консолидирующий многие инструменты администратора для устранения неполадок. Предварительный просмотр последней версии Центра поддержки с исправлениями ошибок, улучшениями и предварительным просмотром нашего нового средства просмотра журналов доступен в техническом предпросмотре. Установщик Центра поддержки находится на сервере сайта в папке **cd.latest\SMSSETUP\Tools\SupportCenter**.
 
- > [!Tip]  
- > Устаревшая документация для существующих функций доступна в Центре поддержки в [TechNet](https://technet.microsoft.com/library/dn688621.aspx). Соответствующая информация находится в процессе миграции в библиотеку docs.microsoft.com.  
 
 ### <a name="new-support-center-features"></a>Новые компоненты Центра поддержки  
 

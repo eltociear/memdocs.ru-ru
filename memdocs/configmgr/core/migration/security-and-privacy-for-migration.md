@@ -10,12 +10,12 @@ ms.assetid: 6893fce1-7ad5-4151-9ba9-3096871e8e4a
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 7ba1f41af778602fb95d268c071b5f0d1dde158c
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: ad92e4906c45b5c720ab35efc055449a27cc0850
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81693392"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906220"
 ---
 # <a name="security-and-privacy-for-migration-to-configuration-manager-current-branch"></a>Безопасность и конфиденциальность при миграции на Configuration Manager (Current Branch)
 
@@ -48,9 +48,9 @@ ms.locfileid: "81693392"
 
  Дополнительные сведения о безопасности и конфиденциальности см. один из следующих разделов.  
 
--   Дополнительные сведения о конфиденциальности для Configuration Manager 2007 см. в статье [Обеспечение безопасности и конфиденциальности в Configuration Manager 2007](https://go.microsoft.com/fwlink/p/?LinkId=216450) библиотеки документации Configuration Manager 2007.  
+-   Дополнительные сведения о конфиденциальности для Configuration Manager 2007 см. в статье [Обеспечение безопасности и конфиденциальности в Configuration Manager 2007](https://docs.microsoft.com/previous-versions/system-center/configuration-manager-2007/bb680768(v=technet.10)) библиотеки документации Configuration Manager 2007.  
 
--   Дополнительные сведения о конфиденциальности для System Center 2012 Configuration Manager см. в статье [Обеспечение безопасности и конфиденциальности в System Center 2012 Configuration Manager](https://technet.microsoft.com/library/gg682033.aspx) библиотеки документации System Center 2012 Configuration Manager.  
+-   Дополнительные сведения о конфиденциальности для System Center 2012 Configuration Manager см. в статье [Обеспечение безопасности и конфиденциальности в System Center 2012 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682033(v=technet.10)) библиотеки документации System Center 2012 Configuration Manager.  
 
 -   Дополнительные сведения о конфиденциальности для Configuration Manager см. в статье [Обеспечение безопасности и конфиденциальности в Configuration Manager](../../core/plan-design/security/security-and-privacy.md).  
 

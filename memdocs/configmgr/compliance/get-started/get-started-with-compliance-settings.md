@@ -10,12 +10,12 @@ ms.assetid: a2742d52-851e-4abc-b623-d12d91684c0b
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 59b0b799fd54e0e613f78b11b48b53b19d20ddbf
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 9143c224082f00b882d3cb557b47b737012393fa
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81692292"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906339"
 ---
 # <a name="get-started-with-compliance-settings-in-configuration-manager"></a>Приступая к работе с параметрами соответствия в Configuration Manager
 
@@ -107,7 +107,7 @@ ms.locfileid: "81692292"
 
 ## <a name="microsoft-edge-browser-profiles"></a>Профили браузера Microsoft Edge
 <!-- 1357310 -->
-Начиная с версии 1802, клиенты, которые используют веб-браузер [Microsoft Edge](https://technet.microsoft.com/microsoft-edge/bb265256) на клиентских устройствах Windows 10, могут создавать политику параметров соответствия для настройки нескольких параметров Microsoft Edge. 
+Начиная с версии 1802, клиенты, которые используют веб-браузер [Microsoft Edge](https://www.microsoft.com/itpro/microsoft-edge) на клиентских устройствах Windows 10, могут создавать политику параметров соответствия для настройки нескольких параметров Microsoft Edge. 
 
 Дополнительные сведения см. в разделе [Профили браузера Microsoft Edge](../deploy-use/browser-profiles.md).
 

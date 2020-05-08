@@ -10,12 +10,12 @@ ms.assetid: 8eed50f5-80a4-422e-8aa6-a7ccb2171475
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 0174cea761da15cc57eeb55fba26070fe664bb76
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: add0d17205cc82b30f3a88558c690a813239b92a
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81690512"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906932"
 ---
 # <a name="deploy-windows-to-go-with-configuration-manager"></a>Развертывание Windows To Go с помощью Configuration Manager
 
@@ -23,7 +23,7 @@ ms.locfileid: "81690512"
 
 В этой статье приводятся инструкции по подготовке Windows To Go в Configuration Manager. Windows To Go — это корпоративный компонент Windows 8, позволяющий создать рабочее пространство Windows To Go, которое может загружаться с подключенного через USB внешнего диска на компьютерах, соответствующих требованиям сертификации Windows 7 или Windows 8, независимо от операционной системы, которая работает на этом компьютере. Рабочие пространства Windows To Go могут использовать тот же образ, который используется организациями на своих настольных компьютерах и ноутбуках, и могут управляться таким же способом.  
 
- Дополнительные сведения о Windows To Go см. в статье [Windows To Go: обзор возможностей](https://go.microsoft.com/fwlink/p/?LinkId=263433).  
+ Дополнительные сведения о Windows To Go см. в статье [Windows To Go: обзор возможностей](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-8.1-and-8/hh831833(v=ws.11)).  
 
 ## <a name="provision-windows-to-go"></a>Подготовка Windows To Go  
  Windows To Go — это операционная система, хранимая на внешнем диске, подключаемом к USB-порту. Подготовка диска Windows To Go выполняется практически так же, как подготовка других развертываний операционных систем. Однако поскольку Windows To Go разрабатывалась как ориентированное на пользователей решение с высокой степенью мобильности, при подготовке таких дисков необходимо применять немного другой подход.  

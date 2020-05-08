@@ -10,12 +10,12 @@ ms.assetid: be680198-4cea-4378-a686-d52f382ba483
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: c7610b0e60f3ea02918c9dd98858a3b2bfd7c712
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: f8dd7c4c561ca22c679ee8ae03764ebb20b87664
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81708202"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906086"
 ---
 # <a name="enable-data-sharing-for-desktop-analytics"></a>Включение общего доступа к данным для Аналитики компьютеров
 
@@ -74,6 +74,9 @@ ms.locfileid: "81708202"
 > Для обеспечения конфиденциальности и целостности данных Windows проверяет наличие сертификата Microsoft SSL (привязка сертификата) при обмене данными с конечными точками диагностических данных. Перехват и проверку SSL выполнить невозможно. Чтобы использовать Аналитику компьютеров, исключите эти конечные точки из проверки SSL.<!-- BUG 4647542 -->
 
 Начиная с версии 2002, если серверу сайта Configuration Manager не удается подключиться к необходимым конечным точкам для облачной службы, создается сообщение о критическом состоянии с идентификатором 11488. Если ему не удается подключиться к службе, состояние компонента SMS_SERVICE_CONNECTOR изменяется на критическое. Более подробные сведения о состоянии см.в узле [Состояние компонента](../core/servers/manage/use-alerts-and-the-status-system.md#BKMK_MonitorSystemStatus) консоли Configuration Manager.<!-- 5566763 -->
+
+> [!NOTE]
+> Дополнительные сведения об общедоступных диапазонах IP-адресов Майкрософт см. в [этом документе](https://www.microsoft.com/download/details.aspx?id=53602). Эти адреса регулярно обновляются. Там нет детализации по службам, и любой IP-адрес в этих диапазонах может быть использован.
 
 ### <a name="server-connectivity-endpoints"></a>Конечные точки подключения сервера
 

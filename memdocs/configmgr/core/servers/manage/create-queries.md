@@ -10,12 +10,12 @@ ms.assetid: 868049d3-3209-47ec-b34a-9cc26941893a
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 05b77fa181da67858c30f48fc8045c20384953ce
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 63f815394414167ad4f887c5970538eab22c931a
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81703452"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906145"
 ---
 # <a name="create-queries-in-configuration-manager"></a>Создание запросов в Configuration Manager
 
@@ -49,9 +49,9 @@ ms.locfileid: "81703452"
     > [!TIP]  
     > Следующую справочную документацию можно использовать для создания собственных запросов WQL:  
     >   
-    > -   [WQL (SQL для WMI)](https://go.microsoft.com/fwlink/p/?LinkId=256653)  
-    > -   [Предложения WHERE](https://go.microsoft.com/fwlink/p/?LinkId=256654)  
-    > -   [Операторы WQL](https://go.microsoft.com/fwlink/p/?LinkId=256655)  
+    > -   [WQL (SQL для WMI)](https://docs.microsoft.com/windows/win32/wmisdk/wql-sql-for-wmi)  
+    > -   [Предложения WHERE](https://docs.microsoft.com/windows/win32/wmisdk/where-clause)  
+    > -   [Операторы WQL](https://docs.microsoft.com/windows/win32/wmisdk/wql-operators)  
 
 8.  На вкладке **Критерии** диалогового окна &lt;Свойства инструкции\> **имя_запроса** укажите критерии, которые используются для уточнения результатов запроса. Например, вы можете вернуть только ресурсы с кодом сайта **XYZ**. Можно настроить несколько условий для запроса.  
 

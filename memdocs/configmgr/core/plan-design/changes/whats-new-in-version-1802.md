@@ -11,12 +11,12 @@ author: mestew
 ms.author: mstewart
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: 11066470347db0f3ffbfadda9897aed92baa645b
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: e7bc30c4350d96654a0f6a6ae548d63c2928e791
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82073608"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82904650"
 ---
 # <a name="whats-new-in-version-1802-of-configuration-manager"></a>Новые возможности в Configuration Manager версии 1802
 
@@ -169,7 +169,7 @@ Configuration Manager (Current Branch) версии 1710 поддерживае
 
 ### <a name="microsoft-edge-browser-policies"></a>Политики браузера Microsoft Edge
 <!-- 1357310 -->
-Для пользователей, которые используют веб-браузер [Microsoft Edge](https://technet.microsoft.com/microsoft-edge/bb265256) на клиентах Windows 10, можно создать политику параметров соответствия Configuration Manager, чтобы настроить несколько параметров Microsoft Edge. Дополнительные сведения см. в разделе о [создании профиля браузера Microsoft Edge](../../../compliance/deploy-use/browser-profiles.md). 
+Для пользователей, которые используют веб-браузер [Microsoft Edge](https://www.microsoft.com/itpro/microsoft-edge) на клиентах Windows 10, можно создать политику параметров соответствия Configuration Manager, чтобы настроить несколько параметров Microsoft Edge. Дополнительные сведения см. в разделе о [создании профиля браузера Microsoft Edge](../../../compliance/deploy-use/browser-profiles.md). 
 
 
 

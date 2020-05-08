@@ -10,12 +10,12 @@ ms.assetid: 4812324b-e6aa-4431-bf1d-9fcd763a8caa
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 6a9770dca209669659abf6e4fc9c23d5e6972981
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 2a3b322f868c5c203114de4d974ba6682272c5d7
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82073557"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906251"
 ---
 # <a name="whats-new-in-version-1810-of-configuration-manager-current-branch"></a>Новые возможности в версии Configuration Manager 1810 (Current Branch)
 
@@ -43,7 +43,7 @@ ms.locfileid: "82073557"
 
 C 14 августа 2018 года компонент гибридного управления мобильными устройствами является нерекомендуемым. Дополнительные сведения см. в статье о [прекращении использования гибридного управления мобильными устройствами (MDM)](../../../mdm/understand/what-happened-to-hybrid.md).<!--Intune feature 2683117-->  
 
-Поддержка System Center Endpoint Protection (SCEP) для Mac и Linux (все версии) заканчивается 31 декабря 2018 г. По окончании срока поддержки новые определения вирусов для SCEP для Mac и Linux могут быть недоступны. Дополнительные сведения см. в [записи блога об окончании срока поддержки](https://go.microsoft.com/fwlink/?linkid=870182).
+Поддержка System Center Endpoint Protection (SCEP) для Mac и Linux (все версии) заканчивается 31 декабря 2018 г. По окончании срока поддержки новые определения вирусов для SCEP для Mac и Linux могут быть недоступны. Дополнительные сведения см. в [записи блога об окончании срока поддержки](https://techcommunity.microsoft.com/t5/configuration-manager-blog/end-of-support-for-scep-for-mac-and-scep-for-linux-on-december/ba-p/286257).
 
 Классическое развертывание службы в Azure не рекомендуется использовать в Configuration Manager. Перейдите на использование развертываний Azure Resource Manager для шлюза управления облачными клиентами и облачной точки распространения. Дополнительные сведения см. в разделе [Планирование CMG](../../clients/manage/cmg/plan-cloud-management-gateway.md#azure-resource-manager).
 

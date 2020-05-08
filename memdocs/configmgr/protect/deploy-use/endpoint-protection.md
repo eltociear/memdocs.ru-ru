@@ -10,12 +10,12 @@ ms.assetid: 76c90f64-d729-456b-8304-01852cd66fb6
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: b74a8c1daff31a8ffca8a38e6449aeeef1bb9b2d
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 5bdfd566682156e39e1dbed7c55af85b20a78671
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81697182"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906677"
 ---
 # <a name="endpoint-protection"></a>Endpoint Protection
 
@@ -92,7 +92,7 @@ Endpoint Protection отслеживает службу "Расширенная 
 ## <a name="endpoint-protection-client-for-mac-computers-and-linux-servers"></a>Клиент Endpoint Protection для компьютеров Mac и серверов Linux  
 
 > [!Important]  
-> Поддержка System Center Endpoint Protection (SCEP) для Mac и Linux (все версии) заканчивается 31 декабря 2018 г. По окончании срока поддержки новые определения вирусов для SCEP для Mac и Linux могут быть недоступны. Дополнительные сведения см. в [записи блога об окончании срока поддержки](https://go.microsoft.com/fwlink/?linkid=870182).  
+> Поддержка System Center Endpoint Protection (SCEP) для Mac и Linux (все версии) заканчивается 31 декабря 2018 г. По окончании срока поддержки новые определения вирусов для SCEP для Mac и Linux могут быть недоступны. Дополнительные сведения см. в [записи блога об окончании срока поддержки](https://techcommunity.microsoft.com/t5/configuration-manager-blog/end-of-support-for-scep-for-mac-and-scep-for-linux-on-december/ba-p/286257).  
 
  System Center Endpoint Protection включает в себя клиент Endpoint Protection для компьютеров Linux и Mac. Эти клиенты не поставляются с Configuration Manager. Загрузите следующие продукты с сайта [Microsoft Volume Licensing Service Center](https://www.microsoft.com/licensing/servicecenter/default.aspx).  
 

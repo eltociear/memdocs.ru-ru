@@ -10,12 +10,12 @@ ms.assetid: 694bc29f-a7fd-4e06-815a-1a9c5e9ac563
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: eda58982094860ccf075bcd2d1d8ed9e3d3bb2df
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: d4f5ff0e1c8c92fbadc286e9909388eb66aa8f7b
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81706922"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906106"
 ---
 # <a name="introduction-to-the-long-term-servicing-branch-of-configuration-manager"></a>Общие сведения о Long-Term Servicing Branch в Configuration Manager
 
@@ -53,7 +53,7 @@ Configuration Manager (Current Branch) поддерживает следующи
 
 ## <a name="find-ltsb-documentation"></a>Поиск документации по LTSB
 
-Ветвь LTSB основана на версии Current Branch 1606. Используйте [документацию по Current Branch](https://docs.microsoft.com/sccm/) с учетом предупреждений и ограничений, относящихся к LTSB. Эти предупреждения и ограничения указаны в следующих статьях:
+Ветвь LTSB основана на версии Current Branch 1606. Используйте [документацию по Current Branch](https://docs.microsoft.com/mem/configmgr/) с учетом предупреждений и ограничений, относящихся к LTSB. Эти предупреждения и ограничения указаны в следующих статьях:
 
 - [Установка и обновление с помощью базового носителя версии 1606 для System Center Configuration Manager](install-the-ltsb.md)
 - [Обновление Long-Term Servicing Branch до Current Branch](convert-to-current-branch.md)
@@ -68,7 +68,7 @@ Configuration Manager (Current Branch) поддерживает следующи
 
 Клиенты, имеющие бессрочные права на System Center Configuration Manager или срок действия SA или подписки которых истекает после 1 октября, могут установить версию System Center Configuration Manager LTSB, которая является текущей на момент истечения срока действия соглашения.
 
-Дополнительные сведения об этих лицензиях см. на странице со [всеми условиями в отношении продуктов, приобретаемых в рамках программ корпоративного лицензирования Майкрософт](https://go.microsoft.com/fwlink/?LinkId=800052).
+Дополнительные сведения об этих лицензиях см. на странице со [всеми условиями в отношении продуктов, приобретаемых в рамках программ корпоративного лицензирования Майкрософт](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?mode=1).
 
 Дополнительные сведения о лицензировании ветвей Configuration Manager см. в статье [Лицензирование и ветви в System Center Configuration Manager](learn-more-editions.md).
 

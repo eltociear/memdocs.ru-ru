@@ -11,12 +11,12 @@ author: aczechowski
 manager: dougeby
 ms.author: aaroncz
 ROBOTS: NOINDEX
-ms.openlocfilehash: 7ec5802a8931bc4397eaf302920f09d8597802fe
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 73aac9e1bfb7b902a7db28ba4be00a2a02277324
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81705562"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905699"
 ---
 # <a name="capabilities-in-technical-preview-1607-for-configuration-manager"></a>Возможности в Technical Preview 1607 для Configuration Manager
 
@@ -62,7 +62,7 @@ ms.locfileid: "81705562"
 ## <a name="use-the-same-network-adapter-for-multiple-pxe-initiated-deployments"></a>Использование одного сетевого адаптера для нескольких инициированных PXE развертываний
 В Technical Preview версии 1607 при использовании адаптера Ethernet для нескольких устройств (например, адаптера USB Ethernet, используемого на нескольких устройствах) можно включить новый параметр, который позволяет вводить идентификаторы оборудования для адаптеров Ethernet. При выполнении установки PXE и при регистрации клиента Configuration Manager игнорирует идентификаторы оборудования в списке.
 
-Дополнительные сведения об этой проблеме см. в [блоге группы поддержки Configuration Manager OSD](https://blogs.technet.microsoft.com/system_center_configuration_manager_operating_system_deployment_support_blog/2015/08/27/reusing-the-same-nic-for-multiple-pxe-initiated-deployments-in-system-center-configuration-manger-osd/).  
+Дополнительные сведения об этой проблеме см. в [блоге группы поддержки Configuration Manager OSD](https://techcommunity.microsoft.com/t5/configuration-manager-archive/reusing-the-same-nic-for-multiple-pxe-initiated-deployments-in/ba-p/273721).  
 
 ### <a name="enable-the-feature-to-manage-duplicate-hardware-identifiers"></a>Включение функции для управления повторяющимися идентификаторами оборудования  
 1. В консоли Configuration Manager и последовательно выберите **Администрирование** > **Обзор** > **Облачные службы** > **Обновления и обслуживание** > **Функции**.

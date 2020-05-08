@@ -10,12 +10,12 @@ ms.assetid: 47118499-3d26-4c25-bfde-b129de7eaa59
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: f109e4ea4bee4a1de767508d62bc3f080d24f625
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 49f9f7972d5e48b0ec646568d85376027bf278c3
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81697122"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906818"
 ---
 # <a name="find-a-package-family-name-pfn-for-per-app-vpn"></a>Поиск имени семейства пакетов для VPN для каждого приложения
 
@@ -26,7 +26,7 @@ ms.locfileid: "81697122"
 
 ## <a name="find-a-pfn-for-an-app-thats-installed-on-a-windows-10-computer"></a>Поиск PFN-имени для приложения, установленного на компьютере Windows 10
 
-Если вы работаете с приложением, которое уже установлено на компьютере Windows 10, для получения PFN-имени можно использовать командлет PowerShell [Get-AppxPackage](https://technet.microsoft.com/library/hh856044.aspx).
+Если вы работаете с приложением, которое уже установлено на компьютере Windows 10, для получения PFN-имени можно использовать командлет PowerShell [Get-AppxPackage](https://docs.microsoft.com/powershell/module/appx/get-appxpackage?view=win10-ps).
 
 Ниже приведен синтаксис командлета Get-AppxPackage.
 

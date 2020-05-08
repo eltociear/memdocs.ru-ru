@@ -10,12 +10,12 @@ ms.assetid: 495b87ae-41a4-49ba-abe2-d4f7d22ac0d4
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: f18ed2180f1d526e2afa4872e8fa9018c7e18721
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 04ed335c65369840085fe44ba2f1b81d7806a0e3
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81706882"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906046"
 ---
 # <a name="licensing-and-branches-for-configuration-manager"></a>Лицензирование и ветви в Configuration Manager
 
@@ -32,7 +32,7 @@ ms.locfileid: "81706882"
 
 Клиенты с действующим соглашением Software Assurance (SA) для лицензий Configuration Manager или с эквивалентными правами по подписке с 1 октября 2016 г. имеют право на использование выпуска Configuration Manager версии 1606 за октябрь 2016 г. Клиенты с правами на Configuration Manager, действительными на 1 октября 2016 г. или после этой даты, могут выбрать один из двух вариантов лицензирования после установки: Current Branch и Long-Term Servicing Branch (LTSB).
 
-Все условия в отношении продуктов, приобретаемых в рамках программ корпоративного лицензирования Майкрософт, можно найти [здесь](https://go.microsoft.com/fwlink/?LinkId=800052).
+Все условия в отношении продуктов, приобретаемых в рамках программ корпоративного лицензирования Майкрософт, можно найти [здесь](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?mode=1).
 
 
 ## <a name="licensed-branches"></a>Лицензированные ветви
@@ -117,7 +117,7 @@ LTSB требует наличия действующего соглашения
 
 - [Обзор VLSC](https://www.microsoft.com/Licensing/existing-customer/vlsc-training-and-resources.aspx)
 
-- [Условия использования продукта с корпоративным лицензированием Microsoft](https://go.microsoft.com/fwlink/?LinkId=800052)
+- [Условия использования продукта с корпоративным лицензированием Microsoft](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?mode=1)
 
 - Клиенты программы корпоративного лицензирования могут получить сводку по лицензиям на веб-сайте [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). Перейдите в меню **Лицензии** и выберите пункт **Licenses Summary** (Сводка по лицензиям).
 

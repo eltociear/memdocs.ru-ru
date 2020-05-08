@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.prod: configuration-manager
 ms.technology: configmgr-sum
 ms.assetid: b27682de-adf8-4edd-9572-54886af8f7fb
-ms.openlocfilehash: eca3227a023561a099804ef0928bfee7a7aff2c6
-ms.sourcegitcommit: 2cafbba6073edca555594deb99ae29e79cd0bc79
+ms.openlocfilehash: fc2f2644ff042598d3df0ddfc1fd9d4d1adcc34a
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82110446"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906774"
 ---
 #  <a name="automatically-deploy-software-updates"></a>Автоматическое развертывание обновлений программного обеспечения  
 
@@ -85,7 +85,7 @@ ms.locfileid: "82110446"
 
      - Одно правило автоматического развертывания может содержать до 1000 обновлений ПО.  
 
-     - При необходимости выполните фильтрацию по размеру содержимого для обновлений программного обеспечения в правилах автоматического развертывания. Дополнительные сведения см. в статье [Configuration Manager и упрощенное обслуживание более старых версий ОС Windows](https://blogs.technet.microsoft.com/enterprisemobility/2016/10/07/configuration-manager-and-simplified-windows-servicing-on-down-level-operating-systems/).  
+     - При необходимости выполните фильтрацию по размеру содержимого для обновлений программного обеспечения в правилах автоматического развертывания. Дополнительные сведения см. в статье [Configuration Manager и упрощенное обслуживание более старых версий ОС Windows](https://techcommunity.microsoft.com/t5/configuration-manager-archive/configuration-manager-and-simplified-windows-servicing-on-down/ba-p/274056).  
 
      - Начиная с версии 1910 вы можете использовать фильтр обновлений **Развернуто** для правил автоматического развертывания. Этот фильтр помогает определять новые обновления, которые может потребоваться развернуть в пилотной или тестовой коллекциях. Фильтр обновлений программного обеспечения также позволяет избежать повторного развертывания старых обновлений. 
          - Используя фильтр **Развернуто**, учитывайте, что обновление уже могло быть развернуто в другой коллекции, например в пилотной или тестовой. <!--4852033-->

@@ -10,12 +10,12 @@ ms.assetid: 19539f4d-1667-4b4c-99a1-9995f12cf5f7
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 14f319cfa1d09cf21cc5da5ed4a9fde9b9b9799b
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: b17c8c9ed0c1f6f9a5aeb487e07ad3d3dc66cbae
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81708532"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82903963"
 ---
 # <a name="recover-a-configuration-manager-site"></a>Восстановление сайта Configuration Manager
 
@@ -193,7 +193,7 @@ ms.locfileid: "81708532"
 
 Configuration Manager включает отслеживание изменений для базы данных сайта в SQL Server. Функция отслеживания изменений позволяет Configuration Manager запрашивать информацию об изменениях, внесенных в таблицы базы данных с некоторого момента времени. Срок хранения определяет, как долго хранится информация об отслеживаемых изменениях. По умолчанию для базы данных сайта срок хранения установлен равным 5 дням. При восстановлении базы данных сайта процесс восстановления протекает по разному в зависимости от того, сделана ли резервная копия на протяжении срока хранения или после его окончания. Например, если произошел сбой сервера SQL Server, а последняя резервная копия сделана 7 дней назад, срок хранения истек.
 
-Дополнительные сведения о внутреннем устройстве отслеживания изменений SQL Server см. в следующих публикациях блогов группы разработчиков SQL Server: [Change Tracking Cleanup - part 1](https://blogs.msdn.microsoft.com/sql_server_team/change-tracking-cleanup-part-1/) (Очистка отслеживания изменений — часть 1) и [Change Tracking Cleanup - part 2](https://blogs.msdn.microsoft.com/sql_server_team/change-tracking-cleanup-part-2) (Очистка отслеживания изменений — часть 2).
+Дополнительные сведения о внутреннем устройстве отслеживания изменений SQL Server см. в следующих публикациях блогов группы разработчиков SQL Server: [Change Tracking Cleanup - part 1](https://docs.microsoft.com/archive/blogs/sql_server_team/change-tracking-cleanup-part-1) (Очистка отслеживания изменений — часть 1) и [Change Tracking Cleanup - part 2](https://docs.microsoft.com/archive/blogs/sql_server_team/change-tracking-cleanup-part-2) (Очистка отслеживания изменений — часть 2).
 
 ### <a name="reinitialization-of-site-or-global-data"></a>Повторная инициализация данных сайта или глобальных данных
 

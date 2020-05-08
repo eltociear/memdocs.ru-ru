@@ -10,12 +10,12 @@ ms.assetid: 1026d616-2a20-4fb2-8604-d331763937f8
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 1bdfb8c6d528c12581f05f86111a1a76d2259faa
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 84f4b822475111352c5dcf23f4868a1fa43ec3a7
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81695432"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906273"
 ---
 # <a name="hardware-inventory-for-linux-and-unix-in-configuration-manager"></a>Инвентаризация оборудования для Linux и UNIX в Configuration Manager
 
@@ -105,7 +105,7 @@ CIM-сервер устанавливается в составе клиента
 ###  <a name="create-a-custom-hardware-inventory-provider-for-linux-and-unix-computers"></a><a name="BKMK_LinuxProvider"></a> Создание поставщика настраиваемой инвентаризации оборудования для компьютеров Linux и UNIX:  
  Чтобы создать поставщик настраиваемой инвентаризации оборудования для клиента Configuration Manager для Linux и UNIX, используйте **OMI Source — v.1.0.6** и следуйте инструкциям из руководства по началу работы с OMI. Этот процесс включает создание MOF-файла, который определяет схему нового поставщика. Впоследствии этот MOF-файл импортируется в Configuration Manager для обеспечения поддержки нового класса настраиваемой инвентаризации.  
 
- Как OMI Source - v.1.0.6, так и руководство по началу работы с OMI можно скачать с веб-сайта [The Open Group](https://github.com/microsoft/omi/blob/master/README.md) . Эти файлы можно найти на вкладке **документов** на странице веб-сайта OpenGroup.org [Open Management Infrastructure (OMI)](https://go.microsoft.com/fwlink/p/?LinkId=286805).  
+ Как OMI Source - v.1.0.6, так и руководство по началу работы с OMI можно скачать с веб-сайта [The Open Group](https://github.com/microsoft/omi/blob/master/README.md) . Эти файлы можно найти на вкладке **документов** на странице веб-сайта OpenGroup.org [Open Management Infrastructure (OMI)](https://collaboration.opengroup.org/omi/).  
 
 ###  <a name="configure-each-computer-that-runs-linux-or-unix-with-the-custom-hardware-inventory-provider"></a><a name="BKMK_AddProvidertoLinux"></a> Настройте на каждом компьютере, работающем под управлением UNIX или Linux, поставщик инвентаризации оборудования:  
  После создания поставщика настраиваемой инвентаризации необходимо скопировать и затем зарегистрировать файл библиотеки поставщика на каждом компьютере, где имеются данные инвентаризации, которые требуется собрать.  

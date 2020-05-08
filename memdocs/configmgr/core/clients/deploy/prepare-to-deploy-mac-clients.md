@@ -10,12 +10,12 @@ ms.assetid: 2285a953-6a86-4ed5-97dd-cd57b02bc1ee
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 8d0968a61be4e450bb145b309f61de0d6c212549
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 2b5bcbce659601e10f44f06af94eb939767a389a
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81694822"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906624"
 ---
 # <a name="prepare-to-deploy-client-software-to-macs"></a>Подготовка к развертыванию клиентского программного обеспечения на компьютерах Mac
 
@@ -27,7 +27,7 @@ ms.locfileid: "81694822"
 
 ## <a name="mac-prerequisites"></a>Необходимые компоненты для компьютеров Mac
 
-Пакет установки клиента для Mac не поставляется на носителе Configuration Manager. Скачайте **Клиенты для дополнительных операционных систем** из [Центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?LinkID=525184).  
+Пакет установки клиента для Mac не поставляется на носителе Configuration Manager. Скачайте **Клиенты для дополнительных операционных систем** из [Центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=47719).  
 
 Список поддерживаемых версий см. в статье о [поддерживаемых операционных системах для клиентов и устройств](../../plan-design/configs/supported-operating-systems-for-clients-and-devices.md#mac-computers).
 

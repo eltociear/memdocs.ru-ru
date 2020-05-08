@@ -10,12 +10,12 @@ ms.assetid: 15a4e323-9f42-4fea-bb14-f2b905d1f77c
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 4375867e70cb7f2989b78572c7fc8e005f95be73
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: c9e8e40a6bdfa129a03e6042985e4956ffb21b5c
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81694042"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906321"
 ---
 # <a name="how-to-deploy-clients-to-unix-and-linux-servers-in-configuration-manager"></a>Как развернуть клиенты на серверах UNIX и Linux в Configuration Manager
 
@@ -36,7 +36,7 @@ ms.locfileid: "81694042"
  После установки клиента можно указать параметры клиента в консоли Configuration Manager, чтобы настроить агент клиента по аналогии с клиентами на основе Windows. Дополнительные сведения см. в разделе [Параметры клиента для серверов Linux и UNIX](../../../core/clients/manage/manage-clients-for-linux-and-unix-servers.md#BKMK_ClientSettingsforLnU).  
 
 ##  <a name="about-client-installation-packages-and-the-universal-agent"></a><a name="BKMK_AboutInstallPackages"></a> О пакетах установки клиента и универсальном агенте  
- Чтобы установить клиент для Linux и UNIX на определенной платформе, необходим подходящий пакет установки клиента для компьютера, где выполняется установка клиента. Соответствующие пакеты установки клиента входят в состав файлов, скачиваемых из [Центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?LinkID=525184). Помимо пакетов установки клиента скачиваемые файлы содержат сценарий **install**, который управляет установкой клиента на каждом компьютере.  
+ Чтобы установить клиент для Linux и UNIX на определенной платформе, необходим подходящий пакет установки клиента для компьютера, где выполняется установка клиента. Соответствующие пакеты установки клиента входят в состав файлов, скачиваемых из [Центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=47719). Помимо пакетов установки клиента скачиваемые файлы содержат сценарий **install**, который управляет установкой клиента на каждом компьютере.  
 
  При установке клиента вы можете использовать одни и те же свойства процесса и командной строки независимо от используемого пакета установки.  
 
@@ -69,7 +69,7 @@ ms.locfileid: "81694042"
 
 ###  <a name="to-install-the-configuration-manager-client-on-linux-and-unix-servers"></a><a name="BKMK_ToInstallLnUClinent"></a> Установка клиента Configuration Manager на серверах Linux и UNIX  
 
-1.  На компьютере Windows [скачайте файл соответствующего клиента для сервера Linux или UNIX](https://go.microsoft.com/fwlink/?LinkID=525184), которым хотите управлять.  
+1.  На компьютере Windows [скачайте файл соответствующего клиента для сервера Linux или UNIX](https://www.microsoft.com/download/details.aspx?id=47719), которым хотите управлять.  
 
 2.  Запустите самоизвлекающийся EXE-файл на компьютере Windows, чтобы извлечь сценарий установки и TAR-файл установки клиента.  
 

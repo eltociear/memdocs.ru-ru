@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: 398f16b8f75d894030d76406807f74bdaa4be9d5
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: ace27e9035af6696e455382a32365be0e3824d65
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81695952"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905196"
 ---
 # <a name="capabilities-in-configuration-manager-technical-preview-version-1807"></a>Возможности Configuration Manager версии Technical Preview 1807 
 
@@ -82,7 +82,7 @@ Steps to workaround, if any.
 
 - Используйте консоль Configuration Manager в клиентской операционной системе.  
 
-    - Другой вариант (не рекомендуется): в серверной ОС отключите [конфигурацию усиленной безопасности Internet Explorer](https://go.microsoft.com/fwlink/?LinkId=253461).  
+    - Другой вариант (не рекомендуется): в серверной ОС отключите [конфигурацию усиленной безопасности Internet Explorer](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd883248(v=ws.10)).
 
 - Компьютер с консолью должен иметь доступ к Интернету и возможность подключения к следующим сайтам:  
     - `https://aka.ms`  

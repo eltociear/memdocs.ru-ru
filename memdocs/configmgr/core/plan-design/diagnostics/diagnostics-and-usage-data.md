@@ -10,12 +10,12 @@ ms.assetid: 88ac4e55-d47b-4c94-b9c3-704c6a48b845
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 6fff68eaad52f753d27971562a4bbfaa47a6cf6e
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: ffa50d2cfb3095eb136128c09b74e9ee6a4eb501
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81691352"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82904399"
 ---
 # <a name="diagnostics-and-usage-data-for-configuration-manager"></a>Данные о диагностике и использовании для Configuration Manager
 
@@ -28,7 +28,7 @@ Configuration Manager собирает собственные данные о д
 > [!NOTE]  
 > Configuration Manager собирает данные только из базы данных SQL Server сайта, не получая их непосредственно от клиентов или серверов сайта.  
 
-Дополнительные сведения см. в [Заявлении о конфиденциальности корпорации Майкрософт](https://go.microsoft.com/fwlink/?LinkID=626527).  
+Дополнительные сведения см. в [Заявлении о конфиденциальности корпорации Майкрософт](https://privacy.microsoft.com/privacystatement).  
 
 > [!div class="nextstepaction"]
 > [Обработка данных о диагностике и использовании корпорацией Майкрософт](how-diagnostics-and-usage-data-is-used.md)

@@ -10,12 +10,12 @@ ms.assetid: cdb9fb0c-0912-41e4-b427-f40620971763
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: d948452da54a41e35095b01cb0e942e02a7a597f
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: ff2d5c6df0da6b25395858a55ef1ee8a3c0da00b
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81700562"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906519"
 ---
 # <a name="reference-for-configuration-manager-setup"></a>Технический справочник по настройке Configuration Manager
 
@@ -73,4 +73,4 @@ ms.locfileid: "81700562"
 
 Дополнительные сведения, включая раскрытие информации, собираемой на каждом уровне, см. в разделе [Данные о диагностике и использовании для Configuration Manager](../../../../core/plan-design/diagnostics/diagnostics-and-usage-data.md).  
 
-Чтобы просмотреть заявление о конфиденциальности Configuration Manager в Интернете, перейдите на страницу [https://go.microsoft.com/fwlink/?LinkID=626527](https://go.microsoft.com/fwlink/?LinkID=626527).
+Дополнительные сведения см. в статье [Заявление корпорации Майкрософт о конфиденциальности](https://privacy.microsoft.com/privacystatement).

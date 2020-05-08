@@ -10,12 +10,12 @@ ms.assetid: e3bb3e13-3037-4122-93bc-504bfd080a4d
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 7f72dcba7e7f1e3af0bf168ca83deb958094879a
-ms.sourcegitcommit: 578ad1e8088f7065b565e8a4f4619f5a26b94001
+ms.openlocfilehash: 3304d480f0650191a784a9152ae464e81c2207a1
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81724598"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906403"
 ---
 # <a name="import-pfx-certificate-profiles"></a>Импорт профилей сертификатов PFX
 
@@ -28,7 +28,7 @@ Configuration Manager поддерживает различные типы хр�
 Используйте Configuration Manager, чтобы импортировать учетные данные сертификата и затем подготавливать PFX-файлы на устройствах. Эти файлы можно использовать для создания пользовательских сертификатов для поддержки обмена зашифрованными данными.
 
 > [!TIP]  
-> Пошаговое руководство по этому процессу см. в записи блога [Создание и развертывание профилей сертификатов PFX в Configuration Manager](https://blogs.technet.microsoft.com/karanrustagi/2015/09/01/how-to-create-and-deploy-pfx-certificate-profiles-in-configuration-manager/).  
+> Пошаговое руководство по этому процессу см. в записи блога [Создание и развертывание профилей сертификатов PFX в Configuration Manager](https://docs.microsoft.com/archive/blogs/karanrustagi/how-to-create-and-deploy-pfx-certificate-profiles-in-configuration-manager).  
 
 ## <a name="create-a-profile"></a>Создание профиля
 
@@ -96,7 +96,7 @@ $pfxfile = "c:\p1.pfx"
 Import-CMClientCertificatePfx -UserName "$env:USERDOMAIN\$user" -Password (ConvertTo-SecureString -String $password -AsPlainText -Force) -CertificateProfilePfx (Get-CMCertificateProfilePfx -Fast -Name $PfxProfileDisplayName) -Path $pfxfile
 ```
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 [Создание нового профиля сертификата](../../protect/deploy-use/create-certificate-profiles.md)
 

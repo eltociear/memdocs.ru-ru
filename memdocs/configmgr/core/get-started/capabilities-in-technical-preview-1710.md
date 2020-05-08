@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: 503bb6d2293b4b5efb1d84980225a9d7052e1656
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 3dd4c3f22a0f2c24153e6d26be2e3098511c5dc4
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81705112"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905321"
 ---
 # <a name="capabilities-in-technical-preview-1710-for-configuration-manager"></a>Возможности в Technical Preview 1710 для Configuration Manager
 
@@ -125,7 +125,7 @@ ms.locfileid: "81705112"
 
 ## <a name="limited-support-for-cng-certificates"></a>Ограниченная поддержка сертификатов CNG
 <!-- 1356191 -->
-Начиная с этого выпуска можно использовать шаблоны сертификатов [Cryptography API: Next Generation (CNG)](https://msdn.microsoft.com/library/windows/desktop/bb204775.aspx) для следующих сценариев:
+Начиная с этого выпуска можно использовать шаблоны сертификатов [Cryptography API: Next Generation (CNG)](https://docs.microsoft.com/windows/win32/seccng/cng-features) для следующих сценариев:
 
 - Регистрация клиента и обмен данными с точкой управления HTTPS.   
 - Распространение программного обеспечения и развертывание приложений с использованием точки распространения HTTPS.   

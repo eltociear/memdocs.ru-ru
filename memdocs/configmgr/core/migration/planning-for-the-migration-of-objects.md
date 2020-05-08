@@ -10,12 +10,12 @@ ms.assetid: 066caf00-e419-4efb-93d3-ba4ba878297c
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 9777fb12a2d63a990587386ac33cb2749bf19a4e
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 93c3887307c32ea636a6dbb064cda13f4b9130c6
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81702822"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905133"
 ---
 # <a name="plan-for-the-migration-of-configuration-manager-objects-to-configuration-manager-current-branch"></a>Планирование миграции объектов Configuration Manager в Configuration Manager (Current Branch)
 
@@ -123,7 +123,7 @@ ms.locfileid: "81702822"
 Можно выполнить миграцию элементов конфигурации и шаблонов базовой конфигурации.  
 
 > [!NOTE]  
->  Миграция неинтерпретированных элементов конфигурации из исходных иерархий Configuration Manager 2007 не поддерживается. Такие элементы конфигурации нельзя перенести или импортировать в конечную иерархию. Дополнительные сведения о неинтерпретированных элементах конфигурации см. в подразделе "Неопознанный элемент конфигурации" раздела [Об элементах конфигурации в управлении требуемой конфигурацией](https://go.microsoft.com/fwlink/?LinkId=103846) в библиотеке документации по Configuration Manager 2007.  
+>  Миграция неинтерпретированных элементов конфигурации из исходных иерархий Configuration Manager 2007 не поддерживается. Такие элементы конфигурации нельзя перенести или импортировать в конечную иерархию. Дополнительные сведения о неинтерпретированных элементах конфигурации см. в подразделе "Неопознанный элемент конфигурации" раздела [Об элементах конфигурации в управлении требуемой конфигурацией](https://docs.microsoft.com/previous-versions/system-center/configuration-manager-2007/bb694136(v=technet.10)#uninterpreted-configuration-item) в библиотеке документации по Configuration Manager 2007.  
 
 Вы можете импортировать пакеты конфигурации Configuration Manager 2007. В процессе импорта пакет конфигурации автоматически преобразуется для обеспечения его совместимости с Configuration Manager (Current Branch).  
 
