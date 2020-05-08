@@ -10,12 +10,12 @@ ms.assetid: 2aca914f-641e-4bc8-98d4-bbf0a2a5276f
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 8889c0ee306eaaf682563b2e8e72d5482054d1c7
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 7e4e84b55c929dd878cb0720b3f61dfceedcf449
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81690262"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82904094"
 ---
 # <a name="prepare-windows-servers-to-support-configuration-manager"></a>Подготовка серверов Windows для поддержки Configuration Manager
 
@@ -98,7 +98,7 @@ ms.locfileid: "81690262"
 ##  <a name="iis-request-filtering-for-distribution-points"></a><a name="BKMK_IISFiltering"></a> Фильтрация запросов служб IIS для точек распространения  
 По умолчанию службы IIS используют фильтрацию запросов, чтобы заблокировать доступ к различным расширениям имен файлов и расположениям папок для подключений по протоколу HTTP или HTTPS. На точке распространения это не позволяет клиентам скачивать пакеты, содержащие заблокированные расширения или папки.  
 
-Если исходные файлы пакета содержат расширения, заблокированные в службах IIS конфигурацией фильтрации запросов, необходимо настроить фильтрацию запросов, чтобы разрешить их. Это можно сделать, [изменив функцию фильтрации запроса](https://technet.microsoft.com/library/hh831621.aspx) в диспетчере IIS на компьютерах точек распространения.  
+Если исходные файлы пакета содержат расширения, заблокированные в службах IIS конфигурацией фильтрации запросов, необходимо настроить фильтрацию запросов, чтобы разрешить их. Это можно сделать, [изменив функцию фильтрации запроса](https://docs.microsoft.com/previous-versions/orphan-topics/ws.11/hh831621(v=ws.11)) в диспетчере IIS на компьютерах точек распространения.  
 
 Кроме того, Configuration Manager использует перечисленные ниже расширения имен файлов для пакетов и приложений. Убедитесь, что конфигурации фильтрации запросов не блокируют эти расширения имен файлов:  
 
@@ -136,4 +136,4 @@ ms.locfileid: "81690262"
 - HEAD
 - PROPFIND
 
-Дополнительные сведения см. в статье [Configure Request Filtering in IIS](https://technet.microsoft.com/library/hh831621.aspx#Verbs) (Настройка фильтрации запросов в IIS). 
+Дополнительные сведения см. в статье [Configure Request Filtering in IIS](https://docs.microsoft.com/previous-versions/orphan-topics/ws.11/hh831621(v=ws.11)#http-verbs) (Настройка фильтрации запросов в IIS). 

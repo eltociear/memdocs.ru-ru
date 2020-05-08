@@ -10,12 +10,12 @@ ms.assetid: 95c13c00-909f-4fbb-bbaa-1eba9d54d8c5
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: c78bb5876455e68292e4a69d86a256fa9e5172d0
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 1ace560130e43fd5675b51b6d507e84043c01407
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81701472"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82904069"
 ---
 # <a name="schema-extensions-for-configuration-manager"></a>Расширения схемы для Configuration Manager
 
@@ -25,7 +25,7 @@ ms.locfileid: "81701472"
 
 -   Расширять схему Active Directory рекомендуется, но не требуется.  
 
-Перед [расширением схемы Active Directory](https://docs.microsoft.com/sccm/core/plan-design/network/extend-the-active-directory-schema)необходимо ознакомиться с доменными службами Active Directory и [изменением схемы Active Directory](https://technet.microsoft.com/library/cc759402\(v=ws.10\).aspx).  
+Перед [расширением схемы Active Directory](https://docs.microsoft.com/sccm/core/plan-design/network/extend-the-active-directory-schema)необходимо ознакомиться с доменными службами Active Directory и [изменением схемы Active Directory](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc759402(v=ws.10)).  
 
 ## <a name="considerations-for-extending-the-active-directory-schema-for-configuration-manager"></a>Вопросы по расширению схемы Active Directory для Configuration Manager  
 

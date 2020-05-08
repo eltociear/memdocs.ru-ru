@@ -10,12 +10,12 @@ ms.assetid: dba904ae-7c44-46db-ae63-999b9821cb46
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 4574b7ae97e8200da248a0b798677eacadb6229f
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: deb3108d492a955eb0ec6b1635e306dcb85e0062
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81703082"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82904215"
 ---
 # <a name="cng-certificates-overview"></a>Общие сведения о сертификатах CNG
 <!-- 1356191 --> 
@@ -23,7 +23,7 @@ ms.locfileid: "81703082"
 Configuration Manager обеспечивает ограниченную поддержку сертификатов Cryptography: Next Generation (CNG). Клиенты Configuration Manager могут использовать PKI-сертификат для проверки подлинности клиента с закрытым ключом в поставщике хранилища ключей CNG (KSP). Благодаря поддержке поставщика хранилища ключей Configuration Manager поддерживает аппаратный закрытый ключ, например KSP доверенного платформенного модуля (TPM) для PKI-сертификатов проверки подлинности клиента.
 
 ## <a name="supported-scenarios"></a>Поддерживаемые сценарии
-Вы можете использовать шаблоны сертификатов [CNG](https://msdn.microsoft.com/library/windows/desktop/bb204775.aspx) для следующих сценариев:
+Вы можете использовать шаблоны сертификатов [CNG](https://docs.microsoft.com/windows/win32/seccng/cng-features) для следующих сценариев:
 
 - Регистрация клиента и обмен данными с точкой управления HTTPS   
 - Распространение программного обеспечения и развертывание приложений с использованием точки распространения HTTPS   
