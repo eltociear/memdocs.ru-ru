@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 6c8e1551b49fce5074bd2e88d1d8802f62cca2bb
-ms.sourcegitcommit: 252e718dc58da7d3e3d3a4bb5e1c2950757f50e2
+ms.openlocfilehash: 749377ceecf29d9b900cff108fc4b736d6b8d0f2
+ms.sourcegitcommit: d05b1472385c775ebc0b226e8b465dbeb5bf1f40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80808105"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "82605173"
 ---
 # <a name="use-powershell-scripts-on-windows-10-devices-in-intune"></a>Использование скриптов PowerShell для устройств Windows 10 в Intune
 
@@ -30,7 +30,7 @@ ms.locfileid: "80808105"
 
 Данная функция применяется к:
 
-- Windows 10 и более поздней версии
+- Windows 10 и более поздних версий (кроме Windows 10 Домашняя)
 
 > [!NOTE]
 > Если выполняются предварительные условия, расширение управления Intune устанавливается автоматически, когда скрипт PowerShell либо приложение Win32 назначаются пользователю или устройству. Дополнительные сведения см. в разделе [Предварительные условия](../apps/intune-management-extension.md#prerequisites).
@@ -47,11 +47,14 @@ ms.locfileid: "80808105"
 
 Для расширения управления Intune требуется выполнить следующие условия. Если они выполняются, расширение управления Intune устанавливается автоматически, когда скрипт PowerShell или приложение Win32 назначаются пользователю или устройству.
 
-- Устройства с ОС Windows 10 версии 1607 или более поздней. Если устройство зарегистрировано с помощью [массовой автоматической регистрации](../enrollment/windows-bulk-enroll.md), на нем должна выполняться Windows 10 версии 1703 или более поздней. Расширение управления Intune не поддерживается в Windows 10 в режиме S, так как режим S блокирует запуск приложений, не приобретенных в магазине. 
+- Устройства с ОС Windows 10 версии 1607 или более поздней. Если устройство зарегистрировано с помощью [массовой автоматической регистрации](../enrollment/windows-bulk-enroll.md), на нем должна выполняться Windows 10 версии 1709 или более поздней. Расширение управления Intune не поддерживается в Windows 10 в режиме S, так как режим S блокирует запуск приложений, не приобретенных в магазине. 
   
 - Устройства, присоединенные к службам Azure Active Directory, включая:  
   
   - устройства с гибридным присоединением к Azure AD — устройства, присоединенные к Azure Active Directory (AD), а также присоединенные к локальной среде Active Directory (AD). Инструкции см. в разделе [Планирование реализации гибридного подключения к Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan).
+  
+  > [!TIP]
+  > Убедитесь, что устройства [присоединены к Azure AD](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network). Устройства, которые только [зарегистрированы](https://docs.microsoft.com/azure/active-directory/user-help/user-help-register-device-on-network) в Azure AD, не получат ваши скрипты.  
 
 - Устройства, зарегистрированные в Intune, включая:
 
@@ -71,8 +74,8 @@ ms.locfileid: "80808105"
     - [Клиентские приложения](https://docs.microsoft.com/configmgr/comanage/workloads#client-apps)
     - [Переключение рабочих нагрузок Configuration Manager на Intune](https://docs.microsoft.com/configmgr/comanage/how-to-switch-workloads)
   
-> [!TIP]
-> Убедитесь, что устройства [присоединены к Azure AD](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network). Устройства, которые только [зарегистрированы](https://docs.microsoft.com/azure/active-directory/user-help/user-help-register-device-on-network) в Azure AD, не получат ваши скрипты.
+> [!NOTE]
+> Дополнительные сведения об использовании виртуальных машин Window 10 см. в разделе [Использование виртуальных машин Windows 10 с Intune](../fundamentals/windows-10-virtual-machines.md).
 
 ## <a name="create-a-script-policy-and-assign-it"></a>Создание и назначение политики скрипта
 
@@ -125,6 +128,8 @@ ms.locfileid: "80808105"
 - Конечным пользователям не требуется выполнять вход на устройство для выполнения скриптов PowerShell.
 
 - Агент расширения управления Intune сверяется с Intune каждый час и после каждой перезагрузки, чтобы получить новые скрипты или изменения. После назначения политики группам Azure AD выполняется скрипт PowerShell, после чего выводятся результаты выполнения. Последующее выполнение скрипта происходит только при изменении скрипта или политики. Если произойдет сбой выполнения скрипта, агент расширения управления Intune попытается трижды повторить запуск скрипта при трех следующих синхронизациях этого агента.
+
+- Для общих устройств сценарий PowerShell выполняется для каждого нового пользователя, который входит в систему.
 
 ### <a name="failure-to-run-script-example"></a>Пример сбоя выполнения скрипта
 08:00
