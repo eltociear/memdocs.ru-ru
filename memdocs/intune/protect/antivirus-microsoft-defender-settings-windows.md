@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 03/20/2020
+ms.date: 05/05/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.reviewer: mattsha
-ms.openlocfilehash: 554bc09aa57306010069df4a85baa70fafdc41a6
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 7d8ea221b6c1768055e3ca1839c20ed64e2e3838
+ms.sourcegitcommit: 14d7dd0a99ebd526c9274d5781c298c828323ebf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80086680"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82802027"
 ---
 # <a name="settings-for-windows-10-microsoft-defender-antivirus-policy-in-microsoft-intune"></a>Параметры политики антивирусной программы в Microsoft Defender для Windows 10 в Microsoft Intune
 
@@ -82,7 +82,7 @@ ms.locfileid: "80086680"
   - **Да** — включить мониторинг в режиме реального времени. Пользователи устройств не могут изменить этот параметр.
 
 - **Enable on access protection** (Включить защиту при доступе)  
-  CSP: [AllowOnAccessProtection](https://go.microsoft.com/fwlink/?linkid=2113935&clcid=0x409)
+  CSP: [AllowOnAccessProtection](https://go.microsoft.com/fwlink/?linkid=2113935)
 
   Позволяет настроить антивирусную защиту, которая будет активна постоянно, а не включаться по требованию.
 
@@ -90,8 +90,16 @@ ms.locfileid: "80086680"
   - **Нет** — блокировать функцию защиты при доступе на устройствах. Пользователи устройств не могут изменить этот параметр.
   - **Да** — включить защиту при доступе на устройствах.
 
+- **Мониторинг входящих и исходящих файлов**  
+  CSP: [Defender/RealTimeScanDirection](https://go.microsoft.com/fwlink/?linkid=2113943)
+
+  Настройте этот параметр, чтоб указать, какая активность программы и файла NTFS будет отслеживаться.
+  - **Отслеживать все файлы** (*по умолчанию*)
+  - **Отслеживать только входящие файлы**
+  - **Отслеживать только исходящие файлы**
+
 - **Включить наблюдение за поведением**  
-  CSP: [AllowBehaviorMonitoring](https://go.microsoft.com/fwlink/?linkid=2114048&clcid=0x409)
+  CSP: [AllowBehaviorMonitoring](https://go.microsoft.com/fwlink/?linkid=2114048)
 
   По умолчанию Defender на компьютерах с Windows 10 осуществляет мониторинг поведения.
 
@@ -109,7 +117,7 @@ ms.locfileid: "80086680"
   - **Да** — защита сети включена. Пользователи устройств не могут изменить этот параметр.
 
 - **Проверять все загруженные файлы и вложения**  
-  CSP: [EnableNetworkProtection](https://go.microsoft.com/fwlink/?linkid=2113939&clcid=0x409)
+  CSP: [EnableNetworkProtection](https://go.microsoft.com/fwlink/?linkid=2113939)
 
   Позволяет настроить проверку всех скачанных файлов и вложений с помощью Defender.
 
@@ -118,7 +126,7 @@ ms.locfileid: "80086680"
   - **Да** — Defender проверяет все скачанные файлы и вложения. Пользователи устройств не могут изменить этот параметр.
 
 - **Scan scripts that are used in Microsoft browsers** (Проверять скрипты, используемые в браузерах Майкрософт)  
-  CSP: [AllowScriptScanning](https://go.microsoft.com/fwlink/?linkid=2114054&clcid=0x409)
+  CSP: [AllowScriptScanning](https://go.microsoft.com/fwlink/?linkid=2114054)
 
   Позволяет настроить проверку скриптов с помощью Defender.
 
@@ -127,7 +135,7 @@ ms.locfileid: "80086680"
   - **Да** — Defender проверяет скрипты. Пользователи устройств не могут изменить этот параметр.
 
 - **Scan network files** (Проверять сетевые файлы)  
-  CSP: [AllowScanningNetworkFiles](https://go.microsoft.com/fwlink/?linkid=2114049&clcid=0x409)
+  CSP: [AllowScanningNetworkFiles](https://go.microsoft.com/fwlink/?linkid=2114049&)
 
   Позволяет настроить проверку сетевых файлов с помощью Defender.
 
@@ -136,7 +144,7 @@ ms.locfileid: "80086680"
   - **Да** — включить проверку сетевых файлов. Пользователи устройств не могут изменить этот параметр.
 
 - **Scan emails** (Проверять сообщения электронной почты)  
-  CSP: [AllowEmailScanning](https://go.microsoft.com/fwlink/?linkid=2114052&clcid=0x409)
+  CSP: [AllowEmailScanning](https://go.microsoft.com/fwlink/?linkid=2114052)
 
   Позволяет настроить проверку входящих сообщений электронной почты с помощью Defender.
 
@@ -147,7 +155,7 @@ ms.locfileid: "80086680"
 ## <a name="remediation"></a>Серверы
 
 - **Number of days (0-90) to keep quarantined malware** (Число дней (0–90), в течение которого вредоносные программы находятся на карантине)  
-  CSP: [DaysToRetainCleanedMalware](https://go.microsoft.com/fwlink/?linkid=2114055&clcid=0x409)
+  CSP: [DaysToRetainCleanedMalware](https://go.microsoft.com/fwlink/?linkid=2114055)
 
   Позволяет указать период в днях от нуля до 90, в течение которого система хранит объекты в карантине, прежде чем автоматически их удалить. Нулевое значение означает, что система будет оставлять объекты на карантине и не удалять их автоматически.
 
@@ -160,7 +168,7 @@ ms.locfileid: "80086680"
   - **Отправлять все образцы автоматически**.
 
 - **Action to take on potentially unwanted apps** (Действие, применяемое к потенциально нежелательным программам)  
-  CSP: [PUAProtection](https://go.microsoft.com/fwlink/?linkid=2114051&clcid=0x409)
+  CSP: [PUAProtection](https://go.microsoft.com/fwlink/?linkid=2114051)
 
   Позволяет указать уровень обнаружения потенциально нежелательных программ. Defender предупреждает пользователей о скачивании потенциально нежелательных программ и попытках установить их на устройство.
 
@@ -170,7 +178,7 @@ ms.locfileid: "80086680"
   - **Режим аудита** — Defender обнаруживает потенциально нежелательные программы, но не принимает никаких мер. Чтобы просмотреть сведения о приложениях, по отношению к которым были бы приняты меры, выполните поиск созданных Defender событий в средстве "Просмотр событий".
 
 - **Actions for detected threats** (Действия при обнаружении угроз)  
-  CSP: [ThreatSeverityDefaultAction](https://go.microsoft.com/fwlink/?linkid=2113938&clcid=0x409)
+  CSP: [ThreatSeverityDefaultAction](https://go.microsoft.com/fwlink/?linkid=2113938)
 
   Позволяет указать действие, которое Defender выполняет относительно обнаруженных вредоносных программ на основе уровня угрозы, связанного с вредоносной программой.
   
@@ -193,7 +201,7 @@ ms.locfileid: "80086680"
 ## <a name="scan"></a>Проверка
 
 - **Проверять архивные файлы**  
-  CSP: [AllowArchiveScanning](https://go.microsoft.com/fwlink/?linkid=2114047&clcid=0x409)
+  CSP: [AllowArchiveScanning](https://go.microsoft.com/fwlink/?linkid=2114047)
 
   Позволяет настроить проверку архивных файлов, таких как ZIP- или CAB-файлы, с помощью Defender.
 
@@ -203,7 +211,7 @@ ms.locfileid: "80086680"
   - **Да** — включить проверку архивных файлов. Пользователи устройств не могут изменить этот параметр.
 
 - **Use low CPU priority for scheduled scans** (Использовать низкий приоритет ЦП для запланированных проверок)  
-  CSP: [EnableLowCPUPriority](https://go.microsoft.com/fwlink/?linkid=2113944&clcid=0x409)
+  CSP: [EnableLowCPUPriority](https://go.microsoft.com/fwlink/?linkid=2113944)
 
   Позволяет настроить низкий приоритет ЦП для запланированных проверок.
   - **Не настроено** (*по умолчанию*) — для параметра используется системное значение по умолчанию (изменения в приоритет ЦП не вносятся).
@@ -211,7 +219,7 @@ ms.locfileid: "80086680"
   - **Да** — для запланированных проверок используется низкий приоритет ЦП. Пользователи устройств не могут изменить этот параметр.
 
 - **Disable catch-up full scan** (Отключить дополнительную полную проверку)  
-  CSP: [DisableCatchupFullScan](https://go.microsoft.com/fwlink/?linkid=2114042&clcid=0x409)
+  CSP: [DisableCatchupFullScan](https://go.microsoft.com/fwlink/?linkid=2114042)
 
   Позволяет настроить дополнительные проверки для запланированных полных проверок. Дополнительная проверка запускается, если запланированная регулярная проверка не состоялась. Обычно запланированные проверки не выполняются потому, что в назначенное время компьютер бывает выключен.
 
@@ -220,7 +228,7 @@ ms.locfileid: "80086680"
   - **Да** — принудительное проведение дополнительных проверок для запланированных полных проверок. Пользователь не может их отключить. Если во время двух последовательных запланированных проверок компьютер был отключен от сети, дополнительная проверка запускается, когда пользователь в следующий раз входит в систему. Если запланированная проверка не настроена, дополнительные проверки не проводятся. Пользователи устройств не могут изменить этот параметр.
 
 - **Disable catchup quick scan** (Отключить дополнительную быструю проверку)  
-  CSP: [DisableCatchupQuickScan](https://go.microsoft.com/fwlink/?linkid=2113941&clcid=0x409)
+  CSP: [DisableCatchupQuickScan](https://go.microsoft.com/fwlink/?linkid=2113941)
 
   Позволяет настроить дополнительные проверки для запланированных быстрых проверок. Дополнительная проверка запускается, если запланированная регулярная проверка не состоялась. Обычно запланированные проверки не выполняются потому, что в назначенное время компьютер бывает выключен.
 
@@ -229,12 +237,12 @@ ms.locfileid: "80086680"
   - **Да** — принудительное проведение дополнительных проверок для запланированных быстрых проверок. Пользователь не может их отключить. Если во время двух последовательных запланированных проверок компьютер был отключен от сети, дополнительная проверка запускается, когда пользователь в следующий раз входит в систему. Если запланированная проверка не настроена, дополнительные проверки не проводятся. Пользователи устройств не могут изменить этот параметр.
 
 - **CPU usage limit per scan** (Ограничение загрузки ЦП проверкой)  
-  CSP: [AvgCPULoadFactor](https://go.microsoft.com/fwlink/?linkid=2114046&clcid=0x409)
+  CSP: [AvgCPULoadFactor](https://go.microsoft.com/fwlink/?linkid=2114046)
 
   Позволяет указать в виде процента от нуля до 100 средний коэффициент загрузки ЦП проверкой Defender.
 
 - **Scan mapped network drives during full scan** (Проверять подключенные сетевые диски при полной проверке)  
-  CSP: [AllowFullScanOnMappedNetworkDrives](https://go.microsoft.com/fwlink/?linkid=2113945&clcid=0x409)
+  CSP: [AllowFullScanOnMappedNetworkDrives](https://go.microsoft.com/fwlink/?linkid=2113945)
 
   Позволяет настроить проверку сопоставленных сетевых дисков с помощью Defender.
 
@@ -243,13 +251,13 @@ ms.locfileid: "80086680"
   - **Да** — включить проверку подключенных сетевых дисков. Пользователи устройств не могут изменить этот параметр.
 
 - **Run daily quick scan at** (Запускать ежедневную быструю проверку в)  
-  CSP: [ScheduleQuickScanTime](https://go.microsoft.com/fwlink/?linkid=2114053&clcid=0x409)
+  CSP: [ScheduleQuickScanTime](https://go.microsoft.com/fwlink/?linkid=2114053)
 
   Позволяет выбрать время дня, когда будет запускаться быстрая проверка Defender.
   По умолчанию используется значение **Не настроено**.
 
 - **Scan type** (Тип проверки)  
-  CSP: [ScanParameter](https://go.microsoft.com/fwlink/?linkid=2114045&clcid=0x409)
+  CSP: [ScanParameter](https://go.microsoft.com/fwlink/?linkid=2114045)
 
   Позволяет выбрать тип проверки, которую выполняет Defender.
 
@@ -271,14 +279,14 @@ ms.locfileid: "80086680"
 ## <a name="updates"></a>Обновления
 
 - **Enter how often (0-24 hours) to check for security intelligence updates** (Введите частоту (от 0 до 24 часов) проверки наличия обновлений для механизма обнаружения угроз)  
-  CSP: [SignatureUpdateInterval](https://go.microsoft.com/fwlink/?linkid=2113936&clcid=0x409)
+  CSP: [SignatureUpdateInterval](https://go.microsoft.com/fwlink/?linkid=2113936)
 
   Позволяет задать интервал проверки сигнатур от нуля до 24 часов. При нулевом значении проверки наличия новых сигнатур не выполняются. Значение "2" означает запуск проверки каждые два часа и т. д.
 
 ## <a name="user-experience"></a>Взаимодействие с пользователем
 
 - **Allow user access to Microsoft Defender app** (Разрешить пользователям доступ к Microsoft Defender)  
-  CSP: [AllowUserUIAccess](https://go.microsoft.com/fwlink/?linkid=2114043&clcid=0x409)  
+  CSP: [AllowUserUIAccess](https://go.microsoft.com/fwlink/?linkid=2114043)  
 
   - **Не настроено** (*по умолчанию*) — используется значение параметра по умолчанию для клиента, согласно которому доступ к пользовательскому интерфейсу и уведомлениям разрешен.
   - **Нет** — пользовательский интерфейс Defender недоступен, уведомления не отображаются.

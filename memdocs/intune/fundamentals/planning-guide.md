@@ -13,17 +13,17 @@ ms.subservice: fundamentals
 ms.localizationpriority: high
 ms.technology: ''
 ms.assetid: a65efa6e-4a48-47f3-8f6e-34a85ca64ced
-ms.reviewer: jeffbu, cgerth
+ms.reviewer: andredm7
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 65d4745580a4b0d733ffe14be03f0f9893074586
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 613bb0ddf935815a4022fa483e0aad615c64121a
+ms.sourcegitcommit: 14d7dd0a99ebd526c9274d5781c298c828323ebf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82080102"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82802044"
 ---
 # <a name="intune-deployment-planning-design-and-implementation-guide"></a>Руководство по планированию, проектированию и внедрению для Intune
 
@@ -53,7 +53,10 @@ ms.locfileid: "82080102"
 
 Кроме того, это руководство содержит дополнительные технические сведения и шаблоны таблиц, которые можно использовать для упрощения планирования, проектирования и внедрения Intune.
 
-- [Дополнительные ресурсы: ссылки и шаблоны таблиц](planning-guide-resources.md)
+### <a name="additional-resources"></a>Дополнительные ресурсы
+
+- [Руководство по подтверждению концепции Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/partners/endpoint-manager-poc) — предназначено для предоставления общих сведений и технических рекомендаций по выполнению успешного подтверждения концепции в организации.
+- [Ссылки и шаблоны таблиц](planning-guide-resources.md)
 
 ## <a name="assumptions"></a>Предположения
 

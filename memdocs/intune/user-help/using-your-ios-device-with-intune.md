@@ -19,19 +19,19 @@ ms.reviewer: esmich
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 07d0d807a9d675d7eef0a3910a50d547dc6be872
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 764c04e130f206e77a99e557d0397a329865c2ab
+ms.sourcegitcommit: d05b1472385c775ebc0b226e8b465dbeb5bf1f40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79335332"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "82605088"
 ---
 # <a name="using-your-ios-device-with-intune-company-portal"></a>Использование устройства iOS с Корпоративным порталом Intune
 В этой статье приводятся задачи и сведения, относящиеся к корпоративному порталу для iOS. Используйте их для устранения неполадок устройства iOS и управления им. Щелкните любую ссылку, чтобы просмотреть дополнительные сведения, инструкции и снимки экрана.
 
 ## <a name="supported-versions"></a>Поддерживаемые версии
 
-Корпоративный портал для iOS в настоящее время поддерживает iOS 10.0 и более поздние версии.  
+Корпоративный портал для iOS в настоящее время поддерживает iOS 11.0 и более поздние версии.  
 
 
 ## <a name="enrolling-into-intune-and-installing-the-company-portal"></a>Регистрация в Intune и установка корпоративного портала

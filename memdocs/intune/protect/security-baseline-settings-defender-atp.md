@@ -5,34 +5,58 @@ description: Параметры базовых показателей безоп
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 04/01/2020
+ms.date: 05/01/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: medium
 ms.technology: ''
 ms.assetid: ''
-ms.reviewer: aanavath
+ms.reviewer: laarrizz
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 67f4d3c08cbad08464d488073c574babcc77dc61
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+zone_pivot_groups: atp-baseline-versions
+ms.openlocfilehash: e1081395c733807c38dc940ebd1b7c2765da7a9a
+ms.sourcegitcommit: a4ec80c5dd51e40f3b468e96a71bbe29222ebafd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81397515"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "82693399"
 ---
+<!-- Pivots in use: 
+::: zone pivot="atp-april-2020"
+::: zone-end
+
+::: zone pivot="atp-march-2020"
+::: zone-end
+
+::: zone pivot="atp-march-2020,atp-april-2020"
+::: zone-end
+-->
+
 # <a name="microsoft-defender-advanced-threat-protection-baseline-settings-for-intune"></a>Параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender для Intune
 
 Просмотрите параметры базовых показателей безопасности Расширенной защиты от угроз в Microsoft Defender, которые поддерживаются Microsoft Intune. Базовые показатели по умолчанию Расширенной защиты от угроз (ATP) представляют рекомендуемую конфигурацию для ATP и могут не соответствовать значениям по умолчанию для других базовых показателей безопасности.
 
-Сведения, приведенные в этой статье, относятся к версии 3 базового показателя ATP в Microsoft Defender, выпущенной 1 марта 2020 г.
+::: zone pivot="atp-april-2020"
+
+Сведения, приведенные в этой статье, относятся к версии 4 базового показателя ATP в Microsoft Defender, выпущенной 21 апреля 2020 г. Чтобы понять, что изменилось в этой версии базового показателя по сравнению с предыдущими версиями, используйте действие [Сравнить базовые показатели](../protect/security-baselines.md#compare-baseline-versions), доступное при просмотре области *Версии* для этого базового показателя.
+
+::: zone-end
+::: zone pivot="atp-march-2020"
+
+Сведения, приведенные в этой статье, относятся к версии 3 базового показателя ATP в Microsoft Defender, выпущенной 1 марта 2020 г. Чтобы понять, что изменилось в этой версии базового показателя по сравнению с предыдущими версиями, используйте действие [Сравнить базовые показатели](../protect/security-baselines.md#compare-baseline-versions), доступное при просмотре области *Версии* для этого базового показателя.
+
+::: zone-end
+::: zone pivot="atp-march-2020,atp-april-2020"
+
 
 Базовая конфигурация Advanced Threat Protection в Microsoft Defender доступна, если ваша среда соответствует предварительным требованиям для использования [Advanced Threat Protection в Microsoft Defender](advanced-threat-protection.md#prerequisites).
 
 Базовые показатели оптимизированы для физических устройств; сейчас не рекомендуется использовать их на виртуальных машинах или конечных точках VDI. Некоторые базовые параметры могут влиять на удаленные интерактивные сеансы в виртуализованных средах. Дополнительные сведения см. в статье [Повышение уровня соответствия требованиям базового уровня безопасности ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline) в документации по Windows.
+
 
 ## <a name="application-guard"></a>Application Guard
 
@@ -630,11 +654,26 @@ CSP: [MdmStore/Global/SaIdleTime](https://go.microsoft.com/fwlink/?linkid=872539
   - **Да** (*по умолчанию*) — все скачанные файлы и вложения проверяются. Параметр возвращается к значению клиента по умолчанию ("Включено"), но пользователь может его изменить. Чтобы отключить этот параметр, используйте настраиваемый URI.
   - **Не настроено** — параметр возвращается к значению клиента по умолчанию ("Включено"), но пользователь может его изменить. Чтобы отключить этот параметр, используйте настраиваемый URI.
 
+::: zone-end
+::: zone pivot="atp-april-2020"
+
+- **Блокировать защиту при доступе**  
+  CSP: [Defender/AllowOnAccessProtection](https://go.microsoft.com/fwlink/?linkid=2113935&clcid=0x409)
+
+  - **Да**
+  - **Не настроено** (*по умолчанию*)
+
+::: zone-end
+::: zone pivot="atp-march-2020"
+
 - **Блокировать защиту при доступе**  
   CSP: [Defender/AllowOnAccessProtection](https://go.microsoft.com/fwlink/?linkid=2113935&clcid=0x409)
 
   - **Да** (*по умолчанию*)
   - **Не настроено**.
+
+::: zone-end
+::: zone pivot="atp-march-2020,atp-april-2020"
 
 - **Проверять скрипты браузера**  
   CSP: [Defender/AllowScriptScanning](https://go.microsoft.com/fwlink/?linkid=2114054&clcid=0x409)
@@ -863,6 +902,8 @@ CSP: [MdmStore/Global/SaIdleTime](https://go.microsoft.com/fwlink/?linkid=872539
     - **Запрещено**
     - **Обязательное**
     - **Разрешено** (*по умолчанию*)
+
+::: zone-end
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

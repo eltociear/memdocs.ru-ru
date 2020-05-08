@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 02/10/2020
+ms.date: 04/28/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -15,12 +15,12 @@ ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.reviewer: kerimh
-ms.openlocfilehash: 71039737a74aebb3066c001536aaf677a0467696
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: c37563dee40d776d352dec4e0b8ef11b1dc8f67b
+ms.sourcegitcommit: 7b3eed763b394075766ea080968889a8538bfe56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79345680"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82506545"
 ---
 # <a name="delivery-optimization-settings-in-microsoft-intune"></a>Параметры оптимизации доставки в Microsoft Intune
 
@@ -39,22 +39,28 @@ ms.locfileid: "79345680"
 2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 
 3. Укажите следующие свойства.
+   - **Платформа**. Выберите **Windows 10 и более поздних версий**.
+   - **Тип профиля**. Выберите **Оптимизация доставки**.
 
-    - **Имя** — Введите описательное имя для нового профиля.
-    - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
-    - **Платформа**. Выберите **Windows 10 и более поздних версий**.
-    - **Тип профиля**. Выберите **Оптимизация доставки**.
+4. Щелкните **Создать**.
 
-4. Выберите **Параметры** > **Настройка** и определите способ загрузки обновлений и приложений. Сведения о доступных параметрах см. в разделе [Параметры оптимизации доставки для Intune](delivery-optimization-settings.md).
+5. На странице **Основные** введите имя и описание профиля, а затем щелкните **Далее**.
 
-5. Когда закончите, нажмите **Добавить** > **OK**, чтобы сохранить изменения.
+6. На странице **Параметры конфигурации** укажите способ загрузки обновлений и приложений. Сведения о доступных параметрах см. в разделе [Параметры оптимизации доставки для Intune](delivery-optimization-settings.md).
 
-Созданный профиль отобразится в списке. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
+   Завершив настройку параметров, нажмите **Далее**.
 
-<!-- ## Move existing update rings to delivery optimization
+7. На странице **Область (теги)** щелкните **Выберите теги области**, чтобы открыть панель *Выбор тегов*, в которой можно назначить теги области для профиля.
+  
+   Нажмите кнопку **Далее**, чтобы продолжить.
 
-**Delivery optimization** settings replace **Software updates – Windows 10 Update Rings**. Your existing update rings can be easily changed to use the **Delivery optimization** settings. To maintain the same settings when you create a delivery optimization profile, use the same *Delivery optimization download mode* and then set the same settings as you already use. However, you can choose to reconfigure delivery optimization settings to take advantage of the full range of addition settings that the Delivery Optimization profile can manage. 
--->
+8. На странице **Назначения** выберите группы, которые получат этот профиль. Дополнительные сведения о назначении профилей см. в статье [Назначение профилей пользователей и устройств](../configuration/device-profile-assign.md).
+
+   Выберите **Далее**.
+
+9. На странице **Правила применимости** используйте параметры **Правило**, **Свойство** и **Значение**, чтобы определить, как этот профиль применяется в назначенных группах.
+
+10. На странице **Проверка и создание** после завершения нажмите **Создать**. Созданный профиль отобразится в списке. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
 ## <a name="remove-delivery-optimization-from-windows-10-update-rings"></a>Удаление оптимизации доставки из кругов обновления Windows 10
 

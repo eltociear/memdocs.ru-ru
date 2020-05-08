@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9e97322fa8a126203bf6e4d1e7a3703b92ded339
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: baffa150b416b778e41a59fdf4e5a1b686cdae7b
+ms.sourcegitcommit: 4381afb515c06f078149bd52528d1f24b63a2df9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80536850"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82538145"
 ---
 # <a name="what-is-microsoft-intune-app-management"></a>Что такое управление приложениями с помощью Microsoft Intune
 
@@ -109,6 +109,11 @@ Intune предлагает широкий набор возможностей, 
     - **Категории приложений**. Добавляйте, закрепляйте и удаляйте имена категорий приложений.
     - **Электронные книги**. Некоторые магазины приложений позволяют приобретать сразу несколько лицензий, если приложение или книги планируется использовать в организации. Дополнительные сведения см. в статье [Управление приложениями и книгами, приобретенными по программе корпоративных закупок, с помощью Microsoft Intune](vpp-apps.md).
 - **Справка и поддержка**. Устраняйте неполадки, подавайте запросы на поддержку или просматривайте сведения о состоянии Intune. Дополнительные сведения см. в разделе [Устранение неполадок](../fundamentals/help-desk-operators.md).
+
+### <a name="try-the-interactive-guide"></a>Попробуйте интерактивное руководство
+Интерактивное руководство [Управление мобильными и настольными приложениями и их защита с помощью Microsoft Endpoint Manager](https://mslearn.cloudguides.com/en-us/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager) описывает, как в центре администрирования Microsoft Endpoint Manager можно управлять устройствами, развернутыми в Intune, обеспечивать соответствие политикам и защищать данные организации.</br></br>
+
+> [!VIDEO https://mslearn.cloudguides.com/en-us/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager]
 
 ## <a name="additional-information"></a>Дополнительные сведения
 Следующие элементы в консоли предоставляют функциональные возможности, связанные с приложением:

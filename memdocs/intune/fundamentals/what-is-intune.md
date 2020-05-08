@@ -17,20 +17,18 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c8fce5e8d7a92922d6061c33655bc4e83b3a1a95
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 3a10709972b0387681d00c8fe848079807c6293a
+ms.sourcegitcommit: 4381afb515c06f078149bd52528d1f24b63a2df9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80233491"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82538094"
 ---
 # <a name="microsoft-intune-is-an-mdm-and-mam-provider-for-your-devices"></a>Microsoft Intune — это поставщик MDM и MAM для устройств
 
 Microsoft Intune — это облачная служба, в которой основное внимание уделяется управлению мобильными устройствами (MDM) и управлению мобильными приложениями (MAM). Intune входит в состав пакета Microsoft [Enterprise Mobility + Security (EMS)](https://www.microsoft.com/microsoft-365/enterprise-mobility-security) и позволяет пользователям быть продуктивными, обеспечивая защиту данных организации. Он интегрируется с другими службами, в том числе Microsoft 365 и Azure Active Directory (Azure AD), чтобы контролировать доступ для пользователей и доступ к продуктам, и Azure Information Protection для защиты данных. При использовании вместе с Microsoft 365 ваши сотрудники могут эффективно работать на всех устройствах с одновременной защитой данных организации.
 
-![Изображение архитектуры Intune](./media/what-is-intune/intunearch_sm.png)
-
-Изучите [увеличенное изображение](./media/what-is-intune/intunearchitecture.svg) схемы архитектуры Intune.
+[![Изображение архитектуры Intune](./media/what-is-intune/intunearch_sm.png )](./media/what-is-intune/intunearchitecture.svg#lightbox)
 
 С помощью Intune можно выполнять следующие задачи:
 
@@ -61,6 +59,11 @@ Microsoft Intune — это облачная служба, в которой о
 - [Применение параметров и функций на устройствах с помощью профилей устройств](../configuration/device-profiles.md)
 
 - [Защита устройств с помощью Microsoft Intune](../protect/device-protect.md)
+
+### <a name="try-the-interactive-guide"></a>Попробуйте интерактивное руководство
+Интерактивное руководство [Управление устройствами с помощью Microsoft Endpoint Manager](https://mslearn.cloudguides.com/en-us/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager) описывает, как в центре администрирования Microsoft Endpoint Manager можно управлять мобильными и настольными приложениями и защищать их.</br></br>
+
+> [!VIDEO https://mslearn.cloudguides.com/en-us/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager]
 
 ## <a name="manage-apps"></a>Управление приложениями
 
