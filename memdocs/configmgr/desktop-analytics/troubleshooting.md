@@ -10,12 +10,12 @@ ms.assetid: 63e08f3f-9558-4ed7-9bf3-3a185ddaac5c
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 96e9f7523ae8946b7756a8a39d1757e652eb3c8c
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 46a320f4c6e32b57dc11beb325c34c300536381f
+ms.sourcegitcommit: a4ec80c5dd51e40f3b468e96a71bbe29222ebafd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81696902"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "82693333"
 ---
 # <a name="troubleshoot-desktop-analytics"></a>Устранение проблем с Аналитикой компьютера
 
@@ -217,3 +217,6 @@ ms.locfileid: "81696902"
 Обычно этот процесс занимает 15–60 минут. Время зависит от размера рабочей области и объема изменений, требующих выполнения процессов. При запросе обновления данных по требованию диагностические данные не изменяются.  Дополнительные сведения см. в разделе [Можно ли сократить время, затрачиваемое на обновление данных на портале Аналитики компьютеров?](faq.md#can-i-reduce-the-amount-of-time-it-takes-for-data-to-refresh-in-my-desktop-analytics-portal).
 
 Если вы не видите изменения, внесенные в указанные выше интервалы времени, подождите около 24 часов до следующего ежедневного обновления. Если задержки больше, проверьте панель мониторинга работоспособности служб. Если служба работоспособна, обратитесь в службу поддержки Майкрософт.<!-- 3896921 -->
+
+> [!IMPORTANT]
+> Параметр Desktop Analytics для **просмотра последних данных** является нерекомендуемым. Это действие будет удалено в следующем выпуске службы "Аналитика компьютеров". Дополнительные сведения см. в разделе [Устаревшие компоненты](../core/plan-design/changes/deprecated/removed-and-deprecated-cmfeatures.md).<!--7080949-->  

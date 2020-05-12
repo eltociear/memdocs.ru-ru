@@ -10,12 +10,12 @@ ms.assetid: c631197d-7daa-4faa-9e22-980cd6d604c2
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 21279eb2f7d7962d1286d60a599411912d38313a
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: da2fe2ad66617ffb5ad3058011f111b0aaf9e9ae
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81701322"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82903914"
 ---
 # <a name="support-center-for-configuration-manager"></a>О центре поддержки для Configuration Manager
 
@@ -52,7 +52,7 @@ ms.locfileid: "81701322"
 
 ### <a name="powershell-cmdlets"></a>Командлеты PowerShell
 
-Центр поддержки также включает [командлеты Windows PowerShell](https://go.microsoft.com/fwlink/?linkid=397830). Используйте эти командлеты для создания удаленного подключения к другому клиенту Configuration Manager, настройки параметров сбора данных и начала сбора данных.
+Центр поддержки также включает [командлеты PowerShell](https://docs.microsoft.com/powershell/sccm/overview?view=sccm-ps). Используйте эти командлеты для создания удаленного подключения к другому клиенту Configuration Manager, настройки параметров сбора данных и начала сбора данных.
 
 
 ## <a name="prerequisites"></a>Предварительные условия

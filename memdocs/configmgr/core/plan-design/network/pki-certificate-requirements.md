@@ -10,12 +10,12 @@ ms.assetid: d6a73e68-57d8-4786-842b-36669541d8ff
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 3729bdc28cce961bd081ddb461d3d1da45d6c017
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 909f9fa603f6b979b283593da79730a97fcb9fc9
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81701492"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82904156"
 ---
 # <a name="pki-certificate-requirements-for-configuration-manager"></a>Требования к PKI-сертификатам для Configuration Manager
 
@@ -23,11 +23,7 @@ ms.locfileid: "81701492"
 
 Сертификаты инфраструктуры открытых ключей (PKI), которые могут потребоваться для Configuration Manager, перечислены в таблицах ниже. Эти сведения предполагают наличие у пользователя базовых знаний о сертификатах PKI. Дополнительные сведения см. в разделе [Пошаговый пример развертывания PKI-сертификатов для Configuration Manager: (центр сертификации Windows Server 2008)](example-deployment-of-pki-certificates.md).
 
-Дополнительные сведения о службах сертификации Active Directory см. в следующей документации.  
-
-- Для Windows Server 2012: [Обзор служб сертификатов Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=286744)  
-
-- Для Windows Server 2008: [Службы сертификатов Active Directory в Windows Server 2008](https://go.microsoft.com/fwlink/p/?LinkId=115018)
+Дополнительные сведения о службах сертификации Active Directory см. в [этой статье](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831740(v=ws.11)).
 
 Сведения об использовании Cryptography API: Next Generation (CNG) с Configuration Manager см. в статье [Общие сведения о сертификатах CNG](cng-certificates-overview.md).
 

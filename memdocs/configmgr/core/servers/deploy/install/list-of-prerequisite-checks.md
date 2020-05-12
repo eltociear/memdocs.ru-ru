@@ -2,7 +2,7 @@
 title: Проверки готовности
 titleSuffix: Configuration Manager
 description: Справочная информация об определенных проверках на наличие необходимых компонентов в обновлениях Configuration Manager.
-ms.date: 04/01/2020
+ms.date: 05/07/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 6a279624-ffc9-41aa-8132-df1809708dd5
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: d8fc9abfc9fc09bc3011a3fee30b258023d04c8a
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 9f0ed1d5913154d90242d1aa2a47efbcf7d22282
+ms.sourcegitcommit: 0f02742301e42daaa30e1bde8694653e1b9e5d2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81700742"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82943796"
 ---
 # <a name="list-of-prerequisite-checks-for-configuration-manager"></a>Список проверок на наличие необходимых компонентов для Configuration Manager
 
@@ -771,9 +771,9 @@ SELECT * FROM vLogs WHERE ProcedureName = 'spDiagChangeTracking'
 
 При установке нового сайта Configuration Manager автоматически устанавливает SQL Server Native Client в качестве распространяемого компонента. После установки сайта Configuration Manager не обновляет SQL Server Native Client. Для обновления SQL Server Native Client может потребоваться перезапуск, что может повлиять на процесс установки сайта.
 
-Эта проверка позволяет убедиться, что сайт содержит поддерживаемую версию SQL Native Client. Начиная с версии 1810, минимальная версия — SQL 2012 SP4 (`11.*.7001.0`).
+Эта проверка позволяет убедиться, что сервер сайта содержит поддерживаемую версию SQL Native Client. При проверке наличия необходимых компонентов не проверяется версия SQL Native Client на удаленных системах сайтов.
 
-Эта версия SQL Native Client поддерживает TLS 1.2. Дополнительные сведения см. в следующих статьях:
+Минимальная версия — SQL 2012 с пакетом обновления 4 (`11.*.7001.0`). Эта версия SQL Native Client поддерживает TLS 1.2. Дополнительные сведения см. в следующих статьях:
 
 - [Поддержка Microsoft SQL Server версии 1.2 TLS](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)  
 

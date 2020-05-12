@@ -2,7 +2,7 @@
 title: Кластер SQL Server
 titleSuffix: Configuration Manager
 description: Размещение базы данных сайта Configuration Manager в кластере SQL Server
-ms.date: 03/06/2019
+ms.date: 04/30/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: d09a82c6-bbd1-49ca-8ffe-e3ce87b85d33
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 4e731ef2d133c2187eb9eaa98c07afeed37645fa
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: d035e6fbd776a03ce38a4cd0fc12755100b60c91
+ms.sourcegitcommit: 2aa97d1b6409575d731c706faa2bc093c2b298c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81700852"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "82643245"
 ---
 # <a name="use-a-sql-server-cluster-for-the-site-database"></a>Использование кластера SQL Server для размещения базы данных сайта
 
@@ -62,9 +62,12 @@ ms.locfileid: "81700852"
 
 - Для поддержки проверки подлинности Kerberos включите сетевой протокол связи **TCP/IP** для сетевого подключения каждого узла кластера SQL Server. Протокол **Именованные каналы** не требуется, но может использоваться для устранения проблем, связанных с проверкой подлинности Kerberos. Параметры сетевого протокола настраиваются в **SQL Server Configuration Manager** в разделе **Конфигурация сети SQL Server**.  
 
-- Если вы используете инфраструктуру открытых ключей (PKI), см. статью [Требования к PKI-сертификатам для System Center Configuration Manager](../../../plan-design/network/pki-certificate-requirements.md). Существуют особые требования к сертификатам при использовании кластера SQL Server для базы данных сайта.  
+- Существуют особые требования к сертификатам при использовании кластера SQL Server для базы данных сайта. Дополнительные сведения см. в следующих статьях:
+  - [Установка сертификата в конфигурации отказоустойчивого кластера SQL](https://docs.microsoft.com/sql/database-engine/configure-windows/manage-certificates?view=sql-server-ver15#provision-failover-cluster-cert)
+  - [Требования к PKI-сертификатам для Configuration Manager](../../../plan-design/network/pki-certificate-requirements.md#BKMK_PKIcertificates_for_servers)
 
-
+  > [!NOTE]
+  > Если вы заранее не подготовите сертификат в SQL, Configuration Manager создаст и подготовит самозаверяющий сертификат для SQL.<!-- 7099499 -->
 
 ## <a name="limitations"></a>Ограничения
 

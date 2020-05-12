@@ -10,12 +10,12 @@ ms.assetid: e0db3311-2303-4013-a906-76b408172d3c
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 8c6b8df10a9a20c96cd2f8c1a0b6583c9c5f6e4f
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 29f063da47dc26789493b2a83ad8e0cfa6885270
+ms.sourcegitcommit: a4ec80c5dd51e40f3b468e96a71bbe29222ebafd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81708162"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "82693293"
 ---
 # <a name="desktop-analytics-faq"></a>Часто задаваемые вопросы по Аналитике компьютеров
 
@@ -35,6 +35,9 @@ ms.locfileid: "81708162"
 - Убедитесь, что устройства отправляют диагностические данные в службу "Аналитика компьютеров". Дополнительные сведения см. в статье [Enable data sharing for Desktop Analytics](enable-data-sharing.md) (Обеспечение обмена данными для Аналитики компьютеров).
 - Подготовьте к работе [приложения Azure AD](troubleshooting.md#bkmk_AzureADApps) в Azure AD.
 - Проверьте устройства, которые были связаны с вашей организацией за последние семь дней. На [портале Аналитики компьютеров](https://aka.ms/desktopanalytics) перейдите в область **Подключенные службы**. Выберите **Регистрация устройств**, а затем **Просмотреть последние данные**.
+
+  > [!IMPORTANT]
+  > Параметр Desktop Analytics для **просмотра последних данных** является нерекомендуемым. Это действие будет удалено в следующем выпуске службы "Аналитика компьютеров". Дополнительные сведения см. в разделе [Устаревшие компоненты](../core/plan-design/changes/deprecated/removed-and-deprecated-cmfeatures.md).<!--7080949-->  
 
 Если устройства настроены правильно, а вы по-прежнему не видите данные в рабочей области, [обратитесь в службу поддержки Майкрософт](https://support.microsoft.com/hub/4343728/support-for-business).
 

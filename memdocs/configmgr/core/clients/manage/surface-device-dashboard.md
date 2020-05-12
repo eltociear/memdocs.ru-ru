@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.prod: configuration-manager
 ms.technology: configmgr-client
 ms.assetid: 7397fc17-3ae8-4525-8386-aea8a9cffa06
-ms.openlocfilehash: 08baf595199bdda121f897d507de97cb7e93e620
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: f9b9c49bde16754b7a60112905f14da2cd5e48eb
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81696352"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906290"
 ---
 # <a name="surface-device-dashboard-in-configuration-manager"></a>Панель мониторинга устройств Surface в Configuration Manager
 
@@ -57,11 +57,9 @@ ms.locfileid: "81696352"
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-Дополнительные сведения об устройствах Surface:
-- веб-сайт [Surface]( https://go.microsoft.com/fwlink/?linkid=861998).
+Дополнительные сведения об устройствах Surface см. на веб-сайте [Surface](https://www.microsoft.com/surface).
 
-Дополнительные сведения о развертывании обновлений встроенного ПО Surface см. в разделе:
-- [Управление обновлениями драйверов Surface в Configuration Manager]( https://support.microsoft.com/help/4098906).
+Дополнительные сведения о развертывании обновлений встроенного ПО Surface в Configuration Manager см. в статье [Управление обновлениями драйверов Surface](https://support.microsoft.com/help/4098906).
 
 
 

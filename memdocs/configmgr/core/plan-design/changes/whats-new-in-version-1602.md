@@ -11,12 +11,12 @@ author: mestew
 ms.author: mstewart
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: fc38d0cbd70faa23f67c7089944b8b4c2cd0f7fc
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 2e398795a14f5073141f103d93ccd82e61d4d7a8
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82078725"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82904896"
 ---
 # <a name="what39s-new-in-version-1602-of-configuration-manager"></a>Новые возможности в Configuration Manager версии 1602
 
@@ -42,9 +42,9 @@ ms.locfileid: "82078725"
 > [!WARNING]  
 >  Перед обновлением до Windows Server 2012 R2 необходимо удалить службы WSUS 3.2 с сервера.  
 >   
->  Сведения об этом важном шаге см. в подразделе "Новые и измененные функции" раздела [Обзор служб Windows Server Update Services](https://technet.microsoft.com/library/hh852345.aspx) в документации по Windows Server.  
+>  Дополнительные сведения об этом важном шаге см. в разделе "Новые и измененные функции" статьи [Обзор служб Windows Server Update Services](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh852345(v=ws.11)#new-and-changed-functionality).  
 
- Для обновления сервера используются процедуры обновления Windows Server 2012 R2. После них не требуется восстанавливать сервер сайта Configuration Manager. Процедуры обновления описаны в разделе [Варианты обновления для Windows Server 2012 R2](https://technet.microsoft.com/library/dn303416.aspx) документации по Windows Server.  
+ Для обновления сервера используются процедуры обновления Windows Server 2012 R2. После них не требуется восстанавливать сервер сайта Configuration Manager. Процедуры обновления описаны в разделе [Варианты обновления для Windows Server 2012 R2](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn303416(v=ws.11)) документации по Windows Server.  
 
 ###  <a name="sql-server-alwayson-availability-groups"></a><a name="bkmk_AOAG"></a> Группы доступности SQL Server AlwaysOn  
  В качестве решения для обеспечения высокой доступности и аварийного восстановления можно использовать группы доступности SQL Server AlwaysOn, чтобы размещать базу данных сайта на первичных сайтах и сайте центра администрирования.  

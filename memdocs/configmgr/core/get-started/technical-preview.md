@@ -2,7 +2,7 @@
 title: Выпуски Technical Preview
 titleSuffix: Configuration Manager
 description: Сведения о ветви Technical Preview, которая позволяет протестировать новые функции и возможности в Configuration Manager.
-ms.date: 03/31/2020
+ms.date: 04/30/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 9ce0a8cb-f96c-4e41-834c-59ceb54ce44a
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: ec49f9931240e17218c125f1fa514088c83c55fd
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: bfcdd74b7b5c31e3f3ab6bb38a7ea96de9d05eec
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81701842"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905141"
 ---
 # <a name="technical-preview-for-configuration-manager"></a>Technical Preview для Configuration Manager
 
@@ -69,17 +69,12 @@ ms.locfileid: "81701842"
 
 Ветвь Technical Preview для Configuration Manager поддерживает описанные ниже продукты и технологии.
 
-- Поддерживаются только следующие версии **SQL Server**:
-
-  - SQL Server 2017 (с накопительным обновлением 2 или более поздней версии)
-  - SQL Server 2016 (без пакета обновления или более поздней версии)
-  - SQL Server 2014 (с пакетом обновления 1 или более поздней версии)
-  - SQL Server 2012 (с пакетом обновления 3 или более поздней версии)
+- Если не указано иное, ветвь Technical Preview поддерживает те же версии SQL Server, что и Current Branch. Дополнительные сведения см. в разделе [Поддерживаемые версии SQL Server](../plan-design/configs/support-for-sql-server-versions.md).
 
 - Сайт поддерживает до 10 клиентов, которые могут работать под управлением любой [поддерживаемой версии клиентской операционной системы](../plan-design/configs/supported-operating-systems-for-clients-and-devices.md).<!-- SCCMDocs#1656 -->
 
 > [!Note]
-> Перечисление этих версий здесь не означает расширение их поддержки за пределами индивидуальных жизненных циклов поддержки. Configuration Manager не поддерживает продукты, жизненный цикл поддержки которых уже завершился. Дополнительные сведения см. в статье [Политика жизненного цикла поддержки Майкрософт](https://go.microsoft.com/fwlink/p/?LinkId=208270).
+> Перечисление этих версий здесь не означает расширение их поддержки за пределами индивидуальных жизненных циклов поддержки. Configuration Manager не поддерживает продукты, жизненный цикл поддержки которых уже завершился. Дополнительные сведения см. в статье [Политика жизненного цикла поддержки Майкрософт](https://support.microsoft.com/lifecycle).
 
 ## <a name="install-and-update"></a><a name="bkmk_install"></a> Установка и обновление
 
@@ -100,7 +95,7 @@ ms.locfileid: "81701842"
 
 - **Техническая предварительная версия 2002**. Техническая предварительная версия Configuration Manager 2002 доступна как через обновление в консоли, так и в качестве новой базовой версии.
 
-Вы можете скачать базовые версии на странице [TechNet Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-system-center-configuration-manager-and-endpoint-protection-technical-preview).
+Вы можете скачать базовые версии на странице [Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-system-center-configuration-manager-and-endpoint-protection-technical-preview).
 
 ## <a name="providing-feedback"></a><a name="BKMK_TPFeedback"></a> Обратная связь
 
@@ -121,9 +116,36 @@ Enable this section if needed to include any broad change to the tech preview br
 This is the full list of new features in the latest TP release
 
 bullet format:
-<!-- - [title](2020/technical-preview-2003.md#bkmk_anchor) <!--ID-->
+<!-- - [title](2020/technical-preview-2003.md) <!--ID-->
 
 Ниже приведены функции, представленные в последней версии Technical Preview для Configuration Manager.
+
+### <a name="technical-preview-version-2004"></a>Technical Preview версии 2004
+
+- [Подключение арендатора Microsoft Endpoint Manager: сведения о клиенте ConfigMgr](2020/technical-preview-2004.md#bkmk_mem) <!--6374854-->
+- [Уведомления от Майкрософт](2020/technical-preview-2004.md#notifications-from-microsoft) <!--3953121-->
+- [Копирование данных обнаружения из консоли](2020/technical-preview-2004.md#bkmk_copydisco) <!--6890051-->
+- [Улучшения CMPivot](2020/technical-preview-2004.md#improvements-to-cmpivot) <!--6518631-->
+- [Поддержка PowerShell версии 7](2020/technical-preview-2004.md#bkmk_pwsh7) <!--6023299-->
+- [Улучшение этапа последовательности задач "Отформатировать диск и создать разделы"](2020/technical-preview-2004.md#bkmk_osdpart) <!--6610288-->
+- [Правила аналитики управления для развертывания ОС](2020/technical-preview-2004.md#bkmk_osdmi) <!--6982275-->
+- [Командлеты PowerShell для типов развертывания последовательности задач](2020/technical-preview-2004.md#bkmk_osdpwsh) <!--7019342-->
+
+> [!NOTE]
+> Функции, которые были доступны в предыдущей версии Technical Preview, остаются доступными в последующих версиях. Таким же образом функции, добавленные в ветвь Current Branch для Configuration Manager, остаются доступными в ветви Technical Preview.
+
+## <a name="features-in-recent-technical-previews"></a>Функции в последних версиях Technical Preview
+
+<!-- (explanatory comment)
+This is the full list of new features in the past TP releases since the last CB release.
+Each month, add features from the list above to a new H3 section at the top of this section.
+When there's a new CB, add any features not in that CB to the table in H2 "Features in previous technical previews"
+-->
+
+Следующие функции были выпущены в прошлых версиях Configuration Manager ветви Technical Preview с момента выхода выпуска Current Branch версии 2002.
+
+> [!TIP]
+> При выходе новой версии Current Branch доступные в ней функции приводятся в актуальном выпуске статьи *Новые возможности*. Дополнительные сведения: [Новые возможности в добавочных версиях](../plan-design/changes/whats-new-incremental-versions.md#supported-versions).
 
 ### <a name="technical-preview-version-2003"></a>Техническая предварительная версия 2003
 
@@ -136,24 +158,6 @@ bullet format:
 - [Запрос об отзывах, отправленный в Майкрософт](2020/technical-preview-2003.md#bkmk_smile) <!--6488450-->
 - [Новый метод пакета SDK для выполнения последовательности задач](2020/technical-preview-2003.md#bkmk_tsapi) <!--6448458-->
 - [Улучшение развертывания операционной системы](2020/technical-preview-2003.md#bkmk_osd) <!--6452769-->
-
-> [!NOTE]
-> Функции, которые были доступны в предыдущей версии Technical Preview, остаются доступными в последующих версиях. Таким же образом функции, добавленные в ветвь Current Branch для Configuration Manager, остаются доступными в ветви Technical Preview.
-
-<!-- temp remove for 2002 CB ## Features in recent technical previews -->
-
-<!-- (explanatory comment)
-This is the full list of new features in the past TP releases since the last CB release.
-Each month, add features from the list above to a new H3 section at the top of this section.
-When there's a new CB, add any features not in that CB to the table in H2 "Features in previous technical previews"
--->
-
-<!--temp remove for 2002 CB  The following features were released with previous versions of the Configuration Manager technical preview branch since current branch version 1910: -->
-
-> [!TIP]
-> При выходе новой версии Current Branch доступные в ней функции приводятся в актуальном выпуске статьи *Новые возможности*. Дополнительные сведения: [Новые возможности в добавочных версиях](../plan-design/changes/whats-new-incremental-versions.md#supported-versions).
-
-<!-- ### Technical preview version 2003 -->
 
 ## <a name="features-in-previous-technical-previews"></a>Функции в предыдущих версиях Technical Preview
 

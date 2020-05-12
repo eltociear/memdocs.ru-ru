@@ -10,12 +10,12 @@ ms.assetid: 76c220b6-1824-4e2e-8c61-a719f0b056f1
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: f5d59e165f2bb20ad6851f7d52c94d39e1ec9e4e
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: eb9bfc252c82e477359a4c14cbe92a6dc11257bd
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81700812"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906514"
 ---
 # <a name="where-to-get-installation-media-for-configuration-manager"></a>Получение установочного носителя для Configuration Manager
 
@@ -25,6 +25,6 @@ ms.locfileid: "81700812"
 
 Если у вас есть лицензия на Configuration Manager из пакета EMS, Microsoft 365 или программы "Поставщик облачных решений (CSP)", см. [Вопросы и ответы по продуктам и лицензированию](../../../understand/product-and-licensing-faq.md#bkmk_csp).
 
-Если вы хотите приобрести корпоративные лицензии Configuration Manager, обратитесь к предпочтительному торговому посреднику Майкрософт или см. статью [Приобретение по программе корпоративного лицензирования Майкрософт](https://www.microsoft.com/Licensing/how-to-buy/how-to-buy.aspx). Вы также можете скачать носитель для установки ознакомительного выпуска Configuration Manager с веб-сайта [Центра оценки TechNet]( https://www.microsoft.com/evalcenter/evaluate-system-center-configuration-manager-and-endpoint-protection).
+Если вы хотите приобрести корпоративные лицензии Configuration Manager, обратитесь к предпочтительному торговому посреднику Майкрософт или см. статью [Приобретение по программе корпоративного лицензирования Майкрософт](https://www.microsoft.com/Licensing/how-to-buy/how-to-buy.aspx). Вы также можете скачать файл для установки ознакомительного выпуска Configuration Manager с веб-сайта [Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-system-center-configuration-manager-and-endpoint-protection).
 
 Сведения о базовых носителях Configuration Manager см. в разделе [Базовые и обновленные версии](../../manage/updates.md#bkmk_Baselines).

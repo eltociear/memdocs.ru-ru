@@ -10,12 +10,12 @@ ms.assetid: 9cbfc406-d009-446d-8fee-4938de48c919
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 1e486ddd8652529000c6ec02266f677e45669111
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: cc679ec7e73e9d43902ad70e09fb2a01c95eed65
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81709002"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906886"
 ---
 # <a name="customize-boot-images-with-configuration-manager"></a>Настройка образов загрузки с помощью Configuration Manager
 
@@ -49,11 +49,7 @@ ms.locfileid: "81709002"
 
 - **WinPE-WDS-Tools**. Устанавливает средства служб развертывания Windows.  
 
-  Для добавления также доступны другие пакеты среды предустановки Windows. Дополнительные сведения о дополнительных компонентах, которые могут быть добавлены в загрузочный образ, см. на следующих ресурсах.  
-
-- Для среды Windows PE 5 см. раздел [WinPE: добавление пакетов (Справочник по дополнительным компонентам)](https://msdn.microsoft.com/library/windows/hardware/dn938382\(v=vs.85\).aspx)  
-
-- Для среды предустановки Windows 3.1 см. статью [Добавление пакета в образ Windows PE](https://technet.microsoft.com/library/dd799312\(v=WS.10\).aspx) в библиотеке документации TechNet по Windows 7.  
+  Для добавления также доступны другие пакеты среды предустановки Windows. Дополнительные сведения о дополнительных компонентах, которые можно добавить в образ загрузки, см. в статье [WinPE: добавление пакетов (Справочник по дополнительным компонентам)](https://docs.microsoft.com/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference).
 
 > [!NOTE]
 >При загрузке WinPE из настроенного образа загрузки, содержащего добавленные вами инструменты, можно открыть командную строку в WinPE и ввести имя файла инструмента, чтобы запустить его. Расположение этих инструментов автоматически добавляется в переменную path. Командную строку можно добавить, только если на вкладке **Настройка** свойств образа загрузки выбран параметр **Включить поддержку командной строки (только для проверки)** .
@@ -76,7 +72,7 @@ ms.locfileid: "81709002"
     где C:\WinPEWAIK — папка, содержащая загрузочный образ, а C:\WinPEMount — папка подключения.  
 
    > [!NOTE]
-   >  Дополнительные сведения о DISM см. в статье [Техническое руководство по системе обслуживания образов развертывания и управления ими (DISM)](https://technet.microsoft.com/library/hh824821.aspx) в библиотеке документации TechNet по Windows 8.1 и Windows 8.
+   >  Дополнительные сведения см. в [справочнике по DISM (система обслуживание образов развертывания и управления ими)](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-reference--deployment-image-servicing-and-management).
 
 5. После подключения загрузочного образа используйте DISM для добавления в него дополнительных компонентов. В среде предустановки Windows 5 64-разрядные дополнительные компоненты находятся в папке <*путь_установки*>\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs.  
 
@@ -112,7 +108,7 @@ ms.locfileid: "81709002"
     **dism.exe /image:C:\WinPEMount /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-WDS-Tools_en-us.cab"**  
 
    > [!TIP]
-   >  Дополнительные сведения о дополнительных компонентах, которые могут быть добавлены в загрузочный образ, см. в статье [Справочник по дополнительным компонентам среды предустановки Windows](https://technet.microsoft.com/library/hh824926.aspx) в библиотеке документации TechNet по Windows 8.1 и Windows 8.  
+   >  Дополнительные сведения о дополнительных компонентах, которые можно добавить в загрузочный образ, см. в [справочнике по дополнительным компонентам среды предустановки Windows](https://docs.microsoft.com/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference).
 
 6. Используйте DISM для добавления в загрузочный образ специальных драйверов, если это необходимо. Введите следующую команду для добавления в загрузочный образ драйверов:  
 
@@ -198,7 +194,7 @@ ms.locfileid: "81709002"
     где C:\WinPEWAIK — папка, содержащая загрузочный образ, а C:\WinPEMount — папка подключения.  
 
    > [!NOTE]
-   >  Дополнительные сведения о DISM см. в статье [Технический справочник по системе обслуживания образов развертывания и управления ими](https://technet.microsoft.com/library/dd744256\(v=ws.10\).aspx) в библиотеке документации TechNet по Windows 7.  
+   > Дополнительные сведения см. в [справочнике по DISM (система обслуживание образов развертывания и управления ими)](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-reference--deployment-image-servicing-and-management).
 
 5. После подключения загрузочного образа используйте DISM для добавления в него дополнительных компонентов. Например, в среде предустановки Windows 3.1 дополнительные компоненты находятся в папке <*путь_установки*>\Windows AIK\Tools\PETools\amd64\WinPE_FPs\\.  
 
@@ -228,7 +224,7 @@ ms.locfileid: "81709002"
     **dism.exe /image:C:\WinPEMount /add-package /packagepath:"C:\Program Files\Windows AIK\Tools\PETools\amd64\WinPE_FPs\en-us\winpe-wds-tools_en-us.cab"**  
 
    > [!TIP]
-   >  Дополнительные сведения о различных пакетах, которые могут быть добавлены в загрузочный образ, см. в статье [Добавление пакета в образ Windows PE](https://technet.microsoft.com/library/dd799312\(v=WS.10\).aspx) в библиотеке документации TechNet по Windows 7.  
+   >  Дополнительные сведения о различных пакетах, которые можно добавить в загрузочный образ, см. в статье [Добавление пакета в образ Windows PE](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-7/dd799312(v=ws.10)).
 
 6. Используйте DISM для добавления в загрузочный образ специальных драйверов, если это необходимо. Введите следующую команду для добавления в загрузочный образ драйверов, если это необходимо:  
 

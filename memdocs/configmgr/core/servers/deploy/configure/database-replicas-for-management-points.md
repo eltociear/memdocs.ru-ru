@@ -10,12 +10,12 @@ ms.assetid: b06f781b-ab25-4d9a-b128-02cbd7cbcffe
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 8d413221f7dc4ea905844ad3b2dbe08826314a54
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: eef959182b2bada4b4e0c0395cf0e17ac255ba0d
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81704672"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906544"
 ---
 # <a name="database-replicas-for-management-points-for-configuration-manager"></a>Реплики базы данных для точек управления для Configuration Manager
 
@@ -57,7 +57,7 @@ ms.locfileid: "81704672"
 
     -   База данных сайта должна **опубликовать** реплику базы данных, а каждый удаленный сервер реплики базы данных должен **подписаться** на эти опубликованные данные.  
 
-    -   Как для SQL Server с базой данных сайта, так и для SQL Server с репликой базы данных следует указать параметр **Max Text Repl Size** , равный 2 ГБ. Пример того, как выполнить эту настройку в SQL Server 2012, см. в разделе [Configure the max text repl size Server Configuration Option (Настройка параметра конфигурации сервера "max text repl size")](https://go.microsoft.com/fwlink/p/?LinkId=273960).  
+    -   Как для SQL Server с базой данных сайта, так и для SQL Server с репликой базы данных следует указать параметр **Max Text Repl Size** , равный 2 ГБ. Пример того, как выполнить эту настройку в SQL Server 2012, см. в разделе [Configure the max text repl size Server Configuration Option (Настройка параметра конфигурации сервера "max text repl size")](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-the-max-text-repl-size-server-configuration-option?view=sql-server-ver15).  
 
 -   **Самозаверяющий сертификат:** для настройки реплики базы данных необходимо создать самозаверяющий сертификат на сервере реплики базы данных и сделать его доступным для каждой точки управления, которая будет использовать этот сервер.  
 
@@ -172,7 +172,7 @@ ms.locfileid: "81704672"
         -   Если агент SQL Server выполняется под другой учетной записью, выберите параметр **Использовать следующую учетную запись Windows**, а затем настройте эту учетную запись. Можно указать учетную запись Windows или учетную запись SQL Server.  
 
         > [!IMPORTANT]  
-        >  Учетной записи, которая используется для запуска агента распространителя, необходимо предоставить разрешения к издателю как "Подписка по запросу". Сведения о настройке этих разрешений см. в статье [Безопасность агента распространителя](https://go.microsoft.com/fwlink/p/?LinkId=238463) в библиотеке TechNet для SQL Server.  
+        >  Учетной записи, которая используется для запуска агента распространителя, необходимо предоставить разрешения к издателю как "Подписка по запросу". Сведения о настройке этих разрешений см. в статье [Безопасность агента распространения](https://docs.microsoft.com/sql/relational-databases/replication/distribution-agent-security?view=sql-server-ver15).  
 
       - Параметру **Соединиться с распространителем**задайте значение **Путем олицетворения учетной записи процесса**.  
 
@@ -457,7 +457,7 @@ ms.locfileid: "81704672"
 -   Для каждой последующей реплики базы данных, которая настраивается с помощью этого сценария, обновляйте понятное имя для сертификата.  Для этого измените строку **$enrollment.CertificateFriendlyName = "ConfigMgr SQL Server Identification Certificate"** , заменив **ConfigMgr SQL Server Identification Certificate** новым именем, например  **ConfigMgr SQL Server Identification Certificate1**.  
 
 ##  <a name="manage-database-replica-configurations"></a><a name="BKMK_DBReplicaOps"></a> Управление конфигурациями реплик базы данных  
- При использовании реплики базы данных на сайте следует руководствоваться сведениями в дальнейших разделах этой статьи, связанными с процессом удаления реплики базы данных, удаления сайта, использующего реплику базы данных, или перемещения базы данных сайта на новую установку SQL Server. При применении данных в следующих разделах для удаления публикаций используйте рекомендации для удаления репликации транзакций в версии SQL Server, используемой для реплики базы данных. Например, если используется SQL Server 2008 R2, см. [How to: Delete a Publication (Replication Transact-SQL Programming)](https://go.microsoft.com/fwlink/p/?LinkId=273934) (Удаление публикации (программирование репликации на Transact-SQL)).  
+ При использовании реплики базы данных на сайте следует руководствоваться сведениями в дальнейших разделах этой статьи, связанными с процессом удаления реплики базы данных, удаления сайта, использующего реплику базы данных, или перемещения базы данных сайта на новую установку SQL Server. При применении данных в следующих разделах для удаления публикаций используйте рекомендации для удаления репликации транзакций в версии SQL Server, используемой для реплики базы данных. Дополнительные сведения см. в статье [Удаление публикации](https://docs.microsoft.com/sql/relational-databases/replication/publish/delete-a-publication?view=sql-server-ver15).  
 
 > [!NOTE]  
 >  После восстановления базы данных сайта, для которой были настроены реплики баз данных, перед использованием реплик необходимо заново настроить каждую реплику базы данных, создав публикации и подписки.  

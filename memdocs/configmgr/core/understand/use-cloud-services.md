@@ -10,12 +10,12 @@ ms.assetid: 24fca61e-9cdb-447a-ad7a-f4d2e4fd6704
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: c191debd77502f7d594a77eb3bd0c50cd6854f66
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 84cb878de3eea56dc68180a83fd4b6a32b2d1073
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81706702"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906425"
 ---
 # <a name="use-cloud-services-with-configuration-manager"></a>Использование облачных служб с Configuration Manager
 
@@ -36,7 +36,7 @@ Configuration Manager поддерживает несколько вариант
 
 -   Сведения об облачных точках распространения см. в разделе [Установка облачных точек распространения](../servers/deploy/configure/install-cloud-based-distribution-points-in-microsoft-azure.md).
 
--   Дополнительные сведения об Azure см. в разделе [Azure](https://go.microsoft.com/fwlink/p/?LinkId=262965) в библиотеке MSDN.  
+-   Дополнительные сведения об Azure см. в статье [Что такое Azure](https://azure.microsoft.com/overview/what-is-azure/).
 
 ### <a name="azure-virtual-machines-for-cloud-based-infrastructure"></a>Виртуальные машины Azure (для облачной инфраструктуры)  
  Configuration Manager поддерживает использование компьютеров, работающих в виртуальных машинах в Azure, точно так же, как и локально в физической корпоративной сети. Вы можете использовать виртуальные машины Azure в следующих сценариях.  
@@ -78,12 +78,4 @@ Configuration Manager поддерживает несколько вариант
 ##  <a name="security-for-cloud-based-services"></a><a name="BKMK_CloudSec"></a> Безопасность для облачных служб  
  Configuration Manager использует сертификаты для подготовки содержимого в Azure и доступа к нему, а также для управления службами, которые вы используете. Configuration Manager обеспечивает шифрование данных, хранящихся в Azure, но не вводит дополнительные средства обеспечения безопасности или защиты данных, кроме предусмотренных в Azure.  
 
- См. дополнительные сведения о разных сценариях использования облачных ресурсов. Кроме того, вы можете просмотреть следующие разделы о безопасности Azure.  
-
--   [Azure: общие сведения об управлении учетными записями безопасности в Azure](https://go.microsoft.com/fwlink/p/?LinkId=262968)  
-
--   [Общие сведения о безопасности в Azure](https://go.microsoft.com/fwlink/p/?LinkId=262970)  
-
--   [Вопросы безопасности при миграции в облако](https://go.microsoft.com/fwlink/p/?LinkId=262971)  
-
--   [Безопасность данных в Azure, часть 1 из 2](https://go.microsoft.com/fwlink/p/?LinkId=262974)  
+ См. дополнительные сведения о разных сценариях использования облачных ресурсов. См. также статью [Введение в систему безопасности Azure](https://docs.microsoft.com/azure/security/fundamentals/overview).

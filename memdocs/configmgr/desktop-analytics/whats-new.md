@@ -10,19 +10,19 @@ ms.assetid: fa300181-86cb-4afe-8fbf-895a7572378d
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: be314aee43e93b5e3d264c70626e2f0b85e8e7f3
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: ce882f6bfc7a0d724688d5df59051dae17d54498
+ms.sourcegitcommit: a4ec80c5dd51e40f3b468e96a71bbe29222ebafd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81706382"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "82693143"
 ---
 # <a name="whats-new-in-desktop-analytics"></a>Новые возможности Аналитики компьютеров
 
 Ознакомьтесь со сведениями о новых возможностях Аналитики компьютеров.
 
 > [!TIP]
-> Для развертывания ежемесячного обновления может потребоваться до трех дней. Поскольку внедрение некоторых функций может занимать несколько недель, они могут быть недоступны всем клиентам в течение первой недели.
+> Для развертывания ежемесячного обновления может потребоваться до трех дней. Так как внедрение некоторых функций может занимать несколько недель, они могут быть недоступны всем клиентам в течение первой недели.
 
 Чтобы получать уведомления при обновлении этой страницы, скопируйте и вставьте следующий URL-адрес в средство чтения веб-канала RSS: `https://docs.microsoft.com/api/search/rss?search=%22what%27s+new+in+desktop+analytics+-+Configuration+Manager%22&locale=en-us`.
 <!-- a locale is required for the RSS search string -->
@@ -121,3 +121,7 @@ ms.locfileid: "81706382"
 <!-- - [What's new in version 1910](../core/plan-design/changes/whats-new-in-version-1910.md#bkmk_da) -->
 
 - [Новые возможности в версии 1906](../core/plan-design/changes/whats-new-in-version-1906.md#bkmk_da)
+
+## <a name="deprecated-features"></a>Устаревшие компоненты
+
+Когда корпорация Майкрософт планирует удалить важный компонент службы "Аналитика компьютеров", она заранее сообщает об этом изменении как о прекращении поддержки компонента Configuration Manager. Дополнительные сведения см. в разделе [Устаревшие компоненты](../core/plan-design/changes/deprecated/removed-and-deprecated-cmfeatures.md#deprecated-features).

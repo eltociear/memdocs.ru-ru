@@ -2,7 +2,7 @@
 title: Microsoft Connected Cache
 titleSuffix: Configuration Manager
 description: Используйте точку распространения Configuration Manager в качестве локального сервера кэширования для оптимизации доставки
-ms.date: 03/20/2019
+ms.date: 05/05/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: c5cb5753-5728-4f81-b830-a6fd1a3e105c
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: e718e62f097a9fec20d7b29deb9f03453931188a
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: ab54d278caaeeb29bbd8871819de10af97dcf830
+ms.sourcegitcommit: 79fb3b0f0486de1644904be348b7e08048e93b18
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81696212"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82842212"
 ---
 # <a name="microsoft-connected-cache-in-configuration-manager"></a>Подключенный кэш Майкрософт в Configuration Manager
 
@@ -108,6 +108,20 @@ ms.locfileid: "81696212"
 - Вручную настройте свойства точки распространения для использования определенной буквы диска.
 
 - Если задано значение автоматической настройки, создайте файл **no_sms_on_drive.sms**. Затем внесите изменения в свойства точки распространения, чтобы активировать изменение конфигурации.
+
+### <a name="automation"></a>Автоматизация
+
+<!-- SCCMDocs#1911 -->
+
+С помощью пакета SDK для Configuration Manager можно автоматизировать настройку параметров Подключенного кэша (Майкрософт) в точке распространения. Как и в случае с ролями сайта, используйте [класс WMI SMS_SCI_SysResUse](../../../develop/reference/core/servers/configure/sms_sci_sysresuse-server-wmi-class.md). Дополнительные сведения см. в разделе [Программирование ролей сайта](../../../develop/osd/about-operating-system-deployment-site-role-configuration.md#programming-the-site-roles).
+
+При обновлении экземпляра **SMS_SCI_SysResUse** для точки распространения задайте следующие свойства:
+
+- **AgreeDOINCLicense**: задайте значение `1`, чтобы принять условия лицензионного соглашения.
+- **Flags**: Включить — `|= 4`, отключить — `&= ~4`.
+- **DiskSpaceDOINC**: задайте значение `Percentage` или `GB`.
+- **RetainDOINCCache**: задайте значение `0` или `1`.
+- **LocalDriveDOINC**: задайте значение `Automatic` либо конкретную букву диска, например `C:` или `D:`.
 
 ## <a name="verify"></a>Проверка
 

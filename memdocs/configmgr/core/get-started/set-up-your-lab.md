@@ -10,12 +10,12 @@ ms.assetid: b1970688-0cd2-404f-a17f-9e2aa4a78758
 author: aczechowski
 manager: dougeby
 ms.author: aaroncz
-ms.openlocfilehash: a23f6106a8c922b3ff4e8306fb76aec4fd26b148
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 216c61a671d7d06e434fa399bb3bae12e12f7275
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81691412"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905167"
 ---
 # <a name="set-up-a-configuration-manager-lab"></a>Настройка лабораторной среды Configuration Manager
 
@@ -31,9 +31,9 @@ ms.locfileid: "81691412"
 
 -   **В лабораторной среде используется Windows Server 2012 R2**, где будет установлен Configuration Manager.  
 
-     Вы можете скачать ознакомительную версию Windows Server 2012 R2 из [центра оценки TechNet](https://www.microsoft.com/evalcenter/evaluate-windows-server-2012).  
+     Вы можете скачать ознакомительную версию Windows Server 2012 R2 на странице [Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-windows-server-2012).  
 
-     Рассмотрите возможность изменения или отключения конфигурации усиленной безопасности Internet Explorer для упрощения доступа к некоторым скачиваемым файлам, требуемым при выполнении следующих упражнений. Дополнительные сведения см. в разделе [Internet Explorer: усиленная конфигурация безопасности](https://technet.microsoft.com/library/dd883248\(v=ws.10\).aspx).  
+     Рассмотрите возможность изменения или отключения конфигурации усиленной безопасности Internet Explorer для упрощения доступа к некоторым скачиваемым файлам, требуемым при выполнении следующих упражнений. Дополнительные сведения см. в статье [Настройка усиленной безопасности Internet Explorer](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd883248(v=ws.10)).  
 
 -   **В лабораторной среде используется SQL Server 2012 с пакетом обновления 2** для базы данных сайта.  
 
@@ -45,7 +45,7 @@ ms.locfileid: "81691412"
 
     -   **SQL_Latin1_General_CP1_CI_AS** в качестве класса **параметров сортировки SQL** .  
 
-    -   **Требуется проверка подлинности Windows**, [а не проверка подлинности SQL](https://technet.microsoft.com/library/ms144284.aspx).  
+    -   **Требуется проверка подлинности Windows**, [а не проверка подлинности SQL](https://docs.microsoft.com/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15).  
 
     -   Необходим выделенный **экземпляр SQL Server**.  
 
@@ -61,11 +61,11 @@ ms.locfileid: "81691412"
 
 -   **Контроллер домена использует Windows Server 2008 R2** с установленными доменными службами Active Directory. Контроллер домена также выступает в качестве узла для серверов DNS и DHCP с использованием по полному доменному имени.  
 
-     Дополнительные сведения см. в этом [обзоре доменных служб Active Directory](https://technet.microsoft.com/library/hh831484).  
+     Дополнительные сведения см. в этом [обзоре доменных служб Active Directory](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831484(v=ws.11)).  
 
 -   **Hyper-V используется совместно с виртуальными машинами**, чтобы обеспечить правильное выполнение действий по управлению в этих упражнениях. Рекомендуется иметь не менее трех виртуальных машин с Windows 10.  
 
-     Дополнительные сведения см. в этом [обзоре Hyper-V](https://technet.microsoft.com/library/hh831531.aspx).  
+     Дополнительные сведения см. в статье [Обзор Hyper-V](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831531(v=ws.11)).  
 
 -   **Права администратора** потребуются для всех этих компонентов.  
 
@@ -95,7 +95,7 @@ ms.locfileid: "81691412"
 Дальнейшие действия, позволяющие разрешить клиентам Configuration Manager запрашивать доменные службы Active Directory для поиска ресурсов сайта, перечислены в следующих процедурах.  
 
 ##  <a name="create-the-system-management-container"></a><a name="BKMK_CreateSysMgmtLab"></a> Создание контейнера System Management  
- При расширении схемы Configuration Manager не создает автоматически необходимый контейнер System Management в доменных службах Active Directory. Поэтому вы сами создадите его для своей лабораторной работы. Для выполнения этого действия вам необходимо [установить редактор ADSI](https://technet.microsoft.com/library/cc773354\(WS.10\).aspx#BKMK_InstallingADSIEdit)  
+ При расширении схемы Configuration Manager не создает автоматически необходимый контейнер System Management в доменных службах Active Directory. Поэтому вы сами создадите его для своей лабораторной работы. Для выполнения этого действия вам необходимо [установить редактор ADSI](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc773354(v=ws.10)).
 
  Убедитесь, что выполнен вход в систему с использованием учетной записи с правами на **Создание всех дочерних объектов** контейнера **Система** в доменных службах Active Directory.  
 
@@ -129,7 +129,7 @@ ms.locfileid: "81691412"
 
 5.  Нажмите кнопку **ОК** , чтобы закрыть консоль **Редактор ADSI** и завершить процедуру.  
 
-     Дополнительные сведения об этой процедуре см. в разделе [Расширение схемы Active Directory для Configuration Manager](../../core/plan-design/network/extend-the-active-directory-schema.md).  
+     Дополнительные сведения см. в статье [Расширение схемы Active Directory для Configuration Manager](../../core/plan-design/network/extend-the-active-directory-schema.md).  
 
 ##  <a name="extend-the-active-directory-schema-using-extadschexe"></a><a name="BKMK_ExtADSchLab"></a> Расширение схемы Active Directory с помощью файла extadsch.exe  
  Вы расширите схему Active Directory для этой лабораторной работы, так как это позволяет использовать все функции и возможности Configuration Manager при минимальной административной нагрузке. Расширение схемы Active Directory распространяется на весь лес и выполняется всего один раз для каждого леса. Расширение схемы на постоянной основе изменяет набор классов и атрибутов в базовой конфигурации Active Directory. Это действие необратимо. Расширение схемы позволяет Configuration Manager получить доступ к компонентам, которые обеспечивают наиболее эффективную работу в лабораторной среде.  
@@ -139,7 +139,7 @@ ms.locfileid: "81691412"
 
 #### <a name="to-extend-the-active-directory-schema-using-extadschexe"></a>Порядок расширения схемы Active Directory с помощью файла extadsch.exe:  
 
-1.  Создайте резервную копию состояния системы основного контроллера домена схемы. Дополнительные сведения о резервном копировании основного контроллера домена см. в статье [Архивация Windows Server](https://technet.microsoft.com/library/cc770757.aspx)  
+1.  Создайте резервную копию состояния системы основного контроллера домена схемы. Дополнительные сведения о резервном копировании основного контроллера домена см. в статье [Резервное копирование Windows Server](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770757(v=ws.11)).  
 
 2.  Перейдите в папку **\SMSSETUP\BIN\X64** на установочном носителе.  
 
@@ -147,7 +147,7 @@ ms.locfileid: "81691412"
 
 4.  Убедитесь в успешном выполнении расширения схемы, просмотрев файл **extadsch.log** , находящийся в корневой папке системного диска.  
 
-     Дополнительные сведения об этой процедуре см. в разделе [Расширение схемы Active Directory для Configuration Manager](../../core/plan-design/network/extend-the-active-directory-schema.md).  
+     Дополнительные сведения см. в статье [Расширение схемы Active Directory для Configuration Manager](../../core/plan-design/network/extend-the-active-directory-schema.md).  
 
 ##  <a name="other-required-tasks"></a><a name="BKMK_OtherTasksLab"></a> Другие необходимые задачи  
  Кроме того, перед установкой необходимо выполнить следующие задачи.  
@@ -158,7 +158,7 @@ ms.locfileid: "81691412"
 
  **Установка .NET и активация Windows Communication Foundation**  
 
- Вам потребуется установить две платформы .NET Framework — .NET 3.5.1, а затем .NET 4.5.2+. Также потребуется активировать Windows Communication Foundation (WCF). WCF предлагает удобный подход к использованию распределенных вычислений, широкие возможности взаимодействия и прямую поддержку ориентации на службы, а также упрощает разработку подключенных приложений за счет модели программирования, ориентированной на службы. Дополнительные сведения о WCF см. в статье [Что такое Windows Communication Foundation?](https://technet.microsoft.com/subscriptions/ms731082\(v=vs.90\).aspx) .  
+ Вам потребуется установить две платформы .NET Framework — .NET 3.5.1, а затем .NET 4.5.2+. Также потребуется активировать Windows Communication Foundation (WCF). WCF предлагает удобный подход к использованию распределенных вычислений, широкие возможности взаимодействия и прямую поддержку ориентации на службы, а также упрощает разработку подключенных приложений за счет модели программирования, ориентированной на службы. Дополнительные сведения см. в статье [Что такое Windows Communication Foundation](https://docs.microsoft.com/previous-versions/dotnet/netframework-3.5/ms731082(v=vs.90)).
 
 #### <a name="to-install-net-and-activate-windows-communication-foundation"></a>Порядок установки .NET и активации Windows Communication Foundation:  
 
@@ -198,27 +198,15 @@ ms.locfileid: "81691412"
 
 10. После завершения базовой установки .NET перейдите в [Центр загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=42643) , чтобы получить веб-установщик для платформы .NET Framework 4.5.2. Нажмите кнопку **Загрузка** , а затем кнопку **Запуск** для запуска установщика. Он автоматически обнаруживает и устанавливает необходимые компоненты на выбранном языке.  
 
-Дополнительные сведения о том, для чего необходимы эти платформы .NET Framework, см. в следующих статьях:  
-
--   [Версии и зависимости платформы .NET Framework](https://technet.microsoft.com/library/bb822049.aspx)  
-
--   [Пошаговое руководство по обеспечению совместимости приложений для .NET Framework 4 RTM](https://technet.microsoft.com/library/dd889541.aspx)  
-
--   [Практическое руководство. Обновление веб-приложения ASP.NET до ASP.NET 4](https://technet.microsoft.com/library/dd483478\(VS.100\).aspx)  
-
--   [Часто задаваемые вопросы о политике жизненного цикла поддержки Microsoft .NET Framework](https://support.microsoft.com/en-us/gp/framework_faq?WT.mc_id=azurebg_email_Trans_943_NET452_Update)  
-
--   [Среда CLR вдоль и поперек: In-Process Side-by-Side](https://msdn.microsoft.com/magazine/ee819091.aspx)  
-
 **Включение BITS, IIS и RDC**  
 
-[Фоновая интеллектуальная служба передачи (BITS)](https://technet.microsoft.com/library/dn282296.aspx) используется для приложений, которым требуется асинхронно передавать файлы между клиентом и сервером. Измеряя поток передач на переднем плане и в фоновом режиме, BITS позволяет другим сетевым приложениям реагировать на запросы. Она также автоматически возобновляет передачи файлов в случае прерывания сеанса передачи.  
+[Фоновая интеллектуальная служба передачи (BITS)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn282296(v=ws.11)) используется для приложений, которым требуется асинхронно передавать файлы между клиентом и сервером. Измеряя поток передач на переднем плане и в фоновом режиме, BITS позволяет другим сетевым приложениям реагировать на запросы. Она также автоматически возобновляет передачи файлов в случае прерывания сеанса передачи.  
 
 Вы установите BITS для этой лабораторной работы, и этот сервер сайта также будет использоваться в качестве точки управления.  
 
 Службы IIS представляют собой гибкий масштабируемый веб-сервер, который можно использовать для размещения чего угодно в Интернете. Он используется Configuration Manager для нескольких ролей системы сайта. Дополнительные сведения о службах IIS см. в разделе [Веб-сайты для серверов системы сайта](../../core/plan-design/network/websites-for-site-system-servers.md).  
 
-[Удаленное разностное сжатие (RDC)](https://technet.microsoft.com/library/cc754372.aspx) — это набор API-интерфейсов, которые используются приложениями, чтобы определить, были ли внесены изменения в набор файлов. RDC позволяет приложению реплицировать только измененные части файла, сводя сетевой трафик к минимуму.  
+[Удаленное разностное сжатие (RDC)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754372(v=ws.11)) — это набор API-интерфейсов, которые используются приложениями, чтобы определить, были ли внесены изменения в набор файлов. RDC позволяет приложению реплицировать только измененные части файла, сводя сетевой трафик к минимуму.  
 
 #### <a name="to-enable-bits-iis-and-rdc-site-server-roles"></a>Порядок включения ролей сервера сайта BITS, IIS и RDC:  
 

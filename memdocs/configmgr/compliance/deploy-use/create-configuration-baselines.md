@@ -10,12 +10,12 @@ ms.assetid: 678c9622-c61b-47d1-ba25-690616e431c7
 author: aczechowski
 manager: dougeby
 ms.author: aaroncz
-ms.openlocfilehash: 2028974c166e060f445b255db6c5af707725a3f4
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 1365aec90093ee24ad967e1d68e7c414b4efa254
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81693292"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906665"
 ---
 # <a name="create-configuration-baselines-in-configuration-manager"></a>Создание конфигурационных баз в Configuration Manager
 
@@ -23,6 +23,9 @@ ms.locfileid: "81693292"
 
 
 Конфигурационные базы в Configuration Manager содержат набор стандартных элементов конфигурации и иногда другие конфигурационные базы. Вы можете развернуть созданную конфигурационную базу в коллекции, чтобы устройства в этой коллекции скачали эту конфигурационную базу и произвели оценку соответствия ей.  
+
+> [!TIP]
+> Невозможно указать порядок, в котором клиент Configuration Manager будет оценивать элементы конфигурации в конфигурационной базе. Такой порядок является недетерминированным.<!-- MEMDocs#175 -->
 
 ## <a name="configuration-baselines"></a>шаблоны базовых конфигураций,
 

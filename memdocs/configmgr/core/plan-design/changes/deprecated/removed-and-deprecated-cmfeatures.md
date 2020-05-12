@@ -2,7 +2,7 @@
 title: Устаревшие компоненты
 titleSuffix: Configuration Manager
 description: Сведения о компонентах, которые больше не поддерживаются в Configuration Manager.
-ms.date: 02/25/2020
+ms.date: 05/01/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 287a6324-ae65-4d38-b2ef-198d47c91231
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 899471b03169f015caef058790b9f58200976c48
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 40eda7184d7be5010bf51e3ac0d30d6d9442203c
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81702612"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905061"
 ---
 # <a name="removed-and-deprecated-features-for-configuration-manager"></a>Удаленные и устаревшие компоненты Configuration Manager
 
@@ -29,8 +29,9 @@ ms.locfileid: "81702612"
 
 Перечислим устаревшие функции. Вы по-прежнему можете использовать их сейчас, но корпорация Майкрософт планирует прекратить их поддержку в будущем.
 
-|Компонент|Первое объявление об устаревании|Поддержка&nbsp;прекращена|  
-|-----------|---|--------------|  
+|Компонент|Первое объявление об устаревании|Поддержка&nbsp;прекращена|
+|-----------|---|--------------|
+| Параметр службы "Аналитика компьютеров" **Просмотр последних данных** для регистрации устройств и обновлений системы безопасности.<!-- 7080949 --> Дополнительные сведения см. в разделе о [задержке данных](../../../../desktop-analytics/troubleshooting.md#data-latency).|Май 2020 г.|Июль 2020 г.|
 |Реализация предоставления общего доступа к содержимому в Azure изменилась. Используйте облачный шлюз управления с включенной возможностью обслуживания содержимого. В дальнейшем нельзя будет создавать традиционные облачные точки распространения.|Февраль 2019 г.|Подлежит уточнению<sup>[Примечание 1](#bkmk_note1)</sup>|
 |Классическое развертывание службы в Azure для шлюза управления облаком и облачной точки распространения. Дополнительные сведения см. в разделе [Планирование CMG](../../../clients/manage/cmg/plan-cloud-management-gateway.md#azure-resource-manager).|Ноябрь 2018 г.|Подлежит уточнению<sup>[Примечание 1](#bkmk_note1)</sup>|
 
@@ -49,7 +50,7 @@ ms.locfileid: "81702612"
 | Приложение корпоративного портала для Configuration Manager | 21 мая 2019 г. | Версия 1910 |
 | Каталог приложений, включающий обе роли системы сайта: точка веб-сайта каталога приложений и точка веб-службы. Дополнительные сведения см. в разделе [Удаление каталога приложений](../../../../apps/plan-design/plan-for-and-configure-application-management.md#bkmk_remove-appcat). | 21 мая 2019 г. | Версия 1910 |
 |Проверка подлинности на основе сертификатов с параметрами Windows Hello для бизнеса в Configuration Manager<br>Дополнительные сведения см. в статье [Параметры Windows Hello для бизнеса в System Center Configuration Manager](../../../../protect/deploy-use/windows-hello-for-business-settings.md).|Декабрь 2017 г.|Версия 1910|
-|System Center Endpoint Protection для Mac и Linux<br>Дополнительные сведения см. в [записи блога об окончании срока поддержки](https://go.microsoft.com/fwlink/?linkid=870182).|Октябрь 2018 г.|31 декабря 2018 г.|
+|System Center Endpoint Protection для Mac и Linux<br>Дополнительные сведения см. в [записи блога об окончании срока поддержки](https://techcommunity.microsoft.com/t5/configuration-manager-blog/end-of-support-for-scep-for-mac-and-scep-for-linux-on-december/ba-p/286257).|Октябрь 2018 г.|31 декабря 2018 г.|
 |Условный доступ для локальной среды<br>Дополнительные сведения см. в статье о [прекращении использования гибридного управления мобильными устройствами (MDM)](../../../../mdm/understand/what-happened-to-hybrid.md).|30 января 2019 г.|1 сентября 2019 г.|
 |Гибридное управление мобильными устройствами (MDM)<br>Дополнительные сведения см. в статье о [прекращении использования гибридного управления мобильными устройствами (MDM)](../../../../mdm/understand/what-happened-to-hybrid.md).<br><br>Начиная с выпуска 1902 службы Intune, который ожидается в конце февраля 2019 года, для новых клиентов не будет поддерживаться создание гибридного подключения.<!--Intune feature 2683117-->|14 августа 2018 г.|1 сентября 2019 г.|
 |Расширения протокола SCAP. <!--3607889--><br>Предыдущая сертифицированная версия по-прежнему доступна в [центре загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=48741).|Сентябрь 2018 г.|Версия 1810|
@@ -79,7 +80,7 @@ ms.locfileid: "81702612"
 
 В Configuration Manager была удалена поддержка защиты доступа к сети. Компонент был объявлен устаревшим в Windows Server 2012 R2 и удален из Windows 10.  
 
-Альтернативные способы защиты доступа к сети, см. в подразделе *Устаревшие функции* раздела [Общие сведения о сетевой политике и службах доступа](https://technet.microsoft.com/library/hh831683.aspx).
+Альтернативные способы защиты доступа к сети, см. в подразделе *Устаревшие функции* раздела [Общие сведения о сетевой политике и службах доступа](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11)).
 
 ## <a name="see-also"></a>См. также
 

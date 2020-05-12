@@ -2,7 +2,7 @@
 title: Мониторинг развертываний операционных систем
 titleSuffix: Configuration Manager
 description: На консоли Configuration Manager доступны оповещения, отчеты и различные индикаторы состояния, упрощающие отслеживание объектов развертывания операционной системы.
-ms.date: 10/06/2016
+ms.date: 05/04/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-osd
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 08085d94-295c-432f-b5e3-9736bce0193b
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 9d0a430a1010611bc6a7e0871e8c59ca3d1f8de7
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 7afab9fbbb443b2f9fb4af15a3805c0b7df7a014
+ms.sourcegitcommit: 14d7dd0a99ebd526c9274d5781c298c828323ebf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81708482"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82802172"
 ---
 # <a name="monitor-operating-system-deployments-in-configuration-manager"></a>Мониторинг развертываний операционных систем в Configuration Manager
 
@@ -45,6 +45,9 @@ ms.locfileid: "81708482"
 3.  Выберите последовательность задач, для которой требуется отслеживать состояние развертывания.  
 
 4.  На вкладке **Главная** в группе **Развертывание** нажмите кнопку **Просмотр состояния**.  
+
+> [!NOTE]  
+> При запуске обновления создается сообщение о состоянии с кодом 52200. В нем указано имя пользователя, который выполнил обновление.  
 
 ##  <a name="operating-system-deployment-reports"></a><a name="BKMK_TSReports"></a> Отчеты о развертывании операционных систем  
  Существует множество предопределенных отчетов о развертывании операционных систем. Они распределены по нескольким категориям и могут использоваться для создания отчетов по конкретным сведениям, связанным с миграцией состояния и развертываниями последовательностей задач. Помимо предустановленных отчетов можно также создавать настраиваемые отчеты об обновлении программного обеспечения, адаптированные под нужды предприятия. Дополнительные сведения см. в статье [Использование и обслуживание для отчетов](../../core/servers/manage/operations-and-maintenance-for-reporting.md).  

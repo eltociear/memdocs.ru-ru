@@ -10,12 +10,12 @@ ms.assetid: 500a9aa6-68aa-44eb-bf49-350c1314a697
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: cc7eb1a8ba721545bdee50d45887ab9d3aa8e952
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: d3f01e54ba196ee9c27295d8f970a7dbe352f63f
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81704702"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906193"
 ---
 # <a name="custom-locations-for-configuration-manager-site-database-files"></a>Настраиваемые расположения для файлов базы данных сайта Configuration Manager
 
@@ -36,6 +36,6 @@ ms.locfileid: "81704702"
 
 -   На сервер сайта Configuration Manager остановите службу **SMS_Executive**.  
 
--   Следуйте инструкциям по перемещению пользовательской базы данных, приведенным в документации для вашей версии SQL Server. Например, если вы используете SQL Server 2014, см. статью [Перемещение пользовательских баз данных](https://technet.microsoft.com/library/ms345483\(v=sql.120\).aspx) на сайте TechNet.  
+-   Дополнительные сведения о перемещении пользовательской базы данных см. в [этой статье](https://docs.microsoft.com/sql/relational-databases/databases/move-user-databases?view=sql-server-2014).  
 
 -   После перемещения файлов базы данных перезапустите службу **SMS_Executive** на сервере сайта Configuration Manager.  

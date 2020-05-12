@@ -11,12 +11,12 @@ author: aczechowski
 manager: dougeby
 ms.author: aaroncz
 ROBOTS: NOINDEX
-ms.openlocfilehash: 05e7bbe6373ed91de5a2bb8e99a8425e733274f2
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 0513c1908b1360a50653931dda57e5d148055240
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81705572"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905673"
 ---
 # <a name="capabilities-in-technical-preview-1606-for-configuration-manager"></a>Возможности в Technical Preview 1606 для Configuration Manager
 
@@ -80,9 +80,9 @@ ms.locfileid: "81705572"
 
 Device Guard — это компонент Windows 10, использующий функции оборудования и программного обеспечения для строгого контроля компонентов, выполнение которых разрешено на устройстве.
 
-Подробный обзор возможностей и принципов работы Device Guard см. [в этой статье Technet](https://technet.microsoft.com/itpro/windows/whats-new/device-guard-overview).
+Дополнительные сведения см. в статье [Общие сведения о Device Guard](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control).
 
-В этом выпуске Configuration Manager может взаимодействовать с Device Guard и [Windows AppLocker](https://technet.microsoft.com/library/dd723678(v=ws.10).aspx), чтобы автоматически объявлять доверенными исполняемые файлы и DLL-файлы, развернутые с помощью Configuration Manager, поступающие из управляемого установщика: т. е. им будет разрешено выполняться на целевом устройстве, тогда как другое программное обеспечение будет блокироваться, если его выполнение явно не разрешено другими правилами AppLocker.  
+В этом выпуске Configuration Manager может взаимодействовать с Device Guard и [Windows AppLocker](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd723678(v=ws.10)), чтобы автоматически объявлять доверенными исполняемые файлы и DLL-файлы, развернутые с помощью Configuration Manager, поступающие из управляемого установщика: т. е. им будет разрешено выполняться на целевом устройстве, тогда как другое программное обеспечение будет блокироваться, если его выполнение явно не разрешено другими правилами AppLocker.  
 
 В настоящее время эту возможность нельзя настроить из консоли Configuration Manager. Настройка политики требует настройки раздела реестра на каждом клиенте и настройки служб Windows на клиентском компьютере.
 После этого настройте файл политики AppLocker. После настройки файла политики можно развернуть его на любом совместимом клиентском устройстве.
@@ -93,13 +93,11 @@ Device Guard — это компонент Windows 10, использующий
 - Режим аудита — выполнение приложений не запрещается, однако все приложения, которые подлежат блокировке, передаются в файл журнала (это будет поддерживаться в более позднем выпуске Configuration Manager).
 - Принудительное применение включено — выполнение приложений блокируется.
 
-Дополнительные сведения об использовании Device Guard с Configuration Manager можно найти в [блоге, посвященном корпоративной мобильности и безопасности](https://blogs.technet.microsoft.com/enterprisemobility/2016/06/20/configmgr-as-a-managed-installer-with-win10).
+Дополнительные сведения см. в следующих статьях:
 
-Дополнительные сведения
+- [Основные сведения о Device Guard](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
-- [Основные сведения о Device Guard](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
-- [Сертификация Device Guard и соответствие требованиям](https://technet.microsoft.com/itpro/windows/keep-secure/device-guard-certification-and-compliance)
-- [Руководство по развертыванию Device Guard](https://technet.microsoft.com/itpro/windows/keep-secure/device-guard-deployment-guide)
+- [Планирование и начало развертывания функции управления приложениями в Защитнике Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide)
 
   ##  <a name="multiple-device-management-points-for-on-premises-mobile-device-management"></a><a name="dmp_onprem"></a> Несколько точек управления мобильными устройствами для локального управления мобильными устройствами  
   В Technical Preview 1606 локальное управление мобильными устройствами (MDM) теперь поддерживает новую возможность в Windows 10 Anniversary Update, которая автоматически настраивает зарегистрированное устройство для поддержки нескольких доступных для использования точек управления устройствами. Эта возможность обеспечивает переход устройства на другую точку управления устройствами в случае отсутствия доступа к обычно используемой точке. Она работает только для компьютеров с установленным обновлением Windows 10 Anniversary Update.  
@@ -221,7 +219,7 @@ Device Guard — это компонент Windows 10, использующий
 
 Начиная с Technical Preview 1606 разрешить клиентам Office 365 получать обновления из Configuration Manager можно с помощью параметра агента клиента Configuration Manager, а не групповой политики. После настройки этого параметра и развертывания обновлений Office 365 агент клиента Configuration Manager взаимодействует с агентом клиента Office 365 для загрузки обновлений Office 365 из точки распространения и их установки. Configuration Manager также принимает данные инвентаризации параметра агента клиента.
 
-Дополнительные сведения см. в статье [Управление обновлениями Office 365 профессиональный плюс](https://technet.microsoft.com/library/mt741983.aspx).
+Дополнительные сведения см. в статье [Управление обновлениями Office 365 профессиональный плюс](../../sum/deploy-use/manage-office-365-proplus-updates.md).
 
 ### <a name="set-the-configuration-manager-client-setting-to-manage-the-office-365-client-agent"></a>Задание параметра клиента Configuration Manager для управления агентом клиента Office 365
 1.  В консоли Configuration Manager щелкните **Администрирование** > **Обзор** > **Параметры клиента**.

@@ -10,12 +10,12 @@ ms.assetid: f3058277-c597-4dac-86d1-41b6f7e62b36
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 9389f407f8bdbafd057770ff63ed9b139e6600b5
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: a8eed671b723091f2a43350f42ca82d90e0d9da3
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81704272"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906137"
 ---
 # <a name="use-the-hotfix-installer-to-install-updates-for-configuration-manager"></a>Использование установщика исправлений для установки обновлений для Configuration Manager
 
@@ -169,7 +169,7 @@ ms.locfileid: "81704272"
 Если удалить и затем переустановить поставщик SMS на компьютере, необходимо переустановить обновление для поставщика SMS на этом компьютере.  
 
 ###  <a name="update-clients"></a><a name="BKMK_clients"></a> Обновление клиентов  
-При установке обновления, которое включает в себя обновления для клиента Configuration Manager, предоставляется возможность автоматически обновить клиенты при установке обновления или позже сделать это вручную. Дополнительные сведения о методе автоматического обновления клиентов см. в разделе [Обновление клиентов для компьютеров Windows](https://technet.microsoft.com/library/mt627885.aspx).  
+При установке обновления, которое включает в себя обновления для клиента Configuration Manager, предоставляется возможность автоматически обновить клиенты при установке обновления или позже сделать это вручную. Дополнительные сведения о методе автоматического обновления клиентов см. в разделе [Обновление клиентов для компьютеров Windows](../../clients/manage/upgrade/upgrade-clients-for-windows-computers.md).  
 
 Можно развернуть обновления с помощью Updates Publisher или пакета развертывания программного обеспечения, а также вручную установить обновление на каждом клиенте. Дополнительные сведения об использовании развертывания для установки обновлений см. в разделе [Развертывание обновлений для Configuration Manager](#BKMK_Deploy) этой статьи.  
 
@@ -207,7 +207,7 @@ ms.locfileid: "81704272"
 > [!IMPORTANT]  
 > Поскольку SCUPCatalog.cab создается с использованием путей, относящихся к серверу сайта, на котором устанавливается пакет обновлений, его нельзя использовать для других серверов сайта.  
 
-После завершения работы мастера можно импортировать каталог в Updates Publisher, а затем использовать обновления программного обеспечения Configuration Manager для развертывания обновлений. Сведения об Updates Publisher см. в разделе [Updates Publisher 2011](https://go.microsoft.com/fwlink/p/?LinkID=83449) в библиотеке TechNet для System Center 2012.  
+После завершения работы мастера можно импортировать каталог в Updates Publisher, а затем использовать обновления программного обеспечения Configuration Manager для развертывания обновлений. Дополнительные сведения об Updates Publisher см. в статье [Updates Publisher 2011](https://docs.microsoft.com/previous-versions/system-center/updates-publisher-2011/hh134742(v=technet.10)).  
 
 Используйте следующую процедуру для импорта файла SCUPCatalog.cab в Updates Publisher и публикации обновлений.  
 

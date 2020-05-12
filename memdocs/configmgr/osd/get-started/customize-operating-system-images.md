@@ -10,12 +10,12 @@ ms.assetid: 95033a9b-ff13-4b70-b1de-bcb25bcb6024
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 9a1dcd3528f4dbaacec81837150d6f8a1ad6c455
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 652a0c5e36ce7c4bacf40531a82fdf4e16197d95
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81708962"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906913"
 ---
 # <a name="customize-operating-system-images-with-configuration-manager"></a>Настройка образов операционных систем с помощью Configuration Manager
 
@@ -95,7 +95,7 @@ ms.locfileid: "81708962"
     > [!IMPORTANT]  
     >  Перед выполнением средства Sysprep шаг [Подготовка Windows перед снятием образа](../understand/task-sequence-steps.md#BKMK_PrepareWindowsforCapture) последовательности задач пытается сбросить пароль локального администратора до пустого значения на компьютере-образце. Если включена локальная политика безопасности **Пароль должен отвечать требованиям сложности** , сделать это не удастся. В этом случае отключите эту политику перед выполнением последовательности задач.  
 
-     Дополнительные сведения о Sysprep см. в разделе [Техническое руководство по средству подготовки системы (Sysprep)](https://go.microsoft.com/fwlink/?LinkId=280286).  
+     Дополнительные сведения о SysPrep см. в статье [Обзор средства SysPrep](https://docs.microsoft.com/windows-hardware/manufacture/desktop/sysprep--system-preparation--overview).  
 
 -   **Соответствующие средства и скрипты, необходимые для успешного выполнения сценариев установки**  
 

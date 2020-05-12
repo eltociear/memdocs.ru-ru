@@ -10,17 +10,17 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: e3f835f3fb583569cf0f2701188a787f1ce2715a
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 3be8ffa70d27c20f40e0b64d99ff4eebf7c7edbb
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81693342"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906242"
 ---
 # <a name="learn-more-about-available-updates-for-configuration-manager"></a>Дополнительные сведения о доступных обновлениях для Configuration Manager
 
 *Область применения: Configuration Manager (Current Branch)*
 
-Если используется окончательная версия Configuration Manager, см. раздел [Новые возможности](https://technet.microsoft.com/library/mt622084.aspx).  
+Если используется окончательная версия Configuration Manager, см. раздел [Новые возможности](/../plan-design/changes/what-has-changed-from-configuration-manager-2012.md).
 
- Если используется версия Technical Preview Configuration Manager, см. раздел [Technical Preview для Configuration Manager](https://technet.microsoft.com/library/mt595861.aspx).
+Если используется Configuration Manager версии Technical Preview, см. раздел [Technical Preview для Configuration Manager](../get-started/technical-preview.md).

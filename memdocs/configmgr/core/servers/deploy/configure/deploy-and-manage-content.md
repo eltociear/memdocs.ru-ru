@@ -10,12 +10,12 @@ ms.assetid: d50dcca0-4419-449d-a487-73abcadf328f
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 7478eff1a14eeffd4d12b1539df7c5573c6a7cb6
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 00a44123bc074c671f9b3d73af66b8d79c3ff433
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81707262"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906496"
 ---
 # <a name="deploy-and-manage-content-for-configuration-manager"></a>Развертывание содержимого и управление им с помощью Configuration Manager
 
@@ -409,7 +409,7 @@ ms.locfileid: "81707262"
 
 Используйте принудительную репликацию, только если необходимо принудительно распространить содержимое после возникновения проблем с обычной репликацией содержимого (обычно проверяется с помощью узла "Наблюдение" консоли).   
 
-Дополнительные сведения об этом параметре SDK см. в разделе [Метод RetryContentReplication класса SMS_CM_UpdatePackages](https://msdn.microsoft.com/library/mt762092(CMSDK.16).aspx) на сайте MSDN.Microsoft.com.
+Дополнительные сведения об этом параметре SDK см. в разделе [Метод RetryContentReplication класса SMS_CM_UpdatePackages](../../../../develop/reference/sum/retrycontentreplication-method-in-class-sms_cm_updatepackages.md).
 
 ### <a name="remove-content"></a>Удаление содержимого
 Если содержимое больше не нужно в точках распространения, можно удалить файлы содержимого из точек распространения.  

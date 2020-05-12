@@ -10,12 +10,12 @@ ms.assetid: 65c88e54-3574-48b0-a127-9cc914a89dca
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 253de522937e48fa1f3939c7303faf7e43e4e047
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 567c03d231c145718f4f960bda7073ba4b904de2
+ms.sourcegitcommit: d1c7548b4177d720065b822356f9a08d1e1657c2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81704542"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82880998"
 ---
 # <a name="the-content-library-in-configuration-manager"></a>Библиотека содержимого в Configuration Manager
 
@@ -196,3 +196,5 @@ Configuration Manager использует библиотеку содержим
 - Чтобы определить, нет ли расхождений хэша, проверьте пакет в консоли Configuration Manager.  
 
 - В качестве последней меры повторно распространите содержимое. Это должно решить большинство проблем.  
+
+Дополнительные сведения см. в статье [Основные сведения о распространении содержимого в Configuration Manager и устранение соответствующих неполадок](https://support.microsoft.com/help/4482728/understand-troubleshoot-content-distribution-in-configuration-manager).

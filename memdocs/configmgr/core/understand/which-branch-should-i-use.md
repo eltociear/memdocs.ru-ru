@@ -10,12 +10,12 @@ ms.assetid: a3be4f8f-3d44-4e3c-9fa1-e85f30a36e72
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: c7a505296fe51aae996d429fe7da2033d3a787ff
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 542069b82ea4c68a48ccc47b79007fd2fa25322a
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81706672"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82906013"
 ---
 # <a name="which-branch-of-configuration-manager-should-i-use"></a>Какую ветвь Configuration Manager следует использовать?
 
@@ -47,7 +47,7 @@ ms.locfileid: "81706672"
 
 Для установки ветви Current Branch в качестве нового сайта можно использовать [базовый носитель](../servers/manage/updates.md#bkmk_Baselines). Кроме того, базовый носитель можно использовать для обновления System Center 2012 Configuration Manager с пакетом обновления 2 (SP2) или System Center 2012 R2 Configuration Manager с пакетом обновления 1 (SP1). Доступ к носителю зависит от способа лицензирования Configuration Manager в организации.
 
-Базовый носитель также можно использовать для установки нового сайта в качестве ознакомительной версии Current Branch. Для ознакомительной версии лицензия не требуется. Ознакомительная версия предоставляется на 180 дней. Она поддерживает обновление до лицензионной версии Current Branch. Чтобы установить только ознакомительную версию, получите ее на веб-сайте [центра оценки TechNet](https://www.microsoft.com/evalcenter/evaluate-system-center-configuration-manager-and-endpoint-protection).
+Базовый носитель также можно использовать для установки нового сайта в качестве ознакомительной версии Current Branch. Для ознакомительной версии лицензия не требуется. Ознакомительная версия предоставляется на 180 дней. Она поддерживает обновление до лицензионной версии Current Branch. Чтобы установить только ознакомительную версию, получите ее на странице [Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-system-center-configuration-manager-and-endpoint-protection).
 
 > [!NOTE]
 > Базовый носитель используется только для установки сайтов для новой иерархии Configuration Manager. Если вы ранее установили базовую версию, для обновления сайтов до новой версии воспользуйтесь обновлениями в консоли.  
@@ -89,7 +89,7 @@ ms.locfileid: "81706672"
 >  
 > Чтобы найти Configuration Manager версии 1606 в Volume Licensing Service Center (VLSC), перейдите на вкладку **Downloads and Keys** (Файлы для скачивания и ключи) сайта [VLSC](https://www.microsoft.com/Licensing/servicecenter/Downloads/DownloadsAndKeys.aspx), выполните поиск по запросу `System Center 2016`, а затем выберите **System Center 2016 Datacenter** или **System Center 2016 Standard**.  
 >  
-> Ознакомительную версию System Center 2016 также можно скачать в [Центре оценки TechNet](https://www.microsoft.com/evalcenter/evaluate-system-center-technical-preview).  
+> Ознакомительную версию System Center 2016 также можно скачать на странице [Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-system-center-technical-preview).  
 
 ### <a name="features-of-the-ltsb"></a>Возможности LTSB
 

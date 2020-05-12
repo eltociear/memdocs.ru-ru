@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.prod: configuration-manager
 ms.technology: configmgr-comanage
 ms.assetid: 4c90befe-9c4e-4c27-a947-625887e15052
-ms.openlocfilehash: 8c91ba1c2b4b5ef7072c030eddd9b97dd69933e5
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 928ef8a8ebc90807912f22901743725df9aa67e7
+ms.sourcegitcommit: 79fb3b0f0486de1644904be348b7e08048e93b18
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82075716"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82842229"
 ---
 # <a name="co-management-workloads"></a>Рабочие нагрузки совместного управления
 
@@ -75,14 +75,13 @@ ms.locfileid: "82075716"
 - Управление приложениями в Защитнике Windows  
 - Центр безопасности Защитника Windows  
 - Advanced Threat Protection в Защитнике Windows (сейчас называется Advanced Threat Protection в Microsoft Defender)
-- Windows Information Protection  
 
 Дополнительные сведения об этой функции Intune см. в статье [Параметры Windows 10 (и более поздних версий) для защиты устройств с помощью Intune](https://docs.microsoft.com/intune/endpoint-protection-windows-10).
 
 > [!Note]  
 > При переключении этой рабочей нагрузки политики Configuration Manager используются на устройстве, пока не будут заменены политиками Intune. Такое поведение гарантирует, что политики будут использоваться на устройстве во время перехода.
 >
-> Рабочая нагрузка Endpoint Protection также включена в конфигурацию устройства. Это же поведение политики применяется, когда вы переключаете рабочую нагрузку [конфигурации устройства](#device-configuration).<!-- SCCMDocs.nl-nl issue #4 -->
+> Рабочая нагрузка Endpoint Protection также включена в конфигурацию устройства. Это же поведение политики применяется, когда вы переключаете рабочую нагрузку [конфигурации устройства](#device-configuration).<!-- SCCMDocs.nl-nl issue #4 --> При переключении рабочей нагрузки конфигурация устройства также будут включены политики для функции Information Protection в Windows, которая не включена в рабочую нагрузку Endpoint Protection.<!-- 4184095 -->
 >
 > На параметры антивирусной программы в Microsoft Defender, которые относятся к типу профиля ограничений устройства для конфигурации устройств Intune, ползунок Endpoint Protection не действует. Чтобы управлять параметрами антивирусной программы в Microsoft Defender для совместно управляемых устройств с включенным ползунком Endpoint Protection, воспользуйтесь новыми политиками антивирусной защиты в **центре администрирования Microsoft Endpoint Manager** > **Безопасность конечной точки** > **Антивирус**. Эта политика нового типа содержит новые и улучшенные параметры, а также поддерживает все параметры, доступные в профиле ограничений устройства. <!--6609171-->
 >
@@ -97,6 +96,9 @@ ms.locfileid: "82075716"
 Вы по-прежнему сможете развертывать из Configuration Manager параметры в совместно управляемые устройства, даже если Intune является центром конфигурации устройств. Такое исключение допускается для настройки параметров, которые нужны для вашей организации, но пока не доступны в Intune. Укажите это исключение в [конфигурационной базе Configuration Manager](../compliance/deploy-use/create-configuration-baselines.md). Включите параметр **Всегда применять эти базовые показатели даже для совместно управляемых клиентов** при создании базовой конфигурации. Вы сможете позднее изменить этот параметр на вкладке **Общие**, где собраны свойства существующей базовой конфигурации.  
 
 Дополнительные сведения об этой функции Intune см. в статье [Создайте профиль устройства в Microsoft Intune](https://docs.microsoft.com/intune/device-profile-create).  
+
+> [!NOTE]
+> При переключении рабочей нагрузки конфигурация устройства также будут включены политики для функции Information Protection в Windows, которая не включена в рабочую нагрузку Endpoint Protection.<!-- 4184095 -->
 
 ## <a name="office-click-to-run-apps"></a>Приложения Office "нажми и работай"
 

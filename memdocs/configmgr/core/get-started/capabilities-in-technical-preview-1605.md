@@ -11,12 +11,12 @@ author: aczechowski
 manager: dougeby
 ms.author: aaroncz
 ROBOTS: NOINDEX
-ms.openlocfilehash: c38230b44f7f18e3f60cb4c88b31a03e10a37d30
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: d52725e0127f7129a3962cd3ef178d2540bb785a
+ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81705602"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82905737"
 ---
 # <a name="capabilities-in-technical-preview-1605-for-configuration-manager"></a>Возможности в Technical Preview 1605 для Configuration Manager
 
@@ -192,7 +192,7 @@ ms.locfileid: "81705602"
 
 #### <a name="general-prerequisites"></a>Основные обязательные требования  
 
--   Убедитесь, что вы выполнили [шаги подготовки к локальному управлению мобильными устройствами](https://technet.microsoft.com/library/mt613153.aspx) и [зарегистрировали устройства](https://technet.microsoft.com/library/mt627870.aspx).  
+-   Убедитесь, что вы выполнили [действия по подготовке к локальному управлению мобильными устройствами](../../mdm/plan-design/plan-on-premises-mdm.md) и [зарегистрировали устройства](../../mdm/deploy-use/enroll-devices-on-premises-mdm.md).  
 
 -   Для максимально эффективной установки приложений при использовании корпоративного портала убедитесь, что Configuration Manager имеет активное подключение к Microsoft Intune.  
 
@@ -284,7 +284,7 @@ ms.locfileid: "81705602"
 
 #### <a name="to-create-a-collection-for-a-server-group"></a>Создание коллекции для группы серверов  
 
-1.  [Создайте коллекцию устройств](https://technet.microsoft.com/library/gg712295.aspx), содержащую компьютеры в группе серверов.  
+1.  [Создайте коллекцию устройств](../clients/manage/collections/create-collections.md), содержащую компьютеры в группе серверов.  
 
 2.  В рабочей области **Активы и соответствие** выберите **Коллекции устройств**, щелкните правой кнопкой мыши коллекцию, содержащую компьютеры в группе серверов, и выберите пункт **Свойства**.  
 
@@ -325,9 +325,9 @@ ms.locfileid: "81705602"
 
 #### <a name="to-deploy-software-updates-to-the-server-group-and-monitor-status"></a>Развертывание обновлений программного обеспечения в группе серверов и отслеживание состояния  
 
-1.  [Разверните обновления программного обеспечения](https://technet.microsoft.com/library/gg712304.aspx) в коллекции группы серверов.  
+1.  [Разверните обновления программного обеспечения](../../sum/deploy-use/deploy-software-updates.md) в коллекции группы серверов.  
 
-2.  [Осуществляйте мониторинг развертывания обновлений программного обеспечения](https://technet.microsoft.com/library/gg712304.aspx). Помимо стандартных представлений мониторинга для развертывания обновлений программного обеспечения отображается описание нового состояния, если клиент ожидает своей очереди на установку обновлений программного обеспечения. В качестве нового состояния отображается **Ожидание блокировки**.  
+2.  [Осуществляйте мониторинг развертывания обновлений программного обеспечения](../../sum/deploy-use/monitor-software-updates.md). Помимо стандартных представлений мониторинга для развертывания обновлений программного обеспечения отображается описание нового состояния, если клиент ожидает своей очереди на установку обновлений программного обеспечения. В качестве нового состояния отображается **Ожидание блокировки**.  
 
 #### <a name="to-clear-the-deployment-locks-for-computers-in-a-server-group"></a>Снятие блокировок развертывания для компьютеров в группе серверов  
 
