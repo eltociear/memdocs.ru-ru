@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: cc1b11fe533499ebe29101c09fb1355cd8d04243
-ms.sourcegitcommit: 53bab52e42de28b87e53596646a3532e25eb9c14
+ms.openlocfilehash: 373c3c5a6a3167943d78e5a17ac9b7cab8afba8a
+ms.sourcegitcommit: 0f02742301e42daaa30e1bde8694653e1b9e5d2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "82183081"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82943864"
 ---
 # <a name="manage-web-access-by-using-microsoft-edge-with-microsoft-intune"></a>Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune
 
@@ -351,7 +351,7 @@ Microsoft Edge можно использовать как браузер, защ
 
 |    Key    |    Значение    |
 |-----------------------|-----------------------|
-|    `com.microsoft.intune.mam.managedbrowser.disableFeatures`    |    Если установлено значение **password**, запросы на сохранение паролей не будут отображаться для конечных пользователей.    |
+|    `com.microsoft.intune.mam.managedbrowser.disabledFeatures`    |    Если установлено значение **password**, запросы на сохранение паролей не будут отображаться для конечных пользователей.    |
 
 ### <a name="disable-users-from-adding-extensions-to-microsoft-edge"></a>Запрет на добавление пользователями расширений в Microsoft Edge 
 
