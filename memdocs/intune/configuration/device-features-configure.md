@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4ffa3d11b92c38373da22e53b96fe9cf9e520b5b
-ms.sourcegitcommit: af8a3efd361a7f3fa6e98e5126dfb1391966ff76
+ms.openlocfilehash: 8e72fc48608ebf32f3e32d4a94ab7203ee418d8f
+ms.sourcegitcommit: 0f02742301e42daaa30e1bde8694653e1b9e5d2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82149187"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82943813"
 ---
 # <a name="add-ios-ipados-or-macos-device-feature-settings-in-intune"></a>Добавление параметров для функций устройств iOS, iPadOS или macOS в Intune
 
@@ -153,7 +153,7 @@ AirPrint — это функция Apple, позволяющая устройс
 
 В Intune эти параметры можно использовать для настройки расширения для приложения единого входа, созданного вашей организацией, поставщиком удостоверений, Майкрософт или Apple. Расширение для приложения единого входа выполняет проверку подлинности пользователей. Эти параметры настраивают расширения для приложения единого входа с типом перенаправления и типом учетных данных.
 
-- Тип перенаправления предназначен для современных протоколов проверки подлинности, например OAuth и SAML2. На устройствах macOS можно использовать универсальное расширение перенаправления. Для устройств iOS и iPadOS можно выбрать между расширением единого входа Microsoft Azure AD ([подключаемый модуль единого входа Microsoft Enterprise](https://docs.microsoft.com/azure/active-directory/develop/apple-sso-plugin)) и универсальным расширением перенаправления.
+- Тип перенаправления предназначен для современных протоколов проверки подлинности, например OpenID Connect, OAuth и SAML2. На устройствах macOS можно использовать универсальное расширение перенаправления. Для устройств iOS и iPadOS можно выбрать между расширением единого входа Microsoft Azure AD ([подключаемый модуль единого входа Microsoft Enterprise](https://docs.microsoft.com/azure/active-directory/develop/apple-sso-plugin)) и универсальным расширением перенаправления.
 - Тип учетных данных предназначен для потоков проверки подлинности с запросом и ответом. Вы можете выбрать между расширением для учетных данных Kerberos, предоставляемых Apple, и расширением для общих учетных данных.
 
 Список параметров, которые можно настроить в Intune, см. в разделах [Расширение для приложения единого входа в iOS/iPadOS](ios-device-features-settings.md#single-sign-on-app-extension) и [Расширение для приложения единого входа в macOS](macos-device-features-settings.md#single-sign-on-app-extension).

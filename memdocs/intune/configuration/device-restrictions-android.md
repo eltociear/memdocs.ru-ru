@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 4afc27680c464f67756340ebcb0958887ae6f795
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 5fc11d7302c30dd53314eb2312d37842b081a6b3
+ms.sourcegitcommit: 5f9d5d22114ae5aeb0270c7fb59c5dced5f48826
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80407873"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82862366"
 ---
 # <a name="android-and-samsung-knox-standard-device-restriction-settings-lists-in-intune"></a>Списки параметров ограничений для устройств Android и Samsung KNOX Standard в Intune
 
@@ -114,7 +114,7 @@ ms.locfileid: "80407873"
 - **Не настроено** (по умолчанию). Intune не изменяет или не обновляет этот параметр.
 - **Запрещенные приложения**. Указывает приложения, не управляемые Intune, которые пользователям запрещено устанавливать и запускать. Если пользователь установит приложение из этого списка, Intune сообщит вам об этом.
 - **Утвержденные приложения**. Указывает приложения, которые пользователям разрешено устанавливать. Для сохранения совместимости пользователям не следует устанавливать другие приложения.  Приложения под управлением Intune автоматически разрешены, включая приложение Корпоративного портала.
-- **Список приложений**. **Добавьте** приложение:
+- **Список приложений**. **Добавление** собственного приложения.
   - **Идентификатор пакета приложений**. Введите идентификатор пакета приложения.
   - **URL в App Store**. Введите URL-адрес Google Play Маркет для выбранного приложения. Например, чтобы добавить приложение "Удаленный рабочий стол (Майкрософт)" для Android, введите `https://play.google.com/store/apps/details?id=com.microsoft.rdc.android`.
 

@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/19/2020
+ms.date: 05/07/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 64356bf9be0c2c439c1f4fc296a9728a7937b001
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: c72d2f8d9bd6a7235845863000272f605bb41089
+ms.sourcegitcommit: 0f02742301e42daaa30e1bde8694653e1b9e5d2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80086553"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82943830"
 ---
 # <a name="create-vpn-profiles-to-connect-to-vpn-servers-in-intune"></a>Создание профилей VPN для подключения к VPN-серверам в Intune
 
@@ -182,7 +182,13 @@ ms.locfileid: "80086553"
 
 При создании профиля VPN вы выбираете профиль сертификата SCEP или PKCS, созданный ранее в Intune. Этот профиль называется сертификатом удостоверения. Он используется для проверки подлинности по профилю доверенного сертификата (или *корневого сертификата*), созданного, чтобы разрешить подключение устройства пользователя. Доверенный сертификат назначается компьютеру, выполняющему проверку подлинности VPN-подключения, как правило VPN-сервера.
 
+Если для профиля VPN используется проверка подлинности на основе сертификата, разверните профиль VPN, профиль сертификата и доверенный корневой профиль в тех же группах, чтобы каждое устройство признавало законность вашего центра сертификации.
+
 Дополнительные сведения о способах создания и использования профилей сертификатов см. в статье [о настройке сертификатов с помощью Microsoft Intune](../protect/certificates-configure.md).
+
+> [!NOTE]
+> Сертификаты, добавленные с помощью типа профиля **Импортированный сертификат PKCS**, не поддерживаются для аутентификации VPN. Сертификаты, добавленные с помощью типа профиля **Сертификаты PKCS**, поддерживаются для аутентификации VPN.
+
 
 ### <a name="user-name-and-password"></a>Имя пользователя и пароль.
 

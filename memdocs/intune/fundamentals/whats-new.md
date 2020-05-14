@@ -6,7 +6,7 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 04/30/2020
+ms.date: 05/04/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: bf490c71fdc94b974e53a9d0f388a777e986f13c
-ms.sourcegitcommit: 8a8378b685a674083bfb9fbc9c0662fb0c7dda97
+ms.openlocfilehash: 5b3c8287d9b5ca2d46094d04ee2179128bead4a8
+ms.sourcegitcommit: 0dafd513a59afe592b5cfe2a80b6288020dc5bf0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "82619582"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82991743"
 ---
 # <a name="whats-new-in-microsoft-intune"></a>Новые возможности Microsoft Intune
 
@@ -51,6 +51,14 @@ ms.locfileid: "82619582"
 ### Device security
 ### Intune apps
 ### Monitor and troubleshoot
+
+<!-- ########################## -->
+## <a name="week-of-may-4-2020"></a>Неделя начиная с 4 мая 2020 г.  
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->  
+
+### <a name="company-portal-for-android-guides-users-to-get-apps-after-work-profile-enrollment----6103999---"></a>Корпоративный портал для Android позволяет пользователям получать приложения после регистрации рабочего профиля <!-- 6103999 -->
+Мы улучшили встроенное руководство по работе для Корпоративного портала, чтобы пользователи могли легко находить и устанавливать приложения. После регистрации для управления рабочим профилем пользователи получат сообщение о том, как найти рекомендуемые приложения в версии Google Play с эмблемой. Последний шаг при [регистрации устройства с помощью профиля Android](../user-help/enroll-device-android-work-profile.md) был обновлен для отображения нового сообщения. Пользователи также увидят новую ссылку **Получить приложения** на панели Корпоративного портала слева. Чтобы вы могли использовать эти новые и улучшенные возможности, мы удалили вкладку **Приложения**. Чтобы просмотреть обновленные экраны, перейдите в раздел [обновлений пользовательского интерфейса для приложений пользователей Intune](./whats-new-app-ui.md). 
 
 <!-- ########################## -->
 ## <a name="week-of-april-20-2020"></a>Неделя, начиная с 20 апреля 2020 г.

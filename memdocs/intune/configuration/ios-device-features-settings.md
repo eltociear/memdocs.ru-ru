@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 04/27/2020
+ms.date: 05/07/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: configuration
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: ''
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: af60c16c4a7c9d27409f82cfc53d5c345dfe1af0
-ms.sourcegitcommit: f94cdca69981627d6a3471b04ac6f0f5ee8f554f
+ms.openlocfilehash: fce26aab90989f31ee56a9abd58f617c780d9c4b
+ms.sourcegitcommit: 0f02742301e42daaa30e1bde8694653e1b9e5d2a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "82210256"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82943881"
 ---
 # <a name="ios-and-ipados-device-settings-to-use-common-iosipados-features-in-intune"></a>Параметры устройств с iOS/iPadOS для использования распространенных возможностейiOS/iPadOS в Intune
 
@@ -107,7 +107,7 @@ ms.locfileid: "82210256"
       На панель закрепления устройства можно добавить до **20** страниц.
 
 > [!NOTE]
-> При добавлении значков через команды закрепления значки начального экрана и на страницах будут заблокированы, и их невозможно будет переместить. Это может быть предусмотрено архитектурой системы iOS/iPadOS и политиками MDM Apple.
+> При использовании параметров макета начального экрана для добавления страниц или добавления страниц и приложений на панель закрепления значки на начальном экране и страницах блокируются. Их нельзя переместить или удалить. Это может быть предусмотрено дизайном iOS и iPadOS и политиками MDM Apple.
 
 #### <a name="example"></a>Пример
 

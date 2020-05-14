@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 81e5dc772ca85bf124af3da33a263b683ea0885b
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 2ea6d407417300d2b758861ed35fcecc88f7ec74
+ms.sourcegitcommit: 0dafd513a59afe592b5cfe2a80b6288020dc5bf0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80326966"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82991703"
 ---
 # <a name="deploy-hybrid-azure-ad-joined-devices-by-using-intune-and-windows-autopilot"></a>Развертывание гибридных устройств, присоединенных к Azure AD, с помощью Intune и Windows Autopilot
 С помощью Intune и Windows Autopilot можно настраивать гибридные устройства, присоединенные к Azure Active Directory (Azure AD). Для этого выполните действия, описанные в этой статье.
@@ -108,6 +108,8 @@ ms.locfileid: "80326966"
 ## <a name="install-the-intune-connector"></a>Установка соединителя Intune
 
 Соединитель Intune для Active Directory должен быть установлен на компьютере с ОС Windows Server 2016 или более поздней версии. Этот компьютер должен иметь доступ к Интернету и Active Directory. Для повышения масштабируемости и доступности или поддержки нескольких доменов Active Directory можно установить несколько соединителей в среде. Мы рекомендуем установить соединитель на сервере, на котором не выполняются другие соединители Intune.
+
+Для соединителя Intune требуются [те же конечные точки, что и для Intune](../fundamentals/intune-endpoints.md).
 
 1. В [Центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Windows** > **Регистрация Windows** > **Соединитель Intune для Active Directory** > **Добавить**. 
 2. Скачайте соединитель, следуя инструкциям.

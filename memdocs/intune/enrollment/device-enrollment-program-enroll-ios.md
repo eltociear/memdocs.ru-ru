@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: db9164d68783356faf01fe4fc4e8d74f2a4b0869
-ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
+ms.openlocfilehash: dd999f621375cfdbfa80bf076766be20053221dc
+ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82023356"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83269071"
 ---
 # <a name="automatically-enroll-iosipados-devices-with-apples-automated-device-enrollment"></a>Автоматическая регистрация устройств iOS и iPadOS в рамках программы автоматической регистрации устройств Apple
 
@@ -148,8 +148,7 @@ ms.locfileid: "82023356"
 
     ![Снимок экрана — создание профиля.](./media/device-enrollment-program-enroll-ios/image04.png)
 
-3. На странице **Основные** введите **имя** и **описание** профиля для использования в административных целях. Эти сведения не отображаются для пользователей. Поле **Имя** можно использовать для создания динамической группы в Azure Active Directory. Используйте имя профиля для определения параметра enrollmentProfileName, чтобы назначать устройства с этим профилем регистрации. Для устройств, зарегистрированных с помощью автоматической регистрации устройств с сопоставлением пользователей, целевые группы пользователей AAD, в которых зарегистрированный пользователь является участником до настройки устройства, обеспечат самую быструю реализацию политик на устройствах. Нацеливание приложений и политик на динамические группы на основе профилей регистрации приведет к некоторой задержке в применении к устройствам после завершения процесса регистрации.
-Узнайте больше о [динамических группах Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership#rules-for-devices).
+3. На странице **Основные** введите **имя** и **описание** профиля для использования в административных целях. Эти сведения не отображаются для пользователей. 
 
     ![Имя и описание профиля](./media/device-enrollment-program-enroll-ios/image05.png)
 
@@ -264,6 +263,17 @@ ms.locfileid: "82023356"
 16. Выберите **Далее**, чтобы перейти на страницу **Отзыв и создание**.
 
 17. Чтобы сохранить профиль, выберите **Создать**.
+
+### <a name="dynamic-groups-in-azure-active-directory"></a>Динамические группы в Azure Active Directory
+
+Поле **Имя** можно использовать для создания динамической группы в Azure Active Directory. См. сведения о [динамических группах Azure Active Directory](/azure/active-directory/users-groups-roles/groups-dynamic-membership).
+
+Вы можете использовать имя профиля для определения параметра [enrollmentProfileName](/azure/active-directory/users-groups-roles/groups-dynamic-membership#rules-for-devices), чтобы назначать устройства с этим профилем регистрации.
+
+Чтобы обеспечить самую быструю доставку политик на устройствах ADE с сопоставлением пользователей, убедитесь, что зарегистрированный пользователь является участником, прежде чем настраивать устройства в группе пользователей AAD. 
+
+Назначение динамических групп профилям регистрации может привести к некоторой задержке в доставке приложений и политик на устройства после регистрации.
+
 
 ## <a name="sync-managed-devices"></a>Синхронизация управляемых устройств
 Теперь, когда Intune имеет разрешение на управление вашими устройствами, можно синхронизировать Intune с Apple для просмотра управляемых устройств в Intune на портале Azure.

@@ -5,7 +5,7 @@ keywords: ''
 author: lenewsad
 ms.author: lanewsad
 manager: dougeby
-ms.date: 02/07/2020
+ms.date: 05/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -19,12 +19,12 @@ ms.reviewer: arnab
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: 839809de89d4220fa87012cd9a28e5f6b6c35dcf
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 3007e9a40dd77e156f0c0a77214e819948fc01da
+ms.sourcegitcommit: 0dafd513a59afe592b5cfe2a80b6288020dc5bf0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79348592"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82991587"
 ---
 # <a name="enroll-device-with-android-work-profile"></a>Регистрация устройства с помощью рабочего профиля Android
 
@@ -75,8 +75,17 @@ ms.locfileid: "79348592"
 
     ![Пример изображения Корпоративного портала с экраном "Настройка доступа к ресурсам организации", подтверждением завершения настройки и выделенной кнопкой "Готово".](./media/work-profile-done-1911.png)  
 
+10. При появлении запроса на просмотр предлагаемых в организации приложений в Google Play выберите **Открыть**. 
 
-## <a name="next-steps"></a>Дальнейшие действия  
+    ![Пример изображения Корпоративного портала: приглашение открыть версию Google Play с эмблемой.](./media/get-apps-banner-android-2005.png) 
+
+    Если вы не готовы устанавливать приложения, вы всегда можете получить к ним доступ позже, перейдя непосредственно к версии приложения Google Play с эмблемой. Вы также можете выбрать **Получить приложения** в меню Корпоративного портала.  
+
+    ![Пример изображения Корпоративного портала: меню с выделенной ссылкой "Получить приложения".](./media/updated-drawer-android-2005.png) 
+
+
+
+## <a name="next-steps"></a>Дальнейшие шаги  
 
 Теперь, когда устройство зарегистрировано, вы можете установить на него учебные или рабочие приложения. Перейдите в управляемый Google Play Маркет, чтобы найти эти приложения и установить их. 
 
