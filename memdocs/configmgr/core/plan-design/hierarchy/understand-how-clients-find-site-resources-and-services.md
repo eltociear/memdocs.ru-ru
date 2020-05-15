@@ -10,12 +10,12 @@ ms.assetid: ae72df4b-5f5d-4e19-9052-bda28edfbace
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: b91cf018d77d2c23f12a7023b95585ed849a3f7d
-ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
+ms.openlocfilehash: b012dd1e7da0d6a3efb4d1cc33b8a79ef319bc0a
+ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82904224"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83269003"
 ---
 # <a name="learn-how-clients-find-site-resources-and-services-for-configuration-manager"></a>Сведения о том, как клиенты находят ресурсы и службы сайта для Configuration Manager
 
@@ -131,12 +131,12 @@ ms.locfileid: "82904224"
 После этого клиент случайным образом выбирает новую точку управления.  
 
 ##  <a name="active-directory"></a><a name="bkmk_ad"></a> Active Directory  
-Присоединенные к домену клиенты могут использовать доменные службы Active Directory для обнаружения службы. Для этого сайты должны [публиковать данные в Active Directory](/../../servers/deploy/configure/publish-site-data.md).  
+Присоединенные к домену клиенты могут использовать доменные службы Active Directory для обнаружения службы. Для этого сайты должны [публиковать данные в Active Directory](../../servers/deploy/configure/publish-site-data.md).  
 
 Клиент может использовать AD DS для обнаружения службы, если выполняются все перечисленные ниже условия.  
 
 - Схема Active Directory [была расширена](../network/extend-the-active-directory-schema.md) для System Center 2012 Configuration Manager.  
-- [Лес Active Directory настроен на публикацию](/../../servers/deploy/configure/publish-site-data.md), как и сайты Configuration Manager.  
+- [Лес Active Directory настроен на публикацию](../../servers/deploy/configure/publish-site-data.md), как и сайты Configuration Manager.  
 - Клиентский компьютер входит в домен Active Directory и имеет доступ к серверу глобального каталога.  
 
 Если клиенту не удается найти точку управления для обнаружения службы в доменных службах Active Directory, он предпринимает попытку использовать DNS.  
