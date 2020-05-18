@@ -20,6 +20,7 @@
 #### Регистрация производных учетных данных
 ##### [Регистрация с помощью Entrust Datacard](enroll-android-device-entrust-datacard.md)
 ##### [Регистрация с помощью Intercede](enroll-android-device-intercede.md)
+##### [Регистрация с помощью DISA Purebred](enroll-android-device-disa-purebred.md)
 ### [Переход на новую схему управления устройствами](move-to-new-device-management-setup.md)
 ### [Использование управляемых приложений на устройстве](use-managed-apps-on-your-device-android.md)
 ### [Шифрование устройства](encrypt-your-device-android.md)
