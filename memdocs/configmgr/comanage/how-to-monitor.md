@@ -2,7 +2,7 @@
 title: Мониторинг совместного управления
 titleSuffix: Configuration Manager
 description: Просмотрите сведения о совместно управляемых устройствах с помощью панели мониторинга совместного управления.
-ms.date: 07/26/2019
+ms.date: 05/11/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-comanage
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: e83a7b0d-b381-4b4a-8eca-850385abbebb
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 64d34cef57a3d5f141093d2b099c0b352604be42
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: e4516ca9baa7398322c204908c25248921a69d25
+ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81688702"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83268068"
 ---
 # <a name="how-to-monitor-co-management-in-configuration-manager"></a>Сведения о мониторинге совместного управления в Configuration Manager
 
@@ -173,7 +173,7 @@ ms.locfileid: "81688702"
 
 ## <a name="wmi-device-data"></a>Данные WMI об устройствах
 
-Запросите класс WMI **SMS_Client_ComanagementState**. Вы можете создать в Configuration Manager настраиваемые коллекции, чтобы определить состояние развертывания для совместного управления. Дополнительные сведения о создании настраиваемых коллекций см. в статье [Создание коллекций](../core/clients/manage/collections/create-collections.md).
+Запросите класс WMI **SMS_Client_ComanagementState** в пространстве имен **ROOT\SMS\site_&lt;SITECODE>** на сервере сайта. Вы можете создать в Configuration Manager настраиваемые коллекции, чтобы определить состояние развертывания для совместного управления. Дополнительные сведения о создании настраиваемых коллекций см. в статье [Создание коллекций](../core/clients/manage/collections/create-collections.md).
 
 В классе WMI доступны следующие поля:  
 

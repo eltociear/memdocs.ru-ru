@@ -10,16 +10,16 @@ ms.assetid: 9875c443-19bf-43a0-9203-3a741f305096
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: dd2a8b3bfb7c4b8af277616c7eaed329bc143bb7
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 23cc7d0c642637a310f53280bafed6a2a28d2834
+ms.sourcegitcommit: 4174f7e485067812c29aea01a4767989ffdbb578
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81691402"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83406688"
 ---
 # <a name="create-a-configuration-manager-lab-in-azure"></a>Создание лабораторной среды Configuration Manager в Azure
 
-*Область применения: Configuration Manager (ветвь Technical Preview)*
+*Область применения: Configuration Manager (Current Branch, Technical Preview)*
 
 <!--3556017-->
 
@@ -35,8 +35,8 @@ ms.locfileid: "81691402"
 ## <a name="prerequisites"></a>Предварительные условия
 
 Для выполнения этой процедуры требуется подписка Azure, в которой можно создать следующие объекты: 
-- Две виртуальных машин уровня Standard_B2 для контроллера домена и ролей пакета управления и точек распространения.
-- Виртуальная машина уровня Standard_B2 для сервера основного сайта и сервера базы данных SQL.
+- Две виртуальные машины Standard_B2s для контроллера домена, точки управления и точки распространения.
+- Одна виртуальная машина Standard_B2ms для сервера основного сайта и сервера базы данных SQL.
 - учетная запись хранения Standard_LRS.
 
 > [!Tip]  
@@ -102,7 +102,7 @@ Azure проверит параметры, а затем начнет разве
 ### `<prefix>DC01`
 
 - Контроллер домена Active Directory
-- Standard_B2s с двумя ЦП и 4 ГБ оперативной памяти
+- Standard_B2s с двумя процессорами и 4 ГБ оперативной памяти
 - Выпуск Windows Server 2019 Datacenter
 
 #### <a name="windows-features-and-roles"></a>Функции и роли Windows
@@ -113,7 +113,7 @@ Azure проверит параметры, а затем начнет разве
 
 ### `<prefix>PS01`
 
-- Standard_B2ms с двумя ЦП и 8 ГБ оперативной памяти
+- Standard_B2ms с двумя процессорами и 8 ГБ памяти
 - выпуск Windows Server 2016 Datacenter;
 - SQL Server
 - Windows 10 ADK с Windows PE 
@@ -127,7 +127,7 @@ Azure проверит параметры, а затем начнет разве
 
 ### `<prefix>DPMP01`
 
-- Standard_B2s с двумя ЦП и 4 ГБ оперативной памяти
+- Standard_B2s с двумя процессорами и 4 ГБ оперативной памяти
 - Выпуск Windows Server 2019 Datacenter
 - Точка распространения
 - Точка управления

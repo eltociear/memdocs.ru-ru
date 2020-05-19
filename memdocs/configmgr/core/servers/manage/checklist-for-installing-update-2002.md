@@ -2,7 +2,7 @@
 title: Контрольный список для версии 2002
 titleSuffix: Configuration Manager
 description: Сведения о действиях, которые необходимо выполнить перед обновлением до Configuration Manager версии 2002.
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 2993032a-1204-4bd8-b5af-17a980bb0649
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: a7f2abac1810b5ab40e3c253b6aee7aa970174d9
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 63293c103cf8a19d006bd700cac6c370ba5e7391
+ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81708062"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83268952"
 ---
 # <a name="checklist-for-installing-update-2002-for-configuration-manager"></a>Контрольный список для установки обновления 2002 для Configuration Manager
 
@@ -68,33 +68,35 @@ ms.locfileid: "81708062"
 
 <!-- SCCMDocs#1397 -->
 
-<!-- As of December 20, 2019, version 2002 is globally available for all customers to install. If you previously opted in to the early update ring, watch for an update to this current branch version.
- -->
+По состоянию на 11 мая 2020 г. версия 2002 предоставляется всем клиентам как глобально доступная для установки. Если вы уже выбрали цикл ранних обновлений, ознакомьтесь с обновлением текущей версии этой ветви.
 
-Сейчас для раннего круга обновления выпущена версия 2002. Для установки этого обновления вам необходимо зарегистрироваться. Следующий сценарий PowerShell добавляет вашу иерархию или автономный первичный сайт в ранний круг обновления для версии 2002:
+<!--
+At this time, version 2002 is released for the early update ring. To install this update, you need to opt-in. The following PowerShell script adds your hierarchy or standalone primary site to the early update ring for version 2002:
 
-[Сценарий подписки на версию 2002](https://go.microsoft.com/fwlink/?linkid=2099733) <!-- This fwlink points to the script package on the Download Center, don't change the link here! Make any changes to the fwlink target -->
+[Version 2002 opt-in script](https://go.microsoft.com/fwlink/?linkid=2099733) <!-- This fwlink points to the script package on the Download Center, don't change the link here! Make any changes to the fwlink target -->
 
-Microsoft подписывает скрипт в цифровом формате и связывает его внутри подписанного самораспаковывающегося исполняемого файла.
+<!--
+Microsoft digitally signs the script, and bundles it inside a signed self-extracting executable.
 
 > [!Note]  
-> Обновление версии 2002 применимо только к сайтам, на которых установлена версия 1810 или более поздняя.
+> The version 2002 update is only applicable to sites running version 1810 or later.
 
-Для регистрации в цикле ранних обновлений выполните следующие действия.
+To opt-in to the early update ring:
 
-1. Откройте Windows PowerShell и **Запустите от имени администратора**
-1. Запустите сценарий **EnableEarlyUpdateRing2002.ps1**, используя следующий синтаксис:
+1. Open Windows PowerShell and **Run as administrator**
+1. Run the **EnableEarlyUpdateRing2002.ps1** script, using the following syntax:
 
     `EnableEarlyUpdateRing2002.ps1 <SiteServer_Name> | SiteServer_IP>`
 
-    когда `SiteServer` относится к сайту центра администрирования или серверу автономного первичного сайта. Например, `EnableEarlyUpdateRing2002.ps1 cmprimary01`
+    Where `SiteServer` refers to the central administration site or standalone primary site server. For example, `EnableEarlyUpdateRing2002.ps1 cmprimary01`
 
-1. Проверка обновлений. Дополнительную информацию см. в статье [Получение доступных обновлений](install-in-console-updates.md#get-available-updates).
+1. Check for updates. For more information, see [Get available updates](install-in-console-updates.md#get-available-updates).
 
-Обновление версии 2002 теперь должно быть доступно в консоли.
+The version 2002 update should now be available in the console.
 
 > [!Important]  
-> Этот сценарий лишь добавляет сайт в ранний круг обновления для версии 2002. Это не постоянные изменения.
+> This script only adds your site to the early update ring for version 2002. It's not a permanent change.
+ -->
 
 ## <a name="checklist"></a>Контрольный список
 

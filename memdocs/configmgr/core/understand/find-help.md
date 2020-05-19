@@ -2,7 +2,7 @@
 title: Поиск справочных сведений
 titleSuffix: Configuration Manager
 description: Поиск ресурсов для получения дополнительных сведений о Configuration Manager.
-ms.date: 04/01/2020
+ms.date: 05/12/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 86810629-cf2a-43e8-86a2-847444119fc1
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 6610e86c12b6f7704b65dc11c476fa09e8f2ae63
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 7bae98a8df1d8b8ff843bd333083c4c6ad68848c
+ms.sourcegitcommit: 4c129bb04ea4916c78446e89fbff956397cbe828
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81707162"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83343190"
 ---
 # <a name="find-help-for-using-configuration-manager"></a>Поиск справочных материалов по использованию Configuration Manager
 
@@ -127,6 +127,13 @@ ms.locfileid: "81707162"
         - `-s --silent` Без вывода журнала в консоль (нельзя сочетать с параметром --verbose)
         - `-v, --verbose` Выводить журнал в консоль (нельзя сочетать с параметром --silent)
         - `--help` Вывод справки
+    
+    - Начиная с версии 1910, служебная программа UploadOfflineFeedback поддерживает использование прокси-сервера. Вы можете указать следующие параметры:
+        - `-x, --proxy`: указывает прокси-сервер для подключения к Интернету.
+        - `-o, --port`: указывает порт для подключения к Интернету через прокси-сервер.
+        - `-u, --user`: указывает имя пользователя прокси-сервера для подключения к Интернету.
+        - `-w, --password`: указывает пароль прокси-сервера для подключения к Интернету. Введите звездочку (&#42;), чтобы открыть окно для ввода пароля. Пароль не отображается при вводе. Настоятельно рекомендуется использовать звездочку ( &#42; ) для вызова окна для ввода пароля, так как обычный текст в командной строке менее безопасен.
+        - `-i`: пропустить проверку подключения. Пропускает проверку сетевого подключения и просто отправляет отзыв с указанными параметрами.
 
 ## <a name="confirmation-of-console-feedback"></a><a name="bkmk_feedbackid"></a> Подтверждение отзывов в консоли
 

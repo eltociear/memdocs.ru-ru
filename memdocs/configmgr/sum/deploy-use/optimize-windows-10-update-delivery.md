@@ -2,7 +2,7 @@
 title: Оптимизация доставки обновлений Windows 10
 titleSuffix: Configuration Manager
 description: Узнайте, как использовать Configuration Manager для управления содержимым обновления, чтобы поддерживать актуальность Windows 10.
-ms.date: 04/21/2020
+ms.date: 05/11/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-sum
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: b670cfaf-96a4-4fcb-9caa-0f2e8c2c6198
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: f7edd05a7b1ce105e81fd4f594d95c9dfb45f472
-ms.sourcegitcommit: 568f8f8c19fafdd0f4352d0682f1ca7a4d665d25
+ms.openlocfilehash: 835dcd0c86244c1731cb6c6e040d577160759614
+ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81771375"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83267796"
 ---
 # <a name="optimize-windows-10-update-delivery-with-configuration-manager"></a>Оптимизация доставки обновлений Windows 10 с помощью Configuration Manager
 
@@ -131,7 +131,7 @@ Configuration Manager поддерживает многие технологии
 
 3. Затем CBS передает в WUA запрос на скачивание требуемых диапазонов из одного или нескольких PSF-файлов экспресс-обновления.  
 
-4. Оптимизация доставки при взаимодействии с Configuration Manager скачивает эти диапазоны из локальной точки распространения или одноранговых узлов, если они доступны. Если вы отключите оптимизацию доставки, фоновая интеллектуальная служба передачи (BITS) выполняет аналогичные функции, координируя источники однорангового кэша, как и Configuration Manager. Оптимизация доставки или BITS передает диапазоны для WUA, что позволяет CBS применить и установить их.  
+4. Если включена оптимизация доставки и для узлов обнаружены необходимые диапазоны, клиент будет выполнять скачивание с узлов независимо от клиента Configuration Manager. Если оптимизация доставки отключена или узлы не имеют необходимых диапазонов, клиент Configuration Manager скачает эти диапазоны из локальной точки распространения (или из узла либо Центра обновления Майкрософт). Диапазоны передаются агенту Центра обновления Windows, который делает их доступными CBS для применения.
 
 
 #### <a name="why-are-the-express-files-psf-so-large-when-stored-on-configuration-manager-peer-sources-in-the-ccmcache-folder"></a>Почему файлы экспресс-установки (PSF) имеют такой большой объем в папке ccmcache в источниках однорангового кэша Configuration Manager?

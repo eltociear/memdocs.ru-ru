@@ -2,7 +2,7 @@
 title: Новые возможности Аналитики компьютеров
 titleSuffix: Configuration Manager
 description: Обзор новых функций в последней версии облачной службы "Аналитика компьютеров".
-ms.date: 03/12/2020
+ms.date: 05/11/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-analytics
 ms.topic: conceptual
@@ -10,12 +10,13 @@ ms.assetid: fa300181-86cb-4afe-8fbf-895a7572378d
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: ce882f6bfc7a0d724688d5df59051dae17d54498
-ms.sourcegitcommit: a4ec80c5dd51e40f3b468e96a71bbe29222ebafd
+ms.reviewer: acabello
+ms.openlocfilehash: 1d45d115f279603fa74e143c603c116146278ffe
+ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "82693143"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83268170"
 ---
 # <a name="whats-new-in-desktop-analytics"></a>Новые возможности Аналитики компьютеров
 
@@ -26,6 +27,16 @@ ms.locfileid: "82693143"
 
 Чтобы получать уведомления при обновлении этой страницы, скопируйте и вставьте следующий URL-адрес в средство чтения веб-канала RSS: `https://docs.microsoft.com/api/search/rss?search=%22what%27s+new+in+desktop+analytics+-+Configuration+Manager%22&locale=en-us`.
 <!-- a locale is required for the RSS search string -->
+
+## <a name="may-2020"></a>Май 2020 г.
+
+### <a name="reduce-the-number-of-apps-for-review"></a>Сокращение числа приложений для проверки
+
+<!-- 5542186 -->
+
+Для консолидации и сокращения количество приложений, отображаемых на странице ресурсов на портале, все версии приложений с одинаковыми названиями и издателями теперь объединены. Этот параметр учитывается при подсчете приложений на плитке **Приложения, заслуживающие внимания**. Например, вместо нескольких сотен экземпляров Microsoft Edge здесь присутствует один экземпляр для всех версий. Вы можете принимать одно решение для всех версий сразу. Если вам нужно выполнять разные действия для определенных версий, такой параметр предусмотрен.
+
+Дополнительные сведения см. в разделе "Приложения" статьи [Ресурсы в Аналитике компьютеров](about-assets.md#apps).
 
 ## <a name="march-2020"></a>Март 2020 г.
 

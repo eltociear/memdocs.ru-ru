@@ -2,7 +2,7 @@
 title: Реплики базы данных для точек управления
 titleSuffix: Configuration Manager
 description: Используйте реплики базы данных, чтобы снизить нагрузку на ЦП сервера базы данных сайта, которую создают точки управления.
-ms.date: 10/06/2016
+ms.date: 05/12/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: b06f781b-ab25-4d9a-b128-02cbd7cbcffe
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: eef959182b2bada4b4e0c0395cf0e17ac255ba0d
-ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
+ms.openlocfilehash: 3daf23f17719e111dacd45e6176c5f697a3d3224
+ms.sourcegitcommit: 4c129bb04ea4916c78446e89fbff956397cbe828
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82906544"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83343122"
 ---
 # <a name="database-replicas-for-management-points-for-configuration-manager"></a>Реплики базы данных для точек управления для Configuration Manager
 
@@ -82,6 +82,8 @@ ms.locfileid: "82906544"
 -   **Обновления для Configuration Manager Current Branch**: перед обновлением сайта System Center 2012 Configuration Manager до версии Configuration Manager (Current Branch) или обновления Configuration Manager (Current Branch) до последнего выпуска необходимо отключить реплики базы данных для точек управления.  После обновления сайта можно перенастроить реплики базы данных для точек управления.  
 
 -   **Несколько реплик на одном сервере SQL Server:**  настраивая сервер реплики базы данных, чтобы разместить несколько реплик базы данных для точек управления (каждая реплика должна находиться в отдельном экземпляре), необходимо использовать измененный скрипт настройки (с шага 4 в следующем разделе) для предотвращения перезаписи самозаверяющего сертификата, используемого ранее настроенными репликами базы данных на этом сервере.  
+
+- Развертывания пользователей в центре программного обеспечения не будут работать с точкой управления с помощью реплики SQL. <!--sccmdocs-1011-->
 
 ##  <a name="configure-database-replicas"></a><a name="BKMK_DBReplica_Config"></a> Настройка реплик базы данных  
 Чтобы настроить реплику базы данных, необходимо выполнить следующие действия:  

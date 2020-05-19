@@ -10,12 +10,12 @@ ms.assetid: 140c522f-d09a-40b6-a4b0-e0d14742834a
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 918df2cded3fad48352fff6a2617b1133540c0eb
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: bb770a559904421f6bf01616504331dbebb9b549
+ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81692582"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83268085"
 ---
 # <a name="tutorial-enable-co-management-for-existing-configuration-manager-clients"></a>Руководство. Включение совместного управления для существующих клиентов Configuration Manager
 
@@ -64,9 +64,10 @@ ms.locfileid: "81692582"
 
 Для выполнения задач в рамках этого руководства используются следующие разрешения:
 
-- учетная запись *глобального администратора* в Azure Active Directory (AAD); 
 - учетная запись с правами *администратора домена* в локальной инфраструктуре;  
 - учетная запись с правами *полного администратора* для *всех* областей в Configuration Manager.
+- учетная запись *глобального администратора* в Azure Active Directory (AAD);
+   - Убедитесь, что для учетной записи, которая используется для входа в клиент, назначена лицензия Intune. В противном случае вход завершится ошибкой с сообщением "Не распознан пользователь". <!--mem issue 169-->
 
 ## <a name="set-up-hybrid-azure-ad"></a>Настройка гибридного экземпляра Azure AD
 

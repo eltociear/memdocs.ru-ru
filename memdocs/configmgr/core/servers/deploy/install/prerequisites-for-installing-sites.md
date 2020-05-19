@@ -10,12 +10,12 @@ ms.assetid: 92b339ef-2723-4322-bec6-077b3e8846b0
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 8362dbf5cf7264c19f683ce5a224f1e0ec348b36
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: a7f7853b006d4ac8b11a30217d1b05b1eedd69dc
+ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81700672"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83268986"
 ---
 # <a name="prerequisites-for-installing-configuration-manager-sites"></a>Предварительные требования для установки сайтов Configuration Manager
 
@@ -49,6 +49,9 @@ ms.locfileid: "81700672"
 
         > [!IMPORTANT]  
         > После завершения установки Configuration Manager учетная запись компьютера сервера сайта должна сохранить права системного администратора для SQL Server. Не удаляйте права системного администратора SQL из этой учетной записи.  
+
+    > [!NOTE]
+    > Дополнительные сведения о потребности в этих разрешений после завершения установки см. в разделе [Разрешения повышенного уровня](../../../plan-design/hierarchy/accounts.md#elevated-permissions).
 
 - При установке первичного сайта требуются следующие дополнительные разрешения.  
 
@@ -134,7 +137,7 @@ Configuration Manager поддерживает только роли сайта 
 - [Microsoft Store для бизнеса](../../../../apps/deploy-use/manage-apps-from-the-windows-store-for-business.md)  
 - [Шлюз управления облаком](../../../clients/manage/cmg/plan-cloud-management-gateway.md)
 
-В версии 1806 и более поздних обновите ключ секрета клиента Azure Active Directory. Дополнительные сведения см. в статье [Настройка служб Azure для использования с Configuration Manager](../configure/azure-services-wizard.md#bkmk_renew).
+Самый простой способ — это обновить ключ секрета клиента Azure Active Directory. Дополнительные сведения см. в статье [Настройка служб Azure для использования с Configuration Manager](../configure/azure-services-wizard.md#bkmk_renew).
 
 Вы также можете удалить и повторно создать подключение к этой службе:
 

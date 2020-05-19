@@ -2,7 +2,7 @@
 title: Документация в консоли
 titleSuffix: Configuration Manager
 description: Эта статья отображается только в консоли Configuration Manager.
-ms.date: 04/23/2020
+ms.date: 05/11/2020
 ms.topic: conceptual
 ms.prod: configuration-manager
 ms.technology: configmgr-other
@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: cd5c03b9b05bff253a93466eb27700685faea055
-ms.sourcegitcommit: 2871a17e43b2625a5850a41a9aff447c8ca44820
+ms.openlocfilehash: 1bd4ff4b25fcd4cf77366c93fcc1259ea2b5749f
+ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82126051"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83268187"
 ---
 <!-- 
 - Feature 1357546
@@ -27,7 +27,7 @@ ms.locfileid: "82126051"
 
 # <a name="microsoft-endpoint-configuration-manager-documentation"></a>Документация по Microsoft Endpoint Configuration Manager
 
-*Последнее обновление: 23 апреля 2020 г.*
+*Последнее обновление: 11 мая 2020 г.*
 
 Это содержимое поможет вам в изучении и поддержке Configuration Manager.
 
@@ -55,22 +55,22 @@ ms.locfileid: "82126051"
 
 ## <a name="trending"></a>Тренды
 
-Наиболее популярные статьи за период с 1 по 30 марта 2020 г.
+Наиболее популярные статьи с 1 по 30 апреля 2020 г.
 
 | Просмотры страниц | Название |
 |------------|-------|
-| 22659 | [Планирование шлюза управления облаком](https://docs.microsoft.com/configmgr/core/clients/manage/cmg/plan-cloud-management-gateway) |
-| 16797 | [Справочник по файлам журнала](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files) |
-| 16142 | [Порты, используемые для подключения](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/ports) |
-| 15907 | [Руководство пользователя центра программного обеспечения](https://docs.microsoft.com/configmgr/core/understand/software-center) |
-| 14667 | [Обновления и обслуживание](https://docs.microsoft.com/configmgr/core/servers/manage/updates) |
-| 14455 | [Общие сведения о включении TLS 1.2](https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2) |
-| 12292 | [Аналитика компьютеров](https://docs.microsoft.com/configmgr/desktop-analytics/overview) |
-| 12062 | [Совместное управление для устройств Windows 10](https://docs.microsoft.com/configmgr/comanage/overview) |
-| 11741 | [Что такое Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction) |
-| 11282 | [Новые возможности в версии 1910](https://docs.microsoft.com/configmgr/core/plan-design/changes/whats-new-in-version-1910) |
+| 37071 | [Планирование шлюза управления облаком](https://docs.microsoft.com/mem/configmgr/core/clients/manage/cmg/plan-cloud-management-gateway) |
+| 19105 | [Справочник по файлам журнала](https://docs.microsoft.com/mem/configmgr/core/plan-design/hierarchy/log-files) |
+| 17942 | [Порты, используемые для подключения](https://docs.microsoft.com/mem/configmgr/core/plan-design/hierarchy/ports) |
+| 15564 | [Обновления и обслуживание](https://docs.microsoft.com/mem/configmgr/core/servers/manage/updates) |
+| 15389 | [Общие сведения о включении TLS 1.2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2) |
+| 15316 | [Совместное управление для устройств Windows 10](https://docs.microsoft.com/mem/configmgr/comanage/overview) |
+| 15229 | [Руководство пользователя центра программного обеспечения](https://docs.microsoft.com/mem/configmgr/core/understand/software-center) |
+| 14978 | [Включение TLS 1.2 на клиентах](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client) |
+| 13522 | [Аналитика компьютеров](https://docs.microsoft.com/mem/configmgr/desktop-analytics/overview) |
+| 13017 | [Параметры клиента](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/about-client-settings) |
 
-Страница [центра Configuration Manager](https://docs.microsoft.com/mem/configmgr/) получила 36 258 просмотров за это время.
+Страницу [Документация по Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/) за это время посетили 41 479 раз.
 
 ## <a name="recently-updated"></a>Недавно обновленные
 
@@ -78,15 +78,16 @@ ms.locfileid: "82126051"
 
 | Последние проверенные | Название |
 |---------------|-------|
-| 30.03.2020 | [Справочник по задачам обслуживания](https://docs.microsoft.com/configmgr/core/servers/manage/reference-for-maintenance-tasks) |
-| 30.03.2020 | [Управление параметрами для обновлений программного обеспечения](https://docs.microsoft.com/configmgr/sum/get-started/manage-settings-for-software-updates) |
-| 25.03.2020 | [Политики защиты от вредоносных программ Endpoint Protection](https://docs.microsoft.com/configmgr/protect/deploy-use/endpoint-antimalware-policies) |
-| 23.03.2020 | [Windows Autopilot for existing devices](https://docs.microsoft.com/configmgr/osd/deploy-use/windows-autopilot-for-existing-devices) (Windows Autopilot для устройств, которые уже используются) |
-| 12.03.2020 | [Создание планов развертывания](https://docs.microsoft.com/configmgr/desktop-analytics/create-deployment-plans) |
-| 12.03.2020 | [Развертывание в пилотном проекте](https://docs.microsoft.com/configmgr/desktop-analytics/deploy-pilot) |
-| 12.03.2020 | [Новые возможности аналитики компьютеров](https://docs.microsoft.com/configmgr/desktop-analytics/whats-new) |
-| 03.03.2020 | [Оценка совместимости](https://docs.microsoft.com/configmgr/desktop-analytics/compat-assessment) |
-| 03.03.2020 | [Аналитика компьютеров](https://docs.microsoft.com/configmgr/desktop-analytics/overview) |
+| 30.04.2020 | [Функции, доступные в Configuration Manager Technical Preview версии 2004](https://docs.microsoft.com/mem/configmgr/core/get-started/2020/technical-preview-2004) |
+| 29.04.2020 | [Проверка подлинности на основе маркеров для шлюза управления облачными клиентами](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/deploy-clients-cmg-token) |
+| 28.04.2020 | [Группы оркестрации](https://docs.microsoft.com/mem/configmgr/sum/deploy-use/orchestration-groups) |
+| 15.04.2020 | [Процесс одобрения приложения](https://docs.microsoft.com/mem/configmgr/develop/apps/application-approval-process) |
+| 15.04.2020 | [Регистрация устройств на портале "Аналитика компьютеров"](https://docs.microsoft.com/mem/configmgr/desktop-analytics/enroll-devices) |
+| 10.04.2020 | [Подключение арендатора Microsoft Endpoint Manager](https://docs.microsoft.com/mem/configmgr/tenant-attach/device-sync-actions) |
+| 08.04.2020 | [Интеграция с Сервером отчетов Power BI](https://docs.microsoft.com/mem/configmgr/core/servers/manage/powerbi-report-server) |
+| 08.04.2020 | [Заметки о выпуске](https://docs.microsoft.com/mem/configmgr/core/servers/deploy/install/release-notes) |
+| 01.04.2020 | [Общие сведения о службе администрирования в Configuration Manager](https://docs.microsoft.com/mem/configmgr/develop/adminservice/overview) |
+| 01.04.2020 | [Новые возможности в версии 2002](https://docs.microsoft.com/mem/configmgr/core/plan-design/changes/whats-new-in-version-2002) |
 
 ## <a name="troubleshooting-articles"></a>Статьи об устранении неполадок
 
