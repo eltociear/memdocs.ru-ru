@@ -95,7 +95,7 @@ Put message succeeded for message id 22f00adf-181e-4bad-b35e-d18912f39f89
 CRelayMsgMgrHandler::HandleMessage(): ExecuteTask() succeeded
 </code></pre>
 
-Если для [ включено ](../../plan-design/hierarchy/about-log-files.md#bkmk_logoptions)подробное ведение журнала`SMS_MESSAGE_PROCESSING_ENGINE.log`, результаты клиента будут обрабатываться. Используйте идентификатор сообщения из `MP_RelayMsgMgr.log`. Записи журнала обработки аналогичны приведенным ниже примерам.
+Если для `SMS_MESSAGE_PROCESSING_ENGINE.log` включено [подробное ведение журнала](../../plan-design/hierarchy/about-log-files.md#bkmk_logoptions), результаты клиента будут обрабатываться. Используйте идентификатор сообщения из `MP_RelayMsgMgr.log`. Записи журнала обработки аналогичны приведенным ниже примерам.
 
 <pre><code lang="Log">Processing 2 messages with type Instant and IDs <b>22f00adf-181e-4bad-b35e-d18912f39f89[19]</b>, 434d80ae-09d4-4d84-aebf-28a4a29a9852[20]...
 Processed 2 messages with type Instant. Failed to process 0 messages. All message IDs <b>22f00adf-181e-4bad-b35e-d18912f39f89[19]</b>, 434d80ae-09d4-4d84-aebf-28a4a29a9852[20]
