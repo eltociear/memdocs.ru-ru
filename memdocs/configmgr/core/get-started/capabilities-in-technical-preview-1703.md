@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: d06bda9d07a53e022de27afc68f40f9ce706867f
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: fb13844dd05049b9186909884aa0c457a8cfacd9
+ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82076158"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83428406"
 ---
 # <a name="capabilities-in-technical-preview-1703-for-configuration-manager"></a>Возможности в Technical Preview 1703 для Configuration Manager
 
@@ -130,7 +130,7 @@ ms.locfileid: "82076158"
 В консоли перейдите в **Администрирование** > **Обзор** > **Cloud Services Management** (Управление облачными службами) > **Azure** > **Службы Azure**, а затем выберите **Configure Azure Services** (Настроить службы Azure), облачную службу и **Свойства**.
 
 ## <a name="convert-from-bios-to-uefi-during-an-in-place-upgrade"></a>Переход от BIOS к UEFI при обновлении на месте
-В обновлении Windows 10 Creators Update представлено простое средство преобразования, которое автоматизирует процесс повторного разбиения жесткого диска для оборудования с поддержкой UEFI. Это средство преобразования интегрировано в процесс обновления на месте от Windows 7 до Windows 10. Если объединить это средство с последовательностью задач обновления операционной системы и средством OEM, которое преобразует встроенное ПО из BIOS в UEFI, вы сможете выполнять на компьютерах преобразование из BIOS в UEFI в процессе обновления на месте до версии Windows 10 Creators Update. Подробные сведения см. в разделе [Этапы последовательности задач для управления преобразованием BIOS в UEFI](../../osd/deploy-use/task-sequence-steps-to-manage-bios-to-uefi-conversion.md#convert-from-bios-to-uefi-during-an-in-place-upgrade).
+В обновлении Windows 10 Creators Update представлено простое средство преобразования, которое автоматизирует процесс повторного разбиения жесткого диска для оборудования с поддержкой UEFI. Это средство преобразования интегрировано в процесс обновления на месте от Windows 7 до Windows 10. Если объединить это средство с последовательностью задач обновления операционной системы и средством OEM, которое преобразует встроенное ПО из BIOS в UEFI, вы сможете выполнять на компьютерах преобразование из BIOS в UEFI в процессе обновления на месте до версии Windows 10 Creators Update. Подробные сведения см. в разделе [Этапы последовательности задач для управления преобразованием BIOS в UEFI](../../osd/deploy-use/task-sequence-steps-to-manage-bios-to-uefi-conversion.md#bkmk_ipu).
 
 ## <a name="collapsible-task-sequence-groups"></a>Свертываемые группы последовательностей задач
 В этой версии появилась возможность разворачивать и сворачивать группы последовательностей задач. Вы можете развернуть или свернуть отдельные группы либо все группы одновременно.

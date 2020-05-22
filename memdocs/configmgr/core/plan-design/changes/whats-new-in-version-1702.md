@@ -11,12 +11,12 @@ author: mestew
 ms.author: mstewart
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: 6c6ff51edbd04a6d68f2770af123b1ac431542d2
-ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
+ms.openlocfilehash: eacf64245f4cfc779dc92be73e8d7e387b34f909
+ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82904702"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83427942"
 ---
 # <a name="what39s-new-in-version-1702-of-configuration-manager"></a>Новые возможности в Configuration Manager версии 1702
 
@@ -191,7 +191,7 @@ ms.locfileid: "82904702"
 Начиная с версии 1702 для доступных развертываний последовательностей задач можно использовать предварительно кэшированное содержимое. Предварительное кэширование содержимого позволяет предоставить клиенту возможность скачивать только нужное содержимое, когда будет получено развертывание. Поэтому, когда пользователь нажимает кнопку **Установить** в центре программного обеспечения, содержимое готово и установка начинается быстро, так как содержимое находится на локальном жестком диске. Дополнительные сведения см. в разделе [Configure pre-cache content](../../../osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system.md#configure-pre-cache-content) (Настройка предварительного кэширования содержимого).
 
 ### <a name="convert-from-bios-to-uefi-during-an-in-place-upgrade"></a>Переход от BIOS к UEFI при обновлении на месте
-В обновлении Windows 10 Creators Update представлено простое средство преобразования, которое автоматизирует процесс повторного разбиения жесткого диска для оборудования с поддержкой UEFI. Это средство преобразования интегрировано в процесс обновления на месте от Windows 7 до Windows 10. Если объединить это средство с последовательностью задач обновления операционной системы и средством OEM, которое преобразует встроенное ПО из BIOS в UEFI, вы сможете выполнять на компьютерах преобразование из BIOS в UEFI в процессе обновления на месте до версии Windows 10 Creators Update. Подробные сведения см. в разделе [Этапы последовательности задач для управления преобразованием BIOS в UEFI](../../../osd/deploy-use/task-sequence-steps-to-manage-bios-to-uefi-conversion.md#convert-from-bios-to-uefi-during-an-in-place-upgrade).
+В обновлении Windows 10 Creators Update представлено простое средство преобразования, которое автоматизирует процесс повторного разбиения жесткого диска для оборудования с поддержкой UEFI. Это средство преобразования интегрировано в процесс обновления на месте от Windows 7 до Windows 10. Если объединить это средство с последовательностью задач обновления операционной системы и средством OEM, которое преобразует встроенное ПО из BIOS в UEFI, вы сможете выполнять на компьютерах преобразование из BIOS в UEFI в процессе обновления на месте до версии Windows 10 Creators Update. Подробные сведения см. в разделе [Этапы последовательности задач для управления преобразованием BIOS в UEFI](../../../osd/deploy-use/task-sequence-steps-to-manage-bios-to-uefi-conversion.md#bkmk_ipu).
 
 ### <a name="improvements-to-the-install-applications-task-sequence-step"></a>Улучшения для шага последовательности задач "Установить приложения"
 В этой версии добавлены следующие улучшения.

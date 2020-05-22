@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ms.reviewer: acabello
-ms.openlocfilehash: fb217a1e1ddf114155e43e8edef0c1b34842db64
-ms.sourcegitcommit: 7b224e138c0618e978be59832b3486f3745abacc
+ms.openlocfilehash: d1f18c135f200b2a9e40b970871c73a0d98893a2
+ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83381525"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83429810"
 ---
 # <a name="desktop-analytics-faq"></a>Часто задаваемые вопросы по Аналитике компьютеров
 
@@ -69,7 +69,7 @@ ms.locfileid: "83381525"
 
 ### <a name="can-i-change-from-bios-to-uefi-when-upgrading-windows"></a>Можно ли заменить BIOS на UEFI при обновлении Windows?
 
-Да. Дополнительные сведения см. в разделе [Переход от BIOS к UEFI при обновлении на месте](../osd/deploy-use/task-sequence-steps-to-manage-bios-to-uefi-conversion.md#convert-from-bios-to-uefi-during-an-in-place-upgrade).
+Да. Дополнительные сведения см. в разделе [Переход от BIOS к UEFI при обновлении на месте](../osd/deploy-use/task-sequence-steps-to-manage-bios-to-uefi-conversion.md#bkmk_ipu).
 
 ### <a name="can-i-use-desktop-analytics-with-windows-10-ltsc"></a>Можно ли использовать Аналитику компьютеров с Windows 10 LTSC?
 

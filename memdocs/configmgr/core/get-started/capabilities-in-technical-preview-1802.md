@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: cf6980def8a4f61248bd676edc0ca93f2546816e
-ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
+ms.openlocfilehash: 94208da3eda33cba69f04bbbf42edd08b585c1c4
+ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82905265"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83428193"
 ---
 # <a name="capabilities-in-technical-preview-1802-for-configuration-manager"></a>Возможности в Technical Preview 1802 для Configuration Manager
 
@@ -112,7 +112,7 @@ ms.locfileid: "82905265"
    - Добавьте второй шаг **Обновление операционной системы** на раннем этапе в группе **Подготовка к обновлению**. Назовите его *Оценка обновления*. Укажите один и тот же пакет обновления, а затем включите параметр **Выполнить проверку совместимости с программой установки Windows без запуска обновления**. Не включайте параметр **Продолжить при возникновении ошибки** на вкладке "Параметры". 
    - После этого сразу же выполните шаг *Оценка обновления* и добавьте шаг **Выполнить из командной строки**. Укажите следующую командную строку:</br> `cmd /c exit %_SMSTSOSUpgradeActionReturnCode%`</br>На вкладке **Параметры** укажите перечисленные ниже условия: </br>`Task Sequence Variable _SMSTSOSUpgradeActionReturnCode not equals 3247440400` </br>Этот код возврата является десятичным эквивалентом MOSETUP_E_COMPAT_SCANONLY (0xC1900210), который является успешной проверкой совместимости. Если шаг *Оценка обновления* завершится успешно и вернет этот код, тогда этот шаг пропускается. В противном случае, если шаг оценки возвращает любой другой код возврата, на этом шаге последовательность задач завершается со сбоем с кодом из проверки совместимости программы установки Windows.
    - Дополнительные сведения см. в разделе [Обновление операционной системы](../../osd/understand/task-sequence-steps.md#BKMK_UpgradeOS).
-- Если вы хотите изменить устройство с BIOS на UEFI во время этой последовательности задач, см. раздел [Переход от BIOS к UEFI при обновлении на месте](../../osd/deploy-use/task-sequence-steps-to-manage-bios-to-uefi-conversion.md#convert-from-bios-to-uefi-during-an-in-place-upgrade).
+- Если вы хотите изменить устройство с BIOS на UEFI во время этой последовательности задач, см. раздел [Переход от BIOS к UEFI при обновлении на месте](../../osd/deploy-use/task-sequence-steps-to-manage-bios-to-uefi-conversion.md#bkmk_ipu).
 
 Отправьте **отзывы** с вкладки **Главная** на ленте, если у вас есть дополнительные рекомендации или предложения.
 
