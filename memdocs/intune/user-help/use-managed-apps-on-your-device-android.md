@@ -6,7 +6,7 @@ author: lenewsad
 ms.author: lanewsad
 manager: dougeby
 ms.date: 12/03/2019
-ms.topic: article
+ms.topic: end-user-help
 ms.prod: ''
 ms.service: microsoft-intune
 ms.subservice: end-user
@@ -19,12 +19,12 @@ ms.reviewer: chrisbal
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: f891d88f929a8e4e297ec8bc58f5fe6d37228cf4
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: ef4b20d27e121cd3ec7ce92d3fe20cfee9c6aba9
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79347084"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83880975"
 ---
 # <a name="use-managed-apps-on-your-android-device"></a>Использование управляемых приложений на устройстве Android
 Управляемые приложения настраиваются в соответствии с требованиями к безопасности, предъявляемыми вашей организацией, а также для защиты рабочих и учебных данных. Эти приложения предоставляются вам автоматически для установки или использования на устройстве. 
