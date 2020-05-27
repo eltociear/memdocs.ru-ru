@@ -6,7 +6,7 @@ author: lenewsad
 ms.author: lanewsad
 manager: dougeby
 ms.date: 03/11/2019
-ms.topic: article
+ms.topic: end-user-help
 ms.prod: ''
 ms.service: microsoft-intune
 ms.subservice: end-user
@@ -19,12 +19,12 @@ ms.reviewer: priyar
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: ''
-ms.openlocfilehash: f0ad29e04e2f1d15c94e3ecdc4dbb3c891cd605e
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 75f163d3f6f5761f1804edd23839bc2e20cca0f0
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82077722"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83881753"
 ---
 # <a name="troubleshoot-your-windows-10-device-enrollment"></a>Устранение проблем при регистрации устройств c Windows 10
 Если вы уже зарегистрировали устройство, но по-прежнему не можете получить доступ к рабочему или учебному электронному адресу и файлам, попробуйте выполнить эти действия по устранению неполадок.  
