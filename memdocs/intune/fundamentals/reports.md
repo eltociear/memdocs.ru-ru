@@ -7,7 +7,7 @@ author: erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 12/19/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: fundamentals
 ms.localizationpriority: high
@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.suite: ems
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d4e377e0cd9ad15d1d3a0ac9fb5c088dc1366d48
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 299eba5cfd07edac44db35d3b3eb6b97e5242973
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80326745"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83989990"
 ---
 # <a name="intune-reports"></a>Отчеты Intune
 Отчеты Microsoft Intune позволяют выполнять более эффективный и упреждающий мониторинг работоспособности и активности конечных точек в организации, а также предоставляют другие данные отчетов в Intune. Например, вы сможете просматривать отчеты о соответствии, работоспособности и тенденциях устройства. Кроме того, для получения более конкретных данных можно создать настраиваемые отчеты. 
@@ -149,7 +149,7 @@ Log Analytics — это основной инструмент на порта�
 ### <a name="workbooks"></a>Книги
 Книги объединяют текст, запросы Analytics, метрики Azure и параметры в подробные интерактивные отчеты. Книги может редактировать любой другой член группы, у которого есть доступ к тем же ресурсам Azure. Дополнительные сведения о книгах см. в статье [Create interactive reports with Azure Monitor workbooks](https://docs.microsoft.com/azure/azure-monitor/app/usage-workbooks) (Создание интерактивных отчетов с использованием книг Azure Monitor). Кроме того, вы можете работать с шаблонами книг и добавлять собственные. Дополнительные сведения см. в статье [Azure Monitor Workbook Templates](https://go.microsoft.com/fwlink/?linkid=867045) (Шаблоны книг Azure Monitor).
 
-## <a name="next-steps"></a>Дальнейшие действия 
+## <a name="next-steps"></a>Дальнейшие шаги 
 
 Ознакомьтесь со следующими технологиями:
 - [платформа ответов Microsoft Intune (запись блога)](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/New-Reporting-Framework-Coming-to-Intune/ba-p/1009553);

@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9a4d468c62132c6af4477ba48f17ac9b21013e51
-ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
+ms.openlocfilehash: 997a2db8917da1443531d8446176c21db3a5dbf6
+ms.sourcegitcommit: dba89b827d7f89067dfa75a421119e0c973bb747
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82022743"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83709457"
 ---
 # <a name="intune-data-warehouse-collections"></a>Коллекции хранилища данных Intune
 
@@ -193,6 +193,8 @@ ms.locfileid: "82022743"
 | OSVersion                  | Версия ОС.                                                                                                                                                                          |
 | JailBroken                 | Указывает, снята ли на устройстве защита и есть ли административный доступ.                                                                                                                                         |
 | DeviceCategoryKey          | Ключ атрибута категории для этого устройства.                                                                                                                                    |
+
+
 ## <a name="deviceregistrationstates"></a>deviceRegistrationStates
 Сущность **DeviceRegistrationState** представляет тип регистрации, на который ссылаются другие коллекции хранилища данных. 
 
@@ -222,7 +224,6 @@ ms.locfileid: "82022743"
 | DeviceRegistrationState    | Ключ атрибута состояния регистрации клиента для этого устройства.                                                                                                                      |
 | OwnerTypeKey               | Ключа атрибута типа владельца для этого устройства: corporate, personal или unknown.                                                                                                    |
 | EnrolledDateTime           | Дата и время регистрации устройства.                                                                                                                                         |
-| EthernetMacAddress           | Уникальный идентификатор сети этого устройства.                                                                                                                                        |
 | LastSyncDateTime           | Последняя известная регистрация устройства в Intune.                                                                                                                                              |
 | ManagementAgentKey         | Ключ агента управления, сопоставленный с этим устройством.                                                                                                                             |
 | ManagementStateKey         | Ключ состояния управления, сопоставленный с этим устройством, который указывает последнее состояние удаленного действия, сведения о снятой защите или административном доступе.                                                |
@@ -244,16 +245,12 @@ ms.locfileid: "82022743"
 | MEID                       | MEID                                                                                                                                                                                   |
 | isSupervised               | Состояние устройства в защищенном режиме                                                                                                                                                               |
 | FreeStorageSpaceInBytes    | Свободное место для хранения (в байтах).                                                                                                                                                                 |
-| TotalStorageSpaceInBytes   | Общая емкость хранилища в байтах.                                                                                                                                                                |
 | EncryptionState            | Состояние шифрования на устройстве.                                                                                                                                                      |
 | SubscriberCarrier          | Абонентская система связи устройства.                                                                                                                                                       |
 | PhoneNumber                | Номер телефона устройства.                                                                                                                                                             |
 | IMEI                       | IMEI                                                                                                                                                                                   |
 | CellularTechnology         | Технология сотовой связи устройства.                                                                                                                                                    |
 | WiFiMacAddress             | Wi-Fi MAC                                                                                                                                                                              |
-| Модель                      | Модель устройства.                                                                                                                                                                      |
-| Office365Version           | Версия Office 365, установленная на устройстве.                                                                                                                             |
-| PhysicalMemoryInBytes      | Физическая память в байтах.                                                                                                                                                          |
 
 
 ## <a name="devicetypes"></a>deviceTypes

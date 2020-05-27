@@ -6,8 +6,8 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 04/17/2020
-ms.topic: conceptual
+ms.date: 05/21/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: eb5a04b8db382345cbf8f3e86feab8b3cea9efd9
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 06e975e386b0d754b03e75ffeda456a432a6dc4b
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81615678"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83985001"
 ---
 # <a name="create-mobile-threat-defense-mtd-device-compliance-policy-with-intune"></a>Создание политики соответствия для устройств Mobile Threat Defense (MTD) в Intune
 
@@ -59,11 +59,6 @@ Intune с MTD помогает обнаруживать угрозы и оцен
    - **Средняя**. Если обнаруженные на устройстве угрозы имеют низкий или средний уровень, считается, что устройство соответствует требованиям. Если на устройстве найдены угрозы высокого уровня, устройство переходит в состояние несоответствия.
 
    - **Высокая**. Этот уровень наименее безопасный. При нем допустимы все уровни угроз, а Mobile Threat Defense используется только для отчетов. На устройствах приложение MTD должно быть активировано с этим параметром.
-
-   > [!IMPORTANT]
-   > После создания и сохранения политики владельцы устройства Android для бизнеса не смогут изменить эту политику для изменения уровня угроз позднее. Правки, направленные на изменение уровня угрозы для устройства в параметре "Работоспособность устройств" раздела **Требовать уровень угрозы на устройстве не больше указанного**, не применяются. Чтобы изменить значение уровня угрозы, необходимо удалить текущую политику и создать новую политику, которая устанавливает требуемый уровень угрозы.
-   >
-   > Это известная проблема, которая будет решена в будущем обновлении Intune.
 
 6. Щелкните **ОК** дважды, а затем выберите **Создать**, чтобы создать политику.
 

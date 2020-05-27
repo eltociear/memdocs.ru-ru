@@ -6,22 +6,23 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/26/2020
-ms.topic: reference
+ms.date: 05/05/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: medium
 ms.technology: ''
+ms.reviewer: annovich
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9cb8cea30b53c5619580b289f73529668d71e909
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: ebf65ecc6dbe5059adbd6fec70833bf2fcab9de7
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80551495"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83988665"
 ---
 # <a name="add-a-property-list-file-to-macos-devices-using-microsoft-intune"></a>Добавление файла списка свойств на устройства с macOS с помощью Microsoft Intune
 
@@ -44,9 +45,6 @@ ms.locfileid: "80551495"
 - Управляемые параметры используются только в некоторых приложениях, и эти приложения могут не позволить управлять всеми параметрами.
 - Не забудьте отправить файлы списков свойств, которые предназначены для параметров канала устройств, а не параметров канала пользователей. Файлы списков свойств применяются для всего устройства.
 
-> [!NOTE]
-> В течение нескольких недель пользовательский интерфейс Intune получит обновление и сможет работать в полноэкранном режиме. В текущей версии процесс создания или изменении параметров может несколько отличаться от описанного в этой статье.
-
 ## <a name="create-the-profile"></a>Создание профиля
 
 1. Войдите в [Центр администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431).
@@ -66,9 +64,13 @@ ms.locfileid: "80551495"
 
 7. В разделе **Параметры конфигурации** настройте параметры:
 
-    - **Предпочитаемое имя домена**. Как правило, файлы списков свойств используются для веб-браузеров (Microsoft Edge), [Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac) и пользовательских приложений. При создании домена предпочтений также создается идентификатор пакета. Введите идентификатор пакета, например `com.company.application`. Например, введите `com.Contoso.applicationName`, `com.Microsoft.Edge` или `com.microsoft.wdav`.
+    - **Предпочитаемое имя домена**. Введите идентификатор пакета, например `com.company.application`. Например, введите `com.Contoso.applicationName`, `com.Microsoft.Edge` или `com.microsoft.wdav`.
+
+      Как правило, файлы списков свойств используются для веб-браузеров (Microsoft Edge), [Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac) и пользовательских приложений. При создании домена предпочтений также создается идентификатор пакета.
+
     - **Файл списка свойств**. Выберите файл списка свойств, связанный с вашим приложением. Это должен быть файл `.plist` или `.xml`. Например, отправьте файл `YourApp-Manifest.plist` или `YourApp-Manifest.xml`.
-    - **Содержимое файла**. В файле списка свойств содержатся сведения о ключах. Чтобы изменить эти сведения, откройте файл списка в другом редакторе, а затем повторно отправьте файл в Intune.
+
+      В файле списка свойств содержатся сведения о ключах. Чтобы изменить эти сведения, откройте файл списка в другом редакторе, а затем повторно отправьте файл в Intune.
 
     Убедитесь, что файл имеет правильный формат. В файле должны содержаться только пары "ключ-значение", которые не должны быть заключены в теги `<dict>`, `<plist>`или `<xml>`. Например, файл списка свойств должен быть аналогичен следующему файлу:
 
@@ -93,6 +95,6 @@ ms.locfileid: "80551495"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Профиль создан, но он пока ничего не делает. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
+[Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
 
 Дополнительные сведения о файлах предпочтений для Microsoft Edge см. в статье [Настройка параметров политики Microsoft Edge для macOS с помощью файла PLIST](https://docs.microsoft.com/deployedge/configure-microsoft-edge-on-mac).

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 861d7f526711f2169e8fd03b3df09659440523b9
-ms.sourcegitcommit: a4ec80c5dd51e40f3b468e96a71bbe29222ebafd
+ms.openlocfilehash: c20489b8da3080506065d68aeb1b19dae362c2fb
+ms.sourcegitcommit: 169e279ba686c28d9a23bc0a54f0a2a0d20bdee4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "82693445"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83556325"
 ---
 <!-- Pivots in use: 
 ::: zone pivot="edge-october-2019"
@@ -47,7 +47,6 @@ ms.locfileid: "82693445"
 ::: zone-end
 ::: zone pivot="edge-april-2020"
 
-*Этот новый базовый показатель будет предоставлен арендаторам в течение нескольких следующих недель. Ожидается, что все арендаторы получат этот новый базовый показатель в начале мая.*
 Чтобы узнать, что изменилось в этой версии базового показателя по сравнению с предыдущими версиями, используйте действие [Сравнить базовые показатели](../protect/security-baselines.md#compare-baseline-versions), доступное в области *Версии* для этого базового показателя. Чтобы узнать, что изменилось в этой версии базового показателя по сравнению с предыдущими версиями, используйте действие [Сравнить базовые показатели](../protect/security-baselines.md#compare-baseline-versions), доступное в области *Версии* для этого базового показателя.
 
 ::: zone-end

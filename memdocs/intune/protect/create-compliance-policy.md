@@ -6,7 +6,7 @@ author: brenduns
 ms.author: brenduns
 manager: dougeby
 ms.date: 03/20/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b437a72a2380fea215746aa76b35898c6fc60b16
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: de23dc438ac176383cf5f5fbfac4da22f91bd4b2
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80551387"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83988827"
 ---
 # <a name="create-a-compliance-policy-in-microsoft-intune"></a>Создание политики соответствия требованиям в Microsoft Intune
 
@@ -50,17 +50,14 @@ ms.locfileid: "80551387"
   - Администратор устройства с Android
   - Android для бизнеса
   - iOS
-  - macOS
-  - Windows 10
+  - MacOS
+  - быть под управлением ОС Windows 10;
   - Windows 8.1
   - Windows Phone 8.1
 
 - Зарегистрируйте устройства в Intune (необходимо, чтобы увидеть состояние соответствия).
 
 - Зарегистрируйте устройства для одного пользователя или зарегистрируйтесь без основного пользователя. Устройства, зарегистрированные для нескольких пользователей, не поддерживаются.
-
-> [!NOTE]
-> В течение нескольких недель пользовательский интерфейс Intune получит обновление и сможет работать в полноэкранном режиме. В текущей версии процесс создания или изменении параметров может несколько отличаться от описанного в этой статье.
 
 ## <a name="create-the-policy"></a>Создание политики
 
@@ -73,9 +70,9 @@ ms.locfileid: "80551387"
    - *Android Enterprise*
    - *iOS/iPadOS*
    - *macOS*
-   - *Windows Phone 8.1*
+   - *Windows Phone 8.1*
    - *Windows 8.1 и более поздние версии*
-   - *Windows 10 и более поздних версий*
+   - *Windows 10 и более поздних версий*.
 
     Для *Android для бизнеса* также следует выбрать значение параметра **Тип политики**:
      - *Политика соответствия требованиям для владельца устройства Android*;
@@ -93,7 +90,7 @@ ms.locfileid: "80551387"
    - [iOS/iPadOS](compliance-policy-create-ios.md)
    - [macOS](compliance-policy-create-mac-os.md)
    - [Windows Phone 8.1, Windows 8.1 и более поздних версий](compliance-policy-create-windows-8-1.md)
-   - [Windows 10 и более поздних версий](compliance-policy-create-windows.md)  
+   - [Windows 10 и более поздних версий](compliance-policy-create-windows.md).  
 
 6. На вкладке **Местоположения** можно настроить требования к соответствию в зависимости от расположения устройства. Выберите существующие расположения. Если у вас еще нет доступного расположения, см. указания в статье [Использование расположений (границы сети)](use-network-locations.md).
    > [!TIP]
@@ -162,11 +159,11 @@ Intune использует разные циклы обновления для 
 
 Если устройство имеет несколько политик соответствия требованиям, по крайней мере две из которых имеют разные состояния соответствия, назначается одно итоговое состояние соответствия. Назначение производится на основе концептуального уровня серьезности, задаваемого для каждого состояния соответствия. Ниже указаны уровни серьезности для каждого состояния соответствия.
 
-|состояние;  |Серьезность  |
+|Состояние  |Статус  |
 |---------|---------|
 |Неизвестно     |1|
 |NotApplicable     |2|
-|Соответствует|3|
+|соответствующие требованиям|3|
 |InGracePeriod|4|
 |NonCompliant|5|
 |Ошибка|6|
@@ -175,6 +172,6 @@ Intune использует разные циклы обновления для 
 
 Например, устройству назначено три политики соответствия требованиям: одна с состоянием Unknown (серьезность = 1), одна с состоянием Compliant (серьезность = 3) и одна с состоянием InGracePeriod (серьезность = 4). Состояние InGracePeriod имеет наивысший уровень серьезности. Таким образом все три политики имеют состояние соответствия InGracePeriod.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Мониторинг политик](compliance-policy-monitor.md).
