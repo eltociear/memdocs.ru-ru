@@ -10,12 +10,12 @@ ms.assetid: deb8aac8-2bd9-4980-a25b-5f8d93051226
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 8a00f77a5a902728a7c41905314511cffcfa81a5
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 7680c8f955773f169d56f36eb9bbe6507d2d7ce6
+ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81694962"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83427820"
 ---
 # <a name="client-notification-in-configuration-manager"></a>Уведомление клиентов в Configuration Manager
 
@@ -153,6 +153,9 @@ ms.locfileid: "81694962"
 Дополнительные сведения об этих параметрах см. в разделе [О файлах журнала](../../plan-design/hierarchy/about-log-files.md#bkmk_reg-client).
 
 Отследите состояние задачи в **diagnostics.log** на клиенте. При сборе журналов клиента дополнительные сведения регистрируются в **MP_SinvCollFile. log** на точке управления и в **sinvproc.log** на сервере сайта.
+
+> [!Tip]
+> Собранные журналы клиентов хранятся в соответствии с параметрами сбора файлов инвентаризации программного обеспечения. Файлы хранятся на сервере сайта в папке **Inboxes\sinv.box\FileCol**. Число версий не ограничено. Задача обслуживания сайта [Удалить устаревшие собранные файлы](../../servers/manage/reference-for-maintenance-tasks.md#delete-aged-collected-files) удаляет файлы по расписанию (по умолчанию каждые 90 дней).
 
 ### <a name="prerequisites---client-diagnostics"></a>Необходимые условия — "Диагностика клиента"
 

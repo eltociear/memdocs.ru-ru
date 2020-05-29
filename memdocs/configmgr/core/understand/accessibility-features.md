@@ -2,7 +2,7 @@
 title: Accessibility
 titleSuffix: Configuration Manager
 description: Узнайте о функциях, которые делают Configuration Manager доступным для каждого.
-ms.date: 03/27/2019
+ms.date: 05/15/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,13 @@ ms.assetid: 1cb96666-98bf-49a9-85ca-dbb53f0655e9
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: f04b777f030f9e55e1d5b17ace9ec8b83d9f8679
-ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
+ms.collection: M365-identity-device-management
+ms.openlocfilehash: 1b25b0137e24212cbad2ba688735e45d9fe9aac0
+ms.sourcegitcommit: 169e279ba686c28d9a23bc0a54f0a2a0d20bdee4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82906115"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83556036"
 ---
 # <a name="accessibility-features-in-configuration-manager"></a>Специальные возможности Configuration Manager
 
@@ -45,7 +46,7 @@ ms.locfileid: "82906115"
 |CTRL+4|  Администрирование|
 
 
-### <a name="other-keyboard-shortcuts"></a>Другие сочетания клавиш
+### <a name="other-console-shortcuts"></a>Другие сочетания клавиш для консоли
 
 |Сочетание клавиш|  Назначение|
 |--------|--------|  
@@ -56,6 +57,14 @@ ms.locfileid: "82906115"
 |Ctrl+D|Устанавливает фокус на области сведений, если она доступно.|
 |Alt     |Переносит фокус на ленту или убирает фокус с ленты.|
 
+### <a name="cmpivot-shortcuts"></a><a name="bkmk_cmpshortcuts"></a> Сочетания клавиш CMPivot
+
+Большинство [сочетаний клавиш для веб-браузера](https://support.microsoft.com/help/17456/windows-internet-explorer-ease-of-access-options) подходит для CMPivot.
+
+|Сочетание клавиш|Назначение|
+|--------|--------|  
+|CTRL+1|Установите фокус на первой вкладке.|
+|ALT + &lt;|Возврат к адресу|
 
 
 ## <a name="other-accessibility-features"></a>Другие функции специальных возможностей
@@ -85,7 +94,7 @@ ms.locfileid: "82906115"
 ## <a name="see-also"></a>См. также
 
 Дополнительные сведения о навигации в пользовательском интерфейсе Configuration Manager см. в следующих статьях:
-- [Использование консоли Configuration Manager](../servers/manage/admin-console.md)  
+- [Использование консоли Configuration Manager](../servers/manage/admin-console.md)
 - [Руководство пользователя центра программного обеспечения](software-center.md)
 
 > [!NOTE]  

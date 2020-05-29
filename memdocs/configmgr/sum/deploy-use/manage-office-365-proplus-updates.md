@@ -5,17 +5,17 @@ description: Configuration Manager синхронизирует обновлен
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.date: 04/21/2020
+ms.date: 05/20/2020
 ms.topic: conceptual
 ms.prod: configuration-manager
 ms.technology: configmgr-sum
 ms.assetid: eac542eb-9aa1-4c63-b493-f80128e4e99b
-ms.openlocfilehash: 4967b8b289d54a6355cb0a1e6454d5fac469a733
-ms.sourcegitcommit: 2cafbba6073edca555594deb99ae29e79cd0bc79
+ms.openlocfilehash: 09d8f0a37e9ed4308c5c8ffcf005c788612be235
+ms.sourcegitcommit: dba89b827d7f89067dfa75a421119e0c973bb747
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82110412"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83709508"
 ---
 # <a name="manage-office-365-proplus-with-configuration-manager"></a>Управление Office 365 профессиональный плюс с помощью Configuration Manager
 
@@ -224,7 +224,33 @@ Configuration Manager позволяет управлять приложения
     Пример: `schtasks /run /tn "\Microsoft\Office\Office Automatic Updates 2.0"`
 5. Нажмите кнопку **ОК**. 
 
-## <a name="change-the-update-channel-after-you-enable-office-365-clients-to-receive-updates-from-configuration-manager"></a><a name="bkmk_channel"></a> Изменение канала обновления после предоставления клиентам Office 365 разрешения на получение обновлений из Configuration Manager
+## <a name="update-channels-for-microsoft-365-apps"></a><a name="bkmk_channel"></a> Обновление каналов для приложений Microsoft 365
+<!--6298093-->
+Когда Office 365 профессиональный плюс был переименован в **Приложения Microsoft 365 для предприятий**, также были переименованы каналы обновления. Если для развертывания обновлений используется правило автоматического развертывания (ADR), необходимо внести изменения в правила, если они используют свойство **заголовка**. Это связано с тем, что имена пакетов обновления в каталоге Центра обновления Майкрософт изменяются.
+
+Сейчас название пакета обновления для Office 365 профессиональный плюс начинается со слов "Обновление клиента Office 365", как показано в следующем примере:
+
+&nbsp; &nbsp; Обновление клиента Office 365 — Semi-annual Channel версии 1908 для выпуска x64 (сборка 11929.20648)
+
+Для пакетов обновлений, выпущенных начиная с 9 июня, заголовок будет начинаться со слов "Обновление приложений Microsoft 365", как показано в следующем примере:
+
+&nbsp; &nbsp; Обновление приложений Microsoft 365 — Semi-annual Channel версии 1908 для выпуска x64 (сборка 11929.50000)
+</br>
+</br>
+
+|Новое имя канала|Предыдущее имя канала|
+|--|--|
+|Semi-Annual Enterprise Channel|Semi-Annual Channel|
+|Semi-Annual Enterprise Channel (предварительная версия)|Semi-Annual Channel (Targeted)|
+|Monthly Channel (корпоративный)|Н/Д|
+|Current Channel|Monthly Channel|
+|Current Channel (предварительная версия)|Monthly Channel (Targeted)|
+|Бета-канал|Предварительная оценка|
+
+Дополнительные сведения об изменении правил автоматического развертывания см. в статье [Автоматическое развертывание обновлений программного обеспечения](automatically-deploy-software-updates.md). Дополнительные сведения об изменении имени см. в статье [Изменение названия Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/name-change).
+
+
+## <a name="change-the-update-channel-after-you-enable-office-365-clients-to-receive-updates-from-configuration-manager"></a>Изменение канала обновления после предоставления клиентам Office 365 разрешения на получение обновлений из Configuration Manager
 
 После развертывания Office 365 профессиональный плюс можно изменить канал обновления с помощью групповой политики или средства развертывания Office (ODT). Например, можно переместить устройство из Semi-Annual Channel в Semi-Annual Channel (Targeted). При изменении канала Office обновляется автоматически без необходимости переустановки или загрузки полной версии. Дополнительные сведения см. в разделе [Изменение канала обновления Office 365 профессиональный плюс для устройств в организации](https://docs.microsoft.com//deployoffice/change-update-channels).
 

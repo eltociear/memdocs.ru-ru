@@ -10,12 +10,12 @@ ms.assetid: 6143fd47-48ec-4bca-b53b-5b9b9f067bc3
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 7476f27c050a7870cd8f860f2e1b6bfa3d68a7e9
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: b3849f360b2f22f2f48bbe49159b610399158b29
+ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81696292"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83427764"
 ---
 # <a name="how-to-upgrade-clients-for-windows-computers-in-configuration-manager"></a>Обновление клиентов для компьютеров Windows в Configuration Manager
 
@@ -97,7 +97,7 @@ Configuration Manager создает пакет обновления по умо
 Клиенты получат эти параметры при следующей загрузке политики.
 
 > [!NOTE]
-> При обновлении клиента учитываются все настроенные периоды обслуживания Configuration Manager.
+> При обновлении клиента учитываются все настроенные периоды обслуживания Configuration Manager. Поток execmgr запускает только программу начальной загрузки клиента (ccmsetup.exe) во время периода обслуживания. Если устройство работает под управлением выпуска Windows с фильтром записи, то ccmsetup пытается загрузиться и установиться одновременно. В противном случае ccmsetup случайным образом загружает содержимое. После загрузки содержимого и компиляции локальной политики execmgr планирует обновление клиента во время следующего периода обслуживания.<!-- SCCMDocs#896 -->
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

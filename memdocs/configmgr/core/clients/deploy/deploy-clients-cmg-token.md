@@ -10,12 +10,12 @@ ms.assetid: f0703475-85a4-450d-a4e8-7a18a01e2c47
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: bdc98febbc96162b2abe6e666c9354c342e5e913
-ms.sourcegitcommit: ed2c18e210db177eb0d5e10d74207006561b7b5d
+ms.openlocfilehash: c6b33027d67329b883f401168795c1b466ded1a7
+ms.sourcegitcommit: dba89b827d7f89067dfa75a421119e0c973bb747
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83383737"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83709403"
 ---
 # <a name="token-based-authentication-for-cloud-management-gateway"></a>Проверка подлинности на основе маркеров для шлюза управления облачными клиентами
 
@@ -25,7 +25,7 @@ ms.locfileid: "83383737"
 
 Шлюз управления облачными клиентами (CMG) поддерживает многие типы клиентов, но даже при использовании [расширенного HTTP](../../plan-design/hierarchy/enhanced-http.md) этим клиентам требуется [сертификат проверки подлинности клиента](../manage/cmg/certificates-for-cloud-management-gateway.md#for-internet-based-clients-communicating-with-the-cloud-management-gateway). Такое требование к наличию сертификата может оказаться сложно обеспечить для интернет-клиентов, которые не так часто подключаются к внутренней сети, не могут присоединяться к Azure Active Directory (Azure AD) и для которых не предусмотрен метод установки сертификата, выданного PKI.
 
-Начиная с версии 2002, Configuration Manager расширяет поддержку устройств с помощью следующих методов.
+Чтобы решить эти проблемы, начиная с версии 2002, Configuration Manager расширяет поддержку устройств с помощью следующих методов:
 
 - Регистрация во внутренней сети для уникального маркера
 
@@ -101,7 +101,7 @@ ms.locfileid: "83383737"
 
 Используйте с параметром `/new`, чтобы указать срок действия маркера. Укажите целочисленное значение в минутах. Значение по умолчанию — 4320 (три дня). Максимальное значение — 10 080 (семь дней).
 
-Пример: `BulkRegistrationTokenTool.exe /lifetime:4320`
+Пример: `BulkRegistrationTokenTool.exe /lifetime 4320`
 
 ## <a name="bulk-registration-token-management"></a>Управление маркерами групповой регистрации
 

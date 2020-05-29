@@ -10,12 +10,12 @@ ms.assetid: bb83ac87-9914-4a35-b633-ad070031aa6e
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 30cd61240b09f821d8b18c37e6accc7450f35817
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 35379aed71544a25a98ec4dfa421be70c1bae851
+ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81701672"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83427721"
 ---
 # <a name="install-a-cloud-distribution-point-for-configuration-manager"></a>Установка облачной точки распространения для Configuration Manager
 
@@ -215,6 +215,8 @@ If you issue the server authentication certificate from your PKI, you may direct
 ## <a name="manage-and-monitor"></a><a name="bkmk_monitor"></a> Управление и мониторинг  
 
 Содержимое, передаваемое в облачную точку распространения, отслеживается точно так же, как передаваемое в локальную. Дополнительные сведения см. в разделе [Мониторинг содержимого](monitor-content-you-have-distributed.md).
+
+При просмотре списка облачных точек распространения в консоли можно добавить в список дополнительные столбцы. Например, в столбце **Исходящий трафик** отображается количество клиентов данных, загруженных из службы за последние 30 дней.<!-- SCCMDocs#755 -->
 
 ### <a name="alerts"></a><a name="bkmk_alerts"></a> Предупреждения  
 

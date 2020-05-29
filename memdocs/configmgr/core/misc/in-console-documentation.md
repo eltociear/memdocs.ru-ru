@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: 1bd4ff4b25fcd4cf77366c93fcc1259ea2b5749f
-ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
+ms.openlocfilehash: 678f19d4ec69bea2bc5b3863e3e2a8332c10f3be
+ms.sourcegitcommit: 5d32dd481e2a944465755ce74e14c835cce2cd1c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83268187"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "83551610"
 ---
 <!-- 
 - Feature 1357546
@@ -107,11 +107,12 @@ ms.locfileid: "83268187"
 
 ## <a name="new-and-updated-support-articles"></a>Новые и обновленные справочные статьи
 
-Поддержка новых или обновленных статей с 21 февраля по 19 марта 2020 г.
+Справочные статьи, созданные или обновленные между 20 марта и 15 мая 2020 года.
 
-- [KB 4552430. Синхронизация категории обновлений сторонних производителей по умолчанию выполняется в Configuration Manager](https://support.microsoft.com/help/4552430)
-- [KB 4551013. Не удается скачать обновления сторонних производителей в Configuration Manager](https://support.microsoft.com/help/4551013)
-- [KB 4552181. Задержки распространения содержимого в Configuration Manager (Current Branch), версия 1910](https://support.microsoft.com/help/4552181)
-- [KB 4550023. Последовательность задач обновления на месте с помощью Configuration Manager не продолжают выполняться после отката обновления на месте после Windows 10](https://support.microsoft.com/help/4550023).
+- [KB 4561494: сбой создания приложения Microsoft Edge в Configuration Manager](https://support.microsoft.com/help/4561494)
+- [KB 4551059: удаленная консоль Configuration Manager зависает в течение 20 секунд каждые 10 минут](https://support.microsoft.com/help/4551059)
+- [KB 4556203: сводка изменений в Microsoft Endpoint Configuration Manager текущей ветви, версия 2002](https://support.microsoft.com/help/4556203)
+- [KB 4553501: обновление для Microsoft Endpoint Configuration Manager версии 2002, цикл ранних обновлений](https://support.microsoft.com/help/4553501)
+- [KB 4561945: ошибка "Базовое соединение закрыто", когда средство подключения службы скачивает файл ConfigMgr.AdminUIContent.cab](https://support.microsoft.com/help/4561945)
 
 Чтобы подписаться на уведомления Atom или RSS о новых справочных статьях о Configuration Manager, перейдите в раздел [Обновления справочного содержимого](https://support.microsoft.com/help/4089498/) и выберите продукт **System Center Configuration Manager**.  

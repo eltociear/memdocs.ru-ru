@@ -10,12 +10,12 @@ ms.assetid: 97f2d81a-2c58-442c-88bc-defd5a1cd48f
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 1166d4c674207ed3590901465ca90a98ce3ae78f
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 4403c8d0c57fba8fb63e3df729fb8a48ff123362
+ms.sourcegitcommit: d8dc05476ecd5db7ecb36dc649b566b349ba263d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82075070"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83732879"
 ---
 # <a name="manage-boot-images-with-configuration-manager"></a>Управление образами загрузки с помощью Configuration Manager
 
@@ -201,13 +201,8 @@ Configuration Manager предоставляет два загрузочных �
 
 - **Установка раскладки клавиатуры по умолчанию в WinPE**: <!--4910348-->Начиная с версии 1910 вы можете настроить раскладку клавиатуры по умолчанию для образа загрузки. Если выбран язык, отличный от en-us, Configuration Manager по-прежнему включает en-us в список доступных языковых стандартов ввода. На устройстве в качестве языкового стандарта выбрана первоначальная раскладка клавиатуры, но при необходимости пользователь может переключить устройство на стандарт en-us.
 
-    > [!Tip]
-    > Командлет PowerShell [Set-CMBootImage](https://docs.microsoft.com/powershell/module/configurationmanager/set-cmbootimage?view=sccm-ps) теперь содержит новый параметр `-InputLocale`. Пример.
-    >
-    > ```PowerShell
-    > # Set boot image keyboard layout to Russian (Russia)
-    > Set-CMBootimage -Id "CM100004" -InputLocale "ru-ru"`
-    > ```
+> [!Tip]
+> Используйте командлет PowerShell [Set-CMBootImage](https://docs.microsoft.com/powershell/module/configurationmanager/set-cmbootimage?view=sccm-ps), чтобы настроить эти параметры из скрипта.
 
 #### <a name="optional-components"></a>Дополнительные компоненты
 

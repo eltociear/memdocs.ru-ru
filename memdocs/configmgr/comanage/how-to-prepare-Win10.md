@@ -5,17 +5,17 @@ description: Сведения о подготовке подключенных �
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.date: 04/24/2020
+ms.date: 05/14/2020
 ms.topic: conceptual
 ms.prod: configuration-manager
 ms.technology: configmgr-comanage
 ms.assetid: 101de2ba-9b4d-4890-b087-5d518a4aa624
-ms.openlocfilehash: 59ca1006d8700e52b3f3fb703f8896ce9fa8b9b7
-ms.sourcegitcommit: 3ff33493c3f93bf06fdc942d30958a2a4ad03529
+ms.openlocfilehash: e6582599a02f4a8196ee739ca875df4d158a993e
+ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82137921"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83427789"
 ---
 # <a name="how-to-prepare-internet-based-devices-for-co-management"></a>Подготовка подключенных через Интернет устройств к совместному управлению
 
@@ -104,9 +104,9 @@ ms.locfileid: "82137921"
 
 ### <a name="create-the-app-in-intune"></a>Создание приложения в Intune
 
-1. Перейдите к [порталу Azure](https://portal.azure.com) и откройте страницу Intune.  
+1. Перейдите в [центр администрирования Microsoft Endpoint Manager](https://endpoint.microsoft.com), а затем разверните область навигации слева.  
 
-2. Щелкните **Клиентские приложения** > **Приложения** > **Добавить**.  
+2. Выберите **Приложения** > **Все приложения** > **Добавить**.  
 
 3. В разделе **Другие** выберите **Бизнес-приложение**.  
 

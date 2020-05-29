@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ms.reviewer: acabello
-ms.openlocfilehash: 23af311a78058240e6ebf8a2ca3c9e0fcdaf711f
-ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
+ms.openlocfilehash: e9031b09fa6749d619c8048e70331a6f7c67d472
+ms.sourcegitcommit: 6ca5e75ed7a6fd2186fbe51c177960004d5ec81f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83268561"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83633335"
 ---
 # <a name="what-is-desktop-analytics"></a>Что такое Аналитика компьютеров?
 
@@ -94,7 +94,7 @@ ms.locfileid: "83268561"
     > Аналитика компьютеров поддерживает несколько иерархий Configuration Manager, отправляющих отчеты в один клиент Azure AD.<!-- 4814075 --> Если в вашей среде имеется несколько иерархий, доступны следующие варианты:
     >
     > - Использование разных коммерческих идентификаторов и клиентов Azure AD.
-    > - Настройка обеих иерархий так, чтобы они использовали один и тот же коммерческий идентификатор для совместного использования клиента Azure AD и экземпляра Аналитики компьютеров.
+    > - Настройка обеих иерархий так, чтобы они использовали один и тот же коммерческий идентификатор для совместного использования клиента Azure AD и экземпляра Аналитики компьютеров. Для подключения каждой иерархии используйте [различные приложения](connect-configmgr.md#bkmk_connect). После отключения иерархии изменения отобразятся на портале в течение 30 минут. 
 
 - Устройства под управлением Windows 7, Windows 8.1 или Windows 10.  
 
