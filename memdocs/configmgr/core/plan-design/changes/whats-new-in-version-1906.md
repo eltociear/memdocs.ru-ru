@@ -10,12 +10,12 @@ ms.assetid: 97e23075-549c-4e45-ab1e-0671027edacf
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: c7ad4e96d9afba7e52d2ff2e5dd3f4f6be0b9a98
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 2db1a719aaf1cb79973f1af8e2de3c1bbb91d605
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82078708"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83879087"
 ---
 # <a name="whats-new-in-version-1906-of-configuration-manager-current-branch"></a>Новые возможности Configuration Manager версии 1906 (Current Branch)
 
@@ -186,7 +186,7 @@ ms.locfileid: "82078708"
 ### <a name="use-your-distribution-point-as-an-in-network-cache-server-for-delivery-optimization"></a>Использование точки распространения в качестве сервера кэша в сети для оптимизации доставки
 
 <!--3555764-->
-Теперь в точках распространения можно установить сервер кэша в сети для оптимизации доставки (DOINC). Благодаря кэшированию содержимого в локальной среде клиенты могут использовать преимущества оптимизации доставки, а вы можете защитить каналы связи глобальной сети.
+Теперь в точках распространения можно установить сервер кэша в сети для оптимизации доставки. Благодаря кэшированию содержимого в локальной среде клиенты могут использовать преимущества оптимизации доставки, а вы можете защитить каналы связи глобальной сети.
 
 Сервер кэша выступает в роли прозрачного кэша по запросу для содержимого, скачиваемого службой оптимизации доставки. Чтобы этот сервер был доступен только членам локальной группы границ Configuration Manager, настройте параметры клиента.
 

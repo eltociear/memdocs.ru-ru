@@ -10,12 +10,12 @@ ms.assetid: 463ce307-59dd-4abd-87b8-42ca9db178d7
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 58b66639094a602206114cd75a724504618ad38c
-ms.sourcegitcommit: 2cafbba6073edca555594deb99ae29e79cd0bc79
+ms.openlocfilehash: ac5b3ca8e8e2231bb421838fa56b20253ddfcb74
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82110038"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83878377"
 ---
 # <a name="how-to-use-the-configuration-manager-console"></a>Использование консоли Configuration Manager
 
@@ -228,7 +228,7 @@ Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
 - Несовпадение версий консоли (критическое): версия консоли не совпадает с версией сайта  
 - Обновление сайта доступно (предупреждение): доступен новый пакет обновления  
 
-Дополнительные сведения и справку по устранению неполадок см. в файле **SmsAdminUI.log** на компьютере с консолью. По умолчанию этот файл расположен по следующему пути: `C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\AdminUILog\SmsAdminUI.log`.
+Дополнительные сведения и справку по устранению неполадок см. в файле **SmsAdminUI.log** на компьютере с консолью. По умолчанию этот файл расположен по следующему пути: `C:\Program Files (x86)\Microsoft Endpoint Manager\AdminConsole\AdminUILog\SmsAdminUI.log`.
 
 
 ## <a name="in-console-documentation-dashboard"></a><a name="bkmk_doc-dashboard"></a> Панель мониторинга документации в консоли

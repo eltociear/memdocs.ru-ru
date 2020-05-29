@@ -10,12 +10,12 @@ ms.assetid: 3e1ddb65-1193-46ce-a7c0-a48dfd9fd833
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 849dd0bdb0f6583d525df8af3f6d46f8a4a9aecf
-ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
+ms.openlocfilehash: a52b70b0a753036c506e5d515cbac048d6771295
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82904675"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83879055"
 ---
 # <a name="whats-new-in-version-1910-of-configuration-manager-current-branch"></a>Новые возможности Configuration Manager версии 1910 (Current Branch)
 
@@ -123,7 +123,7 @@ Microsoft Endpoint Manager — это интегрированное решен
 Дополнительные сведения см. в разделе [Подключенный кэш Майкрософт в Configuration Manager](../hierarchy/microsoft-connected-cache.md#bkmk_intune).
 
 > [!NOTE]
-> В состав версии 1906 Configuration Manager (Current Branch) входил [сетевой кэш для оптимизации доставки](../hierarchy/microsoft-connected-cache.md) (DOINC), приложение Windows Server, которое пока находится на этапе разработки. Начиная с версии 1910 (Current Branch), эта функция теперь называется подключенным кэшем Майкрософт.
+> В состав текущей версии ветви Configuration Manager 1906 входил [сетевой кэш для оптимизации доставки](../hierarchy/microsoft-connected-cache.md), приложение Windows Server, которое пока находится на этапе разработки. Начиная с версии 1910 (Current Branch), эта функция теперь называется подключенным кэшем Майкрософт.
 >
 > При установке подключенного кэша в точке распространения Configuration Manager он разгружает трафик службы оптимизации доставки в локальные источники. Подключенный кэш выполняет это, эффективно кэшируя содержимое на уровне диапазона байтов.
 
