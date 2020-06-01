@@ -2,7 +2,7 @@
 title: Поддержка Windows 10
 titleSuffix: Configuration Manager
 description: Сведения о том, какие версии Windows 10 можно развернуть с помощью Configuration Manager и использовать в качестве клиентов
-ms.date: 04/01/2020
+ms.date: 05/27/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: a1626a65-da22-49e0-9564-d2f752ea3f4b
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 7241db0220bf4adf9b55341514afb03de33c2589
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: a67a22f788af39dacb9f3a39e91e0f28444c6988
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81688602"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83879075"
 ---
 # <a name="support-for-windows-10-in-configuration-manager"></a>Поддержка Windows 10 в Configuration Manager  
 
@@ -53,11 +53,12 @@ ms.locfileid: "81688602"
 | **Корпоративная 2015 с долгосрочным обслуживанием** <!--10/14/2025-->   | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
 | **Корпоративная 2016 с долгосрочным обслуживанием** <!--10/13/2026-->   | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
 | **Корпоративная LTSC 2019** <!--01/09/2029-->   | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
-| **1709**<br>(10.0.16299)   <!--04/14/2020-->   | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
+| **1709**<br>(10.0.16299)   <!--10/13/2020-->   | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
 | **1803**<br>(10.0.17134)   <!--11/10/2020-->   | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
 | **1809**<br>(10.0.17763)   <!--05/11/2021-->   | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
 | **1903**<br>(10.0.18362)   <!--12/08/2020-->   | ![Не поддерживается](media/Red_X.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
-| **1909**<br>(10.0.18363)   <!--05/11/2021-->   | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
+| **1909**<br>(10.0.18363)   <!--05/10/2022-->   | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
+| **2004**<br>(10.0.19041)   <!--??/??/2021-->   | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) | ![Поддерживается](media/green_check.png) |
 
 <!-- lifecycle reference: https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet -->
 
@@ -112,6 +113,7 @@ Configuration Manager поддерживает клиенты на устрой�
 | **1803**<br>(10.1.17134) | ![Обратная совместимость](media/blue_compat.png) | ![Обратная совместимость](media/blue_compat.png) | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) |
 | **1809**<br>(10.1.17763) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Обратная совместимость](media/blue_compat.png) | ![Обратная совместимость](media/blue_compat.png) | ![Не поддерживается](media/Red_X.png) |
 | **1903**<br>(10.1.18362) | ![Не поддерживается](media/Red_X.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) | ![Поддерживается](media/green_check.png) |
+| **2004**<br>(10.1.19041) | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) | ![Не поддерживается](media/Red_X.png) | ![Поддерживается](media/green_check.png) |
 
 |Key|
 |--|

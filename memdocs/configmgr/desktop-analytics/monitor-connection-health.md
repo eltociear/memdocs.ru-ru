@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ms.reviewer: acabello
-ms.openlocfilehash: 6eb0a99043eefcdb54c27a183fbc1e1eec8899bf
-ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
+ms.openlocfilehash: fdc15860f2d093a4c9c61b787ba0b780051d3f3d
+ms.sourcegitcommit: 97fbb7db14b0c4049c0fe3a36ee16a5c0cf3407a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83268646"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83864877"
 ---
 # <a name="monitor-connection-health"></a>Мониторинг работоспособности подключения
 
@@ -104,6 +104,9 @@ ms.locfileid: "83268646"
 Configuration Manager обнаруживает одну или несколько блокирующих проблем, препятствующих регистрации устройств. Дополнительные сведения см. в списке устройств в разделе [Свойства устройства](#bkmk_config-issues).  
 
 Например, версия клиента Configuration Manager ниже 1902 (5.0.8790). Обновите клиент до последней версии. Рассмотрите возможность включения автоматического обновления клиента для сайта Configuration Manager. См. дополнительные сведения об [обновлении клиентов](../core/clients/manage/upgrade/upgrade-clients.md#automatic-client-upgrade).  
+
+> [!TIP]
+> Существует известная проблема с продленным обновлением системы безопасности для Windows 7 за апрель 2020 г., когда устройства неправильно сообщают об ошибке. Дополнительные сведения см. в статье [Заметки о выпуске Configuration Manager](../core/servers/deploy/install/release-notes.md#dawin7-diagtrack).<!-- 7283186 -->
 
 Начиная с версии 2002, можно с легкостью определять проблемы с конфигурацией прокси-сервера клиентов в двух областях.
 
@@ -410,6 +413,9 @@ Census — это компонент Windows, который выполняет
 В противном случае может отобразиться одна из следующих ошибок:
 
 - Компонент функциональных возможностей для подключенных пользователей и телеметрии (diagtrack.dll) устарел. Проверьте требования.  
+
+    > [!TIP]
+    > Существует известная проблема с продленным обновлением системы безопасности для Windows 7 за апрель 2020 г., когда устройства неправильно сообщают об ошибке. Дополнительные сведения см. в статье [Заметки о выпуске Configuration Manager](../core/servers/deploy/install/release-notes.md#dawin7-diagtrack).<!-- 7283186 -->
 
 - Не удается найти компонент функциональных возможностей для подключенных пользователей и телеметрии (diagtrack.dll). Проверьте требования.  
 

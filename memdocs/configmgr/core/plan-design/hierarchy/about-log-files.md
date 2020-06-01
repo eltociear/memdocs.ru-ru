@@ -10,12 +10,12 @@ ms.assetid: b1751e3c-a60c-4ab7-a943-2595df1eb612
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: d6be23adc7ac082545bffeef59ed52d3455d9931
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 588bccc533909f2438dc61d6f25b39c3a582c71b
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81703752"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83879027"
 ---
 # <a name="about-log-files-in-configuration-manager"></a>Сведения о файлах журналов в Configuration Manager
 
@@ -211,7 +211,10 @@ ms.locfileid: "81703752"
 
 Чтобы изменить уровень детализации журнала AdminUI.log для консоли Configuration Manager, выполните следующую процедуру:
 
-1. Откройте файл конфигурации консоли **Microsoft.ConfigurationManagement.exe.config** в редакторе XML, например в Блокноте. Файл конфигурации по умолчанию находится в следующем расположении: `C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\bin\Microsoft.ConfigurationManagement.exe.config`
+1. Откройте файл конфигурации консоли **Microsoft.ConfigurationManagement.exe.config** в редакторе XML, например в Блокноте. Файл конфигурации по умолчанию находится в следующем расположении: `C:\Program Files (x86)\Microsoft Endpoint Manager\AdminConsole\bin\Microsoft.ConfigurationManagement.exe.config`
+
+    > [!IMPORTANT]
+    > Начиная с версии 1910, этот путь изменился и ведет в папку `Microsoft Endpoint Manager`. Убедитесь, что вы не используете файл старой версии, расположенный в другой папке.
 
 1. В элементе **system.diagnostics** > **sources** > **source** измените атрибут **switchValue** с `Error` на `Verbose`. Пример.
 
@@ -240,7 +243,7 @@ Configuration Manager и зависимые компоненты хранят ф
 - Клиент: `C:\Windows\CCM\logs`
 - Сервер: `C:\Program Files\Microsoft Configuration Manager\Logs`
 - Точка управления: `C:\SMS_CCM\Logs`
-- Консоль Configuration Manager: `C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\AdminUILog`
+- Консоль Configuration Manager: `C:\Program Files (x86)\Microsoft Endpoint Manager\AdminConsole\AdminUILog`
 - IIS: `C:\inetpub\logs\logfiles\w3svc1`
 
 ### <a name="task-sequence-log-locations"></a>Расположения журналов последовательностей задач

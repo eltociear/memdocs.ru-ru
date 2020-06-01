@@ -10,12 +10,12 @@ ms.assetid: f2df88b4-c348-4dcf-854a-54fd6eedf485
 author: aczechowski
 manager: dougeby
 ms.author: aaroncz
-ms.openlocfilehash: 590f3adec168fe6d7f4718505bd6f7d6b9f7c25f
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: fe570eeedc2c050bdaf27903d30ddffff63109d9
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81692732"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83879150"
 ---
 # <a name="creating-custom-report-models-for-configuration-manager-in-sql-server-reporting-services"></a>Создание моделей пользовательских отчетов для Configuration Manager в службах SQL Server Reporting Services
 
@@ -413,7 +413,7 @@ ms.locfileid: "81692732"
 
 9. Сохраните и закройте файл _&lt;имя_модели\>_ **.smdl**.  
 
-10. Скопируйте файл _&lt;имя_модели\>_ **.smdl** в папку *%programfiles%* \Microsoft Configuration Manager\AdminConsole\XmlStorage\Other на сервере сайта Configuration Manager.  
+10. Скопируйте файл _&lt;Имя_модели\>_ **.smdl** в папку *%programfiles%* \Microsoft Endpoint Manager\AdminConsole\XmlStorage\Other на сервере сайта Configuration Manager.  
 
     > [!IMPORTANT]  
     >  После копирования файла модели отчета на сервер сайта Configuration Manager необходимо закрыть и перезапустить консоль Configuration Manager. Только после этого модель отчета можно использовать в **мастере создания отчетов**.  

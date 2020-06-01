@@ -157,6 +157,10 @@
               href: intune-endpoints.md
             - name: "Конечные точки US\_Government в\_Intune"
               href: intune-us-government-endpoints.md
+            - name: Конечные точки в Китае
+              href: china-endpoints.md
+            - name: Доступ к Intune в Китае через 21Vianet
+              href: china.md
         - name: Вход в Intune
           href: account-sign-up.md
         - name: Настройка доменов

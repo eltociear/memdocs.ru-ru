@@ -2,7 +2,7 @@
 title: Заметки о выпуске
 titleSuffix: Configuration Manager
 description: Сведения о срочных проблемах, которые еще не исправлены в продукте и не рассматриваются в статьях базы знаний службы поддержки Майкрософт.
-ms.date: 04/08/2020
+ms.date: 05/21/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 030947fd-f5e0-4185-8513-2397fb2ec96f
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: da0b9fc5600a957680ad22e54edc176c892527a6
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 131b6104d5724c8a4eeb0bb68c4afd9a5319abb7
+ms.sourcegitcommit: 2f9999994203194a8c47d8daa6406c987a002e02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81700652"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83823968"
 ---
 # <a name="release-notes-for-configuration-manager"></a>Заметки о выпуске Configuration Manager
 
@@ -33,6 +33,8 @@ ms.locfileid: "81700652"
 - [Новые возможности в версии 1910](../../../plan-design/changes/whats-new-in-version-1910.md)
 - [Новые возможности в версии 1906](../../../plan-design/changes/whats-new-in-version-1906.md)  
 - [Новые возможности в версии 1902](../../../plan-design/changes/whats-new-in-version-1902.md)
+
+Сведения о новых возможностях Аналитики компьютеров см. в статье [Новые возможности Аналитики компьютеров](../../../../desktop-analytics/whats-new.md).
 
 > [!Tip]  
 > Чтобы получать уведомления при обновлении этой страницы, скопируйте и вставьте следующий URL-адрес в средство чтения веб-канала RSS: `https://docs.microsoft.com/api/search/rss?search=%22release+notes+-+Configuration+Manager%22&locale=en-us`.
@@ -165,6 +167,15 @@ ms.locfileid: "81700652"
 Дополнительные сведения см. в разделе [Создание настраиваемых ролей безопасности](../configure/configure-role-based-administration.md#BKMK_CreateSecRole)
 
 ## <a name="desktop-analytics"></a>Аналитика компьютеров
+
+### <a name="an-extended-security-update-for-windows-7-causes-them-to-show-as-unable-to-enroll"></a><a name="dawin7-diagtrack"></a> После установки продленного обновления системы безопасности для Windows 7 система сообщает, что устройства **не удалось зарегистрировать**
+
+<!-- 7283186 -->
+_Область применения: Configuration Manager версии 1902, 1906, 1910 и 2002_
+
+В продленном обновлении системы безопасности для Windows 7 за апрель 2020 г. минимальная требуемая версия библиотеки diagtrack.dll была изменена с 10586 на 10240. Это привело к тому, на панели мониторинга Desktop Analytics **Работоспособность подключения** в поле состояния устройств Windows 7 отображается сообщение **Не удалось зарегистрировать**. При подробной детализации этого состояния на уровне устройства видно, что для свойства **Конфигурация службы DiagTrack** отображается сообщение `Connected User Experience and Telemetry (diagtrack.dll) component is outdated. Check requirements.`.
+
+Для этой проблемы решения не требуется. Не удаляйте установленное апрельское обновление системы безопасности. Если устройства Windows 7 настроены правильно, они будут передавать диагностические данные в службу "Аналитика компьютеров" и отображаться на портале.
 
 ### <a name="if-you-use-hardware-inventory-for-distributed-views-you-cant-onboard-to-desktop-analytics"></a>Если вы используете инвентаризацию оборудования для распределенных представлений, вы не сможете подключить их к службе "Аналитика компьютеров"
 

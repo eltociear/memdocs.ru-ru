@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ms.reviewer: acabello
-ms.openlocfilehash: c10e3c1cb2a0044003415d8f55a0a4ac85058656
-ms.sourcegitcommit: 6ca5e75ed7a6fd2186fbe51c177960004d5ec81f
+ms.openlocfilehash: 22b5461df3a560449316009471ea029967118f5d
+ms.sourcegitcommit: 97fbb7db14b0c4049c0fe3a36ee16a5c0cf3407a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83633324"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83864912"
 ---
 # <a name="how-to-enroll-devices-in-desktop-analytics"></a>Как зарегистрировать устройства в Аналитике компьютеров
 
@@ -37,10 +37,10 @@ ms.locfileid: "83633324"
 | Версия ОС | Средство оценки | DiagTrack |
 | --------------| ----------------------- | -------------------|
 | Windows 10 1909 | Включено <sup>[Примечание 1](#bkmk_note1)</sup> | [Последнее накопительное обновление](https://support.microsoft.com/help/4529964) |
-| Windows 10 1903 | Включено | [Последнее накопительное обновление](https://support.microsoft.com/help/4498140) |
-| Windows 10 1809 | Включено | [Последнее накопительное обновление](https://support.microsoft.com/help/4464619) |
-| Windows 10 1803 | Включено | [Последнее накопительное обновление](https://support.microsoft.com/help/4099479) |
-| Windows 10 1709 | Включено | [Последнее накопительное обновление](https://support.microsoft.com/help/4043454) |
+| Windows 10 1903 | Включено <sup>[Примечание 1](#bkmk_note1)</sup> | [Последнее накопительное обновление](https://support.microsoft.com/help/4498140) |
+| Windows 10 1809 | Включено <sup>[Примечание 1](#bkmk_note1)</sup> | [Последнее накопительное обновление](https://support.microsoft.com/help/4464619) |
+| Windows 10 1803 | Включено <sup>[Примечание 1](#bkmk_note1)</sup> | [Последнее накопительное обновление](https://support.microsoft.com/help/4099479) |
+| Windows 10 1709 | Включено <sup>[Примечание 1](#bkmk_note1)</sup> | [Последнее накопительное обновление](https://support.microsoft.com/help/4043454) |
 | Windows 8.1 | [KB 2976978](https://support.microsoft.com/help/2976978) <sup>[Примечание 2](#bkmk_note2)</sup> | [Последний Ежемесячный накопительный пакет](https://support.microsoft.com/help/4009470) |
 | Windows 7 с пакетом обновления 1 (SP1); | [KB 2952664](https://support.microsoft.com/help/2952664) <sup>[Примечание 3](#bkmk_note3)</sup> | [Последний Ежемесячный накопительный пакет](https://support.microsoft.com/help/4009469) |
 
@@ -51,7 +51,7 @@ ms.locfileid: "83633324"
 
 ### <a name="note-1-windows-10"></a><a name="bkmk_note1"></a> Примечание 1. быть под управлением ОС Windows 10;
 
-Хотя Windows 10 по умолчанию включает эти компоненты, устройствам Windows 10 требуется последнее накопительное обновление, чтобы получить все функциональные возможности Аналитики компьютеров. Например, для оценки устройства на совместимость с последней версией ОС и получения сведений о развертывании и состоянии регистрации практически в режиме реального времени.
+Хотя Windows 10 по умолчанию включает эти компоненты, устройствам Windows 10 требуется последнее накопительное обновление, чтобы получить все функциональные возможности Аналитики компьютеров, например оценку совместимости устройства с последней версией ОС.
 
 ### <a name="note-2-windows-81"></a><a name="bkmk_note2"></a> Примечание 2. Windows 8.1
 

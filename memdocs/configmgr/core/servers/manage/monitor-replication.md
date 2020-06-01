@@ -10,12 +10,12 @@ ms.assetid: 69550b35-bcdb-4b47-bbec-b3c8bc92bb7b
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 96cce5d4aaa352177b1c24ff78cf15e90ea6e823
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 4a9ae791582911f91e5f76b841248ad5085d8170
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81694412"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83879820"
 ---
 # <a name="monitor-database-replication"></a>Мониторинг репликации базы данных
 
@@ -122,7 +122,10 @@ ms.locfileid: "81694412"
 
 - В консоли Configuration Manager Перейдите в рабочую область **Мониторинг** и выберите узел **Репликация базы данных**. Выберите канал репликации, который нужно проанализировать, а затем на ленте выберите **Replication Link Analyzer**.  
 
-- Для запуска из командной строки введите следующую команду: `%ProgramFiles(x86)%\Microsoft Configuration Manager\AdminConsole\bin\Microsoft.ConfigurationManager.ReplicationLinkAnalyzer.Wizard.exe <source site server FQDN> <destination site server FQDN>`  
+- Для запуска из командной строки введите следующую команду: `%ProgramFiles(x86)%\Microsoft Endpoint Manager\AdminConsole\bin\Microsoft.ConfigurationManager.ReplicationLinkAnalyzer.Wizard.exe <source site server FQDN> <destination site server FQDN>`  
+
+    > [!IMPORTANT]
+    > Начиная с версии 1910, этот путь изменился и ведет в папку `Microsoft Endpoint Manager`. Убедитесь, что вы не используете файл старой версии, расположенный в другой папке.
 
 При запуске RLA обнаруживает проблемы, используя ряд правил диагностики и проверок. Вы просматриваете проблемы, которые идентифицирует инструмент. Если у анализатора есть инструкции по решению проблемы, он отображает их. Если RLA может автоматически устранить проблему, вы увидите этот параметр.
 

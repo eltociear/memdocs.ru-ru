@@ -2,7 +2,7 @@
 title: Новые возможности в версии 2002
 titleSuffix: Configuration Manager
 description: Сведения об изменениях и новых возможностях, появившихся в версии 2002 текущей ветви Configuration Manager.
-ms.date: 05/11/2020
+ms.date: 05/26/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: de718cdc-d0a9-47e2-9c99-8fa2cb25b5f8
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.openlocfilehash: 1aca9058b0f095b7f25b345c15eed1446dcf61d2
-ms.sourcegitcommit: 7b224e138c0618e978be59832b3486f3745abacc
+ms.openlocfilehash: afdcc608133d306042c9c6dc817396bb2fc3f387
+ms.sourcegitcommit: b0ae4a9972bac3518d0d4f33e033ac492eefe3c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83381559"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126487"
 ---
 # <a name="whats-new-in-version-2002-of-configuration-manager-current-branch"></a>Новые возможности версии 2002 текущей ветви Configuration Manager
 
@@ -328,6 +328,15 @@ Configuration Manager теперь определяет, является ли �
 
 <!-- 5229962 -->
 В Configuration Manager расширена поддержка подключения устройств к ATP в Microsoft Defender. Подробные сведения см. в статье [Microsoft Defender Advanced Threat Protection](../../../protect/deploy-use/windows-defender-advanced-threat-protection.md#onboard-devices) (Расширенная защита от угроз в Microsoft Defender).
+
+## <a name="onboard-configuration-manager-clients-to-microsoft-defender-atp-via-the-microsoft-endpoint-manager-admin-center"></a><a name="bkmk_atp"></a> Подключение клиентов Configuration Manager к ATP в Microsoft Defender через центр администрирования Microsoft Endpoint Manager
+<!--5691658-->
+Теперь вы можете развернуть политики подключения системы обнаружения и нейтрализации атак на конечные точки (EDR) в ATP в Microsoft Defender для управляемых клиентов Configuration Manager. Для этих клиентов не требуется регистрация в Azure AD или MDM, а политика предназначена для коллекций ConfigMgr, а не для групп Azure AD.
+
+Эта возможность позволяет клиентам управлять подключением EDR/ATP в Intune MDM и клиенте Configuration Manager в рамках единого интерфейса управления — в центре администрирования Microsoft Endpoint Manager. Дополнительные сведения см. в статье [Политика обнаружения и отклика конечных точек для безопасности конечных точек в Intune](../../../../intune/protect/endpoint-security-edr-policy.md).
+
+> [!Important]
+> Для работы этой функции вам потребуется установить в вашей среде накопительный пакет исправлений [KB4563473](https://support.microsoft.com/help/4563473).
 
 ### <a name="improvements-to-bitlocker-management"></a>Усовершенствования в управлении BitLocker
 

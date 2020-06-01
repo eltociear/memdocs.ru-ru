@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ROBOTS: NOINDEX
-ms.openlocfilehash: ced1cc1347167451d4efb789b40746ff849710ee
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 9178b595ba67723c623979b4c29290e42fe5f6ac
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81689082"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83877749"
 ---
 # <a name="technical-reference-for-the-package-conversion-manager-plug-in-configuration-xml"></a>Технический справочник по XML-параметрам конфигурации подключаемого модуля диспетчера преобразования пакетов
 
@@ -44,7 +44,10 @@ ms.locfileid: "81689082"
 ## <a name="sample-configuration-xml"></a>Пример XML-элементов конфигурации
 
 В этом разделе приводится пример XML-элементов конфигурации диспетчера преобразования пакетов в файле конфигурации Configuration Manager **Microsoft.ConfigurationManagement.exe.config**. По умолчанию этот файл расположен по следующему пути.  
-`C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\bin\Microsoft.ConfigurationManagement.exe.config`
+`C:\Program Files (x86)\Microsoft Endpoint Manager\AdminConsole\bin\Microsoft.ConfigurationManagement.exe.config`
+
+> [!IMPORTANT]
+> Начиная с версии 1910, этот путь изменился и ведет в папку `Microsoft Endpoint Manager`. Убедитесь, что вы не используете файл старой версии, расположенный в другой папке. 
 
 В этом примере элементы, относящиеся к диспетчеру преобразования пакетов, находятся внутри следующего элемента: `Microsoft.ConfigurationManagement.UserCentric.Workflow.Properties.Settings`
 

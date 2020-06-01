@@ -10,12 +10,12 @@ ms.assetid: cb616925-bb94-4b7c-a867-b3d95aef4d5e
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: f9d2a7d4a16f85e9a5f78dd6251754d86527da87
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 05110714d3aa8ca48ff9384f0116338b0092fde1
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81688982"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83877625"
 ---
 # <a name="troubleshoot-package-conversion-manager"></a>Устранение неполадок диспетчера преобразования пакетов
 
@@ -58,10 +58,13 @@ ms.locfileid: "81688982"
 
 ### <a name="enable-logging"></a>Включение ведение журнала
 
-При включении ведения журнала для диспетчера преобразования пакетов будут регистрироваться все действия, исключения и ошибки. 
+При включении ведения журнала для диспетчера преобразования пакетов будут регистрироваться все действия, исключения и ошибки.
 
 Чтобы включить ведение журнала для этого компонента в Configuration Manager, измените **Microsoft.ConfigurationManagement.exe.Config**. По умолчанию этот файл конфигурации можно найти по следующему пути.  
-`C:\Program Files (x86)\Microsoft Configuration Manager\AdminConsole\bin\Microsoft.ConfigurationManagement.exe.config`  
+`C:\Program Files (x86)\Microsoft Endpoint Manager\AdminConsole\bin\Microsoft.ConfigurationManagement.exe.config`  
+
+> [!IMPORTANT]
+> Начиная с версии 1910, этот путь изменился и ведет в папку `Microsoft Endpoint Manager`. Убедитесь, что вы не используете файл старой версии, расположенный в другой папке.
 
 Вставьте следующие **коммутаторы** и **трассировку** XML-элементов в элемент **system.diagnostics** после последнего элемента **Источники**.
 
