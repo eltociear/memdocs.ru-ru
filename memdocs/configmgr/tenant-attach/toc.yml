@@ -6,3 +6,9 @@
       href: device-sync-actions.md
     - name: 'Устранение неполадок, связанных с действиями устройств'
       href: technical-reference.md
+- name: 'CMPivot для устройств, подключенных к клиенту (предварительная версия)'
+  items:
+    - name: Обзор CMPivot
+      href: cmpivot-overview-attached.md
+    - name: Примеры скриптов для CMPivot
+      href: cmpivot-samples-attached.md
