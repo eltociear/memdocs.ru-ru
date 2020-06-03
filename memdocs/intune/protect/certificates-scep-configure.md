@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 45f649a99f6b3d632fea9e46dfdaee89450ebd23
-ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
+ms.openlocfilehash: 5939d12003df78b459ebc12c294434826194b931
+ms.sourcegitcommit: 118587ddb31ce26b27801839db9b3b59f1177f0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "83989274"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84166133"
 ---
 # <a name="configure-infrastructure-to-support-scep-with-intune"></a>Настройка инфраструктуры для поддержки SCEP с помощью Intune
 
@@ -224,9 +224,9 @@ Intune поддерживает использование протокола SC
 
 1. Выполните следующие команды в ЦС:
 
-   -**certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE**
-   -**net stop certsvc**
-   -**net start certsvc**
+   **certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE**  
+   **net stop certsvc**  
+   **net start certsvc**    
 
 2. В выдающем ЦС используйте оснастку центра сертификации, чтобы опубликовать шаблон сертификата. Выберите узел **Шаблоны сертификатов**, щелкните **Действие** > **Создать** > **Выдаваемый шаблон сертификата**, а затем укажите шаблон, созданный в предыдущем разделе.
 
