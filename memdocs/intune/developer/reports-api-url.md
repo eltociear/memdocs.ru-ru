@@ -6,7 +6,7 @@ keywords: Хранилище данных Intune
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/03/2020
+ms.date: 05/26/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 04521681ee6e262f4634cfc96560a5922ce1b8c0
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: ef0ba25d697bca6d6a6af7aad3565e6c2c70841e
+ms.sourcegitcommit: 118587ddb31ce26b27801839db9b3b59f1177f0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79360240"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84165946"
 ---
 # <a name="intune-data-warehouse-api-endpoint"></a>Конечная точка API для хранилища данных Intune
 
@@ -79,7 +79,7 @@ URL-адрес содержит следующие элементы:
 > В примерах фильтра подразумевается, что сегодняшняя дата — 21.02.2019.
 
 |                             Filter                             |           Оптимизация производительности           |                                          Описание                                          |
-|:--------------------------------------------------------------:|:--------------------------------------------:|:---------------------------------------------------------------------------------------------:|
+|----------------------------------------------------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------|
 |    `maxhistorydays=7`                                            |    Полная архивация                                      |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180221.                                     |
 |    `$filter=DateKey eq 20180214`                                 |    Полная архивация                                      |    Возврат данных с `DateKey`, равным 20180214.                                                    |
 |    `$filter=DateKey ge 20180214 and DateKey lt 20180221`         |    Полная архивация                                      |    Возврат данных с `DateKey` из промежутка между 20180214 и 20180220.                                     |

@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 0412f15912ac9017ebc49f974ec621d86f8b6c0e
-ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
+ms.openlocfilehash: b87b2528dce4d007f2a2031a11fd69ea774c2033
+ms.sourcegitcommit: 118587ddb31ce26b27801839db9b3b59f1177f0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "83989099"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84165912"
 ---
 # <a name="how-to-use-azure-ad-to-access-the-intune-apis-in-microsoft-graph"></a>Доступ к интерфейсам API Intune в Microsoft Graph с использованием Azure AD
 
@@ -143,7 +143,7 @@ Azure AD и Microsoft Graph используют области разреше�
 Предоставляя разрешения на доступ к Microsoft Graph, вы можете указать следующие области управления доступом к Intune, которые будут определяться приведенными ниже областями разрешений API Intune.  В первом столбце приводится имя функции, которое отображается на портале Azure, а во втором — имя соответствующей области разрешений.
 
 Значение параметра _Разрешить доступ_ | Имя области
-:--|:--
+:--|---
 __Выполнение удаленных действий, затрагивающих пользователей, на устройствах Microsoft Intune__ | [DeviceManagementManagedDevices.PrivilegedOperations.All](#mgd-po)
 __Чтение и запись устройств Microsoft Intune__ | [DeviceManagementManagedDevices.ReadWrite.All](#mgd-rw)
 __Чтение устройств Microsoft Intune__ | [DeviceManagementManagedDevices.Read.All](#mgd-ro)
