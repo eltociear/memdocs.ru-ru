@@ -10,12 +10,12 @@ ms.assetid: 8adbe2e2-de26-4a80-8bbd-a5f34b8bac79
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: 693f661f2a2db59335ec8e463842a0ad03c977f3
-ms.sourcegitcommit: 578ad1e8088f7065b565e8a4f4619f5a26b94001
+ms.openlocfilehash: f9fafcc4b5462afb1b8e528837ea6ba61203e73d
+ms.sourcegitcommit: d498e5eceed299f009337228523d0d4be76a14c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81724788"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84347154"
 ---
 # <a name="manage-apps-for-on-premises-mdm-in-configuration-manager"></a>Управление приложениями для локальной среды MDM в Configuration Manager
 
@@ -61,4 +61,4 @@ Configuration Manager поддерживает следующие типы фа�
 
 ## <a name="next-step"></a>Следующий шаг
 
-Чтобы внести изменения, удалить или заменить развернутое приложение новым приложением, управляйте им так же, как любое приложение в Configuration Manager. Дополнительные сведения см. в статье [Обновление и прекращение использования приложений](../../apps/deploy-use/update-and-retire-applications.md).
+Чтобы внести изменения, удалить или заменить развернутое приложение новым приложением, управляйте им так же, как любое приложение в Configuration Manager. Дополнительные сведения см. в статье [Изменение и замена приложений](../../apps/deploy-use/revise-and-supersede-applications.md).
