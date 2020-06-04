@@ -2,7 +2,7 @@
 title: Выпуски Technical Preview
 titleSuffix: Configuration Manager
 description: Сведения о ветви Technical Preview, которая позволяет протестировать новые функции и возможности в Configuration Manager.
-ms.date: 04/30/2020
+ms.date: 05/29/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-core
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 9ce0a8cb-f96c-4e41-834c-59ceb54ce44a
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: bfcdd74b7b5c31e3f3ab6bb38a7ea96de9d05eec
-ms.sourcegitcommit: 214fb11771b61008271c6f21e17ef4d45353788f
+ms.openlocfilehash: e4c0842a3e23eb8503c945073a4be35db5173086
+ms.sourcegitcommit: 0d2f6132428b5fa994e5b770ab1d2bf7d78ac179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82905141"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84226257"
 ---
 # <a name="technical-preview-for-configuration-manager"></a>Technical Preview для Configuration Manager
 
@@ -116,20 +116,28 @@ Enable this section if needed to include any broad change to the tech preview br
 This is the full list of new features in the latest TP release
 
 bullet format:
-<!-- - [title](2020/technical-preview-2003.md) <!--ID-->
+<!-- - [title](2020/technical-preview-2005.md) <!--ID-->
 
 Ниже приведены функции, представленные в последней версии Technical Preview для Configuration Manager.
 
-### <a name="technical-preview-version-2004"></a>Technical Preview версии 2004
+### <a name="technical-preview-version-2005"></a>Technical Preview версии 2005
 
-- [Подключение арендатора Microsoft Endpoint Manager: сведения о клиенте ConfigMgr](2020/technical-preview-2004.md#bkmk_mem) <!--6374854-->
-- [Уведомления от Майкрософт](2020/technical-preview-2004.md#notifications-from-microsoft) <!--3953121-->
-- [Копирование данных обнаружения из консоли](2020/technical-preview-2004.md#bkmk_copydisco) <!--6890051-->
-- [Улучшения CMPivot](2020/technical-preview-2004.md#improvements-to-cmpivot) <!--6518631-->
-- [Поддержка PowerShell версии 7](2020/technical-preview-2004.md#bkmk_pwsh7) <!--6023299-->
-- [Улучшение этапа последовательности задач "Отформатировать диск и создать разделы"](2020/technical-preview-2004.md#bkmk_osdpart) <!--6610288-->
-- [Правила аналитики управления для развертывания ОС](2020/technical-preview-2004.md#bkmk_osdmi) <!--6982275-->
-- [Командлеты PowerShell для типов развертывания последовательности задач](2020/technical-preview-2004.md#bkmk_osdpwsh) <!--7019342-->
+- [Присоединение арендатора: Временная шкала устройства в Центре администрирования](2020/technical-preview-2005.md#bkmk_timeline) <!--7141381-->
+- [Присоединение арендатора: установка приложения из Центра администрирования](2020/technical-preview-2005.md#bkmk_apps) <!--6024389-->
+- [Присоединение арендатора: CMPivot из Центра администрирования](2020/technical-preview-2005.md#bkmk_cmpivot) <!--6024392-->
+- [Присоединение арендатора: запуск сценариев из Центра администрирования](2020/technical-preview-2005.md#bkmk_scripts) <!--6234688-->
+- [Тип границы VPN](2020/technical-preview-2005.md#bkmk_vpn) <!--7020519-->
+- [Проверка подлинности Azure AD в Центре программного обеспечения](2020/technical-preview-2005.md#bkmk_availapp) <!--6935376-->
+- [Установка и обновление клиента с лимитным подключением](2020/technical-preview-2005.md#bkmk_meter) <!--6976145-->
+- [Поддержка носителей последовательности задач для облачного содержимого](2020/technical-preview-2005.md#bkmk_tsmedia) <!--6209223-->
+- [Улучшения командлетов шлюза управления облачными клиентами](2020/technical-preview-2005.md#bkmk_pwshcmg) <!--6978300-->
+- [Центр сообщества и GitHub](2020/technical-preview-2005.md#community-hub-and-github) <!--3555935-->
+- [Приложения Microsoft 365 для предприятия](2020/technical-preview-2005.md#bkmk_365_apps) <!--6298093-->
+- [Сбои при установке и обновлении отчетов в корпорацию Майкрософт](2020/technical-preview-2005.md#report-setup-and-upgrade-failures-to-microsoft) <!--5622909-->
+- [Уведомление об истечении срока действия секретного ключа приложения Azure AD](2020/technical-preview-2005.md#bkmk_alertkey) <!--6386392-->
+- [Улучшения этапов последовательности задач BitLocker](2020/technical-preview-2005.md#bkmk_tsbitlocker) <!--6995601-->
+- [Улучшения средства очистки библиотеки содержимого](2020/technical-preview-2005.md#bkmk_content) <!--6887878-->
+- [Удаление командной строки во время обновления Windows 10 на месте](2020/technical-preview-2005.md#bkmk_ipucmd) <!--2837795-->
 
 > [!NOTE]
 > Функции, которые были доступны в предыдущей версии Technical Preview, остаются доступными в последующих версиях. Таким же образом функции, добавленные в ветвь Current Branch для Configuration Manager, остаются доступными в ветви Technical Preview.
@@ -146,6 +154,17 @@ When there's a new CB, add any features not in that CB to the table in H2 "Featu
 
 > [!TIP]
 > При выходе новой версии Current Branch доступные в ней функции приводятся в актуальном выпуске статьи *Новые возможности*. Дополнительные сведения: [Новые возможности в добавочных версиях](../plan-design/changes/whats-new-incremental-versions.md#supported-versions).
+
+### <a name="technical-preview-version-2004"></a>Technical Preview версии 2004
+
+- [Подключение арендатора Microsoft Endpoint Manager: сведения о клиенте ConfigMgr](2020/technical-preview-2004.md#bkmk_mem) <!--6374854-->
+- [Уведомления от Майкрософт](2020/technical-preview-2004.md#notifications-from-microsoft) <!--3953121-->
+- [Копирование данных обнаружения из консоли](2020/technical-preview-2004.md#bkmk_copydisco) <!--6890051-->
+- [Улучшения CMPivot](2020/technical-preview-2004.md#improvements-to-cmpivot) <!--6518631-->
+- [Поддержка PowerShell версии 7](2020/technical-preview-2004.md#bkmk_pwsh7) <!--6023299-->
+- [Улучшение этапа последовательности задач "Отформатировать диск и создать разделы"](2020/technical-preview-2004.md#bkmk_osdpart) <!--6610288-->
+- [Правила аналитики управления для развертывания ОС](2020/technical-preview-2004.md#bkmk_osdmi) <!--6982275-->
+- [Командлеты PowerShell для типов развертывания последовательности задач](2020/technical-preview-2004.md#bkmk_osdpwsh) <!--7019342-->
 
 ### <a name="technical-preview-version-2003"></a>Техническая предварительная версия 2003
 
