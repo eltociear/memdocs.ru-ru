@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.reviewer: mattsha
-ms.openlocfilehash: 089303b76f674d47767afdff72341d09f7f227d4
-ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
+ms.openlocfilehash: 78cc6182cf8682935ecaa6c319e30ee8261fc2fb
+ms.sourcegitcommit: 0b30c8eb2f5ec2d60661a5e6055fdca8705b4e36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83431739"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "84455265"
 ---
 # <a name="settings-for-the-windows-security-experience-profile-in-microsoft-intune"></a>Параметры для профиля интерфейса безопасности Windows в Microsoft Intune
 
@@ -43,7 +43,7 @@ ms.locfileid: "83431739"
   - **Да** — скрыть область "Защита от вирусов и угроз" в приложении "Безопасность Windows" от конечных пользователей. Уведомления, связанные с защитой от вирусов и угроз, блокируются.
 
   - **Скрыть параметр "Восстановление данных после атаки программой-шантажистом" в приложении "Безопасность Windows"**  
-    CSP: [](https://go.microsoft.com/fwlink/?linkid=873664)
+    CSP: [HideRansomwareDataRecovery](https://go.microsoft.com/fwlink/?linkid=873664)
 
   - **Не настроено** (*по умолчанию*) — используется значение параметра по умолчанию для клиента, согласно которому доступ пользователей и уведомления разрешены.
   - **Да** — скрыть область "Восстановление данных после атаки программой-шантажистом" в приложении "Безопасность Windows" от конечных пользователей. Уведомления, связанные с программой-шантажистом, блокируются.
@@ -85,7 +85,7 @@ ms.locfileid: "83431739"
   - **Да** — скрыть область с параметрами семьи в приложении "Безопасность Windows" от конечных пользователей. Кроме того, уведомления, связанные с параметрами семьи, блокируются.
 
 - **Уведомления приложения "Безопасность Windows"**  
-  CSP: [](https://go.microsoft.com/fwlink/?linkid=873675)
+  CSP: [DisableNotifications](https://go.microsoft.com/fwlink/?linkid=873675)
 
   Используйте этот параметр, чтобы заблокировать показ пользователям уведомлений приложения "Безопасность Windows", касающихся предыдущих настроек функций. Кроме того, вы можете управлять уведомлениями приложения "Безопасность Windows" для каждой функции с помощью следующих параметров.
 
