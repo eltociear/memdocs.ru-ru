@@ -7,7 +7,7 @@ author: brenduns
 ms.author: brenduns
 manager: dougeby
 ms.date: 04/15/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 36b39d20e666015ae040a1fa058dca1d167686e4
-ms.sourcegitcommit: bbf820c35414bf2cba356f30fe047c1a34c5384d
+ms.openlocfilehash: 530d6de8194a1ca74b72567c98c5d2afcb327170
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81739904"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83990318"
 ---
 # <a name="configure-exchange-on-premises-access-for-intune"></a>Настройка доступа к локальной организации Exchange для Intune
 
@@ -66,7 +66,10 @@ ms.locfileid: "81739904"
 - **Собственное почтовое приложение в iOS/iPadOS** — чтобы создать политику условного доступа, см. раздел [Создание политик условного доступа](../protect/create-conditional-access-intune.md)
 - **Почтовые клиенты EAS, например Gmail на Android 4 или более поздней версии** — чтобы создать политику условного доступа, см. раздел [Создание политик условного доступа](../protect/create-conditional-access-intune.md)
 
+- **Почтовые клиенты EAS в администраторе устройств Android** — чтобы создать политику условного доступа, см. раздел [Создание политик условного доступа](../protect/create-conditional-access-intune.md)
+
 - **Почтовые клиенты EAS на устройствах с рабочим профилем Android** — на устройствах с рабочим профилем Android поддерживаются только приложения *Gmail* и *Nine Work for Android Enterprise*. Чтобы условный доступ работал для рабочих профилей Android, необходимо развернуть профиль электронной почты для приложения *Gmail* или *Nine Work for Android Enterprise*, а также развернуть эти приложения в качестве обязательной установки. После развертывания приложения можно настроить условный доступ на основе информации об устройстве.
+
 
 #### <a name="to-set-up-conditional-access-for-android-work-profile-devices"></a>Настройка условного доступа для устройств с рабочим профилем Android
 

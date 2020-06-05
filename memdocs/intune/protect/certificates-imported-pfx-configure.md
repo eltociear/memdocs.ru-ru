@@ -5,8 +5,8 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 04/22/2020
-ms.topic: conceptual
+ms.date: 05/20/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d9a3e2c2a2c50f2d0fde264eedc2096d34f815a9
-ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
+ms.openlocfilehash: 13824c82b426e1efb00dce2db7c9f4a2dd5bb9ee
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82023186"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83990329"
 ---
 # <a name="configure-and-use-imported-pkcs-certificates-with-intune"></a>Настройка и использование импортированных сертификатов PKCS в Intune
 
@@ -126,7 +126,7 @@ Intune поддерживает импорт сертификатов PFX для
 
 3. Вверху перейдите из режима **Отладка** в режим **Выпуск**.
 
-4. Перейдите в меню **Сборка** и выберите **Собрать PFXImportPS**. Через несколько секунд в левом нижнем углу Visual Studio отобразится сообщение **Сборка успешно завершена**.
+4. Перейдите в меню **Сборка** и выберите **Собрать PFXImportPS**. Через несколько секунд в левом нижнем углу Visual Studio отобразится сообщение **Сборка успешно завершена**.
 
    ![Параметры сборки в Visual Studio](./media/certificates-imported-pfx-configure/vs-build-release.png)
 
@@ -148,7 +148,7 @@ Intune поддерживает импорт сертификатов PFX для
 
 3. Чтобы импортировать модуль, выполните команду `Import-Module .\IntunePfxImport.psd1`.
 
-4. Затем выполните команду `Add-IntuneKspKey "Microsoft Software Key Storage Provider" "PFXEncryptionKey"`.
+4. Затем выполните команду `Add-IntuneKspKey -ProviderName "Microsoft Software Key Storage Provider" -KeyName "PFXEncryptionKey"`.
 
    > [!TIP]
    > Используемый поставщик необходимо выбрать еще раз при импорте сертификатов PFX. Вы можете использовать поставщик хранилища ключей **Microsoft Software Key Storage Provider** или другой поставщик. Ключу можно задать произвольное имя.
@@ -187,7 +187,7 @@ Intune поддерживает импорт сертификатов PFX для
 
 3. Чтобы импортировать модуль, выполните команду `Import-Module .\IntunePfxImport.psd1`.
 
-4. Чтобы выполнить аутентификацию для входа в Intune Graph, выполните команду `$authResult = Get-IntuneAuthenticationToken -AdminUserName "<Admin-UPN>"`.
+4. Чтобы выполнить аутентификацию для входа в Intune Graph, выполните команду `Set-IntuneAuthenticationToken  -AdminUserName "<Admin-UPN>"`.
 
    > [!NOTE]
    > При выполнении аутентификации для входа в Graph необходимо предоставить разрешения для AppID. Если вы впервые используете эту служебную программу, вам понадобятся права *глобального администратора*. Командлеты PowerShell используют тот же идентификатор AppID, что и в [примерах PowerShell для Intune](https://github.com/microsoftgraph/powershell-intune-samples).
@@ -200,10 +200,15 @@ Intune поддерживает импорт сертификатов PFX для
 
    > [!NOTE]
    > При импорте сертификата из другой системы (не сервера, на котором установлен соединитель), выполните следующую команду, которая добавляет путь к файлу ключа: `$userPFXObject = New-IntuneUserPfxCertificate -PathToPfxFile "<FullPathPFXToCert>" $SecureFilePassword "<UserUPN>" "<ProviderName>" "<KeyName>" "<IntendedPurpose>" "<PaddingScheme>" "<File path to public key file>"`.
+   >
+   > *VPN* не поддерживается в качестве IntendedPurpose. 
 
-7. Импортируйте объект **UserPFXCertificate** в Intune, выполнив команду `Import-IntuneUserPfxCertificate -AuthenticationResult $authResult -CertificateList $userPFXObject`.
 
-8. Чтобы проверить, был ли сертификат импортирован, выполните команду `Get-IntuneUserPfxCertificate -AuthenticationResult $authResult -UserList "<UserUPN>"`.
+7. Импортируйте объект **UserPFXCertificate** в Intune, выполнив команду `Import-IntuneUserPfxCertificate -CertificateList $userPFXObject`.
+
+8. Чтобы проверить, был ли сертификат импортирован, выполните команду `Get-IntuneUserPfxCertificate -UserList "<UserUPN>"`.
+
+9.  Рекомендуется очистить кэш маркеров AAD, не дожидаясь истечения срока его действия, выполнив команду `Remove-IntuneAuthenticationToken`.
 
 Сведения о других доступных командах см. файле сведений в [этом репозитории на сайте GitHub](https://github.com/microsoft/Intune-Resource-Access/tree/develop/src/PFXImportPowershell).
 

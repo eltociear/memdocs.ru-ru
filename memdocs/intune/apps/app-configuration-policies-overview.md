@@ -7,7 +7,7 @@ author: Erikre
 ms.author: erikre
 manager: dougeby
 ms.date: 04/22/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: apps
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: f4dd0b1702b06f3efbed07a70b13a59b271816f8
-ms.sourcegitcommit: fb84a87e46f9fa126c1c24ddea26974984bc9ccc
+ms.openlocfilehash: 6e99922c920966f4f0bb1037b5fc74799cfca7c5
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82023016"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83988785"
 ---
 # <a name="app-configuration-policies-for-microsoft-intune"></a>Политики конфигурации приложений для Microsoft Intune
 
@@ -107,7 +107,7 @@ ms.locfileid: "82023016"
 
 ### <a name="iosipados-configuration-on-unmanaged-devices"></a>Конфигурация iOS/iPadOS на неуправляемых устройствах
 
-Конфигурацию iOS или iPadOS можно проверить с помощью **журнала диагностики Intune** на неуправляемых устройствах для конфигурации управляемого приложения. В дополнение к приведенным ниже шагам можно получить доступ к журналам управляемых приложений с помощью Microsoft Edge. См. сведения об [использовании Microsoft Edge в iOS и iPadOS для доступа к журналам управляемых приложений](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs).
+Конфигурацию iOS или iPadOS можно проверить с помощью **журнала диагностики Intune** на неуправляемых устройствах для конфигурации управляемого приложения. В дополнение к приведенным ниже шагам можно получить доступ к журналам управляемых приложений с помощью Microsoft Edge. Дополнительные сведения см. в разделе [Использование Edge в iOS и Android для доступа к журналам управляемых приложений](manage-microsoft-edge.md#use-edge-for-ios-and-android-to-access-managed-app-logs).
 
 1. Если он еще не установлен на устройстве, скачайте и установите **Microsoft Edge** из App Store. Дополнительные сведения см. в статье [Защищенные приложения Microsoft Intune](apps-supported-intune-apps.md).
 2. Запустите **Microsoft Edge** и выберите **о intune** > **помощь intune** на панели навигации.

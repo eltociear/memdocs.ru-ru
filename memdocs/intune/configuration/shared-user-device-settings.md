@@ -5,8 +5,8 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/04/2019
-ms.topic: conceptual
+ms.date: 05/13/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 179314f363c8f086239b2c926c4bed8d09c68204
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 4f85c30c9472849d26802c8cdccd7a95006a3e4a
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79364166"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83984012"
 ---
 # <a name="control-access-accounts-and-power-features-on-shared-pc-or-multi-user-devices-using-intune"></a>Управление доступом, учетными записями и питанием на компьютере с общим доступом или несколькими пользователями с помощью Intune
 
@@ -46,18 +46,39 @@ ms.locfileid: "79364166"
 2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
 
+   - **Платформа**. Выберите **Windows 10 и более поздних версий**.
+   - **Профиль**. Выберите **Общие устройства для множества пользователей**.
+
+4. Щелкните **Создать**.
+5. В разделе **Основные** укажите следующие свойства.
+
    - **Имя** — Введите описательное имя для нового профиля.
    - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
-   - **Платформа**. Выберите **Windows 10 и более поздних версий**.
-   - **Тип профиля**. Выберите **Общие устройства для множества пользователей**.
 
-4. Настройте параметры [Windows 10 и более поздних версий](shared-user-device-settings-windows.md) или [Windows Holographic for Business](shared-user-device-settings-windows-holographic.md).
+6. Выберите **Далее**.
+7. В разделе **Параметры конфигурации** доступные для настройки параметры будут отличаться в зависимости от выбранной платформы. Выберите платформу для настройки дополнительных параметров:
 
-5. Щелкните **OK** > **Создать**, чтобы сохранить изменения.
+    - [Windows 10 и более поздних версий](shared-user-device-settings-windows.md).
+    - [Windows Holographic for Business](shared-user-device-settings-windows-holographic.md)
 
-Профиль создан и есть в списке, но он пока ничего не делает. Следует [назначить профиль](device-profile-assign.md) для групп устройств в вашей организации.
+8. Выберите **Далее**.
+
+9. В поле **Теги области** (необязательно) назначьте тег для фильтрации профиля по конкретным ИТ-группам, например `US-NC IT Team` или `JohnGlenn_ITDepartment`. Дополнительные сведения о тегах области см. в разделе [Использование RBAC и тегов области для распределенных ИТ-групп](../fundamentals/scope-tags.md).
+
+    Выберите **Далее**.
+
+10. В разделе **Назначения** выберите группу устройств, которые будут принимать ваш профиль. Дополнительные сведения о назначении профилей см. в статье [Назначение профилей пользователей и устройств](device-profile-assign.md).
+
+    Выберите **Далее**.
+
+    > [!NOTE]
+    > Следует назначить профиль для групп устройств в вашей организации.
+
+11. В окне **Проверка и создание** проверьте параметры. При выборе **Создать** внесенные изменения сохраняются и назначается профиль. Политика также отображается в списке профилей.
+
+Политика будет применена при следующей синхронизации устройства.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
 - Просмотрите все параметры [Windows 10 и более поздних версий](shared-user-device-settings-windows.md) или [Windows Holographic for Business](shared-user-device-settings-windows-holographic.md).
-- [Назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
+- [Назначив профиль](device-profile-assign.md), [отслеживайте его состояние](device-profile-monitor.md).

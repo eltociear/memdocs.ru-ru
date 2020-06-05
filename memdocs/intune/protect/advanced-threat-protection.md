@@ -6,7 +6,7 @@ author: brenduns
 ms.author: brenduns
 manager: dougeby
 ms.date: 04/24/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: beea54b7ca244190ec0821d4ce8364369797590a
-ms.sourcegitcommit: ad4b3e4874a797b755e774ff84429b5623f17c5c
+ms.openlocfilehash: 35871aba60d45719b9a6da50184a6113f72e6044
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "82166623"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83989294"
 ---
 # <a name="enforce-compliance-for-microsoft-defender-atp-with-conditional-access-in-intune"></a>Обеспечение соответствия требованиям ATP в Microsoft Defender с помощью условного доступа в Intune
 
@@ -204,7 +204,7 @@ ATP в Microsoft Defender может устранять нарушения в �
 
 ## <a name="view-onboarding-status"></a>Просмотр состояния подключения
 
-Чтобы просмотреть состояние подключения всех устройств Windows 10, управляемых Intune, выберите **Администрирование клиента** > **ATP в Microsoft Defender**. На этой странице можно также инициировать создание профиля конфигурации устройства для подключения дополнительных устройств к ATP в Microsoft Defender.
+Чтобы просмотреть состояние подключения всех устройств Windows 10, управляемых Intune, выберите **Безопасность конечной точки** > **ATP в Microsoft Defender**. На этой странице можно также инициировать создание профиля конфигурации устройства для подключения дополнительных устройств к ATP в Microsoft Defender.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 

@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/26/2020
+ms.date: 05/20/2020
 ms.topic: conceptual
 ms.service: microsoft-intune
 ms.subservice: fundamentals
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure, seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 44cae6e1e7fdd310a6053cbcb6f19371263d0161
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 5a463742a9511f21a98c277394f8c0d29084d379
+ms.sourcegitcommit: fb77170957f50aa386ff825fb4183b4fd9e3e488
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80326622"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83791749"
 ---
 # <a name="manage-and-use-different-device-management-features-on-windows-holographic-and-hololens-devices-with-intune"></a>Администрирование и использование различных возможностей управления устройствами Windows Holographic и HoloLens с помощью Intune
 
@@ -116,6 +116,8 @@ C помощью OMA-URI в профилях настраиваются неко
 ### <a name="custom-device-settings"></a>[Настраиваемые параметры устройств](../configuration/custom-settings-windows-holographic.md)
 
 Чтобы настроить параметры OMA-URI (Open Mobile Alliance Uniform Resource Identifier), создайте пользовательский профиль в Intune. Используйте параметры OMA-URI для управления различными функциями на устройствах Windows Holographic for Business, такими как включение VPN и проверка наличия обновлений в Центре обновления Майкрософт.
+
+См. [пример](../configuration/custom-profile-hololens.md), в котором используется [CSP управления приложениями в Windows Defender (WDAC)](https://docs.microsoft.com/windows/client-management/mdm/applicationcontrol-csp), чтобы разрешить или запретить открытие приложений на устройствах HoloLens 2.
 
 ### <a name="configure-kiosk-mode"></a>[Настройка режима киоска](../configuration/kiosk-settings-holographic.md)
 

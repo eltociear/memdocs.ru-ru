@@ -6,8 +6,8 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 01/21/2020
-ms.topic: conceptual
+ms.date: 05/19/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8707b938231e682fe1cd165c207cca8e575950d4
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 24938f85cf85e9c5934a0e26029ec2ccfc5c33a7
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80324655"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83989457"
 ---
 # <a name="add-microsoft-defender-atp-to-macos-devices-using-microsoft-intune"></a>Установка ATP в Microsoft Defender на устройства с macOS с помощью Microsoft Intune
 
@@ -76,7 +76,7 @@ ms.locfileid: "80324655"
 > В настоящее время Apple не предоставляет способ удаления ATP в Microsoft Defender на устройствах с macOS в Intune.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
-- Чтобы узнать, как настроить ATP в Microsoft Defender на устройствах с macOS, см. статью [Настройка ATP в Microsoft Defender на устройствах с macOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-preferences).
+- Дополнительные сведения о применении антивирусной политики для безопасности конечных точек в Intune см. в статье [Антивирусная политика для безопасности конечных точек в Intune](../protect/endpoint-security-antivirus-policy.md). 
 - Дополнительные сведения о включении и исключении назначений приложений для групп пользователей см. в статье [Включение и исключение назначений приложений в Microsoft Intune](apps-inc-exl-assignments.md).
-- [назначение приложений группам](apps-deploy.md).
+- Сведения о назначении приложений группам в Intune см. в разделе [Назначение приложений группам](apps-deploy.md).
 

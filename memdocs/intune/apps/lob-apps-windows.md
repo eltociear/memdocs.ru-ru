@@ -6,8 +6,8 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/21/2020
-ms.topic: conceptual
+ms.date: 05/19/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: apps
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e77c1dd32bc70b94d5c4fdd74ea82dbd65211e38
-ms.sourcegitcommit: ad4b3e4874a797b755e774ff84429b5623f17c5c
+ms.openlocfilehash: 2614dfc903bf7f10633bf05414ed8a71cdd2e03b
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "82166644"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83990622"
 ---
 # <a name="add-a-windows-line-of-business-app-to-microsoft-intune"></a>Добавление бизнес-приложения Windows в Microsoft Intune
 
@@ -50,7 +50,7 @@ ms.locfileid: "82166644"
    Отобразятся сведения о приложении.
 
     > [!NOTE]
-    > Расширения файлов для приложений Windows: **MSI**, **APPX**, **APPXBUNDLE**, **MSIX** и **MSIXBUNDLE**.  
+    > Расширения файлов для приложений Windows: **MSI**, **APPX**, **APPXBUNDLE**, **MSIX** и **MSIXBUNDLE**. Дополнительные сведения о **.msix** можно получить в [документации по MSIX](https://docs.microsoft.com/windows/msix/) и [распространении приложения MSIX](https://docs.microsoft.com/windows/msix/desktop/managing-your-msix-deployment-enterprise).
 
 3. По завершении выберите **ОК** на панели **Файл пакета приложения**, чтобы добавить приложение.
 

@@ -6,8 +6,8 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 02/25/2020
-ms.topic: conceptual
+ms.date: 05/19/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: apps
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 391fa20cf7ba53af649f9f614d9ca02c653c278b
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 5ed491fd379879369ead35ceb2c618def91d3e53
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82079320"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83985923"
 ---
 # <a name="windows-10-app-deployment-by-using-microsoft-intune"></a>Развертывание приложений Windows 10 с помощью Microsoft Intune 
 
@@ -92,7 +92,9 @@ Microsoft Intune поддерживает различные типы прило
 > [!NOTE]
 > Для приложений Win32, созданных в двойном режиме вам (администратору) нужно выбрать, как приложение будет функционировать, (в пользовательском режиме или автоматическом режиме) по отношению ко всем назначениям, связанным с этим экземпляром. Контекст развертывания нельзя изменить для отдельного назначения.  
 
-Приложения можно устанавливать только в контексте устройства, если это поддерживается устройством и типом приложения Intune. Вы можете установить следующие типы приложений в контексте устройства и назначить их группе устройств:
+Приложения можно устанавливать только в контексте устройства, если это поддерживается устройством и типом приложения Intune. Установка контекста устройства поддерживается на ПК Windows 10 и устройствах рабочих групп, таких как Surface Hub. Она не поддерживается на устройствах с Windows Holographic for Business, таких как Microsoft HoloLens.
+
+Вы можете установить следующие типы приложений в контексте устройства и назначить их группе устройств:
 
 - приложения Win32;
 - автономные лицензированные приложения Microsoft Store для бизнеса;

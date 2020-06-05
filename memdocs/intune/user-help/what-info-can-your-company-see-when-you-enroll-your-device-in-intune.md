@@ -6,7 +6,7 @@ author: lenewsad
 ms.author: lanewsad
 manager: dougeby
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: end-user-help
 ms.prod: ''
 ms.service: microsoft-intune
 ms.subservice: end-user
@@ -18,12 +18,12 @@ ROBOTS: ''
 ms.reviewer: esmich
 ms.suite: ems
 ms.collection: ''
-ms.openlocfilehash: ed3f9f6f01c8dc2df3a89daee991d9f8c61056b9
-ms.sourcegitcommit: f94cdca69981627d6a3471b04ac6f0f5ee8f554f
+ms.openlocfilehash: 028a568b9a588697139f97f292c70c50347217f3
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "82210321"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83882083"
 ---
 # <a name="what-information-can-my-organization-see-when-i-enroll-my-device"></a>Какие сведения становятся доступными для моей организации при регистрации устройства?
 
@@ -51,7 +51,14 @@ ms.locfileid: "82210321"
 - IMEI
 
  > [!NOTE]
- > Для полностью управляемых и выделенных устройств с Android для бизнеса не будет отображаться список всех приложений.    
+ > Для полностью управляемых и выделенных устройств с Android для бизнеса не будет отображаться список всех приложений.
+ 
+ > [!NOTE]
+ > Приложение считается **управляемым**, если оно было установлено одним из следующих способов.
+ > 1. Пользователь устанавливает его из приложения Корпоративного портала после того, как администратор Intune опубликовал его как **доступное**.
+ > 2. Приложение публикуется как **необходимое** администратором Intune, а затем устанавливается на устройстве. 
+ >
+ > Если вы являетесь ИТ-администратором или сотрудником службы поддержки в вашей организации и хотите получить дополнительные сведения об управлении приложениями в Intune, см. раздел [Описание возможностей неуправляемых приложений, управляемых приложений и приложений MAM](https://techcommunity.microsoft.com/t5/enterprise-mobility-security/understanding-the-capabilities-of-unmanaged-apps-managed-apps/ba-p/249164).
     
 **Данные, которые могут быть доступны вашей организации**
 

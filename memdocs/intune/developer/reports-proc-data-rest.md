@@ -6,7 +6,7 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 12/04/2019
+ms.date: 05/26/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: developer
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-classic
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 2e036e139e97ce033b3269ba0b8d5cf202fad773
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 8a90345bef46161911bcb1c1072b6ae4af41f16e
+ms.sourcegitcommit: 97fbb7db14b0c4049c0fe3a36ee16a5c0cf3407a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79360032"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83864962"
 ---
 # <a name="get-data-from-the-intune-data-warehouse-api-with-a-rest-client"></a>Получение данных из API хранилища данных через клиент REST
 
@@ -47,7 +47,7 @@ ms.locfileid: "79360032"
     1. В поле **Имя**введите понятное имя, например "Intune Data Warehouse Client".
     2. В поле **Тип приложения** выберите **Собственный**.
     3. В поле **URL-адрес входа** введите URL-адрес. URL-адрес входа будет зависеть от конкретного сценария, но если вы планируете использовать Postman, введите `https://www.getpostman.com/oauth2/callback`. На этапе проверки подлинности в Azure AD вы будете использовать обратный вызов клиента.
-4. Выберите **Создать**.
+4. Щелкните **Создать**.
 
      ![Клиентское приложение хранилища данных Intune](./media/reports-proc-data-rest/reports-get_rest_data_client_overview.png)
 
@@ -66,7 +66,7 @@ ms.locfileid: "79360032"
 7. Нажмите кнопку **Выбрать**.
 8. Установите флажок **Делегированные разрешения**, чтобы добавить параметр **Получать сведения о хранилище данных из Microsoft Intune**.
 
-    ![Включить доступ — API Microsot Intune](./media/reports-proc-data-rest/reports-get_rest_data_client_access.png)
+    ![Включение доступа — API Microsoft Intune](./media/reports-proc-data-rest/reports-get_rest_data_client_access.png)
 
 9. Нажмите кнопку **Выбрать**.
 10. Нажмите кнопку **Готово**.
@@ -81,7 +81,7 @@ ms.locfileid: "79360032"
 
 Для выполнения вызова REST с помощью Postman вам потребуются приведенные ниже данные.
 
-| Атрибут        | Описание                                                                                                                                                                          | Пример                                                                                       |
+| Атрибут        | Описание:                                                                                                                                                                          | Пример                                                                                       |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | URL-адрес обратного вызова     | Задайте его как URL-адрес обратного вызова на странице параметров приложения.                                                                                                                              | https://www.getpostman.com/oauth2/callback                                                    |
 | Имя токена       | Строка, используемая для передачи учетных данных в приложение Azure. В ходе процесса создается токен, чтобы можно было сделать вызов API хранилища данных.                          | Bearer                                                                                        |
@@ -218,6 +218,7 @@ ms.locfileid: "79360032"
    Console.ReadKey();
    }
    }
+   }
    ```
 
 9. Обновите `TODO` в примере кода.
@@ -227,7 +228,7 @@ ms.locfileid: "79360032"
 
 11. Просмотрите выходные данные консоли. Выходные данные содержат данные в формате JSON, полученные из сущности **dates** в клиенте Intune.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Сведения об авторизации, структуре URL-адреса API и конечных точках OData см. в статье [Конечная точка API для хранилища данных Intune](reports-api-url.md).
 

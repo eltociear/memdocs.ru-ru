@@ -5,24 +5,24 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/02/2020
-ms.topic: conceptual
+ms.date: 05/12/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: ''
 ms.technology: ''
 ms.assetid: ''
-ms.reviewer: ''
+ms.reviewer: jieyan
 ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c2d0d4c186dd0c703e371169fd24c2dbdabaa8ea
-ms.sourcegitcommit: 0e62655fef7afa7b034ac11d5f31a2a48bf758cb
+ms.openlocfilehash: 8eaa636659cb9e2382f61fb668d8aec2ecd75f7a
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82254849"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83990174"
 ---
 # <a name="use-and-manage-android-enterprise-devices-with-oemconfig-in-microsoft-intune"></a>Использование устройств Android Enterprise и управление ими с помощью OEMConfig в Microsoft Intune
 
@@ -31,6 +31,8 @@ ms.locfileid: "82254849"
 Данная функция применяется к:  
 
 - Android для бизнеса
+
+Для управления устройствами Zebra Technologies с помощью администратора устройств Android используйте [расширения для мобильных устройств Zebra (MX)](android-zebra-mx-overview.md).
 
 В этой статье описывается приложение OEMConfig, перечислены предварительные требования, представлен порядок создания профиля конфигурации, а также перечислены поддерживаемые приложения OEMConfig в Intune.
 
@@ -56,7 +58,9 @@ ms.locfileid: "82254849"
 - Intune предоставляет схему приложения OEMConfig, чтобы ее можно было настроить. Intune не проверяет и не изменяет схему, предоставленную приложением. Поэтому, если схема неправильная или содержит неточные данные, эти данные по-прежнему отправляются на устройства. Если вы обнаружили проблему, которая возникла в схеме, обратитесь к изготовителю оборудования за инструкциями.
 - Intune не влияет на содержимое схемы приложения и не контролирует его. Например, Intune не контролирует строки, язык, разрешенные действия и т. д. Для получения дополнительных сведений об управлении устройствами с помощью OEMConfig обратитесь к изготовителю оборудования.
 - Изготовители оборудования могут в любое время обновить свои поддерживаемые функции и схемы, а также загрузить новое приложение в Google Play. Intune всегда синхронизирует последнюю версию приложения OEMConfig из Google Play. Intune не хранит старые версии схемы или приложения. При возникновении конфликтов версий рекомендуется обратиться к изготовителю оборудования для получения дополнительных сведений.
-- Устройству следует назначить один профиль OEMConfig. Если одному и тому же устройству назначено несколько профилей, может наблюдаться несогласованное поведение. Модель OEMConfig поддерживает только одну политику для каждого устройства.
+- На устройствах Zebra можно создать несколько профилей и назначать их одному устройству. Дополнительные сведения см. в разделе [OEMConfig на устройствах Zebra](oemconfig-zebra-android-devices.md).
+
+  Модель OEMConfig на устройствах, отличных от Zebra, поддерживает только одну политику для каждого устройства. Если одному и тому же устройству назначено несколько профилей, может наблюдаться несогласованное поведение.
 
 ## <a name="prerequisites"></a>Предварительные условия
 
@@ -83,7 +87,7 @@ ms.locfileid: "82254849"
 3. Укажите следующие свойства.
 
     - **Платформа**. Выберите **Android для бизнеса**.
-    - **Тип профиля**. Выберите **OEMConfig**.
+    - **Профиль**. Выберите **OEMConfig**.
 
 4. Щелкните **Создать**.
 5. В разделе **Основные** укажите следующие свойства.
@@ -145,7 +149,7 @@ ms.locfileid: "82254849"
 
 ## <a name="supported-oemconfig-apps"></a>Поддерживаемые приложения OEMConfig
 
-По сравнению со стандартными приложениями приложения OEMConfig расширяют привилегии управляемых конфигураций, предоставляемые Google для поддержки более сложных схем. В настоящее время Intune поддерживает следующие приложения OEMConfig:
+По сравнению со стандартными приложениями приложения OEMConfig расширяют привилегии управляемых конфигураций, предоставляемые Google для поддержки более сложных схем и функций. Изготовители оборудования должны зарегистрировать свои приложения OEMConfig в Google. Если их не зарегистрировать, они могут работать не так, как следует. В настоящее время Intune поддерживает следующие приложения OEMConfig:
 
 -----------------
 
@@ -153,6 +157,7 @@ ms.locfileid: "82254849"
 | --- | --- | ---|
 | Ascom | com.ascom.myco.oemconfig | |
 | Cipherlab | com.cipherlab.oemconfig | |
+| Datalogic | com.datalogic.settings.oemconfig | |
 | Honeywell | com.honeywell.oemconfig |  |
 | HMDGlobal — 7.2 | com.hmdglobal.app.oemconfig.n7_2 | 
 | HMDGlobal — 4.2 | com.hmdglobal.app.oemconfig.n4_2 | 

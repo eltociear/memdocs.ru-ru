@@ -5,8 +5,8 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 11/04/2019
-ms.topic: conceptual
+ms.date: 05/13/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
@@ -17,16 +17,14 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 068363167d5c6abb54dde26939b102db2f120d27
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: b846aa1ead9bb2d1c1b15d783e646e59047c16ee
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "79364387"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83988413"
 ---
 # <a name="upgrade-windows-10-editions-or-switch-out-of-s-mode-on-devices-using-microsoft-intune"></a>Обновление выпусков Windows 10 или выход из режима S на устройствах с помощью Microsoft Intune
-
-
 
 Вам может потребоваться обновление ваших устройств Windows 10 в рамках вашего решения управления мобильными устройствами (MDM). Например, вы можете обновить устройство с Windows 10 Профессиональной до Windows 10 Корпоративной. Или вы хотите, чтобы устройство вышло из режима S.
 
@@ -100,21 +98,37 @@ ms.locfileid: "79364387"
 2. Выберите **Устройства** > **Профили конфигурации** > **Создать профиль**.
 3. Укажите следующие свойства.
 
+    - **Платформа**. Выберите **Windows 10 и более поздних версий**.
+    - **Профиль**. Выберите **Обновление выпуска**.
+
+4. Щелкните **Создать**.
+5. В разделе **Основные** укажите следующие свойства.
+
     - **Имя** — Введите описательное имя для нового профиля. Например, можно ввести `Windows 10 edition upgrade profile` или `Windows 10 switch off S mode`.
     - **Описание**. Введите описание профиля. Этот параметр является необязательным, но мы рекомендуем его использовать.
-    - **Платформа**. Выберите **Windows 10 и более поздних версий**.
-    - **Тип профиля**. Выберите **Обновление выпуска**.
-    - **Параметры**: Введите параметры, которые вы хотите настроить. См. полный список параметров и сведения об их назначении:
 
-        - [Windows 10 (and newer) device settings to upgrade editions or enable S mode in Intune](edition-upgrade-windows-settings.md) (Параметры устройства Windows 10 (и более поздних) для обновления выпусков или включения S-режима в Intune)
-        - [Windows Holographic for Business](holographic-upgrade.md)
+6. Выберите **Далее**.
+7. В разделе **Параметры конфигурации** укажите параметры, которые нужно настроить. См. полный список параметров и сведения об их назначении:
 
-4. Щелкните **OK** > **Создать**, чтобы сохранить изменения.
+    - [Windows 10 (and newer) device settings to upgrade editions or enable S mode in Intune](edition-upgrade-windows-settings.md) (Параметры устройства Windows 10 (и более поздних) для обновления выпусков или включения S-режима в Intune)
+    - [Windows Holographic for Business](holographic-upgrade.md)
 
-Созданный вами профиль отобразится в списке. Обязательно изучите статьи [Назначение профилей пользователей и устройств в Microsoft Intune](device-profile-assign.md) и [Мониторинг профилей устройств в Microsoft Intune](device-profile-monitor.md).
+8. Выберите **Далее**.
+
+9. В поле **Теги области** (необязательно) назначьте тег для фильтрации профиля по конкретным ИТ-группам, например `US-NC IT Team` или `JohnGlenn_ITDepartment`. Дополнительные сведения о тегах области см. в разделе [Использование RBAC и тегов области для распределенных ИТ-групп](../fundamentals/scope-tags.md).
+
+    Выберите **Далее**.
+
+10. В поле **Назначения** выберите пользователей или группу пользователей, которые будут принимать ваш профиль. Дополнительные сведения о назначении профилей см. в статье [Назначение профилей пользователей и устройств](device-profile-assign.md).
+
+    Выберите **Далее**.
+
+11. В окне **Проверка и создание** проверьте параметры. При выборе **Создать** внесенные изменения сохраняются и назначается профиль. Политика также отображается в списке профилей.
+
+Политика будет применена при следующей синхронизации устройства.
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Созданный профиль готов к назначению. Далее [назначьте профиль](device-profile-assign.md) и [отслеживайте его состояние](device-profile-monitor.md).
+[Назначив профиль](device-profile-assign.md), [отслеживайте его состояние](device-profile-monitor.md).
 
-Просмотрите все параметры обновления и S-режима в статьях [Параметры устройства Windows 10 (и более поздних) для обновления выпусков или включения режима S в Intune](edition-upgrade-windows-settings.md) или [Обновление устройств с Windows Holographic до Windows Holographic for Business](holographic-upgrade.md).
+Просмотрите все параметры обновления и S-режима в статьях [Параметры устройства Windows 10 ](edition-upgrade-windows-settings.md) и [Обновление устройств с Windows Holographic for Business](holographic-upgrade.md).

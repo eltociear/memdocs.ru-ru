@@ -6,8 +6,8 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 04/15/2020
-ms.topic: conceptual
+ms.date: 05/20/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 9657353dd877b380d506e588934e3f6fd29b51c1
-ms.sourcegitcommit: b7e5b053dfa260e7383a9744558d50245f2bccdc
+ms.openlocfilehash: 205c892c885682d10877aae4c92429cf59adb0ac
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82587034"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83989154"
 ---
 # <a name="add-email-settings-to-devices-using-intune"></a>Добавлении параметров электронной почты на устройства с помощью Intune
 
@@ -29,9 +29,9 @@ Microsoft Intune содержит различные параметры элек
 
 Профили электронной почты можно использовать для настройки встроенных параметров электронной почты на устройствах следующих типов:
 
-- Администратор устройств Android в Samsung Knox Standard 4.0 и более поздней версии.
+- Администратор устройств Android в Samsung Knox Standard 5.0 и более поздней версии
 - Android для бизнеса
-- iOS 8.0 и более поздние версии
+- iOS 11.0 и более поздние версии.
 - iPadOS 13.0 и более поздние версии.
 - Windows Phone 8.1 и более поздней версии
 - Windows 10 (Desktop) и Windows 10 Mobile.

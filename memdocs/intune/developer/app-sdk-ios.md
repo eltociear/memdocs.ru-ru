@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 242ec66ef79195533e7362694efb00928769b305
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 379eacee731c8cdd773fc7a15f556ab85e409f7c
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82078181"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83989894"
 ---
 # <a name="microsoft-intune-app-sdk-for-ios-developer-guide"></a>Руководство для разработчиков по пакету SDK для приложений Microsoft Intune в iOS
 
@@ -122,7 +122,7 @@ ms.locfileid: "82078181"
 2. Добавьте в проект следующие платформы iOS.  
 -  MessageUI.framework  
 -  Security.framework  
--  MobileCoreServices.framework  
+-  CoreServices.framework  
 -  SystemConfiguration.framework  
 -  libsqlite3.tbd;  
 -  libc++.tbd;  
@@ -248,7 +248,7 @@ ADAL — пакет SDK для приложений Intune предостави
 Параметр  | Type  | Определение | Необходим?
 --       |  --   |   --       |  --
 ADALClientId  | Строка  | Идентификатор клиента Azure AD для приложения. | Требуется для всех приложений, использующих MSAL, и любых приложений, использующих ADAL, которые обращаются к ресурсу AAD не в Intune. |
-ADALAuthority | Строка | Используется центр сертификации Azure AD приложения. Вам нужно использовать собственное окружение, где были настроены учетные записи AAD. | Требуется, если приложение использует ADAL или MSAL для доступа к ресурсу AAD не в Intune. Если это значение отсутствует, используется значение по умолчанию для Intune.|
+ADALAuthority | Строка | Используется центр сертификации Azure AD приложения. Вам нужно использовать собственное окружение, где были настроены учетные записи AAD. | Необязательный параметр. Рекомендуется, если приложение является пользовательским бизнес-приложением, предназначенным для использования в одной организации или на одном клиенте AAD. Если это значение отсутствует, используется общий центр AAD.|
 ADALRedirectUri  | Строка  | URI перенаправления Azure AD для приложения. | ADALRedirectUri или ADALRedirectScheme требуется для всех приложений, использующих MSAL, и любых приложений, использующих ADAL, которые обращаются к ресурсу AAD не в Intune.  |
 ADALRedirectScheme  | Строка  | Схема перенаправления Azure AD для приложения. Может использоваться вместо ADALRedirectUri, если URI перенаправления приложения имеет формат `scheme://bundle_id`. | ADALRedirectUri или ADALRedirectScheme требуется для всех приложений, использующих MSAL, и любых приложений, использующих ADAL, которые обращаются к ресурсу AAD не в Intune. |
 ADALLogOverrideDisabled | Логическое значение  | Определяет, будет ли пакет SDK перенаправлять все журналы ADAL/MSAL (включая вызовы ADAL из приложения при их наличии) в свой файл журнала. По умолчанию используется значение NO (Нет). Задайте значение YES (Да), если в приложении настроен собственный обратный вызов журнала ADAL/MSAL. | Необязательный параметр. |

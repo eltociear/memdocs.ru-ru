@@ -6,8 +6,8 @@ keywords: ''
 author: Erikre
 ms.author: erikre
 manager: dougeby
-ms.date: 04/21/2020
-ms.topic: conceptual
+ms.date: 05/18/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: apps
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: ''
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 44089df5645b128ba29e481e899d52c90b8c0a42
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: d60d4eba093ce9663abf2aa57c6461bef5a34ef1
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82078402"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83988716"
 ---
 # <a name="intune-discovered-apps"></a>Обнаруженные Intune приложения
 
@@ -54,7 +54,7 @@ Intune также предоставляет список обнаруженны
 
 | Платформа | Для личных устройств | Для корпоративных устройств | Цикл обновления |
 |------------------------------------------------------------------------|----------------------------------|--------------------------------------------------|---------------------------------------|
-| Приложения Win32 Windows 10. Примечание. [Требуется расширение управления Intune](intune-management-extension.md) на устройстве | Н/Д | Все приложения, установленные на устройстве | Каждые 24 часа после регистрации устройства |
+| Приложения Win32 Windows 10. Примечание. [Требуется расширение управления Intune](intune-management-extension.md) на устройстве | Н/Д | Приложения MSI, установленные на устройстве | Каждые 24 часа после регистрации устройства |
 | Windows 10 (современные приложения) | Только управляемые современные приложения | Все приложения, установленные на устройстве | Каждые семь дней после регистрации устройства |
 | Windows 8.1 | Только управляемые приложения | Только управляемые приложения | Каждые семь дней после регистрации устройства |
 | Windows Phone 8 | Только управляемые приложения | Только управляемые приложения | Каждые семь дней после регистрации устройства |

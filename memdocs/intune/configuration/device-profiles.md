@@ -5,8 +5,8 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/26/2020
-ms.topic: conceptual
+ms.date: 05/07/2020
+ms.topic: overview
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure; get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 386e59fe3a7156a8bb74ed39a1b2fcad6ad91dad
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 3437a1b9fe3c663844d366bbfda6c0bcb463c3ab
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80359308"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83983806"
 ---
 # <a name="apply-features-and-settings-on-your-devices-using-device-profiles-in-microsoft-intune"></a>Применение параметров и функций на устройствах с помощью профилей устройств в Microsoft Intune
 
@@ -58,7 +58,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
+- MacOS
 - Windows Phone 8.1
 - Windows 8.1
 - Windows 10 и более поздней версии
@@ -72,7 +72,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
+- MacOS
 - Windows Phone 8.1
 
 ## <a name="delivery-optimization"></a>Оптимизация доставки
@@ -101,7 +101,7 @@ Microsoft Intune включает параметры и функции, кото
 Эта функция поддерживает:
 
 - iOS/iPadOS
-- macOS
+- MacOS
 
 ## <a name="device-firmware-configuration-interface"></a>Интерфейс конфигурации встроенного ПО устройства
 
@@ -120,7 +120,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
+- MacOS
 - Windows 10 и более поздней версии
 - Windows 10 для совместной работы
 
@@ -166,7 +166,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- macOS
+- MacOS
 - Windows 10 и более поздней версии
 
 ## <a name="esim-cellular---public-preview"></a>Сотовая связь eSIM (общедоступная предварительная версия)
@@ -179,11 +179,11 @@ Microsoft Intune включает параметры и функции, кото
 
 ## <a name="extensions"></a>Расширения
 
-[Расширения ядра](kernel-extensions-overview-macos.md) позволяют администраторам добавлять функции или программы на уровне ядра на устройствах macOS. Настройте эти параметры, чтобы доверять всем расширениям конкретного разработчика или партнера, или разрешить конкретные расширения ядра.
+[Расширения системы macOS и расширения ядра](kernel-extensions-overview-macos.md) позволяют администраторам добавлять функции или программы, расширяющие собственные возможности операционной системы. Настройте эти параметры, чтобы доверять всем расширениям конкретного разработчика или партнера, или разрешить конкретные расширения.
 
 Эта функция поддерживает:
 
-- macOS
+- MacOS
 
 ## <a name="identity-protection"></a>Защита идентификации
 
@@ -235,7 +235,7 @@ Microsoft Intune включает параметры и функции, кото
 
 Эта функция поддерживает:
 
-- macOS
+- MacOS
 
 ## <a name="shared-multi-user-device"></a>Общие устройства для множества пользователей
 
@@ -269,7 +269,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
+- MacOS
 - Windows Phone 8.1
 - Windows 8.1
 - Windows 10 и более поздней версии
@@ -283,7 +283,7 @@ Microsoft Intune включает параметры и функции, кото
 - Администратор устройства с Android
 - Android для бизнеса
 - iOS/iPadOS
-- macOS
+- MacOS
 - Windows 8.1 (только импорт)
 - Windows 10 и более поздней версии
 
@@ -299,6 +299,6 @@ Microsoft Intune включает параметры и функции, кото
 
 [Управление профилями](device-profile-monitor.md) используется для проверки состояния устройств и назначенных профилей. Оно также помогает разрешать конфликты путем просмотра параметров, которые вызывают конфликт, и профилей, содержащих эти параметры. В [этой статье](device-profile-troubleshoot.md) описаны общие проблемы и решения, которые помогут администраторам работать с профилями. В ней описано, что происходит при удалении профиля, что вызывает отправку уведомлений на устройства и многое другое.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Выберите платформу и приступайте к работе.

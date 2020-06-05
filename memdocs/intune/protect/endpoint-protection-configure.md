@@ -6,7 +6,7 @@ author: brenduns
 ms.author: brenduns
 manager: dougeby
 ms.date: 03/24/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 mr.reviewer: karthib
-ms.openlocfilehash: 6b5d0f88222c8d48da4f91ff3cf8d4628ccb179d
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: cb51d5f73edbc28572ee01d49ba4bd5a62cf6393
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80551578"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83989630"
 ---
 # <a name="add-endpoint-protection-settings-in-intune"></a>Добавление параметров защиты конечных точек в Intune
 
@@ -38,9 +38,6 @@ ms.locfileid: "80551578"
 
 - [Параметры macOS](endpoint-protection-macos.md)
 - [Параметры Windows 10](endpoint-protection-windows-10.md)
-
-> [!NOTE]
-> В течение нескольких недель пользовательский интерфейс Intune получит обновление и сможет работать в полноэкранном режиме. В текущей версии процесс создания или изменении параметров может несколько отличаться от описанного в этой статье.
 
 ## <a name="create-a-device-profile-containing-endpoint-protection-settings"></a>Создание профиля устройства с параметрами защиты конечных точек
 
@@ -60,8 +57,9 @@ ms.locfileid: "80551578"
 4. Щелкните **Создать**.
 5. В разделе **Основные** укажите следующие свойства.
 
-    - **Имя** — Введите описательное имя для политики. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, хорошее имя политики — **macOS: профиль Endpoint Protection, который настраивает брандмауэр для всех устройств macOS**.
-    - **Описание**. Введите описание политики. Этот параметр является необязательным, но мы рекомендуем его использовать.
+   - **Имя** — Введите описательное имя для политики. Назначьте имена политикам, чтобы их можно было легко найти в последствии. Например, хорошее имя политики может включать тип профиля и платформу.
+
+   - **Описание**. Введите описание политики. Этот параметр является необязательным, но мы рекомендуем его использовать.
 
 6. Выберите **Далее**.
 

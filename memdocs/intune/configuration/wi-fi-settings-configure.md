@@ -5,8 +5,8 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/19/2020
-ms.topic: conceptual
+ms.date: 05/19/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: d1ff20db13a87faea41d262da5742a428ec4d28f
-ms.sourcegitcommit: b7e5b053dfa260e7383a9744558d50245f2bccdc
+ms.openlocfilehash: ca2a5ddd3d2b4c0aa93c7c955d0d688944ee8f95
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82587288"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83985501"
 ---
 # <a name="add-and-use-wi-fi-settings-on-your-devices-in-microsoft-intune"></a>Добавление и использование параметров Wi-Fi для устройств в Microsoft Intune
 
@@ -39,12 +39,12 @@ Wi-Fi — это технология беспроводной связи, ко
 
 Профили Wi-Fi поддерживают следующие платформы устройств:
 
-- Android 4 и более поздней версии
-- Android для бизнеса и Android для киосков
-- iOS 8.0 и более поздние версии
-- iPadOS 13.0 и более поздние версии.
-- macOS X 10.11 и более поздние версии;
-- Windows 10 и более поздних версий, Windows 10 Mobile, Windows Holographic for Business
+- Android 5 и более поздние версии;
+- Android для бизнеса и Android для киосков;
+- iOS 11.0 и более поздние версии;
+- iPadOS 13.0 и более поздние версии;
+- macOS X 10.12 и более поздние версии;
+- Windows 10 и более поздних версий, Windows 10 Mobile, Windows Holographic for Business.
 
 > [!NOTE]
 > Для устройств под управлением Windows 8.1 вы можете импортировать конфигурацию Wi-Fi, экспортированную с другого устройства.
@@ -69,7 +69,7 @@ Wi-Fi — это технология беспроводной связи, ко
       > [!TIP]
       >
       > - Для устройств **Android для бизнеса**, работающих в качестве выделенного устройства (киоск), выберите **Только владелец устройства** > **Wi-Fi**.
-      > - Для **Windows 8.1 и более поздних версий** можно выбрать действие **Импорт Wi-Fi**. Этот вариант позволяет импортировать параметры Wi-Fi из XML-файла, который ранее был экспортирован с другого устройства.
+      > - Для **Windows 8.1 и более поздних версий** можно выбрать действие **Импорт Wi-Fi**. Этот вариант позволяет импортировать параметры Wi-Fi из XML-файла, который ранее был экспортирован с другого устройства.
 
 4. Щелкните **Создать**.
 5. В разделе **Основные** укажите следующие свойства.
@@ -84,8 +84,8 @@ Wi-Fi — это технология беспроводной связи, ко
     - [Android для бизнеса](wi-fi-settings-android-enterprise.md), включая выделенные устройства;
     - [iOS/iPadOS](wi-fi-settings-ios.md)
     - [macOS](wi-fi-settings-macos.md)
-    - [Windows 10 и более поздних версий](wi-fi-settings-windows.md).
-    - [Параметры Windows 8.1 и более поздних версий](wi-fi-settings-import-windows-8-1.md) (включая Windows Holographic for Business)
+    - [Windows 10 и более поздние версии](wi-fi-settings-windows.md)
+    - [Windows 8.1 и более поздние версии](wi-fi-settings-import-windows-8-1.md) (включая Windows Holographic for Business)
 
 8. Выберите **Далее**.
 9. В поле **Теги области** (необязательно) назначьте тег для фильтрации профиля по конкретным ИТ-группам, например `US-NC IT Team` или `JohnGlenn_ITDepartment`. Дополнительные сведения о тегах области см. в разделе [Использование RBAC и тегов области для распределенных ИТ-групп](../fundamentals/scope-tags.md).

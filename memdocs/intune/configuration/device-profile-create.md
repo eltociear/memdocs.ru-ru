@@ -5,8 +5,8 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 03/26/2020
-ms.topic: conceptual
+ms.date: 05/14/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: c2031ba23b49bda4890d2638272e3b808b4bf5a9
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 74e365e50d73bb14f20376c92b43061b12d00003
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80327439"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83988467"
 ---
 # <a name="create-a-device-profile-in-microsoft-intune"></a>Создайте профиль устройства в Microsoft Intune
 
@@ -85,10 +85,9 @@ ms.locfileid: "80327439"
 - [VPN](vpn-settings-configure.md)
 - [Wi-Fi](wi-fi-settings-configure.md)
 
-Например, если вы выберете **iOS/iPadOS** в качестве платформы, параметры профиля будут выглядеть следующим образом:
+Например, если вы выберете **iOS/iPadOS** в качестве платформы, параметры профиля будут выглядеть следующим образом.
 
-> [!div class="mx-imgBorder"]
-> ![Создание профиля iOS/iPadOS в Intune](./media/device-profile-create/create-device-profile.png)
+:::image type="content" source="./media/device-profile-create/create-device-profile.png" alt-text="Создайте профиль iOS/iPadOS в Microsoft Intune.":::
 
 ## <a name="scope-tags"></a>Теги области
 
@@ -129,10 +128,9 @@ ms.locfileid: "80327439"
 
 ### <a name="add-a-rule"></a>Добавление правила
 
-1. Выберите **Правила применимости**. Можно выбрать **правило**, **свойство** и **выпуск ОС**:
+1. Выберите **Правила применимости**. Можно выбрать **Правило** и **Свойство**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Добавление правила применимости в профиль конфигурации устройства в Microsoft Intune](./media/device-profile-create/applicability-rules.png)
+    :::image type="content" source="./media/device-profile-create/applicability-rules.png" alt-text="Добавление правила применимости в профиль конфигурации устройства Windows 10 в Microsoft Intune.":::
 
 2. В поле **Правило** выберите, следует ли включать или исключать пользователей или группы. Доступны следующие параметры:
 
@@ -174,12 +172,11 @@ Intune использует разные циклы обновления для 
 
 - Разделяйте политики пользователей и политики устройств.
 
-  Например, [административные шаблоны в Intune](administrative-templates-windows.md) имеют сотни параметров ADMX. В этом шаблоне показано, применяются ли параметры к пользователям или устройствам. При создании административных шаблонов назначьте параметры пользователей группе пользователей, а параметры устройств — группе устройств.
+  Например, [административные шаблоны в Intune](administrative-templates-windows.md) имеют тысячи параметров ADMX. В этом шаблоне показано, применяются ли параметры к пользователям или устройствам. При создании административных шаблонов назначьте параметры пользователей группе пользователей, а параметры устройств — группе устройств.
 
   На следующем рисунке показан пример параметра, который может применяться к пользователям и (или) устройствам:
 
-  > [!div class="mx-imgBorder"]
-  > ![Административный шаблон Intune, который применяется к пользователям и устройствам](./media/device-profile-create/setting-applies-to-user-and-device.png)
+  :::image type="content" source="./media/device-profile-create/setting-applies-to-user-and-device.png" alt-text="Административный шаблон Intune, который применяется к пользователям и устройствам.":::
 
 - Каждый раз при создании ограничительной политики вам потребуется донести ее смысл до пользователей. Например, если вы изменяете требование к секретному коду с 4 символов на 6, сообщите пользователям об этом до назначения политики.
 

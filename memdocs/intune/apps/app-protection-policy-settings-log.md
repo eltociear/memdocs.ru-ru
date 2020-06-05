@@ -18,21 +18,21 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8e44dbb8e29da829e3455121700e8901a3b3fc98
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 63000a7285b2d1d6505a739f186dc9168e7f3fca
+ms.sourcegitcommit: a1da477542fb0ff360685d6eb58ef43e37ac3950
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81007629"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83853593"
 ---
 # <a name="review-client-app-protection-logs"></a>Просмотр журналов защиты клиентских приложений
 
 Дополнительные сведения о параметрах, которые можно просмотреть в журналах защиты приложений. Доступ к журналам можно получить, включив режим диагностики Intune в мобильном клиенте. 
 
 Процесс включения и сбора журналов зависит от платформы.
-- **Устройства iOS/iPadOS**. Для получения журналов используйте Microsoft Edge для iOS или iPadOS. Дополнительные сведения см. в разделе [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs). 
+- **Устройства iOS/iPadOS**. Для получения журналов используйте Microsoft Edge для iOS или iPadOS. Дополнительные сведения см. в разделе [Использование Edge для iOS и Android для доступа к журналам управляемых приложений](manage-microsoft-edge.md#use-edge-for-ios-and-android-to-access-managed-app-logs).
 - На **устройствах с ОС Windows 10** используйте *MDMDiag* и журналы событий. Ознакомьтесь со статьей [Diagnose MDM failures in Windows 10](https://docs.microsoft.com/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10) (Диагностика сбоев MDM в Windows 10) в материалах по управлению клиентом Windows и с блогом [Troubleshooting Windows 10 Intune Policy Failures](https://blogs.technet.microsoft.com/configmgrdogs/2018/08/09/troubleshooting-windows-10-intune-policy-failures/) (Устранение неполадок со сбоями политик Intune в Windows 10).
-- **Устройства Android**. Для сбора журналов используйте Microsoft Edge для Android. Дополнительные сведения см. в разделе [Управление веб-доступом с помощью Microsoft Edge в Microsoft Intune](manage-microsoft-edge.md#use-microsoft-edge-to-access-managed-app-logs). 
+- **Устройства Android**. Для сбора журналов используйте Microsoft Edge для Android. Дополнительные сведения см. в разделе [Использование Edge для iOS и Android для доступа к журналам управляемых приложений](manage-microsoft-edge.md#use-edge-for-ios-and-android-to-access-managed-app-logs).
 
   > [!Note]
   > На полностью управляемых устройствах Android в некоторых случаях приложение Корпоративного портала Intune может быть видимо во всех приложениях. Это может произойти, если приложение, связанное с политикой защиты приложений, не установлено или не запущено. 

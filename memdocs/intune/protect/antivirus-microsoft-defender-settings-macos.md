@@ -5,7 +5,7 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 03/20/2020
+ms.date: 05/15/2020
 ms.topic: reference
 ms.service: microsoft-intune
 ms.subservice: protect
@@ -16,16 +16,18 @@ search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
 ms.reviewer: samyada
-ms.openlocfilehash: 9a0687b9e3938c93cfaebe0e064fd994077a92af
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 325460e4d487ade7337fc99b8a77fd3182d6cc17
+ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80086693"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83430107"
 ---
 # <a name="settings-for-microsoft-defender-atp-for-mac-in-microsoft-intune"></a>Параметры ATP в Microsoft Defender для Mac в Microsoft Intune
 
 Просмотрите параметры профиля *антивирусной защиты*, которые вы можете настроить для ATP в Microsoft Defender для Mac в Microsoft Intune. Дополнительные сведения об этих параметрах см. в статье [Расширенная защита от угроз в Microsoft Defender для Mac](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac) в документации по Windows.
+
+Сведения об использовании [политик конечных точек](../protect/endpoint-security-policy.md) в Intune
 
 **ATP в Защитнике Майкрософт**
 
@@ -55,8 +57,8 @@ ms.locfileid: "80086693"
   Настройте предоставление данных о диагностике и использовании корпорации Майкрософт.
 
   - **Не настроено** (*по умолчанию*) — используется системное значение по умолчанию.
-  - **Обязательно**
-  - **Необязательный**
+  - **Обязательное**
+  - **Необязательно**
 
 - **Folders excluded from scan** (Папки, исключаемые из проверки)  
   Выберите **Добавить**, а затем укажите папки, которые следует игнорировать во время проверки.

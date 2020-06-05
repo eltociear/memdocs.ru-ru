@@ -7,7 +7,7 @@ author: brenduns
 ms.author: brenduns
 manager: dougeby
 ms.date: 04/21/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: protect
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: de7b96b5ad54a207b92221f7685f6c7f50942c46
-ms.sourcegitcommit: 1442a4717ca362d38101785851cd45b2687b64e5
+ms.openlocfilehash: 99cad94d0d0f56aba94e8d00a091efea914f418e
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "82079881"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83990349"
 ---
 # <a name="set-up-intune-certificate-connector-for-digicert-pki-platform"></a>Настройка Intune Certificate Connector для платформы DigiCert PKI
 
@@ -32,7 +32,7 @@ ms.locfileid: "82079881"
 > [!TIP]
 > Компания DigiCert приобрела у Symantec бренд Website Security и связанные с ним решения PKI. Дополнительные сведения об этом изменении см. в [статье от технической поддержки Symantec](https://support.symantec.com/en_US/article.INFO4722.html).
 
-Если вы уже используете Intune Certificate Connector для выдачи сертификатов центра сертификации (ЦС) Майкрософт по технологиям PKCS и SCEP, то можете использовать этот соединитель для настройки и выдачи сертификатов PKCS из ЦС DigiCert. Когда вы завершите настройку конфигурации, необходимой для ЦС DigiCert, Intune Certificate Connector сможет выдавать следующие сертификаты:
+Если вы уже используете Intune Certificate Connector для выдачи сертификатов центра сертификации (ЦС) Майкрософт в соответствии со стандартом PKCS и по протоколу SCEP, то можете использовать этот соединитель для настройки и выдачи сертификатов PKCS из ЦС DigiCert. Когда вы завершите настройку конфигурации, необходимой для ЦС DigiCert, Intune Certificate Connector сможет выдавать следующие сертификаты:
 
 * сертификаты PKCS из ЦС Майкрософт;
 * сертификаты PKCS из ЦС DigiCert;

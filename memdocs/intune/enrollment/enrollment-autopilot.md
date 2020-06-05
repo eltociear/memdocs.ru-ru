@@ -6,8 +6,8 @@ keywords: ''
 author: ErikjeMS
 ms.author: erikje
 manager: dougeby
-ms.date: 07/23/2019
-ms.topic: conceptual
+ms.date: 05/15/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: enrollment
 ms.localizationpriority: high
@@ -18,12 +18,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: seodec18
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: b6512aa01a55a3a1ed949b634b97eb891e9459a9
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 361f0ff36b78daddd08954953744f3f95191d4f3
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "80327127"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83990612"
 ---
 # <a name="enroll-windows-devices-in-intune-by-using-the-windows-autopilot"></a>Регистрация устройств в Intune с помощью Windows Autopilot  
 Windows Autopilot упрощает регистрацию устройств в Intune. Создание и обслуживание настраиваемых образов операционных систем занимает много времени. Немало времени может также тратится на применение этих образов к новым устройствам для их подготовки к использования, прежде чем они будут предоставлены пользователям. Благодаря Microsoft Intune и программе Autopilot вы можете предоставлять новые устройства пользователям, не создавая, не обслуживая и не применяя настраиваемые образы ОС к устройствам. Использование Intune для устройств Autopilot позволяет вам управлять политиками, профилями, приложениями и другими компонентами на устройствах после их регистрации. Общие сведения о преимуществах, сценариях и предварительных требованиях см. в статье [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-10-autopilot).
@@ -34,6 +34,8 @@ Windows Autopilot упрощает регистрацию устройств в 
 - [White Glove](https://docs.microsoft.com/windows/deployment/windows-autopilot/white-glove) позволяет партнерам или ИТ-специалистам предварительно подготавливать ПК Windows 10, чтобы он был полностью настроен и готов к работе.
 - [Autopilot для существующих устройств](https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices) позволяет легко развернуть последнюю версию Windows 10 на существующих устройствах
 - [Пользовательский режим](https://docs.microsoft.com/windows/deployment/windows-autopilot/user-driven), предназначенный для обычных пользователей.
+
+В этой статье показано, как настроить Автопилот для компьютеров под управлением Windows. Дополнительные сведения об Автопилоте и Hololens см. в разделе [Автопилот Windows для HoloLens 2](https://docs.microsoft.com/hololens/hololens2-autopilot).
 
 ## <a name="prerequisites"></a>Предварительные условия
 
@@ -90,7 +92,7 @@ Windows Autopilot упрощает регистрацию устройств в 
 
 ## <a name="create-an-autopilot-deployment-profile"></a>Создание профиля развертывания Autopilot.
 Профили развертывания Autopilot служат для настройки устройств Autopilot. Для каждого клиента можно создать до 350 профилей.
-1. В [Центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Windows** > **Регистрация Windows** > **Профили развертывания** > **Создать профиль**.
+1. В [центре администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) выберите **Устройства** > **Windows** > **Регистрация Windows** > **Профили развертывания** > **Создать профиль** > **Компьютер с Windows** или **HoloLens**. В этой статье показано, как настроить Автопилот для компьютеров под управлением Windows. Дополнительные сведения об Автопилоте и Hololens см. в разделе [Автопилот Windows для HoloLens 2](https://docs.microsoft.com/hololens/hololens2-autopilot).
 2. На странице **Основы** введите **имя** и **описание** (необязательно).
 
     ![Снимок экрана со страницей "Основы"](./media/enrollment-autopilot/create-profile-basics.png)

@@ -5,7 +5,7 @@ keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 05/04/2020
+ms.date: 05/21/2020
 ms.topic: overview
 ms.service: microsoft-intune
 ms.subservice: ''
@@ -17,12 +17,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: get-started
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 1dee569d6f2ce4ed1a3bc278c9c9a886f9d23974
-ms.sourcegitcommit: 99a6e83219978433ec5a91d09beeaf69acbeb522
+ms.openlocfilehash: d9e3d03211907f31008b31d68c4ed5cd11ae1a6e
+ms.sourcegitcommit: fb77170957f50aa386ff825fb4183b4fd9e3e488
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "82782262"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83791728"
 ---
 # <a name="microsoft-endpoint-manager-overview"></a>Обзор Microsoft Endpoint Manager
 
@@ -50,7 +50,7 @@ Endpoint Manager сочетает в себе службы, которые вы,
 
   Дополнительные сведения см. в статье о [Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune).
 
-- **Configuration Manager**: Configuration Manager — это локальное решение для управления настольными компьютерами, серверами и ноутбуками, подключенными по сети или через Интернет. Вы можете включить его в облако для интеграции с Intune, Azure AD, ATP в Microsoft Defender и другими облачными службами. Используйте Configuration Manager для развертывания приложений, обновлений программного обеспечения и операционных систем. Вы можете отслеживать соответствие требованиям, выполнять запросы и работать с клиентами в режиме реального времени, а также выполнять другие действия.
+- **Configuration Manager**: Configuration Manager — это локальное решение для управления настольными компьютерами, серверами и ноутбуками, подключенными по сети или через Интернет. Вы можете включить его в облако для интеграции с Intune, Azure Active Directory (AD), ATP в Microsoft Defender и другими облачными службами. Используйте Configuration Manager для развертывания приложений, обновлений программного обеспечения и операционных систем. Вы можете отслеживать соответствие требованиям, выполнять запросы и работать с клиентами в режиме реального времени, а также выполнять другие действия.
 
   Продолжайте использовать Configuration Manager как делали это ранее, всегда в качестве составной части Endpoint Manager. Если вы готовы перенести некоторые задачи в облако, рассмотрите возможность [совместного управления](https://docs.microsoft.com/configmgr/comanage/).
 
@@ -74,7 +74,7 @@ Endpoint Manager сочетает в себе службы, которые вы,
 
   Дополнительные сведения см. в статьях [Обзор Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot) и [Регистрация устройств в Intune с помощью Windows Autopilot](/mem/intune/enrollment/enrollment-autopilot).
 
-- **Azure AD Premium**. В Endpoint Manager Azure AD используется для устройств, пользователей, групп, динамических групп, автоматической регистрации, многофакторной идентификации и условного доступа. Эти функции являются ключевыми для защиты устройств, приложений и данных.
+- **Azure Active Directory (AD)** . Azure AD используется диспетчером конечных точек для идентификации устройств, пользователей, групп и многофакторной проверки подлинности (MFA). Услуга **Azure AD Premium**, которую можно приобрести за отдельную плату, содержит [дополнительные функции](https://azure.microsoft.com/pricing/details/active-directory/) для защиты устройств, приложений и данных, включая динамические группы, автоматическую регистрацию и условный доступ.
 
   Дополнительные сведения см. в статьях [Добавление пользователей и предоставление административных разрешений для Intune](/mem/intune/fundamentals/users-add), [Настройка регистрации для устройств Windows](/mem/intune/enrollment/windows-enroll)и [Дополнительные сведения об условном доступе и Intune](/mem/intune/protect/conditional-access).
 

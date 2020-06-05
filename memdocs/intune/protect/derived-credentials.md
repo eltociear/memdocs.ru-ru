@@ -5,8 +5,8 @@ keywords: ''
 author: brenduns
 ms.author: brenduns
 manager: dougeby
-ms.date: 04/17/2020
-ms.topic: conceptual
+ms.date: 5/15/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.localizationpriority: high
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: e8d4b866ca2086ae11efa10f1967b08f12e55919
-ms.sourcegitcommit: d1c7548b4177d720065b822356f9a08d1e1657c2
+ms.openlocfilehash: d1b13d29f42778d73d4df4a86127b070db5dc601
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82881032"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83989800"
 ---
 # <a name="use-derived-credentials-in-microsoft-intune"></a>Использование производных учетных данных в Microsoft Intune
 
@@ -63,7 +63,7 @@ Intune поддерживает производные учетные данны
 
 Intune поддерживает один издатель производных учетных данных для каждого клиента. Вы можете настроить Intune для работы со следующими издателями:
 
-- **DISA Purebred** (только iOS): https:\//cyber.mil/pki-pke/purebred/
+- **DISA Purebred** (только iOS): https://public.cyber.mil/pki-pke/purebred/
 - **Entrust Datacard**: https://www.entrustdatacard.com/
 - **Intercede**: https://www.intercede.com/
 
@@ -112,6 +112,7 @@ Intune поддерживает один издатель производных
 Проверьте зависящий от платформы рабочий процесс пользователя для устройств, которые будут использоваться с производными учетными данными.
 
 - [iOS и iPadOS](https://docs.microsoft.com/intune-user-help/enroll-ios-device-disa-purebred);
+- [Полностью управляемые устройства Android Enterprise](https://docs.microsoft.com/mem/intune/user-help/enroll-android-device-disa-purebred)
 
 **Основные требования**:
 
@@ -226,7 +227,10 @@ Intune поддерживает один издатель производных
   
 1. Скачайте приложение DISA Purebred: https:\//cyber.mil/pki-pke/purebred/.
 
-2. Разверните приложение DISA Purebred в Intune. См. раздел [Добавление бизнес-приложения iOS в Microsoft Intune](../apps/lob-apps-ios.md).
+2. Разверните приложение DISA Purebred в Intune. 
+
+   - См. раздел [Добавление бизнес-приложения iOS в Microsoft Intune](../apps/lob-apps-ios.md).
+   - См. [Добавление бизнес-приложения Android в Microsoft Intune](../apps/lob-apps-android.md)
 
 3. [Создайте VPN для приложения](../configuration/vpn-settings-configure.md) DISA Purebred.
 

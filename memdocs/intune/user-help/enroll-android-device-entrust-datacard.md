@@ -6,7 +6,7 @@ author: lenewsad
 ms.author: lanewsad
 manager: dougeby
 ms.date: 04/17/2020
-ms.topic: article
+ms.topic: end-user-help
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
@@ -18,12 +18,12 @@ ms.reviewer: jeyang
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 5bff61c63e9845dc6d90333fb99534235e388db6
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: 16d14a802c82918656741c137da672e501ddd41a
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81616103"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83879380"
 ---
 # <a name="set-up-android-device-with-company-portal-and-entrust-datacard"></a>Настройка устройства Android с помощью корпоративного портала и Entrust Datacard
 
@@ -134,7 +134,7 @@ ms.locfileid: "81616103"
 ### <a name="token-enrollment"></a>Регистрация с помощью токена  
 В этом разделе вам нужно ввести токен, предоставляемый вашей организацией. Когда все будет готово, вы будете перенаправлены к действиям для регистрации устройства.  
 
-1. В окне входа в Google в поле **Электронная почта или телефон** введите **afw#setup**. Нажмите кнопку **Далее**. 
+1. В окне входа в Google в поле **Электронная почта или телефон** введите **afw#setup**. Затем нажмите кнопку **Далее**. 
 
    ![Изображение экрана входа в Google с текстом "afw#setup" в поле ввода.](./media/token-intune-app-01.png)   
 
@@ -161,7 +161,7 @@ ms.locfileid: "81616103"
 
    1. Перейдите по ссылке на инструкции по настройке, предоставленные вашей организацией. Если дополнительных инструкций не будет, вам нужно будет выполнить действия, приведенные в этой статье.
 
-   2. Выберите **Начать**. 
+   2. Нажмите **НАЧАТЬ**. 
 
    > [!div class="mx-imgBorder"]
    > ![Пример снимка экрана: экран "Настройка доступа по смарт-карте для мобильного устройства" на корпоративном портале.](./media/smart-card-open-entrust-android.png)
@@ -185,7 +185,7 @@ ms.locfileid: "81616103"
 
     3. Перейдите к следующему экрану. Вы увидите QR-код с числовым паролем.
 
-10. Вернитесь на устройство Android. В приложении Intune на экране **Получение QR-кода** нажмите кнопку **Далее**.
+10. Вернитесь на устройство Android. В приложении Intune на экране **Получение QR-кода** нажмите кнопку **ДАЛЕЕ**.
 
     > [!div class="mx-imgBorder"]
     > ![Пример снимка экрана: экран получения QR-кода на корпоративном портале.](./media/get-qr-code-entrust-android.png)

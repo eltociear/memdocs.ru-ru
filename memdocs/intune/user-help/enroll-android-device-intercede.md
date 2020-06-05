@@ -6,7 +6,7 @@ author: lenewsad
 ms.author: lanewsad
 manager: dougeby
 ms.date: 04/17/2020
-ms.topic: article
+ms.topic: end-user-help
 ms.prod: ''
 ms.service: microsoft-intune
 ms.technology: ''
@@ -18,12 +18,12 @@ ms.reviewer: jeyang
 ms.suite: ems
 ms.custom: intune-enduser
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8afc499f85e91658b411a25988ac858ca59030cc
-ms.sourcegitcommit: 7f17d6eb9dd41b031a6af4148863d2ffc4f49551
+ms.openlocfilehash: e82d8f27b7ffbce663ee64030a6d933bf1684dc1
+ms.sourcegitcommit: a77ba49424803fddcaf23326f1befbc004e48ac9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81616051"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83880606"
 ---
 # <a name="set-up-android-device-with-company-portal-and-intercede"></a>Настройка устройства Android с помощью корпоративного портала и Intercede
 
@@ -135,7 +135,7 @@ ms.locfileid: "81616051"
 ### <a name="token-enrollment"></a>Регистрация с помощью токена  
 В этом разделе вам нужно ввести токен, предоставляемый вашей организацией. Когда все будет готово, вы будете перенаправлены к действиям для регистрации устройства.  
 
-1. В окне входа в Google в поле **Электронная почта или телефон** введите **afw#setup**. Нажмите кнопку **Далее**. 
+1. В окне входа в Google в поле **Электронная почта или телефон** введите **afw#setup**. Затем нажмите кнопку **Далее**. 
 
    ![Изображение экрана входа в Google с текстом "afw#setup" в поле ввода.](./media/token-intune-app-01.png)   
 
@@ -162,7 +162,7 @@ ms.locfileid: "81616051"
 
    1. Перейдите по ссылке на инструкции по настройке, предоставленные вашей организацией. Если дополнительных инструкций не будет, вам нужно будет выполнить действия, приведенные в этой статье.
 
-   2. Выберите **Начать**.  
+   2. Нажмите **НАЧАТЬ**.  
 
    > [!div class="mx-imgBorder"]
    > ![Пример снимка экрана: экран "Настройка доступа по смарт-карте для мобильного устройства" на корпоративном портале.](./media/smart-card-open-entrust-android.png)
@@ -173,7 +173,7 @@ ms.locfileid: "81616051"
 
 5. Будет предложено выбрать тип используемого профиля. Выберите активацию с мобильными учетными данными. Появится QR-код.  
 
-6. Вернитесь на устройство Android. На экране **Получить QR-код** корпоративного портала нажмите **Далее**.
+6. Вернитесь на устройство Android. На экране **Получение QR-кода** корпоративного портала нажмите кнопку **ДАЛЕЕ**.
 
     > [!div class="mx-imgBorder"]
     > ![Пример снимка экрана: экран получения QR-кода на корпоративном портале.](./media/get-qr-code-entrust-android.png)

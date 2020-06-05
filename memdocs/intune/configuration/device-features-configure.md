@@ -1,12 +1,12 @@
 ---
 title: Создание профилей устройств iOS/iPadOS или macOS в Microsoft Intune — Azure | Документация Майкрософт
-description: Добавьте или создайте профиль устройства с iOS, iPadOS или macOS и настройте параметры для AirPrint, макета начального экрана, уведомлений приложения, общего устройства, единого входа и фильтрации веб-содержимого в Microsoft Intune.
+description: Добавьте или создайте профиль устройства iOS, iPadOS или macOS. Настройте параметры для AirPrint, макета начального экрана, уведомлений приложений, общего устройства, единого входа, а также фильтра веб-содержимого в Microsoft Intune.
 keywords: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 04/09/2020
-ms.topic: conceptual
+ms.date: 05/06/2020
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: configuration
 ms.localizationpriority: high
@@ -16,12 +16,12 @@ ms.suite: ems
 search.appverid: MET150
 ms.custom: intune-azure
 ms.collection: M365-identity-device-management
-ms.openlocfilehash: 8e72fc48608ebf32f3e32d4a94ab7203ee418d8f
-ms.sourcegitcommit: 0f02742301e42daaa30e1bde8694653e1b9e5d2a
+ms.openlocfilehash: 349fdc7b0f13f0999b8c9993bcaba1d458ebac59
+ms.sourcegitcommit: 302556d3b03f1a4eb9a5a9ce6138b8119d901575
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "82943813"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "83989191"
 ---
 # <a name="add-ios-ipados-or-macos-device-feature-settings-in-intune"></a>Добавление параметров для функций устройств iOS, iPadOS или macOS в Intune
 
@@ -54,7 +54,7 @@ AirPrint — это функция Apple, позволяющая устройс
 
 ## <a name="app-notifications"></a>Уведомления приложения
 
-Выберите, как приложения на устройствах iOS и iPadOS должны получать уведомления. Например, в Intune отправляйте уведомления приложений, чтобы они отображались в центре уведомлений, на экране блокировки или воспроизводили звук.
+Выберите, как приложения на устройствах iOS и iPadOS должны получать уведомления. Например, отправляйте уведомления приложений, чтобы они отображались в центре уведомлений, на экране блокировки или воспроизводили звук.
 
 Список параметров, которые можно настроить в Intune, см. в [этом разделе об уведомлениях приложений для iOS/iPadOS](ios-device-features-settings.md#app-notifications).
 
