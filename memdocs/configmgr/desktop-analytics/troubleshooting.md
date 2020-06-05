@@ -11,12 +11,12 @@ author: aczechowski
 ms.author: aaroncz
 manager: dougeby
 ms.reviewer: acabello
-ms.openlocfilehash: 69694fa39375daf436abf59fcd48edda41a9fc62
-ms.sourcegitcommit: fddbb6c20cf7e19944944d4f81788adf249c963f
+ms.openlocfilehash: cfd329b7edb695c1e7316323555bfc18a2fd479e
+ms.sourcegitcommit: 92e6d2899b1cf986c29c532d0cd0555cad32bc0c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83268255"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84428581"
 ---
 # <a name="troubleshoot-desktop-analytics"></a>Устранение проблем с Аналитикой компьютера
 
@@ -68,7 +68,7 @@ ms.locfileid: "83268255"
 
 - **MALogAnalyticsReader**: Отслеживание рабочей области Azure Log Analytics для успешного ежедневного копирования моментального снимка. Дополнительные сведения см. в разделе о [роли приложения MALogAnalyticsReader](#bkmk_MALogAnalyticsReader).  
 
-- **Администратор клиента Office 365**: позволяет Configuration Manager получать сведения о плане развертывания и состоянии готовности устройства из Аналитики компьютеров.
+- **Аналитика компьютеров**. позволяет Configuration Manager получать сведения о плане развертывания и состоянии готовности устройства из Аналитики компьютеров.
 
 Если вам необходимо подготовить эти приложения к работе после установки, перейдите в область **Подключенные службы**. Выберите **Настройка доступа пользователей и приложений** и подготовьте приложения.  
 

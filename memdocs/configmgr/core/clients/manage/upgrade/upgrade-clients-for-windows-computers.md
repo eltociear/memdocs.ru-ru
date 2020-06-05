@@ -2,7 +2,7 @@
 title: Обновление клиентов в Windows
 titleSuffix: Configuration Manager
 description: Сведения об обновлении клиентов на компьютерах Windows в Configuration Manager.
-ms.date: 08/27/2019
+ms.date: 06/03/2020
 ms.prod: configuration-manager
 ms.technology: configmgr-client
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.assetid: 6143fd47-48ec-4bca-b53b-5b9b9f067bc3
 author: aczechowski
 ms.author: aaroncz
 manager: dougeby
-ms.openlocfilehash: b3849f360b2f22f2f48bbe49159b610399158b29
-ms.sourcegitcommit: 48005a260bcb2b97d7fe75809c4bf1552318f50a
+ms.openlocfilehash: 8b0a69b07a3be633434203f93b0724cec4ea88a3
+ms.sourcegitcommit: d498e5eceed299f009337228523d0d4be76a14c2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83427764"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84347153"
 ---
 # <a name="how-to-upgrade-clients-for-windows-computers-in-configuration-manager"></a>Обновление клиентов для компьютеров Windows в Configuration Manager
 
@@ -59,9 +59,6 @@ ms.locfileid: "83427764"
 > Чтобы узнать о различных версиях клиентов Configuration Manager в иерархии, можно запустить отчет **Число клиентов Configuration Manager по версии клиента** в папке отчетов **Сайт — сведения о клиентах**.  
 
 Configuration Manager создает пакет обновления по умолчанию. Он автоматически отправляет пакет во все точки распространения в иерархии. Если вы вносите изменения в пакет клиента на сайте центра администрирования, Configuration Manager автоматически обновляет пакет и повторно распространяет его. Пример изменения — когда вы добавляете клиентский языковой пакет. Если автоматическое обновление клиента включено, каждый клиент автоматически установит новый языковой пакет.
-
-> [!NOTE]  
-> Configuration Manager не выполняет автоматическую отправку пакета обновления клиента в облачные точки распространения Configuration Manager.  
 
 Включите автоматическое обновление клиентов в рамках иерархии. Эта конфигурация позволяет поддерживать актуальное состояние клиентов с меньшими усилиями.  
 
